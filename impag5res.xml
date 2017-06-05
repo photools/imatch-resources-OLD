@@ -1,0 +1,3006 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright © 2013-2015 Mario M. Westphal and photools.com. -->
+<!-- No part of this file may be changed without written permission. -->
+<!-- Contact support@photools.com for more information. -->
+
+<!-- This is the Pack & Go resource file -->
+
+<ressource_file xmlns:ptrm="http://schemas.photools.com/ptrm.xsd" vendor="photools.com" version="1.0">
+	
+	<!-- 
+        All languages contained in this file should be listed here
+	    The application may use this list to allow the user to switch languages
+        The sequence of in which the languages appear here is the same they appear in the menu.
+        This is mapped to the ID_RESMGR_LANG_1...ID_RESMGR_LANG_n commands below.
+        Make sure you have the matching flag icon in PTR_BM_APP_FLAGS if you add a language
+
+		@Mario; Use alphabetic sequence and make sure the bitmaps in PTR_BM_APP_FLAGS are in the same order
+	-->
+	<supported_languages>
+		
+        <language>
+			<!-- The code is the tag we use for lang= attributes -->
+			<code>de</code>
+			<!-- This is the clear text name, as displayed to the user -->
+			<name>Deutsch</name>
+            <!-- One or more translator nodes. We use this in the About dialog and elsewhere -->
+            <translator>Mario M. Westphal</translator>
+			<translator>Georg Gerlich</translator>
+		</language>
+
+        <language>
+            <code>en-au</code>
+            <name>English (Australia)</name>
+            <translator>TBD</translator>
+        </language>
+
+        <language>
+            <code>en-uk</code>
+            <name>English (United Kingdom)</name>
+            <translator>Robert Young</translator>
+        </language>
+		
+		<language default="true">
+			<!-- The code is the tag we use for lang= attributes -->
+			<code>en</code>
+			<!-- This is the clear text name, as displayed to the user -->
+			<name>English (United States)</name>
+            <!-- One or more translator nodes. We use this in the About dialog and elsewhere -->
+            <translator>Mario M. Westphal</translator>
+		</language>
+
+		<language>
+            <code>es</code>
+            <name>Español</name>
+            <translator>Iñigo Figuero</translator>
+        </language>
+		
+        <language>
+            <code>hr</code>
+            <name>hrvatski</name>
+            <translator>Predrag Stanar</translator>
+        </language>
+
+        <language>
+            <code>it</code>
+            <name>italiano</name>
+            <translator>Marco Goglio</translator>
+        </language>
+
+        <language>
+            <code>fr</code>
+            <name>langue française</name>
+            <translator>Bruno Gilli</translator>
+            <translator>Bernard Grychowski</translator>
+        </language>
+
+        <language>
+            <code>nl</code>
+            <name>Nederlands</name>
+            <translator>Ger Derksen</translator>
+			<translator>Mees Dekker</translator>
+        </language>
+
+        <language>
+            <code>no</code>
+            <name>Norsk</name>
+            <translator>Vidar Øvre</translator>
+	    	<translator>Vemund Halvorsen</translator>
+        </language>
+
+        <language>
+            <code>pt</code>
+            <name>Português</name>
+            <translator>Jaime Ramos e José Rosa</translator>
+        </language>
+		
+        <language>
+            <code>sk</code>
+            <name>slovenský jazyk</name>
+            <translator>TBD</translator>
+        </language>
+
+		<language>
+            <code>fi</code>
+            <name>suomi</name>
+            <translator>Jari Väätäinen</translator>
+        </language>
+	
+		<language>
+            <code>se</code>
+            <name>Svenska</name>
+            <translator>Erik Bryntse</translator>
+        </language>
+    </supported_languages>	
+	
+	<!-- Constants -->
+	<!-- @Translators: The constants defined here can be used in the entire XML document that follows in most strings, resid, name etc. attributes and values -->
+	<!-- To reference to a constant, use the syntax: [[<const_name>]], where <const_name> is the name of the constant -->
+	<!-- Example: [[TOTAL_MAX]] -->
+	<const_table>
+		<!-- Constant names for standard icons used in <message_table> (constants from winuser.h) -->
+		<!-- @TRANSLATORS: Do not change anything here -->
+		<const name="IDI_INFORMATION">32516</const>
+		<const name="IDI_HAND">32513</const>
+		<const name="IDI_QUESTION">32514</const>
+		<const name="IDI_EXCLAMATION">32515</const>
+		<const name="IDI_ASTERISK">32516</const>
+		<const name="IDI_WINLOGO">32517</const>
+		<const name="IDI_SHIELD">32518</const>  <!-- *** Use TD_SHIELD_ICON instead -->
+		<const name="IDI_WARNING">32515</const> <!-- *** Use TD_XXX_ICON instead -->
+		<const name="IDI_ERROR">32513</const> <!-- *** Use TD_XXX_ICON instead -->
+
+		<!-- Constants for icons used for task dialog boxes (message_table) (constants from CommCtrl.h) -->
+		<const name="TD_WARNING_ICON">-1</const>
+		<const name="TD_ERROR_ICON">-2</const>
+		<const name="TD_INFORMATION_ICON">-3</const>
+		<const name="TD_SHIELD_ICON">-4</const>
+
+		<!-- Ids to be used for custom buttons in messages <button> node -->
+		<!-- @Mario: Must match ETaskDialogCustomButtons enum -->
+		<const name="TASKDIALOG_BTN_SAVE">1000</const>
+		<const name="TASKDIALOG_BTN_DONTSAVE">1001</const>
+		<const name="TASKDIALOG_BTN_DELETE">1002</const>
+		<const name="TASKDIALOG_BTN_DONTDELETE">1003</const>
+		<const name="TASKDIALOG_BTN_YESALL">1004</const>
+		<const name="TASKDIALOG_BTN_NOALL">1005</const>
+
+	</const_table>
+	
+	<!-- Icons used throughout the application -->
+	<icon_table>
+	</icon_table>
+
+	<!-- Bitmap Table -->
+
+	<bitmap_table>
+		<base_id>1</base_id>
+		<bitmap resid="PTR_BM_TABICONS_16x16" itemwidth="16">
+			<bm xml:lang="en">bitmaps\impag_tab_icons_16x16.png</bm>
+		</bitmap>
+		<bitmap resid="PTR_BM_TABICONS_32x32" itemwidth="32">
+			<bm xml:lang="en">bitmaps\impag_tab_icons_32x32.png</bm>
+		</bitmap>
+	</bitmap_table>
+
+
+	<!-- The commands -->
+
+	<command_table>
+		<base_id>45000</base_id>
+    </command_table>
+	
+	<!-- 
+		@Translators:
+		You can use [[mMENU_RESID]] to include the translated name of a menu in a <string_table> or <message_table> entry.
+		For example, the string "Open the '[[mIDM_DATABASE_MENU]]' menu" will translate to "Open the 'Database' menu ".
+	-->
+	
+	<menu_table>
+		<base_id>40000</base_id>
+    </menu_table>
+
+	<message_table>
+		<base_id>200000</base_id>
+	</message_table>
+
+	<!-- 
+		Object properties are properties managed by the application for certain aspects. The application defines all attributes
+		of such properties, but retrieves the name and the description from the resource file in order to allow easy translation.
+		
+		There is only one object_property_table. It contains one to many <property_group> nodes, which allow the developer to
+		group object properties used in the same context together. The resource manager packs all properties into the same internal
+		structure, ignoring the groups
+	-->
+	<object_properties_table>
+		<base_id>1</base_id>
+	</object_properties_table>
+
+	<!-- Context Table 
+			The context table declares context ids which can be used by the application to specify the current context.
+			The resource manager emits these values as constants into the .h file, and also as help context ids into the help .hm file
+	-->
+	<context_table>
+		<!-- Use an id higher than the HID_BASE_ (393216) constants used by MFC afxpriv.h-->
+		<!-- **IMPORTANT** DO not change these numbers once they've been assigned. The framework uses these ids to persist -->
+		<!-- Window layouts and stuff. If you must change something here, all layouts need to be invalidated -->
+		<base_id>0x00100000</base_id>
+		<rid resid="CONTEXTID_NONE">0x0F100000</rid>
+	</context_table>
+
+
+	<dialog_table>
+
+		<base_id>100</base_id>
+
+		<!-- The About dialog -->
+		
+		<dialog resid="PTRMDLG_APP_ABOUT" desc="The About dialog">
+			<caption xml:lang="en">About IMatch Pack &amp; Go</caption>
+			<caption xml:lang="de">Über IMatch Pack &amp; Go</caption>
+			<caption xml:lang="fi">Tietoa IMatch Pack &amp; Go:sta</caption>
+			<caption xml:lang="hr">O IMatch Pripremi i pođi</caption>
+			<caption xml:lang="nl">Over IMatch Pack &amp; Go</caption>
+			<caption xml:lang="it">Circa IMatch Pack &amp; Go</caption>
+			<caption xml:lang="pt">Acerca do pacote do IMatch &amp; Ir</caption>
+			<caption xml:lang="no">Om IMatch Pack &amp; Go</caption>
+		</dialog>
+
+		<!-- The Mutex dialog -->
+
+		<dialog resid="PTRMDLG_APP_MUTEX" desc="The Mutex dialog">
+			<caption xml:lang="en">IMatch Pack &amp; Go</caption>
+			<caption xml:lang="de">IMatch Pack &amp; Go</caption>
+			<caption xml:lang="fi">IMatch Pack &amp; Go</caption>
+			<caption xml:lang="it">IMatch Pack &amp; Go</caption>
+			<caption xml:lang="hr">IMatch Pripremi i pođi</caption>
+			<caption xml:lang="nl">IMatch Pack &amp; Go</caption>
+			<caption xml:lang="pt">Pacote do IMatch &amp; Ir</caption>
+			<caption xml:lang="no">IMatch Pack &amp; Go</caption>
+			<ctrl text="#l_msg">
+				<c xml:lang="en" helptext="">
+					<![CDATA[
+					<Border Background='#ffffff' Padding='10,10,10,10'>
+					<StackPanel Orientation='Vertical'>
+						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch is running and needs to be closed.</TextBlock>
+						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Go</Bold> cannot backup settings and other important files while IMatch is still running.<LineBreak/><LineBreak/>Please close IMatch now.<LineBreak/>This dialog <Bold>closes automatically</Bold> when IMatch has been closed and Pack &amp; Go will continue.</TextBlock>
+					</StackPanel>
+					</Border>
+					]]>
+				</c>
+				<c xml:lang="it" helptext="">
+					<![CDATA[
+					<Border Background='#ffffff' Padding='10,10,10,10'>
+					<StackPanel Orientation='Vertical'>
+						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch deve essere chiuso.</TextBlock>
+						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Go</Bold> non può eseguire il backup delle impostazioni e altri file importanti mentre IMatch è ancora in esecuzione.<LineBreak/><LineBreak/>Si prega di chiudere ora IMatch. Questa finestra di dialogo <Bold>si chiude automaticamente</Bold> alla chiusura di IMatch.</TextBlock>
+					</StackPanel>
+					</Border>
+					]]>
+				</c>
+				<c xml:lang="pt" helptext="">
+					<![CDATA[
+					<Border Background='#ffffff' Padding='10,10,10,10'>
+					<StackPanel Orientation='Vertical'>
+						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>Por favor encerre o IMatch agora.</TextBlock>
+						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Ir</Bold> não pode fazer cópia de segurança das definições e outros ficheiros importantes enquanto o IMatch está em execução.<LineBreak/><LineBreak/>Por favor encerre o IMatch agora. <LineBreak/>Esta janela de diálogo <Bold>fecha-se automátivamente</Bold> quando o IMatch encerrar.</TextBlock>
+					</StackPanel>
+					</Border>
+					]]>
+				</c>
+				<c xml:lang="de" helptext="">
+					<![CDATA[
+					<Border Background='#ffffff' Padding='10,10,10,10'>
+					<StackPanel Orientation='Vertical'>
+						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch wird ausgeführt und muss beendet werden.</TextBlock>
+						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Go</Bold> kann die Einstellungsdatenbank und andere wichtige Dateien nicht sichern, solange IMatch noch ausgeführt wird.<LineBreak/><LineBreak/>Bitte beenden Sie IMatch.<LineBreak/>Dieser Dialog <Bold>schließt automatisch</Bold> sobald IMatch beendet wurde und Pack &amp; Go wird ausgeführt.</TextBlock>
+					</StackPanel>
+					</Border>
+					]]>
+				</c>
+				<c xml:lang="fi" helptext="">
+					<![CDATA[
+					<Border Background='#ffffff' Padding='10,10,10,10'>
+					<StackPanel Orientation='Vertical'>
+						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch on käynnissä ja täytyy sulkea.</TextBlock>
+						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Go</Bold> ei voi pakata asetuksia ja muita tärkeitä tiedostoja silloin kun IMatch on käynnissä.<LineBreak/><LineBreak/>Sulje IMatch nyt. Tämä ilmoitus <Bold>sulkeutuu automaattisesti</Bold> kun IMatch on suljettu.</TextBlock>
+					</StackPanel>
+					</Border>
+					]]>
+				</c>
+				<c xml:lang="hr" helptext="">
+					<![CDATA[
+					<Border Background='#ffffff' Padding='10,10,10,10'>
+					<StackPanel Orientation='Vertical'>
+						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch je aktivan i trebaš ga zatvoriti.</TextBlock>
+						<TextBlock TextWrapping='Wrap' ><Bold>Pripremi i pođi</Bold> ne može spremiti postavke i ostale datoteke dok je IMatch otvoren.<LineBreak/><LineBreak/>Zatvori IMatch. Ovaj dijaloški okvir <Bold>će se automatski zatvoritu</Bold> kada zatvoriš IMatch.</TextBlock>
+					</StackPanel>
+					</Border>
+					]]>
+				</c>
+				<c xml:lang="nl" helptext="">
+					<![CDATA[
+					<Border Background='#ffffff' Padding='10,10,10,10'>
+					<StackPanel Orientation='Vertical'>
+						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch moet afgesloten worden.</TextBlock>
+						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Go</Bold> kan van de instellingen en andere belangrijke bestanden geen backup maken zolang IMatch in gebruik is.<LineBreak/><LineBreak/>Sluit IMatch af aub. Dit bericht wordt <Bold>automatisch gesloten</Bold> als IMatch is afgesloten.</TextBlock>
+					</StackPanel>
+					</Border>
+					]]>
+				</c>
+				<c xml:lang="no" helptext="">
+					<![CDATA[
+					<Border Background='#ffffff' Padding='10,10,10,10'>
+					<StackPanel Orientation='Vertical'>
+						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch kjører og må avsluttes.</TextBlock>
+						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Go</Bold> kan ikke sikkerhetskopiere innstillinger og andre viktige filer mens IMatch fremdeles kjører.<LineBreak/><LineBreak/>Vennligst lukk IMatch nå.<LineBreak/>Denne dialogen <Bold>lukkes automatisk</Bold> når IMatch har blitt avsluttet og Pack &amp; Go vil fortsette.</TextBlock>
+					</StackPanel>
+					</Border>
+					]]>
+				</c>
+			</ctrl>
+		</dialog>
+
+		<!-- The main dialog -->
+		
+		<dialog resid="PTRMDLG_APP_MAIN" desc="The main dialog">
+			<caption xml:lang="en">IMatch Pack &amp; Go</caption>
+			<caption xml:lang="de">IMatch Pack &amp; Go</caption>
+			<caption xml:lang="fi">IMatch Pack &amp; Go</caption>
+			<caption xml:lang="hr">IMatch Pripremi i pođi</caption>
+			<caption xml:lang="it">IMatch Pack &amp; Go</caption>
+			<caption xml:lang="nl">IMatch Pack &amp; Go</caption>
+			<caption xml:lang="pt">Pacote do IMatch &amp; Ir</caption>
+			<caption xml:lang="no">IMatch Pack &amp; Go</caption>
+			<ctrl text="#l_btn_start">
+				<c xml:lang="en" helptext="">&amp;Start</c>
+				<c xml:lang="de" helptext="">&amp;Start</c>
+				<c xml:lang="fi" helptext="">&amp;Aloita</c>
+				<c xml:lang="hr" helptext="">&amp;Kreni</c>
+				<c xml:lang="it" helptext="">&amp;Inizia</c>
+				<c xml:lang="nl" helptext="">&amp;Start</c>
+				<c xml:lang="pt" helptext="">&amp;Inicia</c>
+				<c xml:lang="no" helptext="">&amp;Start</c>
+			</ctrl>
+			<ctrl text="#l_btn_stop">
+				<c xml:lang="en" helptext="">A&amp;bort</c>
+				<c xml:lang="de" helptext="">A&amp;bbrechen</c>
+				<c xml:lang="fi" helptext="">&amp;Peruuta</c>
+				<c xml:lang="hr" helptext="">&amp;Prekini</c>
+				<c xml:lang="it" helptext="">&amp;Ferma</c>
+				<c xml:lang="nl" helptext="">A&amp;fbreken</c>
+				<c xml:lang="pt" helptext="">A&amp;borta</c>
+				<c xml:lang="no" helptext="">A&amp;vbryt</c>
+			</ctrl>
+			<ctrl text="#l_btn_close">
+				<c xml:lang="en" helptext="">C&amp;lose</c>
+				<c xml:lang="de" helptext="">Sch&amp;ließen</c>
+				<c xml:lang="fi" helptext="">&amp;Sulje</c>
+				<c xml:lang="hr" helptext="">&amp;Zatvori</c>
+				<c xml:lang="it" helptext="">C&amp;hiudi</c>
+				<c xml:lang="nl" helptext="">S&amp;luiten</c>
+				<c xml:lang="pt" helptext="">F&amp;echa</c>
+				<c xml:lang="no" helptext="">&amp;Lukk</c>
+			</ctrl>
+			<ctrl text="#l_btn_help">
+				<c xml:lang="en" helptext="">&amp;Help</c>
+				<c xml:lang="de" helptext="">&amp;Hilfe</c>
+				<c xml:lang="fi" helptext="">&amp;Ohje</c>
+				<c xml:lang="hr" helptext="">Po&amp;moć</c>
+				<c xml:lang="it" helptext="">&amp;Help</c>
+				<c xml:lang="nl" helptext="">&amp;Help</c>
+				<c xml:lang="pt" helptext="">&amp;Ajuda</c>
+				<c xml:lang="no" helptext="">&amp;Hjelp</c>
+			</ctrl>
+			<ctrl text="#l_total">
+				<c xml:lang="en" helptext="">Step progress:</c>
+				<c xml:lang="de" helptext="">Fortschritt:</c>
+				<c xml:lang="fi" helptext="">Edistyminen:</c>
+				<c xml:lang="hr" helptext="">Tijek:</c>
+				<c xml:lang="it" helptext="">Progresso:</c>
+				<c xml:lang="nl" helptext="">Voortgang:</c>
+				<c xml:lang="pt" helptext="">Progresso:</c>
+				<c xml:lang="no" helptext="">Fremdrift:</c>
+			</ctrl>
+		</dialog>
+
+
+		<!-- The base dialog holds resources used by all derived dialogs (PACK, ...) -->
+		
+		<dialog resid="PTRMDLG_APP_BASE" desc="">
+			<caption xml:lang="en">Base</caption>
+			<caption xml:lang="de">Base</caption>
+			<caption xml:lang="hr">Baza</caption>
+			<caption xml:lang="it">Base</caption>
+			<caption xml:lang="nl">Basis</caption>
+			<caption xml:lang="pt">Base</caption>
+			<caption xml:lang="no">Base</caption>
+
+			<textdata>
+				<td tid="dbext">
+					<t xml:lang="en">.imd5</t>
+					<t xml:lang="de">.imd5</t>
+					<t xml:lang="hr">.imd5</t>
+					<t xml:lang="it">.imd5</t>
+					<t xml:lang="nl">.imd5</t>
+					<t xml:lang="pt">.imd5</t>
+					<t xml:lang="no">.imd5</t>
+				</td>
+				<td tid="dbmask">
+					<t xml:lang="en">IMatch Databases (*.imd5)|*.imd5|All Files (*.*)|*.*||</t>
+					<t xml:lang="de">IMatch Datenbanken (*.imd5)|*.imd5||Alle Dateien (*.*)|*.*||</t>
+					<t xml:lang="fi">IMatch tietokannat (*.imd5)|*.imd5|Kaikki tiedostot (*.*)|*.*||</t>
+					<t xml:lang="hr">IMatch baze podataka (*.imd5)|*.imd5|Sve datoteke (*.*)|*.*||</t>
+					<t xml:lang="it">Databases IMatch (*.imd5)|*.imd5|Tutti i file (*.*)|*.*||</t>
+					<t xml:lang="nl">IMatch Databases (*.imd5)|*.imd5|All Files (*.*)|*.*||</t>
+					<t xml:lang="pt">Bases de dados IMatch (*.imd5)|*.imd5|Todos os ficheiros (*.*)|*.*||</t>
+					<t xml:lang="no">IMatch databaser (*.imd5)|*.imd5|All Files (*.*)|*.*||</t>
+				</td>
+
+				<td tid="defext">
+					<t xml:lang="en">.impag</t>
+					<t xml:lang="de">.impag</t>
+					<t xml:lang="hr">.impag</t>
+					<t xml:lang="it">.impag</t>
+					<t xml:lang="nl">.impag</t>
+					<t xml:lang="pt">.impag</t>
+					<t xml:lang="no">.impag</t>
+				</td>
+				<td tid="filemask">
+					<t xml:lang="en">IMatch Pack &amp; Go files (*.impag)|*.impag||</t>
+					<t xml:lang="de">IMatch Pack &amp; Go Dateien (*.impag)|*.impag||</t>
+					<t xml:lang="fi">IMatch Pack &amp; Go tiedostot (*.impag)|*.impag||</t>
+					<t xml:lang="hr">IMatch Pripremi i pođi datoteke (*.impag)|*.impag||</t>
+					<t xml:lang="it">File IMatch Pack &amp; Go (*.impag)|*.impag||</t>
+					<t xml:lang="nl">IMatch Pack &amp; Go bestanden (*.impag)|*.impag||</t>
+					<t xml:lang="pt">Pacote do IMatch &amp; Ir (*.impag)|*.impag||</t>
+					<t xml:lang="no">IMatch Pack &amp; Go filer (*.impag)|*.impag||</t>
+				</td>
+				<td tid="dlg.selfile.caption">
+					<t xml:lang="en">Package Files</t>
+					<t xml:lang="de">Paketdateien</t>
+					<t xml:lang="hr">Datoteke paketa</t>
+					<t xml:lang="it">File contenitore</t>
+					<t xml:lang="nl">Package bestanden</t>
+					<t xml:lang="pt">Ficheiros do pacote</t>
+					<t xml:lang="no">Pakkefiler</t>
+				</td>
+				<td tid="dlg.selfile.prompt">
+					<t xml:lang="en">Select a package file:</t>
+					<t xml:lang="de">Wählen Sie eine Paketdatei aus:</t>
+					<t xml:lang="hr">Odaberi datoteku paketa:</t>
+					<t xml:lang="it">Selezionare un file contenitore:</t>
+					<t xml:lang="nl">Selecteer een package bestand:</t>
+					<t xml:lang="pt">Seleccionar um ficheiro do pacote:</t>
+					<t xml:lang="no">Velg en pakkefil:</t>
+				</td>
+				<td tid="dlg.targetfolder.prompt">
+					<t xml:lang="en">Select the folder you want to store the package to:</t>
+					<t xml:lang="de">Wählen Sie das Verzeichnis aus, in dem die Paketdatei gespeichert werden soll:</t>
+					<t xml:lang="hr">Odaberi mapu gdje želiš spremiti paket:</t>
+					<t xml:lang="it">Selezionare la cartella dove si desidera archiviare il contenitore:</t>
+					<t xml:lang="nl">Selecteer de map waarin u het package wilt opslaan:</t>
+					<t xml:lang="pt">Seleccionar a pasta onde deseja armazenar o pacote:</t>
+					<t xml:lang="no">Velg mappen du ønsker å lagre pakken i:</t>
+				</td>
+				<td tid="dlg.restargetfolder.prompt">
+					<t xml:lang="en">Select the folder you want to restore the package to:</t>
+					<t xml:lang="de">Wählen Sie das Verzeichnis aus, in dem die Paketdatei ausgepackt werden soll:</t>
+					<t xml:lang="it">Selezionare la cartella dove si desidera ripristinare il contenitore:</t>
+					<t xml:lang="hr">Odaberi mapu u koju želiš obnoviti paket:</t>
+					<t xml:lang="nl">Selecteer de folder waarnaar u de bestanden wilt herstellen:</t>
+					<t xml:lang="pt">Seleccionar a pasta onde deseja restaurar o pacote:</t>
+					<t xml:lang="no">Velg mappen du ønsker å gjenopprette pakken i:</t>
+				</td>
+			</textdata>		
+		
+		</dialog>		
+		
+		<!-- The Pack dialog -->
+
+		<dialog resid="PTRMDLG_APP_PACK" desc="">
+			<!-- @Translators: Two spaces before and after the name! -->
+			<caption xml:lang="en">  Pack  </caption>
+			<caption xml:lang="de">  Packen  </caption>
+			<caption xml:lang="hr">  Paket  </caption>
+			<caption xml:lang="it">  Contenitore  </caption>
+			<caption xml:lang="nl">  Pakket  </caption>
+			<caption xml:lang="pt">  Pacote  </caption>
+			<caption xml:lang="no">  Pakke  </caption>
+
+			<ctrl text="#l_target_folder">
+				<c xml:lang="en" helptext="">S&amp;ave the package file to this folder:</c>
+				<c xml:lang="de" helptext="">Die Paketdatei in diesem Verzeichnis &amp;speichern:</c>
+				<c xml:lang="hr" helptext="">S&amp;premi paket u ovu mapu:</c>
+				<c xml:lang="it" helptext="">S&amp;alvare il file del contenitore in questa cartella:</c>
+				<c xml:lang="nl" helptext="">S&amp;la het pakket op in deze map:</c>
+				<c xml:lang="pt" helptext="">G&amp;ravar o ficheiro do pacote nesta pasta:</c>
+				<c xml:lang="no" helptext="">L&amp;agre pakkefilen i denne mappen:</c>
+			</ctrl>
+			<ctrl text="#l_btn_browse">
+				<c xml:lang="en" helptext="">B&amp;rowse...</c>
+				<c xml:lang="de" helptext="">Du&amp;rchsuchen...</c>
+				<c xml:lang="fi" helptext="">S&amp;elaa...</c>
+				<c xml:lang="hr" helptext="">P&amp;otraži...</c>
+				<c xml:lang="it" helptext="">S&amp;foglia...</c>
+				<c xml:lang="nl" helptext="">B&amp;laderen...</c>
+				<c xml:lang="pt" helptext="">P&amp;rocura...</c>
+				<c xml:lang="no" helptext="">&amp;Velg...</c>
+			</ctrl>
+			<ctrl text="#l_del_old">
+				<c xml:lang="en" helptext="Use this option if you want to delete older packages automatically when new packages are created.">De&amp;lete packages older than:</c>
+				<c xml:lang="de" helptext="Verwenden Sie diese Option, um automatisch ältere Paketdateien zu löschen, wenn neue Paketdateien erstellt werden.">Paketdateien &amp;löschen wenn älter als:</c>
+				<c xml:lang="hr" helptext="KOristi ovu postavku ako želiš automatski obrisati starije pakete kada stvoriš novi paket.">&amp;Obriši pakete starije od:</c>
+				<c xml:lang="it" helptext="Utilizzare questa opzione se si desidera eliminare i vecchi pacchetti automaticamente quando vengono creati nuovi pacchetti.">Cance&amp;llare pacchetti più vecchi di:</c>
+				<c xml:lang="nl" helptext="Gebruik deze optie als u oude pakketten automatisch wilt verwijderen als er een nieuw pakket wordt aangemaakt.">V&amp;erwijder pakketten ouder dan:</c>
+				<c xml:lang="pt" helptext="Utilize esta opção se pretender apagar pacotes mais velhos automáticamente , quando novos pacotes forem criados.">Apa&amp;gar pacotes mais velhos do que:</c>
+				<c xml:lang="no" helptext="Bruk denne opsjonen dersom du ønsker å slette eldre pakker når nye opprettes.">S&amp;lett pakker eldre enn:</c>
+			</ctrl>
+			<ctrl text="#l_include_db">
+				<c xml:lang="en" helptext="">Include these &amp;databases:</c>
+				<c xml:lang="de" helptext="">Diese &amp;Datenbanken einschließen:</c>
+				<c xml:lang="fi" helptext="">Sisällytä näm&amp;ä tietokannat:</c>
+				<c xml:lang="hr" helptext="">Obuhvati ove baze po&amp;dataka:</c>
+				<c xml:lang="it" helptext="">Includi questi &amp;database:</c>
+				<c xml:lang="nl" helptext="">Deze &amp;databases opnemen:</c>
+				<c xml:lang="pt" helptext="">Inclui estas &amp;base de dados:</c>
+				<c xml:lang="no" helptext="">Inkluder disse &amp;databasene:</c>
+			</ctrl>
+			<ctrl text="#l_check_diagnosis">
+				<c xml:lang="en" helptext="\r\nEnable this option to run a diagnosis on all packed databases.\r\nThis is highly recommended.">Run database dia&amp;gnosis</c>
+				<c xml:lang="de" helptext="\r\nAktivieren Sie diese Option, um eine Diagnose der zu packenden Datenbanken durchzuführen.\r\nDies wird empfohlen.">Datenbankdia&amp;gnose durchführen</c>
+				<c xml:lang="hr" helptext="">Pokreni dija&amp;gnostiku baze podataka</c>
+				<c xml:lang="it" helptext="\r\nAbilitare questa opzione per eseguire una diagnosi su tutti i database imballati.\r\nQuesto è altamente raccomandato.">Esegui dia&amp;gnosi database</c>
+				<c xml:lang="nl" helptext="\r\nSchakel deze optie in om een diagnose uit te voeren op alle databases die worden opgenomen.\r\nDit wordt sterk aanbevolen.">Database dia&amp;gnose uitvoeren</c>
+				<c xml:lang="pt" helptext="\r\nActivar esta opção para correr um diagnóstico em todos os pacotes de base de dados embalados.\r\nIsto é altamente recomendado.">Correr dia&amp;gnóstico da base de dados</c>
+				<c xml:lang="no" helptext="\r\nAktiver denne opsjonen for å kjøre diagnose på alle databaser som pakkes.\r\nDette anbefales sterkt.">Kjør dia&amp;gnose på database</c>
+			</ctrl>
+			<ctrl text="#l_check_compact">
+				<c xml:lang="en" helptext="Compact and optimize databases before packing them.">C&amp;ompact and optimize databases</c>
+				<c xml:lang="de" helptext="Datenbanken vor dem Packen komprimieren und optimieren.">Datenbanken k&amp;omprimieren und optimieren</c>
+				<c xml:lang="fi" helptext="Tiivistä ja optimoi tietokannat ennen niiden pakkaamista.">T&amp;iivistä ja optimoi tietokannat</c>
+				<c xml:lang="hr" helptext="">Sažmi i &amp;optimiziraj bazu podataka</c>
+				<c xml:lang="it" helptext="Compatta e ottimizza il database prima di impacchettarlo.">C&amp;ompatta e ottimizza Database</c>
+				<c xml:lang="nl" helptext="Databases comprimeren en optimaliseren.">C&amp;omprimeren en optimaliseren van databases</c>
+				<c xml:lang="pt" helptext="Compacta e optimiza a base de dados.">C&amp;ompacta e optimiza a base de dados.</c>
+				<c xml:lang="no" helptext="Komprimer og optimer databaser før de pakkes.">K&amp;omprimer og optimer databaser</c>
+			</ctrl>
+			<ctrl text="#l_check_cache">
+				<c xml:lang="en" helptext="\r\nIf you enable this option, the cache files for all included databases will also be included.\r\nThis can generate very large package files!">Also pack c&amp;ache files</c>
+				<c xml:lang="de" helptext="\r\nWenn Sie diese Option aktivieren, werden die Cache-Dateien aller eingeschlossenen Datenbanken\r\nebenfalls gepackt. Dies kann sehr große Paketdateien erzeugen!">C&amp;ache-Dateien ebenfalls packen</c>
+				<c xml:lang="fi" helptext="\r\nKun tämä asetus on päällä, kaikkien tietokantojen välimuistitiedostot sisällytettään pakkaukseen.\r\nSiitä syystä pakkaustiedostoista voi tulla hyvin suuria!">Pakkaa myös &amp;välimuistitiedostot</c>
+				<c xml:lang="it" helptext="\r\nSe si abilita questa opzione, saranno inclusi i file di cache per tutti i database inclusi.\r\nQuesto può generare un file contenitore molto grande!">Confeziona anche file c&amp;ache</c>
+				<c xml:lang="hr" helptext="\r\nAko je omogućeno, datoteke međuspreminka za sve odabrane baze podataka će također biti odabrane.\r\nTo može proizvesti vrlo velike datoteke paketa!">Također odaberi datoteke međuspremnik&amp;a</c>
+				<c xml:lang="nl" helptext="\r\nAls u deze optie gebruikt, zullen ook de cache bestanden voor alle geselecteerde database worden opgenomen in het pakket.\r\nDit kan zeer grote pakketten genereren!">C&amp;ache bestanden opnemen</c>
+				<c xml:lang="pt" helptext="\r\nSe activar esta opção, os ficheiros de cache de todas as bases de dados também serão incluídos.\r\nIsto pode originar um ficheiro de pacote muito grande!">Coloca no pacote também os ficheiros de c&amp;ache</c>
+				<c xml:lang="no" helptext="\r\nDersom denne opsjonen aktiveres vil cachefiler for alle valgte databaser inkluderes i pakken.\r\nDette kan generere svært store pakkefiler!">Pakk også c&amp;achefiler</c>
+			</ctrl>
+
+			<textdata>
+				<!-- The header -->
+				<td tid="header.text">
+					<t xml:lang="en"><![CDATA[This operation combines all IMatch settings, presets, templates, scripts and other data into one <Bold>compressed package file</Bold>. You can optionally include one or more databases as well.]]></t>
+					<t xml:lang="de"><![CDATA[Dieser Vorgang kombiniert alle IMatch-Einstellungen, Vorlagen, Skripte und andere Daten in eine <Bold>komprimierte Paketdatei</Bold>. Sie können optional auch eine oder mehrere Datenbanken mit aufnehmen.]]></t>
+					<t xml:lang="hr"><![CDATA[Sjedini sve IMatch postavke, zadane postave, predloške, skripte i ostale podatke u jednu <Bold>sažetu paketnu datoteku</Bold>. Također, možeš još dodati jednu ili više baza podataka.]]></t>
+					<t xml:lang="it"><![CDATA[Questa operazione combina tutte le impostazioni di IMatch, preset, template, script e altri dati in un <Bold>file contenitore compresso</Bold>. Opzionalmente è possibile includere uno o più database.]]></t>
+					<t xml:lang="nl"><![CDATA[Deze opdracht combineert alle IMatch instellingen, eigen instellingen, templates, scripts en andere gegevens in één <Bold>gecomprimeerd pakketbestand</Bold>. U kunt naar keuze één of meer databases aanvullend opnemen.]]></t>
+					<t xml:lang="pt"><![CDATA[Esta operação combina todas as definições, pré-definições, modelos, scripts e outros dados apenas num ficheiro<Bold>comprimido de pacote</Bold>. Opcionalmente è possível incluir uma ou mais bases de dados.]]></t>
+					<t xml:lang="no"><![CDATA[Denne operasjonen kombinerer alle IMatch innstillinger, presets, maler, skript og andre data til en <Bold>komprimert pakkefil</Bold>. I tillegg kan du valgfritt inkludere en eller flere databaser.]]></t>
+				</td>
+				<td tid="header.icon">
+					<t xml:lang="en">box_into_48x48.png</t>
+					<t xml:lang="de">box_into_48x48.png</t>
+					<t xml:lang="hr">box_into_48x48.png</t>
+					<t xml:lang="it">box_into_48x48.png</t>
+					<t xml:lang="nl">box_into_48x48.png</t>
+					<t xml:lang="pt">box_into_48x48.png</t>
+					<t xml:lang="no">box_into_48x48.png</t>
+				</td>
+				
+				<td tid="cue.targetfolder">
+					<t xml:lang="en">Select a folder</t>
+					<t xml:lang="de">Wählen Sie ein Verzeichnis aus</t>
+					<t xml:lang="fi">Valitse kansio</t>
+					<t xml:lang="hr">Odaberi mapu</t>
+					<t xml:lang="it">Selezionare una cartella</t>
+					<t xml:lang="nl">Kies een map</t>
+					<t xml:lang="pt">Seleccionar uma pasta</t>
+					<t xml:lang="no">Velg en mappe</t>
+				</td>
+			</textdata>
+			
+			<listdata text="IDC_COMBO_PURGE">
+				<!-- @Mario: Must match EPurgePeriod -->
+				<ld listid="5">
+					<l xml:lang="en" helptext="">One week</l>
+					<l xml:lang="de" helptext="">Eine Woche</l>
+					<l xml:lang="fi" helptext="">Yksi viikko</l>
+					<l xml:lang="hr" helptext="">Jedan tjedan</l>
+					<l xml:lang="it" helptext="">Una settimana</l>
+					<l xml:lang="nl" helptext="">Een week</l>
+					<l xml:lang="pt" helptext="">Uma semana</l>
+					<l xml:lang="no" helptext="">En uke</l>
+				</ld>
+				<ld listid="10" selected="true">
+					<l xml:lang="en" helptext="">Two weeks</l>
+					<l xml:lang="de" helptext="">Zwei Wochen</l>
+					<l xml:lang="fi" helptext="">Kaksi viikkoa</l>
+					<l xml:lang="hr" helptext="">Dva tjedna</l>
+					<l xml:lang="it" helptext="">Due settimane</l>
+					<l xml:lang="nl" helptext="">Twee weken</l>
+					<l xml:lang="pt" helptext="">Duas semanas</l>
+					<l xml:lang="no" helptext="">To uker</l>
+				</ld>
+				<ld listid="20" default="true">
+					<l xml:lang="en" helptext="">One month</l>
+					<l xml:lang="de" helptext="">Ein Monat</l>
+					<l xml:lang="fi" helptext="">Yksi kuukausi</l>
+					<l xml:lang="hr" helptext="">Jedan mjesec</l>
+					<l xml:lang="it" helptext="">Un mese</l>
+					<l xml:lang="nl" helptext="">Eén maand</l>
+					<l xml:lang="pt" helptext="">Um mês</l>
+					<l xml:lang="no" helptext="">En måned</l>
+				</ld>
+				<ld listid="30" default="true">
+					<l xml:lang="en" helptext="">Two months</l>
+					<l xml:lang="de" helptext="">Zwei Monate</l>
+					<l xml:lang="fi" helptext="">Kaksi kuukautta</l>
+					<l xml:lang="hr" helptext="">Dva mjeseca</l>
+					<l xml:lang="it" helptext="">Due mesi</l>
+					<l xml:lang="nl" helptext="">Twee maanden</l>
+					<l xml:lang="pt" helptext="">Dois meses</l>
+					<l xml:lang="no" helptext="">To måneder</l>
+				</ld>
+				<ld listid="40" default="true">
+					<l xml:lang="en" helptext="">Three months</l>
+					<l xml:lang="de" helptext="">Drei Monate</l>
+					<l xml:lang="fi" helptext="">Kolme kuukautta</l>
+					<l xml:lang="hr" helptext="">Tri mjeseca</l>
+					<l xml:lang="it" helptext="">Tre mesi</l>
+					<l xml:lang="nl" helptext="">Drie maanden</l>
+					<l xml:lang="pt" helptext="">Três meses</l>
+					<l xml:lang="no" helptext="">Tre måneder</l>
+				</ld>
+				<ld listid="0">
+					<l xml:lang="en" helptext="">Delete all</l>
+					<l xml:lang="de" helptext="">Alle löschen</l>
+					<l xml:lang="fi" helptext="">Poista kaikki</l>
+					<l xml:lang="it" helptext="">Cancella tutto</l>
+					<l xml:lang="hr" helptext="">Obriši sve</l>
+					<l xml:lang="nl" helptext="">Verwijder alles</l>
+					<l xml:lang="pt" helptext="">Apaga tudo</l>
+					<l xml:lang="no" helptext="">Slett alle</l>
+				</ld>
+				<ld listid="1000">
+					<l xml:lang="en" helptext="">Keep the last package file</l>
+					<l xml:lang="de" helptext="">Die letzte Paketdatei behalten</l>
+					<l xml:lang="fi" helptext="">Säilytä viimeisin pakettitiedosto</l>
+					<l xml:lang="pt" helptext="">Mantém o último ficheiro de pacote</l>
+					<l xml:lang="nl" helptext="">Bewaar het laatste pakket</l>
+					<l xml:lang="no" helptext="">Behold siste pakkefil</l>
+				</ld>
+				<ld listid="1010">
+					<l xml:lang="en" helptext="">Keep the last 2 package files</l>
+					<l xml:lang="de" helptext="">Die letzten 2 Paketdateien behalten</l>
+					<l xml:lang="fi" helptext="">Säilytä 2 viimeisintä pakettitiedostoa</l>
+					<l xml:lang="pt" helptext="">Mantém os últimos dois ficheiros de pacote</l>
+					<l xml:lang="nl" helptext="">Bewaar de laatste 2 pakketten</l>
+					<l xml:lang="no" helptext="">Behold de to siste pakkefilene</l>
+				</ld>
+				<ld listid="1020">
+					<l xml:lang="en" helptext="">Keep the last 3 package files</l>
+					<l xml:lang="de" helptext="">Die letzten 3 Paketdateien behalten</l>
+					<l xml:lang="fi" helptext="">Säilytä 3 viimeisintä pakettitiedostoa</l>
+					<l xml:lang="pt" helptext="">Mantém os últimos três ficheiros de pacote</l>
+					<l xml:lang="nl" helptext="">Bewaar de laatste 3 pakketten</l>
+					<l xml:lang="no" helptext="">Behold de 3 siste pakkefilene</l>
+				</ld>
+				<ld listid="1030">
+					<l xml:lang="en" helptext="">Keep the last 5 package files</l>
+					<l xml:lang="de" helptext="">Die letzten 5 Paketdateien behalten</l>
+					<l xml:lang="fi" helptext="">Säilytä 5 viimeisintä pakettitiedostoa</l>
+					<l xml:lang="pt" helptext="">Mantém os últimos cinco ficheiros de pacote</l>
+					<l xml:lang="nl" helptext="">Bewaar de laatste 5 pakketten</l>
+					<l xml:lang="no" helptext="">Behold de 5 siste pakkefilene</l>
+				</ld>
+				<ld listid="1040">
+					<l xml:lang="en" helptext="">Keep the last 10 package files</l>
+					<l xml:lang="de" helptext="">Die letzten 10 Paketdateien behalten</l>
+					<l xml:lang="fi" helptext="">Säilytä 10 viimeisintä pakettitiedostoa</l>
+					<l xml:lang="pt" helptext="">Mantém os últimos dez ficheiros de pacote</l>
+					<l xml:lang="nl" helptext="">Bewaar de laatste 10 pakketten</l>
+					<l xml:lang="no" helptext="">Behold de 10 siste pakkefilene</l>
+				</ld>
+			</listdata>
+			
+			</dialog>
+		
+		<!-- The Restore Dialog -->
+		
+		<dialog resid="PTRMDLG_APP_RES" desc="">
+			<caption xml:lang="en">  Restore  </caption>
+			<caption xml:lang="de">  Wiederherstellen  </caption>
+			<caption xml:lang="fi">  Palauta  </caption>
+			<caption xml:lang="it">  Ripristino  </caption>
+			<caption xml:lang="hr">  Obnovi  </caption>
+			<caption xml:lang="nl">  Terugzetten  </caption>
+			<caption xml:lang="pt">  Restaurar  </caption>
+			<caption xml:lang="no">  Gjenopprett  </caption>
+			<ctrl text="#l_package">
+				<c xml:lang="it" helptext="">&amp;Contenitore:</c>
+				<c xml:lang="en" helptext="">&amp;Package:</c>
+				<c xml:lang="de" helptext="">&amp;Paketdatei:</c>
+				<c xml:lang="fi" helptext="">&amp;Paketti:</c>
+				<c xml:lang="hr" helptext="">&amp;Paket:</c>
+				<c xml:lang="nl" helptext="">&amp;Pakket:</c>
+				<c xml:lang="pt" helptext="">&amp;Pacote:</c>
+				<c xml:lang="no" helptext="">&amp;Pakkefil:</c>
+			</ctrl>
+			<ctrl text="#l_btn_browse_package">
+				<c xml:lang="en" helptext="">B&amp;rowse...</c>
+				<c xml:lang="de" helptext="">Du&amp;rchsuchen...</c>
+				<c xml:lang="fi" helptext="">S&amp;elaa...</c>
+				<c xml:lang="hr" helptext="">P&amp;otraži...</c>
+				<c xml:lang="it" helptext="">S&amp;foglia...</c>
+				<c xml:lang="nl" helptext="">B&amp;laderen...</c>
+				<c xml:lang="pt" helptext="">P&amp;rocura...</c>
+				<c xml:lang="no" helptext="">&amp;Velg...</c>
+			</ctrl>
+			<ctrl text="#l_btn_browse_folder">
+				<c xml:lang="en" helptext="">B&amp;rowse...</c>
+				<c xml:lang="de" helptext="">Du&amp;rchsuchen...</c>
+				<c xml:lang="fi" helptext="">S&amp;elaa...</c>
+				<c xml:lang="hr" helptext="">P&amp;otraži...</c>
+				<c xml:lang="it" helptext="">S&amp;foglia...</c>
+				<c xml:lang="nl" helptext="">B&amp;laderen...</c>
+				<c xml:lang="pt" helptext="">P&amp;rocura...</c>
+				<c xml:lang="no" helptext="">&amp;Velg...</c>
+			</ctrl>
+			<ctrl text="#l_restore_o">
+				<c xml:lang="en" helptext="">Restore to &amp;original folders</c>
+				<c xml:lang="de" helptext="">In &amp;Originalverzeichnisse zurücksichern</c>
+				<c xml:lang="fi" helptext="">Palauta &amp;alkuperäisiin kansioihin</c>
+				<c xml:lang="hr" helptext="">Vrati u &amp;originalne mape</c>
+				<c xml:lang="it" helptext="">Ripristina nella cartella &amp;originale</c>
+				<c xml:lang="nl" helptext="">Terug zetten naar &amp;originele mappen</c>
+				<c xml:lang="pt" helptext="">Restaura na pasta &amp;original</c>
+				<c xml:lang="no" helptext="">Gjenopprett til &amp;opprinnelig mappe</c>
+			</ctrl>
+			<ctrl text="#l_restore_d">
+				<c xml:lang="en" helptext="">Restore to a &amp;different folder</c>
+				<c xml:lang="de" helptext="">In &amp;anderes Verzeichnis zurücksichern</c>
+				<c xml:lang="fi" helptext="">Palauta &amp;eri kansioon</c>
+				<c xml:lang="hr" helptext="">Vrati u &amp;novu mapu</c>
+				<c xml:lang="it" helptext="">Ripristina in una cartella &amp;differente</c>
+				<c xml:lang="nl" helptext="">Terug zetten naar &amp;andere mappen</c>
+				<c xml:lang="pt" helptext="">Restaura numa pasta &amp;diferente</c>
+				<c xml:lang="no" helptext="">Gjenopprett til en &amp;annen mappe</c>
+			</ctrl>
+			<ctrl text="#l_check_uselast">
+				<c xml:lang="en" helptext="Enable this to automatically use the last created package.">Use &amp;last created package file</c>
+				<c xml:lang="de" helptext="Klicken Sie hier, um die zuletzt erstellte Paketdatei automatisch auszuwählen.">Zu&amp;letzt erstellte Paketdatei verwenden</c>
+				<c xml:lang="it" helptext="Abilitare questa opzione per utilizzare automaticamente l'ultimo contenitore creato.">Usa &amp;l'ultimo contenitore creato</c>
+				<c xml:lang="hr" helptext="Omogući da bi automatski koristio posljednji stvoreni paket.">Koristi pos&amp;ljednji stvoreni paket</c>
+				<c xml:lang="nl" helptext="Click hier om automatisch het laatst gecreëerde pakket te gebruiken.">Gebruik &amp;laatst gecreërde pakketbestand</c>
+				<c xml:lang="pt" helptext="Activar esta opção para utilizar automáticamente o último pacote criado.">Utiliza &amp;o último pacote criado</c>
+				<c xml:lang="no" helptext="Aktiver denne opsjonen for automatisk å benytte sist opprettede pakke.">Bruk sist opprettede pakkefi&amp;l</c>
+			</ctrl>
+			<ctrl text="#l_dont_replace">
+				<c xml:lang="en" helptext="Enable this option to keep existing files with the same or a later modifed date as the file in the package.">Don't &amp;replace newer files</c>
+				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um bestehende Dateien mit gleichem oder neuerem Änderungsdatum beizubehalten.">Neuere Dateien nicht übe&amp;rschreiben</c>
+				<c xml:lang="it" helptext="Abilitare questa opzione per mantenere i file esistenti con data uguale o successiva al file nel contenitore.">Non &amp;sostituire i file più recenti</c>
+				<c xml:lang="hr" helptext="Omogući da bi zadržao postojeće datoteke sa istim ili novijim datumom promjene od datoteka u paketu.">Nemoj &amp;zamijeniti novije datoteke</c>
+				<c xml:lang="nl" helptext="Gebruik deze optie om aanwezige bestanden met dezelfde of latere datum in het pakket te behouden.">Nieuwere bestanden niet &amp;overschrijven</c>
+				<c xml:lang="pt" helptext="Activar esta opção para manter os ficheiros existentes com data igual ou sucessiva do ficheiro do pacote.">Não &amp;substituir os ficheiros mais recentes</c>
+				<c xml:lang="no" helptext="Aktiver denne opsjonen for å beholde filer med modifisert dato lik eller nyere enn filen i pakken.">Ikke e&amp;rstatt nyere filer</c>
+			</ctrl>
+
+			<textdata>
+				<!-- The header -->
+				<td tid="header.text">
+					<t xml:lang="en"><![CDATA[This operation restores the contents of a package back to the original folders or to a to different folder. Pack &amp; Go automatically validates packets and restored files via check-sums.]]></t>
+					<t xml:lang="de"><![CDATA[Dieser Vorgang extrahiert die Inhalte einer Paketdatei in die Originalverzeichnisse oder in ein anderes Verzeichnis. Die Datenintegrität der Pakete und der wiederhergestellten Dateien wird durch Prüfsummen sichergestellt.]]></t>
+					<t xml:lang="hr"><![CDATA[Ova operacija vraća sadržaj paketa u originalnu ili novu mapu.]]></t>
+					<t xml:lang="nl"><![CDATA[Deze opdracht herstelt de inhoud van een pakket naar de originele of een andere map. Pack &amp; Go controleert automatisch het pakket en de bestanden door middel van de check-sum.]]></t>
+					<t xml:lang="it"><![CDATA[Questa operazione ripristina il contenuto di un contenitore alle cartelle originali o in una cartella diversa. Pack &amp; Go convalida automaticamente i pacchetti e i file ripristinati tramite check-sums.]]></t>
+					<t xml:lang="pt"><![CDATA[Esta operação restaura o conteúdo de um pacote para as suas pastas originais ou para pastas diferentes. Pack &amp; Ir automáticamente valida os pacotes e ficheiros restaurados via check-sums.]]></t>
+					<t xml:lang="no"><![CDATA[Denne operasjonen gjenoppretter innholdet i en pakke tilbake til opprinnelig mappe eller til en annen mappe. Pack &amp; Go validerer automatisk pakker og gjenopprettede filer ved hjelp av check-summer.]]></t>
+				</td>
+				<td tid="header.icon">
+					<t xml:lang="en">box_out_48x48.png</t>
+					<t xml:lang="de">box_out_48x48.png</t>
+					<t xml:lang="hr">box_out_48x48.png</t>
+					<t xml:lang="nl">box_out_48x48.png</t>
+					<t xml:lang="it">box_out_48x48.png</t>
+					<t xml:lang="pt">box_out_48x48.png</t>
+					<t xml:lang="no">box_out_48x48.png</t>
+				</td>
+				<td tid="cue.package">
+					<t xml:lang="en">Select a package to process</t>
+					<t xml:lang="de">Wählen Sie eine Paketdatei aus</t>
+					<t xml:lang="hr">Odaberi paket za obradu</t>
+					<t xml:lang="nl">Selecteer een pakket</t>
+					<t xml:lang="it">Seleziona un contenitore da elaborare</t>
+					<t xml:lang="pt">Selecciona um pacote para processar</t>
+					<t xml:lang="no">Velg en pakkefil</t>
+				</td>
+				<td tid="cue.folder">
+					<t xml:lang="en">Select a target folder</t>
+					<t xml:lang="de">Wählen Sie ein Zielverzeichnis aus</t>
+					<t xml:lang="hr">Odaberi ciljnu mapu</t>
+					<t xml:lang="nl">Selecteer een doelmap</t>
+					<t xml:lang="it">Seleziona una cartella di destinazione</t>
+					<t xml:lang="pt">Selecciona uma pasta de destino</t>
+					<t xml:lang="no">Velg en målmappe</t>
+				</td>
+			</textdata>
+
+		</dialog>
+
+		<!-- The Verify Dialog -->
+
+		<dialog resid="PTRMDLG_APP_VERIFY" desc="">
+			<caption xml:lang="en">  Verify  </caption>
+			<caption xml:lang="de">  Prüfen  </caption>
+			<caption xml:lang="hr">  Provjeri  </caption>
+			<caption xml:lang="nl">  Controle  </caption>
+			<caption xml:lang="it">  Verifica  </caption>
+			<caption xml:lang="pt">  Verifica  </caption>
+			<caption xml:lang="no">  Verifiser  </caption>
+			<ctrl text="#l_package">
+				<c xml:lang="en" helptext="">&amp;Package:</c>
+				<c xml:lang="de" helptext="">&amp;Paketdatei:</c>
+				<c xml:lang="hr" helptext="">&amp;Paket:</c>
+				<c xml:lang="nl" helptext="">&amp;Pakket:</c>
+				<c xml:lang="it" helptext="">&amp;Contenitore:</c>
+				<c xml:lang="pt" helptext="">&amp;Pacote:</c>
+				<c xml:lang="no" helptext="">&amp;Pakkefil:</c>
+			</ctrl>
+			<ctrl text="#l_btn_browse_package">
+				<c xml:lang="en" helptext="">B&amp;rowse...</c>
+				<c xml:lang="de" helptext="">Du&amp;rchsuchen...</c>
+				<c xml:lang="hr" helptext="">P&amp;otraži...</c>
+				<c xml:lang="nl" helptext="">B&amp;laderen...</c>
+				<c xml:lang="it" helptext="">S&amp;foglia...</c>
+				<c xml:lang="pt" helptext="">P&amp;rocura...</c>
+				<c xml:lang="no" helptext="">&amp;Velg...</c>
+			</ctrl>
+			<ctrl text="#l_check_uselast">
+				<c xml:lang="en" helptext="Enable this to automatically use the last created package.">Use &amp;last created package file</c>
+				<c xml:lang="de" helptext="Klicken Sie hier, um die zuletzt erstellte Paketdatei automatisch auszuwählen.">Zu&amp;letzt erstellte Paketdatei verwenden</c>
+				<c xml:lang="nl" helptext="Click hier om autoatisch het laatst gecreëerde pakket te gebruiken.">Gebruik &amp;laatst gecreëerde pakket</c>
+				<c xml:lang="it" helptext="Abilitare questa opzione per utilizzare automaticamente l'ultimo contenitore creato.">Usa &amp; l'ultimo contenitore creato</c>
+				<c xml:lang="pt" helptext="Activar esta opção para utilizar automáticamente o último pacote criado.">Utiliza &amp; o último ficheiro do pacote criado</c>
+				<c xml:lang="no" helptext="Klikk her for automatisk å benytte sist opprettede pakke.">Bruk sist opprettede pakkefi&amp;l</c>
+			</ctrl>
+
+			<textdata>
+				<!-- The header -->
+				<td tid="header.text">
+					<t xml:lang="en"><![CDATA[This operation tests the integrity of each element in the selected package to ensure that the entire package is valid and usable.]]></t>
+					<t xml:lang="de"><![CDATA[Dieser Vorgang testet jedes Element in der ausgewählten Paketdatei, um die Integrität der gesamten Paketdatei sicherzustellen.]]></t>
+					<t xml:lang="hr"><![CDATA[Ova operacija provjerava cjelovitost svakog elementa u odabranom paketu garantirajući da je cijeli paket ispravan upotrebljiv.]]></t>
+					<t xml:lang="nl"><![CDATA[Deze opdracht test ieder element in het gekozen pakket om te garanderen dat het gehele pakket valide en bruikbaar is.]]></t>
+					<t xml:lang="it"><![CDATA[Questa operazione verifica l'integrità di ogni elemento del contenitore selezionato per garantire che l'intero contenitore sia valido e utilizzabile.]]></t>
+					<t xml:lang="pt"><![CDATA[Esta operação testa a integridade de cada elemento no pacote seleccionado para assegurar que o pacote inteiro é válido e utilizável.]]></t>
+					<t xml:lang="no"><![CDATA[Denne operasjonen tester integriteten for hvert element i den valgte pakken for å sikre at hele pakken er gyldig og brukbar.]]></t>
+				</td>
+				<td tid="header.icon">
+					<t xml:lang="en">box_view_48x48.png</t>
+					<t xml:lang="de">box_view_48x48.png</t>
+					<t xml:lang="hr">box_view_48x48.png</t>
+					<t xml:lang="nl">box_view_48x48.png</t>
+					<t xml:lang="it">box_view_48x48.png</t>
+					<t xml:lang="pt">box_view_48x48.png</t>
+					<t xml:lang="no">box_view_48x48.png</t>
+				</td>
+				<td tid="cue.package">
+					<t xml:lang="en">Select a package to process</t>
+					<t xml:lang="de">Wählen Sie eine Paketdatei aus</t>
+					<t xml:lang="hr">Odaberi paket za obradu</t>
+					<t xml:lang="nl">Selecteer een pakket</t>
+					<t xml:lang="it">Seleziona un contenitore da elaborare</t>
+					<t xml:lang="pt">Selecciona um pacote para processar</t>
+					<t xml:lang="no">Velg en pakkefil</t>
+				</td>
+			</textdata>
+
+		</dialog>
+
+		<!-- The Protocol Dialog -->
+
+		<dialog resid="PTRMDLG_APP_PROTOCOL" desc="">
+			<caption xml:lang="en">  Protocol  </caption>
+			<caption xml:lang="de">  Protokoll  </caption>
+			<caption xml:lang="hr">  Protokol  </caption>
+			<caption xml:lang="nl">  Protocol  </caption>
+			<caption xml:lang="it">  Protocollo  </caption>
+			<caption xml:lang="pt">  Protocolo  </caption>
+			<caption xml:lang="no">  Protokoll  </caption>
+		</dialog>
+
+	</dialog_table>
+
+	<!-- String table -->
+
+	<string_table>
+
+		<string_group name="Application" desc="">
+			<str resid="PTR_APP_ABOUT" desc="">
+				<s xml:lang="en">&amp;About IMatch Pack &amp; Go...</s>
+				<s xml:lang="de">Ü&amp;ber IMatch Pack &amp; Go...</s>
+				<s xml:lang="fi">T&amp;ietoa IMatch Pack &amp; Go:sta</s>
+				<s xml:lang="hr">&amp;O IMatch 'Pripremi i pođi'...</s>
+				<s xml:lang="nl">&amp;Over IMatch Pack &amp; Go...</s>
+				<s xml:lang="it">&amp;Circa IMatch Pack &amp; Go...</s>
+				<s xml:lang="pt">&amp;Acerca do pacote do IMatch &amp; Ir...</s>
+				<s xml:lang="no">&amp;Om IMatch Pack &amp; Go...</s>
+			</str>
+			<str resid="PTR_APP_INSTANCE_RUNNING" desc="">
+				<s xml:lang="en">IMatch Pack &amp; Go has detected that an instance of IMatch is running.\r\nPack &amp; Go cannot backup all files while IMatch is open. Please close IMatch before continuing.</s>
+				<s xml:lang="de">IMatch wird zurzeit ausgeführt. Pack &amp; Go kann nicht alle Dateien sichern, solange IMatch ausgeführt wird. Bitte beenden Sie IMatch, bevor Sie mit Pack &amp; Go fortfahren.</s>				
+				<s xml:lang="fi">IMatch Pack &amp; Go on havainnut, että IMatch on käynnissä.\r\nPack &amp; Go ei voi varmuuskopioida kaikkia tiedostoja silloin kun IMatch on käynnissä. Ole hyvä ja sulje IMatch ennen kuin jatkat.</s>
+				<s xml:lang="hr">IMatch Pripremi i idi je otkrio postojeću instancu IMatch-a.\r\nPripremi i idi ne može pripremiti sve datoteke dok je IMatch otvoren. Zatvori IMatch prije nego nastaviš.</s>
+				<s xml:lang="nl">IMatch Pack &amp; Go heeft vastgesteld dat IMatch in gebruik is.\r\nPack &amp; Go kan niet van alle bestanden een back-up maken, zolang IMatch wordt gebruikt. Sluit IMatch af voor u verder gaat.</s>
+				<s xml:lang="it">IMatch Pack &amp; Go ha rilevato che è in esecuzione un'istanza di IMatch.\r\nPack &amp; Go non può eseguire il backup di tutti i file mentre IMatch è aperto. Si prega di chiudere IMatch prima di continuare.</s>
+				<s xml:lang="pt">IMatch Pack &amp; Go detectou que existe uma instância do IMatch em execução.\r\nPack &amp; Go não pode prosseguir com a cópia de segurança de todos os ficheiros enquanto o Imatch estiver aberto. Por favor feche o IMatch antes de continuar.</s>
+				<s xml:lang="no">IMatch Pack &amp; Go har detektert at en instans av IMatch allerede kjører.\r\nPack &amp; Go kan ikke sikkerhetskopiere alle filer mens IMatch kjører. Vennligst avslutt IMatch før du fortsetter.</s>
+			</str>
+		</string_group>
+
+		<string_group name="Steps" desc="">
+			<str resid="PTR_STEP_INIT" desc="">
+				<s xml:lang="en">Initializing...</s>
+				<s xml:lang="de">Initialisierung...</s>
+				<s xml:lang="fi">Alustetaan...</s>
+				<s xml:lang="hr">Inicijalizacija...</s>
+				<s xml:lang="nl">Initialiseren...</s>
+				<s xml:lang="it">Preparazione...</s>
+				<s xml:lang="pt">A inicializar...</s>
+				<s xml:lang="no">Forbereder...</s>
+			</str>
+			<str resid="PTR_PACK_CACHE_INFO" desc="">
+				<s xml:lang="en">Including cache files can create very large package files.</s>
+				<s xml:lang="de">Das Einschließen von Cache-Dateien kann sehr große Paketdateien erzeugen.</s>
+				<s xml:lang="hr">Odabir datoteka međuspremnika može stvoriti jako velike datoteke paketa.</s>
+				<s xml:lang="nl">Het opnemen van cache bestanden kan zeer grote pakketten creëren.</s>
+				<s xml:lang="it">Includere i file della cache può creare file contenitori molto grandi.</s>
+				<s xml:lang="pt">Incluir ficheiros de cache pode criar ficheiros de pacote muito grandes.</s>
+				<s xml:lang="no">Inkludering av cachefiler kan medføre svært store pakkefiler.</s>
+			</str>
+			
+			<str resid="PTR_STEP_COMPLETED_PACK" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Successfully completed in {0}.</Bold><LineBreak/>Package file size: {1}. Compression ratio: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Show package file in Windows Explorer.</Hyperlink>]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Erfolgreich abgeschlossen in {0}.</Bold><LineBreak/>Größe der Paketdatei: {1}. Komprimierungsfaktor: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Paketdatei in Windows Explorer anzeigen.</Hyperlink>]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Uspješno završeno u in {0}.</Bold><LineBreak/>Veličina datoteke paketa: {1}. Omjer kompresije: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Pokaži datoteku paketa u Windows Explorer-u.</Hyperlink>]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Met succes voltooid in {0}.</Bold><LineBreak/>Omvang van het pakket bestand: {1}. Compressiefactor: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Bekijk het pakket in Windows Explorer.</Hyperlink>]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Completato con successo in {0}.</Bold><LineBreak/>Dimensione  del file contenitore: {1}. Rapporto di compressione: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Visualizza i file del contenitore in Windows Explorer.</Hyperlink>]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Completado com sucesso em {0}.</Bold><LineBreak/>Dimensão do ficheiro de pacote: {1}. Taxa de compressão: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Visualiza o ficheiro de pacote no explorador do Windows.</Hyperlink>]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Vellykket fullført i {0}.</Bold><LineBreak/>Pakkefilstørrelse: {1}. Kompresjonsforhold: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Vis pakkefil i Windows Utforsker.</Hyperlink>]]></s>
+			</str>
+			<str resid="PTR_STEP_COMPLETED_PACK_WARNINGS" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Completed with {wno} warnings in {0}.</Bold><LineBreak/>Package file size: {1}. Compression ratio: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Show package file in Windows Explorer.</Hyperlink><LineBreak/><Bold>Warnings:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Mit {wno} Warnmeldungen abgeschlossen in {0}.</Bold><LineBreak/>Größe der Paketdatei: {1}. Komprimierungsfaktor: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Paketdatei in Windows Explorer anzeigen.</Hyperlink><LineBreak/><Bold>Warnungen:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Završeno s {wno} upozorenja u {0}.</Bold><LineBreak/>Veličina datoteke paketa: {1}. Omjer kompresije: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Pokaži datoteku paketa u Windows Explorer-u.</Hyperlink>]<LineBreak/><Bold>Upozorenja:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Voltooid met{wno} waarschuwingen in {0}.</Bold><LineBreak/>Omvang van het pakket bestand: {1}. Compressiefactor: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Bekijk het pakket in Windows Explorer.</Hyperlink><LineBreak/><Bold>Waarschuwingen:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Completato con {wno} avvisi in {0}.</Bold><LineBreak/>Dimensione del file contenitore: {1}. Rapporto di compressione: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Visualizza i file contenitore in Windows Explorer.</Hyperlink><LineBreak/><Bold>Avvisi:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Completado com {wno} avisos em {0}.</Bold><LineBreak/>Dimensão do ficheiro de pacote: {1}. Taxa de compressão: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Visualiza o ficheiro de pacote no explorador do Windows.</Hyperlink><LineBreak/><Bold>Avvisi:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Fullført med {wno} advarsler i {0}.</Bold><LineBreak/>Pakkefilstørrelse: {1}. Kompresjonsforhold: {2}%.<LineBreak/><Hyperlink Foreground='{fg}' Tag='pagfile'>Vis pakkefil i Windows Utforsker.</Hyperlink><LineBreak/><Bold>Advarsler:</Bold><LineBreak/>{w}]]></s>
+			</str>
+
+			<str resid="PTR_STEP_COMPLETED_VER" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Successfully completed in {0}.</Bold><LineBreak/>Package file contains {1} packets. {2} verified.]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Erfolgreich abgeschlossen in {0}.</Bold><LineBreak/>Die Paketdatei enthält {1} Pakete. {2} geprüft.]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Uspješno završeno u {0}.</Bold><LineBreak/>Datoteka paketa sadrži {1} paketa. {2} provjereno.]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Met succes voltooid in {0}.</Bold><LineBreak/>Pakket bestand bevat {1} pakketten. {2} gecontroleerd.]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Completo com sucesso in {0}.</Bold><LineBreak/>Il file  contenitore contiene {1} pacchetti. {2} verificati.]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Completado com sucesso em {0}.</Bold><LineBreak/>O ficheiro de pacote contém {1} pacotes. {2} verificados.]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Vellykket fullført i {0}.</Bold><LineBreak/>Pakkefil inneholder {1} pakke(r). {2} verifisert.]]></s>
+			</str>
+			<str resid="PTR_STEP_COMPLETED_VER_WARNINGS" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Completed with {wno} warnings in {0}.</Bold><LineBreak/>Package file contains {1} packets. {2} verified.<LineBreak/><Bold>Warnings:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Mit {wno} Warnungen abgeschlossen in {0}.</Bold><LineBreak/>Die Paketdatei enthält {1} Pakete. {2} geprüft.<LineBreak/><Bold>Warnungen:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Završeno s {wno} upozorenja u {0}.</Bold><LineBreak/>Datoteka paketa sadrži {1} paketa. {2} provjereno.<LineBreak/><Bold>Upozorenja:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Voltooid met {wno} waarschuwingen in {0}.</Bold><LineBreak/>kket bestand bevat{1} pakketten. {2} gecontroleerd.<LineBreak/><Bold>Waarschuwingen:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Completato con {wno} avvisi in {0}.</Bold><LineBreak/>Il file contenitore contiene {1} pacchetti. {2} verificati.<LineBreak/><Bold>Avvisi:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Completado com {wno} avvisos em {0}.</Bold><LineBreak/>O ficheiro de pacote contém {1} pacotes. {2} verificados.<LineBreak/><Bold>Avvisi:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Fullført med {wno} advarsler i {0}.</Bold><LineBreak/>Pakkefil inneholder {1} pakke(r). {2} verifisert.<LineBreak/><Bold>Advarsler:</Bold><LineBreak/>{w}]]></s>
+			</str>
+
+			<str resid="PTR_STEP_COMPLETED_RES" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Successfully completed in {0}.</Bold><LineBreak/>Package file contains {1} packets. {2} packet(s) skipped. {3} restored.]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Erfolgreich abgeschlossen in {0}.</Bold><LineBreak/>Die Paketdatei enthält {1} Pakete. {2} Paket(e) übersprungen. {3} wiederhergestellt.]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Uspješno završeno u {0}.</Bold><LineBreak/>Datoteka paketa sadrži {1} paketa. {2} paketa preskočeno. {3} obnovljeno.]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Met succes voltooid in {0}.</Bold><LineBreak/>Pakket bestand bevat {1} pakketten. {2} pakketten overgeslagen. {3} hersteld.]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Completato con successo in {0}.</Bold><LineBreak/>Il file  contenitore contiene {1} pacchetti. {2} pacchetti saltati. {3} ripristinati.]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Completado com successo em {0}.</Bold><LineBreak/>O ficheiro de pacote contém {1} pacotes. {2} pacotes saltados. {3} restaurados.]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Vellykket fullført i {0}.</Bold><LineBreak/>Pakkefil inneholder {1} pakke(r). {2} pakke(r) utelatt. {3} gjenopprettet.]]></s>
+			</str>
+			<str resid="PTR_STEP_COMPLETED_RES_WARNINGS" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Completed with {wno} warning(s) in {0}.</Bold><LineBreak/>Package file contains {1} packet(s). {2} packet(s) skipped. {3} restored.<LineBreak/><Bold>Warnings:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Mit {wno} Warnung(en) abgeschlossen in {0}.</Bold><LineBreak/>Die Paketdatei enthält {1} Paket(e). {2} Paket(e) übersprungen. {3} wiederhergestellt.<LineBreak/><Bold>Warnungen:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Završeno s {wno} upozorenja u {0}.</Bold><LineBreak/>Datoteka paketa sadrži {1} paketa. {2} paketa preskočeno. {3} obnovljeno.<LineBreak/><Bold>Upozorenja:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Voltooid met{wno} waarschuwingenin {0}.</Bold><LineBreak/>Pakketbestand bevat {1} pakketten. {2} pakketten overgeslagen. {3} hersteld.<LineBreak/><Bold>Waarschuwingen:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Completato con {wno} avvisi in {0}.</Bold><LineBreak/>Il file contenitore contiene {1} pacchetti. {2} pacchetti saltati. {3} ripristinati.<LineBreak/><Bold>Avvisi:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Completado com {wno} avisos em {0}.</Bold><LineBreak/>O ficheiro de pacote contém {1} pacotes. {2} pacotes saltados. {3} restaurados.<LineBreak/><Bold>Avvisi:</Bold><LineBreak/>{w}]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Fullført med {wno} advarsler i {0}.</Bold><LineBreak/>Pakkefil inneholder {1} pakke(r). {2} pakke(r) utelatt. {3} gjenopprettet.<LineBreak/><Bold>Advarsler:</Bold><LineBreak/>{w}]]></s>
+			</str>
+
+			<str resid="PTR_STEP_ABORTED" desc="">
+				<s xml:lang="en">Aborted by user.</s>
+				<s xml:lang="de">Durch den Benutzer abgebrochen.</s>
+				<s xml:lang="hr">Prekinuto od korisnika.</s>
+				<s xml:lang="nl">Afgebroken door gebruiker.</s>
+				<s xml:lang="it">Interrotto dall'utente.</s>
+				<s xml:lang="pt">Interrompido pelo utilizador.</s>
+				<s xml:lang="no">Avbrutt av bruker.</s>
+			</str>
+			<str resid="PTR_STEP_FAILED_PACK" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Failed after {0}.</Bold><LineBreak/>{err}<LineBreak/>See the <Hyperlink Foreground='{fg}' Tag='protfile'>protocol file</Hyperlink> for more information.]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Durch einen Fehler abgebrochen nach {0}.</Bold><LineBreak/>{err}<LineBreak/>Die <Hyperlink Foreground='{fg}' Tag='protfile'>Protokolldatei</Hyperlink> enthält weiterführende Informationen.]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Nije uspjelo nakon {0}.</Bold><LineBreak/>{err}<LineBreak/>Pogledaj <Hyperlink Foreground='{fg}' Tag='protfile'>datoteku protokola</Hyperlink> za više informacija.]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Afgebroken als gevolg van een fout na {0}.</Bold><LineBreak/>{err}<LineBreak/>Bekijk het <Hyperlink Foreground='{fg}' Tag='protfile'>protocol bestand</Hyperlink> voor meer informatie.]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Fallito dopo {0}.</Bold><LineBreak/>{err}<LineBreak/>Guarda il <Hyperlink Foreground='{fg}' Tag='protfile'>file protocollo</Hyperlink> per maggiori informazioni.]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Falhou após {0}.</Bold><LineBreak/>{err}<LineBreak/>Veja o <Hyperlink Foreground='{fg}' Tag='protfile'>protocolo do ficheiro</Hyperlink> para mais informação.]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Feilet etter {0}.</Bold><LineBreak/>{err}<LineBreak/>Se <Hyperlink Foreground='{fg}' Tag='protfile'>protokollfil</Hyperlink> for mer informasjon.]]></s>
+			</str>
+			<str resid="PTR_STEP_FAILED_VER" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Failed after {0}.</Bold><LineBreak/>{err}<LineBreak/>See the <Hyperlink Foreground='{fg}' Tag='protfile'>protocol file</Hyperlink> for more information.<LineBreak/><LineBreak/><Bold>The package file is damaged and must be replaced from a backup.</Bold>]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Durch einen Fehler abgebrochen nach {0}.</Bold><LineBreak/>{err}<LineBreak/>Die <Hyperlink Foreground='{fg}' Tag='protfile'>Protokolldatei</Hyperlink> enthält weiterführende Informationen.<LineBreak/><LineBreak/><Bold>Die Paketdatei ist beschädigt und muss durch eine Sicherheitskopie ersetzt werden.</Bold>]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Neuspješno {0}.</Bold><LineBreak/>{err}<LineBreak/>Pogledaj <Hyperlink Foreground='{fg}' Tag='protfile'>datoteku protokola</Hyperlink> za više informacija.<LineBreak/><LineBreak/><Bold>Datoteka paketa je oštećena i mora biti zamijenjena iz sigurnosne kopije.</Bold>]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Afgebroken als gevolg van een fout na {0}.</Bold><LineBreak/>{err}<LineBreak/>Bekijk het <Hyperlink Foreground='{fg}' Tag='protfile'>protocol bestand</Hyperlink> fvoor meer informatie.<LineBreak/><LineBreak/><Bold>het pakket bestand is beschadigd en moet worden vervangen door een backup.</Bold>]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Fallito dopo {0}.</Bold><LineBreak/>{err}<LineBreak/>Vedi il <Hyperlink Foreground='{fg}' Tag='protfile'>file protocollo</Hyperlink> per maggiori informazioni.<LineBreak/><LineBreak/><Bold>Il file contenitore  è danneggiato e deve essere sostituito da un backup.</Bold>]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Falha após {0}.</Bold><LineBreak/>{err}<LineBreak/>Veja o <Hyperlink Foreground='{fg}' Tag='protfile'>protocolo do ficheiro</Hyperlink> para mais informação.<LineBreak/><LineBreak/><Bold>O ficheiro de pacote está danificado e deve ser substítuido por uma cópia de segurança.</Bold>]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Feilet etter {0}.</Bold><LineBreak/>{err}<LineBreak/>Se <Hyperlink Foreground='{fg}' Tag='protfile'>protokollfil</Hyperlink> for mer informasjon.<LineBreak/><LineBreak/><Bold>Pakkefilen er skadet og må erstattes fra en sikkerhetskopi.</Bold>]]></s>
+			</str>
+			<str resid="PTR_STEP_FAILED_VER_FILENOTFOUND" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Failed after {0}.</Bold><LineBreak/>Package file not found or accessible<LineBreak/>See the <Hyperlink Foreground='{fg}' Tag='protfile'>protocol file</Hyperlink> for more information.]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Durch einen Fehler abgebrochen nach {0}.</Bold><LineBreak/>Paketdatei existiert nicht oder kann nicht geöffnet werden.<LineBreak/>Die <Hyperlink Foreground='{fg}' Tag='protfile'>Protokolldatei</Hyperlink> enthält weiterführende Informationen.]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Nespješno nakon {0}.</Bold><LineBreak/>Datoteka paketa nije pronađena ili joj se ne može pristupiti<LineBreak/>Pogledaj <Hyperlink Foreground='{fg}' Tag='protfile'>datoteku protokola</Hyperlink> za više informacija.]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Afgebroken als gevolg van een fout na {0}.</Bold><LineBreak/>Pakket bestand is niet gevonden of niet te openen.<LineBreak/>Bekijk het <Hyperlink Foreground='{fg}' Tag='protfile'>protocol bestand</Hyperlink> voor meer informatie.]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Fallito dopo {0}.</Bold><LineBreak/>File contenitore non trovato o non accessibile<LineBreak/>Vedi il <Hyperlink Foreground='{fg}' Tag='protfile'>file protocollo</Hyperlink> per maggiori informazioni.]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Falha após {0}.</Bold><LineBreak/>Pacote do ficheiro não foi encontrado ou está inacessível<LineBreak/>Veja o <Hyperlink Foreground='{fg}' Tag='protfile'>protocolo do ficheiro</Hyperlink> para mais informação.]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Feilet etter {0}.</Bold><LineBreak/>Pakkefilen eksisterer ikke eller er ikke tilgjengelig<LineBreak/>Se <Hyperlink Foreground='{fg}' Tag='protfile'>protokollfil</Hyperlink> for mer informasjon.]]></s>
+			</str>
+			<str resid="PTR_STEP_FAILED_RESTORE" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Failed after {0}.</Bold><LineBreak/>{err}<LineBreak/>See the <Hyperlink Foreground='{fg}' Tag='protfile'>protocol file</Hyperlink> for more information.]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Durch einen Fehler abgebrochen nach {0}.</Bold><LineBreak/>{err}<LineBreak/>Die <Hyperlink Foreground='{fg}' Tag='protfile'>Protokolldatei</Hyperlink> enthält weiterführende Informationen.]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Neuspješno nakon {0}.</Bold><LineBreak/>{err}<LineBreak/>Pogledaj <Hyperlink Foreground='{fg}' Tag='protfile'>datoteku protokola</Hyperlink> za više informacija.]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Afgebroken als gevolg van een fout na{0}.</Bold><LineBreak/>{err}<LineBreak/>Bekijk het <Hyperlink Foreground='{fg}' Tag='protfile'>protocol bestand</Hyperlink> voor meer informatie.]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Fallito dopo {0}.</Bold><LineBreak/>{err}<LineBreak/>Si veda il <Hyperlink Foreground='{fg}' Tag='protfile'>file protocollo</Hyperlink> per maggiori informazioni.]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Falha após {0}.</Bold><LineBreak/>{err}<LineBreak/>Veja o <Hyperlink Foreground='{fg}' Tag='protfile'>protocolo do ficheiro</Hyperlink> para mais informação.]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Feilet etter {0}.</Bold><LineBreak/>{err}<LineBreak/>Se <Hyperlink Foreground='{fg}' Tag='protfile'>protokollfil</Hyperlink> for mer informasjon.]]></s>
+			</str>
+
+			<str resid="PTR_STEP_PURGEDFILES" desc="">
+				<s xml:lang="en"><![CDATA[{0} old package file(s) purged.]]></s>
+				<s xml:lang="en"><![CDATA[{0} alte Paketdatei(en) entfernt.]]></s>
+				<s xml:lang="hr"><![CDATA[{0} starih datoteka paketa pročišćeno.]]></s>
+				<s xml:lang="nl"><![CDATA[{0} oude pakket bestand(-en) verwijderd.]]></s>
+				<s xml:lang="it"><![CDATA[{0} vecchi file contenitore cancellati.]]></s>
+				<s xml:lang="pt"><![CDATA[{0} ficheiros de pacote antigos cancelados.]]></s>
+				<s xml:lang="no"><![CDATA[{0} eldre pakkefil(er) fjernet.]]></s>
+			</str>
+
+			<str resid="PTR_STEP_PROTFILE" desc="">
+				<s xml:lang="en"><![CDATA[Protocol file written to <Hyperlink Foreground='{fg}' Tag='protfile'>{0}</Hyperlink>.]]></s>
+				<s xml:lang="de"><![CDATA[Protokolldatei gespeichert unter <Hyperlink Foreground='{fg}' Tag='protfile'>{0}</Hyperlink>.]]></s>
+				<s xml:lang="hr"><![CDATA[Datoteka protokola zapisana u <Hyperlink Foreground='{fg}' Tag='protfile'>{0}</Hyperlink>.]]></s>
+				<s xml:lang="nl"><![CDATA[Protocol bestand opgeslagen als <Hyperlink Foreground='{fg}' Tag='protfile'>{0}</Hyperlink>.]]></s>
+				<s xml:lang="it"><![CDATA[File protocollo scritto in <Hyperlink Foreground='{fg}' Tag='protfile'>{0}</Hyperlink>.]]></s>
+				<s xml:lang="pt"><![CDATA[Protocolo do ficheiro escrito em <Hyperlink Foreground='{fg}' Tag='protfile'>{0}</Hyperlink>.]]></s>
+				<s xml:lang="no"><![CDATA[Protokollfil skrevet til <Hyperlink Foreground='{fg}' Tag='protfile'>{0}</Hyperlink>.]]></s>
+			</str>
+			<str resid="PTR_STEP_PACKAGEFILE" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Package file name:</Bold> {0}]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Paketdateiname:</Bold> {0}]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Naziv datoteke paketa:</Bold> {0}]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Naam van het pakket bestand:</Bold> {0}]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Nome del file contenitore:</Bold> {0}]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Nome do ficheiro de pacote:</Bold> {0}]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Pakkefilnavn:</Bold> {0}]]></s>
+			</str>
+			<str resid="PTR_STEP_PURGIN" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Purging old packages...</Bold>]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Lösche alte Paketdateien...</Bold>]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Pročišćavanje starih paketa...</Bold>]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Verwijderen van oude pakket bestanden...</Bold>]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Eliminazione dei vecchi contenitori...</Bold>]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Eliminando velhos pacotes...</Bold>]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Fjerner eldre pakkefiler...</Bold>]]></s>
+			</str>
+
+			<str resid="PTR_STEP_PROCESSDBS" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Processing databases...</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Verarbeite Datenbanken...</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Obrada baza podfataka...</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Databases verwerken...</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Elaborazione database...</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Elaborando as bases de dados...</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Prosesserer databaser...</Bold><LineBreak/>{0}]]></s>
+			</str>
+			<str resid="PTR_STEP_SCANFOLDERS" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>These objects will be included in the package:</Bold><LineBreak/><Bold>&#160;&#160;Folders:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Diese Objekte werden gepackt:</Bold><LineBreak/><Bold>&#160;&#160;Verzeichnisse:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Ovi objekti će biti uključeni u paket:</Bold><LineBreak/><Bold>&#160;&#160;Mape:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Deze objecten zullen worden opgenomen in het pakket:</Bold><LineBreak/><Bold>&#160;&#160;Mappen:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Questi oggetti saranno inclusi nel contenitore:</Bold><LineBreak/><Bold>&#160;&#160;Cartelle:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Estes objectos serão incluidos no pacote:</Bold><LineBreak/><Bold>&#160;&#160;Pastas:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Disse objektene inkluderes i pakken:</Bold><LineBreak/><Bold>&#160;&#160;Mapper:</Bold><LineBreak/>{0}]]></s>
+			</str>
+			<str resid="PTR_STEP_SCANFOLDERS_FILES" desc="">
+				<s xml:lang="en"><![CDATA[<LineBreak/><Bold>&#160;&#160;Files:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="de"><![CDATA[<LineBreak/><Bold>&#160;&#160;Dateien:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="hr"><![CDATA[<LineBreak/><Bold>&#160;&#160;Datoteke:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="nl"><![CDATA[<LineBreak/><Bold>&#160;&#160;Bestanden:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="it"><![CDATA[<LineBreak/><Bold>&#160;&#160;File:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="pt"><![CDATA[<LineBreak/><Bold>&#160;&#160;Ficheiros:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="no"><![CDATA[<LineBreak/><Bold>&#160;&#160;Filer:</Bold><LineBreak/>{0}]]></s>
+			</str>
+			<str resid="PTR_STEP_SCANFOLDERS_DBS" desc="">
+				<s xml:lang="en"><![CDATA[<LineBreak/><Bold>&#160;&#160;Databases:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="de"><![CDATA[<LineBreak/><Bold>&#160;&#160;Datenbanken:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="hr"><![CDATA[<LineBreak/><Bold>&#160;&#160;Baze podataka:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="nl"><![CDATA[<LineBreak/><Bold>&#160;&#160;Databases:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="it"><![CDATA[<LineBreak/><Bold>&#160;&#160;Database:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="pt"><![CDATA[<LineBreak/><Bold>&#160;&#160;Bases de dados:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="no"><![CDATA[<LineBreak/><Bold>&#160;&#160;Databaser:</Bold><LineBreak/>{0}]]></s>
+			</str>
+			<str resid="PTR_STEP_SCANFOLDERS_PTS" desc="">
+				<s xml:lang="en"><![CDATA[<LineBreak/><Bold>&#160;&#160;Settings Database:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="de"><![CDATA[<LineBreak/><Bold>&#160;&#160;Einstellungsdatenbank:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="hr"><![CDATA[<LineBreak/><Bold>&#160;&#160;Baza podataka postavki:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="nl"><![CDATA[<LineBreak/><Bold>&#160;&#160;Instellingen database:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="it"><![CDATA[<LineBreak/><Bold>&#160;&#160;Impostazioni Database:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="pt"><![CDATA[<LineBreak/><Bold>&#160;&#160;Definições da base de dados:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="no"><![CDATA[<LineBreak/><Bold>&#160;&#160;Database for innstillinger:</Bold><LineBreak/>{0}]]></s>
+			</str>
+
+			<str resid="PTR_STEP_SCANFOLDERS_COMPLETE" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>{0}</Bold> files in <Bold>{1}</Bold> folders to process.<LineBreak/>Total data volume: <Bold>{2}</Bold>]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>{0}</Bold> Dateien in <Bold>{1}</Bold> Verzeichnissen zu verarbeiten.<LineBreak/>Gesamtdatenvolumen: <Bold>{2}</Bold>]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>{0}</Bold> datoteka u <Bold>{1}</Bold> mapa za obradu.<LineBreak/>Ukupan volumen podataka: <Bold>{2}</Bold>]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>{0}</Bold> bestanden in <Bold>{1}</Bold> mappen te verwerken.<LineBreak/>Totale bestandsomvang: <Bold>{2}</Bold>]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>{0}</Bold> file in <Bold>{1}</Bold> cartelle da elaborare.<LineBreak/>Volume totale dei dati: <Bold>{2}</Bold>]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>{0}</Bold> ficheiros em <Bold>{1}</Bold> pastas a processar.<LineBreak/>Volume total dos dados: <Bold>{2}</Bold>]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>{0}</Bold> filer i <Bold>{1}</Bold> mapper å prosessere.<LineBreak/>Totalt datavolum: <Bold>{2}</Bold>]]></s>
+			</str>
+			
+			<str resid="PTR_STEP_CACHE_INFO" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Cache-Files:</Bold><LineBreak/><Bold>{0}</Bold> Files. Data volumne: <Bold>{1}</Bold><LineBreak/>]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Cache-Dateien:</Bold><LineBreak/><Bold>{0}</Bold> Dateien. Datenvolumen: <Bold>{1}</Bold><LineBreak/>]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>datoteke međuspremnika:</Bold><LineBreak/><Bold>{0}</Bold> datoteka. Obujam podataka: <Bold>{1}</Bold><LineBreak/>]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Cache bestanden:</Bold><LineBreak/><Bold>{0}</Bold> bestanden. Bestandsomvang: <Bold>{1}</Bold><LineBreak/>]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>File cache:</Bold><LineBreak/><Bold>{0}</Bold> file. Volume dati: <Bold>{1}</Bold><LineBreak/>]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Ficheiros de cache:</Bold><LineBreak/><Bold>{0}</Bold> Ficheiros. Volume de dados: <Bold>{1}</Bold><LineBreak/>]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Cache-filer:</Bold><LineBreak/><Bold>{0}</Bold> filer. Datavolum: <Bold>{1}</Bold><LineBreak/>]]></s>
+			</str>
+
+			<str resid="PTR_STEP_TESTFILES" desc="">
+				<s xml:lang="en">Testing file access...</s>
+				<s xml:lang="de">Prüfe Dateizugriff...</s>
+				<s xml:lang="hr">Testiranje pristupa datoteci...</s>
+				<s xml:lang="en">Testen van de benaderbaarheid van het bestand...</s>
+				<s xml:lang="it">Test di accesso ai file...</s>
+				<s xml:lang="pt">Testando o acesso aos ficheiros...</s>
+				<s xml:lang="no">Tester filtilgang...</s>
+			</str>
+			<str resid="PTR_STEP_PACKFILES" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Packing files...</Bold>]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Packe Dateien...</Bold>]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Pakiranje datoteka...</Bold>]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Bestanden samenvoegen...</Bold>]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Impacchettamento file...</Bold>]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Ficheiros a processar...</Bold>]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Pakker filer...</Bold>]]></s>
+			</str>
+			<str resid="PTR_STEP_DBDIAG" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Running database diagnosis:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Datenbankdiagnose wird ausgeführt:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Izvršavanje dijagnostike baze podataka:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Database diagnose wordt uitgevoerd:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Diagnosi database in esecuzione:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Diagnóstico da base de dados em execução:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Kjører databasediagnose:</Bold><LineBreak/>{0}]]></s>
+			</str>
+			<str resid="PTR_STEP_DBCOMPACT" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Compacting and optimizing database:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Datenbankkomprimierung wird ausgeführt:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Sažimanje i optimiziranje baze podataka:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Comprimeren en analyseren van de database:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Compattazione e ottimizzazione del database:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Compactação e optimização da base de dados:</Bold><LineBreak/>{0}]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Komprimerer og optimerer database:</Bold><LineBreak/>{0}]]></s>
+			</str>
+			<str resid="PTR_STEP_VERIFYPACKAGE" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Verifying package...</Bold>]]></s>
+				<s xml:lang="en"><![CDATA[<Bold>Paketdatei wird überprüft...</Bold>]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Provjera paketa...</Bold>]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Controle van het pakket...</Bold>]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Verifica pacchetto...</Bold>]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Verificando o pacote...</Bold>]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Verifiserer pakkefil...</Bold>]]></s>
+			</str>
+			<str resid="PTR_STEP_PACKAGE_CONTENT_INFO" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Package Contents</Bold><LineBreak/><Bold>Folders:</Bold><LineBreak/>{0}<Bold>Databases:</Bold><LineBreak/>{1}<LineBreak/><Bold>Settings database</Bold>:<LineBreak/>{2}]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Paketdatei-Inhalte</Bold><LineBreak/><Bold>Verzeichnisse:</Bold><LineBreak/>{0}<Bold>Datenbanken:</Bold><LineBreak/>{1}<LineBreak/><Bold>Einstellungsdatenbank</Bold>:<LineBreak/>{2}]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Sadržaj paketa</Bold><LineBreak/><Bold>Mape:</Bold><LineBreak/>{0}<Bold>Baze podataka:</Bold><LineBreak/>{1}<LineBreak/><Bold>Baza podataka postavki</Bold>:<LineBreak/>{2}]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Inhoud van het pakket bestand</Bold><LineBreak/><Bold>Mappen:</Bold><LineBreak/>{0}<Bold>Databases:</Bold><LineBreak/>{1}<LineBreak/><Bold>Instellingen database</Bold>:<LineBreak/>{2}]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Contenuto del contenitore</Bold><LineBreak/><Bold>Cartelle:</Bold><LineBreak/>{0}<Bold>Database:</Bold><LineBreak/>{1}<LineBreak/><Bold>Impostazioni database</Bold>:<LineBreak/>{2}]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Conteúdo do pacote</Bold><LineBreak/><Bold>Pastas:</Bold><LineBreak/>{0}<Bold>Database:</Bold><LineBreak/>{1}<LineBreak/><Bold>Definições da base de dados</Bold>:<LineBreak/>{2}]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Innhold pakkefil</Bold><LineBreak/><Bold>Mapper:</Bold><LineBreak/>{0}<Bold>Databaser:</Bold><LineBreak/>{1}<LineBreak/><Bold>Database for innstillinger</Bold>:<LineBreak/>{2}]]></s>
+			</str>
+			<str resid="PTR_STEP_PACKAGE_CONTENT_NODB" desc="">
+				<s xml:lang="en"><![CDATA[None.]]></s>
+				<s xml:lang="de"><![CDATA[Keine.]]></s>
+				<s xml:lang="hr"><![CDATA[Ništa.]]></s>
+				<s xml:lang="nl"><![CDATA[Geen.]]></s>
+				<s xml:lang="it"><![CDATA[Nessuno.]]></s>
+				<s xml:lang="pt"><![CDATA[Nenhum.]]></s>
+				<s xml:lang="no"><![CDATA[Ingen.]]></s>
+			</str>
+
+			<str resid="PTR_STEP_PACKAGE_INFO" desc="">
+				<s xml:lang="en">Package created on {0} by {1}.</s>
+				<s xml:lang="de">Paket wurde erstellt am {0} durch {1}.</s>
+				<s xml:lang="hr">Paket stvoren na dan {0} od {1}.</s>
+				<s xml:lang="nl">Pakket samengesteld op {0} door {1}.</s>
+				<s xml:lang="it">Contenitore creato su {0} da {1}.</s>
+				<s xml:lang="pt">Pacote criado na {0} por {1}.</s>
+				<s xml:lang="no">Pakke opprettet {0} av {1}.</s>
+			</str>
+			<str resid="PTR_STEP_RESTOREPACKAGE_ORG" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Restoring Package file to original folders</Bold>.<LineBreak/>{0} with {1} packets.]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Paketdatei wird in die Originalverzeichnisse wiederhergestellt</Bold>.<LineBreak/>{0} mit {1} Paketen.]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Obnavljanje datoteke paketa u izvorne mape</Bold>.<LineBreak/>{0} s {1} paketa.]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Het pakket bestand wordt in de originele mappen teruggezet</Bold>.<LineBreak/>{0} met {1} pakketten.]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Ripristino del file contenitore originale nelle cartelle</Bold>.<LineBreak/>{0} con {1} pacchetti.]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Restaurando os ficheiros de pacote nas pastas originais</Bold>.<LineBreak/>{0} com {1} pacotes.]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Gjenoppretter pakkefil til opprinnelige mapper</Bold>.<LineBreak/>{0} med {1} pakker.]]></s>
+			</str>
+			<str resid="PTR_STEP_RESTOREPACKAGE_TO" desc="">
+				<s xml:lang="en"><![CDATA[<Bold>Restoring Package file to a different target folder</Bold>.<LineBreak/>{0} with {1} packets.<LineBreak/><Bold>Target folder</Bold>: <Hyperlink Foreground='{fg}' Tag='targetfolder'>{2}</Hyperlink>]]></s>
+				<s xml:lang="de"><![CDATA[<Bold>Paketdatei wird in ein anderes Verzeichniss wiederhergestellt</Bold>.<LineBreak/>{0} mit {1} Paketen.<LineBreak/><Bold>Zielverzeichnis</Bold>: <Hyperlink Foreground='{fg}' Tag='targetfolder'>{2}</Hyperlink>]]></s>
+				<s xml:lang="hr"><![CDATA[<Bold>Obnavljanje datoteke paketa u različitu ciljnu mapu</Bold>.<LineBreak/>{0} s {1} paketa.<LineBreak/><Bold>Ciljna mapa</Bold>: <Hyperlink Foreground='{fg}' Tag='targetfolder'>{2}</Hyperlink>]]></s>
+				<s xml:lang="nl"><![CDATA[<Bold>Het pakket bestand wordt in andere doelmappen teruggezet</Bold>.<LineBreak/>{0} met {1} packets.<LineBreak/><Bold>Doelmap</Bold>: <Hyperlink Foreground='{fg}' Tag='targetfolder'>{2}</Hyperlink>]]></s>
+				<s xml:lang="it"><![CDATA[<Bold>Ripristino del file contenitore in una cartella diversa</Bold>.<LineBreak/>{0} con {1} pacchetti.<LineBreak/><Bold>Cartella di destinazione</Bold>: <Hyperlink Foreground='{fg}' Tag='targetfolder'>{2}</Hyperlink>]]></s>
+				<s xml:lang="pt"><![CDATA[<Bold>Restaurando os ficheiros de pacote numa pasta diferente</Bold>.<LineBreak/>{0} com {1} pacotes.<LineBreak/><Bold>Pasta de destino</Bold>: <Hyperlink Foreground='{fg}' Tag='targetfolder'>{2}</Hyperlink>]]></s>
+				<s xml:lang="no"><![CDATA[<Bold>Gjenoppretter pakkefil til en annen målmappe</Bold>.<LineBreak/>{0} med {1} pakker.<LineBreak/><Bold>Målmappe</Bold>: <Hyperlink Foreground='{fg}' Tag='targetfolder'>{2}</Hyperlink>]]></s>
+			</str>
+		</string_group>
+
+
+		<string_group name="Error Messages" desc="">
+
+			<str resid="PTR_ERRMSG_FRM_FILETEST" desc="">
+				<s xml:lang="en">Error opening file {0}: {1}</s>
+				<s xml:lang="de">Fehler beim Öffnen der Datei {0}: {1}</s>
+				<s xml:lang="hr">Greška pri otvaranju datoteke {0}: {1}</s>
+				<s xml:lang="nl">Fout bij het opnen van bestand{0}: {1}</s>
+				<s xml:lang="it">Errore aprendo il file {0}: {1}</s>
+				<s xml:lang="pt">Erro ao abrir o ficheiro {0}: {1}</s>
+				<s xml:lang="no">Feil ved åpning av fil {0}: {1}</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_FILEADD" desc="">
+				<s xml:lang="en">Error adding file {0}: {1}</s>
+				<s xml:lang="de">Fehler beim Hinzufügen der Datei {0}: {1}</s>
+				<s xml:lang="hr">Greška pri dodavanju datoteke {0}: {1}</s>
+				<s xml:lang="nl">Fout bij het toevoegen van bestand{0}: {1}</s>
+				<s xml:lang="it">Errore aggiungendo file {0}: {1}</s>
+				<s xml:lang="pt">Erro ao acrescentar ficheiro {0}: {1}</s>
+				<s xml:lang="no">Kunne ikke legge til fil {0}: {1}</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_DATAADD" desc="">
+				<s xml:lang="en">Error adding data: {0}</s>
+				<s xml:lang="de">Fehler beim Hinzufügen von Daten: {0}</s>
+				<s xml:lang="hr">Greška pri dodavanju podataka: {0}</s>
+				<s xml:lang="nl">Fout bij het toeveogen van gegevens: {0}</s>
+				<s xml:lang="it">Errore aggiungendo dati: {0}</s>
+				<s xml:lang="pt">Erro ao acrescentar dados: {0}</s>
+				<s xml:lang="no">Kunne ikke legge til data: {0}</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_VERIFYFILE" desc="">
+				<s xml:lang="en">Verification of packet for file {0} failed.</s>
+				<s xml:lang="de">Fehler bei der Überprüfung des Pakets für die Datei {0}.</s>
+				<s xml:lang="hr">Provjera paketa za datoteku {0} neuspješna.</s>
+				<s xml:lang="nl">Fout bij de verificatie van het pakket voor bestand{0}.</s>
+				<s xml:lang="it">Verifica del pacchetto per il file {0} non riuscita.</s>
+				<s xml:lang="pt">Verificação para o ficheiro {0} não conseguida.</s>
+				<s xml:lang="no">Verifisering av pakke for fil {0} mislyktes.</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_VERIFYFILE_OPEN" desc="">
+				<s xml:lang="en">Verification failed. Cannot open package file.</s>
+				<s xml:lang="de">Überprüfung fehlgeschlagen. Die Paketdatei kann nicht geöffnet werden.</s>
+				<s xml:lang="hr">Provjera neuspješna. Nije moguće otvoriti datoteku paketa.</s>
+				<s xml:lang="nl">Verificatie mislukt. Het pakketbestand kan niet worden geopend.</s>
+				<s xml:lang="it">Verifica non riuscita. Impossibile aprire il file contenitore.</s>
+				<s xml:lang="pt">Verificação não conseguida. Impossível abrir o ficheiro.</s>
+				<s xml:lang="no">Verifisering mislyktes. Kan ikke åpne pakkefilen.</s>
+			</str>
+			<str resid="PTR_ERRMSG_ORIGINALDATA" desc="">
+				<s xml:lang="en">Cannot load original data record.</s>
+				<s xml:lang="de">Kann den Originaldatensatz nicht laden.</s>
+				<s xml:lang="hr">Nije moguće učitati izvorni zapis podataka.</s>
+				<s xml:lang="nl">Kan het oorspronkelijke gegevensrecord niet laden.</s>
+				<s xml:lang="it">Non è possibile caricare i record dati originale.</s>
+				<s xml:lang="pt">Não é possível carregar os registos de dados originais.</s>
+				<s xml:lang="no">Kan ikke laste originalt datasett.</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_RESTOREFILE" desc="">
+				<s xml:lang="en">Restore of packet for file {0} failed.</s>
+				<s xml:lang="de">Fehler bei der Wiederherstellung des Pakets für die Datei {0}.</s>
+				<s xml:lang="hr">Obnova paketa neuspješna za datoteku {0}.</s>
+				<s xml:lang="nl">Fout bij het herstellen van het pakket voor bestand{0}. </s>
+				<s xml:lang="it">Ripristino del pacchetto per il file {0} non riuscita.</s>
+				<s xml:lang="pt">Restauro do pacote para o ficheiro {0} não conseguida.</s>
+				<s xml:lang="no">Gjenoppretting av pakke for filen {0} mislyktes.</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_RESTOREFILE_CREATE" desc="">
+				<s xml:lang="en">Failed to create/replace file '{0}': {1}</s>
+				<s xml:lang="de">Fehler beim Erstellen/Überschreiben der Datei '{0}': {1}</s>
+				<s xml:lang="hr">Neuspješno stvaranje/zamjena datoteke '{0}': {1}</s>
+				<s xml:lang="nl">Fout bij het maken/vervangen van bestand '{0}': {1}</s>
+				<s xml:lang="it">Impossibile creare o sostituire file '{0}': {1}</s>
+				<s xml:lang="pt">Impossível criar ou substituir o ficheiro '{0}': {1}</s>
+				<s xml:lang="no">Kunne ikke opprette/erstatte filen '{0}': {1}</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_RESTOREFILE_OPEN" desc="">
+				<s xml:lang="en">Restore failed. Cannot open package file.</s>
+				<s xml:lang="de">Wiederherstellung fehlgeschlagen. Die Paketdatei kann nicht geöffnet werden.</s>
+				<s xml:lang="hr">Neuspješna obnova. Nije moguće otvoriti datoteku paketa.</s>
+				<s xml:lang="nl">Terugzetten is mislukt. Kan het pakket bestand niet openen.</s>
+				<s xml:lang="it">Ripristino non riuscito. Impossibile aprire il file di pacchetto.</s>
+				<s xml:lang="pt">Falha no restauro. Impossível abrir o respectivo ficheiro.</s>
+				<s xml:lang="no">Gjenoppretting mislyktes. Kan ikke åpne pakkefilen.</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_DBDIAG_FAILED" desc="">
+				<s xml:lang="en">Database diagnosis failed. See diagnosis log file for more info.</s>
+				<s xml:lang="de">Datenbakdiagnose fehlgeschlagen. Die Diagnose-Logdatei enthält weiterführende Informationen.</s>
+				<s xml:lang="hr">Dijagnostika baze podataka neuspješna. Pogledaj dijagnostičku datoteku zapisnika za više informacija.</s>
+				<s xml:lang="nl">Database diagnose mislukt. Kijk in het diagnose bestand voor meer informatie.</s>
+				<s xml:lang="it">Diagnosi database non riuscita. Vedere il file di log di diagnosi per più informazioni.</s>
+				<s xml:lang="pt">Falha no diagnóstico da base de dados. Veja o arquivo de registo do diagnóstico para mais informação.</s>
+				<s xml:lang="no">Diagnose for databasen feilet. Se loggfil for diagnose for mer informasjon.</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_DBOPEN" desc="">
+				<s xml:lang="en">Failed to open the database '{0}'. See the application log file for more info.</s>
+				<s xml:lang="de">Fehler beim Öffnen der Datenbank '{0}'. Das Anwendungsprotokoll enthält weiterführende Informationen.</s>
+				<s xml:lang="hr">Neuspješno otvaranje baze podataka '{0}'. Pogledaj aplikacijsku datoteku zapisnika za više informacija.</s>
+				<s xml:lang="nl">Fout bij het openen van database '{0}'. Bekijk de log file voor meer informatie.</s>
+				<s xml:lang="it">Impossibile aprire il database '{0}'. Vedere il file di registro applicazione per più informazioni.</s>
+				<s xml:lang="pt">Impossível abrir a base de dados '{0}'. Veja o arquivo de registo da aplicação para mais informação.</s>
+				<s xml:lang="no">Feil ved åpning av databasen '{0}'. Se loggfilen for mer informasjon.</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_DBPHYSDAMAGE" desc="">
+				<s xml:lang="en">Failed to open the database '{0}'. The database is PHYSICALLY damaged and has to be replaced from a working backup. See the application log file for more info.</s>
+				<s xml:lang="de">Fehler beim Öffnen der Datenbank '{0}'. Die Datenbankdatei auf dem Datenträger ist teilweise PHYSISCH zerstört und die Datenbank muss aus einem Backup wiederhergestellt werden. Das Anwendungsprotokoll enthält weiterführende Informationen.</s>
+				<s xml:lang="hr">Neuspješno otvaranje baze podataka '{0}'. Baza podataka je FIZIČKI oštećena i mora biti zamijenjena s ispravnm bazom podataka iz sigurnosne kopije. Pogledaj aplikacijsku datoteku zapisnika za više informacija.</s>
+				<s xml:lang="pt">Falha ao abrir a base de dados '{0}'. A base de dados está FÍSICAMENTE danificada e tem de ser substituída por uma cópia de segurança válida. Veja o arquivo de registo para mais informação.</s>
+				<s xml:lang="no">Feil ved åpning av databasen '{0}'. Databasen er FYSISK skadet og må erstattes fra en fungerende sikkerhetskopi. Se loggfilen for mer informasjon.</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_DBCOMACT_FAILED" desc="">
+				<s xml:lang="en">Failed to compact the database. See the application log file for more info.</s>
+				<s xml:lang="de">Fehler beim Komprimieren der Datenbank. Das Anwendungsprotokoll enthält weiterführende Informationen.</s>
+				<s xml:lang="hr">Neuspješno sažimanje baze podataka. Pogledaj aplikacijsku datoteku zapisnika za više informacija.</s>
+				<s xml:lang="nl">Fout bij het cpmprimeren van database '{0}'. Bekijk de log file voor meer informatie.</s>
+				<s xml:lang="it">Non è riuscito a compattare il database. Vedere il file di registro applicazione per più informazioni.</s>
+				<s xml:lang="pt">Falha ao compactar a base de dados. Ver o ficheiro de registo da aplicação para mais informação.</s>
+				<s xml:lang="no">Komprimering av databasen feilet. Se loggfilen for mer informasjon.</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_CREATEFOLDERFAILED" desc="">
+				<s xml:lang="en">Failed to create the folder '{0}'. Please check that the folder can be created on the media and that you have sufficient privileges to create folders and files.</s>
+				<s xml:lang="de">Fehler beim Erstellen des Verzeichnisses '{0}'. Stellen Sie sicher, dass Sie über ausreichende Berechtigungen zum Anlegen von Verzeichnissen und Dateien verfügen.</s>
+				<s xml:lang="hr">Nespješno stvaranje mape '{0}'. Provjeri da li mapa može biti stvorena na mediju i da li imaš dostatna prava da stavraš mape i datoteke.</s>
+				<s xml:lang="nl">Het maken van map '{0}' is mislukt. Controleer of u over voldoende rechten beschikt om mappen en bestanden te mogen maken.</s>
+				<s xml:lang="it">Impossibile creare la cartella '{0}'. Si prega di verificare che la cartella possa essere creata sui media e che si disponga di privilegi sufficienti per creare file e cartelle.</s>
+				<s xml:lang="pt">Impossível criar a pasta '{0}'. Por favor verifique se a pasta pode ser criada e que tem previlégios suficientes para criar pastas e ficheiros.</s>
+				<s xml:lang="no">Oppretting av mappen feilet '{0}'. Forsikre deg om at mappen kan opprettes på mediet og at du har tilstrekkelige rettigheter for å opprette mapper og filer.</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_EXTRACTFILEFAILED" desc="">
+				<s xml:lang="en">Failed to extract the file '{0}'.</s>
+				<s xml:lang="de">Fehler beim Erstellen der Datei '{0}'.</s>
+				<s xml:lang="hr">Neuspješno izdvajanje datoteke '{0}'.</s>
+				<s xml:lang="nl">Fout bij het uitpakken van het bestand '{0}'.</s>
+				<s xml:lang="it">Impossibile estrarre il file. '{0}'.</s>
+				<s xml:lang="pt">Impossível extrair o ficheiro '{0}'.</s>
+				<s xml:lang="no">Feil ved utpakking av fil '{0}'.</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_SHARINGVIOLATION" desc="">
+				<s xml:lang="en">The file is already open in another application.</s>
+				<s xml:lang="de">Die Datei wird von einer anderen Anwendung verwendet.</s>
+				<s xml:lang="hr">Datoteka je otvorena u drugoj aplikaciji.</s>
+				<s xml:lang="nl">Het bestand wordt door een andere toepassing gebruikt.</s>
+				<s xml:lang="it">Il file è già aperto in un'altra applicazione.</s>
+				<s xml:lang="pt">O ficheiro já está aberto noutra aplicação.</s>
+				<s xml:lang="no">Filen er allerede åpen i en annen applikasjon.</s>
+			</str>
+			<str resid="PTR_ERRMSG_FRM_CHECKSUMERROR" desc="">
+				<s xml:lang="en">Check-sum error.</s>
+				<s xml:lang="de">Prüfsummenfehler.</s>
+				<s xml:lang="hr">Greška u kontrolnom zbroju.</s>
+				<s xml:lang="nl">Fout in de check-sum.</s>
+				<s xml:lang="it">Errore di Check-sum.</s>
+				<s xml:lang="pt">Check-sum erro.</s>
+				<s xml:lang="no">Check-sum feil.</s>
+			</str>
+
+			<str resid="PTR_ERRMSG_UNKNOWN" desc="">
+				<s xml:lang="en">Unknown error ({0}).</s>
+				<s xml:lang="de">Unbekannter Fehler ({0}).</s>
+				<s xml:lang="hr">Nepoznata greška ({0}).</s>
+				<s xml:lang="nl">Onbekende fout({0}).</s>
+				<s xml:lang="it">Errore sconosciuto ({0}).</s>
+				<s xml:lang="pt">Erro desconhecido ({0}).</s>
+				<s xml:lang="no">Ukjent feil ({0}).</s>
+			</str>
+			
+			<str resid="PTR_ERRMSG_USERABORT" desc="">
+				<s xml:lang="en">Aborted by user.</s>
+				<s xml:lang="de">Durch den Anwender abgebrochen.</s>
+				<s xml:lang="hr">Prekinuto od korisnika.</s>
+				<s xml:lang="nl">Afgebroken door gebruiker.</s>
+				<s xml:lang="it">Interrotto dall'utente.</s>
+				<s xml:lang="pt">Interrompido pelo utilizador.</s>
+				<s xml:lang="no">Avbrutt av bruker.</s>
+			</str>
+
+			<str resid="PTR_ERRMSG_FILEFORMAT" desc="">
+				<s xml:lang="en">Unknown package format or package damaged.</s>
+				<s xml:lang="de">Unbekanntes Paketformat oder Paketdatei beschädigt.</s>
+				<s xml:lang="hr">Nepoznati format ili oštećenje paketa.</s>
+				<s xml:lang="nl">Onbekend pakket-bestandsformaat of pakket; bestand is beschadigd.</s>
+				<s xml:lang="it">Formato del contenitore sconosciuto o contenitore danneggiato.</s>
+				<s xml:lang="pt">Formato do pacote desconhecido ou danificado.</s>
+				<s xml:lang="no">Ukjent format eller pakkefilen er skadet.</s>
+			</str>
+			
+			<str resid="PTR_ERRMSG_PAKETFORMAT" desc="">
+				<s xml:lang="en">Unknown packet format, package file is corrupted.</s>
+				<s xml:lang="de">Unbekanntes Paketformat, die Paketdatei ist beschädigt.</s>
+				<s xml:lang="hr">Nepoznati format paketa ili oštećenje datoteke paketa.</s>
+				<s xml:lang="nl">Onbekend pakket-bestandsformaat, het pakket bestand is beschadigd.</s>
+				<s xml:lang="it">Formato sconosciuto del contenitore, il file è danneggiato.</s>
+				<s xml:lang="pt">Formato desconhecido do pacote, o ficheiro está danificado.</s>
+				<s xml:lang="no">Ukjent format, pakkefilen er korrupt.</s>
+			</str>
+			<str resid="PTR_ERRMSG_READERROR" desc="">
+				<s xml:lang="en">Error reading data from file.</s>
+				<s xml:lang="de">Fehler beim Lesen von Daten aus einer Datei.</s>
+				<s xml:lang="hr">Greška pri čitanju datoteke.</s>
+				<s xml:lang="nl">Fout bij het lezen van gegevens uit het bestand.</s>
+				<s xml:lang="it">Errore di lettura dei dati dal file.</s>
+				<s xml:lang="pt">Erro ao ler dados do ficheiro.</s>
+				<s xml:lang="no">Feil ved lesing av data fra filen.</s>
+			</str>
+			<str resid="PTR_ERRMSG_WRITEERROR" desc="">
+				<s xml:lang="en">Error writing data to file.</s>
+				<s xml:lang="de">Fehler beim Schreiben von Daten in eine Datei.</s>
+				<s xml:lang="hr">Greška pri pisanju datoteke.</s>
+				<s xml:lang="nl">Fout bij het schrijven van gegevens naar het bestand.</s>
+				<s xml:lang="it">Errore di scrittura dei dati nel file.</s>
+				<s xml:lang="pt">Erro de escrita de dados no ficheiro.</s>
+				<s xml:lang="no">Feil ved skriving av data til filen.</s>
+			</str>
+			<str resid="PTR_ERRMSG_DISKFULL" desc="">
+				<s xml:lang="en">Insufficient disk space.</s>
+				<s xml:lang="de">Nicht genügend Speicherplatz auf dem Datenträger.</s>
+				<s xml:lang="hr">Nedovoljno prostora na disku.</s>
+				<s xml:lang="nl">Onvoldoende schijfruimte.</s>
+				<s xml:lang="it">Spazio su disco insufficiente.</s>
+				<s xml:lang="pt">Insuficiente espaço em disco.</s>
+				<s xml:lang="no">For lite diskplass.</s>
+			</str>
+			<str resid="PTR_ERRMSG_SEEKERROR" desc="">
+				<s xml:lang="en">Seek error while accessing file.</s>
+				<s xml:lang="de">Positionierungsfehler beim Zugriff auf eine Datei.</s>
+				<s xml:lang="hr">Greška pri pretraživanju datoteke.</s>
+				<s xml:lang="nl">Fout bij het zoeken van/naar een bestand.</s>
+				<s xml:lang="it">Errore di ricercare durante l'accesso al file.</s>
+				<s xml:lang="pt">Erro de procura durante o acesso ao ficheiro.</s>
+				<s xml:lang="no">Feil ved søking i/tilgang til fil.</s>
+			</str>
+			<str resid="PTR_ERRMSG_CREATEFILE" desc="">
+				<s xml:lang="en">Error creating a file. Make sure you have write access to the media and folder.</s>
+				<s xml:lang="de">Fehler beim Erstellen einer Datei. Stellen Sie sicher, dass Sie über ausreichende Berechtigungen verfügen.</s>
+				<s xml:lang="hr">Greška pri stvaranju datoteke. Provjeri korisnička prava medija i mape.</s>
+				<s xml:lang="nl">Fout bij aanmakane van een bestand. Zorg ervoor dat u voldoende schrijfrechten heeft.</s>
+				<s xml:lang="it">Errore durante la creazione di un file. Assicurarsi di avere i diritti di accesso in scrittura per i media e la cartella.</s>
+				<s xml:lang="pt">Erro durante a criação de um ficheiro. Assegure-se que tem direitos de escrita para os dados e pasta.</s>
+				<s xml:lang="no">Feil ved oppretting av fil. Forsikre deg om at du har skrivetilgang til media og katalog.</s>
+			</str>
+			<str resid="PTR_ERRMSG_OPENFILE" desc="">
+				<s xml:lang="en">Error opening a file. Make sure you have read access to the media and folder.</s>
+				<s xml:lang="de">Fehler beim Öffnen einer Datei. Stellen Sie sicher, dass Sie über ausreichende Berechtigungen verfügen.</s>
+				<s xml:lang="hr">Greška pri otvaranju datoteke. Provjeri korisnička prava medija i mape.</s>
+				<s xml:lang="nl">Fout bij het openen van een bestand. Zorg ervoor dat u voldoende leesrechten heeft.</s>
+				<s xml:lang="it">Errore durante l'apertura di un file. Assicurarsi di avere i diritti di accesso in lettura per i media e la cartella.</s>
+				<s xml:lang="pt">Erro ao abrir o ficheiro. Assegure-se que tem direitos de leitura para os dados e pasta.</s>
+				<s xml:lang="no">Feil ved åpning av fil. Forsikre deg om at du har lesetilgang til media og mappe.</s>
+			</str>
+			<str resid="PTR_ERRMSG_SHARINGVIOLATION" desc="">
+				<s xml:lang="en">The file is already open and locked by another application.</s>
+				<s xml:lang="de">Die Datei wird bereits von einer anderen Anwendung verwendet.</s>
+				<s xml:lang="hr">Datoteke je već otvorena i zaključana u drugoj aplikaciji.</s>
+				<s xml:lang="nl">Het bestand wordt door een andere toepassing gebruikt.</s>
+				<s xml:lang="it">Il file è già aperto e bloccato da un'altra applicazione.</s>
+				<s xml:lang="pt">O ficheiro já está aberto e bloqueado por outra aplicação.</s>
+				<s xml:lang="no">Filen er allerede åpnet og låst av en annen applikasjon.</s>
+			</str>
+			<str resid="PTR_ERRMSG_FILESYSTEM" desc="">
+				<s xml:lang="en">File system error.</s>
+				<s xml:lang="de">Fehler beim Zugriff auf das Dateisystem.</s>
+				<s xml:lang="hr">Greška datotečnog sistema.</s>
+				<s xml:lang="nl">Fout in het bestandssysteem.</s>
+				<s xml:lang="it">Errore del file system.</s>
+				<s xml:lang="pt">Erro do sistema de arquivos.</s>
+				<s xml:lang="no">Feil i filsystemet.</s>
+			</str>
+			<str resid="PTR_ERRMSG_COMPRESSION" desc="">
+				<s xml:lang="en">Error while compressing or de-compressing data.</s>
+				<s xml:lang="de">Fehler beim Komprimieren oder Dekomprimieren von Daten.</s>
+				<s xml:lang="hr">Greška pri sažimanju ili dekompresiji podataka.</s>
+				<s xml:lang="nl">Fout tijdens het comprimeren of decomprimeren van gegevens.</s>
+				<s xml:lang="it">Errore durante la compressione o de-compressione dei dati.</s>
+				<s xml:lang="pt">Erro durante a compressão ou descompressão dos dados.</s>
+				<s xml:lang="no">Feil ved komprimering eller dekomprimering av data.</s>
+			</str>
+			<str resid="PTR_ERRMSG_CHECKSUM" desc="">
+				<s xml:lang="en">Check-sum error.</s>
+				<s xml:lang="de">Prüfsummenfehler.</s>
+				<s xml:lang="hr">Greška kontrolnog zbroja.</s>
+				<s xml:lang="nl">Fout in de check-sum.</s>
+				<s xml:lang="it">Errore di check-sum.</s>
+				<s xml:lang="pt">Check-sum erro.</s>
+				<s xml:lang="no">Check-sum feil.</s>
+			</str>
+
+			<str resid="PTR_ERRMSG_FRM_TARGETFOLDERACCESSFAILED" desc="">
+				<s xml:lang="en">Cannot create or access the target folder {0}</s>
+				<s xml:lang="de">Das Ausgabeverzeichnis {0} kann nicht erstellt werden oder der Zugriff darauf wurde verweigert.</s>
+				<s xml:lang="hr">Nije moguće stvoriti ili pristupiti ciljnoj mapi {0}</s>
+				<s xml:lang="pt">Impossível criar ou aceder á pasta de destino {0}</s>
+				<s xml:lang="no">Kan ikke opprette eller få adgang til målmappen {0}</s>
+			</str>
+
+		</string_group>
+
+
+		<!-- These are stock messages by the Microsoft framework we need to translate -->
+
+		<string_group name="AfxMsg" desc="Replacements for framework messages">
+			<str resid="AFX_IDS_IDLEMESSAGE" desc="">
+				<s xml:lang="en">For Help, press F1</s>
+				<s xml:lang="no">Trykk F1 for hjelp</s>
+				<s xml:lang="de">Drücken Sie F1 für Hilfe</s>
+				<s xml:lang="fi">Valitse F1 avataksesi ohjeen</s>
+				<s xml:lang="nl">Druk op F1 voor Help</s>
+				<s xml:lang="pt">Para Ajuda, prima F1</s>
+				<s xml:lang="hr">Za pomoć, pritisni F1</s>
+				<s xml:lang="fr">Pour l'Aide, pressez F1</s>
+				<s xml:lang="it">Per l'Aiuto, premere F1</s>
+			</str>
+			<str resid="AFX_IDS_HELPMODEMESSAGE" desc="">
+				<s xml:lang="en">Select an object on which to get Help</s>
+				<s xml:lang="no">Velg et objekt der du skal få hjelp</s>
+				<s xml:lang="de">Klicken Sie auf das Element, zu dem Sie Hilfe wünschen</s>
+				<s xml:lang="fi">Valitse kohde, johon liittyvän ohjeen haluat avata</s>
+				<s xml:lang="nl">Klik op het element waar u hulp voor wenst te ontvangen</s>
+				<s xml:lang="pt">Seleccione um objecto sobre o qual pretende obter Ajuda</s>
+				<s xml:lang="hr">Izaberi objekt za koji želiš pomoć</s>
+				<s xml:lang="fr">Sélectionnez un objet pour obtenir une aide spécifique</s>
+				<s xml:lang="it">Selezionare un oggetto sul quale ottenere Aiuto</s>
+			</str>
+			<str resid="ID_HELP_USING" desc="">
+				<s xml:lang="en">Display instructions about how to use help</s>
+				<s xml:lang="no">Vise instruksjoner om hvordan du bruker hjelp</s>
+				<s xml:lang="de">Hilfe zur Hilfe</s>
+				<s xml:lang="fi">Ohje kuinka käytetään ohjetta</s>
+				<s xml:lang="nl">Hoe Help te gebruiken?</s>
+				<s xml:lang="pt">Mostrar instruções sobre como utilizar a Ajuda</s>
+				<s xml:lang="hr">Prikaži upute o tome kako koristiti pomoć</s>
+				<s xml:lang="fr">Afficher les instructions pour utiliser l'Aide</s>
+				<s xml:lang="it">Visualizza le istruzioni su come usare l'Aiuto</s>
+			</str>
+
+			<!-- MRU file list -->
+
+			<str resid="ID_FILE_MRU_FILE1" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE2" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE3" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE4" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE5" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE6" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE7" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE8" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE9" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE10" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE11" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE12" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE13" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE14" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE15" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+			<str resid="ID_FILE_MRU_FILE16" desc="">
+				<s xml:lang="en">Open this database</s>
+				<s xml:lang="no">Åpne denne databasen</s>
+				<s xml:lang="de">Diese Datenbank öffnen</s>
+				<s xml:lang="fi">Avaa tietokanta</s>
+				<s xml:lang="nl">Deze database openen</s>
+				<s xml:lang="pt">Abrir esta base de dados</s>
+				<s xml:lang="hr">Otvori bazu podataka</s>
+				<s xml:lang="fr">Ouvrir cette Base de Données</s>
+				<s xml:lang="it">Apri questo database</s>
+			</str>
+
+			<str resid="AFX_IDS_APP_TITLE" desc="">
+				<s xml:lang="en">IMatch</s>
+				<s xml:lang="nl">IMatch</s>
+				<s xml:lang="pt">IMatch</s>
+				<s xml:lang="de">IMatch</s>
+				<s xml:lang="hr">IMatch</s>
+				<s xml:lang="fr">IMatch</s>
+				<s xml:lang="fi">IMatch</s>
+				<s xml:lang="it">IMatch</s>
+				<s xml:lang="no">IMatch</s>
+			</str>
+
+			<!-- Indicators -->
+
+			<str resid="ID_INDICATOR_EXT" desc="">
+				<s xml:lang="en">EXT</s>
+				<s xml:lang="de">EXT</s>
+				<s xml:lang="nl">EXT</s>
+				<s xml:lang="pt">EXT</s>
+				<s xml:lang="hr">EXT</s>
+				<s xml:lang="fr">EXT</s>
+				<s xml:lang="it">EXT</s>
+				<s xml:lang="no">EXT</s>
+			</str>
+			<str resid="ID_INDICATOR_CAPS" desc="">
+				<s xml:lang="en">CAPS</s>
+				<s xml:lang="de">UMSCH</s>
+				<s xml:lang="nl">CAPS</s>
+				<s xml:lang="pt">CAPS</s>
+				<s xml:lang="hr">CAPS</s>
+				<s xml:lang="fr">MAJ</s>
+				<s xml:lang="fi">Vaihto</s>
+				<s xml:lang="it">Maiusc</s>
+				<s xml:lang="no">CAPS</s>
+			</str>
+			<str resid="ID_INDICATOR_NUM" desc="">
+				<s xml:lang="en">NUM</s>
+				<s xml:lang="de">NUM</s>
+				<s xml:lang="nl">NUM</s>
+				<s xml:lang="pt">NUM</s>
+				<s xml:lang="hr">NUM</s>
+				<s xml:lang="fr">NUM</s>
+				<s xml:lang="fi">NUM</s>
+				<s xml:lang="it">NUM</s>
+				<s xml:lang="no">NUM</s>
+			</str>
+			<str resid="ID_INDICATOR_SCRL" desc="">
+				<s xml:lang="en">SCRL</s>
+				<s xml:lang="de">BILD</s>
+				<s xml:lang="nl">SCRL</s>
+				<s xml:lang="pt">SCRL</s>
+				<s xml:lang="hr">SCRL</s>
+				<s xml:lang="fr">SCRL</s>
+				<s xml:lang="fi">VIER</s>
+				<s xml:lang="it">SCRL</s>
+				<s xml:lang="no">SCRL</s>
+			</str>
+			<str resid="ID_INDICATOR_OVR" desc="">
+				<s xml:lang="en">OVR</s>
+				<s xml:lang="de">ÜBER</s>
+				<s xml:lang="nl">OVR</s>
+				<s xml:lang="pt">OVR</s>
+				<s xml:lang="hr">OVR</s>
+				<s xml:lang="fr">OVR</s>
+				<s xml:lang="fi">YLI</s>
+				<s xml:lang="it">OVR</s>
+				<s xml:lang="no">OVR</s>
+			</str>
+			<str resid="ID_INDICATOR_REC" desc="">
+				<s xml:lang="en">REC</s>
+				<s xml:lang="de">AUFN</s>
+				<s xml:lang="nl">REC</s>
+				<s xml:lang="pt">REC</s>
+				<s xml:lang="hr">REC</s>
+				<s xml:lang="fr">REC</s>
+				<s xml:lang="fi">REC</s>
+				<s xml:lang="it">REC</s>
+				<s xml:lang="no">REC</s>
+			</str>
+		</string_group>
+	</string_table>
+
+	<!-- This is a list of countries used in various parts of the application -->
+    <!-- Use use the ISO 3166-1 -->
+    <locale_data>
+        <country_table>
+            <c a2="AF" nc="004" a3="AFG"><n xml:lang="en">Afghanistan</n></c>
+            <c a2="AX" nc="248" a3="ALA"><n xml:lang="en">Aland Islands</n></c>
+            <c a2="AL" nc="008" a3="ALB"><n xml:lang="en">Albania</n></c>
+            <c a2="DZ" nc="012" a3="DZA"><n xml:lang="en">Algeria</n></c>
+            <c a2="AS" nc="016" a3="ASM"><n xml:lang="en">American Samoa</n></c>
+            <c a2="AD" nc="020" a3="AND"><n xml:lang="en">Andorra</n></c>
+            <c a2="AO" nc="024" a3="AGO"><n xml:lang="en">Angola</n></c>
+            <c a2="AI" nc="660" a3="AIA"><n xml:lang="en">Anguilla</n></c>
+            <c a2="AQ" nc="010" a3="ATA"><n xml:lang="en">Antarctica</n></c>
+            <c a2="AG" nc="028" a3="ATG"><n xml:lang="en">Antigua and Barbuda</n></c>
+            <c a2="AR" nc="032" a3="ARG"><n xml:lang="en">Argentina</n></c>
+            <c a2="AM" nc="051" a3="ARM"><n xml:lang="en">Armenia</n></c>
+            <c a2="AW" nc="533" a3="ABW"><n xml:lang="en">Aruba</n></c>
+            <c a2="AU" nc="036" a3="AUS"><n xml:lang="en">Australia</n></c>
+            <c a2="AT" nc="040" a3="AUT"><n xml:lang="en">Austria</n></c>
+            <c a2="AZ" nc="031" a3="AZE"><n xml:lang="en">Azerbaijan</n></c>
+            <c a2="BS" nc="044" a3="BHS"><n xml:lang="en">Bahamas</n></c>
+            <c a2="BH" nc="048" a3="BHR"><n xml:lang="en">Bahrain</n></c>
+            <c a2="BD" nc="050" a3="BGD"><n xml:lang="en">Bangladesh</n></c>
+            <c a2="BB" nc="052" a3="BRB"><n xml:lang="en">Barbados</n></c>
+            <c a2="BY" nc="112" a3="BLR"><n xml:lang="en">Belarus</n></c>
+            <c a2="BE" nc="056" a3="BEL"><n xml:lang="en">Belgium</n></c>
+            <c a2="BZ" nc="084" a3="BLZ"><n xml:lang="en">Belize</n></c>
+            <c a2="BJ" nc="204" a3="BEN"><n xml:lang="en">Benin</n></c>
+            <c a2="BM" nc="060" a3="BMU"><n xml:lang="en">Bermuda</n></c>
+            <c a2="BT" nc="064" a3="BTN"><n xml:lang="en">Bhutan</n></c>
+            <c a2="BO" nc="068" a3="BOL"><n xml:lang="en">Bolivia, Plurinational State of</n></c>
+            <c a2="BA" nc="070" a3="BIH"><n xml:lang="en">Bosnia and Herzegovina</n></c>
+            <c a2="BW" nc="072" a3="BWA"><n xml:lang="en">Botswana</n></c>
+            <c a2="BV" nc="074" a3="BVT"><n xml:lang="en">Bouvet Island</n></c>
+            <c a2="BR" nc="076" a3="BRA"><n xml:lang="en">Brazil</n></c>
+            <c a2="IO" nc="086" a3="IOT"><n xml:lang="en">British Indian Ocean Territory</n></c>
+            <c a2="BN" nc="096" a3="BRN"><n xml:lang="en">Brunei Darussalam</n></c>
+            <c a2="BG" nc="100" a3="BGR"><n xml:lang="en">Bulgaria</n></c>
+            <c a2="BF" nc="854" a3="BFA"><n xml:lang="en">Burkina Faso</n></c>
+            <c a2="BI" nc="108" a3="BDI"><n xml:lang="en">Burundi</n></c>
+            <c a2="KH" nc="116" a3="KHM"><n xml:lang="en">Cambodia</n></c>
+            <c a2="CM" nc="120" a3="CMR"><n xml:lang="en">Cameroon</n></c>
+            <c a2="CA" nc="124" a3="CAN"><n xml:lang="en">Canada</n></c>
+            <c a2="CV" nc="132" a3="CPV"><n xml:lang="en">Cape Verde</n></c>
+            <c a2="KY" nc="136" a3="CYM"><n xml:lang="en">Cayman Islands</n></c>
+            <c a2="CF" nc="140" a3="CAF"><n xml:lang="en">Central African Republic</n></c>
+            <c a2="TD" nc="148" a3="TCD"><n xml:lang="en">Chad</n></c>
+            <c a2="CL" nc="152" a3="CHL"><n xml:lang="en">Chile</n></c>
+            <c a2="CN" nc="156" a3="CHN"><n xml:lang="en">China</n></c>
+            <c a2="CX" nc="162" a3="CXR"><n xml:lang="en">Christmas Island</n></c>
+            <c a2="CC" nc="166" a3="CCK"><n xml:lang="en">Cocos (Keeling) Islands</n></c>
+            <c a2="CO" nc="170" a3="COL"><n xml:lang="en">Colombia</n></c>
+            <c a2="KM" nc="174" a3="COM"><n xml:lang="en">Comoros</n></c>
+            <c a2="CG" nc="178" a3="COG"><n xml:lang="en">Congo</n></c>
+            <c a2="CD" nc="180" a3="COD"><n xml:lang="en">Congo, the Democratic Republic of the</n></c>
+            <c a2="CK" nc="184" a3="COK"><n xml:lang="en">Cook Islands</n></c>
+            <c a2="CR" nc="188" a3="CRI"><n xml:lang="en">Costa Rica</n></c>
+            <c a2="CI" nc="384" a3="CIV"><n xml:lang="en">Cote d'Ivoire ! Côte d'Ivoire</n></c>
+            <c a2="HR" nc="191" a3="HRV"><n xml:lang="en">Croatia</n></c>
+            <c a2="CU" nc="192" a3="CUB"><n xml:lang="en">Cuba</n></c>
+            <c a2="CY" nc="196" a3="CYP"><n xml:lang="en">Cyprus</n></c>
+            <c a2="CZ" nc="203" a3="CZE"><n xml:lang="en">Czech Republic</n></c>
+            <c a2="DK" nc="208" a3="DNK"><n xml:lang="en">Denmark</n></c>
+            <c a2="DJ" nc="262" a3="DJI"><n xml:lang="en">Djibouti</n></c>
+            <c a2="DM" nc="212" a3="DMA"><n xml:lang="en">Dominica</n></c>
+            <c a2="DO" nc="214" a3="DOM"><n xml:lang="en">Dominican Republic</n></c>
+            <c a2="EC" nc="218" a3="ECU"><n xml:lang="en">Ecuador</n></c>
+            <c a2="EG" nc="818" a3="EGY"><n xml:lang="en">Egypt</n></c>
+            <c a2="SV" nc="222" a3="SLV"><n xml:lang="en">El Salvador</n></c>
+            <c a2="GQ" nc="226" a3="GNQ"><n xml:lang="en">Equatorial Guinea</n></c>
+            <c a2="ER" nc="232" a3="ERI"><n xml:lang="en">Eritrea</n></c>
+            <c a2="EE" nc="233" a3="EST"><n xml:lang="en">Estonia</n></c>
+            <c a2="ET" nc="231" a3="ETH"><n xml:lang="en">Ethiopia</n></c>
+            <c a2="FK" nc="238" a3="FLK"><n xml:lang="en">Falkland Islands (Malvinas)</n></c>
+            <c a2="FO" nc="234" a3="FRO"><n xml:lang="en">Faroe Islands</n></c>
+            <c a2="FJ" nc="242" a3="FJI"><n xml:lang="en">Fiji</n></c>
+            <c a2="FI" nc="246" a3="FIN"><n xml:lang="en">Finland</n></c>
+            <c a2="FR" nc="250" a3="FRA"><n xml:lang="en">France</n></c>
+            <c a2="GF" nc="254" a3="GUF"><n xml:lang="en">French Guiana</n></c>
+            <c a2="PF" nc="258" a3="PYF"><n xml:lang="en">French Polynesia</n></c>
+            <c a2="TF" nc="260" a3="ATF"><n xml:lang="en">French Southern Territories</n></c>
+            <c a2="GA" nc="266" a3="GAB"><n xml:lang="en">Gabon</n></c>
+            <c a2="GM" nc="270" a3="GMB"><n xml:lang="en">Gambia</n></c>
+            <c a2="GE" nc="268" a3="GEO"><n xml:lang="en">Georgia</n></c>
+            <c a2="DE" nc="276" a3="DEU"><n xml:lang="en">Germany</n></c>
+            <c a2="GH" nc="288" a3="GHA"><n xml:lang="en">Ghana</n></c>
+            <c a2="GI" nc="292" a3="GIB"><n xml:lang="en">Gibraltar</n></c>
+            <c a2="GR" nc="300" a3="GRC"><n xml:lang="en">Greece</n></c>
+            <c a2="GL" nc="304" a3="GRL"><n xml:lang="en">Greenland</n></c>
+            <c a2="GD" nc="308" a3="GRD"><n xml:lang="en">Grenada</n></c>
+            <c a2="GP" nc="312" a3="GLP"><n xml:lang="en">Guadeloupe</n></c>
+            <c a2="GU" nc="316" a3="GUM"><n xml:lang="en">Guam</n></c>
+            <c a2="GT" nc="320" a3="GTM"><n xml:lang="en">Guatemala</n></c>
+            <c a2="GG" nc="831" a3="GGY"><n xml:lang="en">Guernsey</n></c>
+            <c a2="GN" nc="324" a3="GIN"><n xml:lang="en">Guinea</n></c>
+            <c a2="GW" nc="624" a3="GNB"><n xml:lang="en">Guinea-Bissau</n></c>
+            <c a2="GY" nc="328" a3="GUY"><n xml:lang="en">Guyana</n></c>
+            <c a2="HT" nc="332" a3="HTI"><n xml:lang="en">Haiti</n></c>
+            <c a2="HM" nc="334" a3="HMD"><n xml:lang="en">Heard Island and McDonald Islands</n></c>
+            <c a2="VA" nc="336" a3="VAT"><n xml:lang="en">Holy See (Vatican City State)</n></c>
+            <c a2="HN" nc="340" a3="HND"><n xml:lang="en">Honduras</n></c>
+            <c a2="HK" nc="344" a3="HKG"><n xml:lang="en">Hong Kong</n></c>
+            <c a2="HU" nc="348" a3="HUN"><n xml:lang="en">Hungary</n></c>
+            <c a2="IS" nc="352" a3="ISL"><n xml:lang="en">Iceland</n></c>
+            <c a2="IN" nc="356" a3="IND"><n xml:lang="en">India</n></c>
+            <c a2="ID" nc="360" a3="IDN"><n xml:lang="en">Indonesia</n></c>
+            <c a2="IR" nc="364" a3="IRN"><n xml:lang="en">Iran, Islamic Republic of</n></c>
+            <c a2="IQ" nc="368" a3="IRQ"><n xml:lang="en">Iraq</n></c>
+            <c a2="IE" nc="372" a3="IRL"><n xml:lang="en">Ireland</n></c>
+            <c a2="IM" nc="833" a3="IMN"><n xml:lang="en">Isle of Man</n></c>
+            <c a2="IL" nc="376" a3="ISR"><n xml:lang="en">Israel</n></c>
+            <c a2="IT" nc="380" a3="ITA"><n xml:lang="en">Italy</n></c>
+            <c a2="JM" nc="388" a3="JAM"><n xml:lang="en">Jamaica</n></c>
+            <c a2="JP" nc="392" a3="JPN"><n xml:lang="en">Japan</n></c>
+            <c a2="JE" nc="832" a3="JEY"><n xml:lang="en">Jersey</n></c>
+            <c a2="JO" nc="400" a3="JOR"><n xml:lang="en">Jordan</n></c>
+            <c a2="KZ" nc="398" a3="KAZ"><n xml:lang="en">Kazakhstan</n></c>
+            <c a2="KE" nc="404" a3="KEN"><n xml:lang="en">Kenya</n></c>
+            <c a2="KI" nc="296" a3="KIR"><n xml:lang="en">Kiribati</n></c>
+            <c a2="KP" nc="408" a3="PRK"><n xml:lang="en">Korea, Democratic People's Republic of</n></c>
+            <c a2="KR" nc="410" a3="KOR"><n xml:lang="en">Korea, Republic of</n></c>
+            <c a2="KW" nc="414" a3="KWT"><n xml:lang="en">Kuwait</n></c>
+            <c a2="KG" nc="417" a3="KGZ"><n xml:lang="en">Kyrgyzstan</n></c>
+            <c a2="LA" nc="418" a3="LAO"><n xml:lang="en">Lao People's Democratic Republic</n></c>
+            <c a2="LV" nc="428" a3="LVA"><n xml:lang="en">Latvia</n></c>
+            <c a2="LB" nc="422" a3="LBN"><n xml:lang="en">Lebanon</n></c>
+            <c a2="LS" nc="426" a3="LSO"><n xml:lang="en">Lesotho</n></c>
+            <c a2="LR" nc="430" a3="LBR"><n xml:lang="en">Liberia</n></c>
+            <c a2="LY" nc="434" a3="LBY"><n xml:lang="en">Libyan Arab Jamahiriya</n></c>
+            <c a2="LI" nc="438" a3="LIE"><n xml:lang="en">Liechtenstein</n></c>
+            <c a2="LT" nc="440" a3="LTU"><n xml:lang="en">Lithuania</n></c>
+            <c a2="LU" nc="442" a3="LUX"><n xml:lang="en">Luxembourg</n></c>
+            <c a2="MO" nc="446" a3="MAC"><n xml:lang="en">Macao</n></c>
+            <c a2="MK" nc="807" a3="MKD"><n xml:lang="en">Macedonia, the former Yugoslav Republic of</n></c>
+            <c a2="MG" nc="450" a3="MDG"><n xml:lang="en">Madagascar</n></c>
+            <c a2="MW" nc="454" a3="MWI"><n xml:lang="en">Malawi</n></c>
+            <c a2="MY" nc="458" a3="MYS"><n xml:lang="en">Malaysia</n></c>
+            <c a2="MV" nc="462" a3="MDV"><n xml:lang="en">Maldives</n></c>
+            <c a2="ML" nc="466" a3="MLI"><n xml:lang="en">Mali</n></c>
+            <c a2="MT" nc="470" a3="MLT"><n xml:lang="en">Malta</n></c>
+            <c a2="MH" nc="584" a3="MHL"><n xml:lang="en">Marshall Islands</n></c>
+            <c a2="MQ" nc="474" a3="MTQ"><n xml:lang="en">Martinique</n></c>
+            <c a2="MR" nc="478" a3="MRT"><n xml:lang="en">Mauritania</n></c>
+            <c a2="MU" nc="480" a3="MUS"><n xml:lang="en">Mauritius</n></c>
+            <c a2="YT" nc="175" a3="MYT"><n xml:lang="en">Mayotte</n></c>
+            <c a2="MX" nc="484" a3="MEX"><n xml:lang="en">Mexico</n></c>
+            <c a2="FM" nc="583" a3="FSM"><n xml:lang="en">Micronesia, Federated States of</n></c>
+            <c a2="MD" nc="498" a3="MDA"><n xml:lang="en">Moldova, Republic of</n></c>
+            <c a2="MC" nc="492" a3="MCO"><n xml:lang="en">Monaco</n></c>
+            <c a2="MN" nc="496" a3="MNG"><n xml:lang="en">Mongolia</n></c>
+            <c a2="ME" nc="499" a3="MNE"><n xml:lang="en">Montenegro</n></c>
+            <c a2="MS" nc="500" a3="MSR"><n xml:lang="en">Montserrat</n></c>
+            <c a2="MA" nc="504" a3="MAR"><n xml:lang="en">Morocco</n></c>
+            <c a2="MZ" nc="508" a3="MOZ"><n xml:lang="en">Mozambique</n></c>
+            <c a2="MM" nc="104" a3="MMR"><n xml:lang="en">Myanmar</n></c>
+            <c a2="NA" nc="516" a3="NAM"><n xml:lang="en">Namibia</n></c>
+            <c a2="NR" nc="520" a3="NRU"><n xml:lang="en">Nauru</n></c>
+            <c a2="NP" nc="524" a3="NPL"><n xml:lang="en">Nepal</n></c>
+            <c a2="NL" nc="528" a3="NLD"><n xml:lang="en">Netherlands</n></c>
+            <c a2="AN" nc="530" a3="ANT"><n xml:lang="en">Netherlands Antilles</n></c>
+            <c a2="NC" nc="540" a3="NCL"><n xml:lang="en">New Caledonia</n></c>
+            <c a2="NZ" nc="554" a3="NZL"><n xml:lang="en">New Zealand</n></c>
+            <c a2="NI" nc="558" a3="NIC"><n xml:lang="en">Nicaragua</n></c>
+            <c a2="NE" nc="562" a3="NER"><n xml:lang="en">Niger</n></c>
+            <c a2="NG" nc="566" a3="NGA"><n xml:lang="en">Nigeria</n></c>
+            <c a2="NU" nc="570" a3="NIU"><n xml:lang="en">Niue</n></c>
+            <c a2="NF" nc="574" a3="NFK"><n xml:lang="en">Norfolk Island</n></c>
+            <c a2="MP" nc="580" a3="MNP"><n xml:lang="en">Northern Mariana Islands</n></c>
+            <c a2="NO" nc="578" a3="NOR"><n xml:lang="en">Norway</n></c>
+            <c a2="OM" nc="512" a3="OMN"><n xml:lang="en">Oman</n></c>
+            <c a2="PK" nc="586" a3="PAK"><n xml:lang="en">Pakistan</n></c>
+            <c a2="PW" nc="585" a3="PLW"><n xml:lang="en">Palau</n></c>
+            <c a2="PS" nc="275" a3="PSE"><n xml:lang="en">Palestinian Territory, Occupied</n></c>
+            <c a2="PA" nc="591" a3="PAN"><n xml:lang="en">Panama</n></c>
+            <c a2="PG" nc="598" a3="PNG"><n xml:lang="en">Papua New Guinea</n></c>
+            <c a2="PY" nc="600" a3="PRY"><n xml:lang="en">Paraguay</n></c>
+            <c a2="PE" nc="604" a3="PER"><n xml:lang="en">Peru</n></c>
+            <c a2="PH" nc="608" a3="PHL"><n xml:lang="en">Philippines</n></c>
+            <c a2="PN" nc="612" a3="PCN"><n xml:lang="en">Pitcairn</n></c>
+            <c a2="PL" nc="616" a3="POL"><n xml:lang="en">Poland</n></c>
+            <c a2="PT" nc="620" a3="PRT"><n xml:lang="en">Portugal</n></c>
+            <c a2="PR" nc="630" a3="PRI"><n xml:lang="en">Puerto Rico</n></c>
+            <c a2="QA" nc="634" a3="QAT"><n xml:lang="en">Qatar</n></c>
+            <c a2="RE" nc="638" a3="REU"><n xml:lang="en">Reunion ! Réunion</n></c>
+            <c a2="RO" nc="642" a3="ROU"><n xml:lang="en">Romania</n></c>
+            <c a2="RU" nc="643" a3="RUS"><n xml:lang="en">Russian Federation</n></c>
+            <c a2="RW" nc="646" a3="RWA"><n xml:lang="en">Rwanda</n></c>
+            <c a2="BL" nc="652" a3="BLM"><n xml:lang="en">Saint Barthélemy</n></c>
+            <c a2="SH" nc="654" a3="SHN"><n xml:lang="en">Saint Helena, Ascension and Tristan da Cunha</n></c>
+            <c a2="KN" nc="659" a3="KNA"><n xml:lang="en">Saint Kitts and Nevis</n></c>
+            <c a2="LC" nc="662" a3="LCA"><n xml:lang="en">Saint Lucia</n></c>
+            <c a2="MF" nc="663" a3="MAF"><n xml:lang="en">Saint Martin (French part)</n></c>
+            <c a2="PM" nc="666" a3="SPM"><n xml:lang="en">Saint Pierre and Miquelon</n></c>
+            <c a2="VC" nc="670" a3="VCT"><n xml:lang="en">Saint Vincent and the Grenadines</n></c>
+            <c a2="WS" nc="882" a3="WSM"><n xml:lang="en">Samoa</n></c>
+            <c a2="SM" nc="674" a3="SMR"><n xml:lang="en">San Marino</n></c>
+            <c a2="ST" nc="678" a3="STP"><n xml:lang="en">Sao Tome and Principe</n></c>
+            <c a2="SA" nc="682" a3="SAU"><n xml:lang="en">Saudi Arabia</n></c>
+            <c a2="SN" nc="686" a3="SEN"><n xml:lang="en">Senegal</n></c>
+            <c a2="RS" nc="688" a3="SRB"><n xml:lang="en">Serbia</n></c>
+            <c a2="SC" nc="690" a3="SYC"><n xml:lang="en">Seychelles</n></c>
+            <c a2="SL" nc="694" a3="SLE"><n xml:lang="en">Sierra Leone</n></c>
+            <c a2="SG" nc="702" a3="SGP"><n xml:lang="en">Singapore</n></c>
+            <c a2="SK" nc="703" a3="SVK"><n xml:lang="en">Slovakia</n></c>
+            <c a2="SI" nc="705" a3="SVN"><n xml:lang="en">Slovenia</n></c>
+            <c a2="SB" nc="090" a3="SLB"><n xml:lang="en">Solomon Islands</n></c>
+            <c a2="SO" nc="706" a3="SOM"><n xml:lang="en">Somalia</n></c>
+            <c a2="ZA" nc="710" a3="ZAF"><n xml:lang="en">South Africa</n></c>
+            <c a2="GS" nc="239" a3="SGS"><n xml:lang="en">South Georgia and the South Sandwich Islands</n></c>
+            <c a2="ES" nc="724" a3="ESP"><n xml:lang="en">Spain</n></c>
+            <c a2="LK" nc="144" a3="LKA"><n xml:lang="en">Sri Lanka</n></c>
+            <c a2="SD" nc="736" a3="SDN"><n xml:lang="en">Sudan</n></c>
+            <c a2="SR" nc="740" a3="SUR"><n xml:lang="en">Suriname</n></c>
+            <c a2="SJ" nc="744" a3="SJM"><n xml:lang="en">Svalbard and Jan Mayen</n></c>
+            <c a2="SZ" nc="748" a3="SWZ"><n xml:lang="en">Swaziland</n></c>
+            <c a2="SE" nc="752" a3="SWE"><n xml:lang="en">Sweden</n></c>
+            <c a2="CH" nc="756" a3="CHE"><n xml:lang="en">Switzerland</n></c>
+            <c a2="SY" nc="760" a3="SYR"><n xml:lang="en">Syrian Arab Republic</n></c>
+            <c a2="TW" nc="158" a3="TWN"><n xml:lang="en">Taiwan, Province of China</n></c>
+            <c a2="TJ" nc="762" a3="TJK"><n xml:lang="en">Tajikistan</n></c>
+            <c a2="TZ" nc="834" a3="TZA"><n xml:lang="en">Tanzania, United Republic of</n></c>
+            <c a2="TH" nc="764" a3="THA"><n xml:lang="en">Thailand</n></c>
+            <c a2="TL" nc="626" a3="TLS"><n xml:lang="en">Timor-Leste</n></c>
+            <c a2="TG" nc="768" a3="TGO"><n xml:lang="en">Togo</n></c>
+            <c a2="TK" nc="772" a3="TKL"><n xml:lang="en">Tokelau</n></c>
+            <c a2="TO" nc="776" a3="TON"><n xml:lang="en">Tonga</n></c>
+            <c a2="TT" nc="780" a3="TTO"><n xml:lang="en">Trinidad and Tobago</n></c>
+            <c a2="TN" nc="788" a3="TUN"><n xml:lang="en">Tunisia</n></c>
+            <c a2="TR" nc="792" a3="TUR"><n xml:lang="en">Turkey</n></c>
+            <c a2="TM" nc="795" a3="TKM"><n xml:lang="en">Turkmenistan</n></c>
+            <c a2="TC" nc="796" a3="TCA"><n xml:lang="en">Turks and Caicos Islands</n></c>
+            <c a2="TV" nc="798" a3="TUV"><n xml:lang="en">Tuvalu</n></c>
+            <c a2="UG" nc="800" a3="UGA"><n xml:lang="en">Uganda</n></c>
+            <c a2="UA" nc="804" a3="UKR"><n xml:lang="en">Ukraine</n></c>
+            <c a2="AE" nc="784" a3="ARE"><n xml:lang="en">United Arab Emirates</n></c>
+            <c a2="GB" nc="826" a3="GBR" tld="UK"><n xml:lang="en">United Kingdom</n></c>   <!-- Non-standard top-level-domain -->
+            <c a2="US" nc="840" a3="USA"><n xml:lang="en">United States</n></c>
+            <c a2="UM" nc="581" a3="UMI"><n xml:lang="en">United States Minor Outlying Islands</n></c>
+            <c a2="UY" nc="858" a3="URY"><n xml:lang="en">Uruguay</n></c>
+            <c a2="UZ" nc="860" a3="UZB"><n xml:lang="en">Uzbekistan</n></c>
+            <c a2="VU" nc="548" a3="VUT"><n xml:lang="en">Vanuatu</n></c>
+            <c a2="VE" nc="862" a3="VEN"><n xml:lang="en">Venezuela, Bolivarian Republic of</n></c>
+            <c a2="VN" nc="704" a3="VNM"><n xml:lang="en">Viet Nam</n></c>
+            <c a2="VG" nc="092" a3="VGB"><n xml:lang="en">Virgin Islands, British</n></c>
+            <c a2="VI" nc="850" a3="VIR"><n xml:lang="en">Virgin Islands, U.S.</n></c>
+            <c a2="WF" nc="876" a3="WLF"><n xml:lang="en">Wallis and Futuna</n></c>
+            <c a2="EH" nc="732" a3="ESH"><n xml:lang="en">Western Sahara</n></c>
+            <c a2="YE" nc="887" a3="YEM"><n xml:lang="en">Yemen</n></c>
+            <c a2="ZM" nc="894" a3="ZMB"><n xml:lang="en">Zambia</n></c>
+            <c a2="ZW" nc="716" a3="ZWE"><n xml:lang="en">Zimbabwe</n></c>
+        </country_table>
+
+        <timezones_table>
+            <tz tag="(UTC-12:00)">
+                <n xml:lang="en">International Date Line West</n>
+                <o>-12,0</o>
+            </tz>
+            <tz tag="(UTC-11:00)">
+                <n xml:lang="en">Midway Island Samoa</n>
+                <o>-11,0</o>
+            </tz>
+            <tz tag="(UTC-10:00)">
+                <n xml:lang="en">Hawaii</n>
+                <o>-10,0</o>
+            </tz>
+            <tz tag="(UTC-09:00)">
+                <n xml:lang="en">Alaska</n>
+                <o>-9,0</o>
+            </tz>
+            <tz tag="(UTC-08:00)">
+                <n xml:lang="en">Pacific Time (US &amp; Canada)</n>
+                <o>-8,0</o>
+            </tz>
+            <tz tag="(UTC-08:00)">
+                <n xml:lang="en">Tijuna, Baja California</n>
+                <o>-8,0</o>
+            </tz>
+            <tz tag="(UTC-07:00)">
+                <n xml:lang="en">Arizona</n>
+                <o>-7,0</o>
+            </tz>
+            <tz tag="(UTC-07:00)">
+                <n xml:lang="en">Chihuahua, La Paz, Mazatlan -New</n>
+                <o>-7,0</o>
+            </tz>
+            <tz tag="(UTC-07:00)">
+                <n xml:lang="en">Chihuahua, La Paz, Mazatlan -Old</n>
+                <o>-7,0</o>
+            </tz>
+            <tz tag="(UTC-07:00)">
+                <n xml:lang="en">Mountain Time (US &amp; Canada)</n>
+                <o>-7,0</o>
+            </tz>
+            <tz tag="(UTC-06:00)">
+                <n xml:lang="en">Central America</n>
+                <o>-6,0</o>
+            </tz>
+            <tz tag="(UTC-06:00)">
+                <n xml:lang="en">Central Time (US &amp; Canda)</n>
+                <o>-6,0</o>
+            </tz>
+            <tz tag="(UTC-06:00)">
+                <n xml:lang="en">Guadalajara, Mexico City, Monterrey -New</n>
+                <o>-6,0</o>
+            </tz>
+            <tz tag="(UTC-06:00)">
+                <n xml:lang="en">Guadalajara, Mexico City, Monterrey -Old</n>
+                <o>-6,0</o>
+            </tz>
+            <tz tag="(UTC-06:00)">
+                <n xml:lang="en">Saskatchewan</n>
+                <o>-6,0</o>
+            </tz>
+            <tz tag="(UTC-05:00)">
+                <n xml:lang="en">Bogota, Lima, Quito, Rio Branco</n>
+                <o>-5,0</o>
+            </tz>
+            <tz tag="(UTC-05:00)">
+                <n xml:lang="en">Eastern Time (US &amp; Canada)</n>
+                <o>-5,0</o>
+            </tz>
+            <tz tag="(UTC-05:00)">
+                <n xml:lang="en">Indiana (East)</n>
+                <o>-5,0</o>
+            </tz>
+            <tz tag="(UTC-04:00)">
+                <n xml:lang="en">Atlantic Time (Canda)</n>
+                <o>-4,0</o>
+            </tz>
+            <tz tag="(UTC-04:00)">
+                <n xml:lang="en">Caracas, La Paz</n>
+                <o>-4,0</o>
+            </tz>
+            <tz tag="(UTC-04:00)">
+                <n xml:lang="en">Manaus</n>
+                <o>-4,0</o>
+            </tz>
+            <tz tag="(UTC-04:00)">
+                <n xml:lang="en">Santiago</n>
+                <o>-4,0</o>
+            </tz>
+            <tz tag="(UTC-03:30)">
+                <n xml:lang="en">Newfoundland</n>
+                <o>-3,30</o>
+            </tz>
+            <tz tag="(UTC-03:00)">
+                <n xml:lang="en">Brazilia</n>
+                <o>-3,0</o>
+            </tz>
+            <tz tag="(UTC-03:00)">
+                <n xml:lang="en">Buenos Aires, Georgtown</n>
+                <o>-3,0</o>
+            </tz>
+            <tz tag="(UTC-03:00)">
+                <n xml:lang="en">Greenland</n>
+                <o>-3,0</o>
+            </tz>
+            <tz tag="(UTC-03:00)">
+                <n xml:lang="en">Montevideo</n>
+                <o>-3,0</o>
+            </tz>
+            <tz tag="(UTC-02:00)">
+                <n xml:lang="en">Mid-Atlantic</n>
+                <o>-2,0</o>
+            </tz>
+            <tz tag="(UTC-01:00)">
+                <n xml:lang="en">Azores</n>
+                <o>-1,0</o>
+            </tz>
+            <tz tag="(UTC-01:00)">
+                <n xml:lang="en">Cape Verde Is.</n>
+                <o>-1,0</o>
+            </tz>
+            <tz tag="(UTC)">
+                <n xml:lang="en">Casablanka, Monrovia, Reykjavik</n>
+                <o>0,0</o>
+            </tz>
+            <tz tag="(UTC)">
+                <n xml:lang="en">Greenwhich Mean Time : Dublin, Edinburgh, Lisbon, London</n>
+                <o>0,0</o>
+            </tz>
+            <tz tag="(UTC+01:00)">
+                <n xml:lang="en">Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</n>
+                <o>1,0</o>
+            </tz>
+            <tz tag="(UTC+01:00)">
+                <n xml:lang="en">Belgrade, Bratislava, Budapest, Ljubljana, Prague</n>
+                <o>1,0</o>
+            </tz>
+            <tz tag="(UTC+01:00)">
+                <n xml:lang="en">Brussels, Copenhagen, Madrid, Paris</n>
+                <o>1,0</o>
+            </tz>
+            <tz tag="(UTC+01:00)">
+                <n xml:lang="en">Sarajeva,Skopje, Warsaw, Zagreb</n>
+                <o>1,0</o>
+            </tz>
+            <tz tag="(UTC+01:00)">
+                <n xml:lang="en">West Central Africa</n>
+                <o>1,0</o>
+            </tz>
+            <tz tag="(UTC+02:00)">
+                <n xml:lang="en">Amman</n>
+                <o>2,0</o>
+            </tz>
+            <tz tag="(UTC+02:00)">
+                <n xml:lang="en">Athens, Bucharest, Istanbul</n>
+                <o>2,0</o>
+            </tz>
+            <tz tag="(UTC+02:00)">
+                <n xml:lang="en">Beriut</n>
+                <o>2,0</o>
+            </tz>
+            <tz tag="(UTC+02:00)">
+                <n xml:lang="en">Cario</n>
+                <o>2,0</o>
+            </tz>
+            <tz tag="(UTC+02:00)">
+                <n xml:lang="en">Harare, Pretoria</n>
+                <o>2,0</o>
+            </tz>
+            <tz tag="(UTC+02:00)">
+                <n xml:lang="en">Helsinki, Kyiv, Rig, Sofia, Tallin, Vilnius</n>
+                <o>2,0</o>
+            </tz>
+            <tz tag="(UTC+02:00)">
+                <n xml:lang="en">Jerusalem</n>
+                <o>2,0</o>
+            </tz>
+            <tz tag="(UTC+02:00)">
+                <n xml:lang="en">Minsk</n>
+                <o>2,0</o>
+            </tz>
+            <tz tag="(UTC+02:00)">
+                <n xml:lang="en">Windhoek</n>
+                <o>2,0</o>
+            </tz>
+            <tz tag="(UTC+03:00)">
+                <n xml:lang="en">Baghdad</n>
+                <o>3,0</o>
+            </tz>
+            <tz tag="(UTC+03:00)">
+                <n xml:lang="en">Kuwait, Riyadh</n>
+                <o>3,0</o>
+            </tz>
+            <tz tag="(UTC+03:00)">
+                <n xml:lang="en">Moscow, St. Petersburg, Volgograd</n>
+                <o>3,0</o>
+            </tz>
+            <tz tag="(UTC+03:00)">
+                <n xml:lang="en">Nairobi</n>
+                <o>3,0</o>
+            </tz>
+            <tz tag="(UTC+03:00)">
+                <n xml:lang="en">Tbilisi</n>
+                <o>3,0</o>
+            </tz>
+            <tz tag="(UTC+03:00)">
+                <n xml:lang="en">Tehran</n>
+                <o>3,0</o>
+            </tz>
+            <tz tag="(UTC+04:00)">
+                <n xml:lang="en">Abu Dhabi, Muscat</n>
+                <o>4,0</o>
+            </tz>
+            <tz tag="(UTC+04:00)">
+                <n xml:lang="en">Baku</n>
+                <o>4,0</o>
+            </tz>
+            <tz tag="(UTC+04:00)">
+                <n xml:lang="en">Yerevan</n>
+                <o>4,0</o>
+            </tz>
+            <tz tag="(UTC+04:00)">
+                <n xml:lang="en">Kabul</n>
+                <o>4,0</o>
+            </tz>
+            <tz tag="(UTC+05:00)">
+                <n xml:lang="en">Ekaterinburg</n>
+                <o>5,0</o>
+            </tz>
+            <tz tag="(UTC+05:00)">
+                <n xml:lang="en">Islamabad, Karachi, Tashkent</n>
+                <o>5,0</o>
+            </tz>
+            <tz tag="(UTC+05:30)">
+                <n xml:lang="en">Chennai, Kolkata, Mumbai, New Delhi</n>
+                <o>5,30</o>
+            </tz>
+            <tz tag="(UTC+05:30)">
+                <n xml:lang="en">Sri Jayawardenepura</n>
+                <o>5,30</o>
+            </tz>
+            <tz tag="(UTC+05:45)">
+                <n xml:lang="en">Kathmandu</n>
+                <o>5,45</o>
+            </tz>
+            <tz tag="(UTC+06:00)">
+                <n xml:lang="en">Almaty, Novosibirsk</n>
+                <o>6,0</o>
+            </tz>
+            <tz tag="(UTC+06:00)">
+                <n xml:lang="en">Astana, Dhaka</n>
+                <o>6,0</o>
+            </tz>
+            <tz tag="(UTC+06:30)">
+                <n xml:lang="en">Yangon (Rangoon)</n>
+                <o>6,30</o>
+            </tz>
+            <tz tag="(UTC+07:00)">
+                <n xml:lang="en">Bangkok, Hanoi, Jakarta</n>
+                <o>7,0</o>
+            </tz>
+            <tz tag="(UTC+07:00)">
+                <n xml:lang="en">Krasnoyarsk</n>
+                <o>7,0</o>
+            </tz>
+            <tz tag="(UTC+08:00)">
+                <n xml:lang="en">Beijing, Chongping, Hong Kong, Urmaqi</n>
+                <o>8,0</o>
+            </tz>
+            <tz tag="(UTC+08:00)">
+                <n xml:lang="en">Irkutsk, Ulaan Bataar</n>
+                <o>8,0</o>
+            </tz>
+            <tz tag="(UTC+08:00)">
+                <n xml:lang="en">Kuala Lumpur, Singapore</n>
+                <o>8,0</o>
+            </tz>
+            <tz tag="(UTC+08:00)">
+                <n xml:lang="en">Perth</n>
+                <o>8,0</o>
+            </tz>
+            <tz tag="(UTC+08:00)">
+                <n xml:lang="en">Taipei</n>
+                <o>8,0</o>
+            </tz>
+            <tz tag="(UTC+09:00)">
+                <n xml:lang="en">Osaka, Sapporo, Tokyo</n>
+                <o>9,0</o>
+            </tz>
+            <tz tag="(UTC+09:00)">
+                <n xml:lang="en">Seoul</n>
+                <o>9,0</o>
+            </tz>
+            <tz tag="(UTC+09:00)">
+                <n xml:lang="en">Yakutsk</n>
+                <o>9,0</o>
+            </tz>
+            <tz tag="(UTC+09:30)">
+                <n xml:lang="en">Adelaide</n>
+                <o>9,30</o>
+            </tz>
+            <tz tag="(UTC+09:30)">
+                <n xml:lang="en">Darwin</n>
+                <o>9,30</o>
+            </tz>
+            <tz tag="(UTC+10:00)">
+                <n xml:lang="en">Brisbane</n>
+                <o>10,0</o>
+            </tz>
+            <tz tag="(UTC+10:00)">
+                <n xml:lang="en">Canberra, Melbourne, Sydney</n>
+                <o>10,0</o>
+            </tz>
+            <tz tag="(UTC+10:00)">
+                <n xml:lang="en">Guam, Port Moresby</n>
+                <o>10,0</o>
+            </tz>
+            <tz tag="(UTC+10:00)">
+                <n xml:lang="en">Hobart</n>
+                <o>10,0</o>
+            </tz>
+            <tz tag="(UTC+10:00)">
+                <n xml:lang="en">Vladivostok</n>
+                <o>10,0</o>
+            </tz>
+            <tz tag="(UTC+11:00)">
+                <n xml:lang="en">Magadan, Solomon Is., New Caledonia</n>
+                <o>11,0</o>
+            </tz>
+            <tz tag="(UTC+12:00)">
+                <n xml:lang="en">Auckland, Wellington</n>
+                <o>12,0</o>
+            </tz>
+            <tz tag="(UTC+12:00)">
+                <n xml:lang="en">Fiji, Kamchatka, Marshall Is.</n>
+                <o>12,0</o>
+            </tz>
+            <tz tag="(UTC+13:00)">
+                <n xml:lang="en">Nuku'alofa</n>
+                <o>13,0</o>
+            </tz>
+        </timezones_table>
+        
+        
+    </locale_data>
+
+    <!-- Stock Ids.  -->
+	
+	<!-- @TRANSLATORS: DO NOT CHANGE THIS NODE! -->
+	<!-- Keep in sync with afxres.h -->
+	<stock_id>
+		<rid resid="ID_INDICATOR_EXT">0xE700</rid>
+		<rid resid="ID_INDICATOR_CAPS">0xE701</rid>
+		<rid resid="ID_INDICATOR_NUM">0xE702</rid>
+		<rid resid="ID_INDICATOR_SCRL">0xE703</rid>
+		<rid resid="ID_INDICATOR_OVR">0xE704</rid>
+		<rid resid="ID_INDICATOR_REC">0xE705</rid>
+		<rid resid="ID_INDICATOR_KANA">0xE706</rid>
+		<rid resid="ID_SEPARATOR">0</rid>
+		<rid resid="AFX_IDS_APP_TITLE">0xE000</rid>
+		<rid resid="AFX_IDS_IDLEMESSAGE">0xE001</rid>
+		<rid resid="AFX_IDS_HELPMODEMESSAGE">0xE002</rid>
+		<rid resid="AFX_IDS_APP_TITLE_EMBEDDING">0xE003</rid>
+		<rid resid="AFX_IDS_COMPANY_NAME">0xE004</rid>
+		<rid resid="AFX_IDS_OBJ_TITLE_INPLACE">0xE005</rid>
+		<rid resid="ID_FILE_NEW">0xE100</rid>
+		<rid resid="ID_FILE_OPEN">0xE101</rid>
+		<rid resid="ID_FILE_CLOSE">0xE102</rid>
+		<rid resid="ID_FILE_SAVE">0xE103</rid>
+		<rid resid="ID_FILE_SAVE_AS">0xE104</rid>
+		<rid resid="ID_FILE_PAGE_SETUP">0xE105</rid>
+		<rid resid="ID_FILE_PRINT_SETUP">0xE106</rid>
+		<rid resid="ID_FILE_PRINT">0xE107</rid>
+		<rid resid="ID_FILE_PRINT_DIRECT">0xE108</rid>
+		<rid resid="ID_FILE_PRINT_PREVIEW">0xE109</rid>
+		<rid resid="ID_FILE_UPDATE">0xE10A</rid>
+		<rid resid="ID_FILE_SAVE_COPY_AS">0xE10B</rid>
+		<rid resid="ID_FILE_SEND_MAIL">0xE10C</rid>
+		<rid resid="ID_FILE_NEW_FRAME">0xE10D</rid>
+		<rid resid="ID_FILE_MRU_FIRST">0xE110</rid>
+		<rid resid="ID_FILE_MRU_FILE1">0xE110</rid>
+		<rid resid="ID_FILE_MRU_FILE2">0xE111</rid>
+		<rid resid="ID_FILE_MRU_FILE3">0xE112</rid>
+		<rid resid="ID_FILE_MRU_FILE4">0xE113</rid>
+		<rid resid="ID_FILE_MRU_FILE5">0xE114</rid>
+		<rid resid="ID_FILE_MRU_FILE6">0xE115</rid>
+		<rid resid="ID_FILE_MRU_FILE7">0xE116</rid>
+		<rid resid="ID_FILE_MRU_FILE8">0xE117</rid>
+		<rid resid="ID_FILE_MRU_FILE9">0xE118</rid>
+		<rid resid="ID_FILE_MRU_FILE10">0xE119</rid>
+		<rid resid="ID_FILE_MRU_FILE11">0xE11A</rid>
+		<rid resid="ID_FILE_MRU_FILE12">0xE11B</rid>
+		<rid resid="ID_FILE_MRU_FILE13">0xE11C</rid>
+		<rid resid="ID_FILE_MRU_FILE14">0xE11D</rid>
+		<rid resid="ID_FILE_MRU_FILE15">0xE11E</rid>
+		<rid resid="ID_FILE_MRU_FILE16">0xE11F</rid>
+		<rid resid="ID_FILE_MRU_LAST">0xE11F</rid>
+		<rid resid="ID_EDIT_CLEAR">0xE120</rid>
+		<rid resid="ID_EDIT_CLEAR_ALL">0xE121</rid>
+		<rid resid="ID_EDIT_COPY">0xE122</rid>
+		<rid resid="ID_EDIT_CUT">0xE123</rid>
+		<rid resid="ID_EDIT_FIND">0xE124</rid>
+		<rid resid="ID_EDIT_PASTE">0xE125</rid>
+		<rid resid="ID_EDIT_PASTE_LINK">0xE126</rid>
+		<rid resid="ID_EDIT_PASTE_SPECIAL">0xE127</rid>
+		<rid resid="ID_EDIT_REPEAT">0xE128</rid>
+		<rid resid="ID_EDIT_REPLACE">0xE129</rid>
+		<rid resid="ID_EDIT_SELECT_ALL">0xE12A</rid>
+		<rid resid="ID_EDIT_UNDO">0xE12B</rid>
+		<rid resid="ID_EDIT_REDO">0xE12C</rid>
+		<rid resid="ID_WINDOW_NEW">0xE130</rid>
+		<rid resid="ID_WINDOW_ARRANGE">0xE131</rid>
+		<rid resid="ID_WINDOW_CASCADE">0xE132</rid>
+		<rid resid="ID_WINDOW_TILE_HORZ">0xE133</rid>
+		<rid resid="ID_WINDOW_TILE_VERT">0xE134</rid>
+		<rid resid="ID_WINDOW_SPLIT">0xE135</rid>
+		<rid resid="AFX_IDM_WINDOW_FIRST">0xE130</rid>
+		<rid resid="AFX_IDM_WINDOW_LAST">0xE13F</rid>
+		<rid resid="AFX_IDM_FIRST_MDICHILD">0xFF00</rid>
+		<rid resid="ID_APP_ABOUT">0xE140</rid>
+		<rid resid="ID_APP_EXIT">0xE141</rid>
+		<rid resid="ID_HELP_INDEX">0xE142</rid>
+		<rid resid="ID_HELP_FINDER">0xE143</rid>
+		<rid resid="ID_HELP_USING">0xE144</rid>
+		<rid resid="ID_CONTEXT_HELP">0xE145</rid>
+		<rid resid="ID_HELP">0xE146</rid>
+		<rid resid="ID_DEFAULT_HELP">0xE147</rid>
+		<rid resid="ID_OLE_INSERT_NEW">0xE200</rid>
+		<rid resid="ID_OLE_EDIT_LINKS">0xE201</rid>
+		<rid resid="ID_OLE_EDIT_CONVERT">0xE202</rid>
+		<rid resid="ID_OLE_EDIT_CHANGE_ICON">0xE203</rid>
+		<rid resid="ID_OLE_EDIT_PROPERTIES">0xE204</rid>
+		<rid resid="ID_OLE_VERB_FIRST">0xE210</rid>
+		<rid resid="AFX_ID_PREVIEW_CLOSE">0xE300</rid>
+		<rid resid="AFX_ID_PREVIEW_NUMPAGE">0xE301</rid>
+		<rid resid="AFX_ID_PREVIEW_NEXT">0xE302</rid>
+		<rid resid="AFX_ID_PREVIEW_PREV">0xE303</rid>
+		<rid resid="AFX_ID_PREVIEW_PRINT">0xE304</rid>
+		<rid resid="AFX_ID_PREVIEW_ZOOMIN">0xE305</rid>
+		<rid resid="AFX_ID_PREVIEW_ZOOMOUT">0xE306</rid>
+		<rid resid="ID_VIEW_TOOLBAR">0xE800</rid>
+		<rid resid="ID_VIEW_STATUS_BAR">0xE801</rid>
+		<rid resid="ID_VIEW_REBAR">0xE804</rid>
+		<rid resid="ID_VIEW_AUTOARRANGE">0xE805</rid>
+		<rid resid="ID_VIEW_SMALLICON">0xE810</rid>
+		<rid resid="ID_VIEW_LARGEICON">0xE811</rid>
+		<rid resid="ID_VIEW_LIST">0xE812</rid>
+		<rid resid="ID_VIEW_DETAILS">0xE813</rid>
+		<rid resid="ID_VIEW_LINEUP">0xE814</rid>
+		<rid resid="ID_VIEW_BYNAME">0xE815</rid>
+		<rid resid="IDC_STATIC">-1</rid>
+
+		<!-- Virtual keycodes for accelerators (Keep in sync with winuser.h) -->
+
+		<rid resid="VK_ACCEPT">30</rid>
+		<rid resid="VK_ADD">107</rid>
+		<rid resid="VK_APPS">93</rid>
+		<rid resid="VK_ATTN">246</rid>
+		<rid resid="VK_BACK">8</rid>
+		<rid resid="VK_BROWSER_BACK">166</rid>
+		<rid resid="VK_BROWSER_FAVORITES">171</rid>
+		<rid resid="VK_BROWSER_FORWARD">167</rid>
+		<rid resid="VK_BROWSER_HOME">172</rid>
+		<rid resid="VK_BROWSER_REFRESH">168</rid>
+		<rid resid="VK_BROWSER_SEARCH">170</rid>
+		<rid resid="VK_BROWSER_STOP">169</rid>
+		<rid resid="VK_CANCEL">3</rid>
+		<rid resid="VK_CAPITAL">20</rid>
+		<rid resid="VK_CLEAR">12</rid>
+		<rid resid="VK_CONTROL">17</rid>
+		<rid resid="VK_CONVERT">28</rid>
+		<rid resid="VK_CRSEL">247</rid>
+		<rid resid="VK_DECIMAL">110</rid>
+		<rid resid="VK_DELETE">46</rid>
+		<rid resid="VK_DIVIDE">111</rid>
+		<rid resid="VK_DOWN">40</rid>
+		<rid resid="VK_END">35</rid>
+		<rid resid="VK_EREOF">249</rid>
+		<rid resid="VK_ESCAPE">27</rid>
+		<rid resid="VK_EXECUTE">43</rid>
+		<rid resid="VK_EXSEL">248</rid>
+		<rid resid="VK_F1">112</rid>
+		<rid resid="VK_F10">121</rid>
+		<rid resid="VK_F11">122</rid>
+		<rid resid="VK_F12">123</rid>
+		<rid resid="VK_F13">124</rid>
+		<rid resid="VK_F14">125</rid>
+		<rid resid="VK_F15">126</rid>
+		<rid resid="VK_F16">127</rid>
+		<rid resid="VK_F17">128</rid>
+		<rid resid="VK_F18">129</rid>
+		<rid resid="VK_F19">130</rid>
+		<rid resid="VK_F2">113</rid>
+		<rid resid="VK_F20">131</rid>
+		<rid resid="VK_F21">132</rid>
+		<rid resid="VK_F22">133</rid>
+		<rid resid="VK_F23">134</rid>
+		<rid resid="VK_F24">135</rid>
+		<rid resid="VK_F3">114</rid>
+		<rid resid="VK_F4">115</rid>
+		<rid resid="VK_F5">116</rid>
+		<rid resid="VK_F6">117</rid>
+		<rid resid="VK_F7">118</rid>
+		<rid resid="VK_F8">119</rid>
+		<rid resid="VK_F9">120</rid>
+		<rid resid="VK_FINAL">24</rid>
+		<rid resid="VK_HANGEUL">21</rid>
+		<rid resid="VK_HANGUL">21</rid>
+		<rid resid="VK_HANJA">25</rid>
+		<rid resid="VK_HELP">47</rid>
+		<rid resid="VK_HOME">36</rid>
+		<rid resid="VK_ICO_00">228</rid>
+		<rid resid="VK_ICO_CLEAR">230</rid>
+		<rid resid="VK_ICO_HELP">227</rid>
+		<rid resid="VK_INSERT">45</rid>
+		<rid resid="VK_JUNJA">23</rid>
+		<rid resid="VK_KANA">21</rid>
+		<rid resid="VK_KANJI">25</rid>
+		<rid resid="VK_LAUNCH_APP1">182</rid>
+		<rid resid="VK_LAUNCH_APP2">183</rid>
+		<rid resid="VK_LAUNCH_MAIL">180</rid>
+		<rid resid="VK_LAUNCH_MEDIA_SELECT">181</rid>
+		<rid resid="VK_LBUTTON">1</rid>
+		<rid resid="VK_LCONTROL">162</rid>
+		<rid resid="VK_LEFT">37</rid>
+		<rid resid="VK_LMENU">164</rid>
+		<rid resid="VK_LSHIFT">160</rid>
+		<rid resid="VK_LWIN">91</rid>
+		<rid resid="VK_MBUTTON">4</rid>
+		<rid resid="VK_MEDIA_NEXT_TRACK">176</rid>
+		<rid resid="VK_MEDIA_PLAY_PAUSE">179</rid>
+		<rid resid="VK_MEDIA_PREV_TRACK">177</rid>
+		<rid resid="VK_MEDIA_STOP">178</rid>
+		<rid resid="VK_MENU">18</rid>
+		<rid resid="VK_MODECHANGE">31</rid>
+		<rid resid="VK_MULTIPLY">106</rid>
+		<rid resid="VK_NEXT">34</rid>
+		<rid resid="VK_NONAME">252</rid>
+		<rid resid="VK_NONCONVERT">29</rid>
+		<rid resid="VK_NUMLOCK">144</rid>
+		<rid resid="VK_NUMPAD0">96</rid>
+		<rid resid="VK_NUMPAD1">97</rid>
+		<rid resid="VK_NUMPAD2">98</rid>
+		<rid resid="VK_NUMPAD3">99</rid>
+		<rid resid="VK_NUMPAD4">100</rid>
+		<rid resid="VK_NUMPAD5">101</rid>
+		<rid resid="VK_NUMPAD6">102</rid>
+		<rid resid="VK_NUMPAD7">103</rid>
+		<rid resid="VK_NUMPAD8">104</rid>
+		<rid resid="VK_NUMPAD9">105</rid>
+		<rid resid="VK_OEM_1">186</rid>
+		<rid resid="VK_OEM_102">226</rid>
+		<rid resid="VK_OEM_2">191</rid>
+		<rid resid="VK_OEM_3">192</rid>
+		<rid resid="VK_OEM_4">219</rid>
+		<rid resid="VK_OEM_5">220</rid>
+		<rid resid="VK_OEM_6">221</rid>
+		<rid resid="VK_OEM_7">222</rid>
+		<rid resid="VK_OEM_8">223</rid>
+		<rid resid="VK_OEM_ATTN">240</rid>
+		<rid resid="VK_OEM_AUTO">243</rid>
+		<rid resid="VK_OEM_AX">225</rid>
+		<rid resid="VK_OEM_BACKTAB">245</rid>
+		<rid resid="VK_OEM_CLEAR">254</rid>
+		<rid resid="VK_OEM_COMMA">188</rid>
+		<rid resid="VK_OEM_COPY">242</rid>
+		<rid resid="VK_OEM_CUSEL">239</rid>
+		<rid resid="VK_OEM_ENLW">244</rid>
+		<rid resid="VK_OEM_FINISH">241</rid>
+		<rid resid="VK_OEM_FJ_JISHO">146</rid>
+		<rid resid="VK_OEM_FJ_LOYA">149</rid>
+		<rid resid="VK_OEM_FJ_MASSHOU">147</rid>
+		<rid resid="VK_OEM_FJ_ROYA">150</rid>
+		<rid resid="VK_OEM_FJ_TOUROKU">148</rid>
+		<rid resid="VK_OEM_JUMP">234</rid>
+		<rid resid="VK_OEM_MINUS">189</rid>
+		<rid resid="VK_OEM_NEC_EQUAL">146</rid>
+		<rid resid="VK_OEM_PA1">235</rid>
+		<rid resid="VK_OEM_PA2">236</rid>
+		<rid resid="VK_OEM_PA3">237</rid>
+		<rid resid="VK_OEM_PERIOD">190</rid>
+		<rid resid="VK_OEM_PLUS">187</rid>
+		<rid resid="VK_OEM_RESET">233</rid>
+		<rid resid="VK_OEM_WSCTRL">238</rid>
+		<rid resid="VK_PA1">253</rid>
+		<rid resid="VK_PACKET">231</rid>
+		<rid resid="VK_PAUSE">19</rid>
+		<rid resid="VK_PLAY">250</rid>
+		<rid resid="VK_PRINT">42</rid>
+		<rid resid="VK_PRIOR">33</rid>
+		<rid resid="VK_PROCESSKEY">229</rid>
+		<rid resid="VK_RBUTTON">2</rid>
+		<rid resid="VK_RCONTROL">163</rid>
+		<rid resid="VK_RETURN">13</rid>
+		<rid resid="VK_RIGHT">39</rid>
+		<rid resid="VK_RMENU">165</rid>
+		<rid resid="VK_RSHIFT">161</rid>
+		<rid resid="VK_RWIN">92</rid>
+		<rid resid="VK_SCROLL">145</rid>
+		<rid resid="VK_SELECT">41</rid>
+		<rid resid="VK_SEPARATOR">108</rid>
+		<rid resid="VK_SHIFT">16</rid>
+		<rid resid="VK_SLEEP">95</rid>
+		<rid resid="VK_SNAPSHOT">44</rid>
+		<rid resid="VK_SPACE">32</rid>
+		<rid resid="VK_SUBTRACT">109</rid>
+		<rid resid="VK_TAB">9</rid>
+		<rid resid="VK_UP">38</rid>
+		<rid resid="VK_VOLUME_DOWN">174</rid>
+		<rid resid="VK_VOLUME_MUTE">173</rid>
+		<rid resid="VK_VOLUME_UP">175</rid>
+		<rid resid="VK_XBUTTON1">5</rid>
+		<rid resid="VK_XBUTTON2">6</rid>
+		<rid resid="VK_ZOOM">251</rid>
+	</stock_id>
+
+
+	<!-- A list of ISO language codes -->
+	<language_codes>
+		<lang lid="" name="Neutral" neutral="true">
+			<l xml:lang="en">Neutral</l>
+			<l xml:lang="de">Neutral</l>
+			<l xml:lang="fi">Neutraali</l>
+			<l xml:lang="fr">Neutre</l>
+			<l xml:lang="nl">Neutraal</l>
+			<l xml:lang="pt">Neutro</l>
+			<l xml:lang="hr">Neutralni</l>
+			<l xml:lang="no">Nøytral</l>
+			<l xml:lang="se">Neutral</l>
+			<l xml:lang="es">Neutral</l>
+			<l xml:lang="it">Neutrale</l>
+		</lang>
+		<lang lid="af" name="Afrikaans"/>
+		<lang lid="af-ZA" name="Afrikaans (Suid Afrika)"/>
+		<lang lid="sq" name="shqipe"/>
+		<lang lid="sq-AL" name="shqipe (Shqipëria)"/>
+		<lang lid="gsw-FR" name="Elsässisch (Frànkrisch)"/>
+		<lang lid="am-ET" name="አማርኛ (ኢትዮጵያ)"/>
+		<lang lid="ar" name="العربية‏"/>
+		<lang lid="ar-DZ" name="العربية (الجزائر)‏"/>
+		<lang lid="ar-BH" name="العربية (البحرين)‏"/>
+		<lang lid="ar-EG" name="العربية (مصر)‏"/>
+		<lang lid="ar-IQ" name="العربية (العراق)‏"/>
+		<lang lid="ar-JO" name="العربية (الأردن)‏"/>
+		<lang lid="ar-KW" name="العربية (الكويت)‏"/>
+		<lang lid="ar-LB" name="العربية (لبنان)‏"/>
+		<lang lid="ar-LY" name="العربية (ليبيا)‏"/>
+		<lang lid="ar-MA" name="العربية (المملكة المغربية)‏"/>
+		<lang lid="ar-OM" name="العربية (عمان)‏"/>
+		<lang lid="ar-QA" name="العربية (قطر)‏"/>
+		<lang lid="ar-SA" name="العربية (المملكة العربية السعودية)‏"/>
+		<lang lid="ar-SY" name="العربية (سوريا)‏"/>
+		<lang lid="ar-TN" name="العربية (تونس)‏"/>
+		<lang lid="ar-AE" name="العربية (الإمارات العربية المتحدة)‏"/>
+		<lang lid="ar-YE" name="العربية (اليمن)‏"/>
+		<lang lid="hy" name="Հայերեն"/>
+		<lang lid="hy-AM" name="Հայերեն (Հայաստան)"/>
+		<lang lid="as-IN" name="অসমীয়া (ভাৰত)"/>
+		<lang lid="az" name="Azərbaycan­ılı"/>
+		<lang lid="az-Cyrl-AZ" name="Азәрбајҹан (Азәрбајҹан)"/>
+		<lang lid="az-Latn-AZ" name="Azərbaycan­ılı (Azərbaycanca)"/>
+		<lang lid="ba-RU" name="Башҡорт (Россия)"/>
+		<lang lid="eu" name="euskara"/>
+		<lang lid="eu-ES" name="euskara (euskara)"/>
+		<lang lid="be" name="Беларускі"/>
+		<lang lid="be-BY" name="Беларускі (Беларусь)"/>
+		<lang lid="bn-BD" name="বাংলা (বাংলা)"/>
+		<lang lid="bn-IN" name="বাংলা (ভারত)"/>
+		<lang lid="bs-Cyrl-BA" name="босански (Босна и Херцеговина)"/>
+		<lang lid="bs-Latn-BA" name="bosanski (Bosna i Hercegovina)"/>
+		<lang lid="br-FR" name="brezhoneg (Frañs)"/>
+		<lang lid="bg" name="български"/>
+		<lang lid="bg-BG" name="български (България)"/>
+		<lang lid="ca" name="català"/>
+		<lang lid="ca-ES" name="català (català)"/>
+		<lang lid="zh-HK" name="中文(香港特别行政區)"/>
+		<lang lid="zh-MO" name="中文(澳門特别行政區)"/>
+		<lang lid="zh-CN" name="中文(中华人民共和国)"/>
+		<lang lid="zh-Hans" name="中文(简体)"/>
+		<lang lid="zh-SG" name="中文(新加坡)"/>
+		<lang lid="zh-TW" name="中文(台灣)"/>
+		<lang lid="zh-Hant" name="中文(繁體)"/>
+		<lang lid="co-FR" name="Corsu (France)"/>
+		<lang lid="hr" name="hrvatski"/>
+		<lang lid="hr-HR" name="hrvatski (Hrvatska)"/>
+		<lang lid="hr-BA" name="hrvatski (Bosna i Hercegovina)"/>
+		<lang lid="cs" name="čeština"/>
+		<lang lid="cs-CZ" name="čeština (Česká republika)"/>
+		<lang lid="da" name="dansk"/>
+		<lang lid="da-DK" name="dansk (Danmark)"/>
+		<lang lid="prs-AF" name="درى (افغانستان)"/>
+		<lang lid="div" name="ދިވެހިބަސް‏"/>
+		<lang lid="div-MV" name="ދިވެހިބަސް (ދިވެހި ރާއްޖެ)‏"/>
+		<lang lid="nl" name="Nederlands"/>
+		<lang lid="nl-BE" name="Nederlands (België)"/>
+		<lang lid="nl-NL" name="Nederlands (Nederland)"/>
+		<lang lid="en" name="English"/>
+		<lang lid="en-AU" name="English (Australia)"/>
+		<lang lid="en-BZ" name="English (Belize)"/>
+		<lang lid="en-CA" name="English (Canada)"/>
+		<lang lid="en-029" name="English (Caribbean)"/>
+		<lang lid="en-IN" name="English (India)"/>
+		<lang lid="en-IE" name="English (Eire)"/>
+		<lang lid="en-JM" name="English (Jamaica)"/>
+		<lang lid="en-MY" name="English (Malaysia)"/>
+		<lang lid="en-NZ" name="English (New Zealand)"/>
+		<lang lid="en-PH" name="English (Philippines)"/>
+		<lang lid="en-SG" name="English (Singapore)"/>
+		<lang lid="en-ZA" name="English (South Africa)"/>
+		<lang lid="en-TT" name="English (Trinidad y Tobago)"/>
+		<lang lid="en-GB" name="English (United Kingdom)"/>
+		<lang lid="en-US" name="English (United States)"/>
+		<lang lid="en-ZW" name="English (Zimbabwe)"/>
+		<lang lid="et" name="eesti"/>
+		<lang lid="et-EE" name="eesti (Eesti)"/>
+		<lang lid="fo" name="føroyskt"/>
+		<lang lid="fo-FO" name="føroyskt (Føroyar)"/>
+		<lang lid="fil-PH" name="Filipino (Pilipinas)"/>
+		<lang lid="fi" name="suomi"/>
+		<lang lid="fi-FI" name="suomi (Suomi)"/>
+		<lang lid="fr" name="français"/>
+		<lang lid="fr-BE" name="français (Belgique)"/>
+		<lang lid="fr-CA" name="français (Canada)"/>
+		<lang lid="fr-FR" name="français (France)"/>
+		<lang lid="fr-LU" name="français (Luxembourg)"/>
+		<lang lid="fr-MC" name="français (Principauté de Monaco)"/>
+		<lang lid="fr-CH" name="français (Suisse)"/>
+		<lang lid="fy-NL" name="Frysk (Nederlân)"/>
+		<lang lid="gl" name="galego"/>
+		<lang lid="gl-ES" name="galego (galego)"/>
+		<lang lid="ka" name="ქართული"/>
+		<lang lid="ka-GE" name="ქართული (საქართველო)"/>
+		<lang lid="de" name="Deutsch"/>
+		<lang lid="de-AT" name="Deutsch (Österreich)"/>
+		<lang lid="de-DE" name="Deutsch (Deutschland)"/>
+		<lang lid="de-LI" name="Deutsch (Liechtenstein)"/>
+		<lang lid="de-LU" name="Deutsch (Luxemburg)"/>
+		<lang lid="de-CH" name="Deutsch (Schweiz)"/>
+		<lang lid="el" name="ελληνικά"/>
+		<lang lid="el-GR" name="ελληνικά (Ελλάδα)"/>
+		<lang lid="kl-GL" name="kalaallisut (Kalaallit Nunaat)"/>
+		<lang lid="gu" name="ગુજરાતી"/>
+		<lang lid="gu-IN" name="ગુજરાતી (ભારત)"/>
+		<lang lid="ha-Latn-NG" name="Hausa (Nigeria)"/>
+		<lang lid="he" name="עברית‏"/>
+		<lang lid="he-IL" name="עברית (ישראל)‏"/>
+		<lang lid="hi" name="हिंदी"/>
+		<lang lid="hi-IN" name="हिंदी (भारत)"/>
+		<lang lid="hu" name="magyar"/>
+		<lang lid="hu-HU" name="magyar (Magyarország)"/>
+		<lang lid="is" name="íslenska"/>
+		<lang lid="is-IS" name="íslenska (Ísland)"/>
+		<lang lid="ig-NG" name="Igbo (Nigeria)"/>
+		<lang lid="id" name="Bahasa Indonesia"/>
+		<lang lid="id-ID" name="Bahasa Indonesia (Indonesia)"/>
+		<lang lid="iu-Latn-CA" name="Inuktitut (Kanatami) (kanata)"/>
+		<lang lid="iu-Cans-CA" name="ᐃᓄᒃᑎᑐᑦ (ᑲᓇᑕ)"/>
+		<lang lid="ga-IE" name="Gaeilge (Éire)"/>
+		<lang lid="xh-ZA" name="isiXhosa (uMzantsi Afrika)"/>
+		<lang lid="zu-ZA" name="isiZulu (iNingizimu Afrika)"/>
+		<lang lid="it" name="italiano"/>
+		<lang lid="it-IT" name="italiano (Italia)"/>
+		<lang lid="it-CH" name="italiano (Svizzera)"/>
+		<lang lid="ja" name="日本語"/>
+		<lang lid="ja-JP" name="日本語 (日本)"/>
+		<lang lid="kn" name="ಕನ್ನಡ"/>
+		<lang lid="kn-IN" name="ಕನ್ನಡ (ಭಾರತ)"/>
+		<lang lid="kk" name="Қазащb"/>
+		<lang lid="kk-KZ" name="Қазақ (Қазақстан)"/>
+		<lang lid="km-KH" name="ខ្មែរ (កម្ពុជា)"/>
+		<lang lid="qut-GT" name="K'iche (Guatemala)"/>
+		<lang lid="rw-RW" name="Kinyarwanda (Rwanda)"/>
+		<lang lid="sw" name="Kiswahili"/>
+		<lang lid="sw-KE" name="Kiswahili (Kenya)"/>
+		<lang lid="kok" name="कोंकणी"/>
+		<lang lid="kok-IN" name="कोंकणी (भारत)"/>
+		<lang lid="ko" name="한국어"/>
+		<lang lid="ko-KR" name="한국어 (대한민국)"/>
+		<lang lid="ky" name="Кыргыз"/>
+		<lang lid="ky-KG" name="Кыргыз (Кыргызстан)"/>
+		<lang lid="lo-LA" name="ລາວ (ສ.ປ.ປ. ລາວ)"/>
+		<lang lid="lv" name="latviešu"/>
+		<lang lid="lv-LV" name="latviešu (Latvija)"/>
+		<lang lid="lt" name="lietuvių"/>
+		<lang lid="lt-LT" name="lietuvių (Lietuva)"/>
+		<lang lid="wee-DE" name="dolnoserbšćina (Nimska)"/>
+		<lang lid="lb-LU" name="Lëtzebuergesch (Luxembourg)"/>
+		<lang lid="mk" name="македонски јазик"/>
+		<lang lid="mk-MK" name="македонски јазик (Македонија)"/>
+		<lang lid="ms" name="Bahasa Malaysia"/>
+		<lang lid="ms-BN" name="Bahasa Malaysia (Brunei Darussalam)"/>
+		<lang lid="ms-MY" name="Bahasa Malaysia (Malaysia)"/>
+		<lang lid="ml-IN" name="മലയാളം (ഭാരതം)"/>
+		<lang lid="mt-MT" name="Malti (Malta)"/>
+		<lang lid="mi-NZ" name="Reo Māori (Aotearoa)"/>
+		<lang lid="arn-CL" name="Mapudungun (Chile)"/>
+		<lang lid="mr" name="मराठी"/>
+		<lang lid="mr-IN" name="मराठी (भारत)"/>
+		<lang lid="moh-CA" name="Kanien'kéha (Canada)"/>
+		<lang lid="mn" name="Монгол хэл"/>
+		<lang lid="mn-MN" name="Монгол хэл (Монгол улс)"/>
+		<lang lid="mn-Mong-CN" name="ᠮᠣᠩᠭᠤᠯ ᠬᠡᠯᠡ (ᠪᠦᠭᠦᠳᠡ ᠨᠠᠢᠷᠠᠮᠳᠠᠬᠤ ᠳᠤᠮᠳᠠᠳᠤ ᠠᠷᠠᠳ ᠣᠯᠣᠰ)"/>
+		<lang lid="ne-NP" name="नेपाली (नेपाल)"/>
+		<lang lid="no" name="norsk"/>
+		<lang lid="nb-NO" name="norsk, bokmål (Norge)"/>
+		<lang lid="nn-NO" name="norsk, nynorsk (Noreg)"/>
+		<lang lid="oc-FR" name="Occitan (França)"/>
+		<lang lid="or-IN" name="ଓଡ଼ିଆ (ଭାରତ)"/>
+		<lang lid="ps-AF" name="پښتو (افغانستان)"/>
+		<lang lid="fa" name="فارسى‏"/>
+		<lang lid="fa-IR" name="فارسى (ايران)‏"/>
+		<lang lid="pl" name="polski"/>
+		<lang lid="pl-PL" name="polski (Polska)"/>
+		<lang lid="pt" name="Português"/>
+		<lang lid="pt-BR" name="Português (Brasil)"/>
+		<lang lid="pt-PT" name="Português (Portugal)"/>
+		<lang lid="pa" name="ਪੰਜਾਬੀ"/>
+		<lang lid="pa-IN" name="ਪੰਜਾਬੀ (ਭਾਰਤ)"/>
+		<lang lid="quz-BO" name="runasimi (Bolivia Suyu)"/>
+		<lang lid="quz-EC" name="runasimi (Ecuador Suyu)"/>
+		<lang lid="quz-PE" name="runasimi (Peru Suyu)"/>
+		<lang lid="ro" name="română"/>
+		<lang lid="ro-RO" name="română (România)"/>
+		<lang lid="rm-CH" name="Rumantsch (Svizra)"/>
+		<lang lid="ru" name="русский"/>
+		<lang lid="ru-RU" name="русский (Россия)"/>
+		<lang lid="smn-FI" name="sämikielâ (Suomâ)"/>
+		<lang lid="smj-NO" name="julevusámegiella (Vuodna)"/>
+		<lang lid="smj-SE" name="julevusámegiella (Svierik)"/>
+		<lang lid="se-FI" name="davvisámegiella (Suopma)"/>
+		<lang lid="se-NO" name="davvisámegiella (Norga)"/>
+		<lang lid="se-SE" name="davvisámegiella (Ruoŧŧa)"/>
+		<lang lid="sms-FI" name="sääm´ǩiõll (Lää´ddjânnam)"/>
+		<lang lid="sma-NO" name="åarjelsaemiengiele (Nöörje)"/>
+		<lang lid="sma-SE" name="åarjelsaemiengiele (Sveerje)"/>
+		<lang lid="sa" name="संस्कृत"/>
+		<lang lid="sa-IN" name="संस्कृत (भारतम्)"/>
+		<lang lid="sr" name="srpski"/>
+		<lang lid="sr-Cyrl-BA" name="српски (Босна и Херцеговина)"/>
+		<lang lid="sr-Cyrl-SP" name="српски (Србија и Црна Гора)"/>
+		<lang lid="sr-Latn-BA" name="srpski (Bosna i Hercegovina)"/>
+		<lang lid="sr-Latn-SP" name="srpski (Srbija i Crna Gora)"/>
+		<lang lid="nso-ZA" name="Sesotho sa Leboa (Afrika Borwa)"/>
+		<lang lid="tn-ZA" name="Setswana (Aforika Borwa)"/>
+		<lang lid="si-LK" name="සිංහ (ශ්‍රී ලංකා)"/>
+		<lang lid="sk" name="slovenčina"/>
+		<lang lid="sk-SK" name="slovenčina (Slovenská republika)"/>
+		<lang lid="sl" name="slovenski"/>
+		<lang lid="sl-SI" name="slovenski (Slovenija)"/>
+		<lang lid="es" name="español"/>
+		<lang lid="es-AR" name="Español (Argentina)"/>
+		<lang lid="es-BO" name="Español (Bolivia)"/>
+		<lang lid="es-CL" name="Español (Chile)"/>
+		<lang lid="es-CO" name="Español (Colombia)"/>
+		<lang lid="es-CR" name="Español (Costa Rica)"/>
+		<lang lid="es-DO" name="Español (República Dominicana)"/>
+		<lang lid="es-EC" name="Español (Ecuador)"/>
+		<lang lid="es-SV" name="Español (El Salvador)"/>
+		<lang lid="es-GT" name="Español (Guatemala)"/>
+		<lang lid="es-HN" name="Español (Honduras)"/>
+		<lang lid="es-MX" name="Español (México)"/>
+		<lang lid="es-NI" name="Español (Nicaragua)"/>
+		<lang lid="es-PA" name="Español (Panamá)"/>
+		<lang lid="es-PY" name="Español (Paraguay)"/>
+		<lang lid="es-PE" name="Español (Perú)"/>
+		<lang lid="es-PR" name="Español (Puerto Rico)"/>
+		<lang lid="es-ES" name="español (España)"/>
+		<lang lid="es-US" name="Español (Estados Unidos)"/>
+		<lang lid="es-UY" name="Español (Uruguay)"/>
+		<lang lid="es-VE" name="Español (Republica Bolivariana de Venezuela)"/>
+		<lang lid="sv" name="svenska"/>
+		<lang lid="sv-FI" name="svenska (Finland)"/>
+		<lang lid="sv-SE" name="svenska (Sverige)"/>
+		<lang lid="syr" name="ܣܘܪܝܝܐ‏"/>
+		<lang lid="syr-SY" name="ܣܘܪܝܝܐ (سوريا)‏"/>
+		<lang lid="tg-Cyrl-TJ" name="Тоҷикӣ (Тоҷикистон)"/>
+		<lang lid="tmz-Latn-DZ" name="Tamazight (Djazaïr)"/>
+		<lang lid="ta" name="தமிழ்"/>
+		<lang lid="ta-IN" name="தமிழ் (இந்தியா)"/>
+		<lang lid="tt" name="Татар"/>
+		<lang lid="tt-RU" name="Татар (Россия)"/>
+		<lang lid="te" name="తెలుగు"/>
+		<lang lid="te-IN" name="తెలుగు (భారత దేశం)"/>
+		<lang lid="th" name="ไทย"/>
+		<lang lid="th-TH" name="ไทย (ไทย)"/>
+		<lang lid="bo-CN" name="བོད་ཡིག (ཀྲུང་ཧྭ་མི་དམངས་སྤྱི་མཐུན་རྒྱལ་ཁབ།)"/>
+		<lang lid="tr" name="Türkçe"/>
+		<lang lid="tr-TR" name="Türkçe (Türkiye)"/>
+		<lang lid="tk-TM" name="türkmençe (Türkmenistan)"/>
+		<lang lid="ug-CN" name="ئۇيغۇر يېزىقى (جۇڭخۇا خەلق جۇمھۇرىيىتى)"/>
+		<lang lid="uk" name="україньска"/>
+		<lang lid="uk-UA" name="україньска (Україна)"/>
+		<lang lid="wen-DE" name="hornjoserbšćina (Němska)"/>
+		<lang lid="ur" name="اُردو‏"/>
+		<lang lid="ur-PK" name="اُردو (پاکستان)‏"/>
+		<lang lid="uz" name="U'zbek"/>
+		<lang lid="uz-Cyrl-UZ" name="Ўзбек (Ўзбекистон)"/>
+		<lang lid="uz-Latn-UZ" name="U'zbek (U'zbekiston Respublikasi)"/>
+		<lang lid="vi" name="Tiếng Việt"/>
+		<lang lid="vi-VN" name="Tiếng Việt (Việt Nam)"/>
+		<lang lid="cy-GB" name="Cymraeg (y Deyrnas Unedig)"/>
+		<lang lid="wo-SN" name="Wolof (Sénégal)"/>
+		<lang lid="sah-RU" name="саха (Россия)"/>
+		<lang lid="ii-CN" name="ꆈꌠꁱꂷ (ꍏꉸꏓꂱꇭꉼꇩ)"/>
+		<lang lid="yo-NG" name="Yoruba (Nigeria)"/>
+	</language_codes>	
+	
+</ressource_file>
