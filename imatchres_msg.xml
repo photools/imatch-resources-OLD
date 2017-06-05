@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- This resource file contains all message resources for IMatch -->
+
 <!-- Copyright © 2013-2017 Mario M. Westphal and photools.com. -->
 <!-- No part of this file may be changed without written permission. -->
 <!-- Contact support@photools.com for more information. -->
@@ -326,9 +327,25 @@
 					<cont>O IMatch não encontra ou não pode aceder a uma ou mais pastas de que necessita:\r\n\r\n{0}\n\n\r\nPor favor verifique em Editar &gt; Preferências &gt; Aplicação que todas as pastas necessárias estejam configuradas correctamente.</cont>
 					<inf>Se configurou o IMatch para utilizar pastas que se encontrem num servidor ou num sistema NAS, assegure-se que o sistema está online e possa ser acedido. Pode ainda tentar reparar a sua instalação do IMatch através do painel de controlo do Windows, ou iniciar o IMatch enquanto pressiona a tecla CTRL e anulando todas as definições para os seus valores pré definidos.</inf>
 				</m>
-			</msg>				
-            
-            <!-- Shown when a new ExifTool version is detected and the database needs to update to incorporate the new tag tables -->
+			</msg>
+
+
+			<!-- This message is shown when there was a problem with migrating IMatch from a previous version -->
+
+			<msg resid="PTR_MSG_ERR_MIGRATEAPP" typeid="[[TD_ERROR_ICON]]">
+				<m xml:lang="en">
+					<cap>Critical Error - Application Migration</cap>
+					<cont>An error occurred while IMatch tried to migrate settings and configuration data from an older IMatch version.\r\n\r\nPlease see the IMatch log file for details. Make a copy of the log file now via the Help &gt; Support menu and include the log file in your email to support.</cont>
+					<ftr></ftr>
+				</m>
+				<m xml:lang="de">
+					<cap>Kritischer Fehler - Anwendungsmigration</cap>
+					<cont>Bei der Migration von Einstellungen von einer älteren IMatch-Version ist ein Problem aufgetreten.\r\n\r\nDie IMatch-Protokolldatei enthält weiterführende Informationen. Bitte machen Sie jetzt eine Kopie dieser Datei über das Hilfe &gt; Support und Menü fügen Sie die Datei der E-Mail an den Support bei.</cont>
+					<ftr></ftr>
+				</m>
+			</msg>
+
+			<!-- Shown when a new ExifTool version is detected and the database needs to update to incorporate the new tag tables -->
 
             <msg resid="PTR_MSG_DB_ET_VERSIONDETECT" typeid="[[IDI_QUESTION]]" desc="New ExifTool version Prompt">
                 <m xml:lang="en">
@@ -1467,7 +1484,7 @@
 			<msg resid="PTR_MSG_APP_TRIAL_EXPIRED" typeid="[[TD_WARNING_ICON]]" desc="">
 				<m xml:lang="en">
 					<cap>Your 30-day trial period has expired.</cap>
-					<cont>From now on, IMatch opens all databases older than 30 days in read-only mode only.\n\nIf you want to continue using IMatch, please buy a license now. The licensed version opens all databases in fully writable mode again.</cont>
+					<cont>From now on, IMatch opens all databases older than 30 days in read-only mode and disables some other IMatch features as well.\n\nIf you want to continue using IMatch, please buy a license now. The licensed version opens all databases in fully writable mode again.</cont>
 					<button btnid="1001">Buy IMatch now.\nBuy IMatch safely via our secure online shop.\nImmediate download of the licensed version after purchase.</button>
 					<button btnid="1002">Continue in read-only mode.</button>
 					<button btnid="1003">Close IMatch.</button>
@@ -1481,7 +1498,7 @@
 				</m>
 				<m xml:lang="de">
 					<cap>Ihre 30 Tage Testperiode ist abgelaufen.</cap>
-					<cont>Von jetzt an öffnet IMatch alle Datenbanken, die älter als 30 Tage sind, im Nur-lesen Modus.\n\nWenn Sie weiter mit IMatch arbeiten möchten, kaufen Sie bitte jetzt eine Vollversion. Die Vollversion öffnet selbstverständlich alle Datenbanken wieder mit vollen Schreibrechten.</cont>
+					<cont>Von jetzt an öffnet IMatch alle Datenbanken, die älter als 30 Tage sind, im Nur-lesen Modus. Es wurden auch einige andere IMatch-Funktionen deaktiviert.\n\nWenn Sie weiter mit IMatch arbeiten möchten, kaufen Sie bitte jetzt eine Vollversion. Die Vollversion öffnet selbstverständlich alle Datenbanken wieder mit vollen Schreibrechten.</cont>
 					<button btnid="1001">IMatch jetzt kaufen.\nKaufen Sie IMatch über unseren sicheren Online-Shop.\nSofortiger Download der Vollversion nach dem Kauf.</button>
 					<button btnid="1002">Im Nur-lesen Modus fortfahren.</button>
 					<button btnid="1003">IMatch beenden.</button>
@@ -1501,60 +1518,6 @@
 					<button btnid="1003">Feche o IMatch.</button>
 				</m>
 			</msg>
-
-			<msg resid="PTR_MSG_APP_PLUGINSCRIPT_ERROR" typeid="[[TD_ERROR_ICON]]" desc="">
-                <m xml:lang="en">
-                    <cap>The plug-in {name} caused an error. The following error message was returned:\r\n\r\n{err}</cap>
-                    <cont></cont>
-                </m>
-                <m xml:lang="de">
-                    <cap>Fehler in Erweiterungsmodul</cap>
-                    <cont>Die Erweiterung {name} erzeugte einen Fehler. Die folgende Fehlermeldung wurde zurückgegeben:\r\n\r\n{err}</cont>
-                </m>
-                <m xml:lang="nl">
-                    <cap>De plug-in {name} heeft een fout veroorzaakt. Dit is de gegenereerde foutmelding:\r\n\r\n{err}</cap>
-                    <cont></cont>
-                </m>
-                <m xml:lang="hr">
-                    <cap>Plug-in {name} je uzrokovao grešku. Ovo je poruka o grešci:\r\n\r\n{err}</cap>
-                    <cont></cont>
-                </m>
-                <m xml:lang="it">
-                    <cap>Il plug-in {name} ha causato un errore. È stato restituito il seguente messaggio di errore:\r\n\r\n{err}</cap>
-                    <cont></cont>
-                </m>
-				<m xml:lang="pt">
-					<cap>O plug-in {nome} causou um erro. Foi devolvida a seguinte mensagem de erro:\r\n\r\n{err}</cap>
-					<cont></cont>
-				</m>
-			</msg>
-
-            <msg resid="PTR_MSG_APP_SCRIPT_STILL_RUNNING" typeid="[[TD_INFORMATION_ICON]]" desc="">
-                <m xml:lang="en">
-                    <cap>Scripts still active</cap>
-                    <cont>IMatch cannot be closed at the moment because there are scripts running. Please wait a short while or stop all scripts and then try to close IMatch again.</cont>
-                </m>
-                <m xml:lang="de">
-                    <cap>Skripte aktiv</cap>
-                    <cont>IMatch kann im Moment nicht geschlossen werden, weil Skripte ausgeführt werden. Bitte warten Sie einen Moment oder beenden Sie alle Skripte und versuchen Sie danach erneut IMatch zu schließen.</cont>
-                </m>
-                <m xml:lang="nl">
-                    <cap>Scripts nog actief</cap>
-                    <cont>IMatch kan niet worden afgesloten als er nog scripts lopen. Wacht aub een moment of beëindig alle scripts voordat IMatch opnieuw afsluit.</cont>
-                </m>
-                <m xml:lang="hr">
-                    <cap>Skripte se još uvijek izvršavaju</cap>
-                    <cont>IMatch se ne može zatvoriti jer se skripte još uvijek izvršavaju. Malo sačekaj ili zaustavi sve skripte i pokušaj ponovno zatvoriti IMatch.</cont>
-                </m>
-                <m xml:lang="it">
-                    <cap>Script ancora attivi</cap>
-                    <cont>IMatch non può essere chiusa al momento perché ci sono script in esecuzione. Prego attendere un po' o fermare tutti gli script e quindi tentare di chiudere nuovamente IMatch.</cont>
-                </m>
-				<m xml:lang="pt">
-                    <cap>Scripts ainda activos</cap>
-                    <cont>O IMatch não pode ser fechado de momento porque ainda há scripts a correr. Por favor aguarde um pouco, ou pare todos os scripts e depois tente fechar novamente o IMatch.</cont>
-                </m>
-            </msg>
 
 			<!-- Shown when certain operations cannot be peformed because IMatch waiting for a background operation -->
             <msg resid="PTR_MSG_APP_BUSY_BACKGROUNDTASK" typeid="[[TD_INFORMATION_ICON]]" desc="">
@@ -1717,34 +1680,6 @@
                 </m>
             </msg>
 
-			<!-- Show when the user disables the Tip of the Day -->
-            <msg resid="PTR_MSG_COACH_OFF" typeid="[[TD_INFORMATION_ICON]]" desc="" >
-                <m xml:lang="en">
-                    <cap>Tip of the Day</cap>
-                    <cont>You can browse the tips via the [[mIDM_HELP_MENU]] menu any time.</cont>
-                </m>
-                <m xml:lang="de">
-                    <cap>Tipp des Tages</cap>
-                    <cont>Sie können die Tipps jederzeit über das [[mIDM_HELP_MENU]]-Menü abrufen.</cont>
-                </m>
-                <m xml:lang="hr">
-                    <cap>Savjet dana</cap>
-                    <cont>Uvijek možeš listati savjete putem [[mIDM_HELP_MENU]] izbornika.</cont>
-                </m>
-                <m xml:lang="it">
-                    <cap>Suggerimento del giorno</cap>
-                    <cont>È possibile sfogliare i suggerimenti in qualsiasi momento tramite il menu di [[mIDM_HELP_MENU]].</cont>
-                </m>
-				<m xml:lang="nl">
-                    <cap>Tip van de dag</cap>
-                    <cont>U kunt de tips op ieder moment doorlopen via het [mIDM_HELP_MENU]] menu.</cont>
-                </m>
-				<m xml:lang="pt">
-                    <cap>Sugestão do dia</cap>
-                    <cont>É possível ver as sugestões  através do menu [[mIDM_HELP_MENU]] em qualquer altura.</cont>
-                </m>
-            </msg>
-
 			<!-- If the user enables the backup reminder, we show this when the application closes -->
 			<msg resid="PTR_MSG_BACKUP_REMINDER" typeid="[[TD_INFORMATION_ICON]]" desc="" enablemarkup="true">
 				<m xml:lang="en">
@@ -1860,6 +1795,10 @@
 				<m xml:lang="de">
 					<cap>Debug-Protokolldatei aktiviert</cap>
 					<cont>Der Debug-Modus wurde aktiviert und IMatch schreibt eine sehr detaillierte Protokolldatei.\r\n\r\nFalls Sie nicht gerade nach Fehlerursachen suchen, sollten Sie die Protokolldatei wieder in den normalen Modus umschalten. Dies spart Speicherplatz und IMatch wird etwas schneller ausgeführt.\r\nÖffnen Sie das Hilfe-Menü und ändern Sie dann die Protokolleinstellungen unter 'Support'.</cont>
+				</m>
+				<m xml:lang="nl">
+					<cap>Debug Logging actief</cap>
+					<cont>De debug logging is actief en IMatch schrijft een zeer gedetailleerd logbestand.\r\n\r\nAls u op dit moment geen probleem ervaart, kunt u het logbestand terug zetten naar normale logging. Dit bespaart schijfruimte en maakt IMatch een beetje sneller.\r\n\r\nDe logging instellingen kunt u wijzigen door n het Help-menu 'Ondersteuning' te opnenen.</cont>
 				</m>
 			</msg>
 
@@ -2005,6 +1944,49 @@
 					<cont>A base de dados necessita de ser actualizada porque foi detectada uma nova versão do ExifTool ou porque algum ficheiro de configuração necessita de uma actualização.\n\nComo a base de dados foi aberta no modo de leitura, as actualizações requeridas não podem ser executadas.\n\nPor favor feche a base de dados e abra-a  no modo de escrita de forma a que o IMatch realize as actualizações necessárias automáticamente.</cont>
 				</m>
 			</msg>
+
+			<msg resid="PTR_MSG_IMWS_START_FAILED" typeid="[[TD_WARNING_ICON]]" >
+				<m xml:lang="en">
+					<cap>Embedded WebServer failed to start</cap>
+					<cont>The embedded web server in IMatch (IMWS) failed to start. App-based features are not available.\r\n\r\nThis problem is most likely caused by the configured port number (Edit &gt; Preferences &gt; Application) which is already used by another software or service running on your computer. Try to change the port number (use something in the range between 49152 - 65535) and then restart IMatch.\r\n\r\nTip: You can use the netstat -b command from a command prompt window to see a list of all ports in use on your system.</cont>
+					<inf>The log file IMATCH_IMWS_ERRORLOG.TXT in the TEMP folder on your system contains additional information. Please include this file when you contact support.</inf>
+				</m>
+				<m xml:lang="de">
+					<cap>Integrierter Webdienst kann nicht gestartet werden.</cap>
+					<cont xml:lang="de">Der integrierte Webdienst (IMWS) konnte nicht starten. App-basierte Funktionen sind nicht verfügbar.\r\n\r\nHöchstwahrscheinlich wird der unter Bearbeiten &gt; Einstellungen &amp; Anwendung konfigurierte Port bereits von einer anderen Anwendung oder einem Dienst verwenden. Ändern Sie den Port (Erlaubter Breich: 49152 - 65535) und starten Sie IMatch neu.\r\n\r\nTipp: Sie können mit dem Befehl netstat -b in einem Kommandozeilenfenster eine Liste aller verwendeten Ports auf Ihrem Computer abfragen.</cont>
+					<inf>Die Protokolldatei IMATCH_IMWS_ERRORLOG.TXT im TEMP-Verzeichnis auf Ihrem Computer enthält weitere Informationen. Bitte halten Sie diese Datei bereit, wenn Sie den Support kontaktieren.</inf>
+				</m>
+			</msg>
+
+			<msg resid="PTR_MSG_NEW_VERSION" typeid="[[TD_INFORMATION_ICON]]" >
+				<m xml:lang="en">
+					<cap>A new version of IMatch has just been installed.</cap>
+					<cont>Now would be a great time to open the release notes to see what has changed and which features have been added.\r\n\r\nDo you want to open the release notes page now?</cont>
+					<ftr typeid="[[TD_INFORMATION_ICON]]">You can open the release notes anytime from the Help menu.</ftr>
+				</m>
+				<m xml:lang="de">
+					<cap>Eine neue IMatch-Version wurde gerade installiert.</cap>
+					<cont xml:lang="de">Jetzt wäre ein guter Zeitpunkt, um sich die Informationen zu den Änderungen und neuen Funktionen anzusehen.\r\n\r\nMöchten Sie die Seite mit den Versionsinformationen jetzt öffnen?</cont>
+					<ftr typeid="[[TD_INFORMATION_ICON]]">Sie können die Versionsinformationen jederzeit über das Hilfe-Menü aufrufen.</ftr>
+				</m>
+			</msg>
+
+			<!-- Remind the user that he is running debug logging -->
+			<msg resid="PTR_MSG_APPS_CLOSING_WARNING" typeid="[[TD_INFORMATION_ICON]]" desc="">
+				<m xml:lang="en">
+					<cap>Apps Closing</cap>
+					<cont>One or more apps ask to keep IMatch running. This may happen if an app is in the middle of something and not yet ready to close. Usually it helps to wait for a few seconds and then to try closing IMatch again.</cont>
+					<button btnid="1001">Keep IMatch running</button>
+					<button btnid="1002">Close IMatch anyway</button>
+				</m>
+				<m xml:lang="de">
+					<cap>Apps werden beendet</cap>
+					<cont>Eine oder mehrere Apps sind aktuell nicht bereit, beendet zu werden. Üblicherweise hilft es, ein paar Sekunden zu warten und es dann erneut zu versuchen.</cont>
+					<button btnid="1001">IMatch jetzt nicht beenden</button>
+					<button btnid="1002">IMatch trotzdem beenden</button>
+				</m>
+			</msg>
+
 
 		</message_group>
         
@@ -2714,33 +2696,32 @@
 				</m>
 			</msg>
 
-			<msg resid="PTR_MSG_ERR_NEEDMIGRATION" typeid="[[TD_ERROR_ICON]]">
+			<msg resid="PTR_MSG_ERR_NEEDMIGRATION" typeid="[[TD_ERROR_ICON]]" >
 				<m xml:lang="en">
-					<cap>Database needs to be updated.</cap>
-					<cont>This database was created by an older IMatch version and needs to be updated in order to work with the current version.\r\n\r\nIMatch cannot do this when the database is opened in read-only mode. Please open the database in writable mode or as your Administrator.</cont>
+					<cap>Database Upgrade Required.</cap>
+					<cont>This database was created by an older IMatch version and needs to be updated in order to work with the current version.\r\n\r\nIMatch cannot do this when the database is opened in READ-ONLY mode. Please open the database in writable mode or ask your Administrator.\r\n\r\nNOTE: The Trial version of IMatch opens databases older than 30 days always in read-only mode, it cannot be used to upgrade old databases. You can create a new database for testing purposes.</cont>
 				</m>
 				<m xml:lang="de">
-					<cap>Datenbank muss aktualisiert werden.</cap>
-					<cont>Die Datenbank stammt von einer älteren IMatch version und muss aktualisiert werden.\r\n\r\nIMatch kann die Aktualisierung nicht durchführen, wenn die Datenbank im nur-lesen Modus geöffnet wird. Bitte öffnen Sie die Datenbank im Schreibmodus oder fragen Sie Ihren Administrator.</cont>
+					<cap>Die Datenbank muss aktualisiert werden.</cap>
+					<cont>Die Datenbank stammt von einer älteren IMatch version und muss aktualisiert werden.\r\n\r\nIMatch kann die Aktualisierung nicht durchführen, wenn die Datenbank im NUR-LESEN Modus geöffnet wird. Bitte öffnen Sie die Datenbank im Schreibmodus oder fragen Sie Ihren Administrator.\r\n\r\nHINWEIS: Die Testversion von IMatch öffnet Datenbanken älter als 30 Tage immer im 'Nur-lesen'-Modus - sie kann keine alten Datenbanken aktualisieren. Sie können aber eine neue Datenbank für Testzwecke anlegen.</cont>
 					<inf></inf>
-				</m>
-				<m xml:lang="nl">
-					<cap>Database moet worden geupdate.</cap>
-					<cont>De database is met een oudere versie van IMatch gemaakt en moet worden geüpdate.\r\n\r\nIMatch kan de update niet uitvoeren omdat de databse is geopend als "alleen lezen". Open de database met schrijfrechten of vraag uw systeembeheerder.</cont>
-					<inf></inf>
-				</m>
-				<m xml:lang="pt">
-					<cap>A base de dados necessita ser actualizada.</cap>
-					<cont>Esta base de dados foi criada por uma versão mais velha do IMatch e necessita ser actualizada de forma a trabalhar com a versão currente.\r\n\r\nO IMatch não pode fazer isto quando a base de dados está aberta no modo de leitura. Por favor abra a base de dados em modo de escrita ou como o seu Administrador.</cont>
-				</m>
-				<m xml:lang="it">
-					<cap>Database deve essere aggiornato.</cap>
-					<cont>Questo database è stato creato da una versione precedente di IMatch e deve essere aggiornato per funzionare con la versione corrente.\r\n\r\nIMatch non può fare questo quando il database è aperto in modalità sola lettura. Si prega di aprire il database in modalità di scrittura o come amministratore.</cont>
 				</m>
 			</msg>
-			
 
-        </message_group>
+			<msg resid="PTR_MSG_NEEDMIGRATION" typeid="[[IDI_QUESTION]]">
+				<m xml:lang="en">
+					<cap>Database Upgrade Required.</cap>
+					<cont>This database was created by an older IMatch version and needs to be updated in order to work with the current version.\r\n\r\nAfter this upgrade, the database cannot be used with older IMatch or IMatch Anywhere versions anymore. You may want to create a backup of your database first.\r\n\r\nDo you want to open and upgrade the database now?</cont>
+					<ftr typeid="[[TD_INFORMATION_ICON]]">If you have just installed a new version of IMatch, this message is normal.</ftr>
+				</m>
+				<m xml:lang="de">
+					<cap>Die Datenbank muss aktualisiert werden.</cap>
+					<cont>Die Datenbank stammt von einer älteren IMatch version und muss aktualisiert werden.\r\n\r\nNach der Aktualisierung kann die Datenbank nicht mehr mit älteren IMatch- oder IMatch Anywhere-Versionen genutzt werden. Sie sollten ggf. zuerst eine Sicherungskopie Ihrer Datenbank anlegen.\r\n\r\nMöchten Sie die Datenbank nun öffnen und aktualisieren?</cont>
+					<ftr typeid="[[TD_INFORMATION_ICON]]">Falls Sie gerade ein IMatch-Update installiert haben, ist diese Meldung normal.</ftr>
+				</m>
+			</msg>
+
+		</message_group>
 
 		<!-- File Window Messages -->
 
@@ -9910,7 +9891,7 @@
 					<cap>IMatch says Hello!</cap>
 					<cont>This is the first time you have run IMatch. To get started, IMatch needs to create a database which later holds all the information about your files. After the database has been created, you can show IMatch the files you want to manage.</cont>
                     <button btnid="1001">Create the Database\nThis option opens the Database Wizard which guides you through the database creation process.</button>
-					<button btnid="1002">Import IMatch 3 Database\nThis command imports an IMatch database (3.5 and later) into the IMatch 5 format.</button>
+					<button btnid="1002">Import IMatch 3 Database\nThis command imports an IMatch database (3.5 and later) into the current IMatch format.</button>
                     <button btnid="1003">Open the Help System\nThis brings up the extensive IMatch Help system with information for new users.</button>
 					<button btnid="1004">Close this dialog\nChoose this if you prefer to work on your own</button>
 				</m>
@@ -9918,7 +9899,7 @@
 					<cap>IMatch sagt Hallo!</cap>
 					<cont>Dies ist das erste Mal, dass Sie IMatch ausführen. IMatch erstellt nun eine Datenbank, die später alle Informationen zu Ihren Dateien speichert. Wenn dieser Vorhang abgechlossen ist, können Sie IMatch die Dateien zeigen, die Sie verwalten möchten.</cont>
                     <button btnid="1001">Datenbank erstellen\nDiese Option öffnet den Datenbankassistenten.</button>
-					<button btnid="1002">IMatch 3 Datenbank importieren\nDiese Option importiert eine IMatch-Datenbank (3.5 und höher) in das IMatch 5 Format.</button>
+					<button btnid="1002">IMatch 3 Datenbank importieren\nDiese Option importiert eine IMatch-Datenbank (3.5 und höher) in das aktuelle IMatch Format.</button>
                     <button btnid="1003">Das Hilfesystem öffnen\nÖffnet die IMatch-Hilfe mit Informationen für neue Anwender.</button>
 					<button btnid="1004">Diesen Dialog schließen\nWählen Sie diese Option, wenn Sie selbständig arbeiten möchten.</button>
 				</m>
@@ -9926,7 +9907,7 @@
 					<cap>IMatch zegt Hallo!</cap>
 					<cont>Dit is de eerste keer dat u IMatch start. IMatch creëert nu een database die later alle informatie over uw bestanden bevat. Nadat de database gecreëerd is, kunt u IMatch de data die u wit beheren, tonen.</cont>
                     <button btnid="1001">Creëer de database\nDeze optie opent de database-wizard.</button>
-					<button btnid="1002">Import IMatch 3 Database\nDeze optie importeert een IMatch database (3.5 en later) in het IMatch 5 formaat.</button>
+					<button btnid="1002">Import IMatch 3 Database\nDeze optie importeert een IMatch database (3.5 en later) in het IMatch formaat.</button>
                     <button btnid="1003">Het Helpsysteem openen\nU opent het het uitgebreide IMatch Helpsysteem voor nieuwe gebruikers.</button>
 					<button btnid="1004">Dialoog sluiten\nKies deze optie indien u zelfstandig verder wilt werken.</button>
 				</m>
@@ -9934,7 +9915,7 @@
 					<cap>Pozdrav od IMatch-a!</cap>
 					<cont>Ovo je prvi put da si pokrenuo IMatch. Za početak, IMatch mora stvoriti bazu podataka koja će sadržavati sve podatke o tvojim datotekama. Nakon što je baza podataka stvorena, možeš pokazati IMatch-u datoteke kojima želiš upravljati.</cont>
                     <button btnid="1001">Stvori bazu podataka\nOtvara čarobnjaka za bazu podataka koji te vodi kroz proces stvaranja baze podataka.</button>
-					<button btnid="1002">Uvezi IMatch 3 bazu podataka\nUvozi IMatch bazu podataka (verzija 3.5 i novije) u IMatch 5 format.</button>
+					<button btnid="1002">Uvezi IMatch 3 bazu podataka\nUvozi IMatch bazu podataka (verzija 3.5 i novije) u IMatch format.</button>
                     <button btnid="1003">Otvori sistem za pomoć\nOtvara izdašni IMatch sistem za pomoč sa informacijama za nove korisnike.</button>
 					<button btnid="1004">Zatvori dijaloški okvir\nIzaberi ovo ako preferiraš raditi sve sam</button>
 				</m>
@@ -9942,7 +9923,7 @@
 					<cap>IMatch tervehtii!</cap>
 					<cont>Tämä on ensimmäinen kerta, kun käynnistät IMatchin. Aluksi täytyy luoda tietokanta, joka myöhemmin tulee sisältämään kaiken tiedostoihisi liittyvän tiedon. Kun tietokanta on luotu, voit kertoa IMatchille, mitkä tiedostot haluat sillä hallita.</cont>
                     <button btnid="1001">Luo tietokanta\nTämä vaihtoehto avaa ohjatun toiminnon, joka johtaa sinut läpi tietokannan luomisprosessin.</button>
-					<button btnid="1002">Tuo IMatch 3 tietokanta\nTämä vaihtoehto muuntaa vanhan IMatch (3.5 tai uudemman) tietokannan IMatch 5 muotoon.</button>
+					<button btnid="1002">Tuo IMatch 3 tietokanta\nTämä vaihtoehto muuntaa vanhan IMatch (3.5 tai uudemman) tietokannan IMatch muotoon.</button>
                     <button btnid="1003">Avaa ohje\nTämä avaa IMatch ohjeen, joka sisältää tietoa uusille käyttäjille.</button>
 					<button btnid="1004">Sulje tämä valikko\nValitse tämä, jos haluat toimia itsenäisesti.</button>
 				</m>
@@ -9950,7 +9931,7 @@
 					<cap>IMatch dice Ciao!</cap>
 					<cont>Questa è la prima volta che si esegue IMatch. Per iniziare, IMatch ha bisogno di creare un database che detiene tutte le informazioni sui tuoi file. Dopo aver creato il database, è possibile mostrare a IMatch i file che si desidera gestire.</cont>
                     <button btnid="1001">Crea il Database\nQuesta opzione apre la creazione guidata che ti guida attraverso il processo di creazione del database.</button>
-					<button btnid="1002">Importa Database IMatch 3\nQuesto comando importa un database IMatch (3.5 e versioni successive) in formato IMatch 5.</button>
+					<button btnid="1002">Importa Database IMatch 3\nQuesto comando importa un database IMatch (3.5 e versioni successive) in formato IMatch.</button>
                     <button btnid="1003">Aprire la guida\nQuesto fa apparire il vasto sistema di aiuto di IMatch con informazioni per i nuovi utenti.</button>
 					<button btnid="1004">Chiudere questo dialogo\nScegli questo se preferisci lavorare in proprio</button>
 				</m>
@@ -9958,7 +9939,7 @@
 					<cap>O IMatch diz Olá!</cap>
 					<cont>Esta é a primeira vez que está a correr o IMatch. Para iniciar, o IMatch necessita de criar uma base de dados que mais tarde irá suportar todas as informações dos seus ficheiros. Após haver criado a base de dados, pode juntar ao IMatch os ficheiros que deseja gerir.</cont>
                     <button btnid="1001">Cria a base de dados\nEsta opção abre a criação guiada da base de dados que o irá ajudar através de todo o processo.</button>
-					<button btnid="1002">Importa a base de dados do IMatch 3\nEste comando importa uma base de dados do IMatch (3.5 e versões posteriores) no formato do IMatch 5.</button>
+					<button btnid="1002">Importa a base de dados do IMatch 3\nEste comando importa uma base de dados do IMatch (3.5 e versões posteriores) no formato do IMatch.</button>
                     <button btnid="1003">Abre a ajuda\nFaz aparecer o vasto sistema de ajuda do IMatch com informações relevantes para os novos utilizadores.</button>
 					<button btnid="1004">Fechar esta caixa de diálogo\nEscolher esta opção se pretender trabalhar por si próprio</button>
 				</m>
@@ -10074,8 +10055,8 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>Sjabloon locatie</cap>
-					<cont>Hoe wilt u dit sljbloon oslaan?</cont>
-					<button btnid="1001">Alleen voor mij\nSla het sjabllon op in mijn persoonlijke sjabloonmap.</button>
+					<cont>Hoe wilt u dit sjabloon opslaan?</cont>
+					<button btnid="1001">Alleen voor mij\nSla het sjabloon op in mijn persoonlijke sjabloonmap.</button>
 					<button btnid="1002">Voor alle gebruikers\nSla het sjabloon op in de map voor gedeelde sjablonen.\nAlle IMatch gebruikers kunnen dit sjabloon zien en gebruiken. </button>
 				</m>
 			</msg>
@@ -10455,6 +10436,21 @@
 				<m xml:lang="nl">
 					<cap>Afdruksjabloon niet gevonden</cap>
 					<cont>Het sjabloon\r\n\r\n'{0}'\r\n\r\nbestaat niet of kon niet geopend worden.</cont>
+				</m>
+			</msg>
+
+		</message_group>
+
+		<message_group name="App Manager and App Messages">
+
+			<msg resid="PTR_MSG_APPMGR_DUPLICATE_ID" typeid="[[TD_ERROR_ICON]]" desc="">
+				<m xml:lang="en">
+					<cap>Duplicate Application Id detected</cap>
+					<cont>The application manager has found two apps which share the same appid. Each app must have a unique id.\r\n\r\n{0}\r\n{1}.</cont>
+				</m>
+				<m xml:lang="de">
+					<cap>Doppelt vorhande Anwendungs-Id</cap>
+					<cont>Der Anwendungsmanager hat zwei Apps mit der gleichen ID gefunden. Jede App muss über eine eigene appid verfügen.\r\n\r\n{0}\r\n{1}</cont>
 				</m>
 			</msg>
 

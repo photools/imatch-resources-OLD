@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!-- $Date: 2013-06-14 18:49:32 +0200 (Fr, 14 Jun 2013) $ ($Rev: 473 $) -->
+
 <!-- Copyright © 2013-2017 Mario M. Westphal and photools.com. -->
 <!-- No part of this file may be changed without written permission. -->
 <!-- Contact support@photools.com for more information. -->
@@ -12,13 +14,13 @@
 	</basepath>
 
 	<!-- Name of the output HM file (written to basepath)-->
-	<mapfilename>imatch5_rm.hm</mapfilename>
+	<mapfilename>imatch_rm.hm</mapfilename>
 	
 	<!-- Name of the output ALIAS file (written to basepath) -->
-	<aliasfilename>imatch5_rm.ali</aliasfilename>
+	<aliasfilename>imatch_rm.ali</aliasfilename>
 
 	<!-- Name of the output FILES file (written to basepath) -->
-	<includefilename>imatch5_rm.inc</includefilename>
+	<includefilename>imatch_rm.inc</includefilename>
 
 	<!--	The name of the document template (relative to basepath).
 			When new HTML documents are created, and a document template is specified,
@@ -421,9 +423,6 @@
             <a xml:lang="en-us">panel_output.htm</a>
         </alias>
         <alias resid="CONTEXTID_PANELS_OUTPUT_ET">
-            <a xml:lang="en-us">panel_output.htm</a>
-        </alias>
-        <alias resid="CONTEXTID_PANELS_OUTPUT_SCRIPT">
             <a xml:lang="en-us">panel_output.htm</a>
         </alias>
         <alias resid="CONTEXTID_PANELS_VIEWER">
@@ -3393,9 +3392,6 @@
 		<alias resid="PTR_MSG_DB_COMPACT_FAILED">
 			<a xml:lang="en-us">db_tools.htm</a>
 		</alias>
-		<alias resid="SCRIPT_IDL_SEARCHENGINE">
-			<a xml:lang="en-us">script_om_searchengine.htm</a>
-		</alias>
         <alias resid="PTRMDLG_APP_ABOUT">
             <a xml:lang="en-us">panel_statistics.htm</a>
         </alias>
@@ -4506,57 +4502,42 @@
         </alias>
 
         <alias resid="ID_VIEW_SHOW_FILEWNDCONTAINER_HTML">
-            <a xml:lang="en-us">app_basics.htm</a>
+            <a xml:lang="en-us">panel_app.htm</a>
         </alias>
         <alias resid="ID_VIEW_SHOW_FILEWNDCONTAINER_HTML2">
-            <a xml:lang="en-us">app_basics.htm</a>
+            <a xml:lang="en-us">panel_app.htm</a>
         </alias>
 		<alias resid="ID_VIEW_SHOW_FILEWNDCONTAINER_HTML3">
-			<a xml:lang="en-us">app_basics.htm</a>
+			<a xml:lang="en-us">panel_app.htm</a>
 		</alias>
 		<alias resid="ID_VIEW_SHOW_FILEWNDCONTAINER_HTML4">
-			<a xml:lang="en-us">app_basics.htm</a>
+			<a xml:lang="en-us">panel_app.htm</a>
 		</alias>
 		<alias resid="ID_CMD_HTMLPANEL_PANEL_COMBO">
-            <a xml:lang="en-us">app_basics.htm</a>
+            <a xml:lang="en-us">panel_app.htm</a>
         </alias>
         <alias resid="ID_CMD_HTMLPANEL_PANEL_RELOAD">
-            <a xml:lang="en-us">app_basics.htm</a>
+            <a xml:lang="en-us">panel_app.htm</a>
         </alias>
         <alias resid="ID_CMD_HTMLPANEL_PANEL_STOP">
-            <a xml:lang="en-us">app_basics.htm</a>
+            <a xml:lang="en-us">panel_app.htm</a>
         </alias>
         <alias resid="ID_CMD_HTMLPANEL_PANEL_CONFIGURE">
-            <a xml:lang="en-us">app_basics.htm</a>
+            <a xml:lang="en-us">panel_app.htm</a>
         </alias>
         <alias resid="CONTEXTID_PANELS_FILEWNDCONTAINER_HTML">
-            <a xml:lang="en-us">app_basics.htm</a>
+            <a xml:lang="en-us">panel_app.htm</a>
         </alias>
         <alias resid="CONTEXTID_PANELS_FILEWNDCONTAINER_HTML2">
-            <a xml:lang="en-us">app_basics.htm</a>
+            <a xml:lang="en-us">panel_app.htm</a>
         </alias>
 		<alias resid="CONTEXTID_PANELS_FILEWNDCONTAINER_HTML3">
-			<a xml:lang="en-us">app_basics.htm</a>
+			<a xml:lang="en-us">panel_app.htm</a>
 		</alias>
 		<alias resid="CONTEXTID_PANELS_FILEWNDCONTAINER_HTML4">
-			<a xml:lang="en-us">app_basics.htm</a>
+			<a xml:lang="en-us">panel_app.htm</a>
 		</alias>
 
-		<alias resid="ID_VIEW_SHOW_SCRIPT_MANAGER">
-            <a xml:lang="en-us">app_basics.htm#a_apppanel</a>
-        </alias>
-        <alias resid="CONTEXTID_PANELS_SCRIPT_IDE">
-            <a xml:lang="en-us">app_basics.htm</a>
-        </alias>
-        <alias resid="CONTEXTID_PANELS_SCRIPT_INFO">
-            <a xml:lang="en-us">app_basics.htm#a_apppanel</a>
-        </alias>
-        <alias resid="CONTEXTID_PANELS_SCRIPT_MANAGER">
-            <a xml:lang="en-us">app_basics.htm#a_apppanel</a>
-        </alias>
-
-
-		
         <alias resid="ID_EDIT_REDO">
             <a xml:lang="en-us">welcome.htm</a>
         </alias>
@@ -4596,23 +4577,15 @@
         <alias resid="ID_CMD_FILE_TRANSFORM_TOGGLECROP">
             <a xml:lang="en-us">transforms_basics.htm</a>
         </alias>
-        
+       
+
         <alias resid="PTRMDLG_COLLECTION_SELECTOR">
             <a xml:lang="en-us">col_basics.htm</a>
-        </alias>
-        <alias resid="PTRMDLG_SCRIPTS_PLUGIN">
-            <a xml:lang="en-us">app_basics.htm</a>
         </alias>
         <alias resid="PTRMDLG_SEARCH_GPSDISTANCE">
             <a xml:lang="en-us">search_basics.htm</a>
         </alias>
-        <alias resid="PTR_MSG_APP_PLUGINSCRIPT_ERROR">
-            <a xml:lang="en-us">app_basics.htm</a>
-        </alias>
-        <alias resid="PTR_MSG_APP_SCRIPT_STILL_RUNNING">
-            <a xml:lang="en-us">app_basics.htm</a>
-        </alias>
-        
+                
         <alias resid="PTR_MSG_APP_UPDATECHECK_FAILED">
             <a xml:lang="en-us">welcome.htm</a>
         </alias>
@@ -4623,19 +4596,6 @@
             <a xml:lang="en-us">welcome.htm</a>
         </alias>
         
-        <alias resid="PTR_MSG_SCRIPTS_APPSCRIPTPROMPT">
-            <a xml:lang="en-us">app_basics.htm</a>
-        </alias>
-        <alias resid="PTR_MSG_SCRIPTS_DBSCRIPTPROMPT">
-            <a xml:lang="en-us">app_basics.htm</a>
-        </alias>
-        <alias resid="PTR_MSG_SCRIPTS_DESIGNMODEHINT">
-            <a xml:lang="en-us">app_basics.htm</a>
-        </alias>
-        <alias resid="PTR_MSG_TYPELIB_NOT_REGISTERED">
-            <a xml:lang="en-us">app_basics.htm</a>
-        </alias>
-
 		<alias resid="ID_DATABASE_OPEN_RO">
 			<a xml:lang="en-us">db_sharing.htm</a>
 		</alias>
@@ -4714,10 +4674,6 @@
 			<a xml:lang="en-us">impexp_email.htm</a>
 		</alias>
 		
-		<alias resid="PTR_MSG_SCRIPTS_SYSSCRIPTPROMPT">
-			<a xml:lang="en-us">app_basics.htm</a>
-		</alias>
-	
 		<alias resid="ID_CMD_TOOL_GEOCODE">
 			<a xml:lang="en-us">tools_revgeocoding.htm</a>
 		</alias>
@@ -5605,7 +5561,7 @@
 		<alias resid="CONTEXTID_PANELS_OUTPUT_APP">
 			<a xml:lang="en-us">app_basics.htm</a>
 		</alias>
-		
+
 	</alias_table>
 
 </help_resources>

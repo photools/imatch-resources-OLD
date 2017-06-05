@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!-- $Revision: 449 $ $Date: 2013-05-12 22:24:47 +0200 (So, 12 Mai 2013) $ - $Author: predrag $ -->
+
 <!-- This resource file contains all dialog resources for IMatch -->
+
 <!-- Copyright © 2013-2017 Mario M. Westphal and photools.com. -->
 <!-- No part of this file may be changed without written permission. -->
 <!-- Contact support@photools.com for more information. -->
@@ -944,7 +947,7 @@
 
 
 			<ctrl text="#l_header">
-				<c xml:lang="en" helptext=""><![CDATA[<Bold>Database successfully created.</Bold><LineBreak/>Your database is now ready to use. IMatch has many options which allow you to taylor your database to your workflow. The most important settings are displayed below. <Bold>Press F1</Bold> or click on the <Bold>Help button</Bold> for more information.]]></c>
+				<c xml:lang="en" helptext=""><![CDATA[<Bold>Database successfully created.</Bold><LineBreak/>Your database is now ready to use. IMatch has many options which allow you to tailor your database to your workflow. The most important settings are displayed below. <Bold>Press F1</Bold> or click on the <Bold>Help button</Bold> for more information.]]></c>
 				<c xml:lang="it" helptext=""><![CDATA[<Bold>Database creato con successo.</Bold><LineBreak/>Il database è ora pronto per l'uso. IMatch ha molte opzioni che consentono di cucire il database sul vostro flusso di lavoro. Qui di seguito sono visualizzate le impostazioni più importanti. <Bold>Premere F1</Bold> o click sul <Bold>pulsante Help</Bold> per maggiori informazioni.]]></c>
 				<c xml:lang="de" helptext=""><![CDATA[<Bold>Datenbank erfolgreich erstellt.</Bold><LineBreak/>IMatch stellt viele Optionen zur Anpassung der Datenbank an Ihre persönlichen Anforderungen bereit. Unten finden Sie die wichtigsten Einstellungen für den Anfang. <Bold>Drücken Sie F1</Bold> oder klicken Sie auf <Bold>Hilfe</Bold> für mehr Informationen.]]></c>
 				<c xml:lang="fi" helptext=""><![CDATA[<Bold>Tietokanta luotu onnistuneesti.</Bold><LineBreak/>Tietokantasi on nyt valmis käyttöön. IMatchissa on monia vaihtoehtoja, joiden avulla voit räätälöidä sen sopimaan parhaiten osaksi työkulkuasi. Kaikkein tärkeimmät asetukset näytetään alla. <Bold>Paina F1</Bold> tai napsauta <Bold>Ohje painiketta</Bold> saadaksesi lisätietoja.]]></c>
@@ -964,9 +967,9 @@
 			</ctrl>
 
 			<ctrl text="#l_buddy_files">
-				<c xml:lang="en" helptext=""><![CDATA[<Bold>Buddy Files</Bold><LineBreak/>If you use RAW file formats, you often have secondary files (<Italic>'buddy' files</Italic>) which go with each file. These files may be created by the camera or another software. Please select the RAW formats you use in the list and enter all buddy file extensions the input field:]]></c>
+				<c xml:lang="en" helptext=""><![CDATA[<Bold>Buddy Files</Bold><LineBreak/>If you use RAW file formats, you often have secondary files ('buddy' files) which go with each file. These files may be created by the camera or another software. Please select the RAW formats you use in the list and enter all buddy file extensions the input field:]]></c>
 				<c xml:lang="it" helptext=""><![CDATA[<Bold>File Associati</Bold><LineBreak/>Se si utilizzano formati di file RAW, si avranno spesso file secondari (<Italic>file 'associati' files</Italic>) che viaggiano con ogni file. Questi file possono essere creati dalla  fotocamera o da altro software. Si prega di selezionare i formati RAW utilizzati nell'elenco e immettere tutte le estensioni dei file associati nel campo di input:]]></c>
-				<c xml:lang="de" helptext=""><![CDATA[<Bold>Buddy-Dateien</Bold><LineBreak/>Wenn Sie mit RAW-Dateien arbeiten, verwenden diese oft sekundäre Dateien (<Italic>'Buddy'-Dateien</Italic>). Diese Dateien werden von der Kamera oder einer anderen Software erstellt. Bitte wählen Sie die von Ihnen verwendeten RAW-Formate aus und geben Sie die Dateinamenerweiterungen aller Buddy-Dateien ein:]]></c>
+				<c xml:lang="de" helptext=""><![CDATA[<Bold>Buddy-Dateien</Bold><LineBreak/>Wenn Sie mit RAW-Dateien arbeiten, verwenden diese oft sekundäre Dateien ('Beiwagen'-Dateien). Diese Dateien werden von der Kamera oder einer anderen Software erstellt. Bitte wählen Sie die von Ihnen verwendeten RAW-Formate aus und geben Sie die Dateinamenerweiterungen aller Buddy-Dateien ein:]]></c>
 				<c xml:lang="fi" helptext=""><![CDATA[<Bold>Rinnakkaistiedostot</Bold><LineBreak/>Jos käytät raakakuvaformaatteja, niihin kuuluu usein  (<Italic>rinnakkaistiedostoja</Italic>) jotka kulkevat kunkin tiedoston mukana. Ne voivat olla kameran tai jonkin toisen ohjelman luomia. Valitse luettelosta käyttämäsi raakatiedostomuodot ja lisää kaikki niiden rinnakkaistiedostojen tiedostopäätteet tallennuskenttään:]]></c>
 				<c xml:lang="nl" helptext=""><![CDATA[<Bold>Buddy bestanden</Bold><LineBreak/>Als u met RAW bestanden werkt, benutten die vaak secundaire bestanden (<Italic>'buddy' bestanden</Italic>). Deze bestanden worden door de camera of door andere software aangemaakt. Selecteer de RAW indelingen die u gebruikt in de lijst en voer alle extensies van buddy-bestanden in:]]></c>
 				<c xml:lang="pt" helptext=""><![CDATA[<Bold>Ficheiros associados</Bold><LineBreak/>Se utilizar o formato RAW, deverá ter ficheiros secundários (<Italic>'ficheiros associados'</Italic>) que vêm com cada ficheiro. Estes ficheiros podem ser criados pela camera ou outro software. Por favor seleccione os formatos RAW que utiliza na lista e entre com as extensões dos ficheiros associados no campo de entrada:]]></c>
@@ -1055,9 +1058,9 @@
 
 			<listdata text="IDC_COMBO_CACHE">
 				<ld listid="2" selected="true">
-					<l xml:lang="en" helptext="">When the file is first viewed</l>
+					<l xml:lang="en" helptext="">When the file is first viewed (Default)</l>
 					<l xml:lang="it" helptext="">Quando il file viene visualizzato per la prima volta</l>
-					<l xml:lang="de" helptext="">Beim ersten Anzeigen der Datei</l>
+					<l xml:lang="de" helptext="">Beim ersten Anzeigen der Datei (Standard)</l>
 					<l xml:lang="fi" helptext="">Kun tiedostoa katsotaan ensimmäisen kerran</l>
 					<l xml:lang="nl" helptext="">Als het bestand voor de eerste keer wordt bekeken</l>
 					<l xml:lang="pt" helptext="">Quando o ficheiro é primeiro visto</l>
@@ -7885,13 +7888,13 @@
 		</dialog>
 	
 		<dialog resid="PTRMDLG_FILTERPANEL_RLI" desc="Attribute Form in RLU Panel">
-			<caption xml:lang="en">Rating, Label &amp; Collections</caption>
-			<caption xml:lang="de">Rating, Label &amp; Kollektionen</caption>
+			<caption xml:lang="en">Rating, Label &amp;&amp; Collections</caption>
+			<caption xml:lang="de">Rating, Label &amp;&amp; Kollektionen</caption>
 			<caption xml:lang="fi">Pisteytys, tunnisteet ja kokoelmat</caption>
-			<caption xml:lang="nl">Rating, Label &amp; Collecties</caption>
-			<caption xml:lang="pt">Classificação, Rótulo &amp; Colecções</caption>
-			<caption xml:lang="no">Vurdering, etikett &amp; samlinger</caption>
-			<caption xml:lang="it">Valutazione, Etichetta &amp; Collezioni</caption>
+			<caption xml:lang="nl">Rating, Label &amp;&amp; Collecties</caption>
+			<caption xml:lang="pt">Classificação, Rótulo &amp;&amp; Colecções</caption>
+			<caption xml:lang="no">Vurdering, etikett &amp;&amp; samlinger</caption>
+			<caption xml:lang="it">Valutazione, Etichetta &amp;&amp; Collezioni</caption>
             <ctrlhelp text="#l_btn_reset">
                 <c xml:lang="en">Reset All</c>
                 <c xml:lang="de">Zurücksetzen</c>
@@ -8393,31 +8396,37 @@
 			<ctrl text="#l_video" style="bold">
 				<c xml:lang="en" helptext="">Thumbnails for Video Files</c>
 				<c xml:lang="de" helptext="">Vorschaubilder für Video-Dateien</c>
+				<c xml:lang="nl" helptext="">Miniaturen voor video-bestanden</c>
 			</ctrl>
 
 			<ctrl text="#l_video_offset">
 				<c xml:lang="en" helptext="The first frame to extract starts at this offset.">&amp;Offset:</c>
 				<c xml:lang="de" helptext="Das erste Bild wird ab dieser Position extrahiert.">&amp;Versatz:</c>
+				<c xml:lang="nl" helptext="Het eerste beeld wordt vanaf dit punt geëxtraheerd.">&amp;Offset:</c>
 			</ctrl>
 
 			<ctrl text="#l_s">
 				<c xml:lang="en" helptext="">s</c>
 				<c xml:lang="de" helptext="">s</c>
+				<c xml:lang="nl" helptext="">s</c>
 			</ctrl>
 
 			<ctrl text="#l_check_vid_custom">
 				<c xml:lang="en" helptext="">C&amp;ustom intervals:</c>
 				<c xml:lang="de" helptext="">Ben&amp;utzerdefiniert:</c>
+				<c xml:lang="nl" helptext="">Gebr&amp;uikerinstelling:</c>
 			</ctrl>
 
 			<ctrl text="#l_intervals">
 				<c xml:lang="en" helptext="">Intervals to extract frames, in seconds. Separated with ,</c>
 				<c xml:lang="de" helptext="">Intervalle in Sekunden. Getrennt durch ,</c>
+				<c xml:lang="nl" helptext="">Intervallen in seconden. gescheiden door ,</c>
 			</ctrl>
 
 			<ctrl text="#l_vid_every">
 				<c xml:lang="en" helptext="">One frame every </c>
 				<c xml:lang="de" helptext="">Ein Bild pro </c>
+				<c xml:lang="nl" helptext="">Eén beeld per </c>
 			</ctrl>
 			
 
@@ -8509,6 +8518,26 @@
 				<ld listid="5" >
 					<l xml:lang="en">5 Seconds</l>
 					<l xml:lang="de">5 Sekunden</l>
+				</ld>
+				<ld listid="10" >
+					<l xml:lang="en">10 Seconds</l>
+					<l xml:lang="de">10 Sekunden</l>
+				</ld>
+				<ld listid="20" >
+					<l xml:lang="en">20 Seconds</l>
+					<l xml:lang="de">20 Sekunden</l>
+				</ld>
+				<ld listid="30" >
+					<l xml:lang="en">30 Seconds</l>
+					<l xml:lang="de">30 Sekunden</l>
+				</ld>
+				<ld listid="60" >
+					<l xml:lang="en">Minute</l>
+					<l xml:lang="de">Minute</l>
+				</ld>
+				<ld listid="120" >
+					<l xml:lang="en">2 Minutes</l>
+					<l xml:lang="de">2 Minuten</l>
 				</ld>
 			</listdata>
 		</dialog>
@@ -9874,7 +9903,18 @@
             </ctrl>
         </dialog>
 
-        <!-- Renamer Preset Selector dialog box -->
+		<!-- Metadata Template Selector dialog box -->
+
+		<dialog resid="PTRMDLG_APP_SEL" resgroup="favorites">
+			<caption xml:lang="en">Apps</caption>
+			<caption xml:lang="de">Apps</caption>
+			<ctrl text="#l_apps">
+				<c xml:lang="en" helptext="">&amp;Apps::</c>
+				<c xml:lang="de" helptext="">&amp;Apps:</c>
+			</ctrl>
+		</dialog>
+
+		<!-- Renamer Preset Selector dialog box -->
 
         <dialog resid="PTRMDLG_RENAMER_PRESET_SEL" resgroup="renamer" desc="">
             <caption xml:lang="en">Renamer Presets</caption>
@@ -11924,7 +11964,11 @@
 					<l xml:lang="no">For epost</l>
 					<l xml:lang="it">Per l'Email</l>
 				</ld>
-            </listdata>
+				<ld listid="32">
+					<l xml:lang="en">Version Stack Visual</l>
+					<l xml:lang="de">Versionsstapel-Bildquelle</l>
+				</ld>
+			</listdata>
 		</dialog>
 
         <!-- Attributes -->
@@ -18643,8 +18687,12 @@
 					<t xml:lang="no">AM/PM indikator</t>
                     <t xml:lang="it">Indicatore AM/PM</t>
                 </td>
+				<td tid="2270">
+					<t xml:lang="en">Day Sequence Number (File Time, resets to 1 when the day changes)</t>
+					<t xml:lang="de">Tages-Sequenznummer (Datei-Zeitstempel, Rückstellung auf 1 bei Tageswechel)</t>
+				</td>
 
-                <td tid="3000">
+				<td tid="3000">
                     <t xml:lang="en">Short Month Name (Jan)</t>
                     <t xml:lang="de">Kurzer Monatsname (Jan)</t>
                     <t xml:lang="nl">Korte maandnaam (Jan)</t>

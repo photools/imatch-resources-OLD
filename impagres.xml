@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!-- $Revision: 719 $ $Date: 2013-12-22 19:53:19 +0100 (So, 22 Dez 2013) $ - $Author: mario $ -->
+
 <!-- Copyright © 2013-2015 Mario M. Westphal and photools.com. -->
 <!-- No part of this file may be changed without written permission. -->
 <!-- Contact support@photools.com for more information. -->
@@ -243,7 +245,7 @@
 					<![CDATA[
 					<Border Background='#ffffff' Padding='10,10,10,10'>
 					<StackPanel Orientation='Vertical'>
-						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch is running and needs to be closed.</TextBlock>
+						<TextBlock TextWrapping='Wrap' FontSize='{fs12}' FontWeight='Bold' Padding='0,0,0,10'>IMatch is running and needs to be closed.</TextBlock>
 						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Go</Bold> cannot backup settings and other important files while IMatch is still running.<LineBreak/><LineBreak/>Please close IMatch now.<LineBreak/>This dialog <Bold>closes automatically</Bold> when IMatch has been closed and Pack &amp; Go will continue.</TextBlock>
 					</StackPanel>
 					</Border>
@@ -253,7 +255,7 @@
 					<![CDATA[
 					<Border Background='#ffffff' Padding='10,10,10,10'>
 					<StackPanel Orientation='Vertical'>
-						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch deve essere chiuso.</TextBlock>
+						<TextBlock TextWrapping='Wrap' FontSize='{fs12}' FontWeight='Bold' Padding='0,0,0,10'>IMatch deve essere chiuso.</TextBlock>
 						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Go</Bold> non può eseguire il backup delle impostazioni e altri file importanti mentre IMatch è ancora in esecuzione.<LineBreak/><LineBreak/>Si prega di chiudere ora IMatch. Questa finestra di dialogo <Bold>si chiude automaticamente</Bold> alla chiusura di IMatch.</TextBlock>
 					</StackPanel>
 					</Border>
@@ -263,7 +265,7 @@
 					<![CDATA[
 					<Border Background='#ffffff' Padding='10,10,10,10'>
 					<StackPanel Orientation='Vertical'>
-						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>Por favor encerre o IMatch agora.</TextBlock>
+						<TextBlock TextWrapping='Wrap' FontSize='{fs12}' FontWeight='Bold' Padding='0,0,0,10'>Por favor encerre o IMatch agora.</TextBlock>
 						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Ir</Bold> não pode fazer cópia de segurança das definições e outros ficheiros importantes enquanto o IMatch está em execução.<LineBreak/><LineBreak/>Por favor encerre o IMatch agora. <LineBreak/>Esta janela de diálogo <Bold>fecha-se automátivamente</Bold> quando o IMatch encerrar.</TextBlock>
 					</StackPanel>
 					</Border>
@@ -273,7 +275,7 @@
 					<![CDATA[
 					<Border Background='#ffffff' Padding='10,10,10,10'>
 					<StackPanel Orientation='Vertical'>
-						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch wird ausgeführt und muss beendet werden.</TextBlock>
+						<TextBlock TextWrapping='Wrap' FontSize='{fs12}' FontWeight='Bold' Padding='0,0,0,10'>IMatch wird ausgeführt und muss beendet werden.</TextBlock>
 						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Go</Bold> kann die Einstellungsdatenbank und andere wichtige Dateien nicht sichern, solange IMatch noch ausgeführt wird.<LineBreak/><LineBreak/>Bitte beenden Sie IMatch.<LineBreak/>Dieser Dialog <Bold>schließt automatisch</Bold> sobald IMatch beendet wurde und Pack &amp; Go wird ausgeführt.</TextBlock>
 					</StackPanel>
 					</Border>
@@ -283,7 +285,7 @@
 					<![CDATA[
 					<Border Background='#ffffff' Padding='10,10,10,10'>
 					<StackPanel Orientation='Vertical'>
-						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch on käynnissä ja täytyy sulkea.</TextBlock>
+						<TextBlock TextWrapping='Wrap' FontSize='{fs12}' FontWeight='Bold' Padding='0,0,0,10'>IMatch on käynnissä ja täytyy sulkea.</TextBlock>
 						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Go</Bold> ei voi pakata asetuksia ja muita tärkeitä tiedostoja silloin kun IMatch on käynnissä.<LineBreak/><LineBreak/>Sulje IMatch nyt. Tämä ilmoitus <Bold>sulkeutuu automaattisesti</Bold> kun IMatch on suljettu.</TextBlock>
 					</StackPanel>
 					</Border>
@@ -293,7 +295,7 @@
 					<![CDATA[
 					<Border Background='#ffffff' Padding='10,10,10,10'>
 					<StackPanel Orientation='Vertical'>
-						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch je aktivan i trebaš ga zatvoriti.</TextBlock>
+						<TextBlock TextWrapping='Wrap' FontSize='{fs12}' FontWeight='Bold' Padding='0,0,0,10'>IMatch je aktivan i trebaš ga zatvoriti.</TextBlock>
 						<TextBlock TextWrapping='Wrap' ><Bold>Pripremi i pođi</Bold> ne može spremiti postavke i ostale datoteke dok je IMatch otvoren.<LineBreak/><LineBreak/>Zatvori IMatch. Ovaj dijaloški okvir <Bold>će se automatski zatvoritu</Bold> kada zatvoriš IMatch.</TextBlock>
 					</StackPanel>
 					</Border>
@@ -303,7 +305,7 @@
 					<![CDATA[
 					<Border Background='#ffffff' Padding='10,10,10,10'>
 					<StackPanel Orientation='Vertical'>
-						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch moet afgesloten worden.</TextBlock>
+						<TextBlock TextWrapping='Wrap' FontSize='{fs12}' FontWeight='Bold' Padding='0,0,0,10'>IMatch moet afgesloten worden.</TextBlock>
 						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Go</Bold> kan van de instellingen en andere belangrijke bestanden geen backup maken zolang IMatch in gebruik is.<LineBreak/><LineBreak/>Sluit IMatch af aub. Dit bericht wordt <Bold>automatisch gesloten</Bold> als IMatch is afgesloten.</TextBlock>
 					</StackPanel>
 					</Border>
@@ -313,7 +315,7 @@
 					<![CDATA[
 					<Border Background='#ffffff' Padding='10,10,10,10'>
 					<StackPanel Orientation='Vertical'>
-						<TextBlock TextWrapping='Wrap' FontSize='12pt' FontWeight='Bold' Padding='0,0,0,10'>IMatch kjører og må avsluttes.</TextBlock>
+						<TextBlock TextWrapping='Wrap' FontSize='{fs12}' FontWeight='Bold' Padding='0,0,0,10'>IMatch kjører og må avsluttes.</TextBlock>
 						<TextBlock TextWrapping='Wrap' ><Bold>Pack &amp; Go</Bold> kan ikke sikkerhetskopiere innstillinger og andre viktige filer mens IMatch fremdeles kjører.<LineBreak/><LineBreak/>Vennligst lukk IMatch nå.<LineBreak/>Denne dialogen <Bold>lukkes automatisk</Bold> når IMatch har blitt avsluttet og Pack &amp; Go vil fortsette.</TextBlock>
 					</StackPanel>
 					</Border>

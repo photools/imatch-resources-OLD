@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!-- $Revision: 449 $ $Date: 2013-05-12 22:24:47 +0200 (So, 12 Mai 2013) $ - $Author: predrag $ -->
+
 <!-- This resource file contains all string resources for IMatch -->
 
 <!-- Copyright © 2013-2017 Mario M. Westphal and photools.com. -->
@@ -1528,21 +1530,21 @@
 			</str>
 
             <str resid="PTR_APP_IDPLATE_DEFCAPTION" desc="The default caption for the id plate">
-				<s xml:lang="en">IMatch 5</s>
-				<s xml:lang="de">IMatch 5</s>
-				<s xml:lang="nl">IMatch 5</s>
-				<s xml:lang="pt">IMatch 5</s>
-				<s xml:lang="fi">IMatch 5</s>
-				<s xml:lang="hr">IMatch Studios</s>
-				<s xml:lang="fr">IMatch 5</s>
-				<s xml:lang="it">IMatch 5</s>
+				<s xml:lang="en">IMatch</s>
+				<s xml:lang="de">IMatch</s>
+				<s xml:lang="nl">IMatch</s>
+				<s xml:lang="pt">IMatch</s>
+				<s xml:lang="fi">IMatch</s>
+				<s xml:lang="hr">IMatch</s>
+				<s xml:lang="fr">IMatch</s>
+				<s xml:lang="it">IMatch</s>
 			</str>
 
 			<str resid="PTR_APP_IDPLATE_DEFTEXT" desc="The default text on the right for the id plate">
-				<s xml:lang="en">You can customize what you see here\nvia the application preferences. Right-click for more options.</s>
+				<s xml:lang="en">You can customize what you see here via the\napplication preferences. Right-click here for more options.</s>
 				<s xml:lang="no">Du kan tilpasse hva du ser here\nvia programinnstillinger. Høyreklikk for å angi flere alternativer.</s>
-				<s xml:lang="en-uk">You can customise what you see here\nvia the application preferences. Right-click for more options.</s>
-				<s xml:lang="de">Sie können den Text des ID-Hinweises über die\nAnwendungseinstellungen anpassen. Rechts-klick für Optionen.</s>
+				<s xml:lang="en-uk">You can customise what you see here via the\napplication preferences. Right-click here for more options.</s>
+				<s xml:lang="de">Sie können den Text des ID-Hinweises über die\nAnwendungseinstellungen anpassen. Rechtsklicken Sie hier für Optionen.</s>
 				<s xml:lang="nl">U kunt deze tekst aanpassen\nvia de applicatie-voorkeuren</s>
 				<s xml:lang="pt">Pode personalizar o que vê aqui\natravés das preferências da aplicação</s>
 				<s xml:lang="fi">Voit muokata tässä näkyvää tekstiä ohjelman asetuksista (Muokkaa/Asetukset/Nimikilpi)</s>
@@ -1630,11 +1632,11 @@
 			</str>
 
 			<str resid="PTR_ID_SHOP_STATUSBAR_FINAL">
-				<s xml:lang="en">Buy IMatch 5 now - only {0} day(s) left.</s>
-				<s xml:lang="de">Kaufen Sie IMatch 5 jetzt - nur noch {0} Tag(e) verbleibend.</s>
-				<s xml:lang="nl">Koop IMatch 5 nu - er resteren nog {0} dagen.</s>
-				<s xml:lang="pt">Compre o IMatch 5 agora - apenas restam {0} dias.</s>
-				<s xml:lang="it">Acquista IMatch 5 ora - rimangono solo {0} giorni.</s>
+				<s xml:lang="en">Buy IMatch now - only {0} day(s) left.</s>
+				<s xml:lang="de">Kaufen Sie IMatch jetzt - nur noch {0} Tag(e) verbleibend.</s>
+				<s xml:lang="nl">Koop IMatch nu - er resteren nog {0} dagen.</s>
+				<s xml:lang="pt">Compre o IMatch agora - apenas restam {0} dias.</s>
+				<s xml:lang="it">Acquista IMatch ora - rimangono solo {0} giorni.</s>
 			</str>
 
 			<str resid="PTR_ID_SHOP_STATUSBAR_EXPIRED">
@@ -1646,11 +1648,11 @@
 			</str>
 
 			<str resid="PTR_ID_SHOP_TOOLTIP">
-				<s xml:lang="en">Click here to buy IMatch 5 online safely and securely.\nImmediate access to the licensed version.</s>
-				<s xml:lang="de">Klicken Sie hier, um IMatch 5 online zu kaufen.\nSichere Zahlungsabwicklung.\nSofortiger Download der Vollversion.</s>
-				<s xml:lang="nl">Klik hier om IMatch 5 veilig online te kopen.\nU krijgt onmiddellijk toegang tot de volwaardige versie.</s>
-				<s xml:lang="pt">Clique aqui para comprar o IMatch 5 online com toda a segurança.\nAcesso imediato á versão licenciada.</s>
-				<s xml:lang="it">Clicca qui per acquistare IMatch 5 online in sicurezza. \nAccesso immediato alla versione licenziata.</s>
+				<s xml:lang="en">Click here to buy IMatch online safely and securely.\nImmediate access to the licensed version.</s>
+				<s xml:lang="de">Klicken Sie hier, um IMatch online zu kaufen.\nSichere Zahlungsabwicklung.\nSofortiger Download der Vollversion.</s>
+				<s xml:lang="nl">Klik hier om IMatch veilig online te kopen.\nU krijgt onmiddellijk toegang tot de volwaardige versie.</s>
+				<s xml:lang="pt">Clique aqui para comprar o IMatch online com toda a segurança.\nAcesso imediato á versão licenciada.</s>
+				<s xml:lang="it">Clicca qui per acquistare IMatch online in sicurezza. \nAccesso immediato alla versione licenziata.</s>
 			</str>
 
 			<str resid="PTR_ID_SHOP_TOOLTIP_EXPIRED">
@@ -2086,7 +2088,17 @@
                 <s xml:lang="it">E' stata trovata una nuova versione di ExifTool. Aggiornamento database. Questo processo richiede circa 2 minuti...</s>
             </str>
 
-            <str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_SECONDARY" desc="">
+			<str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_UPGRADE_BEGIN" desc="">
+				<s xml:lang="en">The database is upgraded to version {0}. This can take a while...</s>
+				<s xml:lang="de">Die Datenbank wird auf Version {0} aktualisiert. Dies kann ein wenig dauern...</s>
+			</str>
+			<str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_UPGRADE_END" desc="">
+				<s xml:lang="en">Database format is current.</s>
+				<s xml:lang="de">Das Datenbankformat ist aktuell.</s>
+			</str>
+
+
+			<str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_SECONDARY" desc="">
 				<s xml:lang="en">Loading secondary data...</s>
 				<s xml:lang="de">Lade sekundäre Daten...</s>
 				<s xml:lang="nl">Secondaire data laden...</s>
@@ -2941,6 +2953,12 @@
 				<s xml:lang="pt">A actualização do índice do motor de pesquisa terminou.</s>
 			</str>
 
+			<!-- The text for the main window caption when a database is in read-only mode. The text is appended behind the database name [workspace] -->
+			<str resid="PTR_MAINFRAME_CLOSING_APPS">
+				<s xml:lang="en">Closing apps...</s>
+				<s xml:lang="de">Apps werden beendet...</s>
+			</str>
+
 		</string_group>
 
 		<!-- The scan folder dialog box -->
@@ -3423,15 +3441,15 @@
             </str>
 
             <str resid="PTR_OUTPUTPANEL_TABCAP_SCRIPT" desc="">
-                <s xml:lang="en">Script</s>
-                <s xml:lang="de">Skript</s>
-                <s xml:lang="nl">Script</s>
-				<s xml:lang="pt">Script</s>
-				<s xml:lang="fi">Komentosarja</s>
-				<s xml:lang="hr">Skripta</s>
-				<s xml:lang="no">Skript</s>
-				<s xml:lang="fr">Script</s>
-                <s xml:lang="it">Script</s>
+                <s xml:lang="en">Apps</s>
+                <s xml:lang="de">Apps</s>
+                <s xml:lang="nl">Apps</s>
+				<s xml:lang="pt">Apps</s>
+				<s xml:lang="fi">Apps</s>
+				<s xml:lang="hr">Apps</s>
+				<s xml:lang="no">Apps</s>
+				<s xml:lang="fr">Apps</s>
+                <s xml:lang="it">Apps</s>
             </str>
 
         </string_group>
@@ -3853,176 +3871,6 @@
                 <s xml:lang="it">Nuova Posizione</s>
             </str>
 
-			<!-- 
-				@Translators: To translate OpenLayers, IMatch uses a JSON string with all to-be-translated resources
-				When ** translating ** this, only translate the right side, after the :
-				The syntax is very important, watch out for the commas at the end and the ' to enclose the strings.
-			-->
-			<str resid="PTR_GEOPANEL_OL_RESOURCES" desc="">
-				<s xml:lang="en">
-					<![CDATA[
-					{
-					'target_marker_title': 'Target Marker',
-					
-					'os_mapname': 'OpenStreet Map',
-					
-					'google_layer_name_sat': 'Google Maps Satellite',
-					'google_layer_name_ter': 'Google Maps Terrain',
-					'google_layer_name_str': 'Google Maps Streets',
-					'google_layer_name_hyb': 'Google Maps Hybrid',
-
-					'bing_layer_name_rod': 'Microsoft Bing Roads',
-					'bing_layer_name_hyb': 'Microsoft Bing Hybrid',
-					'bing_layer_name_aer': 'Microsoft Bing Aerial',
-
-					'base_layer_name': 'Choose a Map Provider',
-					'base_layer_overlay_name' : 'Overlays',
-
-					'marker_layer_name': 'Files',
-		
-					'location_layer_name': 'Locations',
-		
-					'last': ''
-					}
-				]]>
-				</s>
-				<s xml:lang="it">
-					<![CDATA[
-					{
-					'target_marker_title': 'Target Marker',
-					
-					'os_mapname': 'OpenStreet Map',
-					
-					'google_layer_name_sat': 'Google Maps Satellite',
-					'google_layer_name_ter': 'Google Maps Terreno',
-					'google_layer_name_str': 'Google Maps Strade',
-					'google_layer_name_hyb': 'Google Maps Ibrido',
-
-					'bing_layer_name_rod': 'Microsoft Bing Strade',
-					'bing_layer_name_hyb': 'Microsoft Bing Ibrido',
-					'bing_layer_name_aer': 'Microsoft Bing Aereo',
-
-					'base_layer_name': 'Scegli il Provider Mappe',
-					'base_layer_overlay_name' : 'Overlays',
-
-					'marker_layer_name': 'File',
-		
-					'location_layer_name': 'Posizioni',
-		
-					'last': ''
-					}
-				]]>
-				</s>
-				<s xml:lang="de">
-					<![CDATA[
-					{
-					'target_marker_title': 'Zielmarkierung',
-					
-					'os_mapname': 'OpenStreet Karte',
-					
-					'google_layer_name_sat': 'Google Maps Satellite',
-					'google_layer_name_ter': 'Google Maps Terrain',
-					'google_layer_name_str': 'Google Maps Straßen',
-					'google_layer_name_hyb': 'Google Maps Hybrid',
-
-					'bing_layer_name_rod': 'Microsoft Bing Straßen',
-					'bing_layer_name_hyb': 'Microsoft Bing Hybrid',
-					'bing_layer_name_aer': 'Microsoft Bing Aerial',
-
-					'base_layer_name': 'Wählen Sie einen Kartenanbieter',
-					'base_layer_overlay_name' : 'Überlagerungen',
-
-					'marker_layer_name': 'Dateien',
-		
-					'location_layer_name': 'Orte',
-		
-					'last': ''
-					}
-				]]>
-				</s>
-				<s xml:lang="nl">
-					<![CDATA[
-					{
-					'target_marker_title': 'Doelmarkering',
-					
-					'os_mapname': 'OpenStreet Kaart',
-					
-					'google_layer_name_sat': 'Google Maps Satellite',
-					'google_layer_name_ter': 'Google Maps Terrain',
-					'google_layer_name_str': 'Google Maps Streets',
-					'google_layer_name_hyb': 'Google Maps Hybrid',
-
-					'bing_layer_name_rod': 'Microsoft Bing Roads',
-					'bing_layer_name_hyb': 'Microsoft Bing Hybrid',
-					'bing_layer_name_aer': 'Microsoft Bing Aerial',
-
-					'base_layer_name': 'Kies een kaartaanbieder',
-					'base_layer_overlay_name' : 'Overlays',
-
-					'marker_layer_name': 'Bestanden',
-		
-					'location_layer_name': 'Locaties',
-		
-					'last': ''
-					}
-				]]>
-				</s>
-				<s xml:lang="hr">
-					<![CDATA[
-					{
-					'target_marker_title': 'Ciljna oznaka',
-					
-					'os_mapname': 'OpenStreet karta',
-					
-					'google_layer_name_sat': 'Satelitska Google karta',
-					'google_layer_name_ter': 'Google karta s digitalnim terenom',
-					'google_layer_name_str': 'Cestovna Google karta',
-					'google_layer_name_hyb': 'Hibridna Google karta',
-
-					'bing_layer_name_rod': 'Microsoft Bing ceste',
-					'bing_layer_name_hyb': 'Hibridna Microsoft Bing karta',
-					'bing_layer_name_aer': 'Microsoft Bing zračne slike',
-
-					'base_layer_name': 'Odaberi davatelja usluga karata',
-					'base_layer_overlay_name' : 'Prekrivači',
-
-					'marker_layer_name': 'Datoteke',
-		
-					'location_layer_name': 'Lokacije',
-		
-					'last': ''
-					}
-				]]>
-				</s>
-				<s xml:lang="pt">
-					<![CDATA[
-					{
-					'target_marker_title': 'Marcador Alvo',
-					
-					'os_mapname': 'OpenStreet Map',
-					
-					'google_layer_name_sat': 'Google Maps Satélite',
-					'google_layer_name_ter': 'Google Maps Terreno',
-					'google_layer_name_str': 'Google Maps Estrada',
-					'google_layer_name_hyb': 'Google Maps Híbrido',
-
-					'bing_layer_name_rod': 'Microsoft Bing Estrada',
-					'bing_layer_name_hyb': 'Microsoft Bing Híbrido',
-					'bing_layer_name_aer': 'Microsoft Bing Aéreo',
-
-					'base_layer_name': 'Escolha o Fornecedor dos Mapas',
-					'base_layer_overlay_name' : 'Envolvimentos',
-
-					'marker_layer_name': 'Ficheiro',
-		
-					'location_layer_name': 'Localidades',
-		
-					'last': ''
-					}
-				]]>
-				</s>
-			</str>
-			
 			<!-- If the Map Panel cannot connect to the Internet, this message is shown to the user-->
 			<str resid="PTR_GEOPANEL_OFFLINE_MSG" desc="">
                 <s xml:lang="en"><![CDATA[The Map Panel cannot connect to the Internet.<LineBreak/>Please close and re-open the panel after establishing an Internet connection.]]></s>
@@ -5618,7 +5466,7 @@
 				<s xml:lang="it">Benvenuto in IMatch</s>
       </str>
 			<str resid="PTR_VIEW_WELCOME_SUBHEADLINE" desc="A text displayed below the headline, in a smaller font. Give the user some info about what to do">
-				<s xml:lang="en">Click on one of the icons below to start.</s>
+				<s xml:lang="en">Click on one of these icons to start.</s>
 				<s xml:lang="de">Klicken Sie auf eines der Symbole, um zu beginnen.</s>
 				<s xml:lang="fi">Napsauta jotain alla olevaa kuvaketta aloittaaksesi</s>
 				<s xml:lang="nl">Klik op één van de pictogrammen om te beginnen.</s>
@@ -6196,15 +6044,15 @@
 				<s xml:lang="it">Filtro Cronologia</s>
 			</str>
 
-            <str resid="PTR_PANEL_SCRIPT_MANAGER" desc="Name for the Script Manager panel">
-                <s xml:lang="en">Script Manager</s>
-                <s xml:lang="de">Skript-Manager</s>
-                <s xml:lang="nl">Script Manager</s>
-				<s xml:lang="pt">Gestor de Scripts</s>
-                <s xml:lang="hr">Upravitelj skriptama</s>
-				<s xml:lang="fr">Script Manager</s>
-				<s xml:lang="fi">Komentosarjojen hallinta</s>
-                <s xml:lang="it">Gestione Script</s>
+            <str resid="PTR_PANEL_APP_MANAGER">
+                <s xml:lang="en">App Manager</s>
+                <s xml:lang="de">App-Manager</s>
+                <s xml:lang="nl">App Manager</s>
+            </str>
+
+			<str resid="PTR_PANEL_APP_IMWS_NOT_RUNNING">
+                <s xml:lang="en">IMatch WebServices are not running.\r\nPlease enable them under Edit &gt; Preferences &gt; Application and check the configuration.</s>
+                <s xml:lang="de">Die IMatch Webdienste werden nicht ausgeführt.\r\nBitte aktivieren Sie sie unter Bearbeiten &gt; Einstellungen &gt; Anwendung und überprüfen Sie die Konfiguration.</s>
             </str>
             
             <str resid="PTR_PANEL_SCRIPT_IDE" desc="Name for the Script IDE panel">
@@ -6301,15 +6149,9 @@
 				<s xml:lang="it">Copia nella Cartella; Muovi nella Cartella</s>
 			</str>
 			<str resid="PTR_FAVS_TYPENAME_SCRIPT" desc="">
-				<s xml:lang="en">Run Script</s>
-				<s xml:lang="de">Skript ausführen</s>
-				<s xml:lang="nl">Script uitvoeren</s>
-				<s xml:lang="pt">Executar Script</s>
-				<s xml:lang="fi">Suorita komentosarja</s>
-				<s xml:lang="hr">Izvedi skriptu</s>
-			    <s xml:lang="no">Kjøre skript</s>
-				<s xml:lang="fr">Executer le script</s>
-				<s xml:lang="it">Esegui Script</s>
+				<s xml:lang="en">Run App</s>
+				<s xml:lang="de">App ausführen</s>
+				<s xml:lang="nl">App uitvoeren</s>
 			</str>
 			<str resid="PTR_FAVS_TYPENAME_COL" desc="">
 				<s xml:lang="en">Add to Collection; Remove from Collection</s>
@@ -7789,6 +7631,11 @@
 				<s xml:lang="nl">{0} ({1}) - {2} {3} {s} gestapeld</s>
 				<s xml:lang="pt">{0} ({1}) - {2} {3} {s} empilhado</s>
 				<s xml:lang="hr">{0} ({1}) - {2} {3} {s} poslagano</s>
+			</str>
+
+			<str resid="FILEWND_CAPTION_DIRECT_FILES">
+				<s xml:lang="en">(Direct assignments only)</s>
+				<s xml:lang="de">(Nur direkt zugewiesene Dateien)</s>
 			</str>
 
 		</string_group>  <!-- File Window -->
@@ -10049,6 +9896,11 @@
 				<s xml:lang="hr">Unesi ime filtra:</s>
 				<s xml:lang="fr">ENtrez un nom de filtre</s>
 				<s xml:lang="it">Immetti il nome filtro:</s>
+			</str>
+
+			<str resid="PTR_FILTERPANEL_HINT">
+				<s xml:lang="en">More filters are available in the 'Gear' menu in the toolbar.</s>
+				<s xml:lang="de">Weitere Filter sind verfügbar über das 'Zahnrad'-Menü in der Symbolleiste.</s>
 			</str>
 
 		</string_group>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!-- $Revision: 1408 $ $Date: 2016-09-12 17:18:06 +0200 (Mo, 12 Sep 2016) $ - $Author: mees $ -->
+
 <!-- Copyright © 2013-2017 Mario M. Westphal and photools.com. -->
 <!-- No part of this file may be changed without written permission. -->
 <!-- Contact support@photools.com for more information. -->
@@ -557,6 +559,9 @@
 		<bitmap resid="PTR_BM_FILEWND_CAPTION_ICONS" itemwidth="24" desc="Icons used by the file window caption">
 			<bm xml:lang="en">bitmaps\filewnd_caption_icons_24x24.png</bm>
 		</bitmap>
+		<bitmap resid="PTR_BM_FILEWND_CAPTION_ICONS_48" itemwidth="48">
+			<bm xml:lang="en">bitmaps\filewnd_caption_icons_48x48.png</bm>
+		</bitmap>
 		
 		<!-- Metadata Panel Configuration Dialog -->
 
@@ -675,7 +680,7 @@
         
         <!-- App Panel -->
 
-        <bitmap resid="PTR_BM_CMD_HTMLPANEL" resgroup="attributes" itemwidth="32" desc="Icons used for the App panel">
+        <bitmap resid="PTR_BM_CMD_APP_PANEL" resgroup="attributes" itemwidth="32">
             <bm xml:lang="en">bitmaps\cmd_html_32x32.png</bm>
         </bitmap>
 
@@ -683,20 +688,6 @@
 
         <bitmap resid="PTR_BM_CMD_SCRIPTS" resgroup="scripts" itemwidth="32" desc="Icons used for the Scripts panel and other features">
             <bm xml:lang="en">bitmaps\cmd_script_32x32.png</bm>
-        </bitmap>
-
-        <bitmap resid="PTR_BM_CMD_SCRIPTS_ICONS" resgroup="scripts" itemwidth="16" desc="Icons used for the tree">
-            <bm xml:lang="en">bitmaps\scripts_16x16.png</bm>
-        </bitmap>
-
-		<bitmap resid="PTR_BM_CMD_SCRIPTS_ICONS_32x32" resgroup="scripts" itemwidth="32" desc="Icons used for the tree">
-			<bm xml:lang="en">bitmaps\scripts_32x32.png</bm>
-		</bitmap>
-		
-		<!-- Script Editor -->
-
-        <bitmap resid="PTR_BM_CMD_SCRIPTS_IDE" resgroup="scripts" itemwidth="32" desc="Icons used for the Scripts editor">
-            <bm xml:lang="en">bitmaps\cmd_scripteditor_32x32.png</bm>
         </bitmap>
 
         <!-- Viewer -->
@@ -1080,7 +1071,7 @@
 				<c xml:lang="it" hotkey="" helptext="Gestisci i modelli dei metadati">Modelli &amp;Metadati...</c>
 				</cmd>
 
-            <cmd resid="ID_DB_MDTEMPLATE_1">
+            <cmd resid="ID_DB_MDTEMPLATE_1" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1093,7 +1084,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_2">
+            <cmd resid="ID_DB_MDTEMPLATE_2" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1106,7 +1097,7 @@
 				<c xml:lang="se" hotkey="" helptext="Använd metadatamall">Mall</c>
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_3">
+            <cmd resid="ID_DB_MDTEMPLATE_3" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1119,7 +1110,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_4">
+            <cmd resid="ID_DB_MDTEMPLATE_4" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1132,7 +1123,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_5">
+            <cmd resid="ID_DB_MDTEMPLATE_5" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1145,7 +1136,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_6">
+            <cmd resid="ID_DB_MDTEMPLATE_6" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1158,7 +1149,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_7">
+            <cmd resid="ID_DB_MDTEMPLATE_7" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1171,7 +1162,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_8">
+            <cmd resid="ID_DB_MDTEMPLATE_8" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1185,7 +1176,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_9">
+            <cmd resid="ID_DB_MDTEMPLATE_9" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1198,7 +1189,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_10">
+            <cmd resid="ID_DB_MDTEMPLATE_10" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1211,7 +1202,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_11">
+            <cmd resid="ID_DB_MDTEMPLATE_11" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1224,7 +1215,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_12">
+            <cmd resid="ID_DB_MDTEMPLATE_12" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1237,7 +1228,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_13">
+            <cmd resid="ID_DB_MDTEMPLATE_13" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1250,7 +1241,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_14">
+            <cmd resid="ID_DB_MDTEMPLATE_14" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1263,7 +1254,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_15">
+            <cmd resid="ID_DB_MDTEMPLATE_15" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1276,7 +1267,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_16">
+            <cmd resid="ID_DB_MDTEMPLATE_16" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1289,7 +1280,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_17">
+            <cmd resid="ID_DB_MDTEMPLATE_17" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1302,7 +1293,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_18">
+            <cmd resid="ID_DB_MDTEMPLATE_18" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1315,7 +1306,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_19">
+            <cmd resid="ID_DB_MDTEMPLATE_19" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1328,7 +1319,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_20">
+            <cmd resid="ID_DB_MDTEMPLATE_20" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1341,7 +1332,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_21">
+            <cmd resid="ID_DB_MDTEMPLATE_21" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1354,7 +1345,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_22">
+            <cmd resid="ID_DB_MDTEMPLATE_22" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1367,7 +1358,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_23">
+            <cmd resid="ID_DB_MDTEMPLATE_23" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1380,7 +1371,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_24">
+            <cmd resid="ID_DB_MDTEMPLATE_24" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1393,7 +1384,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_25">
+            <cmd resid="ID_DB_MDTEMPLATE_25" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1406,7 +1397,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_26">
+            <cmd resid="ID_DB_MDTEMPLATE_26" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1419,7 +1410,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_27">
+            <cmd resid="ID_DB_MDTEMPLATE_27" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1432,7 +1423,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
                 <c xml:lang="it" hotkey="" helptext="Applica il modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_28">
+            <cmd resid="ID_DB_MDTEMPLATE_28" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1445,7 +1436,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_29">
+            <cmd resid="ID_DB_MDTEMPLATE_29" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -1458,7 +1449,7 @@
                 <c xml:lang="es" hotkey="" helptext="Aplicar plantilla de metadatos">Plantilla</c>
 				<c xml:lang="it" hotkey="" helptext="Applica modello metadati">Modello</c>
 				</cmd>
-            <cmd resid="ID_DB_MDTEMPLATE_30">
+            <cmd resid="ID_DB_MDTEMPLATE_30" private="true">
                 <c xml:lang="en" hotkey="" helptext="Apply metadata template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Vorlage anwenden">Vorlage</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä metatietopohjaa">Metatietopohja</c>
@@ -2358,18 +2349,6 @@
 				<c xml:lang="es" hotkey="F9|F" helptext="Mostrar u ocultar el panel de Favoritos">&amp;Favoritos</c>
 				<c xml:lang="it" hotkey="F9|F" helptext="Mostra o Nasconde il Pannello Favoriti">&amp;Favoriti</c>
 			</cmd>
-			<cmd resid="ID_VIEW_SHOW_COACH">
-				<c xml:lang="en" hotkey="F9|3" helptext="Show or hide the Coach panel">&amp;Coach</c>
-				<c xml:lang="de" hotkey="F9|3" helptext="Anzeigen oder Verbergen des Coach-Panels">&amp;Coach</c>
-				<c xml:lang="fi" hotkey="F9|3" helptext="Näytä tai piilota valmentaja">&amp;Valmentaja</c>
-				<c xml:lang="nl" hotkey="F9|3" helptext="Toon of verberg het coach-paneel">&amp;Coach</c>
-				<c xml:lang="pt" hotkey="F9|3" helptext="Mostrar ou ocultar o painel de Treino">&amp;Treino</c>
-				<c xml:lang="hr" hotkey="F9|3" helptext="Pokaži ili sakrij panel s trenerom">&amp;Trener</c>
-				<c xml:lang="no" hotkey="F9|3" helptext="Vis eller lukk Trener-panelet">&amp;Trener</c>
-				<c xml:lang="se" hotkey="F9|3" helptext="Visa eller dölj Träning">&amp;Träning</c>
-				<c xml:lang="es" hotkey="F9|3" helptext="Mostrar u ocultar el panel de Entrenamiento">En&amp;trenamiento</c>
-				<c xml:lang="it" hotkey="F9|3" helptext="Mostra o Nasconde il pannello Istruzioni">&amp;Istruzioni</c>
-			</cmd>
 			<cmd resid="ID_VIEW_SHOW_DBINFO">
 				<c xml:lang="en" hotkey="F9|I" helptext="Show or hide the Database information panel">Info &amp;&amp; &amp;Activity</c>
 				<c xml:lang="de" hotkey="F9|I" helptext="Anzeigen oder Verbergen des Panels zur Datenbank-Information">Info &amp;&amp; &amp;Aktivität</c>
@@ -2407,27 +2386,11 @@
 				<c xml:lang="it" hotkey="F9|O" helptext="Mostra o Nasconde il pannello Output">&amp;Output</c>
             </cmd>
 
-            <cmd resid="ID_VIEW_SHOW_SCRIPT_MANAGER">
-                <c xml:lang="en" hotkey="F9|Y" helptext="Show or hide the Script Manager panel">Script &amp;Manager</c>
-                <c xml:lang="de" hotkey="F9|Y" helptext="Anzeigen oder Verbergen des Skript-Manager Panels">S&amp;kript-Manager</c>
-				<c xml:lang="fi" hotkey="F9|Y" helptext="Näytä tai piilota komentosarjojen hallintapaneeli">K&amp;omentosarjojen hallinta</c>
-                <c xml:lang="nl" hotkey="F9|Y" helptext="Toon of verberg het Script Manager paneel">Script &amp;Manager</c>
-				<c xml:lang="pt" hotkey="F9|Y" helptext="Mostrar ou ocultar o painel do Gestor de Scripts">&amp;Gestor de Scripts</c>
-                <c xml:lang="hr" hotkey="F9|Y" helptext="Pokaži ili sakrij ploču upravitelja skriptama">Upravitelj s&amp;kriptama</c>
-				<c xml:lang="no" hotkey="F9|Y" helptext="Vise eller skjule panelet Skriptbehandling">S&amp;riptbehandling</c>
-				<c xml:lang="it" hotkey="F9|Y" helptext="Mostra o Nasconde il pannello Gestione Script">&amp;Gestione Script</c>
+            <cmd resid="ID_VIEW_SHOW_APP_MANAGER">
+                <c xml:lang="en" hotkey="F9|Y" helptext="Show or hide the App Manager panel">App &amp;Manager</c>
+                <c xml:lang="de" hotkey="F9|Y" helptext="Anzeigen oder Verbergen des App-Manager Panels">&amp;App-Manager</c>
             </cmd>
-            <cmd resid="ID_VIEW_SHOW_SCRIPT_IDE">
-                <c xml:lang="en" hotkey="F9|Z" helptext="Show or hide the Script Editor Panel">Script &amp;Editor</c>
-                <c xml:lang="de" hotkey="F9|Z" helptext="Anzeigen oder Verbergen des Skript-Editor Panels">Skript-&amp;Editor</c>
-				<c xml:lang="fi" hotkey="F9|Z" helptext="Näytä tai piilota komentosarjaeditori">Ko&amp;mentosarjaeditori</c>
-                <c xml:lang="nl" hotkey="F9|Z" helptext="Toon of verberg het Script Editor paneel">Script &amp;Editor</c>
-				<c xml:lang="pt" hotkey="F9|Z" helptext="Mostrar ou ocultar o painel do Editor de Scripts">&amp;Editor de Scripts</c>
-                <c xml:lang="hr" hotkey="F9|Z" helptext="Pokaži ili sakrij ploču urednika skripti">Ur&amp;eđivač skripti</c>
-				<c xml:lang="no" hotkey="F9|Z" helptext="Åpner Skripteditoren">Skript&amp;editor</c>
-				<c xml:lang="it" hotkey="F9|Z" helptext="Mostra o Nasconde il pannello Modifica Script">&amp;Modifica Script</c>
-            </cmd>
-
+			
 			<!-- Thumbnail Tooltips? (Toggles E > P > Application: Thumb Tips) -->
             <cmd resid="ID_VIEW_SHOW_THUMBTIPS">
                 <c xml:lang="en" hotkey="F9|T" helptext="Activate or de-activate thumbnail tooltips">Thumbnail &amp;Tooltips</c>
@@ -3063,6 +3026,11 @@
                 <c xml:lang="it" hotkey="" helptext="Esegui lo script rappresentato da questo Favorito">&amp;Esegui</c>
             </cmd>
 
+            <cmd resid="ID_CMD_FAVORITE_APP_ADD">
+                <c xml:lang="en" hotkey="" helptext="Add a new favorite for an app">New from &amp;App...</c>
+                <c xml:lang="de" hotkey="" helptext="Einen neuen Favoriten für eine App hinzufügen.">Neu von &amp;App...</c>
+            </cmd>
+			
             <!-- Favorites, Metadata Templates -->
 
             <cmd resid="ID_CMD_FAVORITE_TEMPL_ADD">
@@ -3731,29 +3699,27 @@
 
         <!-- App Panel -->
 
-        <command_group name="App Panel" bmid="PTR_BM_CMD_HTMLPANEL" resgroup="html" desc="Commands used by the App Panel">
-            <!-- Placeholder for the chart type drop-down combo -->
-            <cmd resid="ID_CMD_HTMLPANEL_PANEL_COMBO" bmidx="-1">
-                <c xml:lang="en" helptext="Select a template">Template</c>
-                <c xml:lang="de" helptext="Wählen Sie eine Vorlage aus">Vorlage</c>
-				<c xml:lang="fi" helptext="Valitse mallipohja">Mallipohja</c>
-                <c xml:lang="nl" helptext="Select een sjabloon">Sjabloon</c>
-				<c xml:lang="pt" helptext="Seleccione um modelo">Modelo</c>
-                <c xml:lang="hr" helptext="Odaberi predložak">Template</c>
-				<c xml:lang="no" helptext="Velg en mal">Mal</c>
-                <c xml:lang="it" helptext="Seleziona un modello">Modello</c>
+        <command_group name="App Panel" bmid="PTR_BM_CMD_APP_PANEL" resgroup="app">
+            
+			<!-- Placeholder for the app drop-down combo -->
+            
+			<cmd resid="ID_CMD_APP_PANEL_COMBO" bmidx="-1">
+                <c xml:lang="en" helptext="Select an App">App</c>
+                <c xml:lang="de" helptext="Wählen Sie eine App aus">App</c>
             </cmd>
-            <cmd resid="ID_CMD_HTMLPANEL_PANEL_RELOAD" bmidx="1">
-                <c xml:lang="en" helptext="Reload the panel">Re&amp;load</c>
-                <c xml:lang="de" helptext="Das Panel neu laden">Neu &amp;laden</c>
-				<c xml:lang="fi" helptext="Lataa paneeli uudelleen">&amp;Lataa uudelleen</c>
-                <c xml:lang="nl" helptext="Paneel opnieuw laden">Opnieuw &amp;laden</c>
-				<c xml:lang="pt" helptext="Recarregar o painel">Re&amp;carregar</c>
-                <c xml:lang="hr" helptext="Ponovo učitaj ploču">Re&amp;load</c>
-				<c xml:lang="no" helptext="Last (oppfrisk) panelet på nytt">&amp;Last på nytt</c>
-                <c xml:lang="it" helptext="Ricarica il pannello">Ric&amp;arica</c>
+            
+			<cmd resid="ID_CMD_APP_PANEL_RELOAD" bmidx="1">
+                <c xml:lang="en" hotkey="F5" helptext="Reload the panel">Re&amp;load</c>
+                <c xml:lang="de" hotkey="F5" helptext="Das Panel neu laden">Neu &amp;laden</c>
+				<c xml:lang="fi" hotkey="F5" helptext="Lataa paneeli uudelleen">&amp;Lataa uudelleen</c>
+                <c xml:lang="nl" hotkey="F5" helptext="Paneel opnieuw laden">Opnieuw &amp;laden</c>
+				<c xml:lang="pt" hotkey="F5" helptext="Recarregar o painel">Re&amp;carregar</c>
+                <c xml:lang="hr" hotkey="F5" helptext="Ponovo učitaj ploču">Re&amp;load</c>
+				<c xml:lang="no" hotkey="F5" helptext="Last (oppfrisk) panelet på nytt">&amp;Last på nytt</c>
+                <c xml:lang="it" hotkey="F5" helptext="Ricarica il pannello">Ric&amp;arica</c>
             </cmd>
-            <cmd resid="ID_CMD_HTMLPANEL_PANEL_STOP" bmidx="2">
+            
+			<cmd resid="ID_CMD_APP_PANEL_STOP" bmidx="2">
                 <c xml:lang="en" hotkey="ESC" helptext="Stop loading">Sto&amp;p</c>
                 <c xml:lang="de" hotkey="ESC" helptext="Laden abbrechen">Sto&amp;pp</c>
 				<c xml:lang="fi" hotkey="ESC" helptext="Pysäytä lataaminen">Sto&amp;p</c>
@@ -3763,7 +3729,8 @@
 				<c xml:lang="no" hotkey="ESC" helptext="Stopp lasting">Sto&amp;pp</c>
                 <c xml:lang="it" hotkey="ESC" helptext="Ferma il caricamento">Sto&amp;p</c>
             </cmd>
-            <cmd resid="ID_CMD_HTMLPANEL_PANEL_CONFIGURE" bmidx="3">
+			
+            <cmd resid="ID_CMD_APP_PANEL_CONFIGURE" bmidx="3">
 				<c xml:lang="pt" hotkey="" helptext="Configure o painel de HTML">&amp;Configurar</c>
                 <c xml:lang="hr" hotkey="" helptext="Konfigurairaj HTML ploču">Sto&amp;pp</c>
                 <c xml:lang="en" hotkey="" helptext="Configure the App panel">Co&amp;nfigure</c>
@@ -3776,514 +3743,6 @@
                 <c xml:lang="it" hotkey="" helptext="Configura il pannello delle App">Co&amp;nfigura</c>
             </cmd>
         </command_group>
-
-
-        <command_group name="Script Placeholders" bmid="" resgroup="scripts" desc="These placeholder commands are used to specify where script menu entries are placed">
-            <!-- @Translators: No need to translate these -->
-            <!-- @Mario: See IMMENUITEMS in ScriptManager -->
-            <!-- Database Menu -->
-            <cmd resid="ID_CMD_SCRIPT_PH_DB" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">PH</c>
-				<c xml:lang="nl" hotkey="" helptext="">PH</c>
-				<c xml:lang="pt" hotkey="" helptext="">PH</c>
-				<c xml:lang="no" hotkey="" helptext="">PH</c>
-				<c xml:lang="it" hotkey="" helptext="">PH</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_PH_DBTOOLS" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">PH</c>
-				<c xml:lang="nl" hotkey="" helptext="">PH</c>
-				<c xml:lang="pt" hotkey="" helptext="">PH</c>
-				<c xml:lang="no" hotkey="" helptext="">PH</c>
-				<c xml:lang="it" hotkey="" helptext="">PH</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_PH_COMMANDS" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">PH</c>
-				<c xml:lang="nl" hotkey="" helptext="">PH</c>
-				<c xml:lang="pt" hotkey="" helptext="">PH</c>
-				<c xml:lang="no" hotkey="" helptext="">PH</c>
-				<c xml:lang="it" hotkey="" helptext="">PH</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_PH_SEARCH" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">PH</c>
-				<c xml:lang="nl" hotkey="" helptext="">PH</c>
-				<c xml:lang="pt" hotkey="" helptext="">PH</c>
-				<c xml:lang="no" hotkey="" helptext="">PH</c>
-				<c xml:lang="it" hotkey="" helptext="">PH</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_PH_TOOLS" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">PH</c>
-				<c xml:lang="nl" hotkey="" helptext="">PH</c>
-				<c xml:lang="pt" hotkey="" helptext="">PH</c>
-				<c xml:lang="no" hotkey="" helptext="">PH</c>
-				<c xml:lang="it" hotkey="" helptext="">PH</c>
-            </cmd>
-
-            <!-- This placeholder command is used in all context menus -->
-            <cmd resid="ID_CMD_SCRIPT_PH_CONTEXTMENU">
-                <c xml:lang="en" hotkey="" helptext="">PH</c>
-				<c xml:lang="de" hotkey="" helptext="">PH</c>
-				<c xml:lang="nl" hotkey="" helptext="">PH</c>
-				<c xml:lang="pt" hotkey="" helptext="">PH</c>
-				<c xml:lang="no" hotkey="" helptext="">PH</c>
-				<c xml:lang="it" hotkey="" helptext="">PH</c>
-            </cmd>
-          
-        </command_group>
-
-        <!-- Script Panel -->
-
-        <command_group name="Script Panel" bmid="PTR_BM_CMD_SCRIPTS" resgroup="scripts" desc="Commands used by the Script Panel">
-            
-            <!-- These are placeholder commands for scripts we link into one of the menus. -->
-            
-            <cmd resid="ID_CMD_SCRIPT_MENU_1" bmidx="0">
-                <!-- @Translators: We need to translate only the first of the _MENU_* entries-->
-                <c xml:lang="en" hotkey="" helptext="Run this script">#NAME#</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Script ausführen">#NAME#</c>
-				<c xml:lang="fi" hotkey="" helptext="Suorita komentosarja">#NAME#</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit script uitvoeren">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="Executar este script">#NAME#</c>
-                <c xml:lang="hr" hotkey="" helptext="Pokreni ovu skriptu">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="Utfør dette skriptet">#NAME#</c>
-                <c xml:lang="it" hotkey="" helptext="Esegui questo script">#NAME#</c>
-            </cmd>
-            
-            <cmd resid="ID_CMD_SCRIPT_MENU_2" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_3" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_4" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_5" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_6" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_7" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_8" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_9" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_10" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_11" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_12" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_13" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_14" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_15" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_16" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_17" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_18" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_19" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_20" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_21" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_22" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_23" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_24" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-			    <c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_25" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_26" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-			    <c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_27" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_28" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_29" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_30" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_31" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_32" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_33" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_34" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_35" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_36" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_37" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_38" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_39" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_40" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_41" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_42" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_43" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_44" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_45" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_46" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_47" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_48" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_49" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_MENU_50" bmidx="0" notrans="true">
-                <c xml:lang="en" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="nl" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="pt" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="no" hotkey="" helptext="">#NAME#</c>
-				<c xml:lang="it" hotkey="" helptext="">#NAME#</c>
-            </cmd>
-
-            <cmd resid="ID_CMD_SCRIPT_NEW" bmidx="1">
-                <c xml:lang="en" hotkey="Ins" helptext="Create a new script">&amp;New...</c>
-                <c xml:lang="de" hotkey="Ins" helptext="Ein neues Skript erstellen">&amp;Neu...</c>
-				<c xml:lang="fi" hotkey="Ins" helptext="Luo uusi komentosarja">&amp;Uusi...</c>
-                <c xml:lang="nl" hotkey="Ins" helptext="Een nieuw script aanmaken">&amp;Nieuw...</c>
-				<c xml:lang="pt" hotkey="Ins" helptext="Criar um novo script">&amp;Novo...</c>
-                <c xml:lang="hr" hotkey="Ins" helptext="Stvori novu skriptu">&amp;Nova...</c>
-				<c xml:lang="no" hotkey="Ins" helptext="Opprett nytt skript">&amp;Ny...</c>
-                <c xml:lang="it" hotkey="Ins" helptext="Crea un nuovo script">&amp;Nuovo...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_EDIT_PROPERTIES">
-                <c xml:lang="en" hotkey="F3" helptext="Edit script properties (&lt;Shift&gt;+Double-click)">Edit &amp;Properties</c>
-                <c xml:lang="de" hotkey="F3" helptext="Eigenschaften des Skripts bearbeiten (&lt;Umschalten&gt;+Doppelklick)">&amp;Eigenschaften bearbeiten</c>
-				<c xml:lang="fi" hotkey="F3" helptext="Muokkaa komentosarjan ominaisuuksia (&lt;Shift&gt;+kaksoisnapsautus)">Muokkaa &amp;ominaisuuksia</c>
-                <c xml:lang="nl" hotkey="F3" helptext="Eigenschappen van het script aanpassen (&lt;Shift&gt;+Dubbelklik)">Eigenschappen aan&amp;passen</c>
-				<c xml:lang="pt" hotkey="F3" helptext="Editar as propriedados do script (&lt;Shift&gt;+Double-click)">Editar &amp;Propriedades</c>
-                <c xml:lang="hr" hotkey="F3" helptext="Uredi svojstva skripte (&lt;Shift&gt;+Dupli-klik)">Uredi svo&amp;jstva</c>
-				<c xml:lang="no" hotkey="F3" helptext="Rediger skriptegenskaper (&lt;Shift&gt;+Dobbelklikk)">Rediger &amp;egenskaper</c>
-                <c xml:lang="it" hotkey="F3" helptext="Modifica le proprietà dello script (&lt;Shift&gt;+Double-click)">Modifica &amp;Proprietà</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_RENAME">
-                <c xml:lang="en" hotkey="F2" helptext="Rename the selected object">Re&amp;name...</c>
-                <c xml:lang="de" hotkey="F2" helptext="Das ausgewählte Objekt umbenennen">Umbene&amp;nnen</c>
-				<c xml:lang="fi" hotkey="F2" helptext="Nimeä valittu objekti uudestaan">&amp;Nimeä uudelleen...</c>
-                <c xml:lang="nl" hotkey="F2" helptext="Geselecteerde object hernoemen">Her&amp;noemen...</c>
-				<c xml:lang="pt" hotkey="F2" helptext="Mudar o nome do objecto seleccionado">&amp;Mudar o Nome...</c>
-                <c xml:lang="hr" hotkey="F2" helptext="Preimenuj odabrani objekt">Preime&amp;nuj</c>
-				<c xml:lang="no" hotkey="F2" helptext="Gi valgte objekt nytt navn">Nytt &amp;navn...</c>
-                <c xml:lang="it" hotkey="F2" helptext="Rinomina gli oggetti selezionati">Ri&amp;nomina...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_DELETE">
-                <c xml:lang="en" hotkey="Del" helptext="Deletes the selected script">De&amp;lete</c>
-                <c xml:lang="de" hotkey="Del" helptext="Löscht das ausgewählte Skript">&amp;Löschen</c>
-				<c xml:lang="fi" hotkey="Del" helptext="Poista valittu komentosarja">&amp;Poista</c>
-                <c xml:lang="nl" hotkey="Del" helptext="Geselecteerde script verwijderen">Ver&amp;wijderen</c>
-				<c xml:lang="pt" hotkey="Del" helptext="Elimina o script seleccionado">E&amp;liminar</c>
-                <c xml:lang="hr" hotkey="Del" helptext="Obriši odabranu skriptu">O&amp;briši</c>
-				<c xml:lang="no" hotkey="Del" helptext="Sletter det valgte skriptet">S&amp;lett</c>
-                <c xml:lang="it" hotkey="Del" helptext="Cancella gli script selezionati">Cancel&amp;la</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_EDIT">
-                <c xml:lang="en" hotkey="F4" helptext="Open the selected script in the editor (&lt;Alt&gt;+Double-click)">&amp;Edit...</c>
-                <c xml:lang="de" hotkey="F4" helptext="Das ausgewählte Skript in den Editor laden (&lt;Alt&gt;+Doppelklick)">&amp;Bearbeiten...</c>
-				<c xml:lang="fi" hotkey="F4" helptext="Avaa valittu komentosarja editorissa (&lt;Alt&gt;+Kaksoisnapsautus)">&amp;Muokkaa...</c>
-                <c xml:lang="nl" hotkey="F4" helptext="Geselecteerde script in de editor openen (&lt;Alt&gt;+Dubbelklik)">B&amp;ewerken...</c>
-				<c xml:lang="pt" hotkey="F4" helptext="Abre o script seleccionado no editor (&lt;Alt&gt;+Double-click)">&amp;Editar...</c>
-                <c xml:lang="hr" hotkey="F4" helptext="Otvori odabranu skriptu u uredniku (&lt;Alt&gt;+Dupli-klik)">Ur&amp;edi...</c>
-				<c xml:lang="no" hotkey="F4" helptext="Åpne det valgte skriptet i editoren (&lt;Alt&gt;+Dobbelklikk)">R&amp;ediger...</c>
-                <c xml:lang="it" hotkey="F4" helptext="Apre gli script selezionati nell'editor (&lt;Alt&gt;+Double-click)">&amp;Modifica...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_FOLDER">
-                <c xml:lang="en" helptext="Open the script folder in Windows Explorer">Open the Script f&amp;older...</c>
-                <c xml:lang="de" helptext="Den Skript-Ordner in Windows Explorer öffnen">Skript-&amp;Ordner öffnen...</c>
-				<c xml:lang="fi" helptext="Avaa komentosarjakansio Resurssienhallinnassa">Avaa &amp;komentosarjakansio...</c>
-                <c xml:lang="nl" helptext="Folder met scripts in Windows Verkenner openen">Open de f&amp;older met scripts...</c>
-				<c xml:lang="pt" helptext="Abre a pasta de scripts no Explorador do Windows">Abrir a &amp;Pasta de Scripts...</c>
-                <c xml:lang="hr" helptext="Otvori mapu sa skriptama u Windows Explorer-u">&amp;Otvori mapu sa skriptama...</c>
-				<c xml:lang="no" helptext="Åpne skriptmappe i Windows Explorer">Åpne Skriptma&amp;ppe...</c>
-                <c xml:lang="it" helptext="Apri la cartella degli script in Windows Explorer">Apri la ca&amp;rtella degli Script...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_RUN">
-                <c xml:lang="en" hotkey="F5" helptext="Runs the selected script (Double-click)">&amp;Run</c>
-                <c xml:lang="de" hotkey="F5" helptext="Das ausgewählte Skript ausführen (Doppelklick)">Ausfüh&amp;ren</c>
-				<c xml:lang="fi" hotkey="F5" helptext="Suorita valittu komentosarja (Kaksoisnapsautus)">&amp;Suorita</c>
-                <c xml:lang="nl" hotkey="F5" helptext="Geselecteerde script uitvoeren (Dubbelklik)">&amp;Voer uit</c>
-				<c xml:lang="pt" hotkey="F5" helptext="Executa o script seleccionado (Duplo-click)">Executa&amp;r</c>
-                <c xml:lang="hr" hotkey="F5" helptext="Pokreni odabranu skriptu (Dupli-klik)">Pok&amp;reni</c>
-				<c xml:lang="no" hotkey="F5" helptext="Utfører det valgte skriptet (Dobbelklikk)">&amp;Utfør</c>
-                <c xml:lang="it" hotkey="F5" helptext="Esegui lo script selezionato (Double-click)">&amp;Esegui</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_STOP">
-                <c xml:lang="en" helptext="Stops script execution">S&amp;top Script</c>
-                <c xml:lang="de" helptext="Die Ausführung des Skripts abbrechen">Ausführung s&amp;toppen</c>
-				<c xml:lang="fi" helptext="Pysäytä komentosarjan suorittaminen">P&amp;ysäytä komentosarja</c>
-                <c xml:lang="nl" helptext="Uitvoeren van script afbreken">Script s&amp;toppen</c>
-				<c xml:lang="pt" helptext="Para a execução do script">&amp;Parar Script</c>
-                <c xml:lang="hr" helptext="Zaustavi izvedbu skripte">Zaustavi skrip&amp;tu</c>
-				<c xml:lang="no" helptext="Stopper utførelse av skript">S&amp;topp skript</c>
-                <c xml:lang="it" helptext="Ferma l'esecuzione dello script">Ferma Scrip&amp;t</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPT_HELP">
-                <c xml:lang="en" helptext="Open the IMatch Script Help">IMatch Script &amp;Help</c>
-                <c xml:lang="de" helptext="Öffnet die IMatch Skript-Hilfe">IMatch Skript&amp;hilfe</c>
-				<c xml:lang="fi" helptext="Avaa IMatch komentosarjojen ohje">IMatch komentosarjojen oh&amp;je</c>
-                <c xml:lang="nl" helptext="IMatch Script Help openen">IMatch Script &amp;Help</c>
-				<c xml:lang="pt" helptext="Abrir a ajuda de scripts do IMatch">&amp;Ajuda de Scripts do IMatch</c>
-                <c xml:lang="hr" helptext="Otvori IMatch pomoć za skripte">IMatch &amp;pomoć sa skripte</c>
-				<c xml:lang="no" helptext="Åpner Hjelp for IMatch Skript">IMatch Skript &amp;Hjelp</c>
-                <c xml:lang="it" helptext="Apri l'Help dello Script di IMatch">IMatch Script &amp;Help</c>
-            </cmd>
-        </command_group>
-
 
         <!-- Split -->
 
@@ -5398,14 +4857,14 @@
             </cmd>
 
 			<cmd resid="ID_DB_CONVERTER">
-				<c xml:lang="en" hotkey="" helptext="This application enables you to convert IMatch 3 databases into the IMatch 5 format.">Database Co&amp;nverter...</c>
-				<c xml:lang="de" hotkey="" helptext="Diese Anwendung konvertiert Datenbanken aus dem IMatch 3 Format in das IMatch 5 Format.">Datenbankko&amp;nvertierung...</c>
-				<c xml:lang="fi" hotkey="" helptext="Tämä sovellus muuntaa IMatch 3 tietokannat IMatch 5 formaattiin.">Tietokanta&amp;muunnin...</c>
-				<c xml:lang="nl" hotkey="" helptext="Deze applicatie converteert een IMatch 3 database in het IMatch 5 formaat">Database Co&amp;nversie...</c>
-				<c xml:lang="hr" hotkey="" helptext="Ova aplikacija ti omogućava da pretvoriš IMatch 3 bazu podataka u IMatch 5 format.">&amp;Pretvarač baze podataka...</c>
-				<c xml:lang="pt" hotkey="" helptext="Esta aplicação permite converter as bases de dados do IMatch 3 para o formato do IMatch 5.">&amp;Conversor da base de dados...</c>
-				<c xml:lang="no" hotkey="" helptext="Denne applikasjonen konverterer IMatch 3 databaser til IMatch 5 format.">Database ko&amp;nvertering...</c>
-				<c xml:lang="it" hotkey="" helptext="Questa applicazione consente di convertire i database IMatch 3 nel formato IMatch 5.">Database Co&amp;nvertitore...</c>
+				<c xml:lang="en" hotkey="" helptext="This application enables you to convert IMatch 3 databases into the current IMatch format.">Database Co&amp;nverter...</c>
+				<c xml:lang="de" hotkey="" helptext="Diese Anwendung konvertiert Datenbanken aus dem IMatch 3 Format in das aktuelle IMatch Format.">Datenbankko&amp;nvertierung...</c>
+				<c xml:lang="fi" hotkey="" helptext="Tämä sovellus muuntaa IMatch 3 tietokannat IMatch formaattiin.">Tietokanta&amp;muunnin...</c>
+				<c xml:lang="nl" hotkey="" helptext="Deze applicatie converteert een IMatch 3 database in het IMatch formaat">Database Co&amp;nversie...</c>
+				<c xml:lang="hr" hotkey="" helptext="Ova aplikacija ti omogućava da pretvoriš IMatch 3 bazu podataka u IMatch format.">&amp;Pretvarač baze podataka...</c>
+				<c xml:lang="pt" hotkey="" helptext="Esta aplicação permite converter as bases de dados do IMatch 3 para o formato do IMatch.">&amp;Conversor da base de dados...</c>
+				<c xml:lang="no" hotkey="" helptext="Denne applikasjonen konverterer IMatch 3 databaser til IMatch format.">Database ko&amp;nvertering...</c>
+				<c xml:lang="it" hotkey="" helptext="Questa applicazione consente di convertire i database IMatch 3 nel formato IMatch.">Database Co&amp;nvertitore...</c>
 			</cmd>
 
 			<cmd resid="ID_DB_REPAIR">
@@ -5516,11 +4975,21 @@
                 <c xml:lang="fr" hotkey="" helptext="Ouvrir le site de Photools.com dans votre navigateur, rechercher les actualités d'IMatch, les mises à jour, les téléchargements gratuits et divers compléments">Photools.com sur le Web</c>
 				<c xml:lang="no" hotkey="" helptext="Åpner photools.com nettside i nettleseren din.\r\nKontroller for nyheter om IMatch, oppdateringer, gratis nedlastinger og andre godsaker.">Photools.com nettstedet...</c>
 				<c xml:lang="it" hotkey="" helptext="Apre il sito web photools.com nel browser.\r\nControlla per novità su IMatch, aggiornamenti,  download gratuiti.">Il Sito &amp;Web di photools.com...</c>
-				</cmd>
+			</cmd>
+
+			<cmd resid="ID_APP_RELEASE_NOTES" bmidx="3">
+				<c xml:lang="en" hotkey="" helptext="Opens the release notes page in your default browser.">&amp;Release Notes (Online)</c>
+				<c xml:lang="de" hotkey="" helptext="Öffnet die Versionsinformationen in Ihrem Browser.">Ve&amp;rsionsinformationen (Online)</c>
+			</cmd>
+
+			<cmd resid="ID_APP_DEVCENTER" bmidx="3">
+				<c xml:lang="en" hotkey="" helptext="Opens the IMatch Developer Center web site.">&amp;Developer Center (Online)</c>
+				<c xml:lang="de" hotkey="" helptext="Öffnet die photools.com Developer Center Webseite.">&amp;Developer Center (Online)</c>
+			</cmd>
 
 			<cmd resid="ID_APP_ORDER" bmidx="9">
-				<c xml:lang="en" hotkey="" helptext="Buy IMatch online">&amp;Buy IMatch...</c>
-				<c xml:lang="de" hotkey="" helptext="IMatch-Lizenzen online kaufeb.">IMatch &amp;kaufen...</c>
+				<c xml:lang="en" hotkey="" helptext="Buy IMatch online">&amp;Buy IMatch safely online...</c>
+				<c xml:lang="de" hotkey="" helptext="IMatch-Lizenzen online kaufeb.">IMatch sicher &amp;kaufen...</c>
 				<c xml:lang="fi" hotkey="" helptext="Osta IMatch lisenssi">&amp;Osta IMatch...</c>
 				<c xml:lang="nl" hotkey="" helptext="IMatch-licenties bestellen">IMatch &amp;bestellen...</c>
 				<c xml:lang="pt" hotkey="" helptext="Encomendar licenças do IMatch na Internet">&amp;Encomendar o IMatch...</c>
@@ -6228,7 +5697,10 @@
 				<c xml:lang="no" hotkey="" helptext="Tømme loggen">&amp;Tømme loggen</c>
                 <c xml:lang="it" hotkey="" helptext="Cancella lo storico">Cancel&amp;la Storico</c>
             </cmd>
-            
+	
+        </command_group>
+		
+		<command_group name="View History Commands List" private="true">
             <!-- We reserve 50 spots for menu commands here. The text etc. is set at runtime -->
 
             <cmd resid="ID_CMD_VIEWHIST_ITEM_1"  bmidx="-1">
@@ -6730,15 +6202,8 @@
 				<c xml:lang="hr" hotkey="" helptext="">Stavka</c>
 				<c xml:lang="no" hotkey="" helptext="">Element</c>
 				<c xml:lang="it" hotkey="" helptext="">Elemento</c>
-            </cmd>
-
-        </command_group>
-
-        <item>ID_CMD_FOLDERS_TREE_HIER</item>
-        <item>ID_CMD_FOLDERS_TREE_HIER_PREV</item>
-        <item>ID_CMD_FOLDERS_TREE_HIER_NEXT</item>
-        <item>ID_CMD_FOLDERS_TREE_HIER_CLEAR</item>
-
+            </cmd>			
+		</command_group>
 
         <!-- Relation Commands -->
 
@@ -7214,8 +6679,19 @@
                 <c xml:lang="it" hotkey="Alt+VK_NUMPAD7" helptext="Abilita o disabilità il crop virtuale del file">Abiita/Disabilita Cro&amp;p</c>
             </cmd>
         </command_group>
+		
+		<!-- Video commands -->
 
-        <!-- EXIF Orientation Updates -->
+		<command_group name="Video Commands" bmid="" desc="">
+			<cmd resid="ID_CMD_FILE_THUMBSET_NEXT" desc="">
+				<c xml:lang="en" hotkey="Shift+Ctrl+VK_NEXT" helptext="Change the thumbnail to use for this video.">&amp;Next Frame</c>
+				<c xml:lang="de" hotkey="Shift+Ctrl+VK_NEXT" helptext="Das Vorschaubild für dieses Video ändern.">&amp;Nächtes Bild</c>
+			</cmd>
+			<cmd resid="ID_CMD_FILE_THUMBSET_PREV" desc="">
+				<c xml:lang="en" hotkey="Shift+Ctrl+VK_PRIOR" helptext="Change the thumbnail to use for this video.">&amp;Previous Frame</c>
+				<c xml:lang="de" hotkey="Shift+Ctrl+VK_PRIOR" helptext="Das Vorschaubild für dieses Video ändern.">&amp;Vorhergehendes Bild</c>
+			</cmd>
+		</command_group>
 
         <!-- EXIF Orientation Updates -->
 
@@ -7440,6 +6916,9 @@
 				<c xml:lang="no" hotkey="VK_SHIFT+VK_OEM_COMMA" helptext="Tilordne forrige etiketten gjeldende valg">Forrige etikett</c>
 				<c xml:lang="it" hotkey="VK_SHIFT+VK_OEM_COMMA" helptext="Assegna l'etichetta precedente all'attuale selezione">Etichetta Precedente</c>
 			</cmd>
+		</command_group>
+		
+		<command_group name="Rating and Label Command List">
 			
 			<!-- We don't use bitmaps for labels. Instead we dynamically create and display bitmaps based on the label color as set by the user -->
 
@@ -8160,12 +7639,12 @@
 			</cmd>
 
 			<cmd resid="ID_CMD_COLLECTION_PROTECTION_TOGGLE" desc="" bmidx="-1">
-				<c xml:lang="en" hotkey="Shift+P" helptext="Toggle the protection for the current selection">Toggle Protectio&amp;n</c>
-				<c xml:lang="de" hotkey="Shift+P" helptext="Den Schutz für die aktuelle Auswahl ein- oder ausschalten.">Schutz umschalte&amp;n</c>
-				<c xml:lang="pt" hotkey="Shift+P" helptext="Para a corrente selecção, alterna entre protegido e desprotegido">Alterna Protecçã&amp;o</c>
-				<c xml:lang="nl" hotkey="Shift+P" helptext="De bescherming voor de huidige selectie in- of uitschakelen">Bescherming wijzige&amp;n</c>
-				<c xml:lang="it" hotkey="Shift+P" helptext="Attivare o disattivare la protezione per la selezione corrente">Attiva/Disattiva la protezio&amp;ne</c>
-				<c xml:lang="no" hotkey="Shift+P" helptext="Veksle beskyttelsen for gjeldende utvalg">Veksle &amp;beskyttelse</c>
+				<c xml:lang="en" hotkey="Alt+Shift+P" helptext="Toggle the protection for the current selection">Toggle Protectio&amp;n</c>
+				<c xml:lang="de" hotkey="Alt+Shift+P" helptext="Den Schutz für die aktuelle Auswahl ein- oder ausschalten.">Schutz umschalte&amp;n</c>
+				<c xml:lang="pt" hotkey="Alt+Shift+P" helptext="Para a corrente selecção, alterna entre protegido e desprotegido">Alterna Protecçã&amp;o</c>
+				<c xml:lang="nl" hotkey="Alt+Shift+P" helptext="De bescherming voor de huidige selectie in- of uitschakelen">Bescherming wijzige&amp;n</c>
+				<c xml:lang="it" hotkey="Alt+Shift+P" helptext="Attivare o disattivare la protezione per la selezione corrente">Attiva/Disattiva la protezio&amp;ne</c>
+				<c xml:lang="no" hotkey="Alt+Shift+P" helptext="Veksle beskyttelsen for gjeldende utvalg">Veksle &amp;beskyttelse</c>
 			</cmd>
 
 			<cmd resid="ID_CMD_COLLECTION_BOOKMARK_DISABLED" desc=""  bmidx="-1">
@@ -8925,8 +8404,8 @@
 				<c xml:lang="no" hotkey="" helptext="Ikke legg til gruppe for hvert nivå, vis alle filer samlet.">Ikke &amp;grupper på nivåer</c>
                 <c xml:lang="it" hotkey="" helptext="Non aggiungere gruppi per ogni livello, mostra i file combinati.">Non rag&amp;gruppare per livelli</c>
             </cmd>
-            
-            <!-- All these commands are mapped to ID_FILEWND_SHOWGROUPS_FLATTEN. We only use different commands so we can display different names to the user -->
+
+			<!-- All these commands are mapped to ID_FILEWND_SHOWGROUPS_FLATTEN. We only use different commands so we can display different names to the user -->
             <cmd resid="ID_FILEWND_SHOWGROUPS_FLATTEN_FOLDER"  bmidx="8">
                 <c xml:lang="en" hotkey="" helptext="Don't add levels for each folder, show all files combined.">Don't &amp;group by folder</c>
                 <c xml:lang="de" hotkey="" helptext="Keine Ebenen für Verzeichnisse einfügen, alle Dateien gemeinsam anzeigen.">Nicht nach Verzeichnissen &amp;gruppieren</c>
@@ -8937,15 +8416,7 @@
 				<c xml:lang="no" hotkey="" helptext="Ikke legg til gruppe for hver mappe, vis alle filer samlet.">Ikke &amp;grupper på mapper</c>
                 <c xml:lang="it" hotkey="" helptext="Non aggiungere gruppi per ogni cartella, mostra i file combinati.">Non rag&amp;gruppare per cartella</c>
             </cmd>
-            <!--<cmd resid="ID_FILEWND_SHOWGROUPS_FLATTEN_RESULT_ORIGINAL"  bmidx="8">
-                <c xml:lang="en" hotkey="" helptext="Don't add levels for each orginal file, merge original with results.">Don't &amp;group by Original</c>
-                <c xml:lang="de" hotkey="" helptext="Keine Ebenen für Originale einfügen, alle Dateien gemeinsam anzeigen.">Nicht nach Originalen &amp;gruppieren</c>
-                <c xml:lang="fi" hotkey="" helptext="Älä lisää omaa tasoa kullekin originaalille, vaan näytä kaikki kerralla.">Älä ryhmitä &amp;Originaaleittain</c>
-                <c xml:lang="nl" hotkey="" helptext="Geen groep voor originelen toevoegen, alle bestanden tonen.">Niet per origineel &amp;groeperen</c>
-                <c xml:lang="hr" hotkey="" helptext="Nemoj dodavati razine za svaku originalnu datoteku, spoji original s rezultatima.">Ne &amp;grupiraj po originalu</c>
-				<c xml:lang="no" hotkey="" helptext="Ikke legg til nivå for hver original fil, vis alle filer samlet.">Ikke &amp;grupper på original</c>
-                <c xml:lang="it" hotkey="" helptext="Non aggiungere gruppi per ogni originale, mostra i file combinati. Unisci gli originali ai risultati.">Non rag&amp;gruppare per Originale</c>
-            </cmd>-->
+			
             <cmd resid="ID_FILEWND_SHOWGROUPS_FLATTEN_RESULT_ORIGINAL"  bmidx="8">
                 <c xml:lang="en" hotkey="" helptext="Include the originals also in the file window.">Include &amp;originals in the results</c>
                 <c xml:lang="de" hotkey="" helptext="Originale ebenfalls im Dateifenster anzeigen.">&amp;Originale im Ergebnis anzeigen</c>
@@ -8956,7 +8427,8 @@
 				<c xml:lang="fi" hotkey="" helptext="Sisällytä alkuperäiset myös tiedostoikkunassa.">Sisällytä alkuperäiset tul&amp;oksiin</c>
                 <c xml:lang="it" hotkey="" helptext="Includi anche gli originali nella finestra di visualizzazione.">Includi &amp;originali nei risultati</c>
             </cmd>
-            <cmd resid="ID_FILEWND_SHOWGROUPS_FLATTEN_RESULT_VERSION"  bmidx="8">
+
+			<cmd resid="ID_FILEWND_SHOWGROUPS_FLATTEN_RESULT_VERSION"  bmidx="8">
                 <c xml:lang="en" hotkey="" helptext="Don't add levels for each master, merge masters with versions.">Don't &amp;group by Master</c>
                 <c xml:lang="de" hotkey="" helptext="Keine Ebenen für Master-Dateien einfügen, alle Dateien gemeinsam anzeigen.">Nicht nach Master-Dateien &amp;gruppieren</c>
                 <c xml:lang="fi" hotkey="" helptext="Älä lisää omaa tasoa kullekin kantatiedostolle, vaan näytä kaikki kerralla.">Älä ryhmitä &amp;kantatiedostojen mukaan</c>
@@ -8966,8 +8438,15 @@
 				<c xml:lang="no" hotkey="" helptext="Ikke legg til nivå for hver hovedfil, vis alle filer samlet.">Ikke &amp;grupper på hovedfiler</c>
                 <c xml:lang="it" hotkey="" helptext="Non aggiungere livelli per ogni master, unisci i master con le versioni.">Non rag&amp;gruppare per Master</c>
             </cmd>
+			
+			<!-- This is only shown in the category view -->
 
-        </command_group>
+			<cmd resid="ID_FILEWND_SHOWGROUPS_DIRECT_FILES_ONLY"  bmidx="11">
+				<c xml:lang="en" hotkey="" helptext="Show only the files directly assigned to the selected category. Don't include files in child categories.">Show only &amp;directly assigned files</c>
+				<c xml:lang="de" hotkey="" helptext="Zeige nur Dateien, die der ausgewählten Kategorie direkt zugewiesen wurden. Dateien in Kindkategorien nicht einschließen.">Nur &amp;direkt zugewiesene Dateien zeigen</c>
+			</cmd>
+
+		</command_group>
 
         <command_group name="File Window Search Bar" bmid="PTR_BM_FILEWND_SEARCHBAR" desc="Commands used in the file window search bar">
             <!-- Placeholder for the search drop-down combo -->
@@ -9077,7 +8556,7 @@
             </cmd>
 			
 			<cmd resid="ID_FILEWND_SEARCHBAR_MODE_ALLNOTSCOPE" bmidx="5">
-				<!-- @Translators: Also see PTRMDLG_FILTERPANEL_MD in the imatchres_dlg.xml resource which has a similar check box -->
+				<!-- @Translators: Also see PTRMDLG_FILTERPANEL_MD in the imatch5res_dlg.xml resource which has a similar check box -->
                 <c xml:lang="en" hotkey="" helptext="In this mode, IMatch searches all metadata.">AND/NOT consider all tags</c>
                 <c xml:lang="de" hotkey="" helptext="In diesem Modus durchsucht IMatch alle Metadaten.">AND/NOT beziehen alle Tags ein</c>
 				<c xml:lang="fi" hotkey="" helptext="Tässä tilassa IMatch hakee kaikkea metatietoa.">JA/EI koskien kaikkia kenttiä</c>
@@ -13200,589 +12679,6 @@
                 <c xml:lang="it" hotkey="" helptext="Alterna la modalità di visualizzazione del nome del file tra breve e completo.">Mostra il nome file comp&amp;leto</c>
             </cmd>
         </command_group>
-        
-        <!-- Script Editor / IDE -->
-
-        <command_group name="Script IDE" bmid="PTR_BM_CMD_SCRIPTS_IDE" resgroup="scripts" desc="Script Editor / IDE commands">
-
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_NEW">
-                <c xml:lang="en" hotkey="Ctrl+N" helptext="Create a new script">&amp;New...</c>
-                <c xml:lang="de" hotkey="Ctrl+N" helptext="Ein neues Skript erstellen">&amp;Neu...</c>
-				<c xml:lang="fi" hotkey="Ctrl+N" helptext="Tee uusi komentosarja">&amp;Uusi...</c>
-                <c xml:lang="nl" hotkey="Ctrl+N" helptext="Nieuw script aanmaken">&amp;Nieuw...</c>
-				<c xml:lang="pt" hotkey="Ctrl+N" helptext="Cria um novo script">&amp;Novo...</c>
-                <c xml:lang="hr" hotkey="Ctrl+N" helptext="Stvara novu skriptu">&amp;Nova...</c>
-				<c xml:lang="no" hotkey="Ctrl+N" helptext="Opprett et nytt skript">&amp;Ny...</c>
-                <c xml:lang="it" hotkey="Ctrl+N" helptext="Crea un nuovo script">&amp;Nuovo...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_OPEN">
-                <c xml:lang="en" hotkey="Ctrl+O" helptext="Open script">&amp;Open...</c>
-                <c xml:lang="de" hotkey="Ctrl+O" helptext="Skript öffnen">Ö&amp;ffnen...</c>
-				<c xml:lang="fi" hotkey="Ctrl+O" helptext="Avaa komentosarja">A&amp;vaa...</c>
-                <c xml:lang="nl" hotkey="Ctrl+O" helptext="Script openen">&amp;Openen...</c>
-				<c xml:lang="pt" hotkey="Ctrl+O" helptext="Abrir script">&amp;Abrir...</c>
-                <c xml:lang="hr" hotkey="Ctrl+O" helptext="Otvori skriptu">&amp;Otvori...</c>
-				<c xml:lang="no" hotkey="Ctrl+O" helptext="Åpne skript">&amp;Åpne...</c>
-                <c xml:lang="it" hotkey="Ctrl+O" helptext="Apre lo script">&amp;Apri...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_CLOSE">
-                <c xml:lang="en" hotkey="Ctrl+F4;Ctrl+W" helptext="Close script">C&amp;lose...</c>
-                <c xml:lang="de" hotkey="Ctrl+F4;Ctrl+W" helptext="Skript schließen">Sch&amp;ließen...</c>
-				<c xml:lang="fi" hotkey="Ctrl+F4;Ctrl+W" helptext="Sulje komentosarja">S&amp;ulje...</c>
-				<c xml:lang="pt" hotkey="Ctrl+F4;Ctrl+W" helptext="Fechar script">&amp;Fechar...</c>
-                <c xml:lang="hr" hotkey="Ctrl+F4" helptext="Zatvori skriptu">&amp;Zatvori...</c>
-				<c xml:lang="nl" hotkey="Ctrl+F4" helptext="Script sluiten">S&amp;luiten...</c>
-				<c xml:lang="no" hotkey="Ctrl+F4;Ctrl+W" helptext="Lukk skript">L&amp;ukk...</c>
-                <c xml:lang="it" hotkey="Ctrl+F4;Ctrl+W" helptext="Chiude script">C&amp;hiudi...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_SAVE">
-                <c xml:lang="en" hotkey="Ctrl+S" helptext="Save script">&amp;Save...</c>
-                <c xml:lang="de" hotkey="Ctrl+S" helptext="Skript speichern">&amp;Speichern...</c>
-				<c xml:lang="fi" hotkey="Ctrl+S" helptext="Tallenna komentosarja">&amp;Tallenna...</c>
-                <c xml:lang="nl" hotkey="Ctrl+S" helptext="Script opslaan">Op&amp;slaan...</c>
-				<c xml:lang="pt" hotkey="Ctrl+G" helptext="Gravar script">&amp;Gravar...</c>
-                <c xml:lang="hr" hotkey="Ctrl+S" helptext="Spremi skriptu">&amp;Spremi...</c>
-				<c xml:lang="no" hotkey="Ctrl+S" helptext="Lagre skript">La&amp;gre...</c>
-                <c xml:lang="it" hotkey="Ctrl+S" helptext="Salva lo script">&amp;Salva...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_SAVEAS">
-                <c xml:lang="en" hotkey="" helptext="Save script under a new name">Save &amp;as...</c>
-                <c xml:lang="de" hotkey="" helptext="Skript unter einem neuen Namen speichern">Speichern &amp;unter...</c>
-				<c xml:lang="fi" hotkey="" helptext="Tallenna komentosarja uudella nimellä">Tallenna &amp;nimellä...</c>
-                <c xml:lang="nl" hotkey="" helptext="Script onder een nieuwe naam opslaan">Opslaan &amp;als...</c>
-				<c xml:lang="pt" hotkey="" helptext="Gravar script com um novo nome">Gravar &amp;como...</c>
-                <c xml:lang="hr" hotkey="" helptext="Spremi skriptu pod novim nazivom">Spremi k&amp;ao...</c>
-				<c xml:lang="no" hotkey="" helptext="Lagre skript med et nytt navn">Lagre &amp;som...</c>
-                <c xml:lang="it" hotkey="" helptext="Salva lo script con un nuovo nome">Salva &amp;come...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_SAVEALL" >
-                <c xml:lang="en" hotkey="Shift+Ctrl+S" helptext="Save all">Sa&amp;ve All</c>
-                <c xml:lang="de" hotkey="Shift+Ctrl+S" helptext="Save all">Alles sp&amp;eichern</c>
-				<c xml:lang="fi" hotkey="Shift+Ctrl+S" helptext="Tallenna kaikki">Tallenna &amp;kaikki</c>
-                <c xml:lang="nl" hotkey="Shift+Ctrl+S" helptext="Alle scripts opslaan">A&amp;lles opslaan</c>
-				<c xml:lang="pt" hotkey="Shift+Ctrl+G" helptext="Gravar todos">Gra&amp;var Todos</c>
-                <c xml:lang="hr" hotkey="Shift+Ctrl+S" helptext="Spremi sve">Spremi s&amp;ve</c>
-				<c xml:lang="no" hotkey="Shift+Ctrl+S" helptext="Lagre alle skript">Lagre &amp;alle</c>
-                <c xml:lang="it" hotkey="Shift+Ctrl+S" helptext="Salva tutti">Sal&amp;va Tutti</c>
-            </cmd>
-
-            <cmd resid="ID_CMD_SCRIPTIDE_NEWMODULE_CODE"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="New Code module">&amp;Code...</c>
-                <c xml:lang="de" hotkey="" helptext="Neues Kode-Modul">&amp;Kode...</c>
-                <c xml:lang="nl" hotkey="" helptext="Nieuwe code module">&amp;Code...</c>
-				<c xml:lang="pt" hotkey="" helptext="Novo módulo de código">&amp;Código...</c>
-                <c xml:lang="hr" hotkey="" helptext="Novi modul koda">&amp;Kod...</c>
-				<c xml:lang="no" hotkey="" helptext="Ny kodemodul">&amp;Kode...</c>
-				<c xml:lang="fi" hotkey="" helptext="Uusi koodimoduuli">Koo&amp;di...</c>
-                <c xml:lang="it" hotkey="" helptext="Nuovo modulo Codice">&amp;Codice...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_NEWMODULE_OBJECT"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="New Object module">&amp;Object...</c>
-                <c xml:lang="de" hotkey="" helptext="Neues Objekt-Modul">&amp;Objekt...</c>
-                <c xml:lang="nl" hotkey="" helptext="Nieuwe object module">&amp;Object...</c>
-				<c xml:lang="pt" hotkey="" helptext="Novo módulo Objecto">&amp;Objecto...</c>
-                <c xml:lang="hr" hotkey="" helptext="Novi modul objekta">&amp;Objekt...</c>
-				<c xml:lang="no" hotkey="" helptext="Ny objektmodul">&amp;Objekt...</c>
-				<c xml:lang="fi" hotkey="" helptext="Uusi objektimoduuli">&amp;objekti...</c>
-                <c xml:lang="it" hotkey="" helptext="Nuovo modulo Oggetto">&amp;Oggetto...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_NEWMODULE_CLASS"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="New Class">C&amp;lass...</c>
-                <c xml:lang="de" hotkey="" helptext="Neue Klasse">K&amp;lasse...</c>
-                <c xml:lang="nl" hotkey="" helptext="Nieuwe klasse">K&amp;lasse...</c>
-				<c xml:lang="pt" hotkey="" helptext="Nova Classe">C&amp;lasse...</c>
-                <c xml:lang="hr" hotkey="" helptext="Nova klasa">K&amp;lasa...</c>
-				<c xml:lang="no" hotkey="" helptext="Ny klasse">K&amp;lasse...</c>
-				<c xml:lang="fi" hotkey="" helptext="Uusi luokka">&amp;Luokka...</c>
-                <c xml:lang="it" hotkey="" helptext="Nuova Classe">C&amp;lasse...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_CLOSE"  bmidx="-1">
-                <c xml:lang="en" hotkey="Alt+F4" helptext="Close script editor">C&amp;lose Editor</c>
-                <c xml:lang="de" hotkey="Alt+F4" helptext="Skript-Editor schließen">Editor sch&amp;ließen</c>
-                <c xml:lang="hr" hotkey="Ctrl+X" helptext="Zatvori urednik skripte">Zatvori uredni&amp;k</c>
-				<c xml:lang="pt" hotkey="Alt+F4" helptext="Fechar o editor de scripts">&amp;Fechar Editor</c>
-				<c xml:lang="nl" hotkey="Ctrl+X" helptext="Script editor sluiten">Editor s&amp;luiten</c>
-				<c xml:lang="no" hotkey="Alt+F4" helptext="Lukk skripteditor">&amp;Lukk editor</c>
-				<c xml:lang="fi" hotkey="Alt+F4" helptext="Sulje komentosarjaediori">S&amp;ulje komentosarjaeditori</c>
-                <c xml:lang="it" hotkey="Alt+F4" helptext="Chiudi l'editor degli script">C&amp;hiudi Editor</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_COMPLETEWORD"  bmidx="-1">
-                <c xml:lang="en" hotkey="Ctrl+SPACE" helptext="Complete Word">Complete &amp;Word</c>
-                <c xml:lang="de" hotkey="Ctrl+SPACE" helptext="Wort vervollständigen">&amp;Wort vervollständigen</c>
-                <c xml:lang="nl" hotkey="Ctrl+SPACE" helptext="Woord completeren">&amp;Woord completeren</c>
-				<c xml:lang="pt" hotkey="Ctrl+SPACE" helptext="Completar Palavra">Completar &amp;Palavra</c>
-                <c xml:lang="hr" hotkey="Ctrl+SPACE" helptext="Cijela riječ">Cijela rije&amp;č</c>
-				<c xml:lang="no" hotkey="Ctrl+SPACE" helptext="Kompletter ord">Kompletter &amp;ord</c>
-				<c xml:lang="fi" hotkey="Ctrl+SPACE" helptext="Täydennä sana">Täydennä &amp;sana</c>
-                <c xml:lang="it" hotkey="Ctrl+SPACE" helptext="Completa Word">Completa &amp;Word</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_PARAMINFO"  bmidx="-1">
-                <c xml:lang="en" hotkey="Ctrl+I" helptext="Parameter Info">Para&amp;meter Info...</c>
-                <c xml:lang="de" hotkey="Ctrl+I" helptext="Parameter-Info">Para&amp;meter-Info...</c>
-                <c xml:lang="nl" hotkey="Ctrl+I" helptext="Parameter Info">Para&amp;meter Info...</c>
-				<c xml:lang="pt" hotkey="Ctrl+I" helptext="Informação do Parâmetro">Informação do Parâ&amp;metro...</c>
-                <c xml:lang="hr" hotkey="Ctrl+I" helptext="Podaci o parametru">Podaci o para&amp;metru...</c>
-				<c xml:lang="no" hotkey="Ctrl+I" helptext="Parameter informasjon">Para&amp;meter info...</c>
-				<c xml:lang="fi" hotkey="Ctrl+I" helptext="Parametrin tiedot">Para&amp;metrin tiedot...</c>
-                <c xml:lang="it" hotkey="Ctrl+I" helptext="Informazione Parametri">Info Para&amp;metri...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_USERDIALOG" >
-				<c xml:lang="en" hotkey="" helptext="Add/edit User Dialog">User &amp;dialog...</c>
-                <c xml:lang="de" hotkey="" helptext="Benutzerdefinierten Dialog einfügen oder bearbeiten">Benutzerdefinierter &amp;Dialog...</c>
-                <c xml:lang="nl" hotkey="" helptext="Gebruikersdialoog maken of wijzigen">Gebruikers&amp;dialoog...</c>
-				<c xml:lang="pt" hotkey="" helptext="Adicionar/editar Diálogo de Utilizador">&amp;Diálogo de Utilizador...</c>
-                <c xml:lang="hr" hotkey="" helptext="Dodaj/uredi korisnički dijaloški okvir">Korisnički &amp;dijaloški okvir...</c>
-				<c xml:lang="no" hotkey="" helptext="Opprett/rediger brukerdialog">Bruker&amp;dialog...</c>
-				<c xml:lang="fi" hotkey="" helptext="Lisää/muokkaa valintaikkuna">V&amp;alintaikkuna...</c>
-                <c xml:lang="it" hotkey="" helptext="Aggiungi/Modifica User Dialog">User &amp;dialog...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_REFERENCES" >
-                <c xml:lang="en" hotkey="" helptext="">&amp;References...</c>
-                <c xml:lang="de" hotkey="" helptext="">&amp;Referenzen...</c>
-                <c xml:lang="nl" hotkey="" helptext="">&amp;Referenties...</c>
-				<c xml:lang="pt" hotkey="" helptext="">&amp;Referências...</c>
-                <c xml:lang="hr" hotkey="" helptext="">&amp;Reference...</c>
-				<c xml:lang="no" hotkey="" helptext="">&amp;Referanser...</c>
-				<c xml:lang="fi" hotkey="" helptext="">&amp;Viittaukset...</c>
-                <c xml:lang="it" hotkey="" helptext="">&amp;Riferimenti...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_PROPERTIES" >
-                <c xml:lang="en" hotkey="" helptext="Properties">P&amp;roperties...</c>
-                <c xml:lang="de" hotkey="" helptext="Eigenschaften">&amp;Eigenschaften...</c>
-                <c xml:lang="nl" hotkey="" helptext="Eigenschappen">&amp;Eigenschappen...</c>
-				<c xml:lang="pt" hotkey="" helptext="Propriedades">P&amp;ropriedades...</c>
-                <c xml:lang="hr" hotkey="" helptext="Svojstva">S&amp;vojstva...</c>
-				<c xml:lang="no" hotkey="" helptext="Egenskaper">&amp;Egenskaper...</c>
-				<c xml:lang="fi" hotkey="" helptext="Ominaisuudet">&amp;Ominaisuudet...</c>
-                <c xml:lang="it" hotkey="" helptext="Proprietà">P&amp;roprietà...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_MACRORUN" >
-                <c xml:lang="en" hotkey="F5" helptext="Run script">&amp;Run</c>
-                <c xml:lang="de" hotkey="F5" helptext="Skript ausführen">Ausfüh&amp;ren</c>
-				<c xml:lang="fi" hotkey="F5" helptext="Suorita komentosarja">Suori&amp;ta</c>
-                <c xml:lang="nl" hotkey="F5" helptext="Script uitvoeren">Uitvoe&amp;ren</c>
-				<c xml:lang="pt" hotkey="F5" helptext="Executar script">&amp;Executar</c>
-                <c xml:lang="hr" hotkey="F5" helptext="Pokreni skriptu">Pok&amp;reni</c>
-				<c xml:lang="no" hotkey="F5" helptext="Utfør skript">Utfø&amp;r</c>
-                <c xml:lang="it" hotkey="F5" helptext="Esegui script">&amp;Run</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_MACROPAUSE" >
-                <c xml:lang="en" hotkey="ESC" helptext="Pause script">&amp;Pause</c>
-                <c xml:lang="de" hotkey="ESC" helptext="Skript pausieren">&amp;Pause</c>
-                <c xml:lang="nl" hotkey="ESC" helptext="Script pauzeren">&amp;Pauze</c>
-				<c xml:lang="pt" hotkey="ESC" helptext="Pausar script">&amp;Pausar</c>
-                <c xml:lang="hr" hotkey="ESC" helptext="Pauziraj skriptu">&amp;Pauziraj</c>
-				<c xml:lang="no" hotkey="ESC" helptext="Pause skript">&amp;Pause</c>
-				<c xml:lang="fi" hotkey="ESC" helptext="Keskeytä komentosarja">Keske&amp;ytä</c>
-                <c xml:lang="it" hotkey="ESC" helptext="Pausa lo script">&amp;Pausa</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_MACROEND" >
-                <c xml:lang="en" hotkey="" helptext="Stop script execution">&amp;End</c>
-                <c xml:lang="de" hotkey="" helptext="Skriptausführung beenden">&amp;Ende</c>
-                <c xml:lang="nl" hotkey="" helptext="Script uitvoeren stoppen">&amp;Einde</c>
-				<c xml:lang="pt" hotkey="" helptext="Terminar execução do script">&amp;Terminar</c>
-                <c xml:lang="hr" hotkey="" helptext="Zaustavi izvršavanje skripte">&amp;Zaustavi</c>
-				<c xml:lang="no" hotkey="" helptext="Stopp utførelse av skript">&amp;Avslutt</c>
-				<c xml:lang="fi" hotkey="" helptext="Lopeta komentosarjan suorittaminen">&amp;Lopeta</c>
-                <c xml:lang="it" hotkey="" helptext="Ferma l'esecuzione dello script">F&amp;erma</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_DEBUG_STEPINO" >
-                <c xml:lang="en" hotkey="F8" helptext="Step into">Step &amp;into</c>
-                <c xml:lang="de" hotkey="F8" helptext="Hineinspringen">Hineinspr&amp;ingen</c>
-				<c xml:lang="fi" hotkey="F8" helptext="Astu sisään">Astu &amp;sisään</c>
-                <c xml:lang="nl" hotkey="F8" helptext="Inspringen">&amp;Inspringen</c>
-				<c xml:lang="pt" hotkey="F8" helptext="Entrar">&amp;Entrar</c>
-                <c xml:lang="hr" hotkey="F8" helptext="Ukorači">Ukorač&amp;i</c>
-				<c xml:lang="no" hotkey="F8" helptext="Hopp inn i">Hopp &amp;inn i</c>
-                <c xml:lang="it" hotkey="F8" helptext="Step into">Step &amp;into</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_DEBUG_STEPOVER" >
-                <c xml:lang="en" hotkey="Shift+F8" helptext="Step over">Step ove&amp;r</c>
-                <c xml:lang="de" hotkey="Shift+F8" helptext="Überspringen">Übersp&amp;ringen</c>
-				<c xml:lang="fi" hotkey="Shift+F8" helptext="Astu yli">Astu &amp;yli</c>
-                <c xml:lang="nl" hotkey="Shift+F8" helptext="Overspringen">Ove&amp;rspringen</c>
-				<c xml:lang="pt" hotkey="Shift+F8" helptext="Passar por cima">&amp;Passar por Cima</c>
-                <c xml:lang="hr" hotkey="Shift+F8" helptext="Prekorači">P&amp;rekorači</c>
-				<c xml:lang="no" hotkey="Shift+F8" helptext="Hopp over">Hopp ove&amp;r</c>
-                <c xml:lang="it" hotkey="Shift+F8" helptext="Step over">Step ove&amp;r</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_DEBUG_STEPOUT" >
-                <c xml:lang="en" hotkey="Ctrl+F8" helptext="Step out">Step o&amp;ut</c>
-                <c xml:lang="de" hotkey="Ctrl+F8" helptext="Herausspringen">Hera&amp;usspringen</c>
-				<c xml:lang="fi" hotkey="Ctrl+F8" helptext="Astu ulos">Astu &amp;ulos</c>
-                <c xml:lang="nl" hotkey="Ctrl+F8" helptext="Uitspringen">&amp;Uitspringen</c>
-				<c xml:lang="pt" hotkey="Ctrl+F8" helptext="Sair">&amp;Sair</c>
-                <c xml:lang="hr" hotkey="Ctrl+F8" helptext="Iskorači">I&amp;skorači</c>
-				<c xml:lang="no" hotkey="Ctrl+F8" helptext="Step out">Hopp &amp;ut</c>
-                <c xml:lang="it" hotkey="Ctrl+F8" helptext="Step out">Step o&amp;ut</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_DEBUG_STEPTOCURSOR" >
-                <c xml:lang="en" hotkey="F7" helptext="Step to cursor">Step to &amp;cursor</c>
-                <c xml:lang="de" hotkey="F7" helptext="Bis zur Cursorposition ausführen">Bis zur &amp;Cursor-Position ausführen</c>
-				<c xml:lang="fi" hotkey="F7" helptext="Siirry kursorin kohtaan">Astu k&amp;ursoriin</c>
-                <c xml:lang="nl" hotkey="F7" helptext="Tot de cursorpositie uitvoeren">Tot &amp;cursor-positie uitvoeren</c>
-				<c xml:lang="pt" hotkey="F7" helptext="Executar até à posição do cursor">Executar até ao &amp;Cursor</c>
-                <c xml:lang="hr" hotkey="F7" helptext="Izvedi do pokazivača">Izvedi do pokazi&amp;vača</c>
-				<c xml:lang="no" hotkey="F7" helptext="Utfør stegvis til markør">Stegvis til &amp;markør</c>
-                <c xml:lang="it" hotkey="F7" helptext="Step al cursore">Step to &amp;cursor</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_DEBUG_TOGGLEBREAK" >
-                <c xml:lang="en" hotkey="F9" helptext="Toggle breakpoint">Toggle &amp;breakpoint</c>
-                <c xml:lang="de" hotkey="F9" helptext="Haltepunkt umschalten">Haltepunkt u&amp;mschalten</c>
-				<c xml:lang="fi" hotkey="F9" helptext="Lisää/poista keskeytyskohta">Lisää/poista k&amp;eskeytys</c>
-                <c xml:lang="nl" hotkey="F9" helptext="Onderbrekingspunt aan-/uitschakelen">Onder&amp;brekingspunt aan-/uitschakelen</c>
-				<c xml:lang="pt" hotkey="F9" helptext="Activar ou desactivar ponto de interrupção">Activar/Desactivar Ponto de &amp;Interrupção</c>
-                <c xml:lang="hr" hotkey="F9" helptext="Preklopi točku prekida">Preklopi to&amp;čku prekida</c>
-				<c xml:lang="no" hotkey="F9" helptext="Veksle stoppunkt">Veksle sto&amp;ppunkt</c>
-                <c xml:lang="it" hotkey="F9" helptext="Abilita o disabilita breakpoint">ON/OFF &amp;breakpoint</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_DEBUG_CLEARALLBREAKS" >
-                <c xml:lang="en" hotkey="Shift+Ctrl+F9" helptext="Clear all breakpoints">Clear a&amp;ll breakpoints</c>
-                <c xml:lang="de" hotkey="Shift+Ctrl+F9" helptext="Alle Haltepunkte löschen">Alle Haltepunkte &amp;löschen</c>
-				<c xml:lang="fi" hotkey="Shift+Ctrl+F9" helptext="Poista kaikki keskeytykset">P&amp;oista keskeytykset</c>
-                <c xml:lang="nl" hotkey="Shift+Ctrl+F9" helptext="Alle onderbrekingspunten verwijderen">A&amp;lle onderbrekingspunten verwijderen</c>
-				<c xml:lang="pt" hotkey="Shift+Ctrl+F9" helptext="Eliminar todos os pontos de interrupção">Eliminar  &amp;Todos os Pontos de Interrupção</c>
-                <c xml:lang="hr" hotkey="Shift+Ctrl+F9" helptext="Očisti sve točke prekida">Očisti sve &amp;točke prekida</c>
-				<c xml:lang="no" hotkey="Shift+Ctrl+F9" helptext="Slett alle stoppunkt">Slett a&amp;lle stoppunkt</c>
-                <c xml:lang="it" hotkey="Shift+Ctrl+F9" helptext="Cancella tutti i breakpoints">Cancella tut&amp;ti i breakpoints</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_DEBUG_QUICKWATCH" >
-                <c xml:lang="en" hotkey="Shift+F9" helptext="Quick Watch">Quick &amp;Watch</c>
-                <c xml:lang="de" hotkey="Shift+F9" helptext="Aktuellen Wert anzeigen">Aktuellen &amp;Wert anzeigen</c>
-				<c xml:lang="fi" hotkey="Shift+F9" helptext="Näytä tämänhetkiset arvot">Tämänhetkiset &amp;arvot</c>
-                <c xml:lang="nl" hotkey="Shift+F9" helptext="Huidige waarde tonen">Huidige &amp;waarde tonen</c>
-				<c xml:lang="pt" hotkey="Shift+F9" helptext="Monitorização rápida">&amp;Monitorização Rápida</c>
-                <c xml:lang="hr" hotkey="Shift+F9" helptext="Brzi nadzor">Brzi na&amp;dzor</c>
-				<c xml:lang="no" hotkey="Shift+F9" helptext="Vis aktuell verdi">Vis aktuell &amp;verdi</c>
-                <c xml:lang="it" hotkey="Shift+F9" helptext="Quick Watch">Quick &amp;Watch</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_DEBUG_ADDWATCH" >
-                <c xml:lang="en" hotkey="Ctrl+F9" helptext="Add to Watch">&amp;Add to Watch</c>
-                <c xml:lang="de" hotkey="Ctrl+F9" helptext="Zu Watch hinzufügen">Zu W&amp;atch hinzufügen</c>
-				<c xml:lang="fi" hotkey="Ctrl+F9" helptext="Lisää seurantalistaan">&amp;Lisää seurantalistaan</c>
-                <c xml:lang="nl" hotkey="Ctrl+F9" helptext="Aan snelcontrole toevoeren">&amp;Aan snelcontrole toevoegen</c>
-				<c xml:lang="pt" hotkey="Ctrl+F9" helptext="Acrescentar à monitorização">&amp;Acrescentar à Monitorização</c>
-                <c xml:lang="hr" hotkey="Ctrl+F9" helptext="Dodaj za gledanje">Dod&amp;aj za gledanje</c>
-				<c xml:lang="no" hotkey="Ctrl+F9" helptext="Legg til verdi">Le&amp;gg til verdi</c>
-                <c xml:lang="it" hotkey="Ctrl+F9" helptext="Aggiungi a Watch">&amp;Aggiungi a Watch</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_DEBUG_BROWSE" >
-                <c xml:lang="en" hotkey="" helptext="Browse Object">Br&amp;owse</c>
-                <c xml:lang="de" hotkey="" helptext="Objekt anzeigen">&amp;Objekt anzeigen</c>
-				<c xml:lang="fi" hotkey="" helptext="Selaa kohdetta">Se&amp;laa</c>
-                <c xml:lang="nl" hotkey="" helptext="Object tonen">&amp;Object tonen</c>
-				<c xml:lang="pt" hotkey="" helptext="Procurar Objecto">Pr&amp;ocurar</c>
-                <c xml:lang="hr" hotkey="" helptext="Pregledaj objekt">Pregledaj &amp;objekt</c>
-				<c xml:lang="no" hotkey="" helptext="Browse Object">Vis &amp;objekt</c>
-                <c xml:lang="it" hotkey="" helptext="Esplora Oggetti">Espl&amp;ora</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_DESIGN_MODE" >
-              <c xml:lang="en" helptext="Design Mode\nEnable the Design mode to edit Application and Database Scripts. Disable the Design mode again to run these scripts">&amp;Design Mode</c>
-              <c xml:lang="de" helptext="Entwurfsmodus\nAktivieren Sie den Entwurfsmodus, um Anwendungs- und Datenbankskripte zu bearbeiten. Deaktivieren Sie den Design-Modus, um die Skripte auszuführen">&amp;Entwurfsmodus</c>
-              <c xml:lang="nl" helptext="Ontwerpmodus\nActiveren van de ontwerpmodus om applicatie- en databasescripts te bewerken. U dient de ontwerpmodus te deactiveren om scripts uit te voeren">&amp;Ontwerpmodus</c>
-			  <c xml:lang="pt" helptext="Modo de Concepção\nActive o Modeo de Concepção para editar scripts de aplicação e de base de dados. Desactive este modo para executar os scripts">Modo de &amp;Concepção</c>
-              <c xml:lang="hr" helptext="Način dizajna\nOmogući način dizajna da urediš aplikacijske i skripte baze podataka. Onemogući način dizajna da ponovno izvšiš skripte">Način &amp;dizajna</c>
-			  <c xml:lang="no" helptext="Designmodus\nAktiver Designmodus for å redigere skript for applikasjon og database Scripts. Deaktiver Designmodus for å utføre skriptene">&amp;Designmodus</c>
-			  <c xml:lang="fi" helptext="Suunnittelutila\nKäytä suunnittelutilaa muokataksesi sovellus- ja tietokantakomentosarjoja. Ota suunnittelutila taas pois käytöstä ajaaksesi komentosarjoja.">&amp;Suunnittelutila</c>
-              <c xml:lang="it" helptext="Modalità Progetto\nAbilita la modalità Progetto per modificare Applicazioni e Script. Disabilita la modalità Progetto per eseguire gli script">Modalità &amp;Progetto</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_DEBUG_SETNEXT">
-                <c xml:lang="en" hotkey="" helptext="Set next statement">Set ne&amp;xt statement</c>
-                <c xml:lang="de" hotkey="" helptext="Setze nächste Anweisung">Setze &amp;nächste Anweisung</c>
-				<c xml:lang="fi" hotkey="" helptext="Aseta seuraava lauseke">A&amp;seta seuraava lauseke</c>
-                <c xml:lang="nl" hotkey="" helptext="Volgende instructie instellen">Volgende instructie i&amp;nstellen</c>
-				<c xml:lang="pt" hotkey="" helptext="Definir declaração seguinte">Definir Declaração Se&amp;guinte</c>
-                <c xml:lang="hr" hotkey="" helptext="Postavi slijedeću naredbu">Postavi slijedeću nared&amp;bu</c>
-				<c xml:lang="no" hotkey="" helptext="Sett neste instruksjon">Sett ne&amp;ste instruksjon</c>
-                <c xml:lang="it" hotkey="" helptext="Imposta l'Istruzione successiva">Imposta istruzione &amp;successiva</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_DEBUG_SHOWNEXT">
-                <c xml:lang="en" hotkey="" helptext="Show next statement">Sho&amp;w next statement</c>
-                <c xml:lang="de" hotkey="" helptext="Zeige nächste Anweisung">&amp;Zeige nächste Anweisung</c>
-                <c xml:lang="nl" hotkey="" helptext="Volgende instructie tonen">Volgende instructie &amp;tonen</c>
-				<c xml:lang="pt" hotkey="" helptext="Mostrar declaração seguinte">&amp;Mostrar Declaração Seguinte</c>
-                <c xml:lang="hr" hotkey="" helptext="Pokaži slijedeću naredbu">Poka&amp;ži slijedeću naredbu</c>
-				<c xml:lang="no" hotkey="" helptext="Vis neste instruksjon">Vis &amp;neste instruksjon</c>
-				<c xml:lang="fi" hotkey="" helptext="Näytä seuraava lauseke">Nä&amp;ytä seuraava lauseke</c>
-                <c xml:lang="it" hotkey="" helptext="Mostra l'istruzione successiva">Mostra istruzione s&amp;uccessiva</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_NEXT"  bmidx="-1">
-                <c xml:lang="en" hotkey="Ctrl+VK_TAB" helptext="Switch between open sheets">&amp;Next sheet</c>
-                <c xml:lang="de" hotkey="Ctrl+VK_TAB" helptext="Zwischen den geöffneten Blättern umschalten">&amp;Nächstes Blatt</c>
-				<c xml:lang="fi" hotkey="Ctrl+VK_TAB" helptext="Siirry seuraavaan avoimeen välilehteen">&amp;Seuraava välilehti</c>
-                <c xml:lang="nl" hotkey="Ctrl+VK_TAB" helptext="Tussen geopende vensters wisselen">&amp;Volgende venster</c>
-				<c xml:lang="pt" hotkey="Ctrl+VK_TAB" helptext="Comutar entre folhas abertas">&amp;Próxima Folha</c>
-                <c xml:lang="hr" hotkey="Ctrl+VK_TAB" helptext="Preklopi između otvorenih listi">&amp;Slijedeća lista</c>
-				<c xml:lang="no" hotkey="Ctrl+VK_TAB" helptext="Veksle mellom åpne sider">&amp;Neste side</c>
-                <c xml:lang="it" hotkey="Ctrl+VK_TAB" helptext="Alterna tra due fgli aperti">Foglio Segue&amp;nte</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_OPENUSES"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Open used modules">Open &amp;used modules</c>
-                <c xml:lang="de" hotkey="" helptext="Öffne verwendete Module">Öffne verwendete Mod&amp;ule</c>
-				<c xml:lang="en" hotkey="" helptext="Avaa käytetyt moduulit">Avaa kä&amp;ytetyt moduulit</c>
-                <c xml:lang="nl" hotkey="" helptext="Gebruikte modules openen">Gebr&amp;uikte modules openen</c>
-				<c xml:lang="pt" hotkey="" helptext="Abrir módulos utilizados">Abrir Módulos &amp;Utilizados</c>
-                <c xml:lang="hr" hotkey="" helptext="Otvori korištene module">Otvori korištene mod&amp;ule</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne moduler i bruk">Åpne mod&amp;uler i bruk</c>
-                <c xml:lang="it" hotkey="" helptext="Apri i moduli utilizzati">Apri moduli &amp;usati</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_CLOSE"  bmidx="-1">
-                <c xml:lang="en" hotkey="Ctrl+F4;Ctrl+W" helptext="Close sheet">C&amp;lose</c>
-                <c xml:lang="de" hotkey="Ctrl+F4;Ctrl+W" helptext="Blatt schließen">Sch&amp;ließen</c>
-				<c xml:lang="fi" hotkey="Ctrl+F4;Ctrl+W" helptext="Sulje välilehti">S&amp;ulje</c>
-                <c xml:lang="hr" hotkey="Ctrl+F4" helptext="Zatvoru listu">Zatvor&amp;i</c>
-				<c xml:lang="pt" hotkey="Ctrl+F4;Ctrl+W" helptext="Fechar folha">&amp;Fechar</c>
-				<c xml:lang="nl" hotkey="Ctrl+F4" helptext="Venster sluiten">S&amp;luiten</c>
-				<c xml:lang="no" hotkey="Ctrl+F4;Ctrl+W" helptext="Lukk side">&amp;Lukk</c>
-                <c xml:lang="it" hotkey="Ctrl+F4;Ctrl+W" helptext="Chiudi foglio">C&amp;hiudi</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_CLOSEALL"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Close all sheets">Close &amp;all</c>
-                <c xml:lang="de" hotkey="" helptext="Alle Blätter schließen">A&amp;lle schließen</c>
-				<c xml:lang="fi" hotkey="" helptext="Sulje kaikki">&amp;Sulje kaikki</c>
-                <c xml:lang="nl" hotkey="" helptext="Alle vensters sluiten">&amp;Alle vensters sluiten</c>
-				<c xml:lang="pt" hotkey="" helptext="Fechar todas as folhas">Fechar To&amp;das</c>
-                <c xml:lang="hr" hotkey="" helptext="Zatvori sve liste">Zatvori sve &amp;liste</c>
-				<c xml:lang="no" hotkey="" helptext="Lukk alle sider">Lukk &amp;alle</c>
-                <c xml:lang="it" hotkey="" helptext="Chiudi tutti i fogli">Chiudi &amp;tutti</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_HELP_EDITOR" >
-                <c xml:lang="en" hotkey="" helptext="Editor Help">&amp;Editor Help...</c>
-                <c xml:lang="de" hotkey="" helptext="Editor-Hilfe">&amp;Editor-Hilfe...</c>
-				<c xml:lang="fi" hotkey="" helptext="Editorin ohje">&amp;Editorin ohje...</c>
-                <c xml:lang="nl" hotkey="" helptext="Editor Help">&amp;Editor Help...</c>
-				<c xml:lang="pt" hotkey="" helptext="Ajuda do Editor">Ajuda do &amp;Editor...</c>
-                <c xml:lang="hr" hotkey="" helptext="Pomoć za urednik">Pomoć za ur&amp;ednik...</c>
-				<c xml:lang="no" hotkey="" helptext="Editor Hjelp">&amp;Editor Hjelp...</c>
-                <c xml:lang="it" hotkey="" helptext="Help dell'Editor">Help dell'&amp;Editor...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_HELP_BASIC" >
-                <c xml:lang="en" hotkey="Shift+F1" helptext="Basic language help">&amp;Basic Help...</c>
-                <c xml:lang="de" hotkey="Shift+F1" helptext="Hilfe zur Basic-Programmiersprache">&amp;Basic-Hilfe...</c>
-                <c xml:lang="nl" hotkey="Shift+F1" helptext="Help bij de programmeertaal Basic">&amp;Basic Help...</c>
-				<c xml:lang="pt" hotkey="Shift+F1" helptext="Ajuda da linguagem Basic">Ajuda do &amp;Basic...</c>
-                <c xml:lang="hr" hotkey="Shift+F1" helptext="Pomoć za Basic jezik">Pomoć za &amp;Basic...</c>
-				<c xml:lang="no" hotkey="Shift+F1" helptext="Hjelp for Basic programmeringsspråk">&amp;Basic Hjelp...</c>
-				<c xml:lang="fi" hotkey="Shift+F1" helptext="Basic-ohjelmointikielen ohje">&amp;Basic ohje...</c>
-                <c xml:lang="it" hotkey="Shift+F1" helptext="Help del linguaggio Basic">Help del &amp;Basic...</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_HELP_TOPIC" >
-                <c xml:lang="en" hotkey="F1" helptext="Search help">Search &amp;Theme...</c>
-                <c xml:lang="de" hotkey="F1" helptext="Hilfe durchsuchen">&amp;Thema suchen...</c>
-                <c xml:lang="nl" hotkey="F1" helptext="Help doorzoeken">&amp;Onderwerp zoeken...</c>
-				<c xml:lang="pt" hotkey="F1" helptext="Pesquisa da Ajuda">Pesquisar &amp;Tema...</c>
-                <c xml:lang="hr" hotkey="F1" helptext="Pretraži pomoć">Pretraži &amp;temu...</c>
-				<c xml:lang="no" hotkey="F1" helptext="Søk i hjelp">Søk &amp;tema...</c>
-				<c xml:lang="fi" hotkey="F1" helptext="Hakuohje">Hakut&amp;eema...</c>
-                <c xml:lang="it" hotkey="F1" helptext="Cerca nell'help">Cerca &amp;Tema...</c>
-            </cmd>
-
-
-            <!-- Placeholders for the first n loaded sheets -->
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_LIST_1"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Switch to this sheet">{sheet name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Blatt öffnen">{sheet name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa sivu">{sheet name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit venster openen">{sheet name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Comutar para esta folha">{sheet name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Prebaci se na ovu listu">{sheet name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne denne siden">{sheet name}</c>
-                <c xml:lang="it" hotkey="" helptext="Passa a questo foglio">{sheet name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_LIST_2"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Switch to this sheet">{sheet name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Blatt öffnen">{sheet name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa sivu">{sheet name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit venster openen">{sheet name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Comutar para esta folha">{sheet name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Prebaci se na ovu listu">{sheet name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne denne siden">{sheet name}</c>
-                <c xml:lang="it" hotkey="" helptext="Passa a questo foglio">{sheet name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_LIST_3"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Switch to this sheet">{sheet name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Blatt öffnen">{sheet name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa sivu">{sheet name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit venster openen">{sheet name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Comutar para esta folha">{sheet name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Prebaci se na ovu listu">{sheet name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne denne siden">{sheet name}</c>
-                <c xml:lang="it" hotkey="" helptext="Passa a questo foglio">{sheet name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_LIST_4"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Switch to this sheet">{sheet name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Blatt öffnen">{sheet name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa sivu">{sheet name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit venster openen">{sheet name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Comutar para esta folha">{sheet name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Prebaci se na ovu listu">{sheet name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne denne siden">{sheet name}</c>
-                <c xml:lang="it" hotkey="" helptext="Passa a questo foglio">{sheet name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_LIST_5"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Switch to this sheet">{sheet name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Blatt öffnen">{sheet name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa sivu">{sheet name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit venster openen">{sheet name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Comutar para esta folha">{sheet name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Prebaci se na ovu listu">{sheet name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne denne siden">{sheet name}</c>
-                <c xml:lang="it" hotkey="" helptext="Passa a questo foglio">{sheet name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_LIST_6"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Switch to this sheet">{sheet name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Blatt öffnen">{sheet name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa sivu">{sheet name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit venster openen">{sheet name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Comutar para esta folha">{sheet name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Prebaci se na ovu listu">{sheet name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne denne siden">{sheet name}</c>
-                <c xml:lang="it" hotkey="" helptext="Passa a questo foglio">{sheet name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_LIST_7"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Switch to this sheet">{sheet name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Blatt öffnen">{sheet name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa sivu">{sheet name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit venster openen">{sheet name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Comutar para esta folha">{sheet name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Prebaci se na ovu listu">{sheet name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne denne siden">{sheet name}</c>
-                <c xml:lang="it" hotkey="" helptext="Passa a questo foglio">{sheet name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_LIST_8"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Switch to this sheet">{sheet name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Blatt öffnen">{sheet name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa sivu">{sheet name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit venster openen">{sheet name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Comutar para esta folha">{sheet name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Prebaci se na ovu listu">{sheet name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne denne siden">{sheet name}</c>
-                <c xml:lang="it" hotkey="" helptext="Passa a questo foglio">{sheet name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_LIST_9"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Switch to this sheet">{sheet name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Blatt öffnen">{sheet name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa sivu">{sheet name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit venster openen">{sheet name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Comutar para esta folha">{sheet name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Prebaci se na ovu listu">{sheet name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne denne siden">{sheet name}</c>
-                <c xml:lang="it" hotkey="" helptext="Passa a questo foglio">{sheet name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_SHEET_LIST_10"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Switch to this sheet">{sheet name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Blatt öffnen">{sheet name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa sivu">{sheet name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit venster openen">{sheet name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Comutar para esta folha">{sheet name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Prebaci se na ovu listu">{sheet name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne denne siden">{sheet name}</c>
-                <c xml:lang="it" hotkey="" helptext="Passa a questo foglio">{sheet name}</c>
-            </cmd>
-
-            <!-- Placeholders for the last n loaded scripts -->
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_LIST_1"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Open this script">{script name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Skript öffnen">{script name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit script openen">{script name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Abrir este script">{script name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Otvori ovu skriptu">{script name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne dette skriptet">{script name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa komentosarja">{script name}</c>
-                <c xml:lang="it" hotkey="" helptext="Apri questo script">{script name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_LIST_2"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Open this script">{script name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Skript öffnen">{script name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit script openen">{script name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Abrir este script">{script name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Otvori ovu skriptu">{script name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne dette skriptet">{script name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa komentosarja">{script name}</c>
-                <c xml:lang="it" hotkey="" helptext="Apri questo script">{script name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_LIST_3"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Open this script">{script name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Skript öffnen">{script name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit script openen">{script name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Abrir este script">{script name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Otvori ovu skriptu">{script name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne dette skriptet">{script name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa komentosarja">{script name}</c>
-                <c xml:lang="it" hotkey="" helptext="Apri questo script">{script name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_LIST_4"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Open this script">{script name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Skript öffnen">{script name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit script openen">{script name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Abrir este script">{script name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Otvori ovu skriptu">{script name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne dette skriptet">{script name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa komentosarja">{script name}</c>
-                <c xml:lang="it" hotkey="" helptext="Apri questo script">{script name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_LIST_5"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Open this script">{script name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Skript öffnen">{script name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit script openen">{script name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Abrir este script">{script name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Otvori ovu skriptu">{script name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne dette skriptet">{script name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa komentosarja">{script name}</c>
-                <c xml:lang="it" hotkey="" helptext="Apri questo script">{script name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_LIST_6"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Open this script">{script name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Skript öffnen">{script name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit script openen">{script name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Abrir este script">{script name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Otvori ovu skriptu">{script name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne dette skriptet">{script name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa komentosarja">{script name}</c>
-                <c xml:lang="it" hotkey="" helptext="Apri questo script">{script name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_LIST_7"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Open this script">{script name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Skript öffnen">{script name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit script openen">{script name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Abrir este script">{script name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Otvori ovu skriptu">{script name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne dette skriptet">{script name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa komentosarja">{script name}</c>
-                <c xml:lang="it" hotkey="" helptext="Apri questo script">{script name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_LIST_8"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Open this script">{script name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Skript öffnen">{script name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit script openen">{script name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Abrir este script">{script name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Otvori ovu skriptu">{script name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne dette skriptet">{script name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa komentosarja">{script name}</c>
-                <c xml:lang="it" hotkey="" helptext="Apri questo script">{script name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_LIST_9"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Open this script">{script name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Skript öffnen">{script name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit script openen">{script name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Abrir este script">{script name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Otvori ovu skriptu">{script name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne dette skriptet">{script name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa komentosarja">{script name}</c>
-                <c xml:lang="it" hotkey="" helptext="Apri questo script">{script name}</c>
-            </cmd>
-            <cmd resid="ID_CMD_SCRIPTIDE_FILE_LIST_10"  bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Open this script">{script name}</c>
-                <c xml:lang="de" hotkey="" helptext="Dieses Skript öffnen">{script name}</c>
-                <c xml:lang="nl" hotkey="" helptext="Dit script openen">{script name}</c>
-				<c xml:lang="pt" hotkey="" helptext="Abrir este script">{script name}</c>
-                <c xml:lang="hr" hotkey="" helptext="Otvori ovu skriptu">{script name}</c>
-				<c xml:lang="no" hotkey="" helptext="Åpne dette skriptet">{script name}</c>
-				<c xml:lang="fi" hotkey="" helptext="Avaa komentosarja">{script name}</c>
-                <c xml:lang="it" hotkey="" helptext="Apri questo script">{script name}</c>
-            </cmd>
-        </command_group>
-
 
         <command_group name="ID Plate" bmid="" resgroup="idplate" desc="Commands used by the ID Plate">
             <cmd resid="ID_CMD_IDPLATEL_CONFIGURE" >
@@ -14931,11 +13827,10 @@
 				<item>ID_HELP_FINDER</item>
 				<item>ID_CONTEXT_HELP</item>
                 <item>ID_HELP_TUTORIAL</item>
-				<item>CG_IDS_TIPOFTHEDAYMENU</item>
+				<!--<item>CG_IDS_TIPOFTHEDAYMENU</item>-->
                 <separator/>
-				<item>ID_APP_WWWHOME</item>
-				<item>ID_APP_DOWNLOAD</item>
 				<item>ID_APP_ORDER</item>
+				<item>ID_APP_WWWHOME</item>
 				<item>ID_APP_WWWFORUM</item>
 				<!--<item>ID_APP_WWWWIKI</item>-->
 				<separator/>
@@ -14962,6 +13857,8 @@
 					<item>ID_TECHSUPPORT_WICDIAG</item>
 				</menu>
 				<item>ID_APP_ABOUT</item>
+				<item>ID_APP_RELEASE_NOTES</item>
+				<item>ID_APP_DEVCENTER</item>
 			</menu>
 		</menu>
 		<!-- resid="PTR_MAINFRAME_MENU_WELCOME" -->
@@ -15009,13 +13906,10 @@
 					<item>ID_DB_REBUILD_TIMELINE</item>
 					<separator/>
                     <item>ID_DB_CLEAR_QUEUES</item>
-                    <item>ID_CMD_SCRIPT_PH_DBTOOLS</item>
-                    <separator/>
 					<item>ID_DB_CONVERTER</item>
 					<item>ID_DB_DELETE</item>
                 </menu>
                 <item>ID_DB_PACK_AND_GO</item>
-                <item>ID_CMD_SCRIPT_PH_DB</item>  <!-- Script Placeholder -->
                 <item>ID_DATABASE_CLOSE</item>
                 <separator/>
     		<item>ID_FILE_PRINT</item>
@@ -15169,7 +14063,6 @@
                 <item>ID_DB_FAVORITE</item>
                 <separator/>
                 <item>ID_VIEW_SHOW_IMPORTEXPORT</item>
-                <item>ID_CMD_SCRIPT_PH_COMMANDS</item>
             </menu>
 
             <menu resid="PTR_MENU_SEARCH">
@@ -15193,7 +14086,6 @@
                 <item>ID_CMD_SEARCH_GPS_DISTANCE</item>
 				<separator/>
 				<item>ID_CMD_SEARCH_OPEN_FILTER_PANEL</item>
-                <item>ID_CMD_SCRIPT_PH_SEARCH</item>
             </menu>
 
             <menu resid="IDM_VIEW_MENU">
@@ -15280,10 +14172,8 @@
 					<item>ID_VIEW_SHOW_FAVORITES</item>
                     <item>ID_VIEW_SHOW_IMPORTEXPORT</item>
 					<item>ID_VIEW_SHOW_DBINFO</item>
-					<!-- <item>ID_VIEW_SHOW_COACH</item> -->
                     <item>ID_VIEW_SHOW_OUTPUT</item>
-                    <item>ID_VIEW_SHOW_SCRIPT_MANAGER</item>
-                    <item>ID_VIEW_SHOW_SCRIPT_IDE</item>
+                    <item>ID_VIEW_SHOW_APP_MANAGER</item>
                     <separator/>
 					<item>ID_VIEW_SHOW_FILEWNDCONTAINER_PREVIEW</item>
 					<item>ID_VIEW_SHOW_FILEWNDCONTAINER_FILTER</item>
@@ -15363,7 +14253,6 @@
 				<separator/>
 				<item>ID_CMD_TOOL_GEOCODE</item>
 				<item>ID_CMD_TOOL_SLIDESHOW</item>
-                <item>ID_CMD_SCRIPT_PH_TOOLS</item>
             </menu>
 
 			<menu resid="IDM_RESMANAGER_MENU">
@@ -15416,16 +14305,14 @@
 				<item>ID_HELP_FINDER</item>
 				<item>ID_CONTEXT_HELP</item>
                 <item>ID_HELP_TUTORIAL</item>
-				<item>CG_IDS_TIPOFTHEDAYMENU</item>
-                <separator/>
+				<!--<item>CG_IDS_TIPOFTHEDAYMENU</item>-->
+				<separator/>
+				<item>ID_APP_ORDER</item>
+				<item>ID_APP_WWWHOME</item>
+				<item>ID_APP_WWWFORUM</item>
+				<separator/>
 				<item>ID_POPUPINFO_TOGGLE</item>
 				<item>ID_POPUPINFO_RESET</item>
-				<separator/>
-				<item>ID_APP_WWWHOME</item>
-				<item>ID_APP_DOWNLOAD</item>
-				<item>ID_APP_ORDER</item>
-				<item>ID_APP_WWWFORUM</item>
-				<!--<item>ID_APP_WWWWIKI</item>-->
 				<separator/>
 				<item>ID_APP_CHECKFORUPDATE</item>
 				<menu resid="IDM_HELP_SUPPORT_MENU">
@@ -15450,6 +14337,8 @@
 					<item>ID_TECHSUPPORT_WICDIAG</item>
 				</menu>
 				<item>ID_APP_ABOUT</item>
+				<item>ID_APP_RELEASE_NOTES</item>
+				<item>ID_APP_DEVCENTER</item>
 			</menu>
 
 		</menu>
@@ -15602,6 +14491,7 @@
             <item>ID_CMD_FAVORITE_RENAMER_ADD</item>
 			<item>ID_CMD_FAVORITE_PRINT_ADD</item>
 			<item>ID_CMD_FAVORITE_IMPEXP_ADD</item>
+			<item>ID_CMD_FAVORITE_APP_ADD</item>
 			<separator/>
 			<item>ID_CMD_FAVORITE_PLACEHOLDER</item>
 		</menu>
@@ -16161,30 +15051,11 @@
         <!-- Menus used by the App Panel -->
 
         <!-- Toolbar -->
-        <menu resid="PTR_MENU_HTML_PANEL_TB" resgroup="html">
-            <item>ID_CMD_HTMLPANEL_PANEL_RELOAD</item>
-            <item>ID_CMD_HTMLPANEL_PANEL_STOP</item>
+        <menu resid="PTR_MENU_APP_PANEL_TB" resgroup="app">
+			<item>ID_CMD_APP_PANEL_COMBO</item>
+            <item>ID_CMD_APP_PANEL_RELOAD</item>
         </menu>
 
-
-        <!-- Menus used by the Script Panel -->
-
-        <!-- Toolbar -->
-        <menu resid="PTR_MENU_SCRIPT_PANEL_TB" resgroup="scripts">
-            <item>ID_CMD_SCRIPT_NEW</item>
-            <item>ID_CMD_SCRIPT_EDIT_PROPERTIES</item>
-            <item>ID_CMD_SCRIPT_RENAME</item>
-            <item>ID_CMD_SCRIPT_EDIT</item>
-            <item>ID_CMD_SCRIPT_FOLDER</item>
-            <separator/>
-            <item>ID_CMD_SCRIPT_DELETE</item>
-            <separator/>
-            <item>ID_CMD_SCRIPT_RUN</item>
-            <item>ID_CMD_SCRIPT_STOP</item>
-            <separator/>
-            <item>ID_CMD_SCRIPT_HELP</item>
-        </menu>
-        
         <!-- Context menu used by filter panels  -->
 
 		<menu resid="PTR_MENU_TREE_FILTER">
@@ -16286,7 +15157,6 @@
             <item>ID_CMD_FOLDER_SHELLOPEN</item>
 			<item>ID_CMD_FOLDER_FIND</item>
 			<item>ID_CMD_FOLDER_TOGGLEFRIENDLYNAME</item>
-            <item>ID_CMD_SCRIPT_PH_CONTEXTMENU</item>
             <separator/>
             <item>ID_CMD_FOLDER_RELOCATE</item>
             <item>ID_CMD_FOLDER_REMOVE</item>
@@ -16332,7 +15202,6 @@
 			<separator/>
 			<item>ID_CMD_FOLDER_SCANFOLDERS</item>
 			<item>ID_CMD_CACHE_PURGEREBUILD</item>
-            <item>ID_CMD_SCRIPT_PH_CONTEXTMENU</item>
         </menu>
 
 
@@ -16354,7 +15223,6 @@
 			<separator/>
 			<item>ID_CMD_FOLDER_SCANFOLDERS</item>
 			<item>ID_CMD_CACHE_PURGEREBUILD</item>
-            <item>ID_CMD_SCRIPT_PH_CONTEXTMENU</item>
 		</menu>
 
 
@@ -16375,7 +15243,6 @@
 			<item>ID_APP_REFRESH</item>
 			<separator/>
 			<item>ID_DATABASE_CLOSE</item>
-            <item>ID_CMD_SCRIPT_PH_CONTEXTMENU</item>
 		</menu>
 
 
@@ -16437,7 +15304,6 @@
                 <item>ID_CMD_CATEGORY_RESTORESORTORDER</item>
                 <item>ID_APP_REFRESH</item>
             </menu>
-            <item>ID_CMD_SCRIPT_PH_CONTEXTMENU</item>
         </menu>
 		
 		<!-- And the special menu for the @All group -->
@@ -16486,7 +15352,6 @@
                 <item>ID_CMD_CATEGORY_RESTORESORTORDER</item>
                 <item>ID_APP_REFRESH</item>
             </menu>
-            <item>ID_CMD_SCRIPT_PH_CONTEXTMENU</item>
 		</menu>
 
         <!-- And the special menu for the @Keywords group -->
@@ -16509,7 +15374,6 @@
             <separator/>
             <item>ID_CMD_CATEGORY_DD_REFRESH</item>
             <item>ID_CMD_CATEGORY_DD_REFRESHALL</item>
-            <item>ID_CMD_SCRIPT_PH_CONTEXTMENU</item>
         </menu>
 
         <!-- Context menu for category Bookmarks -->
@@ -16528,7 +15392,6 @@
 			<item>ID_CMD_DBCLIENT_GROUP_TREE_FAVS_GOTO</item>
 			<separator/>
 			<item>ID_CMD_DBCLIENT_GROUP_TREE_FAVS_DELETE</item>
-            <item>ID_CMD_SCRIPT_PH_CONTEXTMENU</item>
 		</menu>
 
         <!-- Context menu for @Builder panel -->
@@ -16660,7 +15523,6 @@
 			</name>
 			<item>ID_CMD_COLLECTION_COPY</item>
 			<item>ID_CMD_COLLECTION_PASTE</item>
-            <item>ID_CMD_SCRIPT_PH_CONTEXTMENU</item>
 		</menu>
 
 
@@ -16679,10 +15541,6 @@
 				<n xml:lang="it" helptext="Comandi sulla sequenza temporale 'cronologia'">Impo&amp;stazioni</n>
 			</name>
 			<item>ID_CMD_TIMELINE_TREE_CONFIGURE</item>
-            <item>ID_CMD_SCRIPT_PH_CONTEXTMENU</item>
-			<separator></separator>
-			<!-- <item>ID_CMD_TIMELINE_ADDNODE</item> -->
-			<!-- <item>ID_CMD_TIMELINE_REMOVENODE</item> -->
 		</menu>
 
 		<menu resid="PTR_MENU_DBCLIENT_TIMELINE_TREE_TOOLBAR">
@@ -16770,9 +15628,7 @@
             <item>ID_CMD_FILE_DELETE</item>
             <separator/>
             <item>ID_CMD_FILE_GOTOFOLDER</item>
-            <item>ID_CMD_FILE_GOTOTIMELINE</item>
             <item>ID_CMD_FILE_FIND</item>
-            <item>ID_CMD_FILE_READONLY_TOGGLE</item>
 			<item>ID_CMD_FILE_SHELLOPEN</item>
             <item>ID_CMD_FILE_RESCAN</item>
 			<separator/>
@@ -16977,7 +15833,17 @@
                 <item>ID_CMD_TOOL_LOSSLESSROTATE</item>
             </menu>
 
-            <menu resid="ID_MENU_FILEWND_OTHER" desc="Other commands">
+			<menu resid="ID_MENU_FILEWND_THUMBSET">
+				<name>
+					<n xml:lang="en">&amp;Video Options</n>
+					<n xml:lang="de">&amp;Video-Optionen</n>
+				</name>
+				<item>ID_CMD_FILE_THUMBSET_NEXT</item>
+				<item>ID_CMD_FILE_THUMBSET_PREV</item>
+			</menu>
+
+
+			<menu resid="ID_MENU_FILEWND_OTHER" desc="Other commands">
 				<name>
 					<n xml:lang="en">&amp;Additional Functions</n>
 					<n xml:lang="no">&amp;Tilleggsfunksjoner</n>
@@ -16988,6 +15854,9 @@
 					<n xml:lang="hr">Dod&amp;atne funkcije</n>
 					<n xml:lang="it">Funzioni &amp;Addizionali</n>
 				</name>
+				<item>ID_CMD_FILE_READONLY_TOGGLE</item>
+				<item>ID_CMD_FILE_GOTOTIMELINE</item>
+				<separator/>
                 <item>ID_CMD_FILE_DELETE_REJECTS</item>
                 <item>ID_CMD_FILE_RELOCATE</item>
                 <separator/>
@@ -17005,7 +15874,6 @@
 				<item>ID_CMD_FILE_GOTO_LAST_SELECTED</item>
 				<item>ID_CMD_FILE_GOTO_FOCUSED</item>
 			</menu>
-            <item>ID_CMD_SCRIPT_PH_CONTEXTMENU</item>
 		</menu>
 
         <menu resid="ID_MENU_FILEWND_GROUPITEM" desc="Context menu for the file window group item (result window)">
@@ -17235,6 +16103,7 @@
             <item>ID_FILEWND_SHOWGROUPS_2</item>
             <separator/>
             <item>ID_FILEWND_SHOWGROUPS_FLATTEN</item>
+			<item>ID_FILEWND_SHOWGROUPS_DIRECT_FILES_ONLY</item>
         </menu>
 
         <!-- File Window Toolbar -->
@@ -18681,230 +17550,6 @@
             <item>ID_CMD_IDPLATEL_CONFIGURE</item>
         </menu>
 
-
-        <!-- Script Editor -->
-        
-        <menu resid="IDM_SCRIPTIDE_MAINMENU" resgroup="script">
-            <name>
-                <n xml:lang="en">Script Editor</n>
-                <n xml:lang="de">Skripteditor</n>
-                <n xml:lang="nl">Scripteditor</n>
-				<n xml:lang="pt">Editor de Scripts</n>
-				<n xml:lang="no">Skripteditor</n>
-				<n xml:lang="fi">Komentosarjaeditori</n>
-                <n xml:lang="it">Editore Script</n>
-            </name>
-
-            <!-- File -->
-            <menu resid="IDM_SCRIPTIDE_MAINMENU_FILEMENU" desc="">
-                <name>
-                    <n xml:lang="en">&amp;File</n>
-                    <n xml:lang="de">&amp;Datei</n>
-                    <n xml:lang="nl">&amp;Bestand</n>
-					<n xml:lang="pt">&amp;Ficheiro</n>
-                    <n xml:lang="hr">&amp;Datoteka</n>
-					<n xml:lang="no">&amp;Fil</n>
-					<n xml:lang="fi">&amp;Tiedosto</n>
-                    <n xml:lang="it">&amp;File</n>
-                </name>
-                <item>ID_CMD_SCRIPTIDE_FILE_NEW</item>
-                <menu resid="IDM_SCRIPTIDE_MAINMENU_FILEMENU_NEWMODULE" desc="">
-                    <name>
-                        <n xml:lang="en">New &amp;Module</n>
-                        <n xml:lang="de">Neues &amp;Modul</n>
-                        <n xml:lang="nl">Nieuwe &amp;module</n>
-						<n xml:lang="pt">Novo &amp;Módulo</n>
-                        <n xml:lang="hr">Novi &amp;modul</n>
-						<n xml:lang="no">Ny &amp;modul</n>
-						<n xml:lang="fi">Uusi &amp;moduuli</n>
-                        <n xml:lang="it">Nuovo &amp;Modulo</n>
-                    </name>
-                    <item>ID_CMD_SCRIPTIDE_NEWMODULE_CODE</item>
-                    <item>ID_CMD_SCRIPTIDE_NEWMODULE_OBJECT</item>
-                    <item>ID_CMD_SCRIPTIDE_NEWMODULE_CLASS</item>
-                </menu>
-                <item>ID_CMD_SCRIPTIDE_FILE_OPEN</item>
-                <item>ID_CMD_SCRIPTIDE_FILE_CLOSE</item>
-                <separator/>
-                <item>ID_CMD_SCRIPTIDE_FILE_SAVE</item>
-                <item>ID_CMD_SCRIPTIDE_FILE_SAVEAS</item>
-                <item>ID_CMD_SCRIPTIDE_FILE_SAVEALL</item>
-                <separator/>
-                <item>ID_CMD_SCRIPTIDE_CLOSE</item>
-            </menu>
-
-            <!-- Edit -->
-            <menu resid="IDM_SCRIPTIDE_MAINMENU_EDIT" desc="">
-                <name>
-                    <n xml:lang="en">&amp;Edit</n>
-                    <n xml:lang="de">B&amp;earbeiten</n>
-                    <n xml:lang="nl">B&amp;ewerken</n>
-					<n xml:lang="pt">&amp;Editar</n>
-                    <n xml:lang="hr">Ur&amp;edi</n>
-					<n xml:lang="no">R&amp;ediger</n>
-					<n xml:lang="fi">&amp;Muokkaa</n>
-                    <n xml:lang="it">&amp;Modifca</n>
-                </name>
-                <item>ID_EDIT_UNDO</item>
-                <item>ID_EDIT_REDO</item>
-                <separator/>
-                <item>ID_EDIT_CUT</item>
-                <item>ID_EDIT_COPY</item>
-                <item>ID_EDIT_PASTE</item>
-                <item>ID_EDIT_SELECT_ALL</item>
-                <separator/>
-                <item>ID_EDIT_FIND</item>
-                <item>ID_EDIT_REPLACE</item>
-                <item>ID_EDIT_REPEAT</item>
-                <separator/>
-                <item>ID_CMD_SCRIPTIDE_COMPLETEWORD</item>
-                <item>ID_CMD_SCRIPTIDE_PARAMINFO</item>
-                <separator/>
-                <item>ID_CMD_SCRIPTIDE_USERDIALOG</item>
-                <item>ID_CMD_SCRIPTIDE_REFERENCES</item>
-                <item>ID_CMD_SCRIPTIDE_PROPERTIES</item>
-            </menu>
-
-            <!-- Script -->
-            <menu resid="IDM_SCRIPTIDE_MAINMENU_SCRIPT" desc="">
-                <name>
-                    <n xml:lang="en">&amp;Script</n>
-                    <n xml:lang="de">&amp;Skript</n>
-                    <n xml:lang="nl">&amp;Script</n>
-					<n xml:lang="pt">&amp;Script</n>
-                    <n xml:lang="hr">&amp;Skripta</n>
-					<n xml:lang="no">&amp;Skript</n>
-					<n xml:lang="fi">&amp;Komentosarja</n>
-                    <n xml:lang="it">&amp;Script</n>
-                </name>
-                <item>ID_CMD_SCRIPTIDE_MACRORUN</item>
-                <item>ID_CMD_SCRIPTIDE_MACROPAUSE</item>
-                <item>ID_CMD_SCRIPTIDE_MACROEND</item>
-                <separator/>
-                <item>ID_CMD_SCRIPTIDE_DESIGN_MODE</item>
-            </menu>
-
-            <!-- Debug -->
-            <menu resid="IDM_SCRIPTIDE_MAINMENU_DEBUG" desc="">
-                <name>
-                    <n xml:lang="en">&amp;Debug</n>
-                    <n xml:lang="de">&amp;Debugger</n>
-                    <n xml:lang="nl">&amp;Debuggen</n>
-					<n xml:lang="pt">&amp;Depurar</n>
-                    <n xml:lang="hr">Ispravi po&amp;greške</n>
-					<n xml:lang="no">&amp;Debugger</n>
-					<n xml:lang="fi">&amp;Virheenkorjaus</n>
-                    <n xml:lang="it">&amp;Debug</n>
-                </name>
-                <item>ID_CMD_SCRIPTIDE_DEBUG_STEPINO</item>
-                <item>ID_CMD_SCRIPTIDE_DEBUG_STEPOVER</item>
-                <item>ID_CMD_SCRIPTIDE_DEBUG_STEPOUT</item>
-                <separator/>
-                <item>ID_CMD_SCRIPTIDE_DEBUG_STEPTOCURSOR</item>
-                <item>ID_CMD_SCRIPTIDE_DEBUG_TOGGLEBREAK</item>
-                <item>ID_CMD_SCRIPTIDE_DEBUG_CLEARALLBREAKS</item>
-                <separator/>
-                <item>ID_CMD_SCRIPTIDE_DEBUG_QUICKWATCH</item>
-                <item>ID_CMD_SCRIPTIDE_DEBUG_ADDWATCH</item>
-                <item>ID_CMD_SCRIPTIDE_DEBUG_BROWSE</item>
-                <separator/>
-                <item>ID_CMD_SCRIPTIDE_DEBUG_SETNEXT</item>
-                <item>ID_CMD_SCRIPTIDE_DEBUG_SHOWNEXT</item>
-            </menu>
-
-            <!-- Sheet -->
-            <menu resid="IDM_SCRIPTIDE_MAINMENU_SHEET" desc="">
-                <name>
-                    <n xml:lang="en">&amp;Sheet</n>
-                    <n xml:lang="de">&amp;Blatt</n>
-					<n xml:lang="fi">&amp;Lehti</n>
-                    <n xml:lang="nl">&amp;Venster</n>
-					<n xml:lang="pt">Fo&amp;lha</n>
-                    <n xml:lang="hr">&amp;Lista</n>
-					<n xml:lang="no">&amp;Side</n>
-                    <n xml:lang="it">&amp;Foglio</n>
-                </name>
-                <item>ID_CMD_SCRIPTIDE_SHEET_NEXT</item>
-                <separator/>
-                <item>ID_CMD_SCRIPTIDE_SHEET_OPENUSES</item>
-                <item>ID_CMD_SCRIPTIDE_SHEET_CLOSE</item>
-                <item>ID_CMD_SCRIPTIDE_SHEET_CLOSEALL</item>
-            </menu>
-
-            <!-- Help -->
-            <menu resid="IDM_SCRIPTIDE_MAINMENU_HELP" desc="">
-                <name>
-                    <n xml:lang="en">&amp;Help</n>
-                    <n xml:lang="de">&amp;Hilfe</n>
-                    <n xml:lang="nl">&amp;Help</n>
-					<n xml:lang="pt">&amp;Ajuda</n>
-                    <n xml:lang="hr">&amp;Pomoć</n>
-					<n xml:lang="no">&amp;Hjelp</n>
-					<n xml:lang="fi">&amp;Ohje</n>
-                    <n xml:lang="it">&amp;Help</n>
-                </name>
-                <item>ID_CMD_SCRIPTIDE_HELP_EDITOR</item>
-                <item>ID_CMD_SCRIPTIDE_HELP_BASIC</item>
-                <item>ID_CMD_SCRIPTIDE_HELP_TOPIC</item>
-                <separator/>
-                <item>ID_CMD_SCRIPT_HELP</item>
-            </menu>
-
-        </menu>   <!-- IDM_SCRIPTIDE_MAINMENU -->
-
-
-        <!-- Script Editor Toolbar -->
-
-        <menu resid="IDM_SCRIPTIDE_TOOLBAR" resgroup="script">
-            <name>
-                <n xml:lang="en">Toolbar</n>
-                <n xml:lang="de">Toolbar</n>
-                <n xml:lang="nl">Werkbalk</n>
-				<n xml:lang="pt">Barra de Ferramentas</n>
-                <n xml:lang="hr">Alatna traka</n>
-				<n xml:lang="no">Verktøylinje</n>
-				<n xml:lang="fi">Työkalupalkki</n>
-                <n xml:lang="it">Barra strumenti</n>
-            </name>
-            <item>ID_CMD_SCRIPTIDE_FILE_NEW</item>
-            <item>ID_CMD_SCRIPTIDE_FILE_OPEN</item>
-            <item>ID_CMD_SCRIPTIDE_FILE_SAVE</item>
-            <item>ID_CMD_SCRIPTIDE_FILE_SAVEALL</item>
-            <separator/>
-            <item>ID_EDIT_UNDO</item>
-            <item>ID_EDIT_REDO</item>
-            <separator/>
-            <item>ID_EDIT_CUT</item>
-            <item>ID_EDIT_COPY</item>
-            <item>ID_EDIT_PASTE</item>
-            <separator/>
-            <item>ID_CMD_SCRIPTIDE_USERDIALOG</item>
-            <separator/>
-            <item>ID_EDIT_FIND</item>
-            <item>ID_EDIT_REPLACE</item>
-            <item>ID_EDIT_REPEAT</item>
-            <separator/>
-            <item>ID_CMD_SCRIPTIDE_MACRORUN</item>
-            <item>ID_CMD_SCRIPTIDE_MACROPAUSE</item>
-            <item>ID_CMD_SCRIPTIDE_MACROEND</item>
-            <item>ID_CMD_SCRIPTIDE_DESIGN_MODE</item>
-            <separator/>
-            <item>ID_CMD_SCRIPTIDE_DEBUG_STEPINO</item>
-            <item>ID_CMD_SCRIPTIDE_DEBUG_STEPOVER</item>
-            <item>ID_CMD_SCRIPTIDE_DEBUG_STEPOUT</item>
-            <separator/>
-            <item>ID_CMD_SCRIPTIDE_DEBUG_STEPTOCURSOR</item>
-            <item>ID_CMD_SCRIPTIDE_DEBUG_TOGGLEBREAK</item>
-            <item>ID_CMD_SCRIPTIDE_DEBUG_CLEARALLBREAKS</item>
-            <separator/>
-            <item>ID_CMD_SCRIPTIDE_DEBUG_QUICKWATCH</item>
-            <item>ID_CMD_SCRIPTIDE_DEBUG_ADDWATCH</item>
-            <item>ID_CMD_SCRIPTIDE_DEBUG_BROWSE</item>
-            <separator/>
-            <item>ID_CMD_SCRIPTIDE_DEBUG_SETNEXT</item>
-            <item>ID_CMD_SCRIPTIDE_DEBUG_SHOWNEXT</item>
-        </menu>
-
 		<!-- Printing -->
 
 		<!-- Toolbar for the Template View -->
@@ -19305,12 +17950,12 @@
 				<name xml:lang="fi">Asetustietokannan tiedostonimi</name>
                 <desc xml:lang="it">Il nome e il percorso del file che contiene le impostazioni di IMatch. Occorre lasciare questo campo vuoto per usare la collocazione di default. Se si desidera mantenere il database delle Impostazioni su  un server centralizzato o un NAS, occorre copiare il file delle impostazioni su questo sistema e immettere il nome della cartella qui. Riavviare IMatch per rendewre effettive le impostazioni. Per i dettagli consultare la guida (help).</desc>
                 <desc xml:lang="en">The name and path of the file containing the IMatch settings database. Leave this empty for the default location. If you want to keep the settings database on a central server or NAS system, copy the settings file to that system and enter the folder name here. Restart IMatch to switch to the new location. For details, see help file.</desc>
-                <desc xml:lang="de">Das Verzeichnis, in dem IMatch die Einstellungsdatenbank ablegt (imatch.pts). Lassen Sie das Feld leer für die Standardeinstellung. Wenn Sie die Einstellungsdatenbank auf einem Server oder einem NAS-System speichern möchten, kopieren Sie die Einstellungsdatenbank auf dieses System und wählen Sie die Datei hier aus. Nach dem nächsten Start von IMatch wird diese Datei verwendet. Mehr Informationen in der Hilfe.</desc>
+                <desc xml:lang="de">Das Verzeichnis, in dem IMatch die Einstellungsdatenbank ablegt (imatch5.pts). Lassen Sie das Feld leer für die Standardeinstellung. Wenn Sie die Einstellungsdatenbank auf einem Server oder einem NAS-System speichern möchten, kopieren Sie die Einstellungsdatenbank auf dieses System und wählen Sie die Datei hier aus. Nach dem nächsten Start von IMatch wird diese Datei verwendet. Mehr Informationen in der Hilfe.</desc>
 				 <desc xml:lang="fi">Nimi ja polku tiedostolle, joka sisältää IMatchin asetustietokannan. Jätä tämä tyhjäksi käyttääksesi oletussijaintia. Jos haluat sijoittaa asetustietokannan keskuspalvelimelle tai NAS-järjestelmään, kopioi asetustiedosto haluamaasi paikkaan ja syötä kansion nimi tähän. Käynnistä IMatch uudestaan käyttääksesi uutta sijaintia. Lisätietoja ohjetiedostossa.</desc>
-                <desc xml:lang="nl">De naam en het pad van het bestand met de IMatch instellingen (imatch.pts). Laat dit veld leeg voor de standaardinstelling. Indien u de instellingen op een centrale server of NAS-systeem wilt bewaren, dan kopieert u het bestand op dat systeem en geeft u hier de locatie aan. Herstart IMatch om de nieuwe locatie te activeren. Voor meer informatie, zie de Help-functie.</desc>
+                <desc xml:lang="nl">De naam en het pad van het bestand met de IMatch instellingen (imatch5.pts). Laat dit veld leeg voor de standaardinstelling. Indien u de instellingen op een centrale server of NAS-systeem wilt bewaren, dan kopieert u het bestand op dat systeem en geeft u hier de locatie aan. Herstart IMatch om de nieuwe locatie te activeren. Voor meer informatie, zie de Help-functie.</desc>
 				<desc xml:lang="pt">O nome e o caminho do ficheiro que contém a base de dados de definições do IMatch. Deixe em branco para utilizar a localização pré-definida. Se pretender manteer a base de dados de definições num servidor central ou num sistema NAS, copie o ficheiro de definições para esse sistema e insira aqui o nome da pasta. Re-inicie o IMatch para passar a utilizar a nova localização. Para mais detalhes veja o ficheiro de ajuda.</desc>
                 <desc xml:lang="hr">Naziv i put do datoteke koje sadrži bazu podataka postavki IMatch-a. Ostavi prazno za zadanu vrijednost. Ako želiš bazu podataka postavki staviti na NAS sistem kopiraj datoteku na NAS i unesi ime mape ovdje. Ponovo pokreni IMatch da se prebaci na novu lokaciju. Pogledaj datoteku pomoći za sve detalje.</desc>
-				<desc xml:lang="no">Navn og bane for konfigurasjonsfilen til IMatch (imatch.pts). La feltet være tomt for å benytte standard plassering. Hvis du ønsker å ha konfigurasjonsfilen på en sentral server eller et NAS-system, kan du kopiere den til ønsket system og angi bane her. Start IMatch på nytt for å angi ny plassering. Se hjelp for mer informasjon.</desc>
+				<desc xml:lang="no">Navn og bane for konfigurasjonsfilen til IMatch (imatch5.pts). La feltet være tomt for å benytte standard plassering. Hvis du ønsker å ha konfigurasjonsfilen på en sentral server eller et NAS-system, kan du kopiere den til ønsket system og angi bane her. Start IMatch på nytt for å angi ny plassering. Se hjelp for mer informasjon.</desc>
                 <group xml:lang="en">Settings</group>
                 <group xml:lang="de">Einstellungen</group>
                 <group xml:lang="nl">Instellingen</group>
@@ -19321,31 +17966,13 @@
 				<group xml:lang="it">Impostazioni</group>
             </property>
 
-			<property resid="app.shfhtmlpanel" desc="">
-                <name xml:lang="en">App Panel template folder</name>
-                <name xml:lang="de">Verzeichnis für App-Panel Templates</name>
-				<name xml:lang="fi">Sovelluspaneelin mallien kansio</name>
-                <name xml:lang="nl">Folder voor het App-paneel</name>
-                <name xml:lang="hr">Mapa predložaka ploče aplikacija</name>
-				<name xml:lang="no">Malmappe for App-panelet template folder</name>
-                <name xml:lang="it">Cartella dei modelli Pannelli App</name>
-                <desc xml:lang="it">Questa cartella contiene i modelli usati dai Pannelli App. Cambiando questa cartella occorre procedere con il riavvio di IMatch.</desc>
-                <desc xml:lang="en">The folder containing templates used by the App Panels. Changing this setting requires a restart of IMatch.</desc>
-                <desc xml:lang="de">Das Verzeichnis das die Vorlagen für das App-Panel enthält. Das Verändern dieser Einstellung erfordert einen Neustart von IMatch.</desc>
-				<desc xml:lang="fi">Kansio, jossa Sovelluspaneelin mallit sijaitsevat. Asetuksen muuttaminen vaatii IMatchin uudelleenkäynnistämisen.</desc>
-                <desc xml:lang="nl">De folder met de sjablonen voor het App-paneel. Herstart IMatch om deze wijziging te activeren.</desc>
-                <desc xml:lang="hr">Mapa sadrži predloške koje koristi ploča aplikacija. Promjena postavke zahtijeva ponovno pokretanje IMatch-a.</desc>
-				<desc xml:lang="no">Mappen som inneholder maler som benyttes av App-panelet. Endring krever omstart av IMatch.</desc>
-				<name xml:lang="pt">Modelo de Pastas no Painel de Aplicações</name>
-                <desc xml:lang="pt">Esta pasta contém os modelos usados no Painel de Aplicações. Mudando esta definição requer uma reinicialização do IMatch.</desc>
-				<group xml:lang="it">Cartelle</group>
+			<property resid="app.imws.shfwebroot" desc="">
+                <name xml:lang="en">Root folder for apps</name>
+                <name xml:lang="de">Wurzelverzeichnis für Apps</name>
+                <desc xml:lang="en">The folder containing apps and scripts for IMatch.</desc>
+                <desc xml:lang="de">Dieses Verzeichnis enthält Apps und Skripte für IMatch.</desc>
                 <group xml:lang="en">Folders</group>
                 <group xml:lang="de">Verzeichnisse</group>
-                <group xml:lang="nl">Folders</group>
-                <group xml:lang="hr">Mape</group>
-				<group xml:lang="no">Mapper</group>
-				<group xml:lang="fi">Kansiot</group>
-				<group xml:lang="pt">Pastas</group>
             </property>
 			
             <property resid="app.shfpresets" desc="">
@@ -19375,34 +18002,7 @@
 				<group xml:lang="pt">Pastas</group>
             </property>
 
-            <property resid="app.shfscripts" desc="">
-                <name xml:lang="it">Cartella radice degli Scripts</name>
-                <name xml:lang="en">Scripts root folder</name>
-                <name xml:lang="de">Wurzelverzeichnis für Skripte</name>
-				<name xml:lang="fi">Komentosarjojen pääkansio</name>
-                <name xml:lang="nl">Hoofdfolder voor scripts</name>
-                <name xml:lang="hr">Korijenska mapa skripti</name>
-				<name xml:lang="no">Hovedmappe for skript</name>
-				<name xml:lang="pt">Pasta raiz dos scripts</name>
-                <desc xml:lang="it">Questa cartella contiene gli Script predefiniti e dell'utente. Cambiando questa cartella occorre procedere con il riavvio di IMatch.</desc>
-                <desc xml:lang="en">The folder containing system and user scripts. Changing this setting requires a restart of IMatch.</desc>
-                <desc xml:lang="de">Das Verzeichnis für System- und Anwenderskripte. Das Verändern dieser Einstellung erfordert einen Neustart von IMatch.</desc>
-				<desc xml:lang="fi">Kansio, joka sisältää järjestelmän ja käyttäjän komentosarjat. Asetuksen muuttaminen vaatii IMatchin uudelleenkäynnistämisen.</desc>
-                <desc xml:lang="nl">De folder voor systeem- en gebruikersscripts. Herstart IMatch om deze wijziging te activeren.</desc>
-                <desc xml:lang="hr">Mapa sadrži sistemske i korisničke skripte. Promjena postavke zahtijeva ponovno pokretanje IMatch-a.</desc>
-				<desc xml:lang="no">Mappen inneholder system- and brukerskript. Endring krever omstart av IMatch.</desc>
-				<desc xml:lang="pt">Esta pasta contém os scripts de sistema e do utilizador. Mudando esta definição requer uma reinicialização do IMatch.</desc>
-                <group xml:lang="en">Folders</group>
-                <group xml:lang="de">Verzeichnisse</group>
-                <group xml:lang="nl">Folders</group>
-                <group xml:lang="hr">Mape</group>
-				<group xml:lang="no">Mapper</group>
-                <group xml:lang="it">Cartelle</group>
-				<group xml:lang="fi">Kansiot</group>
-				<group xml:lang="pt">Pastas</group>
-            </property>
-
-				
+			
 			<property resid="app.diagnosisprompt" desc="Number of days between database diagnosis prompts">
                 <name xml:lang="en">Run Database Diagnosis</name>
                 <name xml:lang="no">Utfør databasediagnose</name>
@@ -20212,6 +18812,21 @@
 				</choices>
 			</property>
 
+			<property resid="app.ui.browserscale" desc="">
+				<name xml:lang="en">App Panel Scale</name>
+				<name xml:lang="de">App-Panel Skalierung</name>
+				<group xml:lang="en">User Interface</group>
+				<group xml:lang="de">Benutzerschnittstelle</group>
+				<group xml:lang="fi">Käyttöliittymä</group>
+				<group xml:lang="it">Interfaccia Utente</group>
+				<group xml:lang="nl">Gebruikersinterface</group>
+				<group xml:lang="pt">Interface do utilizador</group>
+				<group xml:lang="no">Brukergrensesnitt</group>
+				<desc xml:lang="en">This setting controls the scale factor used for App Panels, the App Manager and the Map Panel. Use this to adjust the size of text and images to your liking. The default value is 0, which means 100%. Use values smaller than 0 to reduce the scale and reduce the text size. Use values above 0 to increase the font size for better readability.</desc>
+				<desc xml:lang="de">Diese Einstellung kontrolliert den Skalierungsfaktor für App-Panels, den App Manager und das Map-Panel. Stellen Sie den Skalierungsfaktor nach Ihren Bedorfnissen ein. 0 bedeutet 100%. Werte kleiner 0 reduzieren die Schriftgröße, Werte größer als 0 stellen Schrift und Bilder größer dar.</desc>
+			</property>
+		
+
 			<property resid="app.ui.tabstyle" desc="How to arrange panel tabs">
                 <name xml:lang="en">Panel tab layout</name>
                 <name xml:lang="de">Panel-Reiter Layout</name>
@@ -20702,38 +19317,55 @@
                 <group xml:lang="hr">Odbačene datoteke</group>
             </property>
 			
-			<!-- Security -->
+			<!-- IMWS -->
+			
+			<property resid="imws.enabled" >
+				<name xml:lang="en">IMWS enabled</name>
+				<name xml:lang="de">IMWS aktiviert</name>
+				<desc xml:lang="en">If this setting is off, the embedded IMatch WebServices is disabled. No scripts or apps can work.</desc>
+				<desc xml:lang="de">Diese Einstellung bestimmt, ob der integrierte Webdienst in IMatch ausgeführt wird. Er wird für die Ausführung von Skripten und Apps benötigt.</desc>
+				<group xml:lang="en">Embedded IMatch WebServices</group>
+				<group xml:lang="de">Integrierte IMatch-Webdienste</group>
+			</property>
+			
+			<property resid="imws.port" >
+				<name xml:lang="en">Port Number</name>
+				<name xml:lang="de">Port-Nummer</name>
+				<desc xml:lang="en">The port number to use for IMWS. If the default port number is already in use on your system, select another number in the range 49152-65535.</desc>
+				<desc xml:lang="de">Die Port-Nummer, under der der integrierte Webdienst ereichbar ist. Wenn der Standard-Port auf Ihrem System bereits von einem anderen Dienst verwendet wird, wählen Sie einen freien Port im Bereich 49152-65535.</desc>
+				<group xml:lang="en">Embedded IMatch WebServices</group>
+				<group xml:lang="de">Integrierte IMatch-Webdienste</group>
+			</property>
 
-            <property resid="app.ui.sec.apppanel.allow_om" desc="">
-                <name xml:lang="it">Permetti al pannello App di accedere al modello oggetto</name>
-                <name xml:lang="en">Allow App panel to access the object model</name>
-                <name xml:lang="de">App-Panel Zugriff auf Objektmodell gestatten</name>
-				<name xml:lang="fi">Salli Sovelluspaneelin käyttää objektimallia</name>
-                <name xml:lang="nl">Het App-paneel toegang tot het objectmodel geven</name>
-                <name xml:lang="hr">Dozvoli ploči aplikacija pristup objektnom modelu</name>
-				<name xml:lang="no">Gi App-panelet tilgang til objektmodellen</name>
-				<name xml:lang="pt">Permete ao painel de Aplicações aceder ao objecto modelo</name>
-                
-				<desc xml:lang="it">Se questa opzione è abilitata, il codice HTML e JavaScript eseguiti nel pannello App possono accedere al modello oggetto IMatch nella stessa maniera in cui possono farlo gli Script di IMatch. Questo può essere un rischio sicurezza se si download e installano Modelli HTML da fonti non certificate.</desc>
-				<desc xml:lang="en">If this option is enabled, HTML code and JavaScript running in the App panel can access the IMatch object model in the same way IMatch scripts can. This may be a security risk if you download and install HTML Templates from untrusted sources.</desc>
-                <desc xml:lang="de">Wenn diese Einstellung aktiviert ist, können JavaScript-Skripte, die im App-Panel ausgeführt werden, auf das IMatch-Objektmodell zugreifen - ähnlich wie normale IMatch-Skripte. Dies könnte zu Sicherheitsprobleme führen, wenn Sie HTML-Vorlagen aus unsicheren Quellen installieren.</desc>
-				<desc xml:lang="fi">Kun tämä on valittuna, Sovelluspaneelissa pyörivät HTML ja JavaScript koodit voivat käyttää IMatchin objektimallia samalla tavalla kuin IMatchin komentosarjatkin. Tämä voi olla turvallisuusriski, jos käytät epäluotettavista lähteistä peräisin olevia HTML-pohjia.</desc>
-                <desc xml:lang="nl">Indien geactiveerd, kunnen HTML-code en javascripts uit het App-paneel het IMatch objectmodel op dezelfde manier benaderen als IMatch-scripts. Dit kan tot een veiligheidsprobleem leiden bij het downloaden en installeren van HTML-sjablonen van onbekende bronnen.</desc>
-                <desc xml:lang="hr">Ako je omogućeno, HTML i JavaScript kod, koji se izvode u ploči aplikacija, mogu pristupiti objektnom model IMatch-a na isti način kao i IMatch skripte. To može predstavljati sigurnosni rizik ako instaliraš HTML skripte iz nepoznatog izvora.</desc>
-				<desc xml:lang="no">Dersom denne opsjonen er aktivert har HTML-kode og Java-skript som kjører i App-panelet tilgang til objektmodellen til IMatch på samme måte som IMatch-skript. Dette kan være en sikkerhetsrisiko dersom du laster ned og installerer HTML-maler fra usikre kilder.</desc>
-				<desc xml:lang="pt">Se esta opção estiver activa, o código HTML e JavaScript a correrem no painel das Aplicações podem aceder ao modelo objecto do IMatch da mesma forma que o fazem os scripts. Isto pode ser um risco na segurança se fizer o download e instalar Modelos de HTML de fontes não certificadas.</desc>
-				
-				<group xml:lang="it">Impostazioni di Sicurezza</group>
-                <group xml:lang="en">Security Settings</group>
-                <group xml:lang="de">Sicherheitseinstellungen</group>
-                <group xml:lang="nl">Veiligheidsinstellingen</group>
-                <group xml:lang="hr">Sigurnosne postavke</group>
-				<group xml:lang="no">Sikkerhetsinnstillinger</group>
-				<group xml:lang="fi">Suojausasetukset</group>
-				<group xml:lang="pt">Definições de Segurança</group>
-            </property>
+			<property resid="imws.documentroot" >
+				<name xml:lang="en">Document Root / App Folder</name>
+				<name xml:lang="de">Dokument- und App-Wurzelverzeichnis</name>
+				<desc xml:lang="en">This folder contains all scripts, documents and apps which should be accessible via the embedded IMatch WebServices. The IMatch App Manager also uses this folder to find the system and your apps.</desc>
+				<desc xml:lang="de">Dieses Verzeichnis enthält alle Skripte, Dokumente und Apps, die über den integrierten Webdienst erreichbar sein sollen. Der IMatch App-Manager durchsucht ebenfalls dieses Verzeichnis, um System- und benutzerdefinierte Skripte zu finden.</desc>
+				<group xml:lang="en">Embedded IMatch WebServices</group>
+				<group xml:lang="de">Integrierte IMatch-Webdienste</group>
+			</property>
 
-            <!-- Tooltips -->
+			<property resid="cef.debugport" >
+				<name xml:lang="en">Remote Debugging Port</name>
+				<name xml:lang="de">Remote-Debugging Port</name>
+				<desc xml:lang="en">If this is 0, remote debugging of the embedded browser is disabled. Set this to a valid port number (e.g. 8080) to enable remote debugging.</desc>
+				<desc xml:lang="de">Ist dieser Wert 0, ist Remote-Debugging für den eingebetteten Web-Browsers deaktiviert. Tragen Sie eine gültige Port-Nummer (z.B. 8080) ein, um Remote-Debugging zu nutzen.</desc>
+				<group xml:lang="en">Developer Options</group>
+				<group xml:lang="de">Entwickler-Optionen</group>
+			</property>
+
+			<property resid="cef.clearcache" >
+				<name xml:lang="en">Clear browser cache on exit</name>
+				<name xml:lang="de">Browser-Cache beim Beenden leeren</name>
+				<desc xml:lang="en">If this is enabled, IMatch clears the cache of the embedded browser when exiting. Use this option if there is a problem with the cache or the browser does not pick up changes done to files.</desc>
+				<desc xml:lang="de">Wenn diese Einstellung aktiviert ist, leert IMatch beim Schließen den Cache des integrierten Web-Browsers. Nutzen Sie dies temporär, wenn es ein Problem mit dem Cache gibt oder der Browser geänderte Dateien nicht erkennt.</desc>
+				<group xml:lang="en">Developer Options</group>
+				<group xml:lang="de">Entwickler-Optionen</group>
+			</property>
+
+
+			<!-- Tooltips -->
 
 			<property resid="app.ui.tooltip.background" desc="Tooltip background color">
 				<name xml:lang="it">Colore dello Sfondo</name>
@@ -29497,7 +28129,27 @@
                 </choices>
             </property>
 
-            <!-- LOD Editor Properties -->
+
+			<property resid="filewnd.ui.anim.enabled" desc="">
+				<name xml:lang="en">Animated previews for videos</name>
+				<name xml:lang="de">Animierte Vorschau von Videos</name>
+				<desc xml:lang="en">If this is enabled, the file window displays multiple frames for each video file when you move the mouse into a thumbnail panel.</desc>
+				<desc xml:lang="de">Aktivieren Sie diese Option, um animierte Vorschauen für Videos zu zeigen. Das Dateifenster zeigt diese Vorschauen, wenn Sie mit der Maus auf ein Vorschaubild zeigen.</desc>
+				<group xml:lang="en">Animation</group>
+				<group xml:lang="de">Animation</group>
+			</property>
+
+			<property resid="filewnd.ui.anim.steptime" desc="">
+				<name xml:lang="en">Animation frame duration</name>
+				<name xml:lang="de">Anzeigedauer pro Bild</name>
+				<desc xml:lang="en">The time between individual animation frams in millseconds (1000ms = 1 second).</desc>
+				<desc xml:lang="de">Anzeigeduaer der einzelnen Bilder in Millisekunden (1000ms = 1 Sekunde).</desc>
+				<group xml:lang="en">Animation</group>
+				<group xml:lang="de">Animation</group>
+			</property>
+
+
+			<!-- LOD Editor Properties -->
 
 			<property resid="filewnd.LOD.thumbpanelcols" desc="">
 				<name xml:lang="en">Thumbnails per row</name>
@@ -30065,8 +28717,16 @@
                         <c xml:lang="pt">Data (Formato Curto)</c>
                         <c xml:lang="hr">Datum (skraćeni format)</c>
                     </choice>
+					<choice data="1394">
+						<c xml:lang="en">Duration (Seconds)</c>
+						<c xml:lang="de">Duration (Sekunden)</c>
+					</choice>
+					<choice data="1395">
+						<c xml:lang="en">Duration (HH:MM:SS)</c>
+						<c xml:lang="de">Duration (HH:MM:SS)</c>
+					</choice>
 
-                    <choice data="2058">
+					<choice data="2058">
 						<c xml:lang="en">Path</c>
 						<c xml:lang="no">Sti</c>
 						<c xml:lang="de">Pfadangabe</c>
@@ -37310,18 +35970,16 @@
 		<!-- Window layouts and stuff. If you must change something here, all layouts need to be invalidated -->
 		<base_id>0x00100000</base_id>
 		<rid resid="CONTEXTID_NONE">0x0F100000</rid>
-		<rid resid="CONTEXTID_PANELS_COACHMESSAGE">0x0F100001</rid>
 		<rid resid="CONTEXTID_PANELS_WELCOME">0x0F100003</rid>
 		<rid resid="CONTEXTID_PANELS_DBINFO">0x0F100004</rid>
 		<rid resid="CONTEXTID_PANELS_FAVORITES">0x0F100005</rid>
 		<rid resid="CONTEXTID_PANELS_DEBUG">0x0F100006</rid>
-		<rid resid="CONTEXTID_PANELS_COACH">0x0F100007</rid>
 		<rid resid="CONTEXTID_PANELS_HISTORY">0x0F100009</rid>
         <rid resid="CONTEXTID_PANELS_VIEWER">0x0F10000A</rid>
         <rid resid="CONTEXTID_PANELS_IMPORTEXPORT">0x0F10000B</rid>
         <rid resid="CONTEXTID_PANELS_OUTPUT">0x0F10000C</rid>
         <rid resid="CONTEXTID_PANELS_OUTPUT_ET">0x0F10000D</rid>
-        <rid resid="CONTEXTID_PANELS_OUTPUT_SCRIPT">0x0F10000E</rid>
+        <rid resid="CONTEXTID_PANELS_OUTPUT_APP">0x0F10000E</rid>
 
 		<!-- The tree control in the folders & Media View -->
 		<rid resid="CONTEXTID_PANELS_DBCLIENT_FOLDERS_TREE">0x0F100100</rid>
@@ -37384,10 +36042,10 @@
         <rid resid="CONTEXTID_PANELS_FILEWNDCONTAINER_GROUPS_SCOPE">0x0F20020A</rid>
         <rid resid="CONTEXTID_PANELS_FILEWNDCONTAINER_CHART">0x0F2002A0</rid>
         <rid resid="CONTEXTID_PANELS_FILEWNDCONTAINER_ATTR">0x0F2002B0</rid>
-        <rid resid="CONTEXTID_PANELS_FILEWNDCONTAINER_HTML">0x0F2002C0</rid>
-        <rid resid="CONTEXTID_PANELS_FILEWNDCONTAINER_HTML2">0x0F2002D0</rid>
-		<rid resid="CONTEXTID_PANELS_FILEWNDCONTAINER_HTML3">0x0F2002D1</rid>
-		<rid resid="CONTEXTID_PANELS_FILEWNDCONTAINER_HTML4">0x0F2002D2</rid>
+        <rid resid="CONTEXTID_PANELS_FILEWNDCONTAINER_APP">0x0F2002C0</rid>
+        <rid resid="CONTEXTID_PANELS_FILEWNDCONTAINER_APP2">0x0F2002D0</rid>
+		<rid resid="CONTEXTID_PANELS_FILEWNDCONTAINER_APP3">0x0F2002D1</rid>
+		<rid resid="CONTEXTID_PANELS_FILEWNDCONTAINER_APP4">0x0F2002D2</rid>
         
 
         <!-- File Window  -->
@@ -37397,7 +36055,7 @@
 
 
 		<!-- Scripts -->
-        <rid resid="CONTEXTID_PANELS_SCRIPT_MANAGER" resgroup="script">0x0F200230</rid>
+        <rid resid="CONTEXTID_PANELS_APP_MANAGER" resgroup="script">0x0F200230</rid>
         <rid resid="CONTEXTID_PANELS_SCRIPT_IDE" resgroup="script">0x0F200231</rid>
         <rid resid="CONTEXTID_PANELS_SCRIPT_INFO" resgroup="script">0x0F200232</rid>
 
@@ -37409,129 +36067,6 @@
 		<rid resid="CONTEXTID_PANELS_PRINTUI_TEMPLATES">0x0F200310</rid>
 		<rid resid="CONTEXTID_PANELS_PRINTUI_EDITOR">0x0F200311</rid>
 		<rid resid="CONTEXTID_PANELS_PRINTUI_PREVIW">0x0F200312</rid>
-
-
-		<!-- These context ids are used to feed the coach system -->
-		<rid resid="COACH_FILEWNDCONTAINER_DRAGANDDROP">0x10000000</rid>
-
-        <!-- 
-            These context ids are used for the IMatch scripting library. They are used in the IDL file to link classes and methods to the help file
-            Consider everything up to 0x30000000 as **** reserved for **** scripting.
-            For each interface in the IDL setup a new contact here using SCRIPT_IDL_<Name of Interface> and allocate a range of 0x1000 ids for rach class.
-            Also update imatchres_help.xml to include the proper aliasses.
-        -->
-        <rid resid="SCRIPT_IDL_LIB">0x20000000</rid>
-            
-            <!-- IApplication -->
-            <rid resid="SCRIPT_IDL_APPLICATION">0x20001000</rid>
-            
-            <!-- IDatabase -->
-            <rid resid="SCRIPT_IDL_DATABASE">0x20002000</rid>
-            
-            <!-- IFile -->
-            <rid resid="SCRIPT_IDL_FILE">0x20003000</rid>
-            <rid resid="SCRIPT_IDL_FILES">0x20003500</rid>
-        
-            <!-- IFolder -->
-            <rid resid="SCRIPT_IDL_FOLDER">0x20004000</rid>
-            <rid resid="SCRIPT_IDL_FOLDERS">0x20004500</rid>
-            
-            <!-- ICategory -->
-            <rid resid="SCRIPT_IDL_CATEGORY">0x20005000</rid>
-            <rid resid="SCRIPT_IDL_CATEGORYS">0x20005500</rid>
-        
-            <!-- ICollection  -->
-            <rid resid="SCRIPT_IDL_COLLECTION">0x20006000</rid>
-            <rid resid="SCRIPT_IDL_COLLECTIONS">0x20006500</rid>
-        
-            <!-- ITimeline -->
-            <rid resid="SCRIPT_IDL_TIMELINE">0x20007000</rid>
-            
-            <!-- ITimelineNode -->
-            <rid resid="SCRIPT_IDL_TIMELINE_NODE">0x20008000</rid>
-            <rid resid="SCRIPT_IDL_TIMELINE_NODES">0x20008500</rid>
-
-            <!-- IImage -->
-            <rid resid="SCRIPT_IDL_IMAGE">0x20009000</rid>
-
-            <!-- FileHistory -->
-            <rid resid="SCRIPT_IDL_FILEHISTORY">0x2000D000</rid>
-            <rid resid="SCRIPT_IDL_FILEHISTORYEVENT">0x2000D500</rid>
-
-            <!-- DatabaseTransactopm -->    
-            <rid resid="SCRIPT_IDL_DBTRANSACTION">0x2000E000</rid>
-
-            <!-- Sorter -->
-            <rid resid="SCRIPT_IDL_SORTER">0x2000F000</rid>
-
-            <!-- FileWindow -->
-            <rid resid="SCRIPT_IDL_FILEWINDOW">0x20010000</rid>
-
-            <!-- IMQuery -->
-            <rid resid="SCRIPT_IDL_IMQUERY">0x20020000</rid>
-
-            <!-- RelationLink... -->
-            <rid resid="SCRIPT_IDL_RELATION">0x20030000</rid>
-
-            <!-- BuddyFile... -->
-            <rid resid="SCRIPT_IDL_BUDDY">0x20040000</rid>
-
-            <!-- IMStack -->
-            <rid resid="SCRIPT_IDL_STACK">0x20050000</rid>
-
-            <!-- IMTagData and related classes -->
-            <rid resid="SCRIPT_IDL_TAGDATA">0x20060000</rid>
-
-            <!-- Attributes and related classes -->
-            <rid resid="SCRIPT_IDL_ATTRIBUTES">0x20070000</rid>
-
-            <!-- Execution Context -->
-            <rid resid="SCRIPT_IDL_EXECUTIONCONTEXT">0x20080000</rid>
-        
-            <!-- ResourceFile -->
-            <rid resid="SCRIPT_IDL_RESFILE">0x20090000</rid>
-
-            <!-- ResourceFile -->
-            <rid resid="SCRIPT_IDL_VARCONTEXT">0x200A0000</rid>
-
-            <!-- SearchEngine -->
-            <rid resid="SCRIPT_IDL_SEARCHENGINE">0x200B0000</rid>
-
-			<!-- Renamer -->
-			<rid resid="SCRIPT_IDL_RENAMER">0x200C0000</rid>
-
-			<!-- BatchProcessor -->
-			<rid resid="SCRIPT_IDL_BATCHPROCESSOR">0x200D0000</rid>
-
-			<!-- Helper Classes ====================== -->
-            
-            <!-- Range 0x2000A000 - 0x2000AFFF -->
-        
-            <!-- IMCollection -->
-            <rid resid="SCRIPT_IDL_IMCOLLECTION">0x2000A000</rid>
-
-            <!-- IMDictionary -->
-            <rid resid="SCRIPT_IDL_IMDICTIONARY">0x2000A001</rid>
-
-            <!-- RegExp -->
-            <rid resid="SCRIPT_IDL_REGEXP">0x2000A002</rid>
-
-            <!-- ScriptSetting -->
-            <rid resid="SCRIPT_IDL_SCRIPTSETTINGS">0x2000A003</rid>
-
-            <!-- IMWebRequest -->
-            <rid resid="SCRIPT_IDL_IMWEBREQUEST">0x2000A010</rid>
-        
-            <!-- RegExp -->
-            <rid resid="SCRIPT_IDL_XMLWRITER">0x2000A020</rid>
-
-            <!-- ProgressDialog -->
-            <rid resid="SCRIPT_IDL_PROGRESSDIALOG">0x2000A030</rid>
-
-        <!-- HTMLDialog -->
-        <rid resid="SCRIPT_IDL_HTMLDIALOG">0x2000A040</rid>
-
-        <!-- End of IDL -->
 
         <!-- Application-specific values. DO NOT CHANGE -->
 		<!--<rid resid="IDR_MAINFRAME">0x20080</rid>-->
