@@ -5455,15 +5455,15 @@
 
 		<string_group name="Welcome View" desc="Strings used on the Welcome View. This is the main window you see while no database is open">
 			<str resid="PTR_VIEW_WELCOME_HEADLINE" desc="The headline">
-				<s xml:lang="en">Welcome to IMatch</s>
-				<s xml:lang="de">Willkommen in IMatch</s>
+				<s xml:lang="en">Welcome to IMatch {0}</s>
+				<s xml:lang="de">Willkommen in IMatch {0}</s>
 				<s xml:lang="fi">Tervetuloa käyttämään IMatch-ohjelmaa</s>
-				<s xml:lang="nl">Welkom bij IMatch</s>
-				<s xml:lang="pt">Bem Vindo ao IMatch</s>
-				<s xml:lang="hr">Dobrodošli u IMatch</s>
-        		<s xml:lang="no">Velkommen til IMatch</s>
-				<s xml:lang="fr">Bienvenue dans IMatch</s>
-				<s xml:lang="it">Benvenuto in IMatch</s>
+				<s xml:lang="nl">Welkom bij IMatch {0}</s>
+				<s xml:lang="pt">Bem Vindo ao IMatch {0}</s>
+				<s xml:lang="hr">Dobrodošli u IMatch {0}</s>
+        		<s xml:lang="no">Velkommen til IMatch {0}</s>
+				<s xml:lang="fr">Bienvenue dans IMatch {0}</s>
+				<s xml:lang="it">Benvenuto in IMatch {0}</s>
       </str>
 			<str resid="PTR_VIEW_WELCOME_SUBHEADLINE" desc="A text displayed below the headline, in a smaller font. Give the user some info about what to do">
 				<s xml:lang="en">Click on one of these icons to start.</s>
