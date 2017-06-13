@@ -7888,13 +7888,13 @@
 		</dialog>
 	
 		<dialog resid="PTRMDLG_FILTERPANEL_RLI" desc="Attribute Form in RLU Panel">
-			<caption xml:lang="en">Rating, Label &amp;&amp; Collections</caption>
-			<caption xml:lang="de">Rating, Label &amp;&amp; Kollektionen</caption>
+			<caption xml:lang="en">Rating, Label &amp; Collections</caption>
+			<caption xml:lang="de">Rating, Label &amp; Kollektionen</caption>
 			<caption xml:lang="fi">Pisteytys, tunnisteet ja kokoelmat</caption>
-			<caption xml:lang="nl">Rating, Label &amp;&amp; Collecties</caption>
-			<caption xml:lang="pt">Classificação, Rótulo &amp;&amp; Colecções</caption>
-			<caption xml:lang="no">Vurdering, etikett &amp;&amp; samlinger</caption>
-			<caption xml:lang="it">Valutazione, Etichetta &amp;&amp; Collezioni</caption>
+			<caption xml:lang="nl">Rating, Label &amp; Collecties</caption>
+			<caption xml:lang="pt">Classificação, Rótulo &amp; Colecções</caption>
+			<caption xml:lang="no">Vurdering, etikett &amp; samlinger</caption>
+			<caption xml:lang="it">Valutazione, Etichetta &amp; Collezioni</caption>
             <ctrlhelp text="#l_btn_reset">
                 <c xml:lang="en">Reset All</c>
                 <c xml:lang="de">Zurücksetzen</c>
