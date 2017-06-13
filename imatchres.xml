@@ -8537,7 +8537,7 @@
 
 			<cmd resid="ID_FILEWND_SEARCHBAR_MODE_SEARCHATTR" bmidx="5">	
                 <c xml:lang="en" hotkey="" helptext="Also search in Attributes.">Also search in &amp;Attributes</c>
-                <c xml:lang="de" hotkey="" helptext="Auf in Attributen suchen.">Auf in &amp;Attributen suchen</c>
+                <c xml:lang="de" hotkey="" helptext="Auch in Attributen suchen.">Auf in &amp;Attributen suchen</c>
 				<c xml:lang="fi" hotkey="" helptext="Hae myös määritteistä.">Hae &amp;myös määritteistä</c>
 				<c xml:lang="nl" hotkey="" helptext="Ook in alle attributen zoeken.">Ook in &amp;attributen zoeken</c>
 				<c xml:lang="pt" hotkey="" helptext="Também pesquisa nos Atributos.">Também pesquisa nos &amp;Atributos</c>
