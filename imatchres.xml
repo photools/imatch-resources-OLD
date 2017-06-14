@@ -2389,6 +2389,7 @@
             <cmd resid="ID_VIEW_SHOW_APP_MANAGER">
                 <c xml:lang="en" hotkey="F9|Y" helptext="Show or hide the App Manager panel">App &amp;Manager</c>
                 <c xml:lang="de" hotkey="F9|Y" helptext="Anzeigen oder Verbergen des App-Manager Panels">&amp;App-Manager</c>
+				<c xml:lang="nl" hotkey="F9|Y" helptext="Toon of verberg het App Manager paneel">&amp;App-Manager</c>
             </cmd>
 			
 			<!-- Thumbnail Tooltips? (Toggles E > P > Application: Thumb Tips) -->
@@ -3029,6 +3030,7 @@
             <cmd resid="ID_CMD_FAVORITE_APP_ADD">
                 <c xml:lang="en" hotkey="" helptext="Add a new favorite for an app">New from &amp;App...</c>
                 <c xml:lang="de" hotkey="" helptext="Einen neuen Favoriten für eine App hinzufügen.">Neu von &amp;App...</c>
+				<c xml:lang="nl" hotkey="" helptext="Een nieuwe favoriet voor een App toevoegen">Nieuw vanuit &amp;App...</c>
             </cmd>
 			
             <!-- Favorites, Metadata Templates -->
@@ -3706,6 +3708,7 @@
 			<cmd resid="ID_CMD_APP_PANEL_COMBO" bmidx="-1">
                 <c xml:lang="en" helptext="Select an App">App</c>
                 <c xml:lang="de" helptext="Wählen Sie eine App aus">App</c>
+				<c xml:lang="nl" helptext="Selecteer een App">App</c>
             </cmd>
             
 			<cmd resid="ID_CMD_APP_PANEL_RELOAD" bmidx="1">
@@ -4980,11 +4983,13 @@
 			<cmd resid="ID_APP_RELEASE_NOTES" bmidx="3">
 				<c xml:lang="en" hotkey="" helptext="Opens the release notes page in your default browser.">&amp;Release Notes (Online)</c>
 				<c xml:lang="de" hotkey="" helptext="Öffnet die Versionsinformationen in Ihrem Browser.">Ve&amp;rsionsinformationen (Online)</c>
+				<c xml:lang="nl" hotkey="" helptext="Opent de realease notes in uw standaard browser.">&amp;Release Notes (Online)</c>
 			</cmd>
 
 			<cmd resid="ID_APP_DEVCENTER" bmidx="3">
-				<c xml:lang="en" hotkey="" helptext="Opens the IMatch Developer Center web site.">&amp;Developer Center (Online)</c>
+				<c xml:lang="en" hotkey="" helptext="Opens the IMatch Developer Center website.">&amp;Developer Center (Online)</c>
 				<c xml:lang="de" hotkey="" helptext="Öffnet die photools.com Developer Center Webseite.">&amp;Developer Center (Online)</c>
+				<c xml:lang="nl" hotkey="" helptext="Opent de IMatch Developer Center website.">&amp;Developer Center (Online)</c>				
 			</cmd>
 
 			<cmd resid="ID_APP_ORDER" bmidx="9">
@@ -6686,10 +6691,12 @@
 			<cmd resid="ID_CMD_FILE_THUMBSET_NEXT" desc="">
 				<c xml:lang="en" hotkey="Shift+Ctrl+VK_NEXT" helptext="Change the thumbnail to use for this video.">&amp;Next Frame</c>
 				<c xml:lang="de" hotkey="Shift+Ctrl+VK_NEXT" helptext="Das Vorschaubild für dieses Video ändern.">&amp;Nächtes Bild</c>
+				<c xml:lang="nl" hotkey="Shift+Ctrl+VK_NEXT" helptext="Wijzig de miniatuur voor deze video.">&amp;Volgende beeld</c>
 			</cmd>
 			<cmd resid="ID_CMD_FILE_THUMBSET_PREV" desc="">
 				<c xml:lang="en" hotkey="Shift+Ctrl+VK_PRIOR" helptext="Change the thumbnail to use for this video.">&amp;Previous Frame</c>
 				<c xml:lang="de" hotkey="Shift+Ctrl+VK_PRIOR" helptext="Das Vorschaubild für dieses Video ändern.">&amp;Vorhergehendes Bild</c>
+				<c xml:lang="nl" hotkey="Shift+Ctrl+VK_NEXT" helptext="Wijzig de miniatuur voor deze video.">&amp;Vorige beeld</c>
 			</cmd>
 		</command_group>
 
@@ -8444,6 +8451,7 @@
 			<cmd resid="ID_FILEWND_SHOWGROUPS_DIRECT_FILES_ONLY"  bmidx="11">
 				<c xml:lang="en" hotkey="" helptext="Show only the files directly assigned to the selected category. Don't include files in child categories.">Show only &amp;directly assigned files</c>
 				<c xml:lang="de" hotkey="" helptext="Zeige nur Dateien, die der ausgewählten Kategorie direkt zugewiesen wurden. Dateien in Kindkategorien nicht einschließen.">Nur &amp;direkt zugewiesene Dateien zeigen</c>
+				<c xml:lang="nl" hotkey="" helptext="Zoon alleen de direct aan deze categorie toegewezen bestanden. Bestanden in subcategoriën niet tonen.">Toon alleen &amp;direct toegewezen bestanden</c>
 			</cmd>
 
 		</command_group>
@@ -15837,6 +15845,7 @@
 				<name>
 					<n xml:lang="en">&amp;Video Options</n>
 					<n xml:lang="de">&amp;Video-Optionen</n>
+					<n xml:lang="nl">&amp;Video Opties</n>
 				</name>
 				<item>ID_CMD_FILE_THUMBSET_NEXT</item>
 				<item>ID_CMD_FILE_THUMBSET_PREV</item>
@@ -17969,10 +17978,13 @@
 			<property resid="app.imws.shfwebroot" desc="">
                 <name xml:lang="en">Root folder for apps</name>
                 <name xml:lang="de">Wurzelverzeichnis für Apps</name>
+				<name xml:lang="nl">Root maapvoot apps</name>
                 <desc xml:lang="en">The folder containing apps and scripts for IMatch.</desc>
                 <desc xml:lang="de">Dieses Verzeichnis enthält Apps und Skripte für IMatch.</desc>
+				<desc xml:lang="nl">The map waarin de apps en scripts voor IMatch staan.</desc>
                 <group xml:lang="en">Folders</group>
                 <group xml:lang="de">Verzeichnisse</group>
+				<group xml:lang="nl">Mappen</group>
             </property>
 			
             <property resid="app.shfpresets" desc="">
@@ -18815,6 +18827,7 @@
 			<property resid="app.ui.browserscale" desc="">
 				<name xml:lang="en">App Panel Scale</name>
 				<name xml:lang="de">App-Panel Skalierung</name>
+				<name xml:lang="nl">Scahaal van het App-paneel</name>
 				<group xml:lang="en">User Interface</group>
 				<group xml:lang="de">Benutzerschnittstelle</group>
 				<group xml:lang="fi">Käyttöliittymä</group>
@@ -18823,7 +18836,8 @@
 				<group xml:lang="pt">Interface do utilizador</group>
 				<group xml:lang="no">Brukergrensesnitt</group>
 				<desc xml:lang="en">This setting controls the scale factor used for App Panels, the App Manager and the Map Panel. Use this to adjust the size of text and images to your liking. The default value is 0, which means 100%. Use values smaller than 0 to reduce the scale and reduce the text size. Use values above 0 to increase the font size for better readability.</desc>
-				<desc xml:lang="de">Diese Einstellung kontrolliert den Skalierungsfaktor für App-Panels, den App Manager und das Map-Panel. Stellen Sie den Skalierungsfaktor nach Ihren Bedorfnissen ein. 0 bedeutet 100%. Werte kleiner 0 reduzieren die Schriftgröße, Werte größer als 0 stellen Schrift und Bilder größer dar.</desc>
+				<desc xml:lang="de">Diese Einstellung kontrolliert den Skalierungsfaktor für App-Panels, den App Manager und das Map-Panel. Stellen Sie den Skalierungsfaktor nach Ihren Bedarfnissen ein. 0 bedeutet 100%. Werte kleiner 0 reduzieren die Schriftgröße, Werte größer als 0 stellen Schrift und Bilder größer dar.</desc>
+				<desc xml:lang="nl">Deze instelling bepaalt the schalingsfactor voor de App-panelen, de App Manager en het kaart-paneel. Gebruik om de groote van tekst en afbeedlingen aan te passen aan uw smaak. De standaard waarde is 0, wat 100% betekent. Waarden kleiner dan 0 verkleinen de grootte, waarden groter dan 0 maken de grootte van tekst en afbeeldingen groter.</desc>
 			</property>
 		
 
@@ -19322,46 +19336,61 @@
 			<property resid="imws.enabled" >
 				<name xml:lang="en">IMWS enabled</name>
 				<name xml:lang="de">IMWS aktiviert</name>
+				<name xml:lang="nl">IMWS actief</name>
 				<desc xml:lang="en">If this setting is off, the embedded IMatch WebServices is disabled. No scripts or apps can work.</desc>
 				<desc xml:lang="de">Diese Einstellung bestimmt, ob der integrierte Webdienst in IMatch ausgeführt wird. Er wird für die Ausführung von Skripten und Apps benötigt.</desc>
+				<desc xml:lang="nl">Deze instelling bepaalt of de geïntegreerde IMatch Webservices worden uitgevoerd. Die zijn voor de uitvoering van scripts en Apps nodig.</desc>
 				<group xml:lang="en">Embedded IMatch WebServices</group>
 				<group xml:lang="de">Integrierte IMatch-Webdienste</group>
+				<group xml:lang="nl">Geïntegreerde IMatch WebServices</group>
 			</property>
 			
 			<property resid="imws.port" >
 				<name xml:lang="en">Port Number</name>
 				<name xml:lang="de">Port-Nummer</name>
+				<name xml:lang="nl">Poort nummer</name>
 				<desc xml:lang="en">The port number to use for IMWS. If the default port number is already in use on your system, select another number in the range 49152-65535.</desc>
 				<desc xml:lang="de">Die Port-Nummer, under der der integrierte Webdienst ereichbar ist. Wenn der Standard-Port auf Ihrem System bereits von einem anderen Dienst verwendet wird, wählen Sie einen freien Port im Bereich 49152-65535.</desc>
+				<desc xml:lang="nl">Het poortnummer dat voor IMWS wordt gebruikt. Als het standaardpoortnummer al in gebruik is op uw systeem, kiers dan een ander vrij nummer in de reeks 49152-65535.</desc>
 				<group xml:lang="en">Embedded IMatch WebServices</group>
 				<group xml:lang="de">Integrierte IMatch-Webdienste</group>
+				<group xml:lang="nl">Geïntegreerde IMatch WebServices</group>
 			</property>
 
 			<property resid="imws.documentroot" >
 				<name xml:lang="en">Document Root / App Folder</name>
 				<name xml:lang="de">Dokument- und App-Wurzelverzeichnis</name>
+				<name xml:lang="nl">Document Root / App map</name>
 				<desc xml:lang="en">This folder contains all scripts, documents and apps which should be accessible via the embedded IMatch WebServices. The IMatch App Manager also uses this folder to find the system and your apps.</desc>
 				<desc xml:lang="de">Dieses Verzeichnis enthält alle Skripte, Dokumente und Apps, die über den integrierten Webdienst erreichbar sein sollen. Der IMatch App-Manager durchsucht ebenfalls dieses Verzeichnis, um System- und benutzerdefinierte Skripte zu finden.</desc>
+				<desc xml:lang="nl">Deze map bevat alle scripts, documenten en apps die via de geïntegreerde IMatch WebServices bereikbaar zouden moeten zijn. Ookde IMatch App Manager gebruikt deze map om de systeem- en gebruikers apps te vinden.</desc>
 				<group xml:lang="en">Embedded IMatch WebServices</group>
 				<group xml:lang="de">Integrierte IMatch-Webdienste</group>
+				<group xml:lang="nl">Geïntegreerde IMatch WebServices</group>
 			</property>
 
 			<property resid="cef.debugport" >
 				<name xml:lang="en">Remote Debugging Port</name>
 				<name xml:lang="de">Remote-Debugging Port</name>
+				<name xml:lang="nl">Remote Debugging Poort</name>
 				<desc xml:lang="en">If this is 0, remote debugging of the embedded browser is disabled. Set this to a valid port number (e.g. 8080) to enable remote debugging.</desc>
 				<desc xml:lang="de">Ist dieser Wert 0, ist Remote-Debugging für den eingebetteten Web-Browsers deaktiviert. Tragen Sie eine gültige Port-Nummer (z.B. 8080) ein, um Remote-Debugging zu nutzen.</desc>
+				<desc xml:lang="nl">Als deze waarde op 0 staat, is remote debugging van de ingebouwd browser niet mogelijk. Voer een geldig poortnummer is (bv. 8080) om remote debugging te benutten.</desc>
 				<group xml:lang="en">Developer Options</group>
 				<group xml:lang="de">Entwickler-Optionen</group>
+				<group xml:lang="nl">Opties voor ontwikkelaars</group>
 			</property>
 
 			<property resid="cef.clearcache" >
 				<name xml:lang="en">Clear browser cache on exit</name>
 				<name xml:lang="de">Browser-Cache beim Beenden leeren</name>
+				<name xml:lang="nl">Browsercache leegmaken bij afsluiten</name>
 				<desc xml:lang="en">If this is enabled, IMatch clears the cache of the embedded browser when exiting. Use this option if there is a problem with the cache or the browser does not pick up changes done to files.</desc>
 				<desc xml:lang="de">Wenn diese Einstellung aktiviert ist, leert IMatch beim Schließen den Cache des integrierten Web-Browsers. Nutzen Sie dies temporär, wenn es ein Problem mit dem Cache gibt oder der Browser geänderte Dateien nicht erkennt.</desc>
+				<desc xml:lang="nl">Als deze otie geaktveerd is, zal IMatch de cache van de ingebouwde browser leeg maken bij afsluiten. Gebruik deze optie als er een probleem met de browser is of als de browser wijzigingen in bestanden niet herkent.</desc>
 				<group xml:lang="en">Developer Options</group>
 				<group xml:lang="de">Entwickler-Optionen</group>
+				<group xml:lang="nl">Opties voor ontwikkelaars</group>
 			</property>
 
 
@@ -28133,19 +28162,25 @@
 			<property resid="filewnd.ui.anim.enabled" desc="">
 				<name xml:lang="en">Animated previews for videos</name>
 				<name xml:lang="de">Animierte Vorschau von Videos</name>
+				<name xml:lang="nl">Geanimeerde previews voor videos</name>
 				<desc xml:lang="en">If this is enabled, the file window displays multiple frames for each video file when you move the mouse into a thumbnail panel.</desc>
 				<desc xml:lang="de">Aktivieren Sie diese Option, um animierte Vorschauen für Videos zu zeigen. Das Dateifenster zeigt diese Vorschauen, wenn Sie mit der Maus auf ein Vorschaubild zeigen.</desc>
+				<desc xml:lang="nl">Activeer deze optie, om een genaimeerde preview voor iedere video te zien, als u met de muis naar een miniatuur wijst.</desc>
 				<group xml:lang="en">Animation</group>
 				<group xml:lang="de">Animation</group>
+				<group xml:lang="nl">Animatie</group>
 			</property>
 
 			<property resid="filewnd.ui.anim.steptime" desc="">
 				<name xml:lang="en">Animation frame duration</name>
 				<name xml:lang="de">Anzeigedauer pro Bild</name>
+				<name xml:lang="nl">Animatieduur per frame</name>
 				<desc xml:lang="en">The time between individual animation frams in millseconds (1000ms = 1 second).</desc>
 				<desc xml:lang="de">Anzeigeduaer der einzelnen Bilder in Millisekunden (1000ms = 1 Sekunde).</desc>
+				<desc xml:lang="nl">De tijd tussen afzonderlijke animatie frames in milliseconden (1000ms = 1 second).</desc>
 				<group xml:lang="en">Animation</group>
 				<group xml:lang="de">Animation</group>
+				<group xml:lang="nl">Animatie</group>
 			</property>
 
 

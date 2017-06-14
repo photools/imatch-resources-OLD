@@ -9908,9 +9908,11 @@
 		<dialog resid="PTRMDLG_APP_SEL" resgroup="favorites">
 			<caption xml:lang="en">Apps</caption>
 			<caption xml:lang="de">Apps</caption>
+			<caption xml:lang="nl">Apps</caption>
 			<ctrl text="#l_apps">
 				<c xml:lang="en" helptext="">&amp;Apps::</c>
 				<c xml:lang="de" helptext="">&amp;Apps:</c>
+				<c xml:lang="nl" helptext="">&amp;Apps:</c>
 			</ctrl>
 		</dialog>
 
