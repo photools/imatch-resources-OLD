@@ -10468,7 +10468,6 @@
 					<cont>Het sjabloon\r\n\r\n'{0}'\r\n\r\nbestaat niet of kon niet geopend worden.</cont>
 				</m>
 			</msg>
-
 		</message_group>
 
 		<message_group name="App Manager and App Messages">
@@ -10485,6 +10484,21 @@
 				<m xml:lang="nl">
 					<cap>Dubbele Applicatie ID ontdekt</cap>
 					<cont>De applicatiemanager heeft twee apps gevonden die dezelfde app ID hebben. Iedere App moet een unieke ID hebben.\r\n\r\n{0}\r\n{1}.</cont>
+				</m>
+			</msg>
+
+			<msg resid="PTR_MSG_APPMGR_CLOSE_PROMPT" typeid="[[IDI_EXCLAMATION]]" desc="">
+				<m xml:lang="en">
+					<cap>Close App</cap>
+					<cont>This app has asked not to be closed by the user.\r\nClosing the app forcefully may cause problems or even data-loss.\r\n\r\nDo you want to close the App anyway?</cont>
+				</m>
+				<m xml:lang="de">
+					<cap>App beenden</cap>
+					<cont>Diese App hat darum gebeten, nicht geschlossen zu werden.\r\nDas erzwungene Beenden der App kann zu Problemen oder sogar zu Datenverlust führen.\r\n\r\nMöchten Sie die App trotzdem beenden?</cont>
+				</m>
+				<m xml:lang="nl">
+					<cap>App sluiten</cap>
+					<cont>Deze app hheeft verzocht niet te worden gesloten door de gebruiker.\r\nHet geforceerd beëindigen van deze app kan problemen of gegevensverlies veroorzaken.\r\n\r\nWilt u desondanks de app sluiten?</cont>
 				</m>
 			</msg>
 
