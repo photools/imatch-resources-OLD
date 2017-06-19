@@ -2091,10 +2091,12 @@
 			<str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_UPGRADE_BEGIN" desc="">
 				<s xml:lang="en">The database is upgraded to version {0}. This can take a while...</s>
 				<s xml:lang="de">Die Datenbank wird auf Version {0} aktualisiert. Dies kann ein wenig dauern...</s>
+				<s xml:lang="nl">De database wordt geügarde naar version {0}. Dit kan even duren...</s>
 			</str>
 			<str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_UPGRADE_END" desc="">
 				<s xml:lang="en">Database format is current.</s>
 				<s xml:lang="de">Das Datenbankformat ist aktuell.</s>
+				<s xml:lang="nl">Het databaseformat is actueel.</s>
 			</str>
 
 
@@ -2957,6 +2959,7 @@
 			<str resid="PTR_MAINFRAME_CLOSING_APPS">
 				<s xml:lang="en">Closing apps...</s>
 				<s xml:lang="de">Apps werden beendet...</s>
+				<s xml:lang="nl">Apps worden beëindigd...</s>
 			</str>
 
 		</string_group>
@@ -6053,6 +6056,7 @@
 			<str resid="PTR_PANEL_APP_IMWS_NOT_RUNNING">
                 <s xml:lang="en">IMatch WebServices are not running.\r\nPlease enable them under Edit &gt; Preferences &gt; Application and check the configuration.</s>
                 <s xml:lang="de">Die IMatch Webdienste werden nicht ausgeführt.\r\nBitte aktivieren Sie sie unter Bearbeiten &gt; Einstellungen &gt; Anwendung und überprüfen Sie die Konfiguration.</s>
+				<s xml:lang="nl">IMatch WebServices worden niet uitgevoerd.\r\nActiveer ze aub Bewerken &gt; Voorkeuren &gt; Applicatie en controleer de instellingen.</s>
             </str>
             
             <str resid="PTR_PANEL_SCRIPT_IDE" desc="Name for the Script IDE panel">
@@ -7636,6 +7640,7 @@
 			<str resid="FILEWND_CAPTION_DIRECT_FILES">
 				<s xml:lang="en">(Direct assignments only)</s>
 				<s xml:lang="de">(Nur direkt zugewiesene Dateien)</s>
+				<s xml:lang="nl">(Alleen directe toewijzingen)</s>
 			</str>
 
 		</string_group>  <!-- File Window -->
@@ -9901,6 +9906,7 @@
 			<str resid="PTR_FILTERPANEL_HINT">
 				<s xml:lang="en">More filters are available in the 'Gear' menu in the toolbar.</s>
 				<s xml:lang="de">Weitere Filter sind verfügbar über das 'Zahnrad'-Menü in der Symbolleiste.</s>
+				<s xml:lang="nl">Extra filters zijn beschikbaar in het "Instellingen" menu in gereedschapsbalk.</s>
 			</str>
 
 		</string_group>
