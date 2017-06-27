@@ -1156,18 +1156,18 @@
 
 			<!-- Names for default filters created during database creation -->
 
-            <str resid="PTR_DBCORE_FILTER_PRESET_HIDEREJECTS" desc="">
-                <s xml:lang="en">Hide Rejected files</s>
-                <s xml:lang="no">Skjule avviste filer</s>
-                <s xml:lang="de">Zurückgewiesene Dateien verbergen</s>
-                <s xml:lang="nl">Afgekeurde bestanden verbergen</s>
+			<str resid="PTR_DBCORE_FILTER_PRESET_HIDEREJECTS" desc="">
+				<s xml:lang="en">Hide Rejected files</s>
+				<s xml:lang="no">Skjule avviste filer</s>
+				<s xml:lang="de">Zurückgewiesene Dateien verbergen</s>
+				<s xml:lang="nl">Verberg afgekeurde bestanden</s>
 				<s xml:lang="pt">Ocultar ficheiros rejeitados</s>
 				<s xml:lang="fi">Piilota hylätyiksi merkityt</s>
 				<s xml:lang="hr">Sakrij odbijene datoteke</s>
 				<s xml:lang="fr">Cacher les fichiers rejetés</s>
-                <s xml:lang="it">Nascondi file rifiutati</s>
-            </str>
-            <str resid="PTR_DBCORE_FILTER_PRESET_TODAY" desc="">
+				<s xml:lang="it">Nascondi file rifiutati</s>
+			</str>
+			<str resid="PTR_DBCORE_FILTER_PRESET_TODAY" desc="">
 				<s xml:lang="en">Files from today</s>
 				<s xml:lang="no">Filer fra i dag</s>
 				<s xml:lang="de">Dateien von Heute</s>
@@ -1270,7 +1270,7 @@
 				<s xml:lang="en">Hide Buddy Files</s>
 				<s xml:lang="no">Skjul kompis filer</s>
 				<s xml:lang="de">Buddy-Dateien verbergen</s>
-				<s xml:lang="nl">Buddy-bestand verbergen</s>
+				<s xml:lang="nl">Verberg buddy-bestanden</s>
 				<s xml:lang="pt">Ocultar ficheiros associados</s>
 				<s xml:lang="fi">Piilota rinnakkaistiedostot</s>
 				<s xml:lang="hr">Sakrij prijateljske datoteke</s>
@@ -1281,7 +1281,7 @@
 				<s xml:lang="en">Hide Off-line Files</s>
 				<s xml:lang="no">Skjul frakoblede filer</s>
 				<s xml:lang="de">Off-line Dateien verbergen</s>
-				<s xml:lang="nl">Off-line bestanden verbergen</s>
+				<s xml:lang="nl">Verberg off-line bestanden</s>
 				<s xml:lang="pt">Ocultar ficheiros remotos</s>
 				<s xml:lang="fi">Piilota off-line tiedostot</s>
 				<s xml:lang="hr">Sakrij datoteke koje su nedostupne</s>
@@ -1289,18 +1289,18 @@
 				<s xml:lang="it">Nascondi File Off-line</s>
 			</str>
 
-            <str resid="PTR_DBCORE_FILTER_PRESET_PENDINGWRITEBACK" desc="">
-                <s xml:lang="en">Files with pending Metadata Write-back</s>
-                <s xml:lang="de">Dateien mit ungeschriebenen Metadaten</s>
-                <s xml:lang="nl">Bestanden met ongeschreven metadata</s>
+			<str resid="PTR_DBCORE_FILTER_PRESET_PENDINGWRITEBACK" desc="">
+				<s xml:lang="en">Files with pending Metadata Write-back</s>
+				<s xml:lang="de">Dateien mit ungeschriebenen Metadaten</s>
+				<s xml:lang="nl">Bestanden met ongeschreven metadata</s>
 				<s xml:lang="pt">Ficheiros com Metadados Pendentes de Gravação</s>
-                <s xml:lang="hr">Datoteke sa metapodacima koji čekaju na zapisivanje</s>
+				<s xml:lang="hr">Datoteke sa metapodacima koji čekaju na zapisivanje</s>
 				<s xml:lang="fr">Fichiers avec metadonnées à écrire</s>
 				<s xml:lang="fi">Tiedostot, joilla on kirjoittamatonta metadataa</s>
-                <s xml:lang="it">File con metadati in attesa di ri-scrittura</s>
-            </str>
+				<s xml:lang="it">File con metadati in attesa di ri-scrittura</s>
+			</str>
 
-            <str resid="PTR_DBCORE_FAVORITES_SET_DEFAULT" desc="">
+			<str resid="PTR_DBCORE_FAVORITES_SET_DEFAULT" desc="">
 				<!-- Name of the default favorite set -->
 				<s xml:lang="en">Favorites</s>
 				<s xml:lang="no">Favoritter</s>
@@ -1337,20 +1337,20 @@
 				<s xml:lang="fr">Historique des catégories</s>
 				<s xml:lang="it">Storico Categorie</s>
 			</str>
-            <str resid="PTR_DBCORE_FAVORITES_SET_APPLICATIONS" desc="">
-                <!-- Name of the default favorite set for applications -->
-                <s xml:lang="en">Applications</s>
-                <s xml:lang="no">Programmer</s>
-                <s xml:lang="de">Anwendungen</s>
+			<str resid="PTR_DBCORE_FAVORITES_SET_APPLICATIONS" desc="">
+				<!-- Name of the default favorite set for applications -->
+				<s xml:lang="en">Applications</s>
+				<s xml:lang="no">Programmer</s>
+				<s xml:lang="de">Anwendungen</s>
 				<s xml:lang="fi">Sovellukset</s>
-                <s xml:lang="nl">Applicaties</s>
+				<s xml:lang="nl">Applicaties</s>
 				<s xml:lang="pt">Aplicações</s>
 				<s xml:lang="hr">Aplikacije</s>
 				<s xml:lang="fr">Applications</s>
-                <s xml:lang="it">Applicazioni</s>
-            </str>
+				<s xml:lang="it">Applicazioni</s>
+			</str>
 
-            <!-- These strings are used for vriables and metadata, e.g. for pins, dots and other contents -->
+			<!-- These strings are used for vriables and metadata, e.g. for pins, dots and other contents -->
 			<!-- @Mario: CIMEngine5Resources -->
 			
 			<!-- Flags -->

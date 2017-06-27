@@ -7345,16 +7345,33 @@
             <caption xml:lang="it">Configura il Pannello Categorie</caption>
 
             <ctrl text="#l_info">
-                <c xml:lang="en" helptext="">You can configure the category panel to show up 6 additional category tabs.</c>
-                <c xml:lang="de" helptext="">Sie können das Kategorie-Panel um bis zu sechs weitere Reiter erweitern.</c>
-				<c xml:lang="fi" helptext=""></c>
-                <c xml:lang="nl" helptext="">U kunt in het categorie-paneel maximaal zes extra tabbladen tonen.</c>
-				<c xml:lang="pt" helptext="">Pode configurar o painel de categorias para mostrar até 6 separadores adicionais.</c>
-				<c xml:lang="no" helptext="">Du kan konfigurere kategori-panelet til å vise ytterligere 6 kategori-faner.</c>
-                <c xml:lang="it" helptext="">Si può configurare il Pannello categorie per mostrare fino a 6 tab categorie aggiuntive.</c>
+                <c xml:lang="en" helptext="">You can configure the category panel to show up 10 additional category tabs.</c>
+                <c xml:lang="de" helptext="">Sie können das Kategorie-Panel um bis zu 10 weitere Reiter erweitern.</c>
+                <c xml:lang="nl" helptext="">U kunt in het categorie-paneel maximaal 10 extra tabbladen tonen.</c>
+				<c xml:lang="pt" helptext="">Pode configurar o painel de categorias para mostrar até 10 separadores adicionais.</c>
+				<c xml:lang="no" helptext="">Du kan konfigurere kategori-panelet til å vise ytterligere 10 kategori-faner.</c>
+                <c xml:lang="it" helptext="">Si può configurare il Pannello categorie per mostrare fino a 10 tab categorie aggiuntive.</c>
             </ctrl>
 
-            <ctrl text="#l_check_tab1">
+			<ctrl text="#l_name">
+				<c xml:lang="en" helptext="">Name:</c>
+				<c xml:lang="de" helptext="">Name:</c>
+				<c xml:lang="nl" helptext="">Naam:</c>
+			</ctrl>
+
+			<ctrl text="#l_category">
+				<c xml:lang="en" helptext="">Category:</c>
+				<c xml:lang="de" helptext="">Kategorie:</c>
+				<c xml:lang="nl" helptext="">Categorie:</c>
+			</ctrl>
+
+			<ctrl text="#l_check_use_colors">
+				<c xml:lang="en" helptext="Display the name in the tab using the category text color.">Use category text color for tabs</c>
+				<c xml:lang="de" helptext="Den Reiter-Namen in der Kategorie-Textfarbe anzeigen">Kategorie-Textfarbe für die Reiter verwenden</c>
+				<c xml:lang="nl" helptext="Toon de naam van de tab in de kleur van de categorie.">Use category text color for tabs</c>
+			</ctrl>
+
+			<ctrl text="#l_check_tab1">
                 <c xml:lang="en" helptext="">Visible</c>
                 <c xml:lang="de" helptext="">Sichtbar</c>
 				<c xml:lang="fi" helptext="">Näkyvä</c>
