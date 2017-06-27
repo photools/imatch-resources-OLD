@@ -8444,6 +8444,7 @@
 			<cmd resid="ID_FILEWND_SHOWGROUPS_DIRECT_FILES_ONLY"  bmidx="11">
 				<c xml:lang="en" hotkey="" helptext="Show only the files directly assigned to the selected category. Don't include files in child categories.">Show only &amp;directly assigned files</c>
 				<c xml:lang="de" hotkey="" helptext="Zeige nur Dateien, die der ausgewählten Kategorie direkt zugewiesen wurden. Dateien in Kindkategorien nicht einschließen.">Nur &amp;direkt zugewiesene Dateien zeigen</c>
+				<c xml:lang="nl" hotkey="" helptext="Toon alleen de direct aan deze categorie toegewezen bestanden. Bestanden in subcategoriën niet tonen.">Toon alleen &amp;direct toegewezen bestanden</c>
 			</cmd>
 
 		</command_group>
