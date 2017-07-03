@@ -10483,7 +10483,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>Dubbele Applicatie ID ontdekt</cap>
-					<cont>De applicatiemanager heeft twee apps gevonden die dezelfde app ID hebben. Iedere App moet een unieke ID hebben.\r\n\r\n{0}\r\n{1}.</cont>
+					<cont>De applicatie manager heeft twee apps ontdekt die dezelfde appid hebben. Iedere app moet een unieke ID hebben.\r\n\r\n{0}\r\n{1}.</cont>
 				</m>
 			</msg>
 
@@ -10498,10 +10498,9 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>App sluiten</cap>
-					<cont>Deze app hheeft verzocht niet te worden gesloten door de gebruiker.\r\nHet geforceerd beëindigen van deze app kan problemen of gegevensverlies veroorzaken.\r\n\r\nWilt u desondanks de app sluiten?</cont>
+					<cont>Deze app heeft verzocht niet te worden gesloten door de gebruiker.\r\nHet geforceerd beëindigen van deze app kan problemen of gegevensverlies veroorzaken.\r\n\r\nWilt u desondanks de app sluiten?</cont>
 				</m>
 			</msg>
-
 		</message_group>
 
 
