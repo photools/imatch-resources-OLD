@@ -25697,6 +25697,23 @@
 				<group xml:lang="no"></group>
 			</property>
 
+
+			<property resid="objectproperties.timelinetree.invert" desc="">
+				<name xml:lang="en">Show current year on top</name>
+				<name xml:lang="de">Aktuelles Jahr zuerst</name>
+				<desc xml:lang="en">Change the year order, show current year on top.</desc>
+				<desc xml:lang="de">Anzeigereihenfolge umkehren. Zeige aktuelles Jahr zuerst.</desc>
+				<group xml:lang="en"></group>
+				<group xml:lang="de"></group>
+				<group xml:lang="nl"></group>
+				<group xml:lang="fi"></group>
+				<group xml:lang="pt"></group>
+				<group xml:lang="hr"></group>
+				<group xml:lang="it"></group>
+				<group xml:lang="no"></group>
+			</property>
+			
+
 		</property_group>
 
 		<property_group name="Timeline Node Properties" desc="Properties of nodes in the time line">
@@ -30840,7 +30857,13 @@
 				<desc xml:lang="pt">Lista de categorias nesta Regra de Atribuição. Pode editar esta lista para adicionar ou remover categorias. Insira um nome de categoria totalmente qualificado por linha, Ctrl+Enter para adicionar uma nova linha.</desc>
 				<desc xml:lang="hr">Popis kategorija u ovom prskaču. Možeš urediti ovaj popis dodavajući i uklanjajući kategorije. Unesi jedno potpuno kvalificirano ime kategorije po retku, pritisni Ctrl+Enter da bi dodao novi red.</desc>
 			</property>
-            
+
+			<property resid="favorites.app.target" desc="">
+				<name xml:lang="en">App Target</name>
+				<name xml:lang="de">App Ziel</name>
+				<desc xml:lang="en">Pick the preferred app panel to run this app in.</desc>
+				<desc xml:lang="de">Wählen Sie das bevorzugte App-Panel für diese App aus.</desc>
+			</property>
 
 		</property_group>
 
