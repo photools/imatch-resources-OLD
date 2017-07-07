@@ -25701,8 +25701,10 @@
 			<property resid="objectproperties.timelinetree.invert" desc="">
 				<name xml:lang="en">Show current year on top</name>
 				<name xml:lang="de">Aktuelles Jahr zuerst</name>
+				<name xml:lang="nl">Lopend jaar bovenaan</name>
 				<desc xml:lang="en">Change the year order, show current year on top.</desc>
 				<desc xml:lang="de">Anzeigereihenfolge umkehren. Zeige aktuelles Jahr zuerst.</desc>
+				<desc xml:lang="nl">Verander de volgorde van jaren, lopende jaar bovenaan.</desc>
 				<group xml:lang="en"></group>
 				<group xml:lang="de"></group>
 				<group xml:lang="nl"></group>
@@ -30861,8 +30863,10 @@
 			<property resid="favorites.app.target" desc="">
 				<name xml:lang="en">App Target</name>
 				<name xml:lang="de">App Ziel</name>
+				<name xml:lang="nl">App doel</name>
 				<desc xml:lang="en">Pick the preferred app panel to run this app in.</desc>
 				<desc xml:lang="de">Wählen Sie das bevorzugte App-Panel für diese App aus.</desc>
+				<desc xml:lang="nl">Kies het geprefereerde app panel voor deze app.</desc>
 			</property>
 
 		</property_group>
