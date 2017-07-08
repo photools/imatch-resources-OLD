@@ -5147,6 +5147,11 @@
 				<c xml:lang="pt" hotkey="" helptext="Corre alguns testes para ajudar a diagnosticar problemas WIC.">&amp;Diagnóstico WIC...</c>
             </cmd>
 		
+			<cmd resid="ID_HELP_LEARNING_CENTER" bmidx="12">
+				<c xml:lang="en" hotkey="" helptext="Open the IMatch Learning Center with free videos and tutorials.">The IMatch &amp;Learning Center (Online)...</c>
+				<c xml:lang="de" hotkey="" helptext="Das IMatch Learning Center mit kostenlosen Videos und Tutorials öffnen.">Das IMatch &amp;Learning Center (Online)...</c>
+			</cmd>
+			
 		</command_group>
 
 		<!-- Filter Commands -->
@@ -13834,13 +13839,13 @@
 				</name>
 				<item>ID_HELP_FINDER</item>
 				<item>ID_CONTEXT_HELP</item>
+				<item>ID_HELP_LEARNING_CENTER</item>
                 <item>ID_HELP_TUTORIAL</item>
-				<!--<item>CG_IDS_TIPOFTHEDAYMENU</item>-->
                 <separator/>
 				<item>ID_APP_ORDER</item>
+				<separator/>
 				<item>ID_APP_WWWHOME</item>
 				<item>ID_APP_WWWFORUM</item>
-				<!--<item>ID_APP_WWWWIKI</item>-->
 				<separator/>
 				<item>ID_APP_CHECKFORUPDATE</item>
 				<menu resid="IDM_HELP_SUPPORT_MENU">
@@ -14312,8 +14317,8 @@
 				</name>
 				<item>ID_HELP_FINDER</item>
 				<item>ID_CONTEXT_HELP</item>
+				<item>ID_HELP_LEARNING_CENTER</item>
                 <item>ID_HELP_TUTORIAL</item>
-				<!--<item>CG_IDS_TIPOFTHEDAYMENU</item>-->
 				<separator/>
 				<item>ID_APP_ORDER</item>
 				<item>ID_APP_WWWHOME</item>
