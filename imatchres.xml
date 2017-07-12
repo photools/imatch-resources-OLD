@@ -5150,6 +5150,7 @@
 			<cmd resid="ID_HELP_LEARNING_CENTER" bmidx="12">
 				<c xml:lang="en" hotkey="" helptext="Open the IMatch Learning Center with free videos and tutorials.">The IMatch &amp;Learning Center (Online)...</c>
 				<c xml:lang="de" hotkey="" helptext="Das IMatch Learning Center mit kostenlosen Videos und Tutorials öffnen.">Das IMatch &amp;Learning Center (Online)...</c>
+				<c xml:lang="nl" hotkey="" helptext="Open het IMatch Learning Center met gratis videos en tutotials.">Het IMatch &amp;Learning Center (Online)...</c>
 			</cmd>
 			
 		</command_group>
