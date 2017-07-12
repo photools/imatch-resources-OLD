@@ -34398,7 +34398,7 @@
             <property resid="config.md.xmp.allowcreate" desc="">
                 <name xml:lang="en">Allow to create XMP files (disabled)</name>
                 <name xml:lang="no">Lar deg lage XMP-filer</name>
-                <name xml:lang="de">XMP-Daten können erstellt werden (deaktiviert)</name>
+                <name xml:lang="de">XMP-Dateien können erstellt werden (deaktiviert)</name>
 				<name xml:lang="fi">Salli luoda XMP-tiedostoja</name>
                 <name xml:lang="nl">XMP-Data mogen gecreëerd worden</name>
 				<name xml:lang="pt">Permitir criação de ficheiros XMP</name>

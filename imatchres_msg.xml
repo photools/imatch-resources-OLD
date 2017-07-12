@@ -8997,7 +8997,7 @@
 				</m>
 				<m xml:lang="de">
 					<cap>Komplexes Tag</cap>
-					<cont>Dieses Tag wird ist ein komplexer Datebtyp oder eine Struktur. Sie können nicht in das Tag als Ganzes schreiben, Sie müssen die einzelnen Elemente separat schreiben.</cont>
+					<cont>Dieses Tag ist ein komplexer Datentyp oder eine Struktur. Sie können nicht in das Tag als Ganzes schreiben, Sie müssen die einzelnen Elemente separat aktualisieren.</cont>
 				</m>
 				<m xml:lang="nl">
 					<cap>Complexe tag</cap>

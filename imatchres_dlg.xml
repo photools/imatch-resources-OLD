@@ -18689,13 +18689,8 @@
                     <t xml:lang="it">Secondi in formato SS (00-59)</t>
                 </td>
                 <td tid="2250">
-                    <t xml:lang="en">1/100 Second in SS Format (00-99)</t>
-                    <t xml:lang="de">1/100 Sekunde im SS Format (00-99)</t>
-                    <t xml:lang="nl">1/100 Seconde in SS formaat (00-59)</t>
-					<t xml:lang="pt">1/100 de Segundo no Formato SS (00-99)</t>
-					<t xml:lang="fi">1/100 sekuntia SS formaatissa(00-99)</t>
-					<t xml:lang="no">1/100 sekunder i SS format (00-99)</t>
-                    <t xml:lang="it">1/100 Secondo in formato SS (00-99)</t>
+                    <t xml:lang="en">Sub-seconds in SSS Format (00-999)</t>
+                    <t xml:lang="de">Sekundenbruchteile im SSS Format (00-999)</t>
                 </td>
                 <td tid="2260">
                     <t xml:lang="en">AM/PM Indicator</t>
