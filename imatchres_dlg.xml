@@ -18705,7 +18705,7 @@
 				<td tid="2270">
 					<t xml:lang="en">Day Sequence Number (File Time, resets to 1 when the day changes)</t>
 					<t xml:lang="de">Tages-Sequenznummer (Datei-Zeitstempel, Rückstellung auf 1 bei Tageswechel)</t>
-					<t xml:lang="nL">Dagvolgorde nummer (Bestands-tijdstempel, wordt terug gegzet naar 1 als de dag wijzigt)</t>
+					<t xml:lang="nL">Dagvolgorde nummer (Bestands-tijdstempel, wordt terug gezet naar 1 als de dag wijzigt)</t>
 				</td>
 
 				<td tid="3000">
