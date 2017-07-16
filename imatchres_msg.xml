@@ -2708,7 +2708,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>Ongeldige databaseversie.</cap>
-					<cont>De database was gecreëerd of geüpdate door een nieuwere IMatch-versie en kan niet met deze versie van IMatch worden geopend.\r\n\r\nInstalleer aub de laatste versie van IMatch.</cont>
+					<cont>De database was gecreëerd of geüpdate door een nieuwere IMatch-versie en kan niet langer met deze versie van IMatch worden geopend.\r\n\r\nInstalleer aub de laatste versie van IMatch.</cont>
 					<inf></inf>
 				</m>
 				<m xml:lang="pt">
@@ -2745,7 +2745,7 @@
 					<ftr typeid="[[TD_INFORMATION_ICON]]">Falls Sie gerade ein IMatch-Update installiert haben, ist diese Meldung normal.</ftr>
 				</m>
 				<m xml:lang="nl">
-					<cap>Database moet worden geüpgrade.</cap>
+					<cap>De database moet worden geüpgrade.</cap>
 					<cont>Deze database is gecreëerd met een oudere versie van IMatch en moet worden geüpgrade om met de huidige versie te kunnen werken.\r\n\r\nNa deze upgrade, kan de database niet langer gebruikt worden met oudere IMatch- of IMatch Anywhere versies. U kunt in voorkomend geval wel een veiligheidskopie van uw database maken. \r\n\r\nWilt u de database nu openen en upgraden?</cont>
 					<ftr typeid="[[TD_INFORMATION_ICON]]">Als u zojuist een IMatch-update heeft geïnstalleerd, is deze melding normaal.</ftr>
 				</m>
@@ -2770,7 +2770,7 @@
                 </m>
                 <m xml:lang="nl">
                     <cap>Bestanden afwijzen</cap>
-                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>U hebt in uw instellingen aangegeven bestanden <Italic>af te keuren</Italic> als u de <Bold>Del</Bold>-toets indrukt. Om de afkeuring te verwijderen, druk nogmaals <Bold>Del</Bold>. Om het bestand te verwijderen, druk <Bold>Ctrl+Del</Bold>.<LineBreak/><LineBreak/>U kunt deze instellingen veranderen via <Italic>Bewerken > Voorkeuren > Applicatie</Italic>.</TextBlock>]]></cont>
+                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>U hebt in uw instellingen bepaald dat bestanden worden <Italic>afgekeurd</Italic> als u de <Bold>Del</Bold>-toets indrukt. Om de afkeuring te verwijderen, druk nogmaals <Bold>Del</Bold>. Om het bestand te verwijderen, druk <Bold>Ctrl+Del</Bold>.<LineBreak/><LineBreak/>U kunt deze instellingen aanpassen via <Italic>Bewerken > Voorkeuren > Applicatie</Italic>.</TextBlock>]]></cont>
                     <ver>Niet meer tonen</ver>
                 </m>
 				<m xml:lang="pt">
