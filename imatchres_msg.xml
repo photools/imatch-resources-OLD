@@ -2728,8 +2728,8 @@
 					<inf></inf>
 				</m>
 				<m xml:lang="nl">
-					<cap>Database moet worden geüpgrade.</cap>
-					<cont>Deze database is gecreëerd door een oudere versie van IMatch version en moet worden geüpgrade om met de huidige versie te kunnen werken.\r\n\r\nIMatch kan dat niet doen als de databse is geopend in "alleen lezen" mode. Open aub de database in "schrijf" mode of vraag uw Administrator.\r\n\r\nNOTE: De testversie van IMatch opent databses die ouder zijn dan 30 dagen altijd in de "alleen-lezen" mode. Zij kan niet worden gebruikt om oude databses te upgraden. U kun een nieuwe databse creëren voor testdoeleinden.</cont>
+					<cap>De database moet worden geüpgrade.</cap>
+					<cont>Deze database is gecreëerd met een oudere versie van IMatch en moet worden geüpgrade om met de huidige versie te kunnen werken.\r\n\r\nIMatch kan dat niet doen als de database is geopend in "alleen lezen" modus. Open aub de database in "schrijf" modus of vraag uw Administrator.\r\n\r\nNOTE: De testversie van IMatch opent databases die ouder zijn dan 30 dagen altijd in de "alleen-lezen" mode. De testversie kan niet worden gebruikt om oude databases te upgraden. U kun wèl een nieuwe database creëren voor testdoeleinden.</cont>
 				</m>
 			</msg>
 
@@ -2746,7 +2746,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>Database moet worden geüpgrade.</cap>
-					<cont>Deze database is gecreëerd door een oudere versie van IMatch version en moet worden geüpgrade om met de huidige versie te kunnen werken.\r\n\r\nNa deze upgarde, kan de database niet langer gebruikt worden met oudere IMatch- of IMatch Anywhere versies. U kunt in voorkomend geval wel een veiligheidskopie van uw database maken. \r\n\r\nWilt u de database nu openen en upgraden?</cont>
+					<cont>Deze database is gecreëerd met een oudere versie van IMatch en moet worden geüpgrade om met de huidige versie te kunnen werken.\r\n\r\nNa deze upgrade, kan de database niet langer gebruikt worden met oudere IMatch- of IMatch Anywhere versies. U kunt in voorkomend geval wel een veiligheidskopie van uw database maken. \r\n\r\nWilt u de database nu openen en upgraden?</cont>
 					<ftr typeid="[[TD_INFORMATION_ICON]]">Als u zojuist een IMatch-update heeft geïnstalleerd, is deze melding normaal.</ftr>
 				</m>
 			</msg>
@@ -8997,11 +8997,11 @@
 				</m>
 				<m xml:lang="de">
 					<cap>Komplexes Tag</cap>
-					<cont>Dieses Tag ist ein komplexer Datentyp oder eine Struktur. Sie können nicht in das Tag als Ganzes schreiben, Sie müssen die einzelnen Elemente separat aktualisieren.</cont>
+					<cont>Dieses Tag wird ist ein komplexer Datentyp oder eine Struktur. Sie können nicht in das Tag als Ganzes schreiben, Sie müssen die einzelnen Elemente separat schreiben.</cont>
 				</m>
 				<m xml:lang="nl">
 					<cap>Complexe tag</cap>
-					<cont>Deze tag is gestructureerd of complex. U kunt deze tag niet direct wijzigen, maar  moet de individuële elementen separaat wijzigen.</cont>
+					<cont>Deze tag is gestructureerd of complex. U kunt deze tag niet direct wijzigen, maar u moet de individuële elementen separaat wijzigen.</cont>
 				</m>
 			</msg>
 
