@@ -30877,22 +30877,27 @@
 					<choice data="0" default="true">
 						<c xml:lang="en">Automatically select panel</c>
 						<c xml:lang="de">Panel automatisch auswählen</c>
+						<c xml:lang="nl">Paneel automatisch kiezen</c>
 					</choice>
 					<choice data="1">
 						<c xml:lang="en">App Panel 1</c>
 						<c xml:lang="de">App-Panel 1</c>
+						<c xml:lang="nl">App paneel 1</c>
 					</choice>
 					<choice data="2">
 						<c xml:lang="en">App Panel 2</c>
 						<c xml:lang="de">App-Panel 2</c>
+						<c xml:lang="nl">App paneel 2</c>
 					</choice>
 					<choice data="3">
 						<c xml:lang="en">App Panel 3</c>
 						<c xml:lang="de">App-Panel 3</c>
+						<c xml:lang="nl">App paneel 3</c>
 					</choice>
 					<choice data="4">
 						<c xml:lang="en">App Panel 4</c>
 						<c xml:lang="de">App-Panel 4</c>
+						<c xml:lang="nl">App paneel 4</c>
 					</choice>
 				</choices>
 			</property>
