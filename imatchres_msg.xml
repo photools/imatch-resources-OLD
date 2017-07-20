@@ -1699,7 +1699,7 @@
 					<cont><![CDATA[<TextBlock TextWrapping='Wrap'>Möchten Sie eine Sicherung durchführen, nachdem IMatch geschlossen wurde?<LineBreak/><LineBreak/>IMatch startet dann automatisch <Bold>IMatch Pack &amp; Go</Bold>. Diese Anwendung ermöglicht Ihnen ein einfaches Sichern Ihrer Datenbank(en), Einstellungen, Skripte, Vorlagen, Apps und anderer wichtiger IMatch-Dateien.<LineBreak/><LineBreak/><Bold>Hinweis:</Bold> Sie können die Backup Erinnerung unter Bearbeiten > Einstellungen > Anwendung konfigurieren.</TextBlock>]]></cont>
 					<button btnid="1001">Sicherung durchführen</button>
 					<button btnid="1002">Sicherung überspringen.\nJetzt nicht sichern, aber mich nach der nächsten IMatch-Sitzung erinnern.</button>
-					<button btnid="1003">Sicherung bis zum nächsten Sicherungszeitpunkt.\nJetzt nicht sichern und den nächsten regulären Sicherungszeitpunkt abwarten.</button>
+					<button btnid="1003">Sicherung am nächsten Sicherungszeitpunkt.\nJetzt nicht sichern und den nächsten regulären Sicherungszeitpunkt abwarten.</button>
 				</m>
 					<m xml:lang="fi">
 					<cap>Muistutus varmuuskopionnista</cap>

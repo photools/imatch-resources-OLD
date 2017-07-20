@@ -30873,6 +30873,28 @@
 				<desc xml:lang="en">Pick the preferred app panel to run this app in.</desc>
 				<desc xml:lang="de">Wählen Sie das bevorzugte App-Panel für diese App aus.</desc>
 				<desc xml:lang="nl">Kies het geprefereerde app panel voor deze app.</desc>
+				<choices>
+					<choice data="0" default="true">
+						<c xml:lang="en">Automatically select panel</c>
+						<c xml:lang="de">Panel automatisch auswählen</c>
+					</choice>
+					<choice data="1">
+						<c xml:lang="en">App Panel 1</c>
+						<c xml:lang="de">App-Panel 1</c>
+					</choice>
+					<choice data="2">
+						<c xml:lang="en">App Panel 1</c>
+						<c xml:lang="de">App-Panel 1</c>
+					</choice>
+					<choice data="3">
+						<c xml:lang="en">App Panel 1</c>
+						<c xml:lang="de">App-Panel 1</c>
+					</choice>
+					<choice data="4">
+						<c xml:lang="en">App Panel 1</c>
+						<c xml:lang="de">App-Panel 1</c>
+					</choice>
+				</choices>
 			</property>
 
 		</property_group>
