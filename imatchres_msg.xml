@@ -10498,7 +10498,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>App sluiten</cap>
-					<cont>Deze app heeft verzocht niet te worden gesloten door de gebruiker.\r\nHet geforceerd beëindigen van deze app kan problemen of gegevensverlies veroorzaken.\r\n\r\nWilt u desondanks de app sluiten?</cont>
+					<cont>Deze app heeft verzocht niet te worden gesloten door de gebruiker.\r\nHet geforceerd beëindigen van deze app kan problemen of zelfs gegevensverlies veroorzaken.\r\n\r\nWilt u de app desondanks sluiten?</cont>
 				</m>
 			</msg>
 		</message_group>
