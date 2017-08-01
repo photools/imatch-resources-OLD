@@ -11477,14 +11477,17 @@
 			<ctrl text="#l_variable">
 				<c xml:lang="en" helptext="Find versions by comparing master and version variables.">Limit by &amp;Variables:</c>
 				<c xml:lang="de" helptext="Findet Versionen durch Vergleichen von Variablen der Haupt- und Versionsdateien.">Mit &amp;Variablen einschränken:</c>
+				<c xml:lang="nl" helptext="Vindt versies door variabelen van master en versie(-s) te vergelijken.">Limit by &amp;Variables:</c>
 			</ctrl>
 			<ctrl text="#l_variable_master">
 				<c xml:lang="en" helptext="Enter a standard IMatch variable expression or a literal.">Mas&amp;ter Expression:</c>
 				<c xml:lang="de" helptext="Geben Sie einen IMatch Variablenausdruck oder ein Literal ein">Haup&amp;tdateiausdruck:</c>
+				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking of een letterlijke tekst in.">Mas&amp;ter Expression:</c>
 			</ctrl>
 			<ctrl text="#l_variable_file">
 				<c xml:lang="en" helptext="Enter a standard IMatch variable expression.">Versio&amp;n Expression:</c>
 				<c xml:lang="de" helptext="Geben Sie einen IMatch Variablenausdruck ein.">Versio&amp;nsausdruck:</c>
+				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking in.">Versio&amp;n Expression:</c>				
 			</ctrl>
 
 			<ctrl text="#l_s">
@@ -11668,54 +11671,67 @@
 				<ld listid="0">
 					<l xml:lang="en">Not used</l>
 					<l xml:lang="de">Nicht verwendet</l>
+					<l xml:lang="nl">Niet gebruikt</l>
 				</ld>
 				<ld listid="10">
 					<l xml:lang="en">= (case-sensitive)</l>
 					<l xml:lang="de">= (Groß-/Kleinschreibung beachten)</l>
+					<l xml:lang="nl">= (Hoofdlettergevoelig)</l>					
 				</ld>
 				<ld listid="11">
 					<l xml:lang="en">=</l>
 					<l xml:lang="de">=</l>
+					<l xml:lang="nl">=</l>					
 				</ld>
 				<ld listid="20">
 					<l xml:lang="en">&lt;&gt; case-sensitive)</l>
 					<l xml:lang="de">&lt;&gt; (Groß-/Kleinschreibung beachten)</l>
+					<l xml:lang="nl">= (Hoofdlettergevoelig)</l>						
 				</ld>
-				<ld listid="20">
+				<ld listid="21">
 					<l xml:lang="en">&lt;&gt;</l>
 					<l xml:lang="de">&lt;&gt;</l>
+					<l xml:lang="nl">&lt;&gt;</l>
 				</ld>
 				<ld listid="30">
 					<l xml:lang="en">&lt;</l>
 					<l xml:lang="de">&lt;</l>
+					<l xml:lang="nl">&lt;</l>
 				</ld>
 				<ld listid="40">
 					<l xml:lang="en">&lt;=</l>
 					<l xml:lang="de">&lt;=</l>
+					<l xml:lang="nl">&lt;</l>
 				</ld>
 				<ld listid="50">
 					<l xml:lang="en">&gt;</l>
 					<l xml:lang="de">&gt;</l>
+					<l xml:lang="nl">&lt;</l>					
 				</ld>
 				<ld listid="60">
 					<l xml:lang="en">&gt;=</l>
 					<l xml:lang="de">&gt;=</l>
+					<l xml:lang="nl">&lt;</l>						
 				</ld>
 				<ld listid="100">
 					<l xml:lang="en">Regular Expression = (case-sensitive)</l>
 					<l xml:lang="de">Regulärer Ausdruck = (Groß-/Kleinschreibung beachten)</l>
+					<l xml:lang="nl">Reguliere uitdrukking = (Hoofdlettergevoelig)</l>
 				</ld>
 				<ld listid="110">
 					<l xml:lang="en">Regular Expression &lt;&gt; (case-sensitive)</l>
 					<l xml:lang="de">Regulärer Ausdruck &lt;&gt; (Groß-/Kleinschreibung beachten)</l>
+					<l xml:lang="nl">Reguliere uitdrukking &lt;&gt; (Hoofdlettergevoelig)</l>
 				</ld>
 				<ld listid="120">
 					<l xml:lang="en">Regular Expression =</l>
 					<l xml:lang="de">Regulärer Ausdruck =</l>
+					<l xml:lang="nl">Reguliere uitdrukking =</l>
 				</ld>
 				<ld listid="130">
 					<l xml:lang="en">Regular Expression &lt;&gt;</l>
 					<l xml:lang="de">Regulärer Ausdruck &lt;&gt;</l>
+					<l xml:lang="nl">Reguliere uitdrukking &lt;&gt;</l>
 				</ld>
 			</listdata>
 

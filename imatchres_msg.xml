@@ -9920,28 +9920,29 @@
 				<m xml:lang="en">
 					<cap>IMatch says Hello!</cap>
 					<cont>This is the first time you have run IMatch. To get started, IMatch needs to create a database which later holds all the information about your files. After the database has been created, you can show IMatch the files you want to manage.</cont>
-					<button btnid="1005">Watch free IMatch Video Tutorials\nThis opens the IMatch Learning Center web site in your web browser.</button>
 					<button btnid="1001">Create Your Database\nRun the Database Wizard which guides you through the database creation process.</button>
 					<button btnid="1002">Import IMatch 3 Database\nThis command imports an IMatch database (3.5 and later) into the current IMatch format.</button>
                     <button btnid="1003">Open the Help System\nThis brings up the extensive IMatch Help system with information for new users.</button>
 					<button btnid="1004">Close this dialog\nChoose this if you prefer to work on your own</button>
+					<button btnid="1005">Watch free IMatch Video Tutorials\nThis opens the IMatch Learning Center web site in your web browser.</button>					
 				</m>
 				<m xml:lang="de">
 					<cap>IMatch sagt Hallo!</cap>
 					<cont>Dies ist das erste Mal, dass Sie IMatch ausführen. IMatch erstellt nun eine Datenbank, die später alle Informationen zu Ihren Dateien speichert. Wenn dieser Vorhang abgechlossen ist, können Sie IMatch die Dateien zeigen, die Sie verwalten möchten.</cont>
-					<button btnid="1005">Kostenlose Video-Trainings für IMatch\nDiese Option öffnet das IMatch Learning Center in Ihrem Webbrowser.</button>
 					<button btnid="1001">Ihre Datenbank erstellen\nDiese Option startet den Datenbankassistenten.</button>
 					<button btnid="1002">IMatch 3 Datenbank importieren\nDiese Option importiert eine IMatch-Datenbank (3.5 und höher) in das aktuelle IMatch Format.</button>
                     <button btnid="1003">Das Hilfesystem öffnen\nÖffnet die IMatch-Hilfe mit Informationen für neue Anwender.</button>
 					<button btnid="1004">Diesen Dialog schließen\nWählen Sie diese Option, wenn Sie selbständig arbeiten möchten.</button>
+					<button btnid="1005">Kostenlose Video-Trainings für IMatch\nDiese Option öffnet das IMatch Learning Center in Ihrem Webbrowser.</button>					
 				</m>
 				<m xml:lang="nl">
 					<cap>IMatch zegt Hallo!</cap>
 					<cont>Dit is de eerste keer dat u IMatch start. IMatch creëert nu een database die later alle informatie over uw bestanden bevat. Nadat de database gecreëerd is, kunt u IMatch de data die u wit beheren, tonen.</cont>
-                    <button btnid="1001">Creëer de database\nDeze optie opent de database-wizard.</button>
+                    <button btnid="1001">Creëer de database\nDeze optie start de database-wizard die u door het proces zal leiden om een nieuwe database aan te maken.</button>
 					<button btnid="1002">Import IMatch 3 Database\nDeze optie importeert een IMatch database (3.5 en later) in het IMatch formaat.</button>
                     <button btnid="1003">Het Helpsysteem openen\nU opent het het uitgebreide IMatch Helpsysteem voor nieuwe gebruikers.</button>
 					<button btnid="1004">Dialoog sluiten\nKies deze optie indien u zelfstandig verder wilt werken.</button>
+					<button btnid="1005">Bekijk de gratis IMatch Video's\nHiermee opent u de website van het IMatch Learning Center in uw webbrowser.</button>
 				</m>
 				<m xml:lang="hr">
 					<cap>Pozdrav od IMatch-a!</cap>
