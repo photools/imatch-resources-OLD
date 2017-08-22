@@ -18833,7 +18833,7 @@
 			<property resid="app.ui.browserscale" desc="">
 				<name xml:lang="en">App Panel Scale</name>
 				<name xml:lang="de">App-Panel Skalierung</name>
-				<name xml:lang="nl">Scahaal van het App-paneel</name>
+				<name xml:lang="nl">Schaal van het App-paneel</name>
 				<group xml:lang="en">User Interface</group>
 				<group xml:lang="de">Benutzerschnittstelle</group>
 				<group xml:lang="fi">Käyttöliittymä</group>
