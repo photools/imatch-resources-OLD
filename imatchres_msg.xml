@@ -220,13 +220,13 @@
                 <cap>Critical Error</cap>
                     <cont><![CDATA[<TextBlock TextWrapping="NoWrap">An error occured while attempting to open the global settings database:<LineBreak/><LineBreak/><Bold>{0}</Bold><LineBreak/><LineBreak/>IMatch cannot continue. Check the application log file for additional information.</TextBlock>]]></cont>
                     <ftr></ftr>
-                    <inf>Most likely there is a problem with Windows security and the file cannot be written by the current user. Please check the security settings of the file in Windows Explorer and make sure every user has write access to that file. If this does not help, restore the file from your last backup or delete it so IMatch can start with a fresh settings database. TIP: IMatch retains a backup copy of the last version of the file in the file named 'imatch5.pts.bak'.</inf>
+                    <inf>Most likely there is a problem with Windows security and the file cannot be written by the current user. Please check the security settings of the file in Windows Explorer and make sure every user has write access to that file. If this does not help, restore the file from your last backup or the last-known-good copy in '{1}'. Or delete it so IMatch can start with a fresh settings database.</inf>
                 </m>
                 <m xml:lang="de">
                     <cap>Kritischer Fehler</cap>
                     <cont><![CDATA[<TextBlock TextWrapping="NoWrap">Fehler beim Schreiben der globalen Konfigurationsdatei:<LineBreak/><LineBreak/><Bold>{0}</Bold><LineBreak/><LineBreak/>IMatch kann nicht fortfahren. Die IMatch-Protokolldatei enthält weiterführende Informationen.</TextBlock>]]></cont>
                     <ftr></ftr>
-                    <inf>Dieser Fehler wurde vermutlich durch fehlerhafte Sicherheitseinstellungen der Datei verursacht. Prüfen Sie die Zugriffsrechte dieser Datei im Windows Explorer und stellen Sie sicher, dass alle Benutzer Schreibrechte für diese Datei besitzen. Wenn das nicht hilft, stellen Sie die Datei von Ihrem letzen Backup wieder her, oder löschen Sie die Datei damit IMatch sie mit Standardeinstellungen neu erstellen kann. TIP: IUMatch speichert eine Sicherungskopie der jeweils letzten Version dieser Datei in "imatch5.pts.bak".</inf>
+                    <inf>Dieser Fehler wurde vermutlich durch fehlerhafte Sicherheitseinstellungen der Datei verursacht. Prüfen Sie die Zugriffsrechte dieser Datei im Windows Explorer und stellen Sie sicher, dass alle Benutzer Schreibrechte für diese Datei besitzen. Wenn das nicht hilft, stellen Sie die Datei von Ihrem letzen Backup oder der Datei '{1}' wieder her, oder löschen Sie die Datei damit IMatch sie mit Standardeinstellungen neu erstellen kann.</inf>
                 </m>
                 <m xml:lang="nl">
                     <cap>Ernstige fout</cap>
@@ -1406,11 +1406,11 @@
             <msg resid="PTR_MSG_APP_UPDATECHECK_FAILED" typeid="[[TD_ERROR_ICON]]" desc="">
                 <m xml:lang="en">
                     <cap>Update Check failed</cap>
-                    <cont>IMatch could not establish a connection with the update server. Please check your Internet connection and firewall settings.</cont>
+                    <cont>IMatch could not establish a connection with the update server. Please check your Internet connection and firewall settings.\r\n\r\nTip: Use the customer portal at https://www.photools.com to check for updates manually.</cont>
                 </m>
                 <m xml:lang="de">
                     <cap>Update-Prüfung fehlgeschlagen</cap>
-                    <cont>IMatch kann keine Verbindung zum Update-Server herstellen. Bitte prüfen Sie Ihre Internetverbindung und Firewall-Einstellungen.</cont>
+                    <cont>IMatch kann keine Verbindung zum Update-Server herstellen. Bitte prüfen Sie Ihre Internetverbindung und Firewall-Einstellungen.\r\n\r\nTipp: Nutzen Sie das Kundenportal auf https://www.photools.com um selbst nach Updates zu suchen.</cont>
                 </m>
 				<m xml:lang="fi">
                     <cap>Päivitystarkastus ei onnistunut</cap>
@@ -9922,7 +9922,6 @@
 					<cont>This is the first time you have run IMatch. To get started, IMatch needs to create a database which later holds all the information about your files. After the database has been created, you can show IMatch the files you want to manage.</cont>
 					<button btnid="1005">Watch free IMatch Video Tutorials\nThis opens the IMatch Learning Center web site in your web browser.</button>
 					<button btnid="1001">Create Your Database\nRun the Database Wizard which guides you through the database creation process.</button>
-					<button btnid="1002">Import IMatch 3 Database\nThis command imports an IMatch database (3.5 and later) into the current IMatch format.</button>
                     <button btnid="1003">Open the Help System\nThis brings up the extensive IMatch Help system with information for new users.</button>
 					<button btnid="1004">Close this dialog\nChoose this if you prefer to work on your own</button>
 				</m>
@@ -9931,7 +9930,6 @@
 					<cont>Dies ist das erste Mal, dass Sie IMatch ausführen. IMatch erstellt nun eine Datenbank, die später alle Informationen zu Ihren Dateien speichert. Wenn dieser Vorhang abgechlossen ist, können Sie IMatch die Dateien zeigen, die Sie verwalten möchten.</cont>
 					<button btnid="1005">Kostenlose Video-Trainings für IMatch\nDiese Option öffnet das IMatch Learning Center in Ihrem Webbrowser.</button>
 					<button btnid="1001">Ihre Datenbank erstellen\nDiese Option startet den Datenbankassistenten.</button>
-					<button btnid="1002">IMatch 3 Datenbank importieren\nDiese Option importiert eine IMatch-Datenbank (3.5 und höher) in das aktuelle IMatch Format.</button>
                     <button btnid="1003">Das Hilfesystem öffnen\nÖffnet die IMatch-Hilfe mit Informationen für neue Anwender.</button>
 					<button btnid="1004">Diesen Dialog schließen\nWählen Sie diese Option, wenn Sie selbständig arbeiten möchten.</button>
 				</m>
@@ -9939,7 +9937,6 @@
 					<cap>IMatch zegt Hallo!</cap>
 					<cont>Dit is de eerste keer dat u IMatch start. IMatch creëert nu een database die later alle informatie over uw bestanden bevat. Nadat de database gecreëerd is, kunt u IMatch de data die u wit beheren, tonen.</cont>
                     <button btnid="1001">Creëer de database\nDeze optie opent de database-wizard.</button>
-					<button btnid="1002">Import IMatch 3 Database\nDeze optie importeert een IMatch database (3.5 en later) in het IMatch formaat.</button>
                     <button btnid="1003">Het Helpsysteem openen\nU opent het het uitgebreide IMatch Helpsysteem voor nieuwe gebruikers.</button>
 					<button btnid="1004">Dialoog sluiten\nKies deze optie indien u zelfstandig verder wilt werken.</button>
 				</m>
@@ -9947,7 +9944,6 @@
 					<cap>Pozdrav od IMatch-a!</cap>
 					<cont>Ovo je prvi put da si pokrenuo IMatch. Za početak, IMatch mora stvoriti bazu podataka koja će sadržavati sve podatke o tvojim datotekama. Nakon što je baza podataka stvorena, možeš pokazati IMatch-u datoteke kojima želiš upravljati.</cont>
                     <button btnid="1001">Stvori bazu podataka\nOtvara čarobnjaka za bazu podataka koji te vodi kroz proces stvaranja baze podataka.</button>
-					<button btnid="1002">Uvezi IMatch 3 bazu podataka\nUvozi IMatch bazu podataka (verzija 3.5 i novije) u IMatch format.</button>
                     <button btnid="1003">Otvori sistem za pomoć\nOtvara izdašni IMatch sistem za pomoč sa informacijama za nove korisnike.</button>
 					<button btnid="1004">Zatvori dijaloški okvir\nIzaberi ovo ako preferiraš raditi sve sam</button>
 				</m>
@@ -9955,7 +9951,6 @@
 					<cap>IMatch tervehtii!</cap>
 					<cont>Tämä on ensimmäinen kerta, kun käynnistät IMatchin. Aluksi täytyy luoda tietokanta, joka myöhemmin tulee sisältämään kaiken tiedostoihisi liittyvän tiedon. Kun tietokanta on luotu, voit kertoa IMatchille, mitkä tiedostot haluat sillä hallita.</cont>
                     <button btnid="1001">Luo tietokanta\nTämä vaihtoehto avaa ohjatun toiminnon, joka johtaa sinut läpi tietokannan luomisprosessin.</button>
-					<button btnid="1002">Tuo IMatch 3 tietokanta\nTämä vaihtoehto muuntaa vanhan IMatch (3.5 tai uudemman) tietokannan IMatch muotoon.</button>
                     <button btnid="1003">Avaa ohje\nTämä avaa IMatch ohjeen, joka sisältää tietoa uusille käyttäjille.</button>
 					<button btnid="1004">Sulje tämä valikko\nValitse tämä, jos haluat toimia itsenäisesti.</button>
 				</m>
@@ -9963,7 +9958,6 @@
 					<cap>IMatch dice Ciao!</cap>
 					<cont>Questa è la prima volta che si esegue IMatch. Per iniziare, IMatch ha bisogno di creare un database che detiene tutte le informazioni sui tuoi file. Dopo aver creato il database, è possibile mostrare a IMatch i file che si desidera gestire.</cont>
                     <button btnid="1001">Crea il Database\nQuesta opzione apre la creazione guidata che ti guida attraverso il processo di creazione del database.</button>
-					<button btnid="1002">Importa Database IMatch 3\nQuesto comando importa un database IMatch (3.5 e versioni successive) in formato IMatch.</button>
                     <button btnid="1003">Aprire la guida\nQuesto fa apparire il vasto sistema di aiuto di IMatch con informazioni per i nuovi utenti.</button>
 					<button btnid="1004">Chiudere questo dialogo\nScegli questo se preferisci lavorare in proprio</button>
 				</m>
@@ -9971,11 +9965,12 @@
 					<cap>O IMatch diz Olá!</cap>
 					<cont>Esta é a primeira vez que está a correr o IMatch. Para iniciar, o IMatch necessita de criar uma base de dados que mais tarde irá suportar todas as informações dos seus ficheiros. Após haver criado a base de dados, pode juntar ao IMatch os ficheiros que deseja gerir.</cont>
                     <button btnid="1001">Cria a base de dados\nEsta opção abre a criação guiada da base de dados que o irá ajudar através de todo o processo.</button>
-					<button btnid="1002">Importa a base de dados do IMatch 3\nEste comando importa uma base de dados do IMatch (3.5 e versões posteriores) no formato do IMatch.</button>
                     <button btnid="1003">Abre a ajuda\nFaz aparecer o vasto sistema de ajuda do IMatch com informações relevantes para os novos utilizadores.</button>
 					<button btnid="1004">Fechar esta caixa de diálogo\nEscolher esta opção se pretender trabalhar por si próprio</button>
 				</m>
 			</msg>
+			
+			
 		</message_group>
 
 		<!-- Printing -->

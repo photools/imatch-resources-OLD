@@ -12215,7 +12215,12 @@
 				<c xml:lang="pt" helptext="Active esta opção de forma a ter a certeza que o valor deste atributo é único entre todos os registos.">Deve ser ú&amp;nico</c>
             </ctrl>
 
-            <ctrl text="#l_btn_attr_up">
+			<ctrl text="#l_check_hidden">
+				<c xml:lang="en" helptext="Enable this to hide this Attribute Set in the Attribute Panel.">&amp;Hidden Set</c>
+				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um dieses Set im Attribute-Panel zu verbergen.">&amp;Verborgenes Set</c>
+			</ctrl>
+
+			<ctrl text="#l_btn_attr_up">
                 <c xml:lang="en" helptext="">U&amp;p</c>
                 <c xml:lang="de" helptext="">Nach &amp;oben</c>
                 <c xml:lang="nl" helptext="">Naar b&amp;oven</c>
