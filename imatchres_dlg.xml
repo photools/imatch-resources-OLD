@@ -11473,7 +11473,23 @@
 				<c xml:lang="no" helptext="Trykk på denne knappen for å teste uttrykk.">Test Uttr&amp;ykk...</c>
 				<c xml:lang="it" helptext="Fai click su questo pulsante per testare l'espressione.">Test E&amp;spressione...</c>
 			</ctrl>
-			
+
+			<ctrl text="#l_variable">
+				<c xml:lang="en" helptext="Find versions by comparing master and version variables.">Limit by &amp;Variables:</c>
+				<c xml:lang="de" helptext="Findet Versionen durch Vergleichen von Variablen der Haupt- und Versionsdateien.">Mit &amp;Variablen einschränken:</c>
+				<c xml:lang="nl" helptext="Vindt versies door variabelen van master en versie(-s) te vergelijken.">Limit by &amp;Variables:</c>
+			</ctrl>
+			<ctrl text="#l_variable_master">
+				<c xml:lang="en" helptext="Enter a standard IMatch variable expression or a literal.">Mas&amp;ter Expression:</c>
+				<c xml:lang="de" helptext="Geben Sie einen IMatch Variablenausdruck oder ein Literal ein">Haup&amp;tdateiausdruck:</c>
+				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking of een letterlijke tekst in.">Mas&amp;ter Expression:</c>
+			</ctrl>
+			<ctrl text="#l_variable_file">
+				<c xml:lang="en" helptext="Enter a standard IMatch variable expression.">Versio&amp;n Expression:</c>
+				<c xml:lang="de" helptext="Geben Sie einen IMatch Variablenausdruck ein.">Versio&amp;nsausdruck:</c>
+				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking in.">Versio&amp;n Expression:</c>				
+			</ctrl>
+
 			<ctrl text="#l_s">
 				<c xml:lang="en" helptext="">seconds</c>
 				<c xml:lang="de" helptext="">Sekunden</c>
@@ -11649,6 +11665,76 @@
 					<l xml:lang="it">Su e Giu</l>
 				</ld>
 			</listdata>
+
+			<!-- @Mario: Must match EVariableOp in CIMRelationManager -->
+			<listdata text="IDC_COMBO_VAR">
+				<ld listid="0">
+					<l xml:lang="en">Not used</l>
+					<l xml:lang="de">Nicht verwendet</l>
+					<l xml:lang="nl">Niet gebruikt</l>
+				</ld>
+				<ld listid="10">
+					<l xml:lang="en">= (case-sensitive)</l>
+					<l xml:lang="de">= (Groß-/Kleinschreibung beachten)</l>
+					<l xml:lang="nl">= (Hoofdlettergevoelig)</l>					
+				</ld>
+				<ld listid="11">
+					<l xml:lang="en">=</l>
+					<l xml:lang="de">=</l>
+					<l xml:lang="nl">=</l>					
+				</ld>
+				<ld listid="20">
+					<l xml:lang="en">&lt;&gt; case-sensitive)</l>
+					<l xml:lang="de">&lt;&gt; (Groß-/Kleinschreibung beachten)</l>
+					<l xml:lang="nl">&lt;&gt; (Hoofdlettergevoelig)</l>						
+				</ld>
+				<ld listid="21">
+					<l xml:lang="en">&lt;&gt;</l>
+					<l xml:lang="de">&lt;&gt;</l>
+					<l xml:lang="nl">&lt;&gt;</l>
+				</ld>
+				<ld listid="30">
+					<l xml:lang="en">&lt;</l>
+					<l xml:lang="de">&lt;</l>
+					<l xml:lang="nl">&lt;</l>
+				</ld>
+				<ld listid="40">
+					<l xml:lang="en">&lt;=</l>
+					<l xml:lang="de">&lt;=</l>
+					<l xml:lang="nl">&lt;</l>
+				</ld>
+				<ld listid="50">
+					<l xml:lang="en">&gt;</l>
+					<l xml:lang="de">&gt;</l>
+					<l xml:lang="nl">&lt;</l>					
+				</ld>
+				<ld listid="60">
+					<l xml:lang="en">&gt;=</l>
+					<l xml:lang="de">&gt;=</l>
+					<l xml:lang="nl">&lt;</l>						
+				</ld>
+				<ld listid="100">
+					<l xml:lang="en">Regular Expression = (case-sensitive)</l>
+					<l xml:lang="de">Regulärer Ausdruck = (Groß-/Kleinschreibung beachten)</l>
+					<l xml:lang="nl">Reguliere uitdrukking = (Hoofdlettergevoelig)</l>
+				</ld>
+				<ld listid="110">
+					<l xml:lang="en">Regular Expression &lt;&gt; (case-sensitive)</l>
+					<l xml:lang="de">Regulärer Ausdruck &lt;&gt; (Groß-/Kleinschreibung beachten)</l>
+					<l xml:lang="nl">Reguliere uitdrukking &lt;&gt; (Hoofdlettergevoelig)</l>
+				</ld>
+				<ld listid="120">
+					<l xml:lang="en">Regular Expression =</l>
+					<l xml:lang="de">Regulärer Ausdruck =</l>
+					<l xml:lang="nl">Reguliere uitdrukking =</l>
+				</ld>
+				<ld listid="130">
+					<l xml:lang="en">Regular Expression &lt;&gt;</l>
+					<l xml:lang="de">Regulärer Ausdruck &lt;&gt;</l>
+					<l xml:lang="nl">Reguliere uitdrukking &lt;&gt;</l>
+				</ld>
+			</listdata>
+
 		</dialog>
 
 
@@ -12145,7 +12231,12 @@
 				<c xml:lang="pt" helptext="Active esta opção de forma a ter a certeza que o valor deste atributo é único entre todos os registos.">Deve ser ú&amp;nico</c>
             </ctrl>
 
-            <ctrl text="#l_btn_attr_up">
+			<ctrl text="#l_check_hidden">
+				<c xml:lang="en" helptext="Enable this to hide this Attribute Set in the Attribute Panel.">&amp;Hidden Set</c>
+				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um dieses Set im Attribute-Panel zu verbergen.">&amp;Verborgenes Set</c>
+			</ctrl>
+
+			<ctrl text="#l_btn_attr_up">
                 <c xml:lang="en" helptext="">U&amp;p</c>
                 <c xml:lang="de" helptext="">Nach &amp;oben</c>
                 <c xml:lang="nl" helptext="">Naar b&amp;oven</c>
@@ -18689,13 +18780,9 @@
                     <t xml:lang="it">Secondi in formato SS (00-59)</t>
                 </td>
                 <td tid="2250">
-                    <t xml:lang="en">1/100 Second in SS Format (00-99)</t>
-                    <t xml:lang="de">1/100 Sekunde im SS Format (00-99)</t>
-                    <t xml:lang="nl">1/100 Seconde in SS formaat (00-59)</t>
-					<t xml:lang="pt">1/100 de Segundo no Formato SS (00-99)</t>
-					<t xml:lang="fi">1/100 sekuntia SS formaatissa(00-99)</t>
-					<t xml:lang="no">1/100 sekunder i SS format (00-99)</t>
-                    <t xml:lang="it">1/100 Secondo in formato SS (00-99)</t>
+                    <t xml:lang="en">Sub-seconds in SSS Format (00-999)</t>
+                    <t xml:lang="de">Sekundenbruchteile im SSS Format (00-999)</t>
+					<t xml:lang="nL">Deelseconden in SSS formaat (00-999)</t>
                 </td>
                 <td tid="2260">
                     <t xml:lang="en">AM/PM Indicator</t>
@@ -18709,6 +18796,7 @@
 				<td tid="2270">
 					<t xml:lang="en">Day Sequence Number (File Time, resets to 1 when the day changes)</t>
 					<t xml:lang="de">Tages-Sequenznummer (Datei-Zeitstempel, Rückstellung auf 1 bei Tageswechel)</t>
+					<t xml:lang="nL">Dagvolgorde nummer (Bestands-tijdstempel, wordt terug gezet naar 1 als de dag wijzigt)</t>
 				</td>
 
 				<td tid="3000">

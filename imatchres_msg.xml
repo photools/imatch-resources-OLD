@@ -220,13 +220,13 @@
                 <cap>Critical Error</cap>
                     <cont><![CDATA[<TextBlock TextWrapping="NoWrap">An error occured while attempting to open the global settings database:<LineBreak/><LineBreak/><Bold>{0}</Bold><LineBreak/><LineBreak/>IMatch cannot continue. Check the application log file for additional information.</TextBlock>]]></cont>
                     <ftr></ftr>
-                    <inf>Most likely there is a problem with Windows security and the file cannot be written by the current user. Please check the security settings of the file in Windows Explorer and make sure every user has write access to that file. If this does not help, restore the file from your last backup or delete it so IMatch can start with a fresh settings database. TIP: IMatch retains a backup copy of the last version of the file in the file named 'imatch5.pts.bak'.</inf>
+                    <inf>Most likely there is a problem with Windows security and the file cannot be written by the current user. Please check the security settings of the file in Windows Explorer and make sure every user has write access to that file. If this does not help, restore the file from your last backup or the last-known-good copy in '{1}'. Or delete it so IMatch can start with a fresh settings database.</inf>
                 </m>
                 <m xml:lang="de">
                     <cap>Kritischer Fehler</cap>
                     <cont><![CDATA[<TextBlock TextWrapping="NoWrap">Fehler beim Schreiben der globalen Konfigurationsdatei:<LineBreak/><LineBreak/><Bold>{0}</Bold><LineBreak/><LineBreak/>IMatch kann nicht fortfahren. Die IMatch-Protokolldatei enthält weiterführende Informationen.</TextBlock>]]></cont>
                     <ftr></ftr>
-                    <inf>Dieser Fehler wurde vermutlich durch fehlerhafte Sicherheitseinstellungen der Datei verursacht. Prüfen Sie die Zugriffsrechte dieser Datei im Windows Explorer und stellen Sie sicher, dass alle Benutzer Schreibrechte für diese Datei besitzen. Wenn das nicht hilft, stellen Sie die Datei von Ihrem letzen Backup wieder her, oder löschen Sie die Datei damit IMatch sie mit Standardeinstellungen neu erstellen kann. TIP: IUMatch speichert eine Sicherungskopie der jeweils letzten Version dieser Datei in "imatch5.pts.bak".</inf>
+                    <inf>Dieser Fehler wurde vermutlich durch fehlerhafte Sicherheitseinstellungen der Datei verursacht. Prüfen Sie die Zugriffsrechte dieser Datei im Windows Explorer und stellen Sie sicher, dass alle Benutzer Schreibrechte für diese Datei besitzen. Wenn das nicht hilft, stellen Sie die Datei von Ihrem letzen Backup oder der Datei '{1}' wieder her, oder löschen Sie die Datei damit IMatch sie mit Standardeinstellungen neu erstellen kann.</inf>
                 </m>
                 <m xml:lang="nl">
                     <cap>Ernstige fout</cap>
@@ -1387,7 +1387,7 @@
                 </m>
                 <m xml:lang="nl">
                     <cap>Update controle</cap>
-                    <cont>De geiïstalleerde versie van IMatch is up-to-date.</cont>
+                    <cont>De geïnstalleerde versie van IMatch is up-to-date.</cont>
                 </m>
                 <m xml:lang="hr">
                     <cap>Postoji li novija verzija?</cap>
@@ -1406,11 +1406,11 @@
             <msg resid="PTR_MSG_APP_UPDATECHECK_FAILED" typeid="[[TD_ERROR_ICON]]" desc="">
                 <m xml:lang="en">
                     <cap>Update Check failed</cap>
-                    <cont>IMatch could not establish a connection with the update server. Please check your Internet connection and firewall settings.</cont>
+                    <cont>IMatch could not establish a connection with the update server. Please check your Internet connection and firewall settings.\r\n\r\nTip: Use the customer portal at https://www.photools.com to check for updates manually.</cont>
                 </m>
                 <m xml:lang="de">
                     <cap>Update-Prüfung fehlgeschlagen</cap>
-                    <cont>IMatch kann keine Verbindung zum Update-Server herstellen. Bitte prüfen Sie Ihre Internetverbindung und Firewall-Einstellungen.</cont>
+                    <cont>IMatch kann keine Verbindung zum Update-Server herstellen. Bitte prüfen Sie Ihre Internetverbindung und Firewall-Einstellungen.\r\n\r\nTipp: Nutzen Sie das Kundenportal auf https://www.photools.com um selbst nach Updates zu suchen.</cont>
                 </m>
 				<m xml:lang="fi">
                     <cap>Päivitystarkastus ei onnistunut</cap>
@@ -1699,7 +1699,7 @@
 					<cont><![CDATA[<TextBlock TextWrapping='Wrap'>Möchten Sie eine Sicherung durchführen, nachdem IMatch geschlossen wurde?<LineBreak/><LineBreak/>IMatch startet dann automatisch <Bold>IMatch Pack &amp; Go</Bold>. Diese Anwendung ermöglicht Ihnen ein einfaches Sichern Ihrer Datenbank(en), Einstellungen, Skripte, Vorlagen, Apps und anderer wichtiger IMatch-Dateien.<LineBreak/><LineBreak/><Bold>Hinweis:</Bold> Sie können die Backup Erinnerung unter Bearbeiten > Einstellungen > Anwendung konfigurieren.</TextBlock>]]></cont>
 					<button btnid="1001">Sicherung durchführen</button>
 					<button btnid="1002">Sicherung überspringen.\nJetzt nicht sichern, aber mich nach der nächsten IMatch-Sitzung erinnern.</button>
-					<button btnid="1003">Sicherung bis zum nächsten Sicherungszeitpunkt.\nJetzt nicht sichern und den nächsten regulären Sicherungszeitpunkt abwarten.</button>
+					<button btnid="1003">Sicherung am nächsten Sicherungszeitpunkt.\nJetzt nicht sichern und den nächsten regulären Sicherungszeitpunkt abwarten.</button>
 				</m>
 					<m xml:lang="fi">
 					<cap>Muistutus varmuuskopionnista</cap>
@@ -1982,7 +1982,7 @@
 				<m xml:lang="nl">
 					<cap>Er is zojuist een nieuwe versie van IMatch geinstalleerd.</cap>
 					<cont>Dit zou een goed moment zijn om de release notes te openen en te bekijken wat er veranderd is en welke nieuwe functies zijn toegevoegd.\r\n\r\nWilt u de pagina met release notes nu openen?</cont>
-					<ftr typeid="[[TD_INFORMATION_ICON]]">U kunt de release notes op iedre gewnest moment openen vanuit het Help menu.</ftr>
+					<ftr typeid="[[TD_INFORMATION_ICON]]">U kunt de release notes op ieder gewenst moment openen vanuit het Help menu.</ftr>
 				</m>
 			</msg>
 
@@ -2708,7 +2708,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>Ongeldige databaseversie.</cap>
-					<cont>De database was gecreëerd of geüpdate door een nieuwere IMatch-versie en kan niet met deze versie van IMatch worden geopend.\r\n\r\nInstalleer aub de laatste versie van IMatch.</cont>
+					<cont>De database was gecreëerd of geüpdate door een nieuwere IMatch-versie en kan niet langer met deze versie van IMatch worden geopend.\r\n\r\nInstalleer aub de laatste versie van IMatch.</cont>
 					<inf></inf>
 				</m>
 				<m xml:lang="pt">
@@ -2728,8 +2728,8 @@
 					<inf></inf>
 				</m>
 				<m xml:lang="nl">
-					<cap>Database moet worden geüpgrade.</cap>
-					<cont>Deze database is gecreëerd door een oudere versie van IMatch version en moet worden geüpgrade om met de huidige versie te kunnen werken.\r\n\r\nIMatch kan dat niet doen als de databse is geopend in "alleen lezen" mode. Open aub de database in "schrijf" mode of vraag uw Administrator.\r\n\r\nNOTE: De testversie van IMatch opent databses die ouder zijn dan 30 dagen altijd in de "alleen-lezen" mode. Zij kan niet worden gebruikt om oude databses te upgraden. U kun een nieuwe databse creëren voor testdoeleinden.</cont>
+					<cap>De database moet worden geüpgrade.</cap>
+					<cont>Deze database is gecreëerd met een oudere versie van IMatch en moet worden geüpgrade om met de huidige versie te kunnen werken.\r\n\r\nIMatch kan dat niet doen als de database is geopend in "alleen lezen" modus. Open aub de database in "schrijf" modus of vraag uw Administrator.\r\n\r\nNOTE: De testversie van IMatch opent databases die ouder zijn dan 30 dagen altijd in de "alleen-lezen" mode. De testversie kan niet worden gebruikt om oude databases te upgraden. U kun wèl een nieuwe database creëren voor testdoeleinden.</cont>
 				</m>
 			</msg>
 
@@ -2745,8 +2745,8 @@
 					<ftr typeid="[[TD_INFORMATION_ICON]]">Falls Sie gerade ein IMatch-Update installiert haben, ist diese Meldung normal.</ftr>
 				</m>
 				<m xml:lang="nl">
-					<cap>Database moet worden geüpgrade.</cap>
-					<cont>Deze database is gecreëerd door een oudere versie van IMatch version en moet worden geüpgrade om met de huidige versie te kunnen werken.\r\n\r\nNa deze upgarde, kan de database niet langer gebruikt worden met oudere IMatch- of IMatch Anywhere versies. U kunt in voorkomend geval wel een veiligheidskopie van uw database maken. \r\n\r\nWilt u de database nu openen en upgraden?</cont>
+					<cap>De database moet worden geüpgrade.</cap>
+					<cont>Deze database is gecreëerd met een oudere versie van IMatch en moet worden geüpgrade om met de huidige versie te kunnen werken.\r\n\r\nNa deze upgrade, kan de database niet langer gebruikt worden met oudere IMatch- of IMatch Anywhere versies. U kunt in voorkomend geval wel een veiligheidskopie van uw database maken. \r\n\r\nWilt u de database nu openen en upgraden?</cont>
 					<ftr typeid="[[TD_INFORMATION_ICON]]">Als u zojuist een IMatch-update heeft geïnstalleerd, is deze melding normaal.</ftr>
 				</m>
 			</msg>
@@ -2770,7 +2770,7 @@
                 </m>
                 <m xml:lang="nl">
                     <cap>Bestanden afwijzen</cap>
-                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>U hebt in uw instellingen aangegeven bestanden <Italic>af te keuren</Italic> als u de <Bold>Del</Bold>-toets indrukt. Om de afkeuring te verwijderen, druk nogmaals <Bold>Del</Bold>. Om het bestand te verwijderen, druk <Bold>Ctrl+Del</Bold>.<LineBreak/><LineBreak/>U kunt deze instellingen veranderen via <Italic>Bewerken > Voorkeuren > Applicatie</Italic>.</TextBlock>]]></cont>
+                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>U hebt in uw instellingen bepaald dat bestanden worden <Italic>afgekeurd</Italic> als u de <Bold>Del</Bold>-toets indrukt. Om de afkeuring te verwijderen, druk nogmaals <Bold>Del</Bold>. Om het bestand te verwijderen, druk <Bold>Ctrl+Del</Bold>.<LineBreak/><LineBreak/>U kunt deze instellingen aanpassen via <Italic>Bewerken > Voorkeuren > Applicatie</Italic>.</TextBlock>]]></cont>
                     <ver>Niet meer tonen</ver>
                 </m>
 				<m xml:lang="pt">
@@ -8997,11 +8997,11 @@
 				</m>
 				<m xml:lang="de">
 					<cap>Komplexes Tag</cap>
-					<cont>Dieses Tag wird ist ein komplexer Datebtyp oder eine Struktur. Sie können nicht in das Tag als Ganzes schreiben, Sie müssen die einzelnen Elemente separat schreiben.</cont>
+					<cont>Dieses Tag wird ist ein komplexer Datentyp oder eine Struktur. Sie können nicht in das Tag als Ganzes schreiben, Sie müssen die einzelnen Elemente separat schreiben.</cont>
 				</m>
 				<m xml:lang="nl">
 					<cap>Complexe tag</cap>
-					<cont>Deze tag is gestructureerd of complex. U kunt deze tag niet direct wijzigen, maar  moet de individuële elementen separaat wijzigen.</cont>
+					<cont>Deze tag is gestructureerd of complex. U kunt deze tag niet direct wijzigen, maar u moet de individuële elementen separaat wijzigen.</cont>
 				</m>
 			</msg>
 
@@ -9920,32 +9920,32 @@
 				<m xml:lang="en">
 					<cap>IMatch says Hello!</cap>
 					<cont>This is the first time you have run IMatch. To get started, IMatch needs to create a database which later holds all the information about your files. After the database has been created, you can show IMatch the files you want to manage.</cont>
-                    <button btnid="1001">Create the Database\nThis option opens the Database Wizard which guides you through the database creation process.</button>
-					<button btnid="1002">Import IMatch 3 Database\nThis command imports an IMatch database (3.5 and later) into the current IMatch format.</button>
+					<button btnid="1001">Create Your Database\nRun the Database Wizard which guides you through the database creation process.</button>
                     <button btnid="1003">Open the Help System\nThis brings up the extensive IMatch Help system with information for new users.</button>
 					<button btnid="1004">Close this dialog\nChoose this if you prefer to work on your own</button>
+					<button btnid="1005">Watch free IMatch Video Tutorials\nThis opens the IMatch Learning Center web site in your web browser.</button>					
 				</m>
 				<m xml:lang="de">
 					<cap>IMatch sagt Hallo!</cap>
 					<cont>Dies ist das erste Mal, dass Sie IMatch ausführen. IMatch erstellt nun eine Datenbank, die später alle Informationen zu Ihren Dateien speichert. Wenn dieser Vorhang abgechlossen ist, können Sie IMatch die Dateien zeigen, die Sie verwalten möchten.</cont>
-                    <button btnid="1001">Datenbank erstellen\nDiese Option öffnet den Datenbankassistenten.</button>
-					<button btnid="1002">IMatch 3 Datenbank importieren\nDiese Option importiert eine IMatch-Datenbank (3.5 und höher) in das aktuelle IMatch Format.</button>
+					<button btnid="1001">Ihre Datenbank erstellen\nDiese Option startet den Datenbankassistenten.</button>
                     <button btnid="1003">Das Hilfesystem öffnen\nÖffnet die IMatch-Hilfe mit Informationen für neue Anwender.</button>
 					<button btnid="1004">Diesen Dialog schließen\nWählen Sie diese Option, wenn Sie selbständig arbeiten möchten.</button>
+					<button btnid="1005">Kostenlose Video-Trainings für IMatch\nDiese Option öffnet das IMatch Learning Center in Ihrem Webbrowser.</button>					
 				</m>
 				<m xml:lang="nl">
 					<cap>IMatch zegt Hallo!</cap>
 					<cont>Dit is de eerste keer dat u IMatch start. IMatch creëert nu een database die later alle informatie over uw bestanden bevat. Nadat de database gecreëerd is, kunt u IMatch de data die u wit beheren, tonen.</cont>
-                    <button btnid="1001">Creëer de database\nDeze optie opent de database-wizard.</button>
+          <button btnid="1001">Creëer de database\nDeze optie start de database-wizard die u door het proces zal leiden om een nieuwe database aan te maken.</button>
 					<button btnid="1002">Import IMatch 3 Database\nDeze optie importeert een IMatch database (3.5 en later) in het IMatch formaat.</button>
-                    <button btnid="1003">Het Helpsysteem openen\nU opent het het uitgebreide IMatch Helpsysteem voor nieuwe gebruikers.</button>
+          <button btnid="1003">Het Helpsysteem openen\nU opent het het uitgebreide IMatch Helpsysteem voor nieuwe gebruikers.</button>
 					<button btnid="1004">Dialoog sluiten\nKies deze optie indien u zelfstandig verder wilt werken.</button>
+					<button btnid="1005">Bekijk de gratis IMatch Video's\nHiermee opent u de website van het IMatch Learning Center in uw webbrowser.</button>
 				</m>
 				<m xml:lang="hr">
 					<cap>Pozdrav od IMatch-a!</cap>
 					<cont>Ovo je prvi put da si pokrenuo IMatch. Za početak, IMatch mora stvoriti bazu podataka koja će sadržavati sve podatke o tvojim datotekama. Nakon što je baza podataka stvorena, možeš pokazati IMatch-u datoteke kojima želiš upravljati.</cont>
                     <button btnid="1001">Stvori bazu podataka\nOtvara čarobnjaka za bazu podataka koji te vodi kroz proces stvaranja baze podataka.</button>
-					<button btnid="1002">Uvezi IMatch 3 bazu podataka\nUvozi IMatch bazu podataka (verzija 3.5 i novije) u IMatch format.</button>
                     <button btnid="1003">Otvori sistem za pomoć\nOtvara izdašni IMatch sistem za pomoč sa informacijama za nove korisnike.</button>
 					<button btnid="1004">Zatvori dijaloški okvir\nIzaberi ovo ako preferiraš raditi sve sam</button>
 				</m>
@@ -9953,7 +9953,6 @@
 					<cap>IMatch tervehtii!</cap>
 					<cont>Tämä on ensimmäinen kerta, kun käynnistät IMatchin. Aluksi täytyy luoda tietokanta, joka myöhemmin tulee sisältämään kaiken tiedostoihisi liittyvän tiedon. Kun tietokanta on luotu, voit kertoa IMatchille, mitkä tiedostot haluat sillä hallita.</cont>
                     <button btnid="1001">Luo tietokanta\nTämä vaihtoehto avaa ohjatun toiminnon, joka johtaa sinut läpi tietokannan luomisprosessin.</button>
-					<button btnid="1002">Tuo IMatch 3 tietokanta\nTämä vaihtoehto muuntaa vanhan IMatch (3.5 tai uudemman) tietokannan IMatch muotoon.</button>
                     <button btnid="1003">Avaa ohje\nTämä avaa IMatch ohjeen, joka sisältää tietoa uusille käyttäjille.</button>
 					<button btnid="1004">Sulje tämä valikko\nValitse tämä, jos haluat toimia itsenäisesti.</button>
 				</m>
@@ -9961,7 +9960,6 @@
 					<cap>IMatch dice Ciao!</cap>
 					<cont>Questa è la prima volta che si esegue IMatch. Per iniziare, IMatch ha bisogno di creare un database che detiene tutte le informazioni sui tuoi file. Dopo aver creato il database, è possibile mostrare a IMatch i file che si desidera gestire.</cont>
                     <button btnid="1001">Crea il Database\nQuesta opzione apre la creazione guidata che ti guida attraverso il processo di creazione del database.</button>
-					<button btnid="1002">Importa Database IMatch 3\nQuesto comando importa un database IMatch (3.5 e versioni successive) in formato IMatch.</button>
                     <button btnid="1003">Aprire la guida\nQuesto fa apparire il vasto sistema di aiuto di IMatch con informazioni per i nuovi utenti.</button>
 					<button btnid="1004">Chiudere questo dialogo\nScegli questo se preferisci lavorare in proprio</button>
 				</m>
@@ -9969,11 +9967,12 @@
 					<cap>O IMatch diz Olá!</cap>
 					<cont>Esta é a primeira vez que está a correr o IMatch. Para iniciar, o IMatch necessita de criar uma base de dados que mais tarde irá suportar todas as informações dos seus ficheiros. Após haver criado a base de dados, pode juntar ao IMatch os ficheiros que deseja gerir.</cont>
                     <button btnid="1001">Cria a base de dados\nEsta opção abre a criação guiada da base de dados que o irá ajudar através de todo o processo.</button>
-					<button btnid="1002">Importa a base de dados do IMatch 3\nEste comando importa uma base de dados do IMatch (3.5 e versões posteriores) no formato do IMatch.</button>
                     <button btnid="1003">Abre a ajuda\nFaz aparecer o vasto sistema de ajuda do IMatch com informações relevantes para os novos utilizadores.</button>
 					<button btnid="1004">Fechar esta caixa de diálogo\nEscolher esta opção se pretender trabalhar por si próprio</button>
 				</m>
 			</msg>
+			
+			
 		</message_group>
 
 		<!-- Printing -->
@@ -10498,7 +10497,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>App sluiten</cap>
-					<cont>Deze app heeft verzocht niet te worden gesloten door de gebruiker.\r\nHet geforceerd beëindigen van deze app kan problemen of gegevensverlies veroorzaken.\r\n\r\nWilt u desondanks de app sluiten?</cont>
+					<cont>Deze app heeft verzocht niet te worden gesloten door de gebruiker.\r\nHet geforceerd beëindigen van deze app kan problemen of zelfs gegevensverlies veroorzaken.\r\n\r\nWilt u de app desondanks sluiten?</cont>
 				</m>
 			</msg>
 		</message_group>
