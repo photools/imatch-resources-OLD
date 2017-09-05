@@ -4071,7 +4071,7 @@
 			<cmd resid="ID_DATABASE_OPEN_RO">
 				<c xml:lang="en" hotkey="" helptext="If this option is enabled, databases are opened in read-only mode.">Open Databases &amp;read-only</c>
 				<c xml:lang="de" hotkey="" helptext="Wenn diese Option aktiv ist, werden Datenbanken im Nur-Lesen-Modus geöffnet.">Datenbanken im &amp;Nur-Lese-Modus öffnen</c>
-				<c xml:lang="nl" hotkey="" helptext="Indien geactiveerd, worden de databases in alleen-lezen modus geopend.">Open Databases &amp;read-only</c>
+				<c xml:lang="nl" hotkey="" helptext="Indien geactiveerd, worden de databases in alleen-lezen modus geopend.">Databases in &amp;alleen-lezen modus openen</c>
 				<c xml:lang="hr" hotkey="" helptext="Ako je omogućeno, baze podataka se otvaraju samo za čitanje.">Otvori baze podataka samo za &amp;čitanje</c>
 				<c xml:lang="no" hotkey="" helptext="Med denne opsjonen aktiv vil databaser åpnes i lesemodus (skrivebeskyttet).">Åpne databaser i &amp;lesemodus</c>
 				<c xml:lang="fi" hotkey="" helptext="Tietokannat avataan 'vain luku' -tilassa.">Avaa tietokannat &amp;vain luku -tilassa</c>
@@ -18833,7 +18833,7 @@
 			<property resid="app.ui.browserscale" desc="">
 				<name xml:lang="en">App Panel Scale</name>
 				<name xml:lang="de">App-Panel Skalierung</name>
-				<name xml:lang="nl">Scahaal van het App-paneel</name>
+				<name xml:lang="nl">Schaal van het App-paneel</name>
 				<group xml:lang="en">User Interface</group>
 				<group xml:lang="de">Benutzerschnittstelle</group>
 				<group xml:lang="fi">Käyttöliittymä</group>
