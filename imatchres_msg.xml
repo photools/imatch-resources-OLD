@@ -9936,9 +9936,8 @@
 				<m xml:lang="nl">
 					<cap>IMatch zegt Hallo!</cap>
 					<cont>Dit is de eerste keer dat u IMatch start. IMatch creëert nu een database die later alle informatie over uw bestanden bevat. Nadat de database gecreëerd is, kunt u IMatch de data die u wit beheren, tonen.</cont>
-          <button btnid="1001">Creëer de database\nDeze optie start de database-wizard die u door het proces zal leiden om een nieuwe database aan te maken.</button>
-					<button btnid="1002">Import IMatch 3 Database\nDeze optie importeert een IMatch database (3.5 en later) in het IMatch formaat.</button>
-          <button btnid="1003">Het Helpsysteem openen\nU opent het het uitgebreide IMatch Helpsysteem voor nieuwe gebruikers.</button>
+          			<button btnid="1001">Creëer de database\nDeze optie start de database-wizard die u door het proces zal leiden om een nieuwe database aan te maken.</button>
+					<button btnid="1003">Het Helpsysteem openen\nU opent het het uitgebreide IMatch Helpsysteem voor nieuwe gebruikers.</button>
 					<button btnid="1004">Dialoog sluiten\nKies deze optie indien u zelfstandig verder wilt werken.</button>
 					<button btnid="1005">Bekijk de gratis IMatch Video's\nHiermee opent u de website van het IMatch Learning Center in uw webbrowser.</button>
 				</m>
