@@ -6336,7 +6336,12 @@
                 <c xml:lang="it" hotkey="Shift+Ctrl+R" helptext="Annulla l'ordinamento personalizzato per corrispondere all'ordine attualmente visualizzato nella finestra dei file">Resetta Ordinamento &amp;Personalizzato</c>
             </cmd>
 
-            <cmd resid="ID_CMD_FILE_FIND" desc="Find Command">
+			<cmd resid="ID_CMD_FILE_RESETCUSTOMSORT_DEFAULT">
+				<c xml:lang="en" hotkey="Shift+Ctrl+D" helptext="Reset the custom sort order to the 'Default' sort profile.">Reset Custom Sort to 'Defau&amp;lt'</c>
+				<c xml:lang="de" hotkey="Shift+Ctrl+D" helptext="Die manuelle Sortierreihenfolge auf das 'Standard'-Sortierprofil zurücksetzen.">Sortierfolge auf 'Standard' zurückset&amp;zen</c>
+			</cmd>
+
+			<cmd resid="ID_CMD_FILE_FIND" desc="Find Command">
                 <c xml:lang="en" hotkey="Ctrl+F" helptext="Search the files in this window">Fi&amp;nd</c>
                 <c xml:lang="de" hotkey="Ctrl+F" helptext="In diesem Fenster suchen.">Suche&amp;n</c>
 				<c xml:lang="fi" hotkey="Ctrl+F" helptext="Hae tiedostoja tässä ikkunassa.">&amp;Hae</c>
@@ -6612,6 +6617,12 @@
 				<c xml:lang="pt" hotkey="Ctrl+G|O" helptext="Envia o ficheiro que tem o foco para visualização.">Ir para f&amp;icheiro com o foco</c>
 				<c xml:lang="it" hotkey="Ctrl+G|O" helptext="Visualizza il file focalizzayo.">Vai al file f&amp;ocalizzato</c>
 			</cmd>
+
+			<cmd resid="ID_CMD_FILE_OPEN_IN_RESULT_WINDOW">
+				<c xml:lang="en" hotkey="Ctrl+G|R" helptext="Opens a result window for all selected files.">Open selection in Result &amp;Window...</c>
+				<c xml:lang="de" hotkey="Ctrl+G|R" helptext="Öffnet ein Ergebnisfenster mit den ausgewählten Dateien.">Auswahl in Ergebnisfenster öffnen...</c>
+			</cmd>
+
 
 		</command_group>
 
@@ -8690,7 +8701,14 @@
 				<c xml:lang="no" hotkey="" helptext="Begrens søket til flagg fra denne gruppen">G</c>
                 <c xml:lang="it" hotkey="" helptext="Limita la ricerca ai tags di questo gruppo">G</c>
             </cmd>
-        </command_group>
+
+
+			<cmd resid="ID_FILEWND_SEARCHBAR_MODE_ADVANCED" bmidx="5">
+				<c xml:lang="en" hotkey="" helptext="Enable advanced search options with AND, OR and NOT">&amp;Advanced Search</c>
+				<c xml:lang="de" hotkey="" helptext="Mit regulären Ausdrücken suchen">Er&amp;weiterte Suche</c>
+			</cmd>
+
+		</command_group>
 
 		<command_group name="File Window Layout commands" bmid="" desc="Commands used to manage level-of-detail settings">
 
@@ -15883,11 +15901,14 @@
                 <item>ID_CMD_FOLDER_SETTHUMBNAIL</item>
                 <item>ID_FILEWND_CONFIGURE_RESETPAUSE</item>
                 <item>ID_CMD_FILE_RESETCUSTOMSORT</item>
+				<item>ID_CMD_FILE_RESETCUSTOMSORT_DEFAULT</item>
                 <item>ID_CMD_FILE_REMOVEFROMDB</item>
 				<separator/>
 				<item>ID_CMD_FILE_GOTO_FIRST_SELECTED</item>
 				<item>ID_CMD_FILE_GOTO_LAST_SELECTED</item>
 				<item>ID_CMD_FILE_GOTO_FOCUSED</item>
+				<separator/>
+				<item>ID_CMD_FILE_OPEN_IN_RESULT_WINDOW</item>
 			</menu>
 		</menu>
 
@@ -16173,6 +16194,7 @@
 			<item>ID_FILEWND_SEARCHBAR_MODE_SEARCHALL</item>
 			<item>ID_FILEWND_SEARCHBAR_MODE_SEARCHFILENAME</item>
 			<separator/>
+			<item>ID_FILEWND_SEARCHBAR_MODE_ADVANCED</item>
 			<item>ID_FILEWND_SEARCHBAR_MODE_REGEXP</item>
 			<separator/>
 			<item>ID_FILEWND_SEARCHBAR_MODE_SEARCHATTR</item>
@@ -28208,6 +28230,14 @@
 				<group xml:lang="nl">Animatie</group>
 			</property>
 
+			<property resid="filewnd.ui.resultwindow.filter.autopause" desc="">
+				<name xml:lang="en">Result Windows pause filter panel</name>
+				<name xml:lang="de">Ergebnisfenster pausieren Filter-Panel</name>
+				<desc xml:lang="en">If this option is enabled, the Filter Panel is automatically paused when a Result Window becomes active.</desc>
+				<desc xml:lang="de">Wenn diese Option aktivert ist, wird das Filter-Panel automatisch pausiert, wenn ein Ergebnisfenster aktiviert wird.</desc>
+				<group xml:lang="en">Result Windows</group>
+				<group xml:lang="de">Ergebnisfenster</group>
+			</property>
 
 			<!-- LOD Editor Properties -->
 
