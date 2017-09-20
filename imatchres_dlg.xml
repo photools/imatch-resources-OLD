@@ -2187,7 +2187,7 @@
 
 			<ctrl text="#l_show_children">
 				<c xml:lang="en" helptext="Enable this to display the sub-folders of folders matching the filter expression.">&amp;Also show children</c>
-				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um die Unterorder von gefundenen Ordnern anzuzeigen.">&amp;Auch Kindkategorien anzeigen</c>
+				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um die Unterorder von gefundenen Ordnern anzuzeigen.">&amp;Auch Unterverzeichnisse anzeigen</c>
 				<c xml:lang="pt" helptext="Active esta opção para mostrar os sub-directórios pertencentes aos directórios que correspondem á expressão do filtro utilizada.">&amp;Mostrar também os sub-directórios</c>
 				<c xml:lang="nl" helptext="Zet deze optie aan om de submappen te tonen van de mappen die aan het filter voldoen.">&amp;Toon ook submappen</c>
 			</ctrl>
@@ -4587,7 +4587,7 @@
 			<ctrl text="#l_only">
 				<c xml:lang="en" helptext="Enable this option if you want to see only groups and tags which actually have data in the database.">Show on&amp;ly groups and tags with data</c>
 				<c xml:lang="de" helptext="Aktivieren Sie diese Option, wenn Sie nur Gruppen und Tags anzeigen möchten, für die Daten in der Datenbank vorliegen.">&amp;Nur Gruppen und Tags mit Daten anzeigen</c>
-				<c xml:lang="nl" helptext="Aktiveer deze optie als u alleen de groepen en tags wilt zien, waarvoor daadwerkelijk gegevens in de database aanwezig zijn.">&amp;Alleen groepen en tags met gegevens tonen</c>
+				<c xml:lang="nl" helptext="Activeer deze optie als u alleen de groepen en tags wilt zien, waarvoor daadwerkelijk gegevens in de database aanwezig zijn.">&amp;Alleen groepen en tags met gegevens tonen</c>
 				<c xml:lang="it" helptext="Abilitare questa opzione se si desidera vedere solo i gruppi e i tag che hanno effettivamente dati nel database.">Visualizza so&amp;lo gruppi e tag con dati</c>
 				<c xml:lang="pt" helptext="Active esta opção se desejar ver apenas os grupos e etiquetas que possuam dados na base de dados.">Visualiza apenas&amp;os grupos e etiquetas com dados</c>
 			</ctrl>
@@ -12234,6 +12234,7 @@
 			<ctrl text="#l_check_hidden">
 				<c xml:lang="en" helptext="Enable this to hide this Attribute Set in the Attribute Panel.">&amp;Hidden Set</c>
 				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um dieses Set im Attribute-Panel zu verbergen.">&amp;Verborgenes Set</c>
+				<c xml:lang="nl" helptext="Activeer deze optie om deze attributenset te verbergen in het Attributen-paneel.">&amp;Hidden Set</c>
 			</ctrl>
 
 			<ctrl text="#l_btn_attr_up">
@@ -14600,7 +14601,7 @@
 			<ctrl text="#l_adjust">
 				<c xml:lang="en" helptext="Enable this to automatically rotate the image to fit best within the given dimensions.">&amp;Best Fit</c>
 				<c xml:lang="de" helptext="Aktiviert die automatische Rotation des Ausgabebildes passend zum Seitenverhältnis.">&amp;Beste Passung</c>
-				<c xml:lang="nl" helptext="Aktiveert de automatische rotatie om de afbeelding het beste binnen de opgegeven afmetingen te laten passen.">&amp;Beste afmetingen</c>
+				<c xml:lang="nl" helptext="Activeert de automatische rotatie om de afbeelding het beste binnen de opgegeven afmetingen te laten passen.">&amp;Beste afmetingen</c>
 				<c xml:lang="pt" helptext="Active esta opção para automáticamente rodar a imagem de forma a encaixar melhor dentro das dimensões dadas.">&amp;Melhor Encaixe</c>
 				<c xml:lang="it" helptext="Attivare per ruotare automaticamente l'immagine per riempire al meglio l'interno di dimensioni specificate.">&amp;Misura migliore</c>
 			</ctrl>
@@ -21041,7 +21042,7 @@
 				<c xml:lang="en" helptext="Enable this option to print corner crop marks when the paper size is larger than the document size.">Print &amp;crop marks</c>
 				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um Beschnittmarkierungen zu drucken, wenn die Dokumentabmessungen kleiner als die Papierabmessungen sind.">Bes&amp;chnittmarkierungen drucken</c>
 				<c xml:lang="pt" helptext="Ative essa opção para imprimir marcas de corte de canto, quando o tamanho do papel é maior do que o tamanho do documento.">Imprime &amp;marcas de corte</c>
-				<c xml:lang="nl" helptext="Aktiveer deze optie om bijsnijdhoeken te tonen als de afmetingen van het papier groter zijn dan die van het document.">Bijs&amp;nijdhoeken tonen</c>
+				<c xml:lang="nl" helptext="Activeer deze optie om bijsnijdhoeken te tonen als de afmetingen van het papier groter zijn dan die van het document.">Bijs&amp;nijdhoeken tonen</c>
 			</ctrl>
 
 			<listdata text="IDC_COMBO_PROFILE">
