@@ -5785,17 +5785,19 @@
 				<s xml:lang="pt">Filtro</s>
 				<s xml:lang="fi">Suodatin</s>
 				<s xml:lang="hr">Filtar</s>
-			        <s xml:lang="no">Filter</s>
+			    <s xml:lang="no">Filter</s>
 				<s xml:lang="fr">Filtres</s>
 				<s xml:lang="it">Filtra</s>
 			</str>
 			<str resid="PTR_PANEL_FILTER_NOAVTIVE">
 				<s xml:lang="en">No filters active.</s>
 				<s xml:lang="de">Keine Filter aktiviert.</s>
+				<s xml:lang="nl">Geen filters actife.</s>
 			</str>
 			<str resid="PTR_PANEL_FILTER_PAUSED">
 				<s xml:lang="en">Paused.</s>
 				<s xml:lang="de">Pausiert.</s>
+				<s xml:lang="nl">Gepauzeerd.</s>
 			</str>
 			
 			<str resid="PTR_PANEL_VIEWER" desc="Name for the Viewer panel">
@@ -7591,6 +7593,7 @@
 			<str resid="FILEWND_RESULT_SELECTION">
 				<s xml:lang="en">Selection</s>
 				<s xml:lang="de">Auswahl</s>
+				<s xml:lang="nl">Selectie</s>
 			</str>
 
 			<!-- File Window Caption -->
@@ -11802,8 +11805,9 @@
             </str>
 
 			<str resid="PTR_INFOPOPUP_FILEWND_FILTERAUTOPAUSE" desc="">
-				<s xml:lang="en"><![CDATA[The Filter Panel was active has been paused to show you all results.<LineBreak/>Click the 'Pause' button in the Filter Panel toolbar if you want to apply the current filter to the Result Window.<LineBreak/><LineBreak/>You can disable this feature under Edit &gt; Preferences; &gt; File Window.]]></s>
+				<s xml:lang="en"><![CDATA[The Filter Panel was active and has been paused to show you all results.<LineBreak/>Click the 'Pause' button in the Filter Panel toolbar if you want to apply the current filter to the Result Window.<LineBreak/><LineBreak/>You can disable this feature under Edit &gt; Preferences; &gt; File Window.]]></s>
 				<s xml:lang="de"><![CDATA[Das Filter-Panel war aktiv und wurde automatisch pausiert, um Ihnen alle Suchergebnisse anzuzeigen.<LineBreak/>Sie können das Filter-Panel über die 'Pause'-Taste in der Filter-Panel Symbolleiste jederzeit wieder aktivieren.<LineBreak/><LineBreak/>Siekönnen diese Funktion über Bearbeiten &gt; Einstellungen &gt; Dateifenster deaktivieren.]]></s>
+				<s xml:lang="nl"><![CDATA[Het filterpaneel was actief, maar werd gepauzeerd om alle resultaten te tonen.<LineBreak/>Klik op de 'Pauze' knop in het filter-paneel als u het actuele filter wilt toepassen op het resultaatvenster.<LineBreak/><LineBreak/>U kunt deze optie uitzetten onder Bewerken &gt; Voorkeuren; &gt; Bestandsvenster.]]></s>
 			</str>
 
 

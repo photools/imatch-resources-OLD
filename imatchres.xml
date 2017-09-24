@@ -6339,6 +6339,7 @@
 			<cmd resid="ID_CMD_FILE_RESETCUSTOMSORT_DEFAULT">
 				<c xml:lang="en" hotkey="Shift+Ctrl+D" helptext="Reset the custom sort order to the 'Default' sort profile.">Reset Custom Sort to 'Defau&amp;lt'</c>
 				<c xml:lang="de" hotkey="Shift+Ctrl+D" helptext="Die manuelle Sortierreihenfolge auf das 'Standard'-Sortierprofil zurücksetzen.">Sortierfolge auf 'Standard' zurückset&amp;zen</c>
+				<c xml:lang="nl" hotkey="Shift+Ctrl+D" helptext="Zet de aangepaste sortering naar de 'standaard sortering' terug.">Aangepaste sortering terug z&amp;etten naar 'standaard'</c>
 			</cmd>
 
 			<cmd resid="ID_CMD_FILE_FIND" desc="Find Command">
@@ -6621,6 +6622,7 @@
 			<cmd resid="ID_CMD_FILE_OPEN_IN_RESULT_WINDOW">
 				<c xml:lang="en" hotkey="Ctrl+G|R" helptext="Opens a result window for all selected files.">Open selection in Result &amp;Window...</c>
 				<c xml:lang="de" hotkey="Ctrl+G|R" helptext="Öffnet ein Ergebnisfenster mit den ausgewählten Dateien.">Auswahl in Ergebnisfenster öffnen...</c>
+				<c xml:lang="nl" hotkey="Ctrl+G|R" helptext="Opent een resultaatvenster voor alle geselecteerde bestanden.">Selection in een resultaatvenster weergeven...</c>
 			</cmd>
 
 
@@ -8706,6 +8708,7 @@
 			<cmd resid="ID_FILEWND_SEARCHBAR_MODE_ADVANCED" bmidx="5">
 				<c xml:lang="en" hotkey="" helptext="Enable advanced search options with AND, OR and NOT">&amp;Advanced Search</c>
 				<c xml:lang="de" hotkey="" helptext="Mit regulären Ausdrücken suchen">Er&amp;weiterte Suche</c>
+				<c xml:lang="nl" hotkey="" helptext="Geavanceerd zoeken met EN, OF en NIET">Ge&amp;avanceerd zoeken</c>
 			</cmd>
 
 		</command_group>
@@ -28233,10 +28236,13 @@
 			<property resid="filewnd.ui.resultwindow.filter.autopause" desc="">
 				<name xml:lang="en">Result Windows pause filter panel</name>
 				<name xml:lang="de">Ergebnisfenster pausieren Filter-Panel</name>
+				<name xml:lang="nl">Resultaatvenster pauzeren filter paneel</name>
 				<desc xml:lang="en">If this option is enabled, the Filter Panel is automatically paused when a Result Window becomes active.</desc>
 				<desc xml:lang="de">Wenn diese Option aktivert ist, wird das Filter-Panel automatisch pausiert, wenn ein Ergebnisfenster aktiviert wird.</desc>
+				<desc xml:lang="nl">Als deze optie geactiveerd is, wordt het het filter paneel automatisch gepauzeerd als een resultaatvenster wordt geactiveerd.</desc>
 				<group xml:lang="en">Result Windows</group>
 				<group xml:lang="de">Ergebnisfenster</group>
+				<group xml:lang="nl">Resultaatvenster</group>
 			</property>
 
 			<!-- LOD Editor Properties -->
