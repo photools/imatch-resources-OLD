@@ -2187,7 +2187,7 @@
 
 			<ctrl text="#l_show_children">
 				<c xml:lang="en" helptext="Enable this to display the sub-folders of folders matching the filter expression.">&amp;Also show children</c>
-				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um die Unterorder von gefundenen Ordnern anzuzeigen.">&amp;Auch Kindkategorien anzeigen</c>
+				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um die Unterorder von gefundenen Ordnern anzuzeigen.">&amp;Auch Unterverzeichnisse anzeigen</c>
 				<c xml:lang="pt" helptext="Active esta opção para mostrar os sub-directórios pertencentes aos directórios que correspondem á expressão do filtro utilizada.">&amp;Mostrar também os sub-directórios</c>
 				<c xml:lang="nl" helptext="Zet deze optie aan om de submappen te tonen van de mappen die aan het filter voldoen.">&amp;Toon ook submappen</c>
 			</ctrl>

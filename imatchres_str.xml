@@ -5789,7 +5789,16 @@
 				<s xml:lang="fr">Filtres</s>
 				<s xml:lang="it">Filtra</s>
 			</str>
-            <str resid="PTR_PANEL_VIEWER" desc="Name for the Viewer panel">
+			<str resid="PTR_PANEL_FILTER_NOAVTIVE">
+				<s xml:lang="en">No filters active.</s>
+				<s xml:lang="de">Keine Filter aktiviert.</s>
+			</str>
+			<str resid="PTR_PANEL_FILTER_PAUSED">
+				<s xml:lang="en">Paused.</s>
+				<s xml:lang="de">Pausiert.</s>
+			</str>
+			
+			<str resid="PTR_PANEL_VIEWER" desc="Name for the Viewer panel">
                 <s xml:lang="en">Viewer</s>
                 <s xml:lang="de">Viewer</s>
                 <s xml:lang="nl">Viewer</s>
@@ -7577,7 +7586,13 @@
 				<s xml:lang="fr">Resultat</s>
                 <s xml:lang="it">Risultati</s>
             </str>
-			
+
+			<!-- For result windows created from the current selection -->
+			<str resid="FILEWND_RESULT_SELECTION">
+				<s xml:lang="en">Selection</s>
+				<s xml:lang="de">Auswahl</s>
+			</str>
+
 			<!-- File Window Caption -->
 
 			<str resid="FILEWND_CAPTION_FILTERTIP" desc="">
@@ -11786,7 +11801,13 @@
                 <s xml:lang="it"><![CDATA[Si può configurare l'azione del doppio-clicks sotto Modifica &gt; Preferenze &gt; Finestra File.]]></s>
             </str>
 
-            <!-- Search -->
+			<str resid="PTR_INFOPOPUP_FILEWND_FILTERAUTOPAUSE" desc="">
+				<s xml:lang="en"><![CDATA[The Filter Panel was active has been paused to show you all results.<LineBreak/>Click the 'Pause' button in the Filter Panel toolbar if you want to apply the current filter to the Result Window.<LineBreak/><LineBreak/>You can disable this feature under Edit &gt; Preferences; &gt; File Window.]]></s>
+				<s xml:lang="de"><![CDATA[Das Filter-Panel war aktiv und wurde automatisch pausiert, um Ihnen alle Suchergebnisse anzuzeigen.<LineBreak/>Sie können das Filter-Panel über die 'Pause'-Taste in der Filter-Panel Symbolleiste jederzeit wieder aktivieren.<LineBreak/><LineBreak/>Siekönnen diese Funktion über Bearbeiten &gt; Einstellungen &gt; Dateifenster deaktivieren.]]></s>
+			</str>
+
+
+			<!-- Search -->
 
             <str resid="PTR_INFOPOPUP_SEARCH_RERUN" desc="">
                 <!-- {0} is replaced with the keyboard shortcut -->
