@@ -4493,6 +4493,10 @@
 					<t xml:lang="pt">Apagar os dados Camera RAW|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n{Files}</t>
 					<t xml:lang="it">Cancella Camera RAW data|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n{Files}</t>
 				</td>
+				<td tid="dp_del_iptc">
+					<t xml:lang="en">Delete legacy IPTC (IIM) metadata|-overwrite_original_in_place\r\n-iptc:all=\r\n{Files}</t>
+					<t xml:lang="de">Alte IPTC-Daten (IIM) löschen|-overwrite_original_in_place\r\n-iptc:all=\r\n{Files}</t>
+				</td>
 
 				<!--
                     The ExifTool web site URLs. All urls must start with eturl_
