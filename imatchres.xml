@@ -31866,7 +31866,7 @@
 				<name xml:lang="en">Variable</name>
 				<name xml:lang="de">Variable</name>
 				<name xml:lang="pt">Variável</name>
-				<name xml:lang="nl">Variábele</name>
+				<name xml:lang="nl">Variabele</name>
 				<desc xml:lang="en">Enter one or more variables or text to determine the elements on this level.</desc>
 				<desc xml:lang="de">Geben Sie eine oder mehrere Variablen (und optional Text) ein, um die Elemente auf dieser Ebene zu bestimmen.</desc>
 				<desc xml:lang="pt">Entre com uma ou mais variáveis ou texto para determinar os elementos neste nível.</desc>
