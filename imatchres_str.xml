@@ -9595,7 +9595,7 @@
 				<s xml:lang="en">Folder Friendly Name</s>
 				<s xml:lang="no">Mappen egendefinert navn</s>
 				<s xml:lang="de">Anwenderfreundlicher Verzeichnisname</s>
-				<s xml:lang="nl">Vriendelijke naam van folder</s>
+				<s xml:lang="nl">Gebruikersvriendelijke mapnaam</s>
 				<s xml:lang="pt">Nome Amigável da Pasta</s>
 				<s xml:lang="fi">Kansion käyttäjäystävällinen nimi</s>
 				<s xml:lang="hr">Neslužbeni naziv mape</s>
@@ -9750,7 +9750,7 @@
 				<s xml:lang="en">Date &amp; Time (updated in database)</s>
 				<s xml:lang="no">Dato-klokkeslett (oppdatert i databasen)</s>
 				<s xml:lang="de">Datum &amp; Zeit (in Datenbank geändert)</s>
-				<s xml:lang="nl">Datum &amp; tijd (in database gewijzigd</s>
+				<s xml:lang="nl">Datum &amp; tijd (in database gewijzigd)</s>
 				<s xml:lang="pt">Data &amp; Hora (actualizada na base de dados)</s>
 				<s xml:lang="fi">Päiväys &amp; aika (päivitetty tietokannassa)</s>
 				<s xml:lang="hr">Datum i vrijeme (ažurirano u bazi podataka)</s>

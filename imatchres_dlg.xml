@@ -4496,6 +4496,7 @@
 				<td tid="dp_del_iptc">
 					<t xml:lang="en">Delete legacy IPTC (IIM) metadata|-overwrite_original_in_place\r\n-iptc:all=\r\n{Files}</t>
 					<t xml:lang="de">Alte IPTC-Daten (IIM) löschen|-overwrite_original_in_place\r\n-iptc:all=\r\n{Files}</t>
+					<t xml:lang="nl">Verwijder oude IPTC-gegevens (IIM) metadata|-overwrite_original_in_place\r\n-iptc:all=\r\n{Files}</t>
 				</td>
 
 				<!--
