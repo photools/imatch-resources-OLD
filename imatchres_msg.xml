@@ -2270,7 +2270,7 @@
 					<cap>Slepen en neerzetten</cap>
 					<cont>U hebt één of meerdere folders en/of bestanden hier neergezet. Wilt u deze objecten aan de database toevoegen?</cont>
 					<ftr typeid="[[TD_INFORMATION_ICON]]">Folders en bestanden die al door de database geïndexeerd zijn worden bijgewerkt. Nieuwe folders en bestanden worden toegevoegd, waarbij de standaard opties worden gebruikt.</ftr>
-					<ver>Bevatten submappen</ver>
+					<ver>Submappen opnemen</ver>
 				</m>
 				<m xml:lang="pt">
 					<cap>Operação de Arrastar e Largar</cap>
