@@ -5477,7 +5477,7 @@
 			</cmd>
 			<cmd resid="ID_CMD_FOLDER_SETTHUMBNAIL" bmidx="-1">
 				<c xml:lang="en" hotkey="" helptext="Set the selected file as the folder thumbnail">Set folder thumbnail</c>
-				<c xml:lang="de" hotkey="" helptext="Die ausgewählte Datei als Verzeichnis-Symbolbild verwenden.">Verzeichnis-Thumbnail festlegen</c>
+				<c xml:lang="de" hotkey="" helptext="Die ausgewählte Datei als Verzeichnis-Symbolbild verwenden.">Verzeichnis-Symbolbild festlegen</c>
 				<c xml:lang="fi" hotkey="" helptext="Aseta valittu tiedosto kansion pienoiskuvaksi">Aseta kansion pienoiskuvaksi</c>
 				<c xml:lang="nl" hotkey="" helptext="Geselecteerde bestand als mapminiatuur kiezen">Mapminiatuur kiezen</c>
 				<c xml:lang="pt" hotkey="" helptext="Definir o ficheiro seleccionado como miniatura da pasta">Definir Miniatura da Pasta</c>
@@ -7435,8 +7435,13 @@
                 <c xml:lang="no" hotkey="" helptext="Konverter datadrevet kategorien inn i en normal kategori.">&amp;Konverter til normal kategori</c>
                 <c xml:lang="it" hotkey="" helptext="Converte le categorie data-driven in categorie normali.">&amp;Converti in categoria normale</c>
             </cmd>
-           
-        </command_group>
+
+			<cmd resid="ID_CMD_CATEGORY_SETTHUMBNAIL" bmidx="-1">
+				<c xml:lang="en" hotkey="" helptext="Set the selected file as the category thumbnail">Set category thumbnail</c>
+				<c xml:lang="de" hotkey="" helptext="Die ausgewählte Datei als Kategorie-Symbolbild verwenden.">Kategorie-Symbolbild festlegen</c>
+			</cmd>
+
+		</command_group>
 
         
         <!-- Category Builder Commands -->
@@ -15902,6 +15907,7 @@
                 <item >ID_CMD_RELATION_RUN</item>
                 <separator/>
                 <item>ID_CMD_FOLDER_SETTHUMBNAIL</item>
+				<item>ID_CMD_CATEGORY_SETTHUMBNAIL</item>
                 <item>ID_FILEWND_CONFIGURE_RESETPAUSE</item>
                 <item>ID_CMD_FILE_RESETCUSTOMSORT</item>
 				<item>ID_CMD_FILE_RESETCUSTOMSORT_DEFAULT</item>
@@ -22224,7 +22230,7 @@
 			<property resid="dbview.fm.showthumbnails" desc="">
 				<name xml:lang="en">Show Folder Thumbnails</name>
 				<name xml:lang="no">Vis mappeminiatyrer</name>
-				<name xml:lang="de">Verzeichnis-Thumbnails anzeigen</name>
+				<name xml:lang="de">Verzeichnis-Symbolbilder anzeigen</name>
 				<name xml:lang="fi">Näytä pikkukuvat kansioille</name>
 				<name xml:lang="nl">Folder-miniaturen tonen</name>
 				<name xml:lang="pt">Mostrar Miniaturas das Pastas</name>
@@ -22233,7 +22239,7 @@
 				<desc xml:lang="it">Attivare questa opzione per visualizzare le miniature della cartella al posto dell'icona standard.</desc>
 				<desc xml:lang="en">Activate this option to show folder thumbnails instead of standard folder icons.</desc>
 				<desc xml:lang="no">Aktiver dette alternativet for å vise mappenes miniatyrbilder i stedet for standard mappeikoner.</desc>
-				<desc xml:lang="de">Aktivieren Sie diese Option, um Ordner-Thumbnails statt der Standard-Icons für Verzeichnisse anzuzeigen.</desc>
+				<desc xml:lang="de">Aktivieren Sie diese Option, um Verzeichnis-Symbolbilder anstatt der Standard-Symbolbilder anzuzeigen.</desc>
 				<desc xml:lang="fi">Aktivoi tämä valinta käyttääksesi kansioille pikkukuvia vakiokuvakkeiden sijasta.</desc>
 				<desc xml:lang="nl">Activeer deze optie om folder-miniaturen te tonen in plaats van de standaard folder-pictogrammen.</desc>
 				<desc xml:lang="pt">Active esta opção para mostrar miniaturas das pastas em vez dos ícones normais das pastas.</desc>
@@ -22280,7 +22286,7 @@
 			<property resid="dbview.fm.thumbnailsize" desc="">
 				<name xml:lang="en">Folder Thumbnail Size</name>
 				<name xml:lang="no">Størrelse for mappeminiatyr</name>
-				<name xml:lang="de">Verzeichnis-Thumbnails Größe</name>
+				<name xml:lang="de">Verzeichnis-Symbolbildgröße</name>
 				<name xml:lang="fi">Kansioiden pikkukuvien koko</name>
 				<name xml:lang="nl">Grootte folder-miniaturen</name>
 				<name xml:lang="pt">Tamanho das Miniaturas das Pastas</name>
@@ -22289,7 +22295,7 @@
 				<desc xml:lang="it">Controlla la dimensione delle miniature delle cartelle.</desc>
 				<desc xml:lang="en">Controls the size of folder thumbnails.</desc>
 				<desc xml:lang="no">Styrer størrelsen på mappeminiatyrer.</desc>
-				<desc xml:lang="de">Die Größe der Ordner-Thumbnails.</desc>
+				<desc xml:lang="de">Die Größe der Verzeichnis-Symbolbilder.</desc>
 				<desc xml:lang="fi">Valitse haluamasi koko kansioiden pikkukuville.</desc>
 				<desc xml:lang="nl">Bepaalt de grootte van de folder-miniaturen.</desc>
 				<desc xml:lang="pt">Controla o tamanho das miniaturas das pastas.</desc>
@@ -24284,6 +24290,208 @@
 				<group xml:lang="it"></group>
 				<group xml:lang="no"></group>
 			</property>
+			
+			
+			<property resid="objectproperties.cattree.showthumbnails" desc="">
+				<name xml:lang="en">Show Category Thumbnails</name>
+				<name xml:lang="de">Kategorie-Symbolbilder anzeigen</name>
+				<desc xml:lang="en">Activate this option to show category thumbnails instead of standard icons.</desc>
+				<desc xml:lang="de">Aktivieren Sie diese Option, um Verzeichnis-Symbolbilder anstatt der Standard-Symbolbilder anzuzeigen.</desc>
+				<group xml:lang="en"></group>
+				<group xml:lang="de"></group>
+				<group xml:lang="fi"></group>
+				<group xml:lang="nl"></group>
+				<group xml:lang="pt"></group>
+				<group xml:lang="hr"></group>
+				<group xml:lang="it"></group>
+				<group xml:lang="no"></group>
+			</property>
+
+			<property resid="objectproperties.cattree.thumbnailgrayscale" desc="">
+				<name xml:lang="en">Grayscale Thumbnails</name>
+				<name xml:lang="no">Gråtone miniatyrbilder</name>
+				<name xml:lang="en-uk">Greyscale Thumbnails</name>
+				<name xml:lang="de">Thumbnails in Graustufen</name>
+				<name xml:lang="fi">Mustavalkeat pikkukuvat</name>
+				<name xml:lang="nl">Miniaturen in grijswaarden</name>
+				<name xml:lang="pt">Miniaturas em Tons de Cinzento</name>
+				<name xml:lang="hr">Crno-bijele sličice</name>
+				<name xml:lang="it">Miniature in scala di grigio</name>
+				<desc xml:lang="it">Attivare questa opzione per visualizzare le miniature in scala di grigio.</desc>
+				<desc xml:lang="en">Activate this option to display thumbnails in grayscale.</desc>
+				<desc xml:lang="no">Aktiver dette alternativet for å vise miniatyrer i gråtoner.</desc>
+				<desc xml:lang="en-uk">Activate this option to display thumbnails in greyscale.</desc>
+				<desc xml:lang="de">Aktivieren Sie diese Option, um Thumbnails in Graustufen anzuzeigen.</desc>
+				<desc xml:lang="fi">Valitse näyttääksesi pikkukuvat mustavalkeina.</desc>
+				<desc xml:lang="nl">Activeer deze optie om folder-miniaturen in grijswaarden te tonen.</desc>
+				<desc xml:lang="pt">Active esta opção para mostrar miniaturas em tons de cinzento.</desc>
+				<desc xml:lang="hr">Prikaži sličice mapa kao crno-bijele.</desc>
+				<group xml:lang="en"></group>
+				<group xml:lang="de"></group>
+				<group xml:lang="fi"></group>
+				<group xml:lang="nl"></group>
+				<group xml:lang="pt"></group>
+				<group xml:lang="hr"></group>
+				<group xml:lang="it"></group>
+				<group xml:lang="no"></group>
+			</property>
+
+			<property resid="objectproperties.cattree.thumbnailsize" desc="">
+				<name xml:lang="en">Category Thumbnail Size</name>
+				<name xml:lang="de">Kategorie-Symbolbildgröße</name>
+				<desc xml:lang="en">Controls the size of category thumbnails.</desc>
+				<desc xml:lang="de">Die Größe der Kategorie-Symbolbilder.</desc>
+				<group xml:lang="en"></group>
+				<group xml:lang="de"></group>
+				<group xml:lang="fi"></group>
+				<group xml:lang="nl"></group>
+				<group xml:lang="pt"></group>
+				<group xml:lang="hr"></group>
+				<group xml:lang="it"></group>
+				<group xml:lang="no"></group>
+				<choices>
+					<!-- Values less than 32 are not supported because the icons are 32 pixel! -->
+					<choice data="32">
+						<c xml:lang="en">Tiny</c>
+						<c xml:lang="no">Minst</c>
+						<c xml:lang="de">Winzig</c>
+						<c xml:lang="fi">Pienimmät</c>
+						<c xml:lang="nl">Miniem</c>
+						<c xml:lang="pt">Minúsculo</c>
+						<c xml:lang="hr">Sitne</c>
+						<c xml:lang="it">Minuscole</c>
+					</choice>
+					<choice data="40">
+						<c xml:lang="en">Extra Small</c>
+						<c xml:lang="no">Ekstra liten</c>
+						<c xml:lang="de">Sehr Klein</c>
+						<c xml:lang="fi">Hyvin pienet</c>
+						<c xml:lang="nl">Zeer klein</c>
+						<c xml:lang="pt">Muito Pequeno</c>
+						<c xml:lang="hr">Jako male</c>
+						<c xml:lang="it">Molto Piccole</c>
+					</choice>
+					<choice data="50" default="true">
+						<c xml:lang="en">Small</c>
+						<c xml:lang="no">Liten</c>
+						<c xml:lang="de">Klein</c>
+						<c xml:lang="fi">Pienet</c>
+						<c xml:lang="nl">Klein</c>
+						<c xml:lang="pt">Pequeno</c>
+						<c xml:lang="hr">Male</c>
+						<c xml:lang="it">Piccole</c>
+					</choice>
+					<choice data="60">
+						<c xml:lang="en">Normal</c>
+						<c xml:lang="no">Normal</c>
+						<c xml:lang="de">Normal</c>
+						<c xml:lang="fi">Normaalit</c>
+						<c xml:lang="nl">Normaal</c>
+						<c xml:lang="pt">Normal</c>
+						<c xml:lang="hr">Normalne</c>
+						<c xml:lang="it">Normali</c>
+					</choice>
+					<choice data="80">
+						<c xml:lang="en">Medium</c>
+						<c xml:lang="no">Middels</c>
+						<c xml:lang="de">Mittel</c>
+						<c xml:lang="fi">Keskikokoiset</c>
+						<c xml:lang="nl">Middel</c>
+						<c xml:lang="pt">Médio</c>
+						<c xml:lang="hr">Srednje</c>
+						<c xml:lang="it">Media</c>
+					</choice>
+					<choice data="100">
+						<c xml:lang="en">Large</c>
+						<c xml:lang="no">Stor</c>
+						<c xml:lang="de">Groß</c>
+						<c xml:lang="fi">Suuret</c>
+						<c xml:lang="nl">Groot</c>
+						<c xml:lang="pt">Grande</c>
+						<c xml:lang="hr">Velike</c>
+						<c xml:lang="it">Grandi</c>
+					</choice>
+					<choice data="120">
+						<c xml:lang="en">Extra Large</c>
+						<c xml:lang="no">Ekstra stor</c>
+						<c xml:lang="de">Sehr Groß</c>
+						<c xml:lang="fi">XL</c>
+						<c xml:lang="nl">Zeer groot</c>
+						<c xml:lang="pt">Muito Grande</c>
+						<c xml:lang="hr">Jako velike</c>
+						<c xml:lang="it">Molto Grandi</c>
+					</choice>
+					<choice data="160">
+						<c xml:lang="en">XXL</c>
+						<c xml:lang="no">XXL</c>
+						<c xml:lang="de">XXL</c>
+						<c xml:lang="fi">XXL</c>
+						<c xml:lang="nl">XXL</c>
+						<c xml:lang="pt">XXL</c>
+						<c xml:lang="hr">XXL</c>
+						<c xml:lang="it">XXL</c>
+					</choice>
+				</choices>
+			</property>
+
+			
+			<property resid="objectproperties.cattree.thumbnailfillcolor" desc="">
+				<name xml:lang="en">Thumbnail Fill Color</name>
+				<name xml:lang="no">Fyllfarge miniatyr</name>
+				<name xml:lang="en-uk">Thumbnail Fill Colour</name>
+				<name xml:lang="de">Thumbnail Füllfarbe</name>
+				<name xml:lang="fi">Pikkukuvien täyteväri</name>
+				<name xml:lang="nl">Opvulkleur miniaturen</name>
+				<name xml:lang="pt">Cor de Preenchimento das Miniaturas</name>
+				<name xml:lang="hr">Boja ispune sličica</name>
+				<name xml:lang="it">Colore di riempimento delle miniature</name>
+				<desc xml:lang="it">Il colore dello sfondo usato per le miniature, e per ile cartelle senza miniature</desc>
+				<desc xml:lang="en">The background color used to fill thumbnails, and for folders without thumbnails</desc>
+				<desc xml:lang="no">Bakgrunnsfargen som brukes til å fylle miniatyrbilder, og mapper uten miniatyrbilder</desc>
+				<desc xml:lang="en-uk">The background colour used to fill thumbnails, and for folders without thumbnails</desc>
+				<desc xml:lang="de">Die Hintergrundfarbe für Thumbnails und für Verzeichnisse ohne Thumbnail.</desc>
+				<desc xml:lang="fi">Taustaväri, jota käytetään pikkukuvien täytevärinä ja kansioille, joissa ei ole pikkukuvia</desc>
+				<desc xml:lang="nl">Achtergrondkleur om miniaturen op te vullen en voor folders zonder miniatuur</desc>
+				<desc xml:lang="pt">A cor de fundo utilizada para preencheer as miniaturas e para pastas sem miniaturas.</desc>
+				<desc xml:lang="hr">Boja koja se koristi za ispunu sličica i za mape bez sličica.</desc>
+				<group xml:lang="en"></group>
+				<group xml:lang="de"></group>
+				<group xml:lang="fi"></group>
+				<group xml:lang="nl"></group>
+				<group xml:lang="pt"></group>
+				<group xml:lang="hr"></group>
+				<group xml:lang="it"></group>
+				<group xml:lang="no"></group>
+			</property>
+			
+			<property resid="objectproperties.cattree.thumbnailframecolor" desc="">
+				<name xml:lang="en">Thumbnail Frame Color</name>
+				<name xml:lang="no">Rammefarge miniatyrer</name>
+				<name xml:lang="en-uk">Thumbnail Frame Colour</name>
+				<name xml:lang="de">Thumbnail Rahmenfarbe</name>
+				<name xml:lang="fi">Pikkukuvien kehyksen väri</name>
+				<name xml:lang="nl">Kaderkleur miniaturen</name>
+				<name xml:lang="pt">Cor da Moldura da Miniatura</name>
+				<name xml:lang="hr">Boja okvira sličica</name>
+				<name xml:lang="it">Colore della cornice miniature</name>
+				<desc xml:lang="it">Il colore della cornice delle miniature, e per le cartelel senza miniature</desc>
+				<desc xml:lang="en">The frame color used to fill thumbnails, and for folders without thumbnails</desc>
+				<desc xml:lang="fi">Kehyksen väri, jota käytetään pikkukuville ja kansioille, joissa ei ole pikkukuvia</desc>
+				<desc xml:lang="no">Rammefargen som brukes til å fylle miniatyrbilder, og mapper uten miniatyrbilder</desc>
+				<desc xml:lang="en-uk">The frame colour used to fill thumbnails, and for folders without thumbnails</desc>
+				<desc xml:lang="de">Die Rahmenfarbe für Thumbnails und für Verzeichnisse ohne Thumbnail.</desc>
+				<desc xml:lang="nl">Kleur van het kader van miniaturen en voor folders zonder miniatuur</desc>
+				<desc xml:lang="pt">A cor da moldura utilizada para as miniaturas e para pastas sem miniaturas.</desc>
+				<desc xml:lang="hr">Boja koja se koristi za okvire oko sličica i za okvire oko mapa bez sličica.</desc>
+				<group xml:lang="en"></group>
+				<group xml:lang="de"></group>
+				<group xml:lang="fi"></group>
+				<group xml:lang="nl"></group>
+				<group xml:lang="pt"></group>
+				<group xml:lang="hr"></group>
+				<group xml:lang="it"></group>
+				<group xml:lang="no"></group>
+			</property>		
 
 
 		</property_group>

@@ -3421,6 +3421,16 @@
 				</m>
 			</msg>
 
+			<msg resid="PTR_MSG_FILEWND_CATEGORY_THUMBNAIL" typeid="[[IDI_INFORMATION]]" desc="">
+				<m xml:lang="en">
+					<cap>Wrong Category Type</cap>
+					<cont>This type of category does not support category thumbnails.</cont>
+				</m>
+				<m xml:lang="de">
+					<cap>Falscher Kategorietyp</cap>
+					<cont>Dieser Kategorietyp unterstützt keine Symbolbilder.</cont>
+				</m>
+			</msg>
 
 		</message_group>
 		
