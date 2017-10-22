@@ -5525,7 +5525,7 @@
 					<s xml:lang="no">Dette er det fysiske insynet på bildesamlingen din.\r\nHer vil du arbeider med stasjoner, media, mapper og filer - ligner Windows Explorer.</s>
 					<s xml:lang="de">Die physische Sicht auf Ihren Bildbestand.\nIn dieser Ansicht arbeiten Sie mit Laufwerken, Medien, Verzeichnissen und Dateien - ähnlich wie mit dem Windows Explorer.</s>
 					<s xml:lang="fi">Tämä on kuvakokoelmasi fyysinen näkymä.\r\nTäällä käsittelet levyasemia, medioita, kansioita ja tiedostoja -  vastaavasti kuin Windowsin resurssienhallinnassa</s>
-					<s xml:lang="nl">Dit is de fysieke weergave van uw collectie.\nHier werkt u met schijven, media, folders en bestanden, ongeveer zoals in Windows Verkenner.</s>
+					<s xml:lang="nl">Dit is de fysieke weergave van uw collectie.\nHier werkt u met schijven, media, mappen en bestanden, ongeveer zoals in Windows Verkenner.</s>
 					<s xml:lang="hr">Ovo je fizički prikaz tvoje zbirke slika.\r\nOvdje radiš s diskovima, medijima, mapama i datotekama - slično kao u Windows Explorer-u.</s>
 					<s xml:lang="pt">Esta é a vista física da sua colecção de imagens.\r\nAqui trabalha com unidades de disco, suportes de dados, pastas e ficheiros - tal como no Explorador do Windows.</s>
 					<s xml:lang="fr">Ceci est la vue physique de votre collection d'images\r\nIci vous utilisez des disques, dossiers et fichiers comme avec l'Explorateur de Wondows.</s>
@@ -5546,7 +5546,7 @@
 					<s xml:lang="en">In the Category View you work with dynamic categories to group your images.</s>
 					<s xml:lang="fi">Kategorianäkymässä voit käyttää dynaamisia kategorioita ryhmitelläksesi kuvasi.</s>
 					<s xml:lang="de">In der Kategorieansicht arbeiten Sie mit IMatch-Kategorien, um Ihre Bilder nach verschiedenen Kriterien zu ordnen.</s>
-					<s xml:lang="nl">In de Categorie-weeergave werkt u met IMatch-categoriën om bestanden te ordenen.</s>
+					<s xml:lang="nl">In de categorie-weeergave werkt u met IMatch-categoriën om bestanden te ordenen.</s>
 					<s xml:lang="hr">U prikazu kategorija radiš sa dinamičkim kategorijama da bi grupirao slike.</s>
 					<s xml:lang="pt">Na Vista de Categorias trabalha com categorias dinâmicas para agrupar as suas imagens.</s>
 				    <s xml:lang="no">I kategorivisningen kan du arbeide med dynamiske kategorier for å gruppere bildene dine.</s>
@@ -5567,7 +5567,7 @@
 				<str resid="PTR_VIEW_DBVIEW_TABNAME_TIMELINE_TIP" desc="Tooltip">
 					<s xml:lang="en">View your files arranged on a timeline.</s>
 					<s xml:lang="de">Sehen Sie Ihre Dateien angeordnet auf einer Zeitachse.</s>
-					<s xml:lang="nl">Uw bestanden weergegeven op een tijdlijn.</s>
+					<s xml:lang="nl">Uw bestanden worden weergegeven op een tijdlijn.</s>
 					<s xml:lang="pt">Veja os seus ficheiros dispostos numa linha cronológica.</s>
 					<s xml:lang="fi">Selaa tiedostojasi järjestettynä aikajanalle.</s>
 					<s xml:lang="hr">Prikaži svoje datoteke uređene na vremenskoj traci.</s>
@@ -12272,7 +12272,7 @@
 				<s xml:lang="en">With IMatch Design printing you can design and print photo books, contact sheets, reports and many other document types.</s>
 				<s xml:lang="de">Mit dem IMatch Druckmodul können Sie Fotobücher, Kontaktabzüge, Berichte und viele andere Dokumenttypen entwerfen und drucken.</s>
 				<s xml:lang="pt">Com o módulo de Desenho e Impressão, pode desenhar e imprimir livros de fotografias, páginas de amostra, relatórios e muitos outros tipos de documentos.</s>
-				<s xml:lang="nl">Met IMatch ontwerpafdrukken kunt u fotoboeken, contactvellen, rapporten en vele andere documenttypes ontwerpen en afdrukken.</s>
+				<s xml:lang="nl">Met deze IMatch module kunt u fotoboeken, contactvellen, rapporten en vele andere documenttypes ontwerpen en afdrukken.</s>
 			</str>
 
 		</string_group>

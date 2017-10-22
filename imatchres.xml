@@ -1923,7 +1923,7 @@
 				<c xml:lang="en" hotkey="" helptext="Open the Folder &amp; Media View. This view gives you access to the physical structure behind your database, the drives, media and folders which make up the database contents.">Folders &amp;&amp; &amp;Media</c>
 				<c xml:lang="de" hotkey="" helptext="Öffnet die Verzeichnis-Ansicht. Diese Ansicht zeigt die Speichermedien, deren logische Laufwerke und die Ordnerstrukturen an, in denen die Datenbank-Inhalte abgelegt sind.">&amp;Verzeichnisse &amp;&amp; Medien</c>
 				<c xml:lang="fi" hotkey="" helptext="Avaa Mediat &amp; kansiot -näkymä. Tämän avulla näet tietokannan sisällön fyysisen rakenteen, levyasemat, eri tallennusmediat ja kansiot, joista tietokannan sisältö koostuu.">&amp;Me&amp;diat &amp;&amp; kansiot</c>
-				<c xml:lang="nl" hotkey="" helptext="Folder- en Mediaweergave openen. Deze weergave geeft toegang tot de fysieke structuur van uw database, de schijven, media en folders.">Folders &amp;&amp; &amp;Media</c>
+				<c xml:lang="nl" hotkey="" helptext="Media- en mappenweergave openen. Deze weergave geeft toegang tot de fysieke structuur van uw database, de schijven, media en mappen.">Mappen &amp;&amp; &amp;Media</c>
 				<c xml:lang="pt" hotkey="" helptext="Abrir Vista de Pastas &amp; Suportes de Dados. Esta vista permite o acesso à estrutura física subjacente à base de dados: discos, suportes de dados e pastas que constituem o conteúdo da base de dados.">Pastas &amp;&amp; &amp;Suportes de Dados</c>
 				<c xml:lang="hr" hotkey="" helptext="Otvori prikaz mape i medija. Pruža pristup fizičkoj strukturi baze podataka, pogonima, medijima i mapama koje čine sadržaj baze podataka.">&amp;Mape i mediji</c>
 				<c xml:lang="no" hotkey="" helptext="Åpne katalog &amp; media visning. Denne visningen gir deg tilgang til den fysiske database strukturen, harddisker, media og kataloger som utgjør databasens innhold.">Kataloger &amp;&amp; &amp;media</c>
@@ -2153,7 +2153,7 @@
             <cmd resid="ID_WINDOW_SWITCH_FM">
                 <c xml:lang="en" hotkey="Ctrl+W|1" helptext="">Media &amp;&amp; &amp;Folders</c>
                 <c xml:lang="de" hotkey="Ctrl+W|1" helptext="">Medienansicht- und &amp;Verzeichnisse</c>
-                <c xml:lang="nl" hotkey="Ctrl+W|1" helptext="">&amp;Bestands- en mediaweergave</c>
+                <c xml:lang="nl" hotkey="Ctrl+W|1" helptext="">&amp;Media- en mappenweergave</c>
 				<c xml:lang="fi" hotkey="Ctrl+W|1" helptext="">&amp;Mediat &amp;&amp; kansiot -näkymä</c>
 				<c xml:lang="pt" hotkey="Ctrl+W|1" helptext="">Vista de Suportes de Dados &amp;&amp; &amp;Pastas</c>
                 <c xml:lang="hr" hotkey="Ctrl+W|1" helptext="">&amp;Prikaži mape i medije</c>
@@ -6246,7 +6246,7 @@
                 <c xml:lang="en" hotkey="F4|P" helptext="Propagate categories, collections and other metadata from the master to versions">Propagate data to &amp;Versions</c>
                 <c xml:lang="de" hotkey="F4|P" helptext="Kategorien, Kollektionen und andere Metadaten von der Masterdatei auf Versionen übertragen.">Daten auf &amp;Versionen übertragen</c>
 				<c xml:lang="fi" hotkey="F4|P" helptext="Kopioi kategoriat, kokoelmat ja muu metatieto alkuperäisestä versioihin.">Kopioi &amp;metatiedot versioihin</c>
-                <c xml:lang="nl" hotkey="F4|P" helptext="Categorien, collecties en andere metadata van masterbestand naar versies overdragen.">Metadata naar &amp;versies overdragen</c>
+                <c xml:lang="nl" hotkey="F4|P" helptext="Categorieën, collecties en andere metadata van masterbestand naar versies overdragen.">Metadata naar &amp;versies overdragen</c>
 				<c xml:lang="pt" hotkey="F4|P" helptext="Propagar categorias, colecções e outros metadados do ficheiro mestre para as versões">Propagar Dados para as &amp;Versões</c>
                 <c xml:lang="hr" hotkey="F4|P" helptext="Prenesi kategorije, zbirke i ostale metapodatke na verzije">Prenesi podatke na &amp;verzije</c>
                 <c xml:lang="no" hotkey="F4|P" helptext="Spre kategorier, samlinger og andre metadata fra hoved til versjoner">Spre data til &amp;versjoner</c>
