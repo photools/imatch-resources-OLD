@@ -7439,6 +7439,7 @@
 			<cmd resid="ID_CMD_CATEGORY_SETTHUMBNAIL" bmidx="-1">
 				<c xml:lang="en" hotkey="" helptext="Set the selected file as the category thumbnail">Set category thumbnail</c>
 				<c xml:lang="de" hotkey="" helptext="Die ausgewählte Datei als Kategorie-Symbolbild verwenden.">Kategorie-Symbolbild festlegen</c>
+				<c xml:lang="nl" hotkey="" helptext="Het geselecteerde bestand gebruiken miniatuur voor de categorie">Set category thumbnail</c>
 			</cmd>
 
 		</command_group>
@@ -22241,7 +22242,7 @@
 				<desc xml:lang="no">Aktiver dette alternativet for å vise mappenes miniatyrbilder i stedet for standard mappeikoner.</desc>
 				<desc xml:lang="de">Aktivieren Sie diese Option, um Verzeichnis-Symbolbilder anstatt der Standard-Symbolbilder anzuzeigen.</desc>
 				<desc xml:lang="fi">Aktivoi tämä valinta käyttääksesi kansioille pikkukuvia vakiokuvakkeiden sijasta.</desc>
-				<desc xml:lang="nl">Activeer deze optie om folder-miniaturen te tonen in plaats van de standaard folder-pictogrammen.</desc>
+				<desc xml:lang="nl">Activeer deze optie om map-miniaturen te tonen in plaats van de standaard map-pictogrammen.</desc>
 				<desc xml:lang="pt">Active esta opção para mostrar miniaturas das pastas em vez dos ícones normais das pastas.</desc>
 				<desc xml:lang="hr">Prikaži sličice mapa umjesto ikona.</desc>
 				<group xml:lang="en"></group>
@@ -22270,7 +22271,7 @@
 				<desc xml:lang="en-uk">Activate this option to display thumbnails in greyscale.</desc>
 				<desc xml:lang="de">Aktivieren Sie diese Option, um Thumbnails in Graustufen anzuzeigen.</desc>
 				<desc xml:lang="fi">Valitse näyttääksesi pikkukuvat mustavalkeina.</desc>
-				<desc xml:lang="nl">Activeer deze optie om folder-miniaturen in grijswaarden te tonen.</desc>
+				<desc xml:lang="nl">Activeer deze optie om map-miniaturen in grijswaarden te tonen.</desc>
 				<desc xml:lang="pt">Active esta opção para mostrar miniaturas em tons de cinzento.</desc>
 				<desc xml:lang="hr">Prikaži sličice mapa kao crno-bijele.</desc>
 				<group xml:lang="en"></group>
@@ -22288,7 +22289,7 @@
 				<name xml:lang="no">Størrelse for mappeminiatyr</name>
 				<name xml:lang="de">Verzeichnis-Symbolbildgröße</name>
 				<name xml:lang="fi">Kansioiden pikkukuvien koko</name>
-				<name xml:lang="nl">Grootte folder-miniaturen</name>
+				<name xml:lang="nl">Grootte map-miniaturen</name>
 				<name xml:lang="pt">Tamanho das Miniaturas das Pastas</name>
 				<name xml:lang="hr">Veličina sličica mapa</name>
 				<name xml:lang="it">Dimensione della miniatura della Cartella</name>
@@ -24451,7 +24452,7 @@
 				<desc xml:lang="en-uk">The background colour used to fill thumbnails, and for folders without thumbnails</desc>
 				<desc xml:lang="de">Die Hintergrundfarbe für Thumbnails und für Verzeichnisse ohne Thumbnail.</desc>
 				<desc xml:lang="fi">Taustaväri, jota käytetään pikkukuvien täytevärinä ja kansioille, joissa ei ole pikkukuvia</desc>
-				<desc xml:lang="nl">Achtergrondkleur om miniaturen op te vullen en voor folders zonder miniatuur</desc>
+				<desc xml:lang="nl">Achtergrondkleur om miniaturen op te vullen en voor mappen zonder miniatuur</desc>
 				<desc xml:lang="pt">A cor de fundo utilizada para preencheer as miniaturas e para pastas sem miniaturas.</desc>
 				<desc xml:lang="hr">Boja koja se koristi za ispunu sličica i za mape bez sličica.</desc>
 				<group xml:lang="en"></group>
@@ -24480,7 +24481,7 @@
 				<desc xml:lang="no">Rammefargen som brukes til å fylle miniatyrbilder, og mapper uten miniatyrbilder</desc>
 				<desc xml:lang="en-uk">The frame colour used to fill thumbnails, and for folders without thumbnails</desc>
 				<desc xml:lang="de">Die Rahmenfarbe für Thumbnails und für Verzeichnisse ohne Thumbnail.</desc>
-				<desc xml:lang="nl">Kleur van het kader van miniaturen en voor folders zonder miniatuur</desc>
+				<desc xml:lang="nl">Kleur van het kader van miniaturen en voor mappen zonder miniatuur</desc>
 				<desc xml:lang="pt">A cor da moldura utilizada para as miniaturas e para pastas sem miniaturas.</desc>
 				<desc xml:lang="hr">Boja koja se koristi za okvire oko sličica i za okvire oko mapa bez sličica.</desc>
 				<group xml:lang="en"></group>
