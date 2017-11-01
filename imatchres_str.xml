@@ -8300,8 +8300,13 @@
 				<s xml:lang="fr">Donnez un nom au modèle</s>
                 <s xml:lang="it">Immetti il nome per il modello:</s>
             </str>
-            
-            <!-- Template Import & Export -->
+
+			<str resid="PTR_MDTEMPLATEMANAGER_SAVEAS_MSG">
+				<s xml:lang="en">This copies all tags used by the current layout into a Metadata Template.\r\nYou should edit the template afterwards to remove all unwanted tags - especially tags with potentially harmful side effects like 'Orientation' etc.).</s>
+				<s xml:lang="de">Diese funktion kopiert alle Tags aus dem aktuellen Layout in eine Metadatenvorlage.\r\nSie sollten die Vorlage anschließend bearbeiten und alle nicht benötigten Tags entfernen - insbesondere Tags mit potentiell schädlichen Nebenwirkungen wie 'Ausrichtung/Orientation'.</s>
+			</str>
+
+			<!-- Template Import & Export -->
             <str resid="PTR_MDTEMPLATEMANAGER_IMPORTEXPORT_FILEMASK" desc="">
                 <s xml:lang="en">Metadata Template (*.immdt)|*.immdt|All Files (*.*)|*.*||</s>
                 <s xml:lang="no">Metadatamal (*.immdt)|*.immdt|Alle filer (*.*)|*.*||</s>
@@ -13403,8 +13408,12 @@
 				<s xml:lang="fi">Kokoelmaa ei löydy.</s>
                 <s xml:lang="it">Collezione non trovata.</s>
             </str>
+			<str resid="PTR_ERRMSG_5017" desc="IMERR_PARS_UNKNOWNTAG">
+				<s xml:lang="en">Tag not found.</s>
+				<s xml:lang="de">Tag nicht gefunden.</s>
+			</str>
 
-            <str resid="PTR_ERRMSG_5101" desc="IMERR_DATAGROUP_TOOMANYCHILDREN">
+			<str resid="PTR_ERRMSG_5101" desc="IMERR_DATAGROUP_TOOMANYCHILDREN">
                 <s xml:lang="en">Too many children for a data-driven category. Please change the category setup to reduce the number of child categories created.</s>
                 <s xml:lang="de">Zu viele untergeordnete Kategorien für eine datengestützte Kategorie. Bitte verändern Sie die Eigenschaften der Kategorien um weniger untergeordnete Kategorien zu erzeugen.</s>
 				<s xml:lang="fi">Aineistopohjaisella kategorialla on liian monta alakategoriaa. Ole hyvä ja muuta kategoria-asetuksia vähentääksesi luotavien alakategorioiden määrän.</s>
