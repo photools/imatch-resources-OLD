@@ -11002,14 +11002,14 @@
 
 		<command_group name="Toolbar in Filter Panel" resgroup="filter" bmid="PTR_BM_CMD_FILTER_PANEL" desc="">
             <cmd resid="ID_FILTERPANEL_ENABLE" desc="">
-                <c xml:lang="en" hotkey="" helptext="Enable or disable the filter panel">&amp;Toggle Filter Panel</c>
-                <c xml:lang="de" hotkey="" helptext="Das Filter-Panel aktivieren oder deaktivieren.">Filter-Panel &amp;umschalten</c>
-				<c xml:lang="fi" hotkey="" helptext="Käytä/Poista käytöstä suodatinpaneeli">S&amp;uodatinpaneeli käyttöön / pois käytöstä</c>
-                <c xml:lang="nl" hotkey="" helptext="Filter-paneel activeren of deactiveren">Filter-paneel &amp;in-/uitschakelen</c>
-				<c xml:lang="pt" hotkey="" helptext="Activar ou desactivar o painel de filtros">&amp;Activar/Desactivar Painel de Filtros</c>
-                <c xml:lang="hr" hotkey="" helptext="Prikaži ili sakrij ploču filtra">Preklopi ploču fil&amp;tra</c>
-                <c xml:lang="no" hotkey="" helptext="Aktiver eller deaktiver filter panelet">Veksle filter panelet</c>
-                <c xml:lang="it" hotkey="" helptext="Abilita o disabilita il pannello filtro">&amp;ON/OFF Pannello Filtro</c>
+                <c xml:lang="en" hotkey="Ctrl+F6" helptext="Enable or disable the filter panel">&amp;Toggle Filter Panel</c>
+                <c xml:lang="de" hotkey="Ctrl+F6" helptext="Das Filter-Panel aktivieren oder deaktivieren.">Filter-Panel &amp;umschalten</c>
+				<c xml:lang="fi" hotkey="Ctrl+F6" helptext="Käytä/Poista käytöstä suodatinpaneeli">S&amp;uodatinpaneeli käyttöön / pois käytöstä</c>
+                <c xml:lang="nl" hotkey="Ctrl+F6" helptext="Filter-paneel activeren of deactiveren">Filter-paneel &amp;in-/uitschakelen</c>
+				<c xml:lang="pt" hotkey="Ctrl+F6" helptext="Activar ou desactivar o painel de filtros">&amp;Activar/Desactivar Painel de Filtros</c>
+                <c xml:lang="hr" hotkey="Ctrl+F6" helptext="Prikaži ili sakrij ploču filtra">Preklopi ploču fil&amp;tra</c>
+                <c xml:lang="no" hotkey="Ctrl+F6" helptext="Aktiver eller deaktiver filter panelet">Veksle filter panelet</c>
+                <c xml:lang="it" hotkey="Ctrl+F6" helptext="Abilita o disabilita il pannello filtro">&amp;ON/OFF Pannello Filtro</c>
             </cmd>
             <cmd resid="ID_FILTERPANEL_AUTO" bmidx="-1" desc="">
 				<c xml:lang="en" hotkey="" helptext="Automatically apply changes you make to the filter.\nDisable this option if you work with complex filters to speed up processing.\nThe filter is then only applied when you click the 'Apply' button.">&amp;Auto</c>

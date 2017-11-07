@@ -7752,26 +7752,21 @@
 				<s xml:lang="it">Nuovo Layout</s>
 			</str>
 
-			<str resid="PTR_MDCONTAINER_LAYOUT_DEFAULT_DESC" desc="Description for the default layout">
+			<!-- @Translators: This is empty by intention! -->
+			<str resid="PTR_MDCONTAINER_LAYOUT_NEW_DESC" desc="Name for the new panel layouts">
 				<s xml:lang="en"></s>
-				<s xml:lang="de"></s>
-				<s xml:lang="fi"></s>
-				<s xml:lang="nl"></s>
-				<s xml:lang="pt"></s>
-				<s xml:lang="hr"></s>
-				<s xml:lang="fr"></s>
-				<s xml:lang="it"></s>
 			</str>
 
-			<str resid="PTR_MDCONTAINER_LAYOUT_NEW_DESC" desc="Description for new panel layouts">
-				<s xml:lang="en"></s>
-				<s xml:lang="de"></s>
-				<s xml:lang="fi"></s>
-				<s xml:lang="nl"></s>
-				<s xml:lang="pt"></s>
-				<s xml:lang="hr"></s>
-				<s xml:lang="fr"></s>
-				<s xml:lang="it"></s>
+			<!-- Name/Desc for default '3 Image' layout -->
+
+			<str resid="PTR_MDCONTAINER_LAYOUT_IMAGE_NAME">
+				<s xml:lang="en">3 Image</s>
+				<s xml:lang="de">3 Bild</s>
+			</str>
+
+			<str resid="PTR_MDCONTAINER_LAYOUT_DESCRIBE_NAME">
+				<s xml:lang="en">2 Describe</s>
+				<s xml:lang="de">2 Beschreiben</s>
 			</str>
 
 			<!-- These strings are used to fill the combo box showing the "Show" options -->

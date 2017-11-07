@@ -7673,8 +7673,12 @@
                     <t xml:lang="it">Trova tutti i file il cui nome corrisponde all'espressione regolare data.</t>
 					<t xml:lang="pt">Encontra todos os ficheiros cujo nome corresponda á expressão regular dada.</t>
                 </td>
+				<td tid="tt_tag">
+					<t xml:lang="en">Find all files based on the specified metadata tag and operation.</t>
+					<t xml:lang="de">Findet alle Dateien basierend auf dem angegebenen Metadaten-Tag.</t>
+				</td>
 
-            </textdata>
+			</textdata>
         </dialog>
 
         <dialog resid="PTRMDLG_GROUP_DATA" desc="Group Data Editor Dialog">
