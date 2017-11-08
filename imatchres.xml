@@ -20397,7 +20397,7 @@
 					<choice data="1">
 						<c xml:lang="en" desc="">Full image (slower, maybe more precise)</c>
 						<c xml:lang="de" desc="">Vollbild (langsamer, eventuell präziser)</c>
-						<c xml:lang="nl" desc="">Volledige afbeelding, mogelijk accurater)</c>
+						<c xml:lang="nl" desc="">Volledige afbeelding (langzamer, maar mogelijk accurater)</c>
 					</choice>
 				</choices>
 			</property>
@@ -20408,10 +20408,13 @@
 			<property resid="app.viewer.ptcraw.prefer" desc="">
 				<name xml:lang="en">Prefer photools.com RAW Processing</name>
 				<name xml:lang="de">photools.com RAW-Prozess bevorzugen</name>
+				<name xml:lang="nl">Geef de voorkeur aan photools.com RAW bewerken</name>
 				<desc xml:lang="en">By default, IMatch uses installed WIC Codecs provided by camera vendors, Microsoft or 3rd parties to extract previews and cache images from RAW images. The integrated photools.com RAW processor is used as a fallback if no WIC codec is installed or if it fails to load a RAW image. If you want to ignore installed WIC codecs and use photools.com RAW processing always, enable this option.</desc>
 				<desc xml:lang="de">Standardmäßig verwendet IMatch zum Verarbeiten von RAW-Bilddateien installierte WIC-Codecs, die von Kameraherstellern, Microsoft oder Drittanbietern bereitgestellt werden. Falls kein WIC-Codec installiert ist oder dieser ein Bild nicht laden kann, nutzt IMatch den eingebauten photools.com RAW-Prozessor. Falls Sie WIC-Codecs ignorieren möchten und stattdessen immer den photools.com RAW-Prozessor nutzen möchten, aktivieren Sie diese Option.</desc>
+				<desc xml:lang="nl">Standaard gebruikt IMatch de geïnstalleerde WICCodecs, die door de cameraleverancier, Microsoft of derde partijen beschikbaar worden gesteld, om miniaturen en cache afbeeldingen uit RAW-bestanden te genereren.  In het geval dat geen WIC-codec is geïnstalleerd of een afbeelding niet kan wordne geladen, gebruikt IMatch de ingebouwde photools.com RAW bewerker. Als u de geïnstalleerde WIC codecs niet wilt gebruiken en altijd de photools.com RAW bewerker wilt gebruiken, moet u deze optie activeren.</desc>
 				<group xml:lang="en">photools.com RAW Processing</group>
 				<group xml:lang="en">photools.com RAW-Prozess</group>
+				<group xml:lang="nl">photools.com RAW-verwerking</group>
 			</property>
 
 
