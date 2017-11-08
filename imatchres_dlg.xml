@@ -7676,6 +7676,7 @@
 				<td tid="tt_tag">
 					<t xml:lang="en">Find all files based on the specified metadata tag and operation.</t>
 					<t xml:lang="de">Findet alle Dateien basierend auf dem angegebenen Metadaten-Tag.</t>
+					<t xml:lang="nl">Vindt alle bestanden met de aangegevens metadata tag.</t>
 				</td>
 
 			</textdata>

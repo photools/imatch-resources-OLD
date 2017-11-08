@@ -11002,14 +11002,14 @@
 
 		<command_group name="Toolbar in Filter Panel" resgroup="filter" bmid="PTR_BM_CMD_FILTER_PANEL" desc="">
             <cmd resid="ID_FILTERPANEL_ENABLE" desc="">
-                <c xml:lang="en" hotkey="Ctrl+F6" helptext="Enable or disable the filter panel">&amp;Toggle Filter Panel</c>
-                <c xml:lang="de" hotkey="Ctrl+F6" helptext="Das Filter-Panel aktivieren oder deaktivieren.">Filter-Panel &amp;umschalten</c>
-				<c xml:lang="fi" hotkey="Ctrl+F6" helptext="Käytä/Poista käytöstä suodatinpaneeli">S&amp;uodatinpaneeli käyttöön / pois käytöstä</c>
-                <c xml:lang="nl" hotkey="Ctrl+F6" helptext="Filter-paneel activeren of deactiveren">Filter-paneel &amp;in-/uitschakelen</c>
-				<c xml:lang="pt" hotkey="Ctrl+F6" helptext="Activar ou desactivar o painel de filtros">&amp;Activar/Desactivar Painel de Filtros</c>
-                <c xml:lang="hr" hotkey="Ctrl+F6" helptext="Prikaži ili sakrij ploču filtra">Preklopi ploču fil&amp;tra</c>
-                <c xml:lang="no" hotkey="Ctrl+F6" helptext="Aktiver eller deaktiver filter panelet">Veksle filter panelet</c>
-                <c xml:lang="it" hotkey="Ctrl+F6" helptext="Abilita o disabilita il pannello filtro">&amp;ON/OFF Pannello Filtro</c>
+                <c xml:lang="en" hotkey="" helptext="Enable or disable the filter panel">&amp;Toggle Filter Panel</c>
+                <c xml:lang="de" hotkey="" helptext="Das Filter-Panel aktivieren oder deaktivieren.">Filter-Panel &amp;umschalten</c>
+				<c xml:lang="fi" hotkey="" helptext="Käytä/Poista käytöstä suodatinpaneeli">S&amp;uodatinpaneeli käyttöön / pois käytöstä</c>
+                <c xml:lang="nl" hotkey="" helptext="Filter-paneel activeren of dé-activeren">Filter-paneel &amp;in-/uitschakelen</c>
+				<c xml:lang="pt" hotkey="" helptext="Activar ou desactivar o painel de filtros">&amp;Activar/Desactivar Painel de Filtros</c>
+                <c xml:lang="hr" hotkey="" helptext="Prikaži ili sakrij ploču filtra">Preklopi ploču fil&amp;tra</c>
+                <c xml:lang="no" hotkey="" helptext="Aktiver eller deaktiver filter panelet">Veksle filter panelet</c>
+                <c xml:lang="it" hotkey="" helptext="Abilita o disabilita il pannello filtro">&amp;ON/OFF Pannello Filtro</c>
             </cmd>
             <cmd resid="ID_FILTERPANEL_AUTO" bmidx="-1" desc="">
 				<c xml:lang="en" hotkey="" helptext="Automatically apply changes you make to the filter.\nDisable this option if you work with complex filters to speed up processing.\nThe filter is then only applied when you click the 'Apply' button.">&amp;Auto</c>
@@ -20401,19 +20401,6 @@
 					</choice>
 				</choices>
 			</property>
-			
-			
-			<!-- PTCRaw -->
-
-			<property resid="app.viewer.ptcraw.prefer" desc="">
-				<name xml:lang="en">Prefer photools.com RAW Processing</name>
-				<name xml:lang="de">photools.com RAW-Prozess bevorzugen</name>
-				<desc xml:lang="en">By default, IMatch uses installed WIC Codecs provided by camera vendors, Microsoft or 3rd parties to extract previews and cache images from RAW images. The integrated photools.com RAW processor is used as a fallback if no WIC codec is installed or if it fails to load a RAW image. If you want to ignore installed WIC codecs and use photools.com RAW processing always, enable this option.</desc>
-				<desc xml:lang="de">Standardmäßig verwendet IMatch zum Verarbeiten von RAW-Bilddateien installierte WIC-Codecs, die von Kameraherstellern, Microsoft oder Drittanbietern bereitgestellt werden. Falls kein WIC-Codec installiert ist oder dieser ein Bild nicht laden kann, nutzt IMatch den eingebauten photools.com RAW-Prozessor. Falls Sie WIC-Codecs ignorieren möchten und stattdessen immer den photools.com RAW-Prozessor nutzen möchten, aktivieren Sie diese Option.</desc>
-				<group xml:lang="en">photools.com RAW Processing</group>
-				<group xml:lang="en">photools.com RAW-Prozess</group>
-			</property>
-
 
 			<!-- Process Control -->
 
@@ -21749,7 +21736,9 @@
                 <group xml:lang="it"></group>
 				<group xml:lang="no"></group>
             </property>
-		</property_group>
+	
+            
+        </property_group>
 
 		<property_group name="favorites.settings" desc="Properties used for the favorites panel">
 
