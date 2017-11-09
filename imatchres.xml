@@ -20404,7 +20404,7 @@
 			
 			
 			<!-- PTCRaw -->
-
+ 
 			<property resid="app.viewer.ptcraw.prefer" desc="">
 				<name xml:lang="en">Prefer photools.com RAW Processing</name>
 				<name xml:lang="de">photools.com RAW-Prozess bevorzugen</name>

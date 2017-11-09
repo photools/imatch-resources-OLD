@@ -4403,8 +4403,12 @@
                 <c xml:lang="it" helptext="">I&amp;nserisci</c>
             </ctrl>
 
+			<ctrl text="#l_find_cue">
+				<c xml:lang="en" helptext="">Search the result</c>
+				<c xml:lang="de" helptext="">Das Ergebnis durchsuchen</c>
+			</ctrl>
 
-            <textdata>
+			<textdata>
                 <!-- Format used for stats (XAML!)-->
                 <td tid="stats">
                     <t xml:lang="en"><![CDATA[<TextBlock><Italic>{0} file(s) in selection</Italic></TextBlock>]]></t>
