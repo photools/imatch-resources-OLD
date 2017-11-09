@@ -4406,6 +4406,7 @@
 			<ctrl text="#l_find_cue">
 				<c xml:lang="en" helptext="">Search the result</c>
 				<c xml:lang="de" helptext="">Das Ergebnis durchsuchen</c>
+				<c xml:lang="nl" helptext="">Doorzoek het resultaat</c>
 			</ctrl>
 
 			<textdata>
@@ -4413,7 +4414,7 @@
                 <td tid="stats">
                     <t xml:lang="en"><![CDATA[<TextBlock><Italic>{0} file(s) in selection</Italic></TextBlock>]]></t>
                     <t xml:lang="de"><![CDATA[<TextBlock><Italic>{0} Datei(en) in Auswahl</Italic></TextBlock>]]></t>
-                    <t xml:lang="nl"><![CDATA[<TextBlock><Italic>{0} bestand(en) in selectie</Italic></TextBlock>]]></t>
+                    <t xml:lang="nl"><![CDATA[<TextBlock><Italic>{0} bestand(-en) in selectie</Italic></TextBlock>]]></t>
 					<t xml:lang="pt"><![CDATA[<TextBlock><Italic>{0} ficheiro(s) na selecção</Italic></TextBlock>]]></t>
 					<t xml:lang="no"><![CDATA[<TextBlock><Italic>{0} fil(er) i utvalg</Italic></TextBlock>]]></t>
 					<t xml:lang="fi"><![CDATA[<TextBlock><Italic>{0} tiedosto(a) valittuna</Italic></TextBlock>]]></t>
