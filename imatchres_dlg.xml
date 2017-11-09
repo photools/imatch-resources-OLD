@@ -6809,7 +6809,7 @@
 				<c xml:lang="en" helptext="This filter finds similar images based on the overall colors in the image.">&amp;Images with similar colors</c>
 				<c xml:lang="en-uk" helptext="This filter finds similar images based on the overall colours in the image.">&amp;Images with similar colours</c>
 				<c xml:lang="de" helptext="Dieser Filter findet ähnliche Bilder anhand der im Bild vorhandenen Farben.">B&amp;ilder mit ähnlichen Farben</c>
-				<c xml:lang="nl" helptext="Deze filter vindt gelijkaardige bestanden op basis van de kleuren in de afbeelding.">Afbeeld&amp;ingen met gelijkaardige kleuren</c>
+				<c xml:lang="nl" helptext="Dit filter vindt soortgelijke bestanden op basis van de kleuren in de afbeelding.">Afbeeld&amp;ingen met gelijkaardige kleuren</c>
 				<c xml:lang="pt" helptext="Este filtro localiza imagens similares com base nas cores globais existentes na imagem.">&amp;Imagens com cores similares</c>
 				<c xml:lang="no" helptext="Dette filtret finner liknende bilder basert på bildets fargenyanser.">B&amp;ilder med liknende farger</c>
 				<c xml:lang="fi" helptext="Tämä suodatin hakee samankaltaisia kuvia perustuen kuvan värimaailmaan.">Saman&amp;värisiä kuvia</c>
@@ -7681,6 +7681,7 @@
 				<td tid="tt_tag">
 					<t xml:lang="en">Find all files based on the specified metadata tag and operation.</t>
 					<t xml:lang="de">Findet alle Dateien basierend auf dem angegebenen Metadaten-Tag.</t>
+					<t xml:lang="nl">Vindt alle bestanden, gebaseerd op de aangegeven metadata tag.</t>
 				</td>
 
 			</textdata>
