@@ -2270,7 +2270,7 @@
 					<cap>Slepen en neerzetten</cap>
 					<cont>U hebt één of meerdere folders en/of bestanden hier neergezet. Wilt u deze objecten aan de database toevoegen?</cont>
 					<ftr typeid="[[TD_INFORMATION_ICON]]">Folders en bestanden die al door de database geïndexeerd zijn worden bijgewerkt. Nieuwe folders en bestanden worden toegevoegd, waarbij de standaard opties worden gebruikt.</ftr>
-					<ver>Bevatten submappen</ver>
+					<ver>Submappen opnemen</ver>
 				</m>
 				<m xml:lang="pt">
 					<cap>Operação de Arrastar e Largar</cap>
@@ -3421,6 +3421,16 @@
 				</m>
 			</msg>
 
+			<msg resid="PTR_MSG_FILEWND_CATEGORY_THUMBNAIL" typeid="[[IDI_INFORMATION]]" desc="">
+				<m xml:lang="en">
+					<cap>Wrong Category Type</cap>
+					<cont>This type of category does not support category thumbnails.</cont>
+				</m>
+				<m xml:lang="de">
+					<cap>Falscher Kategorietyp</cap>
+					<cont>Dieser Kategorietyp unterstützt keine Symbolbilder.</cont>
+				</m>
+			</msg>
 
 		</message_group>
 		
@@ -9927,7 +9937,7 @@
 				</m>
 				<m xml:lang="de">
 					<cap>IMatch sagt Hallo!</cap>
-					<cont>Dies ist das erste Mal, dass Sie IMatch ausführen. IMatch erstellt nun eine Datenbank, die später alle Informationen zu Ihren Dateien speichert. Wenn dieser Vorhang abgechlossen ist, können Sie IMatch die Dateien zeigen, die Sie verwalten möchten.</cont>
+					<cont>Dies ist das erste Mal, dass Sie IMatch ausführen. IMatch erstellt nun eine Datenbank, die später alle Informationen zu Ihren Dateien speichert. Wenn dieser Vorgang abgechlossen ist, können Sie IMatch die Dateien zeigen, die Sie verwalten möchten.</cont>
 					<button btnid="1001">Ihre Datenbank erstellen\nDiese Option startet den Datenbankassistenten.</button>
                     <button btnid="1003">Das Hilfesystem öffnen\nÖffnet die IMatch-Hilfe mit Informationen für neue Anwender.</button>
 					<button btnid="1004">Diesen Dialog schließen\nWählen Sie diese Option, wenn Sie selbständig arbeiten möchten.</button>

@@ -1923,7 +1923,7 @@
 				<c xml:lang="en" hotkey="" helptext="Open the Folder &amp; Media View. This view gives you access to the physical structure behind your database, the drives, media and folders which make up the database contents.">Folders &amp;&amp; &amp;Media</c>
 				<c xml:lang="de" hotkey="" helptext="Öffnet die Verzeichnis-Ansicht. Diese Ansicht zeigt die Speichermedien, deren logische Laufwerke und die Ordnerstrukturen an, in denen die Datenbank-Inhalte abgelegt sind.">&amp;Verzeichnisse &amp;&amp; Medien</c>
 				<c xml:lang="fi" hotkey="" helptext="Avaa Mediat &amp; kansiot -näkymä. Tämän avulla näet tietokannan sisällön fyysisen rakenteen, levyasemat, eri tallennusmediat ja kansiot, joista tietokannan sisältö koostuu.">&amp;Me&amp;diat &amp;&amp; kansiot</c>
-				<c xml:lang="nl" hotkey="" helptext="Folder- en Mediaweergave openen. Deze weergave geeft toegang tot de fysieke structuur van uw database, de schijven, media en folders.">Folders &amp;&amp; &amp;Media</c>
+				<c xml:lang="nl" hotkey="" helptext="Media- en mappenweergave openen. Deze weergave geeft toegang tot de fysieke structuur van uw database, de schijven, media en mappen.">Mappen &amp;&amp; &amp;Media</c>
 				<c xml:lang="pt" hotkey="" helptext="Abrir Vista de Pastas &amp; Suportes de Dados. Esta vista permite o acesso à estrutura física subjacente à base de dados: discos, suportes de dados e pastas que constituem o conteúdo da base de dados.">Pastas &amp;&amp; &amp;Suportes de Dados</c>
 				<c xml:lang="hr" hotkey="" helptext="Otvori prikaz mape i medija. Pruža pristup fizičkoj strukturi baze podataka, pogonima, medijima i mapama koje čine sadržaj baze podataka.">&amp;Mape i mediji</c>
 				<c xml:lang="no" hotkey="" helptext="Åpne katalog &amp; media visning. Denne visningen gir deg tilgang til den fysiske database strukturen, harddisker, media og kataloger som utgjør databasens innhold.">Kataloger &amp;&amp; &amp;media</c>
@@ -2153,7 +2153,7 @@
             <cmd resid="ID_WINDOW_SWITCH_FM">
                 <c xml:lang="en" hotkey="Ctrl+W|1" helptext="">Media &amp;&amp; &amp;Folders</c>
                 <c xml:lang="de" hotkey="Ctrl+W|1" helptext="">Medienansicht- und &amp;Verzeichnisse</c>
-                <c xml:lang="nl" hotkey="Ctrl+W|1" helptext="">&amp;Bestands- en mediaweergave</c>
+                <c xml:lang="nl" hotkey="Ctrl+W|1" helptext="">&amp;Media- en mappenweergave</c>
 				<c xml:lang="fi" hotkey="Ctrl+W|1" helptext="">&amp;Mediat &amp;&amp; kansiot -näkymä</c>
 				<c xml:lang="pt" hotkey="Ctrl+W|1" helptext="">Vista de Suportes de Dados &amp;&amp; &amp;Pastas</c>
                 <c xml:lang="hr" hotkey="Ctrl+W|1" helptext="">&amp;Prikaži mape i medije</c>
@@ -5477,7 +5477,7 @@
 			</cmd>
 			<cmd resid="ID_CMD_FOLDER_SETTHUMBNAIL" bmidx="-1">
 				<c xml:lang="en" hotkey="" helptext="Set the selected file as the folder thumbnail">Set folder thumbnail</c>
-				<c xml:lang="de" hotkey="" helptext="Die ausgewählte Datei als Verzeichnis-Symbolbild verwenden.">Verzeichnis-Thumbnail festlegen</c>
+				<c xml:lang="de" hotkey="" helptext="Die ausgewählte Datei als Verzeichnis-Symbolbild verwenden.">Verzeichnis-Symbolbild festlegen</c>
 				<c xml:lang="fi" hotkey="" helptext="Aseta valittu tiedosto kansion pienoiskuvaksi">Aseta kansion pienoiskuvaksi</c>
 				<c xml:lang="nl" hotkey="" helptext="Geselecteerde bestand als mapminiatuur kiezen">Mapminiatuur kiezen</c>
 				<c xml:lang="pt" hotkey="" helptext="Definir o ficheiro seleccionado como miniatura da pasta">Definir Miniatura da Pasta</c>
@@ -6246,7 +6246,7 @@
                 <c xml:lang="en" hotkey="F4|P" helptext="Propagate categories, collections and other metadata from the master to versions">Propagate data to &amp;Versions</c>
                 <c xml:lang="de" hotkey="F4|P" helptext="Kategorien, Kollektionen und andere Metadaten von der Masterdatei auf Versionen übertragen.">Daten auf &amp;Versionen übertragen</c>
 				<c xml:lang="fi" hotkey="F4|P" helptext="Kopioi kategoriat, kokoelmat ja muu metatieto alkuperäisestä versioihin.">Kopioi &amp;metatiedot versioihin</c>
-                <c xml:lang="nl" hotkey="F4|P" helptext="Categorien, collecties en andere metadata van masterbestand naar versies overdragen.">Metadata naar &amp;versies overdragen</c>
+                <c xml:lang="nl" hotkey="F4|P" helptext="Categorieën, collecties en andere metadata van masterbestand naar versies overdragen.">Metadata naar &amp;versies overdragen</c>
 				<c xml:lang="pt" hotkey="F4|P" helptext="Propagar categorias, colecções e outros metadados do ficheiro mestre para as versões">Propagar Dados para as &amp;Versões</c>
                 <c xml:lang="hr" hotkey="F4|P" helptext="Prenesi kategorije, zbirke i ostale metapodatke na verzije">Prenesi podatke na &amp;verzije</c>
                 <c xml:lang="no" hotkey="F4|P" helptext="Spre kategorier, samlinger og andre metadata fra hoved til versjoner">Spre data til &amp;versjoner</c>
@@ -6339,6 +6339,7 @@
 			<cmd resid="ID_CMD_FILE_RESETCUSTOMSORT_DEFAULT">
 				<c xml:lang="en" hotkey="Shift+Ctrl+D" helptext="Reset the custom sort order to the 'Default' sort profile.">Reset Custom Sort to 'Defau&amp;lt'</c>
 				<c xml:lang="de" hotkey="Shift+Ctrl+D" helptext="Die manuelle Sortierreihenfolge auf das 'Standard'-Sortierprofil zurücksetzen.">Sortierfolge auf 'Standard' zurückset&amp;zen</c>
+				<c xml:lang="nl" hotkey="Shift+Ctrl+D" helptext="Zet de aangepaste sortering naar de 'standaard sortering' terug.">Aangepaste sortering terug z&amp;etten naar 'standaard'</c>
 			</cmd>
 
 			<cmd resid="ID_CMD_FILE_FIND" desc="Find Command">
@@ -6621,6 +6622,7 @@
 			<cmd resid="ID_CMD_FILE_OPEN_IN_RESULT_WINDOW">
 				<c xml:lang="en" hotkey="Ctrl+G|R" helptext="Opens a result window for all selected files.">Open selection in Result &amp;Window...</c>
 				<c xml:lang="de" hotkey="Ctrl+G|R" helptext="Öffnet ein Ergebnisfenster mit den ausgewählten Dateien.">Auswahl in Ergebnisfenster öffnen...</c>
+				<c xml:lang="nl" hotkey="Ctrl+G|R" helptext="Opent een resultaatvenster voor alle geselecteerde bestanden.">Selection in een resultaatvenster weergeven...</c>
 			</cmd>
 
 
@@ -7433,8 +7435,14 @@
                 <c xml:lang="no" hotkey="" helptext="Konverter datadrevet kategorien inn i en normal kategori.">&amp;Konverter til normal kategori</c>
                 <c xml:lang="it" hotkey="" helptext="Converte le categorie data-driven in categorie normali.">&amp;Converti in categoria normale</c>
             </cmd>
-           
-        </command_group>
+
+			<cmd resid="ID_CMD_CATEGORY_SETTHUMBNAIL" bmidx="-1">
+				<c xml:lang="en" hotkey="" helptext="Set the selected file as the category thumbnail">Set category thumbnail</c>
+				<c xml:lang="de" hotkey="" helptext="Die ausgewählte Datei als Kategorie-Symbolbild verwenden.">Kategorie-Symbolbild festlegen</c>
+				<c xml:lang="nl" hotkey="" helptext="Het geselecteerde bestand gebruiken miniatuur voor de categorie">Set category thumbnail</c>
+			</cmd>
+
+		</command_group>
 
         
         <!-- Category Builder Commands -->
@@ -8562,7 +8570,7 @@
 
 			<cmd resid="ID_FILEWND_SEARCHBAR_MODE_SEARCHATTR" bmidx="5">	
                 <c xml:lang="en" hotkey="" helptext="Also search in Attributes.">Also search in &amp;Attributes</c>
-                <c xml:lang="de" hotkey="" helptext="Auch in Attributen suchen.">Auf in &amp;Attributen suchen</c>
+                <c xml:lang="de" hotkey="" helptext="Auch in Attributen suchen.">Auch in &amp;Attributen suchen</c>
 				<c xml:lang="fi" hotkey="" helptext="Hae myös määritteistä.">Hae &amp;myös määritteistä</c>
 				<c xml:lang="nl" hotkey="" helptext="Ook in alle attributen zoeken.">Ook in &amp;attributen zoeken</c>
 				<c xml:lang="pt" hotkey="" helptext="Também pesquisa nos Atributos.">Também pesquisa nos &amp;Atributos</c>
@@ -8706,6 +8714,7 @@
 			<cmd resid="ID_FILEWND_SEARCHBAR_MODE_ADVANCED" bmidx="5">
 				<c xml:lang="en" hotkey="" helptext="Enable advanced search options with AND, OR and NOT">&amp;Advanced Search</c>
 				<c xml:lang="de" hotkey="" helptext="Mit regulären Ausdrücken suchen">Er&amp;weiterte Suche</c>
+				<c xml:lang="nl" hotkey="" helptext="Geavanceerd zoeken met EN, OF en NIET">Ge&amp;avanceerd zoeken</c>
 			</cmd>
 
 		</command_group>
@@ -10993,14 +11002,14 @@
 
 		<command_group name="Toolbar in Filter Panel" resgroup="filter" bmid="PTR_BM_CMD_FILTER_PANEL" desc="">
             <cmd resid="ID_FILTERPANEL_ENABLE" desc="">
-                <c xml:lang="en" hotkey="" helptext="Enable or disable the filter panel">&amp;Toggle Filter Panel</c>
-                <c xml:lang="de" hotkey="" helptext="Das Filter-Panel aktivieren oder deaktivieren.">Filter-Panel &amp;umschalten</c>
-				<c xml:lang="fi" hotkey="" helptext="Käytä/Poista käytöstä suodatinpaneeli">S&amp;uodatinpaneeli käyttöön / pois käytöstä</c>
-                <c xml:lang="nl" hotkey="" helptext="Filter-paneel activeren of deactiveren">Filter-paneel &amp;in-/uitschakelen</c>
-				<c xml:lang="pt" hotkey="" helptext="Activar ou desactivar o painel de filtros">&amp;Activar/Desactivar Painel de Filtros</c>
-                <c xml:lang="hr" hotkey="" helptext="Prikaži ili sakrij ploču filtra">Preklopi ploču fil&amp;tra</c>
-                <c xml:lang="no" hotkey="" helptext="Aktiver eller deaktiver filter panelet">Veksle filter panelet</c>
-                <c xml:lang="it" hotkey="" helptext="Abilita o disabilita il pannello filtro">&amp;ON/OFF Pannello Filtro</c>
+                <c xml:lang="en" hotkey="Ctrl+F6" helptext="Enable or disable the filter panel">&amp;Toggle Filter Panel</c>
+                <c xml:lang="de" hotkey="Ctrl+F6" helptext="Das Filter-Panel aktivieren oder deaktivieren.">Filter-Panel &amp;umschalten</c>
+				<c xml:lang="fi" hotkey="Ctrl+F6" helptext="Käytä/Poista käytöstä suodatinpaneeli">S&amp;uodatinpaneeli käyttöön / pois käytöstä</c>
+                <c xml:lang="nl" hotkey="Ctrl+F6" helptext="Filter-paneel activeren of deactiveren">Filter-paneel &amp;in-/uitschakelen</c>
+				<c xml:lang="pt" hotkey="Ctrl+F6" helptext="Activar ou desactivar o painel de filtros">&amp;Activar/Desactivar Painel de Filtros</c>
+                <c xml:lang="hr" hotkey="Ctrl+F6" helptext="Prikaži ili sakrij ploču filtra">Preklopi ploču fil&amp;tra</c>
+                <c xml:lang="no" hotkey="Ctrl+F6" helptext="Aktiver eller deaktiver filter panelet">Veksle filter panelet</c>
+                <c xml:lang="it" hotkey="Ctrl+F6" helptext="Abilita o disabilita il pannello filtro">&amp;ON/OFF Pannello Filtro</c>
             </cmd>
             <cmd resid="ID_FILTERPANEL_AUTO" bmidx="-1" desc="">
 				<c xml:lang="en" hotkey="" helptext="Automatically apply changes you make to the filter.\nDisable this option if you work with complex filters to speed up processing.\nThe filter is then only applied when you click the 'Apply' button.">&amp;Auto</c>
@@ -15899,6 +15908,7 @@
                 <item >ID_CMD_RELATION_RUN</item>
                 <separator/>
                 <item>ID_CMD_FOLDER_SETTHUMBNAIL</item>
+				<item>ID_CMD_CATEGORY_SETTHUMBNAIL</item>
                 <item>ID_FILEWND_CONFIGURE_RESETPAUSE</item>
                 <item>ID_CMD_FILE_RESETCUSTOMSORT</item>
 				<item>ID_CMD_FILE_RESETCUSTOMSORT_DEFAULT</item>
@@ -20387,10 +20397,26 @@
 					<choice data="1">
 						<c xml:lang="en" desc="">Full image (slower, maybe more precise)</c>
 						<c xml:lang="de" desc="">Vollbild (langsamer, eventuell präziser)</c>
-						<c xml:lang="nl" desc="">Volledige afbeelding, mogelijk accurater)</c>
+						<c xml:lang="nl" desc="">Volledige afbeelding (langzamer, maar mogelijk accurater)</c>
 					</choice>
 				</choices>
 			</property>
+			
+			
+			<!-- PTCRaw -->
+ 
+			<property resid="app.viewer.ptcraw.prefer" desc="">
+				<name xml:lang="en">Prefer photools.com RAW Processing</name>
+				<name xml:lang="de">photools.com RAW-Prozess bevorzugen</name>
+				<name xml:lang="nl">Geef de voorkeur aan photools.com RAW bewerker</name>
+				<desc xml:lang="en">By default, IMatch uses installed WIC Codecs provided by camera vendors, Microsoft or 3rd parties to extract previews and cache images from RAW images. The integrated photools.com RAW processor is used as a fallback if no WIC codec is installed or if it fails to load a RAW image. If you want to ignore installed WIC codecs and use photools.com RAW processing always, enable this option.</desc>
+				<desc xml:lang="de">Standardmäßig verwendet IMatch zum Verarbeiten von RAW-Bilddateien installierte WIC-Codecs, die von Kameraherstellern, Microsoft oder Drittanbietern bereitgestellt werden. Falls kein WIC-Codec installiert ist oder dieser ein Bild nicht laden kann, nutzt IMatch den eingebauten photools.com RAW-Prozessor. Falls Sie WIC-Codecs ignorieren möchten und stattdessen immer den photools.com RAW-Prozessor nutzen möchten, aktivieren Sie diese Option.</desc>
+				<desc xml:lang="nl">Standaard gebruikt IMatch de geïnstalleerde WIC-codecs, die door de cameraleverancier, Microsoft of derde partijen beschikbaar worden gesteld, om miniaturen en cache afbeeldingen uit RAW-bestanden te genereren.  In het geval dat geen WIC-codec is geïnstalleerd of een afbeelding niet kan worden geladen, gebruikt IMatch de ingebouwde photools.com RAW bewerker. Als u de geïnstalleerde WIC codecs niet wilt gebruiken en altijd de photools.com RAW bewerker wilt gebruiken, kunt u deze optie activeren.</desc>
+				<group xml:lang="en">photools.com RAW Processing</group>
+				<group xml:lang="en">photools.com RAW-Prozess</group>
+				<group xml:lang="nl">photools.com RAW-verwerking</group>
+			</property>
+
 
 			<!-- Process Control -->
 
@@ -21726,9 +21752,7 @@
                 <group xml:lang="it"></group>
 				<group xml:lang="no"></group>
             </property>
-	
-            
-        </property_group>
+		</property_group>
 
 		<property_group name="favorites.settings" desc="Properties used for the favorites panel">
 
@@ -22221,7 +22245,7 @@
 			<property resid="dbview.fm.showthumbnails" desc="">
 				<name xml:lang="en">Show Folder Thumbnails</name>
 				<name xml:lang="no">Vis mappeminiatyrer</name>
-				<name xml:lang="de">Verzeichnis-Thumbnails anzeigen</name>
+				<name xml:lang="de">Verzeichnis-Symbolbilder anzeigen</name>
 				<name xml:lang="fi">Näytä pikkukuvat kansioille</name>
 				<name xml:lang="nl">Folder-miniaturen tonen</name>
 				<name xml:lang="pt">Mostrar Miniaturas das Pastas</name>
@@ -22230,9 +22254,9 @@
 				<desc xml:lang="it">Attivare questa opzione per visualizzare le miniature della cartella al posto dell'icona standard.</desc>
 				<desc xml:lang="en">Activate this option to show folder thumbnails instead of standard folder icons.</desc>
 				<desc xml:lang="no">Aktiver dette alternativet for å vise mappenes miniatyrbilder i stedet for standard mappeikoner.</desc>
-				<desc xml:lang="de">Aktivieren Sie diese Option, um Ordner-Thumbnails statt der Standard-Icons für Verzeichnisse anzuzeigen.</desc>
+				<desc xml:lang="de">Aktivieren Sie diese Option, um Verzeichnis-Symbolbilder anstatt der Standard-Symbolbilder anzuzeigen.</desc>
 				<desc xml:lang="fi">Aktivoi tämä valinta käyttääksesi kansioille pikkukuvia vakiokuvakkeiden sijasta.</desc>
-				<desc xml:lang="nl">Activeer deze optie om folder-miniaturen te tonen in plaats van de standaard folder-pictogrammen.</desc>
+				<desc xml:lang="nl">Activeer deze optie om map-miniaturen te tonen in plaats van de standaard map-pictogrammen.</desc>
 				<desc xml:lang="pt">Active esta opção para mostrar miniaturas das pastas em vez dos ícones normais das pastas.</desc>
 				<desc xml:lang="hr">Prikaži sličice mapa umjesto ikona.</desc>
 				<group xml:lang="en"></group>
@@ -22261,7 +22285,7 @@
 				<desc xml:lang="en-uk">Activate this option to display thumbnails in greyscale.</desc>
 				<desc xml:lang="de">Aktivieren Sie diese Option, um Thumbnails in Graustufen anzuzeigen.</desc>
 				<desc xml:lang="fi">Valitse näyttääksesi pikkukuvat mustavalkeina.</desc>
-				<desc xml:lang="nl">Activeer deze optie om folder-miniaturen in grijswaarden te tonen.</desc>
+				<desc xml:lang="nl">Activeer deze optie om map-miniaturen in grijswaarden te tonen.</desc>
 				<desc xml:lang="pt">Active esta opção para mostrar miniaturas em tons de cinzento.</desc>
 				<desc xml:lang="hr">Prikaži sličice mapa kao crno-bijele.</desc>
 				<group xml:lang="en"></group>
@@ -22277,16 +22301,16 @@
 			<property resid="dbview.fm.thumbnailsize" desc="">
 				<name xml:lang="en">Folder Thumbnail Size</name>
 				<name xml:lang="no">Størrelse for mappeminiatyr</name>
-				<name xml:lang="de">Verzeichnis-Thumbnails Größe</name>
+				<name xml:lang="de">Verzeichnis-Symbolbildgröße</name>
 				<name xml:lang="fi">Kansioiden pikkukuvien koko</name>
-				<name xml:lang="nl">Grootte folder-miniaturen</name>
+				<name xml:lang="nl">Grootte map-miniaturen</name>
 				<name xml:lang="pt">Tamanho das Miniaturas das Pastas</name>
 				<name xml:lang="hr">Veličina sličica mapa</name>
 				<name xml:lang="it">Dimensione della miniatura della Cartella</name>
 				<desc xml:lang="it">Controlla la dimensione delle miniature delle cartelle.</desc>
 				<desc xml:lang="en">Controls the size of folder thumbnails.</desc>
 				<desc xml:lang="no">Styrer størrelsen på mappeminiatyrer.</desc>
-				<desc xml:lang="de">Die Größe der Ordner-Thumbnails.</desc>
+				<desc xml:lang="de">Die Größe der Verzeichnis-Symbolbilder.</desc>
 				<desc xml:lang="fi">Valitse haluamasi koko kansioiden pikkukuville.</desc>
 				<desc xml:lang="nl">Bepaalt de grootte van de folder-miniaturen.</desc>
 				<desc xml:lang="pt">Controla o tamanho das miniaturas das pastas.</desc>
@@ -24281,6 +24305,208 @@
 				<group xml:lang="it"></group>
 				<group xml:lang="no"></group>
 			</property>
+			
+			
+			<property resid="objectproperties.cattree.showthumbnails" desc="">
+				<name xml:lang="en">Show Category Thumbnails</name>
+				<name xml:lang="de">Kategorie-Symbolbilder anzeigen</name>
+				<desc xml:lang="en">Activate this option to show category thumbnails instead of standard icons.</desc>
+				<desc xml:lang="de">Aktivieren Sie diese Option, um Verzeichnis-Symbolbilder anstatt der Standard-Symbolbilder anzuzeigen.</desc>
+				<group xml:lang="en"></group>
+				<group xml:lang="de"></group>
+				<group xml:lang="fi"></group>
+				<group xml:lang="nl"></group>
+				<group xml:lang="pt"></group>
+				<group xml:lang="hr"></group>
+				<group xml:lang="it"></group>
+				<group xml:lang="no"></group>
+			</property>
+
+			<property resid="objectproperties.cattree.thumbnailgrayscale" desc="">
+				<name xml:lang="en">Grayscale Thumbnails</name>
+				<name xml:lang="no">Gråtone miniatyrbilder</name>
+				<name xml:lang="en-uk">Greyscale Thumbnails</name>
+				<name xml:lang="de">Thumbnails in Graustufen</name>
+				<name xml:lang="fi">Mustavalkeat pikkukuvat</name>
+				<name xml:lang="nl">Miniaturen in grijswaarden</name>
+				<name xml:lang="pt">Miniaturas em Tons de Cinzento</name>
+				<name xml:lang="hr">Crno-bijele sličice</name>
+				<name xml:lang="it">Miniature in scala di grigio</name>
+				<desc xml:lang="it">Attivare questa opzione per visualizzare le miniature in scala di grigio.</desc>
+				<desc xml:lang="en">Activate this option to display thumbnails in grayscale.</desc>
+				<desc xml:lang="no">Aktiver dette alternativet for å vise miniatyrer i gråtoner.</desc>
+				<desc xml:lang="en-uk">Activate this option to display thumbnails in greyscale.</desc>
+				<desc xml:lang="de">Aktivieren Sie diese Option, um Thumbnails in Graustufen anzuzeigen.</desc>
+				<desc xml:lang="fi">Valitse näyttääksesi pikkukuvat mustavalkeina.</desc>
+				<desc xml:lang="nl">Activeer deze optie om folder-miniaturen in grijswaarden te tonen.</desc>
+				<desc xml:lang="pt">Active esta opção para mostrar miniaturas em tons de cinzento.</desc>
+				<desc xml:lang="hr">Prikaži sličice mapa kao crno-bijele.</desc>
+				<group xml:lang="en"></group>
+				<group xml:lang="de"></group>
+				<group xml:lang="fi"></group>
+				<group xml:lang="nl"></group>
+				<group xml:lang="pt"></group>
+				<group xml:lang="hr"></group>
+				<group xml:lang="it"></group>
+				<group xml:lang="no"></group>
+			</property>
+
+			<property resid="objectproperties.cattree.thumbnailsize" desc="">
+				<name xml:lang="en">Category Thumbnail Size</name>
+				<name xml:lang="de">Kategorie-Symbolbildgröße</name>
+				<desc xml:lang="en">Controls the size of category thumbnails.</desc>
+				<desc xml:lang="de">Die Größe der Kategorie-Symbolbilder.</desc>
+				<group xml:lang="en"></group>
+				<group xml:lang="de"></group>
+				<group xml:lang="fi"></group>
+				<group xml:lang="nl"></group>
+				<group xml:lang="pt"></group>
+				<group xml:lang="hr"></group>
+				<group xml:lang="it"></group>
+				<group xml:lang="no"></group>
+				<choices>
+					<!-- Values less than 32 are not supported because the icons are 32 pixel! -->
+					<choice data="32">
+						<c xml:lang="en">Tiny</c>
+						<c xml:lang="no">Minst</c>
+						<c xml:lang="de">Winzig</c>
+						<c xml:lang="fi">Pienimmät</c>
+						<c xml:lang="nl">Miniem</c>
+						<c xml:lang="pt">Minúsculo</c>
+						<c xml:lang="hr">Sitne</c>
+						<c xml:lang="it">Minuscole</c>
+					</choice>
+					<choice data="40">
+						<c xml:lang="en">Extra Small</c>
+						<c xml:lang="no">Ekstra liten</c>
+						<c xml:lang="de">Sehr Klein</c>
+						<c xml:lang="fi">Hyvin pienet</c>
+						<c xml:lang="nl">Zeer klein</c>
+						<c xml:lang="pt">Muito Pequeno</c>
+						<c xml:lang="hr">Jako male</c>
+						<c xml:lang="it">Molto Piccole</c>
+					</choice>
+					<choice data="50" default="true">
+						<c xml:lang="en">Small</c>
+						<c xml:lang="no">Liten</c>
+						<c xml:lang="de">Klein</c>
+						<c xml:lang="fi">Pienet</c>
+						<c xml:lang="nl">Klein</c>
+						<c xml:lang="pt">Pequeno</c>
+						<c xml:lang="hr">Male</c>
+						<c xml:lang="it">Piccole</c>
+					</choice>
+					<choice data="60">
+						<c xml:lang="en">Normal</c>
+						<c xml:lang="no">Normal</c>
+						<c xml:lang="de">Normal</c>
+						<c xml:lang="fi">Normaalit</c>
+						<c xml:lang="nl">Normaal</c>
+						<c xml:lang="pt">Normal</c>
+						<c xml:lang="hr">Normalne</c>
+						<c xml:lang="it">Normali</c>
+					</choice>
+					<choice data="80">
+						<c xml:lang="en">Medium</c>
+						<c xml:lang="no">Middels</c>
+						<c xml:lang="de">Mittel</c>
+						<c xml:lang="fi">Keskikokoiset</c>
+						<c xml:lang="nl">Middel</c>
+						<c xml:lang="pt">Médio</c>
+						<c xml:lang="hr">Srednje</c>
+						<c xml:lang="it">Media</c>
+					</choice>
+					<choice data="100">
+						<c xml:lang="en">Large</c>
+						<c xml:lang="no">Stor</c>
+						<c xml:lang="de">Groß</c>
+						<c xml:lang="fi">Suuret</c>
+						<c xml:lang="nl">Groot</c>
+						<c xml:lang="pt">Grande</c>
+						<c xml:lang="hr">Velike</c>
+						<c xml:lang="it">Grandi</c>
+					</choice>
+					<choice data="120">
+						<c xml:lang="en">Extra Large</c>
+						<c xml:lang="no">Ekstra stor</c>
+						<c xml:lang="de">Sehr Groß</c>
+						<c xml:lang="fi">XL</c>
+						<c xml:lang="nl">Zeer groot</c>
+						<c xml:lang="pt">Muito Grande</c>
+						<c xml:lang="hr">Jako velike</c>
+						<c xml:lang="it">Molto Grandi</c>
+					</choice>
+					<choice data="160">
+						<c xml:lang="en">XXL</c>
+						<c xml:lang="no">XXL</c>
+						<c xml:lang="de">XXL</c>
+						<c xml:lang="fi">XXL</c>
+						<c xml:lang="nl">XXL</c>
+						<c xml:lang="pt">XXL</c>
+						<c xml:lang="hr">XXL</c>
+						<c xml:lang="it">XXL</c>
+					</choice>
+				</choices>
+			</property>
+
+			
+			<property resid="objectproperties.cattree.thumbnailfillcolor" desc="">
+				<name xml:lang="en">Thumbnail Fill Color</name>
+				<name xml:lang="no">Fyllfarge miniatyr</name>
+				<name xml:lang="en-uk">Thumbnail Fill Colour</name>
+				<name xml:lang="de">Thumbnail Füllfarbe</name>
+				<name xml:lang="fi">Pikkukuvien täyteväri</name>
+				<name xml:lang="nl">Opvulkleur miniaturen</name>
+				<name xml:lang="pt">Cor de Preenchimento das Miniaturas</name>
+				<name xml:lang="hr">Boja ispune sličica</name>
+				<name xml:lang="it">Colore di riempimento delle miniature</name>
+				<desc xml:lang="it">Il colore dello sfondo usato per le miniature, e per ile cartelle senza miniature</desc>
+				<desc xml:lang="en">The background color used to fill thumbnails, and for folders without thumbnails</desc>
+				<desc xml:lang="no">Bakgrunnsfargen som brukes til å fylle miniatyrbilder, og mapper uten miniatyrbilder</desc>
+				<desc xml:lang="en-uk">The background colour used to fill thumbnails, and for folders without thumbnails</desc>
+				<desc xml:lang="de">Die Hintergrundfarbe für Thumbnails und für Verzeichnisse ohne Thumbnail.</desc>
+				<desc xml:lang="fi">Taustaväri, jota käytetään pikkukuvien täytevärinä ja kansioille, joissa ei ole pikkukuvia</desc>
+				<desc xml:lang="nl">Achtergrondkleur om miniaturen op te vullen en voor mappen zonder miniatuur</desc>
+				<desc xml:lang="pt">A cor de fundo utilizada para preencheer as miniaturas e para pastas sem miniaturas.</desc>
+				<desc xml:lang="hr">Boja koja se koristi za ispunu sličica i za mape bez sličica.</desc>
+				<group xml:lang="en"></group>
+				<group xml:lang="de"></group>
+				<group xml:lang="fi"></group>
+				<group xml:lang="nl"></group>
+				<group xml:lang="pt"></group>
+				<group xml:lang="hr"></group>
+				<group xml:lang="it"></group>
+				<group xml:lang="no"></group>
+			</property>
+			
+			<property resid="objectproperties.cattree.thumbnailframecolor" desc="">
+				<name xml:lang="en">Thumbnail Frame Color</name>
+				<name xml:lang="no">Rammefarge miniatyrer</name>
+				<name xml:lang="en-uk">Thumbnail Frame Colour</name>
+				<name xml:lang="de">Thumbnail Rahmenfarbe</name>
+				<name xml:lang="fi">Pikkukuvien kehyksen väri</name>
+				<name xml:lang="nl">Kaderkleur miniaturen</name>
+				<name xml:lang="pt">Cor da Moldura da Miniatura</name>
+				<name xml:lang="hr">Boja okvira sličica</name>
+				<name xml:lang="it">Colore della cornice miniature</name>
+				<desc xml:lang="it">Il colore della cornice delle miniature, e per le cartelel senza miniature</desc>
+				<desc xml:lang="en">The frame color used to fill thumbnails, and for folders without thumbnails</desc>
+				<desc xml:lang="fi">Kehyksen väri, jota käytetään pikkukuville ja kansioille, joissa ei ole pikkukuvia</desc>
+				<desc xml:lang="no">Rammefargen som brukes til å fylle miniatyrbilder, og mapper uten miniatyrbilder</desc>
+				<desc xml:lang="en-uk">The frame colour used to fill thumbnails, and for folders without thumbnails</desc>
+				<desc xml:lang="de">Die Rahmenfarbe für Thumbnails und für Verzeichnisse ohne Thumbnail.</desc>
+				<desc xml:lang="nl">Kleur van het kader van miniaturen en voor mappen zonder miniatuur</desc>
+				<desc xml:lang="pt">A cor da moldura utilizada para as miniaturas e para pastas sem miniaturas.</desc>
+				<desc xml:lang="hr">Boja koja se koristi za okvire oko sličica i za okvire oko mapa bez sličica.</desc>
+				<group xml:lang="en"></group>
+				<group xml:lang="de"></group>
+				<group xml:lang="fi"></group>
+				<group xml:lang="nl"></group>
+				<group xml:lang="pt"></group>
+				<group xml:lang="hr"></group>
+				<group xml:lang="it"></group>
+				<group xml:lang="no"></group>
+			</property>		
 
 
 		</property_group>
@@ -28233,10 +28459,13 @@
 			<property resid="filewnd.ui.resultwindow.filter.autopause" desc="">
 				<name xml:lang="en">Result Windows pause filter panel</name>
 				<name xml:lang="de">Ergebnisfenster pausieren Filter-Panel</name>
+				<name xml:lang="nl">Resultaatvenster pauzeren filter paneel</name>
 				<desc xml:lang="en">If this option is enabled, the Filter Panel is automatically paused when a Result Window becomes active.</desc>
 				<desc xml:lang="de">Wenn diese Option aktivert ist, wird das Filter-Panel automatisch pausiert, wenn ein Ergebnisfenster aktiviert wird.</desc>
+				<desc xml:lang="nl">Als deze optie geactiveerd is, wordt het het filter paneel automatisch gepauzeerd als een resultaatvenster wordt geactiveerd.</desc>
 				<group xml:lang="en">Result Windows</group>
 				<group xml:lang="de">Ergebnisfenster</group>
+				<group xml:lang="nl">Resultaatvenster</group>
 			</property>
 
 			<!-- LOD Editor Properties -->
@@ -31896,7 +32125,7 @@
 				<name xml:lang="en">Variable</name>
 				<name xml:lang="de">Variable</name>
 				<name xml:lang="pt">Variável</name>
-				<name xml:lang="nl">Variábele</name>
+				<name xml:lang="nl">Variabele</name>
 				<desc xml:lang="en">Enter one or more variables or text to determine the elements on this level.</desc>
 				<desc xml:lang="de">Geben Sie eine oder mehrere Variablen (und optional Text) ein, um die Elemente auf dieser Ebene zu bestimmen.</desc>
 				<desc xml:lang="pt">Entre com uma ou mais variáveis ou texto para determinar os elementos neste nível.</desc>

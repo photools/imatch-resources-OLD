@@ -5525,7 +5525,7 @@
 					<s xml:lang="no">Dette er det fysiske insynet på bildesamlingen din.\r\nHer vil du arbeider med stasjoner, media, mapper og filer - ligner Windows Explorer.</s>
 					<s xml:lang="de">Die physische Sicht auf Ihren Bildbestand.\nIn dieser Ansicht arbeiten Sie mit Laufwerken, Medien, Verzeichnissen und Dateien - ähnlich wie mit dem Windows Explorer.</s>
 					<s xml:lang="fi">Tämä on kuvakokoelmasi fyysinen näkymä.\r\nTäällä käsittelet levyasemia, medioita, kansioita ja tiedostoja -  vastaavasti kuin Windowsin resurssienhallinnassa</s>
-					<s xml:lang="nl">Dit is de fysieke weergave van uw collectie.\nHier werkt u met schijven, media, folders en bestanden, ongeveer zoals in Windows Verkenner.</s>
+					<s xml:lang="nl">Dit is de fysieke weergave van uw collectie.\nHier werkt u met schijven, media, mappen en bestanden, ongeveer zoals in Windows Verkenner.</s>
 					<s xml:lang="hr">Ovo je fizički prikaz tvoje zbirke slika.\r\nOvdje radiš s diskovima, medijima, mapama i datotekama - slično kao u Windows Explorer-u.</s>
 					<s xml:lang="pt">Esta é a vista física da sua colecção de imagens.\r\nAqui trabalha com unidades de disco, suportes de dados, pastas e ficheiros - tal como no Explorador do Windows.</s>
 					<s xml:lang="fr">Ceci est la vue physique de votre collection d'images\r\nIci vous utilisez des disques, dossiers et fichiers comme avec l'Explorateur de Wondows.</s>
@@ -5546,7 +5546,7 @@
 					<s xml:lang="en">In the Category View you work with dynamic categories to group your images.</s>
 					<s xml:lang="fi">Kategorianäkymässä voit käyttää dynaamisia kategorioita ryhmitelläksesi kuvasi.</s>
 					<s xml:lang="de">In der Kategorieansicht arbeiten Sie mit IMatch-Kategorien, um Ihre Bilder nach verschiedenen Kriterien zu ordnen.</s>
-					<s xml:lang="nl">In de Categorie-weeergave werkt u met IMatch-categoriën om bestanden te ordenen.</s>
+					<s xml:lang="nl">In de categorie-weergave werkt u met IMatch-categoriën om bestanden te ordenen.</s>
 					<s xml:lang="hr">U prikazu kategorija radiš sa dinamičkim kategorijama da bi grupirao slike.</s>
 					<s xml:lang="pt">Na Vista de Categorias trabalha com categorias dinâmicas para agrupar as suas imagens.</s>
 				    <s xml:lang="no">I kategorivisningen kan du arbeide med dynamiske kategorier for å gruppere bildene dine.</s>
@@ -5567,7 +5567,7 @@
 				<str resid="PTR_VIEW_DBVIEW_TABNAME_TIMELINE_TIP" desc="Tooltip">
 					<s xml:lang="en">View your files arranged on a timeline.</s>
 					<s xml:lang="de">Sehen Sie Ihre Dateien angeordnet auf einer Zeitachse.</s>
-					<s xml:lang="nl">Uw bestanden weergegeven op een tijdlijn.</s>
+					<s xml:lang="nl">Uw bestanden worden weergegeven op een tijdlijn.</s>
 					<s xml:lang="pt">Veja os seus ficheiros dispostos numa linha cronológica.</s>
 					<s xml:lang="fi">Selaa tiedostojasi järjestettynä aikajanalle.</s>
 					<s xml:lang="hr">Prikaži svoje datoteke uređene na vremenskoj traci.</s>
@@ -5785,17 +5785,19 @@
 				<s xml:lang="pt">Filtro</s>
 				<s xml:lang="fi">Suodatin</s>
 				<s xml:lang="hr">Filtar</s>
-			        <s xml:lang="no">Filter</s>
+			    <s xml:lang="no">Filter</s>
 				<s xml:lang="fr">Filtres</s>
 				<s xml:lang="it">Filtra</s>
 			</str>
 			<str resid="PTR_PANEL_FILTER_NOAVTIVE">
 				<s xml:lang="en">No filters active.</s>
 				<s xml:lang="de">Keine Filter aktiviert.</s>
+				<s xml:lang="nl">Geen filters actife.</s>
 			</str>
 			<str resid="PTR_PANEL_FILTER_PAUSED">
 				<s xml:lang="en">Paused.</s>
 				<s xml:lang="de">Pausiert.</s>
+				<s xml:lang="nl">Gepauzeerd.</s>
 			</str>
 			
 			<str resid="PTR_PANEL_VIEWER" desc="Name for the Viewer panel">
@@ -7591,6 +7593,7 @@
 			<str resid="FILEWND_RESULT_SELECTION">
 				<s xml:lang="en">Selection</s>
 				<s xml:lang="de">Auswahl</s>
+				<s xml:lang="nl">Selectie</s>
 			</str>
 
 			<!-- File Window Caption -->
@@ -7714,15 +7717,29 @@
             <!-- Strings used for the panel layout dialog box -->
 			<!-- Must match the name of the 'Default' layout -->
 			<str resid="PTR_MDCONTAINER_LAYOUT_DEFAULT_NAME" desc="Name for the default panel layout">
-				<s xml:lang="en">Default</s>
-				<s xml:lang="no">Standard</s>
-				<s xml:lang="de">Standard</s>
-				<s xml:lang="nl">Standaard</s>
-				<s xml:lang="pt">Pré-definição</s>
-				<s xml:lang="fi">Oletus</s>
-				<s xml:lang="hr">Zadano</s>
-				<s xml:lang="fr">Défaut</s>
-				<s xml:lang="it">Default</s>
+				<s xml:lang="en">1 Default</s>
+				<s xml:lang="no">1 Standard</s>
+				<s xml:lang="de">1 Standard</s>
+				<s xml:lang="nl">1 Standaard</s>
+				<s xml:lang="pt">1 Pré-definição</s>
+				<s xml:lang="fi">1 Oletus</s>
+				<s xml:lang="hr">1 Zadano</s>
+				<s xml:lang="fr">1 Défaut</s>
+				<s xml:lang="it">1 Default</s>
+			</str>
+
+			<!-- Name/Desc for default '3 Image' layout -->
+
+			<str resid="PTR_MDCONTAINER_LAYOUT_IMAGE_NAME">
+				<s xml:lang="en">3 Image</s>
+				<s xml:lang="de">3 Bild</s>
+			</str>
+
+			<!-- Name/Desc for default '2 Describe' layout -->
+
+			<str resid="PTR_MDCONTAINER_LAYOUT_DESCRIBE_NAME">
+				<s xml:lang="en">2 Describe</s>
+				<s xml:lang="de">2 Beschreiben</s>
 			</str>
 
 			<str resid="PTR_MDCONTAINER_LAYOUT_DEFAULT_DESC" desc="Description for the default panel layout">
@@ -7749,26 +7766,9 @@
 				<s xml:lang="it">Nuovo Layout</s>
 			</str>
 
-			<str resid="PTR_MDCONTAINER_LAYOUT_DEFAULT_DESC" desc="Description for the default layout">
+			<!-- @Translators: This is empty by intention! -->
+			<str resid="PTR_MDCONTAINER_LAYOUT_NEW_DESC" desc="Name for the new panel layouts">
 				<s xml:lang="en"></s>
-				<s xml:lang="de"></s>
-				<s xml:lang="fi"></s>
-				<s xml:lang="nl"></s>
-				<s xml:lang="pt"></s>
-				<s xml:lang="hr"></s>
-				<s xml:lang="fr"></s>
-				<s xml:lang="it"></s>
-			</str>
-
-			<str resid="PTR_MDCONTAINER_LAYOUT_NEW_DESC" desc="Description for new panel layouts">
-				<s xml:lang="en"></s>
-				<s xml:lang="de"></s>
-				<s xml:lang="fi"></s>
-				<s xml:lang="nl"></s>
-				<s xml:lang="pt"></s>
-				<s xml:lang="hr"></s>
-				<s xml:lang="fr"></s>
-				<s xml:lang="it"></s>
 			</str>
 
 			<!-- These strings are used to fill the combo box showing the "Show" options -->
@@ -8297,8 +8297,13 @@
 				<s xml:lang="fr">Donnez un nom au modèle</s>
                 <s xml:lang="it">Immetti il nome per il modello:</s>
             </str>
-            
-            <!-- Template Import & Export -->
+
+			<str resid="PTR_MDTEMPLATEMANAGER_SAVEAS_MSG">
+				<s xml:lang="en">This copies all tags used by the current layout into a Metadata Template.\r\nYou should edit the template afterwards to remove all unwanted tags - especially tags with potentially harmful side effects like 'Orientation' etc.).</s>
+				<s xml:lang="de">Diese funktion kopiert alle Tags aus dem aktuellen Layout in eine Metadatenvorlage.\r\nSie sollten die Vorlage anschließend bearbeiten und alle nicht benötigten Tags entfernen - insbesondere Tags mit potentiell schädlichen Nebenwirkungen wie 'Ausrichtung/Orientation'.</s>
+			</str>
+
+			<!-- Template Import & Export -->
             <str resid="PTR_MDTEMPLATEMANAGER_IMPORTEXPORT_FILEMASK" desc="">
                 <s xml:lang="en">Metadata Template (*.immdt)|*.immdt|All Files (*.*)|*.*||</s>
                 <s xml:lang="no">Metadatamal (*.immdt)|*.immdt|Alle filer (*.*)|*.*||</s>
@@ -9592,7 +9597,7 @@
 				<s xml:lang="en">Folder Friendly Name</s>
 				<s xml:lang="no">Mappen egendefinert navn</s>
 				<s xml:lang="de">Anwenderfreundlicher Verzeichnisname</s>
-				<s xml:lang="nl">Vriendelijke naam van folder</s>
+				<s xml:lang="nl">Gebruikersvriendelijke mapnaam</s>
 				<s xml:lang="pt">Nome Amigável da Pasta</s>
 				<s xml:lang="fi">Kansion käyttäjäystävällinen nimi</s>
 				<s xml:lang="hr">Neslužbeni naziv mape</s>
@@ -9747,7 +9752,7 @@
 				<s xml:lang="en">Date &amp; Time (updated in database)</s>
 				<s xml:lang="no">Dato-klokkeslett (oppdatert i databasen)</s>
 				<s xml:lang="de">Datum &amp; Zeit (in Datenbank geändert)</s>
-				<s xml:lang="nl">Datum &amp; tijd (in database gewijzigd</s>
+				<s xml:lang="nl">Datum &amp; tijd (in database gewijzigd)</s>
 				<s xml:lang="pt">Data &amp; Hora (actualizada na base de dados)</s>
 				<s xml:lang="fi">Päiväys &amp; aika (päivitetty tietokannassa)</s>
 				<s xml:lang="hr">Datum i vrijeme (ažurirano u bazi podataka)</s>
@@ -11802,8 +11807,9 @@
             </str>
 
 			<str resid="PTR_INFOPOPUP_FILEWND_FILTERAUTOPAUSE" desc="">
-				<s xml:lang="en"><![CDATA[The Filter Panel was active has been paused to show you all results.<LineBreak/>Click the 'Pause' button in the Filter Panel toolbar if you want to apply the current filter to the Result Window.<LineBreak/><LineBreak/>You can disable this feature under Edit &gt; Preferences; &gt; File Window.]]></s>
+				<s xml:lang="en"><![CDATA[The Filter Panel was active and has been paused to show you all results.<LineBreak/>Click the 'Pause' button in the Filter Panel toolbar if you want to apply the current filter to the Result Window.<LineBreak/><LineBreak/>You can disable this feature under Edit &gt; Preferences; &gt; File Window.]]></s>
 				<s xml:lang="de"><![CDATA[Das Filter-Panel war aktiv und wurde automatisch pausiert, um Ihnen alle Suchergebnisse anzuzeigen.<LineBreak/>Sie können das Filter-Panel über die 'Pause'-Taste in der Filter-Panel Symbolleiste jederzeit wieder aktivieren.<LineBreak/><LineBreak/>Siekönnen diese Funktion über Bearbeiten &gt; Einstellungen &gt; Dateifenster deaktivieren.]]></s>
+				<s xml:lang="nl"><![CDATA[Het filterpaneel was actief, maar werd gepauzeerd om alle resultaten te tonen.<LineBreak/>Klik op de 'Pauze' knop in het filter-paneel als u het actuele filter wilt toepassen op het resultaatvenster.<LineBreak/><LineBreak/>U kunt deze optie uitzetten onder Bewerken &gt; Voorkeuren; &gt; Bestandsvenster.]]></s>
 			</str>
 
 
@@ -12268,7 +12274,7 @@
 				<s xml:lang="en">With IMatch Design printing you can design and print photo books, contact sheets, reports and many other document types.</s>
 				<s xml:lang="de">Mit dem IMatch Druckmodul können Sie Fotobücher, Kontaktabzüge, Berichte und viele andere Dokumenttypen entwerfen und drucken.</s>
 				<s xml:lang="pt">Com o módulo de Desenho e Impressão, pode desenhar e imprimir livros de fotografias, páginas de amostra, relatórios e muitos outros tipos de documentos.</s>
-				<s xml:lang="nl">Met IMatch ontwerpafdrukken kunt u fotoboeken, contactvellen, rapporten en vele andere documenttypes ontwerpen en afdrukken.</s>
+				<s xml:lang="nl">Met deze IMatch module kunt u fotoboeken, contactvellen, rapporten en vele andere documenttypes ontwerpen en afdrukken.</s>
 			</str>
 
 		</string_group>
@@ -13399,8 +13405,12 @@
 				<s xml:lang="fi">Kokoelmaa ei löydy.</s>
                 <s xml:lang="it">Collezione non trovata.</s>
             </str>
+			<str resid="PTR_ERRMSG_5017" desc="IMERR_PARS_UNKNOWNTAG">
+				<s xml:lang="en">Tag not found.</s>
+				<s xml:lang="de">Tag nicht gefunden.</s>
+			</str>
 
-            <str resid="PTR_ERRMSG_5101" desc="IMERR_DATAGROUP_TOOMANYCHILDREN">
+			<str resid="PTR_ERRMSG_5101" desc="IMERR_DATAGROUP_TOOMANYCHILDREN">
                 <s xml:lang="en">Too many children for a data-driven category. Please change the category setup to reduce the number of child categories created.</s>
                 <s xml:lang="de">Zu viele untergeordnete Kategorien für eine datengestützte Kategorie. Bitte verändern Sie die Eigenschaften der Kategorien um weniger untergeordnete Kategorien zu erzeugen.</s>
 				<s xml:lang="fi">Aineistopohjaisella kategorialla on liian monta alakategoriaa. Ole hyvä ja muuta kategoria-asetuksia vähentääksesi luotavien alakategorioiden määrän.</s>

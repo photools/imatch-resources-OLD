@@ -2189,7 +2189,7 @@
 				<c xml:lang="en" helptext="Enable this to display the sub-folders of folders matching the filter expression.">&amp;Also show children</c>
 				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um die Unterorder von gefundenen Ordnern anzuzeigen.">&amp;Auch Unterverzeichnisse anzeigen</c>
 				<c xml:lang="pt" helptext="Active esta opção para mostrar os sub-directórios pertencentes aos directórios que correspondem á expressão do filtro utilizada.">&amp;Mostrar também os sub-directórios</c>
-				<c xml:lang="nl" helptext="Zet deze optie aan om de submappen te tonen van de mappen die aan het filter voldoen.">&amp;Toon ook submappen</c>
+				<c xml:lang="nl" helptext="Activeer deze optie om de submappen te tonen van de mappen die aan het filter voldoen.">&amp;Toon ook submappen</c>
 			</ctrl>
 
 		</dialog>
@@ -4403,13 +4403,18 @@
                 <c xml:lang="it" helptext="">I&amp;nserisci</c>
             </ctrl>
 
+			<ctrl text="#l_find_cue">
+				<c xml:lang="en" helptext="">Search the result</c>
+				<c xml:lang="de" helptext="">Das Ergebnis durchsuchen</c>
+				<c xml:lang="nl" helptext="">Doorzoek het resultaat</c>
+			</ctrl>
 
-            <textdata>
+			<textdata>
                 <!-- Format used for stats (XAML!)-->
                 <td tid="stats">
                     <t xml:lang="en"><![CDATA[<TextBlock><Italic>{0} file(s) in selection</Italic></TextBlock>]]></t>
                     <t xml:lang="de"><![CDATA[<TextBlock><Italic>{0} Datei(en) in Auswahl</Italic></TextBlock>]]></t>
-                    <t xml:lang="nl"><![CDATA[<TextBlock><Italic>{0} bestand(en) in selectie</Italic></TextBlock>]]></t>
+                    <t xml:lang="nl"><![CDATA[<TextBlock><Italic>{0} bestand(-en) in selectie</Italic></TextBlock>]]></t>
 					<t xml:lang="pt"><![CDATA[<TextBlock><Italic>{0} ficheiro(s) na selecção</Italic></TextBlock>]]></t>
 					<t xml:lang="no"><![CDATA[<TextBlock><Italic>{0} fil(er) i utvalg</Italic></TextBlock>]]></t>
 					<t xml:lang="fi"><![CDATA[<TextBlock><Italic>{0} tiedosto(a) valittuna</Italic></TextBlock>]]></t>
@@ -4492,6 +4497,11 @@
 					<t xml:lang="nl">Camera RAW data wissen|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n{Files}</t>
 					<t xml:lang="pt">Apagar os dados Camera RAW|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n{Files}</t>
 					<t xml:lang="it">Cancella Camera RAW data|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n{Files}</t>
+				</td>
+				<td tid="dp_del_iptc">
+					<t xml:lang="en">Delete legacy IPTC (IIM) metadata|-overwrite_original_in_place\r\n-iptc:all=\r\n{Files}</t>
+					<t xml:lang="de">Alte IPTC-Daten (IIM) löschen|-overwrite_original_in_place\r\n-iptc:all=\r\n{Files}</t>
+					<t xml:lang="nl">Verwijder oude IPTC-gegevens (IIM) metadata|-overwrite_original_in_place\r\n-iptc:all=\r\n{Files}</t>
 				</td>
 
 				<!--
@@ -7668,8 +7678,12 @@
                     <t xml:lang="it">Trova tutti i file il cui nome corrisponde all'espressione regolare data.</t>
 					<t xml:lang="pt">Encontra todos os ficheiros cujo nome corresponda á expressão regular dada.</t>
                 </td>
+				<td tid="tt_tag">
+					<t xml:lang="en">Find all files based on the specified metadata tag and operation.</t>
+					<t xml:lang="de">Findet alle Dateien basierend auf dem angegebenen Metadaten-Tag.</t>
+				</td>
 
-            </textdata>
+			</textdata>
         </dialog>
 
         <dialog resid="PTRMDLG_GROUP_DATA" desc="Group Data Editor Dialog">
