@@ -5792,7 +5792,7 @@
 			<str resid="PTR_PANEL_FILTER_NOAVTIVE">
 				<s xml:lang="en">No filters active.</s>
 				<s xml:lang="de">Keine Filter aktiviert.</s>
-				<s xml:lang="nl">Geen filters actife.</s>
+				<s xml:lang="nl">Geen filters actief.</s>
 			</str>
 			<str resid="PTR_PANEL_FILTER_PAUSED">
 				<s xml:lang="en">Paused.</s>
