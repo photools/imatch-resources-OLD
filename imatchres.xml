@@ -6622,7 +6622,7 @@
 			<cmd resid="ID_CMD_FILE_OPEN_IN_RESULT_WINDOW">
 				<c xml:lang="en" hotkey="Ctrl+G|R" helptext="Opens a result window for all selected files.">Open selection in Result &amp;Window...</c>
 				<c xml:lang="de" hotkey="Ctrl+G|R" helptext="Öffnet ein Ergebnisfenster mit den ausgewählten Dateien.">Auswahl in Ergebnisfenster öffnen...</c>
-				<c xml:lang="nl" hotkey="Ctrl+G|R" helptext="Opent een resultaatvenster voor alle geselecteerde bestanden.">Selection in een resultaatvenster weergeven...</c>
+				<c xml:lang="nl" hotkey="Ctrl+G|R" helptext="Opent een resultaatvenster voor alle geselecteerde bestanden.">Selectie in een resultaatvenster weergeven...</c>
 			</cmd>
 
 
