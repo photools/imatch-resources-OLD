@@ -6622,7 +6622,7 @@
 			<cmd resid="ID_CMD_FILE_OPEN_IN_RESULT_WINDOW">
 				<c xml:lang="en" hotkey="Ctrl+G|R" helptext="Opens a result window for all selected files.">Open selection in Result &amp;Window...</c>
 				<c xml:lang="de" hotkey="Ctrl+G|R" helptext="Öffnet ein Ergebnisfenster mit den ausgewählten Dateien.">Auswahl in Ergebnisfenster öffnen...</c>
-				<c xml:lang="nl" hotkey="Ctrl+G|R" helptext="Opent een resultaatvenster voor alle geselecteerde bestanden.">Selection in een resultaatvenster weergeven...</c>
+				<c xml:lang="nl" hotkey="Ctrl+G|R" helptext="Opent een resultaatvenster voor alle geselecteerde bestanden.">Selectie in een resultaatvenster weergeven...</c>
 			</cmd>
 
 
@@ -11005,7 +11005,7 @@
                 <c xml:lang="en" hotkey="Ctrl+F6" helptext="Enable or disable the filter panel">&amp;Toggle Filter Panel</c>
                 <c xml:lang="de" hotkey="Ctrl+F6" helptext="Das Filter-Panel aktivieren oder deaktivieren.">Filter-Panel &amp;umschalten</c>
 				<c xml:lang="fi" hotkey="Ctrl+F6" helptext="Käytä/Poista käytöstä suodatinpaneeli">S&amp;uodatinpaneeli käyttöön / pois käytöstä</c>
-                <c xml:lang="nl" hotkey="Ctrl+F6" helptext="Filter-paneel activeren of deactiveren">Filter-paneel &amp;in-/uitschakelen</c>
+                <c xml:lang="nl" hotkey="Ctrl+F6" helptext="Filter-paneel activeren of dé-activeren">Filter-paneel &amp;in-/uitschakelen</c>
 				<c xml:lang="pt" hotkey="Ctrl+F6" helptext="Activar ou desactivar o painel de filtros">&amp;Activar/Desactivar Painel de Filtros</c>
                 <c xml:lang="hr" hotkey="Ctrl+F6" helptext="Prikaži ili sakrij ploču filtra">Preklopi ploču fil&amp;tra</c>
                 <c xml:lang="no" hotkey="Ctrl+F6" helptext="Aktiver eller deaktiver filter panelet">Veksle filter panelet</c>

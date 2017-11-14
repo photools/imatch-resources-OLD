@@ -7733,6 +7733,7 @@
 			<str resid="PTR_MDCONTAINER_LAYOUT_IMAGE_NAME">
 				<s xml:lang="en">3 Image</s>
 				<s xml:lang="de">3 Bild</s>
+				<s xml:lang="nl">3 Afbeelding</s>
 			</str>
 
 			<!-- Name/Desc for default '2 Describe' layout -->
@@ -7740,6 +7741,7 @@
 			<str resid="PTR_MDCONTAINER_LAYOUT_DESCRIBE_NAME">
 				<s xml:lang="en">2 Describe</s>
 				<s xml:lang="de">2 Beschreiben</s>
+				<s xml:lang="nl">2 Beschrijf</s>
 			</str>
 
 			<str resid="PTR_MDCONTAINER_LAYOUT_DEFAULT_DESC" desc="Description for the default panel layout">
