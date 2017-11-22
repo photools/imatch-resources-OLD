@@ -5839,7 +5839,7 @@
 			<str resid="PTR_PANEL_DBCLIENT_FOLDERS_TREE" desc="Name for the Tree Panel in the Folders and Media view">
 				<s xml:lang="en">Media &amp; Folders</s>
 				<s xml:lang="de">Medien &amp; Verzeichnisse</s>
-				<s xml:lang="nl">Media &amp; Folders</s>
+				<s xml:lang="nl">Media &amp; mappen</s>
 				<s xml:lang="pt">Suportes de Dados &amp; Pastas</s>
 				<s xml:lang="fi">Mediat &amp; Kansiot</s>
 				<s xml:lang="hr">Mediji i mape</s>
