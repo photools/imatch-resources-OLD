@@ -371,7 +371,7 @@
 					<t xml:lang="en"><![CDATA[<Bold>Categories</Bold>]]></t>
 					<t xml:lang="de"><![CDATA[<Bold>Kategorien</Bold>]]></t>
 					<t xml:lang="fi"><![CDATA[<Bold>Kategoriat</Bold>]]></t>
-					<t xml:lang="nl"><![CDATA[<Bold>Categoriën</Bold>]]></t>
+					<t xml:lang="nl"><![CDATA[<Bold>Categorieën</Bold>]]></t>
 					<t xml:lang="pt"><![CDATA[<Bold>Categorias</Bold>]]></t>
 					<t xml:lang="no"><![CDATA[<Bold>Kategorier</Bold>]]></t>
 					<t xml:lang="hr"><![CDATA[<Bold>Kategorije</Bold>]]></t>
@@ -1442,7 +1442,7 @@
             <ctrl text="#l_check_groups">
                 <c xml:lang="en" helptext="">&amp;Categories</c>
                 <c xml:lang="de" helptext="">&amp;Kategorien kopieren</c>
-                <c xml:lang="nl" helptext="">&amp;Categoriën</c>
+                <c xml:lang="nl" helptext="">&amp;Categorieën</c>
                 <c xml:lang="pt" helptext="">&amp;Categorias</c>
                 <c xml:lang="fi" helptext="">&amp;Kategoriat</c>
 				<c xml:lang="no" helptext="">&amp;Kategorier</c>
@@ -1487,7 +1487,7 @@
                 <ld listid="0x100">
                     <l xml:lang="en" helptext="">Categories</l>
                     <l xml:lang="de" helptext="">Kategorien</l>
-                    <l xml:lang="nl" helptext="">Categoriën</l>
+                    <l xml:lang="nl" helptext="">Categorieën</l>
                     <l xml:lang="fi" helptext="">Kategoriat</l>
 					<l xml:lang="pt" helptext="">Categorias</l>
 					<l xml:lang="no" helptext="">Kategorier</l>
@@ -2239,7 +2239,7 @@
 			<ctrl text="#l_hideempty">
 				<c xml:lang="en" helptext="Enable this option to see only categories which contain files">Hide &amp;empty categories</c>
 				<c xml:lang="de" helptext="Aktivieren Sie diese Option um nur Kategorien zu sehen, die Dateien enthalten">&amp;Leere Kategorien verbergen</c>
-				<c xml:lang="nl" helptext="Activeer deze optie om alleen categoriën met bestanden te tonen">L&amp;ege categoriën verbergen</c>
+				<c xml:lang="nl" helptext="Activeer deze optie om alleen categorieën met bestanden te tonen">L&amp;ege categorieën verbergen</c>
 				<c xml:lang="pt" helptext="Active esta opção para visualizar apenas as categorias que contêm ficheiros">Ocultar categorias &amp;vazias</c>
 				<c xml:lang="no" helptext="Angi denne opsjonen for kun å se kategorier med filer">Skjul &amp;tomme kategorier</c>
 				<c xml:lang="hr" helptext="Ako je omogućeno, vide se samo kategorije koje sadrže datoteke">Sakrij &amp;prazne kategorije</c>
@@ -2260,7 +2260,7 @@
 				<c xml:lang="en" helptext="Enable this to display the child categories of categories matching the filter expression.">&amp;Also show children</c>
 				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um Kindkategorien der gefundenen Kategorien ebenfalls anzuzeigen.">&amp;Auch Kindkategorien anzeigen</c>
 				<c xml:lang="pt" helptext="Active esta opção para mostrar os filhos das categorias que correspondem á expressão do filtro utilizada.">&amp;Mostra também os filhos</c>
-				<c xml:lang="nl" helptext="Zet deze optie aan om de ondercategoriën te tonen van de categoriën die aan het filter voldoen..">&amp;Toon subcategoriën</c>
+				<c xml:lang="nl" helptext="Zet deze optie aan om de ondercategorieën te tonen van de categorieën die aan het filter voldoen..">&amp;Toon subcategorieën</c>
 			</ctrl>
 		</dialog>
 
@@ -4148,7 +4148,7 @@
 					<l xml:lang="fi">Alakategoriat</l>
 					<l xml:lang="it">Categorie Supplementari</l>
 					<l xml:lang="pt">Categorias Suplementares</l>
-					<l xml:lang="nl">Aanvullende categoriën</l>
+					<l xml:lang="nl">Aanvullende categorieën</l>
 				</ld>
 				
 				<ld listid="25" key="XMP::Lightroom\hierarchicalSubject\HierarchicalSubject">
@@ -6945,7 +6945,7 @@
 			<caption xml:lang="en">Categories</caption>
 			<caption xml:lang="de">Kategorien</caption>
 			<caption xml:lang="fi">Kategoriat</caption>
-			<caption xml:lang="nl">Categoriën</caption>
+			<caption xml:lang="nl">Categorieën</caption>
 			<caption xml:lang="pt">Categorias</caption>
 			<caption xml:lang="no">Kategorier</caption>
 			<caption xml:lang="it">Categorie</caption>
@@ -7284,7 +7284,7 @@
             <caption xml:lang="en">Select Group(s)</caption>
             <caption xml:lang="de">Kategorie(en) auswählen</caption>
 			<caption xml:lang="fi">Valitse ryhmä(t)</caption>
-            <caption xml:lang="nl">Categoriën selecteren</caption>
+            <caption xml:lang="nl">Categorieën selecteren</caption>
 			<caption xml:lang="pt">Seleccionar Grupo(s)</caption>
 			<caption xml:lang="no">Velg kategori(er)</caption>
             <caption xml:lang="it">Seleziona Gruppi</caption>
@@ -7303,14 +7303,14 @@
             <caption xml:lang="en">Add Categories</caption>
             <caption xml:lang="de">Kategorien anlegen</caption>
 			<caption xml:lang="fi">Lisää kategoria(t)</caption>
-            <caption xml:lang="nl">Categoriën toevoegen</caption>
+            <caption xml:lang="nl">Categorieën toevoegen</caption>
 			<caption xml:lang="pt">Adicionar Categorias</caption>
 			<caption xml:lang="no">Legg til kategorier</caption>
             <caption xml:lang="it">Aggiungi Categorie</caption>
             <ctrl text="#l_info">
                 <c xml:lang="en" helptext="">This dialog enables you to create multiple categories at the same time. Just type the category names below and separate them with a semicolon (;). You can also add hierarchies by separating the levels with the a | .</c>
                 <c xml:lang="de" helptext="">In diesem Dialog können Sie mehrere Kategorien auf einmal anlegen. Geben Sie unten die Namen der neuen Kategorien ein und trennen Sie diese mit einem Semikolon (;). Sie können auch Hierarchien anlegen, wenn Sie die Ebenen durch | trennen.</c>
-                <c xml:lang="nl" helptext="">Met deze optie kunt u meerdere categoriën ineens creëren. Geef de namen van de nieuwe categoriën gescheiden door een puntkomma (;). U kunt ook een hiërarchie toevoegen door niveau's te scheiden door middel van een | .</c>
+                <c xml:lang="nl" helptext="">Met deze optie kunt u meerdere categorieën ineens creëren. Geef de namen van de nieuwe categorieën gescheiden door een puntkomma (;). U kunt ook een hiërarchie toevoegen door niveau's te scheiden door middel van een | .</c>
 				<c xml:lang="pt" helptext="">Esta janela de diálogo permite-lhe criar múltiplas categorias em simultâneo. Insira os nomes das categorias abaixo e separe-os por ponto-e-vírgula (;). Também pode adicionar hierarquias separando os níveis com um | .</c>
 				<c xml:lang="no" helptext="">Denne dialogen gir deg mulighet til å opprette flere kategorier samtidig. Angi kategorinavn nedenfor og separer dem med semikolon (;). Du kan også legge til hierarkier ved å separere nivåene med | .</c>
                 <c xml:lang="it" helptext="">Questo dialogo abilita a creare categorie multiple nello stesso momento. Semplicemente aggiungete di seguito il nome delle categorie separandole con il punto e virgola (;). Si possono anche aggiungere le gerarchie separando i livelli con il simbolo | .</c>
@@ -7319,7 +7319,7 @@
                 <c xml:lang="en" helptext="">As child categories</c>
                 <c xml:lang="de" helptext="">Als untergeordnete Kategorien</c>
 				<c xml:lang="fi" helptext="">Alakategorioiksi</c>
-                <c xml:lang="nl" helptext="">Als onderliggende categoriën</c>
+                <c xml:lang="nl" helptext="">Als onderliggende categorieën</c>
 				<c xml:lang="pt" helptext="">Como categorias subordinadas</c>
 				<c xml:lang="no" helptext="">Som underordnede kategorier (barn)</c>
                 <c xml:lang="it" helptext="">Come categorie figlie </c>
@@ -7328,7 +7328,7 @@
                 <c xml:lang="en" helptext="">As sibling categories</c>
                 <c xml:lang="de" helptext="">Als Kategorien auf der gleichen Ebene</c>
 				<c xml:lang="fi" helptext="">Samalle kategoriatasolle</c>
-                <c xml:lang="nl" helptext="">Als categoriën op gelijk niveau</c>
+                <c xml:lang="nl" helptext="">Als categorieën op gelijk niveau</c>
 				<c xml:lang="pt" helptext="">Como categorias colaterais</c>
 				<c xml:lang="no" helptext="">Som sidestilte kategorier (søsken)</c>
                 <c xml:lang="it" helptext="">Come categorie sorelle</c>
@@ -7338,7 +7338,7 @@
 				<c xml:lang="de" helptext="Für alle neuen Kategorien die Farbkodierungseinstellungen auf 'Erben' setzen.">&amp;Farben erben</c>
 				<c xml:lang="it" helptext="Attivare l'opzione 'Eredita i colori' per le nuove categorie.">&amp;Eredita colori</c>
 				<c xml:lang="pt" helptext="Active a opção 'Herdar cores' para as novas categorias.">&amp;Herdar cores</c>
-				<c xml:lang="nl" helptext="Activeer de optie 'kleuren overnemen' voor de nieuwe categoriën.">&amp;Kleuren overnemen</c>
+				<c xml:lang="nl" helptext="Activeer de optie 'kleuren overnemen' voor de nieuwe categorieën.">&amp;Kleuren overnemen</c>
 			</ctrl>
 
 		</dialog>
@@ -7478,7 +7478,7 @@
                     <t xml:lang="en">Categories</t>
                     <t xml:lang="de">Kategorien</t>
 					<t xml:lang="fi">Kategoriat</t>
-                    <t xml:lang="nl">Categoriën</t>
+                    <t xml:lang="nl">Categorieën</t>
 					<t xml:lang="pt">Categorias</t>
 					<t xml:lang="no">Kategorier</t>
                     <t xml:lang="it">Categorie</t>
@@ -7487,7 +7487,7 @@
                     <t xml:lang="en">This section lists all categories in the database</t>
                     <t xml:lang="de">Diese Sektion listet alle Kategorien in der Datenbank auf</t>
 					<t xml:lang="fi">Tässä osassa on luettelo kaikista tietokannan kategorioista</t>
-                    <t xml:lang="nl">Dit onderdeel toont alle categoriën in de database</t>
+                    <t xml:lang="nl">Dit onderdeel toont alle categorieën in de database</t>
 					<t xml:lang="pt">Esta secção lista todas as categorias existentes na base de dados</t>
 					<t xml:lang="no">Denne delen lister opp alle kategorier i databasen</t>
                     <t xml:lang="it">Questa sezione elenca tutte le categorie presenti nel database</t>
@@ -7692,7 +7692,7 @@
             <caption xml:lang="en">Edit Data-driven Category</caption>
             <caption xml:lang="de">Datengesteuerte Kategorie bearbeiten</caption>
 			<caption xml:lang="fi">Muokkaa aineistopohjaista kategoriaa</caption>
-            <caption xml:lang="nl">Gegevensgestuurde categoriën bewerken</caption>
+            <caption xml:lang="nl">Gegevensgestuurde categorieën bewerken</caption>
 			<caption xml:lang="pt">Editar Categoria Dinâmica</caption>
 			<caption xml:lang="no">Rediger data-drevne kategorier</caption>
             <caption xml:lang="it">Modifica la categoria Data-driven</caption>
@@ -10033,7 +10033,7 @@
 			<ctrl text="#l_cats" style="bold">
 				<c xml:lang="en" helptext="">Add files to catego&amp;ries:</c>
 				<c xml:lang="de" helptext="">Dateien zu Katego&amp;rien hinzufügen</c>
-				<c xml:lang="nl" helptext="">Bestanden aan categoriën toevoegen:</c>
+				<c xml:lang="nl" helptext="">Bestanden aan categorieën toevoegen:</c>
 				<c xml:lang="pt" helptext="">Adicionar ficheiros a catego&amp;rias:</c>
 				<c xml:lang="no" helptext="">Legg filer til katego&amp;rier:</c>
 				<c xml:lang="it" helptext="">Aggiungi file alle catego&amp;rie:</c>
@@ -11915,7 +11915,7 @@
 				<c xml:lang="en" helptext="">&amp;Categories to propagate:</c>
 				<c xml:lang="de" helptext="">Diese &amp;Kategorien propagieren:</c>
 				<c xml:lang="fi" helptext="">&amp;Laajennettavat kategoriat</c>
-				<c xml:lang="nl" helptext="">&amp;Categoriën:</c>
+				<c xml:lang="nl" helptext="">&amp;Categorieën:</c>
 				<c xml:lang="pt" helptext="">&amp;Categorias a propagar:</c>
 				<c xml:lang="no" helptext="">&amp;Kategorier:</c>
 				<c xml:lang="it" helptext="">&amp;Categorie sa propagare:</c>
@@ -11945,7 +11945,7 @@
 				<c xml:lang="en" helptext="This controls if the master categories are merged with the existing categories of the version or if the version categories are replaced entirely.">Remove versio&amp;n from all other categories</c>
 				<c xml:lang="de" helptext="Bestimmt, ob die Kategorien des Masters zu den bestehenden Kategorien der Version hinzugefügt werden, oder diese komplett ersetzen.">Versio&amp;n aus allen anderen Kategorien entfernen.</c>
 				<c xml:lang="pt" helptext="Isto controla se as categorias principais são fundidas (misturadas) com as categorias existentes da versão ou se são substituidas completamente.">Remove versã&amp;o de todas as outras categorias</c>
-				<c xml:lang="nl" helptext="Dit bepaalt of de categoriën van de master worden toegevoegd aan de bestaande categoriën (van de versie), of dat die geheel worden vervangen.">Versie verwijdere&amp;n uit alle andere categoriën</c>
+				<c xml:lang="nl" helptext="Dit bepaalt of de categorieën van de master worden toegevoegd aan de bestaande categorieën (van de versie), of dat die geheel worden vervangen.">Versie verwijdere&amp;n uit alle andere categorieën</c>
 				<c xml:lang="it" helptext="Controlla se le categorie master sono fuse con le categorie esistenti nella versione o le categorie di versione vengono sostituite interamente.">Rimuovi  versio&amp;ni da tutte le altre categorie</c>
 			</ctrl>
 
@@ -11955,7 +11955,7 @@
 					<l xml:lang="en">Categories</l>
 					<l xml:lang="de">Kategorien</l>
 					<l xml:lang="fi">Kategoriat</l>
-					<l xml:lang="nl">Categoriën</l>
+					<l xml:lang="nl">Categorieën</l>
 					<l xml:lang="pt">Categorias</l>
 					<l xml:lang="no">Kategorier</l>
 					<l xml:lang="it">Categorie</l>
@@ -13915,7 +13915,7 @@
         <dialog resid="PTRMDLG_IMPEXP_GROUPS_EXPORT" resgroup="impexp" desc="Dialog for Category Export">
             <caption xml:lang="en">Export Categories</caption>
             <caption xml:lang="de">Kategorien exportieren</caption>
-            <caption xml:lang="nl">Categoriën exporteren</caption>
+            <caption xml:lang="nl">Categorieën exporteren</caption>
 			<caption xml:lang="pt">Exportar Categorias</caption>
 			<caption xml:lang="no">Eksporter kategorier</caption>
 			<caption xml:lang="fi">Vie kategoriat</caption>
@@ -13923,7 +13923,7 @@
             <ctrl text="#l_recurse">
                 <c xml:lang="en" helptext="">Includ&amp;e child categories</c>
                 <c xml:lang="de" helptext="">Untergeordnete Kategorien &amp;einschließen</c>
-                <c xml:lang="nl" helptext="">Inclusief ond&amp;erliggende categoriën</c>
+                <c xml:lang="nl" helptext="">Inclusief ond&amp;erliggende categorieën</c>
 				<c xml:lang="pt" helptext="">Inclui&amp;r categorias subordinadas</c>
 				<c xml:lang="no" helptext="">Inklud&amp;er underkategorier</c>
 				<c xml:lang="fi" helptext="">Sisällytä &amp;alakategoriat</c>
@@ -13992,7 +13992,7 @@
         <dialog resid="PTRMDLG_IMPEXP_GROUPS_IMPORT" resgroup="impexp" desc="Dialog for Category Import">
             <caption xml:lang="en">Import Categories</caption>
             <caption xml:lang="de">Kategorien importieren</caption>
-            <caption xml:lang="nl">Categoriën importeren</caption>
+            <caption xml:lang="nl">Categorieën importeren</caption>
 			<caption xml:lang="pt">Importar Categorias</caption>
 			<caption xml:lang="no">Importer kategorier</caption>
 			<caption xml:lang="fi">Tuo kategoriat</caption>
@@ -14094,7 +14094,7 @@
             <ctrl text="#l_recurse">
                 <c xml:lang="en" helptext="Enable this to include child folders and child categories of dropped folders and categories.">Process dropped objects &amp;recursively</c>
                 <c xml:lang="de" helptext="Aktivieren Sie diese Option um Unterverzeichnisse bzw. Kindkategorien von abgelegten Verzeichnissen oder Kategorien einzuschließen.">Abgelegte Objekte &amp;rekursiv bearbeiten</c>
-                <c xml:lang="nl" helptext="Activeer deze optie om onderliggende folders en categoriën van neergezette folders en categoriën ook te exporteren.">Neergezette objecten &amp;recursief verwerken</c>
+                <c xml:lang="nl" helptext="Activeer deze optie om onderliggende folders en categorieën van neergezette folders en categorieën ook te exporteren.">Neergezette objecten &amp;recursief verwerken</c>
 				<c xml:lang="pt" helptext="Active esta opção para incluir sub-pastas e categorias subordinadas das pastas e categorias para aqui arrastadas.">Processar objectos arrastados  &amp;recursivamente</c>
 				<c xml:lang="no" helptext="Aktiver dette for å inkludere undermapper og underkategorier for mapper og kategorier som dras og slippes.">Prosesser objekter &amp;rekursivt</c>
                 <c xml:lang="it" helptext="Abilita questo per includere sotto-cartelle w sotto-categorie di cartelle e categorie trascinate.">	Elabora &amp;ricorsivamente gli oggetti trascinati</c>
