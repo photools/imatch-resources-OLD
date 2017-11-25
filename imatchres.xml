@@ -1545,21 +1545,25 @@
 				<c xml:lang="en" hotkey="Ctrl+M|F" helptext="Detect faces in images and convert them into Face Annotations.">Detect faces and create &amp;Face Annotations</c>
 				<c xml:lang="de" hotkey="Ctrl+M|F" helptext="Gesichtsdetektion durchführen und Gesichtsanmerkungen erstellen">Gesichter ermittlen und &amp;Gesichtsanmerkungen erstellen</c>
 				<c xml:lang="nl" hotkey="Ctrl+M|F" helptext="Gezichten in afbeeldingen herkennen en er gezichtsannotaties van maken.">Gezichten ontdekken en &amp;gezichtsannotaties maken</c>
+				<c xml:lang="pt" hotkey="Ctrl+M|F" helptext="Detecta rostos em imagens e converte-as em Anotações de Rosto.">Detecta rostos e cria &amp;Anotações de Rosto</c>
 			</cmd>
 			<cmd resid="ID_CMD_TOOL_FACE_DELETE" desc="" bmidx="0">
 				<c xml:lang="en" hotkey="" helptext="Remove face annotations.">Delete Face A&amp;nnotations</c>
 				<c xml:lang="de" hotkey="" helptext="Gesichtsanmerkungen löschen">Gesichtsa&amp;nmerkungen löschen</c>
 				<c xml:lang="nl" hotkey="" helptext="Gezichtsannotaties verwijderen.">Verwijder gezichtsa&amp;nnotaties</c>
+				<c xml:lang="pt" hotkey="" helptext="Remove Anotações de Rosto.">Apaga Anotações de R&amp;osto</c>
 			</cmd>
 			<cmd resid="ID_CMD_TOOL_FACE_WRITE_XMP" desc="" bmidx="0">
 				<c xml:lang="en" hotkey="" helptext="Save IMatch face annotations into the XMP record.">&amp;Save Face Annotations to XMP data</c>
 				<c xml:lang="de" hotkey="" helptext="IMatch-Gesichtsanmerkungen im XMP-Datensatz speichern">Gesichtsanmerkungen im XMP-Datensatz &amp;speichern</c>
 				<c xml:lang="nl" hotkey="" helptext="IMatch gezichtsannotaties in de XMP gegevens opslaan.">&amp;Gezichtsannotaties in XMP-gegevens op&amp;slaan</c>
+				<c xml:lang="pt" hotkey="" helptext="Grava as Anotações de Rosto do IMatch no registo XMP.">&amp;Grava Anotações de Rosto aos dados XMP</c>
 			</cmd>
 			<cmd resid="ID_CMD_TOOL_FACE_READ_XMP" desc="" bmidx="0">
 				<c xml:lang="en" hotkey="" helptext="Reload face regions from the XMP record and re-create face annotations.">&amp;Re-create Face Annotations from XMP data</c>
 				<c xml:lang="de" hotkey="" helptext="IMatch-Gesichtsanmerkungen neu aus den XMP-Gesichtsdaten erstellen">Gesichtsanmerkungen aus dem XMP-Datensatz e&amp;rstellen</c>
 				<c xml:lang="nl" hotkey="" helptext="Gezichten uit de XMP-gegevens herladen en gezichtsannotaties opnieuw creëren.">He&amp;rstellen van gezichtsannotaties uit de XMP-gegevens</c>
+				<c xml:lang="pt" hotkey="" helptext="Recarrega regiões de rosto do registo XMP e recriar anotações de rosto">&amp;Recria Anotações de Rosto a partir dos dados XMP</c>
 			</cmd>
 
 		</command_group>
@@ -2390,6 +2394,7 @@
                 <c xml:lang="en" hotkey="F9|Y" helptext="Show or hide the App Manager panel">App &amp;Manager</c>
                 <c xml:lang="de" hotkey="F9|Y" helptext="Anzeigen oder Verbergen des App-Manager Panels">&amp;App-Manager</c>
 				<c xml:lang="nl" hotkey="F9|Y" helptext="Toon of verberg het App Manager paneel">&amp;App-Manager</c>
+				<c xml:lang="pt" hotkey="F9|Y" helptext="Mostra ou esconde o painel do Gestor de Aplicações">Gestor &amp;Aplicações</c>
             </cmd>
 			
 			<!-- Thumbnail Tooltips? (Toggles E > P > Application: Thumb Tips) -->
@@ -3031,6 +3036,7 @@
                 <c xml:lang="en" hotkey="" helptext="Add a new favorite for an app">New from &amp;App...</c>
                 <c xml:lang="de" hotkey="" helptext="Einen neuen Favoriten für eine App hinzufügen.">Neu von &amp;App...</c>
 				<c xml:lang="nl" hotkey="" helptext="Een nieuwe favoriet voor een App toevoegen">Nieuw vanuit &amp;App...</c>
+				<c xml:lang="pt" hotkey="" helptext="Adicione um novo favorito para uma aplicação">Novo a partir &amp;Apl...</c>
             </cmd>
 			
             <!-- Favorites, Metadata Templates -->
@@ -3709,6 +3715,7 @@
                 <c xml:lang="en" helptext="Select an App">App</c>
                 <c xml:lang="de" helptext="Wählen Sie eine App aus">App</c>
 				<c xml:lang="nl" helptext="Selecteer een App">App</c>
+				<c xml:lang="pt" helptext="Seleccione uma Aplicação">Aplicação</c>
             </cmd>
             
 			<cmd resid="ID_CMD_APP_PANEL_RELOAD" bmidx="1">
@@ -4435,11 +4442,13 @@
 				<c xml:lang="en" hotkey="Ctrl+E|K" helptext="Opens the Keyword Panel and starts editing.">Edit &amp;Keywords...</c>
 				<c xml:lang="de" hotkey="Ctrl+E|K" helptext="Öffnet das Schlüsselwort-Panel und beginnt mit der Bearbeitung">&amp;Schlüsselwörter bearbeiten</c>
 				<c xml:lang="nl" hotkey="Ctrl+E|K" helptext="Opent het trefwoorden paneel en start met de bewerking.">&amp;Trefwoorden bewerken...</c>
+				<c xml:lang="pt" hotkey="Ctrl+E|K" helptext="Abre o Painel das Palavras Chave e começa a editar.">Edita &amp;Palavras Chave...</c>
 			</cmd>
 			<cmd resid="ID_EDIT_METADATA">
 				<c xml:lang="en" hotkey="Ctrl+E|M" helptext="Opens the Metadata Panel and starts editing.">Edit &amp;Metadata...</c>
 				<c xml:lang="de" hotkey="Ctrl+E|M" helptext="Öffnet das Metadaten-Panel und beginnt mit der Bearbeitung">&amp;Metadaten bearbeiten</c>
 				<c xml:lang="nl" hotkey="Ctrl+E|M" helptext="Opent het Metadata paneel en start met de bewerking.">&amp;Metadata bewerken...</c>
+				<c xml:lang="pt" hotkey="Ctrl+E|M" helptext="Abre o Painel dos Metadados e começa a editar.">Edita &amp;Metadados...</c>
 			</cmd>
 		
 		</command_group>
@@ -4984,12 +4993,14 @@
 				<c xml:lang="en" hotkey="" helptext="Opens the release notes page in your default browser.">&amp;Release Notes (Online)</c>
 				<c xml:lang="de" hotkey="" helptext="Öffnet die Versionsinformationen in Ihrem Browser.">Ve&amp;rsionsinformationen (Online)</c>
 				<c xml:lang="nl" hotkey="" helptext="Opent de realease notes in uw standaard browser.">&amp;Release Notes (Online)</c>
+				<c xml:lang="pt" hotkey="" helptext="Abre a página das notas sobre a nova versão no seu navegador padrão.">&amp;Notas sobre a nova versão (Online)</c>
 			</cmd>
 
 			<cmd resid="ID_APP_DEVCENTER" bmidx="3">
 				<c xml:lang="en" hotkey="" helptext="Opens the IMatch Developer Center website.">&amp;Developer Center (Online)</c>
 				<c xml:lang="de" hotkey="" helptext="Öffnet die photools.com Developer Center Webseite.">&amp;Developer Center (Online)</c>
-				<c xml:lang="nl" hotkey="" helptext="Opent de IMatch Developer Center website.">&amp;Developer Center (Online)</c>				
+				<c xml:lang="nl" hotkey="" helptext="Opent de IMatch Developer Center website.">&amp;Developer Center (Online)</c>	
+				<c xml:lang="pt" hotkey="" helptext="Abre o site do Centro de desenvolvimento do IMatch.">&amp;Centro de Desenvolvimento (Online)</c>				
 			</cmd>
 
 			<cmd resid="ID_APP_ORDER" bmidx="9">
@@ -5151,6 +5162,7 @@
 				<c xml:lang="en" hotkey="" helptext="Open the IMatch Learning Center with free videos and tutorials.">The IMatch &amp;Learning Center (Online)...</c>
 				<c xml:lang="de" hotkey="" helptext="Das IMatch Learning Center mit kostenlosen Videos und Tutorials öffnen.">Das IMatch &amp;Learning Center (Online)...</c>
 				<c xml:lang="nl" hotkey="" helptext="Open het IMatch Learning Center met gratis videos en tutotials.">Het IMatch &amp;Learning Center (Online)...</c>
+				<c xml:lang="pt" hotkey="" helptext="Abre o Centro de Aprendizagem do IMatch com videos e tutoriais (sem custo).">IMatch &amp;Centro de Aprendizagem (Online)...</c>
 			</cmd>
 			
 		</command_group>
@@ -6340,6 +6352,7 @@
 				<c xml:lang="en" hotkey="Shift+Ctrl+D" helptext="Reset the custom sort order to the 'Default' sort profile.">Reset Custom Sort to 'Defau&amp;lt'</c>
 				<c xml:lang="de" hotkey="Shift+Ctrl+D" helptext="Die manuelle Sortierreihenfolge auf das 'Standard'-Sortierprofil zurücksetzen.">Sortierfolge auf 'Standard' zurückset&amp;zen</c>
 				<c xml:lang="nl" hotkey="Shift+Ctrl+D" helptext="Zet de aangepaste sortering naar de 'standaard sortering' terug.">Aangepaste sortering terug z&amp;etten naar 'standaard'</c>
+				<c xml:lang="pt" hotkey="Shift+Ctrl+D" helptext="Redefine a ordem de classificação personalizada para o perfil de classificação "Padrão".">Redefine a ordem de classificação personalizada para 'Padr&amp;ão'</c>
 			</cmd>
 
 			<cmd resid="ID_CMD_FILE_FIND" desc="Find Command">
@@ -6623,6 +6636,7 @@
 				<c xml:lang="en" hotkey="Ctrl+G|R" helptext="Opens a result window for all selected files.">Open selection in Result &amp;Window...</c>
 				<c xml:lang="de" hotkey="Ctrl+G|R" helptext="Öffnet ein Ergebnisfenster mit den ausgewählten Dateien.">Auswahl in Ergebnisfenster öffnen...</c>
 				<c xml:lang="nl" hotkey="Ctrl+G|R" helptext="Opent een resultaatvenster voor alle geselecteerde bestanden.">Selection in een resultaatvenster weergeven...</c>
+				<c xml:lang="pt" hotkey="Ctrl+G|R" helptext="Abre uma janela com os resultados de acordo com todos os arquivos selecionados.">Abre selecção em janela de &amp;Resultados...</c>
 			</cmd>
 
 
@@ -6711,11 +6725,13 @@
 				<c xml:lang="en" hotkey="Shift+Ctrl+VK_NEXT" helptext="Change the thumbnail to use for this video.">&amp;Next Frame</c>
 				<c xml:lang="de" hotkey="Shift+Ctrl+VK_NEXT" helptext="Das Vorschaubild für dieses Video ändern.">&amp;Nächtes Bild</c>
 				<c xml:lang="nl" hotkey="Shift+Ctrl+VK_NEXT" helptext="Wijzig de miniatuur voor deze video.">&amp;Volgende beeld</c>
+				<c xml:lang="pt" hotkey="Shift+Ctrl+VK_NEXT" helptext="Muda a miniatura a utilizar com este video.">&amp;Próximo Quadro</c>
 			</cmd>
 			<cmd resid="ID_CMD_FILE_THUMBSET_PREV" desc="">
 				<c xml:lang="en" hotkey="Shift+Ctrl+VK_PRIOR" helptext="Change the thumbnail to use for this video.">&amp;Previous Frame</c>
 				<c xml:lang="de" hotkey="Shift+Ctrl+VK_PRIOR" helptext="Das Vorschaubild für dieses Video ändern.">&amp;Vorhergehendes Bild</c>
 				<c xml:lang="nl" hotkey="Shift+Ctrl+VK_NEXT" helptext="Wijzig de miniatuur voor deze video.">&amp;Vorige beeld</c>
+				<c xml:lang="pt" hotkey="Shift+Ctrl+VK_NEXT" helptext="Muda a miniatura a utilizar com este video.">&amp;Quadro Anterior</c>
 			</cmd>
 		</command_group>
 
@@ -7440,6 +7456,7 @@
 				<c xml:lang="en" hotkey="" helptext="Set the selected file as the category thumbnail">Set category thumbnail</c>
 				<c xml:lang="de" hotkey="" helptext="Die ausgewählte Datei als Kategorie-Symbolbild verwenden.">Kategorie-Symbolbild festlegen</c>
 				<c xml:lang="nl" hotkey="" helptext="Het geselecteerde bestand gebruiken miniatuur voor de categorie">Set category thumbnail</c>
+				<c xml:lang="pt" hotkey="" helptext="Define o arquivo seleccionado como a miniatura da categoria">Define miniatura da categoria</c>
 			</cmd>
 
 		</command_group>
@@ -8477,6 +8494,7 @@
 				<c xml:lang="en" hotkey="" helptext="Show only the files directly assigned to the selected category. Don't include files in child categories.">Show only &amp;directly assigned files</c>
 				<c xml:lang="de" hotkey="" helptext="Zeige nur Dateien, die der ausgewählten Kategorie direkt zugewiesen wurden. Dateien in Kindkategorien nicht einschließen.">Nur &amp;direkt zugewiesene Dateien zeigen</c>
 				<c xml:lang="nl" hotkey="" helptext="Toon alleen de direct aan deze categorie toegewezen bestanden. Bestanden in subcategoriën niet tonen.">Toon alleen &amp;direct toegewezen bestanden</c>
+				<c xml:lang="pt" hotkey="" helptext="Mostra apenas os ficheiros directamente atribuidos à categoria seleccionada. Não inclui ficheiros existentes em categorias filhas.">Mostra apenas &amp;ficheiros atribuidos directamente</c>
 			</cmd>
 
 		</command_group>
@@ -8715,6 +8733,7 @@
 				<c xml:lang="en" hotkey="" helptext="Enable advanced search options with AND, OR and NOT">&amp;Advanced Search</c>
 				<c xml:lang="de" hotkey="" helptext="Mit regulären Ausdrücken suchen">Er&amp;weiterte Suche</c>
 				<c xml:lang="nl" hotkey="" helptext="Geavanceerd zoeken met EN, OF en NIET">Ge&amp;avanceerd zoeken</c>
+				<c xml:lang="pt" hotkey="" helptext="Activa as opções de procura avançada com AND, OR e NOT">&amp;Procura avançada</c>
 			</cmd>
 
 		</command_group>
@@ -12586,6 +12605,7 @@
 				<c xml:lang="en" hotkey="A" helptext="Toggle Annotations">Toggle &amp;Annotations</c>
 				<c xml:lang="de" hotkey="A" helptext="Anmerkungen zeigen oder verbergen.">&amp;Anmerkungen zeigen oder verbergen</c>
 				<c xml:lang="nl" hotkey="A" helptext="Annotaties tonen of verbergen">&amp;Annotaties tonen of verbergen</c>
+				<c xml:lang="pt" hotkey="A" helptext="Alterna Anotações">Alterna &amp;Anotações</c>
 			</cmd>
 	
 		</command_group>
@@ -14077,6 +14097,7 @@
 							<n xml:lang="en" helptext="">&amp;Face Annotations</n>
 							<n xml:lang="de" helptext="">&amp;Gesichtsanmerkungen</n>
 							<n xml:lang="nl" helptext="">&amp;Gezichtsannotaties</n>
+							<n xml:lang="pt" helptext="">&amp;Anotações de Rosto</n>
 						</name>
 						<item>ID_CMD_TOOL_FACE_DETECT</item>
 						<separator/>
@@ -15879,6 +15900,7 @@
 					<n xml:lang="en">&amp;Video Options</n>
 					<n xml:lang="de">&amp;Video-Optionen</n>
 					<n xml:lang="nl">&amp;Video Opties</n>
+					<n xml:lang="pt">&amp;Opções de Vídeo</n>
 				</name>
 				<item>ID_CMD_FILE_THUMBSET_NEXT</item>
 				<item>ID_CMD_FILE_THUMBSET_PREV</item>
@@ -18017,12 +18039,15 @@
                 <name xml:lang="en">Root folder for apps</name>
                 <name xml:lang="de">Wurzelverzeichnis für Apps</name>
 				<name xml:lang="nl">Root maapvoot apps</name>
+				<name xml:lang="pt">Pasta raiz para aplicações</name>
                 <desc xml:lang="en">The folder containing apps and scripts for IMatch.</desc>
                 <desc xml:lang="de">Dieses Verzeichnis enthält Apps und Skripte für IMatch.</desc>
 				<desc xml:lang="nl">The map waarin de apps en scripts voor IMatch staan.</desc>
+				<desc xml:lang="pt">A pasta que contém aplicações e scripts para o IMatch.</desc>
                 <group xml:lang="en">Folders</group>
                 <group xml:lang="de">Verzeichnisse</group>
 				<group xml:lang="nl">Mappen</group>
+				<group xml:lang="pt">Pastas</group>
             </property>
 			
             <property resid="app.shfpresets" desc="">
@@ -18501,9 +18526,11 @@
                 <name xml:lang="en">Show HTML files</name>
                 <name xml:lang="de">Zeige HTML-Dateien</name>
 				<name xml:lang="nl">Toon HTML bestanden</name>
+				<name xml:lang="pt">Mostra os ficheiros HTML</name>
 				<desc xml:lang="en">Enable this option to use display HTML files in the built-in browser. If you consider this a privacy risk, disable this option.</desc>
                 <desc xml:lang="de">Aktivieren Sie diese Option, um HTML-Dateien mit dem eingebauten Web-Browser anzuzeigen.</desc>
 				<desc xml:lang="nl">Activeer deze optie op HTML-bestanden te kunnen weergeven met de ingebouwde browser. Als u dit een privact-risico vindt, dé-activeer dan deze optie.</desc>
+				<desc xml:lang="pt">Active esta opção para usar os arquivos HTML no navegador embutido. Se considerar este procedimento um risco de privacidade, desactive esta opção.</desc>
 				<group xml:lang="it">Quick View</group>
                 <group xml:lang="en">Quick View</group>
                 <group xml:lang="no">Hurtigvisning</group>
@@ -18866,6 +18893,7 @@
 				<name xml:lang="en">App Panel Scale</name>
 				<name xml:lang="de">App-Panel Skalierung</name>
 				<name xml:lang="nl">Schaal van het App-paneel</name>
+				<name xml:lang="pt">Escala do Painel de Aplicações</name>
 				<group xml:lang="en">User Interface</group>
 				<group xml:lang="de">Benutzerschnittstelle</group>
 				<group xml:lang="fi">Käyttöliittymä</group>
@@ -19375,60 +19403,75 @@
 				<name xml:lang="en">IMWS enabled</name>
 				<name xml:lang="de">IMWS aktiviert</name>
 				<name xml:lang="nl">IMWS actief</name>
+				<name xml:lang="pt">IMWS activo</name>
 				<desc xml:lang="en">If this setting is off, the embedded IMatch WebServices is disabled. No scripts or apps can work.</desc>
 				<desc xml:lang="de">Diese Einstellung bestimmt, ob der integrierte Webdienst in IMatch ausgeführt wird. Er wird für die Ausführung von Skripten und Apps benötigt.</desc>
 				<desc xml:lang="nl">Deze instelling bepaalt of de geïntegreerde IMatch Webservices worden uitgevoerd. Die zijn voor de uitvoering van scripts en Apps nodig.</desc>
+				<desc xml:lang="pt">Se esta configuração estiver desactivada, os Serviços Web do IMatch incorporados estão inactivos. Nenhum script ou aplicação funciona.</desc>
 				<group xml:lang="en">Embedded IMatch WebServices</group>
 				<group xml:lang="de">Integrierte IMatch-Webdienste</group>
 				<group xml:lang="nl">Geïntegreerde IMatch WebServices</group>
+				<group xml:lang="pt">Serviços Web do IMatch incorporados</group>
 			</property>
 			
 			<property resid="imws.port" >
 				<name xml:lang="en">Port Number</name>
 				<name xml:lang="de">Port-Nummer</name>
 				<name xml:lang="nl">Poort nummer</name>
+				<name xml:lang="pt">Número da Porta</name>
 				<desc xml:lang="en">The port number to use for IMWS. If the default port number is already in use on your system, select another number in the range 49152-65535.</desc>
 				<desc xml:lang="de">Die Port-Nummer, under der der integrierte Webdienst ereichbar ist. Wenn der Standard-Port auf Ihrem System bereits von einem anderen Dienst verwendet wird, wählen Sie einen freien Port im Bereich 49152-65535.</desc>
 				<desc xml:lang="nl">Het poortnummer dat voor IMWS wordt gebruikt. Als het standaardpoortnummer al in gebruik is op uw systeem, kiers dan een ander vrij nummer in de reeks 49152-65535.</desc>
+				<desc xml:lang="pt">O número da porta que irá ser utilizado pelo IMWS. Se o número da porta padrão já estiver a ser utilizado no seu sistema, seleccione outro número dentro da range 49152-65535.</desc>
 				<group xml:lang="en">Embedded IMatch WebServices</group>
 				<group xml:lang="de">Integrierte IMatch-Webdienste</group>
 				<group xml:lang="nl">Geïntegreerde IMatch WebServices</group>
+				<group xml:lang="pt">Serviços Web do IMatch incorporados</group>
 			</property>
 
 			<property resid="imws.documentroot" >
 				<name xml:lang="en">Document Root / App Folder</name>
 				<name xml:lang="de">Dokument- und App-Wurzelverzeichnis</name>
 				<name xml:lang="nl">Document Root / App map</name>
+				<name xml:lang="pt">Raiz do Documento / Pasta das Aplicações</name>
 				<desc xml:lang="en">This folder contains all scripts, documents and apps which should be accessible via the embedded IMatch WebServices. The IMatch App Manager also uses this folder to find the system and your apps.</desc>
 				<desc xml:lang="de">Dieses Verzeichnis enthält alle Skripte, Dokumente und Apps, die über den integrierten Webdienst erreichbar sein sollen. Der IMatch App-Manager durchsucht ebenfalls dieses Verzeichnis, um System- und benutzerdefinierte Skripte zu finden.</desc>
 				<desc xml:lang="nl">Deze map bevat alle scripts, documenten en apps die via de geïntegreerde IMatch WebServices bereikbaar zouden moeten zijn. Ookde IMatch App Manager gebruikt deze map om de systeem- en gebruikers apps te vinden.</desc>
+				<desc xml:lang="pt">Esta pasta contém todos os scripts, documentos e aplicações que devem ser acedidos através dos Serviços Web incorporados do IMatch. O Gerenciador de aplicações do IMatch também usa essa pasta para encontrar o sistema e as suas aplicações..</desc>
 				<group xml:lang="en">Embedded IMatch WebServices</group>
 				<group xml:lang="de">Integrierte IMatch-Webdienste</group>
 				<group xml:lang="nl">Geïntegreerde IMatch WebServices</group>
+				<group xml:lang="pt">Serviços Web do IMatch incorporados</group>
 			</property>
 
 			<property resid="cef.debugport" >
 				<name xml:lang="en">Remote Debugging Port</name>
 				<name xml:lang="de">Remote-Debugging Port</name>
 				<name xml:lang="nl">Remote Debugging Poort</name>
+				<name xml:lang="pt">Porta de depuração remota</name>
 				<desc xml:lang="en">If this is 0, remote debugging of the embedded browser is disabled. Set this to a valid port number (e.g. 8080) to enable remote debugging.</desc>
 				<desc xml:lang="de">Ist dieser Wert 0, ist Remote-Debugging für den eingebetteten Web-Browsers deaktiviert. Tragen Sie eine gültige Port-Nummer (z.B. 8080) ein, um Remote-Debugging zu nutzen.</desc>
 				<desc xml:lang="nl">Als deze waarde op 0 staat, is remote debugging van de ingebouwd browser niet mogelijk. Voer een geldig poortnummer is (bv. 8080) om remote debugging te benutten.</desc>
+				<desc xml:lang="pt">Se isto for 0, a depuração remota do navegador incorporado está desabilitada. Defina isto com um número de porta válido (por exemplo, 8080) para habilitar a depuração remota.</desc>
 				<group xml:lang="en">Developer Options</group>
 				<group xml:lang="de">Entwickler-Optionen</group>
 				<group xml:lang="nl">Opties voor ontwikkelaars</group>
+				<group xml:lang="pt">Opções do programador</group>
 			</property>
 
 			<property resid="cef.clearcache" >
 				<name xml:lang="en">Clear browser cache on exit</name>
 				<name xml:lang="de">Browser-Cache beim Beenden leeren</name>
 				<name xml:lang="nl">Browsercache leegmaken bij afsluiten</name>
+				<name xml:lang="pt">Limpar a cache do navegador na saída</name>
 				<desc xml:lang="en">If this is enabled, IMatch clears the cache of the embedded browser when exiting. Use this option if there is a problem with the cache or the browser does not pick up changes done to files.</desc>
 				<desc xml:lang="de">Wenn diese Einstellung aktiviert ist, leert IMatch beim Schließen den Cache des integrierten Web-Browsers. Nutzen Sie dies temporär, wenn es ein Problem mit dem Cache gibt oder der Browser geänderte Dateien nicht erkennt.</desc>
 				<desc xml:lang="nl">Als deze otie geaktveerd is, zal IMatch de cache van de ingebouwde browser leeg maken bij afsluiten. Gebruik deze optie als er een probleem met de browser is of als de browser wijzigingen in bestanden niet herkent.</desc>
+				<desc xml:lang="en">Se isto estiver activo, o IMatch limpa o cache do navegador incorporado ao sair. Use esta opção se houver um problema com a cache ou se o navegador não apanhar as alterações feitas nos ficheiros.</desc>
 				<group xml:lang="en">Developer Options</group>
 				<group xml:lang="de">Entwickler-Optionen</group>
 				<group xml:lang="nl">Opties voor ontwikkelaars</group>
+				<group xml:lang="pt">Opções do programador</group>
 			</property>
 
 
@@ -20345,10 +20388,12 @@
 				<name xml:lang="en">How many files to preload in background (0 = Auto)</name>
 				<name xml:lang="de">Anzahl der im Hintergrund vorausgeladenenen Dateien (0 = Automatisch)</name>
 				<name xml:lang="nl">Aantal bestanden dat op de achtergrond vooraf wordt geladen(0 = Auto)</name>
+				<name xml:lang="pt">Quantos arquivos para pré-carregar em 2º plano (0 = Auto)</name>
 
 				<desc xml:lang="en">By default, this option is 0 and IMatch determines automatically, how many files to preload in the background for a smooth viewing experience.\r\n\r\nThis option can be helpful when your graphic card causes problems with the automatic preloading. If you experience problems, 'black frames' etc. try to reduce the number of preloaded files (e.g., to 2 or 3) until the problem goes away.</desc>
 				<desc xml:lang="de">Standardmäßig steht diese Option auf 0 und IMatch ermittelt automatisch, wie viele Bilder im Hintergrund vorausgeladen werden müssen, um eine bestmögliches Ansichtserlebnis zu ermöglichen.\r\n\r\nDas Ändern dieser Option kann sehr hilfreich sein, wenn Ihre Grafikkarte Probleme mit dem automatischen Vorausladen von Bildern macht (Bilder werden nicht geladen oder bleiben schwarz). Reduzieren Sie in diesem Fall die Anzahl der im Voraus geladenen Bilder (zum Beispiel auf 2 oder 3), bis das Problem nicht mehr auftritt.</desc>
 				<desc xml:lang="nl">Standaard is dit aantal 0 en bepaalt IMatch automatisch, hoeveel bestanden er in de achtergrond vooraf moeten worden geladen voor een soepele kijkervaring.\r\n\r\nHet wijzigen van dit aantal kan helpen als uw grafische kaart problemen veroorzaakt met het automatisch laden. Als u problemen ervaart (bv. omdat afbeeldingen niet worden getoond, etc.) probeer dan het aantal te verminderen (bv. tot 2 of 3) totdat het probleem verdwijnt.</desc>
+				<desc xml:lang="pt">Por padrão, esta opção é 0 e o IMatch determina automáticamente, quantos arquivos a pré-carregar em 2º plano para uma experiência de visualização suave. \ R \ n \ r \ nEsta opção pode ser útil quando a sua placa gráfica causa problemas com o pré-carregamento automático. Se tiver problemas, 'quadros pretos',etc., tente reduzir o número de arquivos pré-carregados (por exemplo, para 2 ou 3) até que o problema desapareça.</desc>
 				
 				<group xml:lang="en">Viewer</group>
 				<group xml:lang="de">Viewer</group>
@@ -20364,28 +20409,34 @@
 				<name xml:lang="en">Face Annotations Font Size</name>
 				<name xml:lang="de">Gesichtsanmerkungen Schriftgröße</name>
 				<name xml:lang="nl">Gezichtsannotaties lettergrootte</name>
+				<name xml:lang="pt">Tamanho das Fontes para as Anotações de Rosto</name>
 
 				<desc xml:lang="en"><![CDATA[The font size used to display face annotations in the Viewer and the Quick View Panel.]]></desc>
 				<desc xml:lang="de"><![CDATA[Die Schriftgröße für Gesichtsanmerkungen im Viewer und in der Schnellansicht.]]></desc>
 				<desc xml:lang="nl"><![CDATA[De lettergrootte die wordt gebruikt om de gezichtsannotaties in de viewer en de snelweergave te tonen.]]></desc>
+				<desc xml:lang="pt"><![CDATA[Tamanho da fonte utilizada para exibir as anotações de rosto no Visualizador e no Painel de Visualização Rápida.]]></desc>
 
 				<group xml:lang="en">Face Detection and Annotations</group>
 				<group xml:lang="de">Gesichtsdetektion und Anmerkungen</group>
 				<group xml:lang="nl">Gezichtsherkenning en -annotaties</group>
+				<group xml:lang="pt">Detecção de Rosto e Anotações</group>
 			</property>
 
 			<property resid="app.viewer.face.source" desc="">
 				<name xml:lang="en">Face Annotations Source</name>
 				<name xml:lang="de">Gesichtsanmerkungen-Basis</name>
 				<name xml:lang="nl">Bron voor gezichtsannotaties</name>
+				<name xml:lang="pt">Fonte das Anotações de Rosto</name>
 
 				<desc xml:lang="en"><![CDATA[This setting controls which image IMatch uses when searching for faces.]]></desc>
 				<desc xml:lang="de"><![CDATA[Diese Einstellung legt fest, welches Bild IMatch für die Suche nach Gesichtern verwendet.]]></desc>
 				<desc xml:lang="nl"><![CDATA[Deze instelling bepaalt welke afbeelding IMatch gebruikt als gezichten wordt gezocht.]]></desc>
+				<desc xml:lang="pt"><![CDATA[Esta configuração controla a imagem que o IMatch usa ao procurar rostos.]]></desc>
 
 				<group xml:lang="en">Face Detection and Annotations</group>
 				<group xml:lang="de">Gesichtsdetektion und Anmerkungen</group>
 				<group xml:lang="nl">Gezichtsherkenning en -annotaties</group>
+				<group xml:lang="pt">Detecção de Rosto e Anotações</group>
 				
 				<!-- @Mario: Must match EFaceAnnoSource -->
 				<choices>
@@ -20393,11 +20444,13 @@
 						<c xml:lang="en" desc="">Thumbnail (faster)</c>
 						<c xml:lang="de" desc="">Vorschaubild (schneller)</c>
 						<c xml:lang="nl" desc="">Voorbeeldafbeelding (sneller)</c>
+						<c xml:lang="pt" desc="">Miniatura (mais rápido)</c>
 					</choice>
 					<choice data="1">
 						<c xml:lang="en" desc="">Full image (slower, maybe more precise)</c>
 						<c xml:lang="de" desc="">Vollbild (langsamer, eventuell präziser)</c>
 						<c xml:lang="nl" desc="">Volledige afbeelding (langzamer, maar mogelijk accurater)</c>
+						<c xml:lang="pt" desc="">Imagem completa (mais lento, talvez mais preciso)</c>
 					</choice>
 				</choices>
 			</property>
@@ -20409,12 +20462,15 @@
 				<name xml:lang="en">Prefer photools.com RAW Processing</name>
 				<name xml:lang="de">photools.com RAW-Prozess bevorzugen</name>
 				<name xml:lang="nl">Geef de voorkeur aan photools.com RAW bewerker</name>
+				<name xml:lang="pt">Prefira o processamento RAW da photools.com</name>
 				<desc xml:lang="en">By default, IMatch uses installed WIC Codecs provided by camera vendors, Microsoft or 3rd parties to extract previews and cache images from RAW images. The integrated photools.com RAW processor is used as a fallback if no WIC codec is installed or if it fails to load a RAW image. If you want to ignore installed WIC codecs and use photools.com RAW processing always, enable this option.</desc>
 				<desc xml:lang="de">Standardmäßig verwendet IMatch zum Verarbeiten von RAW-Bilddateien installierte WIC-Codecs, die von Kameraherstellern, Microsoft oder Drittanbietern bereitgestellt werden. Falls kein WIC-Codec installiert ist oder dieser ein Bild nicht laden kann, nutzt IMatch den eingebauten photools.com RAW-Prozessor. Falls Sie WIC-Codecs ignorieren möchten und stattdessen immer den photools.com RAW-Prozessor nutzen möchten, aktivieren Sie diese Option.</desc>
 				<desc xml:lang="nl">Standaard gebruikt IMatch de geïnstalleerde WIC-codecs, die door de cameraleverancier, Microsoft of derde partijen beschikbaar worden gesteld, om miniaturen en cache afbeeldingen uit RAW-bestanden te genereren.  In het geval dat geen WIC-codec is geïnstalleerd of een afbeelding niet kan worden geladen, gebruikt IMatch de ingebouwde photools.com RAW bewerker. Als u de geïnstalleerde WIC codecs niet wilt gebruiken en altijd de photools.com RAW bewerker wilt gebruiken, kunt u deze optie activeren.</desc>
+				<desc xml:lang="pt">Por padrão, o IMatch usa os Codecs WIC instalados fornecidos pelos vendedores de câmeras, Microsoft ou terceiros para extrair visualizações e imagens de cache a partir de imagens RAW. O processador RAW integrado da photools.com é usado como reserva se nenhum codec WIC estiver instalado ou se ele não carregar uma imagem RAW. Se quiser ignorar os codecs WIC instalados e usar sempre o processamento RAW da photools.com, habilite esta opção.</desc>
 				<group xml:lang="en">photools.com RAW Processing</group>
 				<group xml:lang="en">photools.com RAW-Prozess</group>
 				<group xml:lang="nl">photools.com RAW-verwerking</group>
+				<group xml:lang="pt">Processamento RAW da photools.com</group>
 			</property>
 
 
@@ -24310,8 +24366,10 @@
 			<property resid="objectproperties.cattree.showthumbnails" desc="">
 				<name xml:lang="en">Show Category Thumbnails</name>
 				<name xml:lang="de">Kategorie-Symbolbilder anzeigen</name>
+				<name xml:lang="pt">Mostra as Miniaturas das Categorias</name>
 				<desc xml:lang="en">Activate this option to show category thumbnails instead of standard icons.</desc>
 				<desc xml:lang="de">Aktivieren Sie diese Option, um Verzeichnis-Symbolbilder anstatt der Standard-Symbolbilder anzuzeigen.</desc>
+				<desc xml:lang="pt">Active esta opção de forma a mostrar as miniaturas das categorias em vez dos icons padrão.</desc>
 				<group xml:lang="en"></group>
 				<group xml:lang="de"></group>
 				<group xml:lang="fi"></group>
@@ -24354,8 +24412,10 @@
 			<property resid="objectproperties.cattree.thumbnailsize" desc="">
 				<name xml:lang="en">Category Thumbnail Size</name>
 				<name xml:lang="de">Kategorie-Symbolbildgröße</name>
+				<name xml:lang="pt">Tamanho das Miniaturas das Categorias</name>
 				<desc xml:lang="en">Controls the size of category thumbnails.</desc>
 				<desc xml:lang="de">Die Größe der Kategorie-Symbolbilder.</desc>
+				<desc xml:lang="pt">Controla o tamanho das miniaturas das categorias.</desc>
 				<group xml:lang="en"></group>
 				<group xml:lang="de"></group>
 				<group xml:lang="fi"></group>
@@ -25956,9 +26016,11 @@
 				<name xml:lang="en">Show current year on top</name>
 				<name xml:lang="de">Aktuelles Jahr zuerst</name>
 				<name xml:lang="nl">Lopend jaar bovenaan</name>
+				<name xml:lang="pt">Mostra o ano corrente no topo</name>
 				<desc xml:lang="en">Change the year order, show current year on top.</desc>
 				<desc xml:lang="de">Anzeigereihenfolge umkehren. Zeige aktuelles Jahr zuerst.</desc>
 				<desc xml:lang="nl">Verander de volgorde van jaren, lopende jaar bovenaan.</desc>
+				<desc xml:lang="pt">Altera a ordem do ano, mostra o ano actual no topo.</desc>
 				<group xml:lang="en"></group>
 				<group xml:lang="de"></group>
 				<group xml:lang="nl"></group>
@@ -27999,9 +28061,11 @@
 				<name xml:lang="en">Background Color (Searching)</name>
 				<name xml:lang="de">Hintergrundfarbe (Suche aktiv)</name>
 				<name xml:lang="nl">Achtergrondkleur(zoeken)</name>
+				<name xml:lang="pt">Cor do 2º plano (Procura)</name>
 				<desc xml:lang="en">The background color used when the search bar is used.</desc>
 				<desc xml:lang="de">Die Hintergrundfarbe bei Verwendung der Suchleiste.</desc>
 				<desc xml:lang="nl">De achtergrondkleur als de zoekbalk wordt gebruikt.</desc>
+				<desc xml:lang="pt">A cor do 2º plano utilizada quando a barra de pesquisa é usada.</desc>
 				<group xml:lang="en">Caption Bar</group>
 				<group xml:lang="no">Bildetekstlinjen</group>
 				<group xml:lang="de">Kopfzeile</group>
@@ -28436,36 +28500,45 @@
 				<name xml:lang="en">Animated previews for videos</name>
 				<name xml:lang="de">Animierte Vorschau von Videos</name>
 				<name xml:lang="nl">Geanimeerde previews voor videos</name>
+				<name xml:lang="pt">Pré-visualizações animadas para vídeos</name>
 				<desc xml:lang="en">If this is enabled, the file window displays multiple frames for each video file when you move the mouse into a thumbnail panel.</desc>
 				<desc xml:lang="de">Aktivieren Sie diese Option, um animierte Vorschauen für Videos zu zeigen. Das Dateifenster zeigt diese Vorschauen, wenn Sie mit der Maus auf ein Vorschaubild zeigen.</desc>
 				<desc xml:lang="nl">Activeer deze optie, om een genaimeerde preview voor iedere video te zien, als u met de muis naar een miniatuur wijst.</desc>
+				<desc xml:lang="pt">Se isto for activado, a janela do ficheiro exibirá vários quadros para cada arquivo de vídeo quando mover o rato para dentro de um painel de miniaturas.</desc>
 				<group xml:lang="en">Animation</group>
 				<group xml:lang="de">Animation</group>
 				<group xml:lang="nl">Animatie</group>
+				<group xml:lang="pt">Animação</group>
 			</property>
 
 			<property resid="filewnd.ui.anim.steptime" desc="">
 				<name xml:lang="en">Animation frame duration</name>
 				<name xml:lang="de">Anzeigedauer pro Bild</name>
 				<name xml:lang="nl">Animatieduur per frame</name>
-				<desc xml:lang="en">The time between individual animation frams in millseconds (1000ms = 1 second).</desc>
+				<name xml:lang="pt">Duração do quadro de animação</name>
+				<desc xml:lang="en">The time between individual animation frames in millseconds (1000ms = 1 second).</desc>
 				<desc xml:lang="de">Anzeigeduaer der einzelnen Bilder in Millisekunden (1000ms = 1 Sekunde).</desc>
 				<desc xml:lang="nl">De tijd tussen afzonderlijke animatie frames in milliseconden (1000ms = 1 second).</desc>
+				<desc xml:lang="pt">O tempo entre quadros individuais de animação em milisegundos (1000ms = 1 second).</desc>
 				<group xml:lang="en">Animation</group>
 				<group xml:lang="de">Animation</group>
 				<group xml:lang="nl">Animatie</group>
+				<group xml:lang="pt">Animação</group>
 			</property>
 
 			<property resid="filewnd.ui.resultwindow.filter.autopause" desc="">
 				<name xml:lang="en">Result Windows pause filter panel</name>
 				<name xml:lang="de">Ergebnisfenster pausieren Filter-Panel</name>
 				<name xml:lang="nl">Resultaatvenster pauzeren filter paneel</name>
+				<name xml:lang="pt">Painel de filtro de pausa de resultados do Windows </name>
 				<desc xml:lang="en">If this option is enabled, the Filter Panel is automatically paused when a Result Window becomes active.</desc>
 				<desc xml:lang="de">Wenn diese Option aktivert ist, wird das Filter-Panel automatisch pausiert, wenn ein Ergebnisfenster aktiviert wird.</desc>
 				<desc xml:lang="nl">Als deze optie geactiveerd is, wordt het het filter paneel automatisch gepauzeerd als een resultaatvenster wordt geactiveerd.</desc>
+				<desc xml:lang="pt">Se esta opção estiver activa, o Painel do Filtro será pausado automáticamente quando uma janela de resultados ficar activa.</desc>
 				<group xml:lang="en">Result Windows</group>
 				<group xml:lang="de">Ergebnisfenster</group>
 				<group xml:lang="nl">Resultaatvenster</group>
+				<group xml:lang="pt">Resultado Windows</group>
 			</property>
 
 			<!-- LOD Editor Properties -->
@@ -31129,34 +31202,41 @@
 				<name xml:lang="en">App Target</name>
 				<name xml:lang="de">App Ziel</name>
 				<name xml:lang="nl">App doel</name>
+				<name xml:lang="pt">Objectivo da Aplicação</name>
 				<desc xml:lang="en">Pick the preferred app panel to run this app in.</desc>
 				<desc xml:lang="de">Wählen Sie das bevorzugte App-Panel für diese App aus.</desc>
 				<desc xml:lang="nl">Kies het geprefereerde app panel voor deze app.</desc>
+				<desc xml:lang="pt">Escolha o painel de aplicações preferido para executar este aplicativo.</desc>
 				<choices>
 					<choice data="0" default="true">
 						<c xml:lang="en">Automatically select panel</c>
 						<c xml:lang="de">Panel automatisch auswählen</c>
 						<c xml:lang="nl">Paneel automatisch kiezen</c>
+						<c xml:lang="pt">Selecciona o painel automáticamente</c>
 					</choice>
 					<choice data="1">
 						<c xml:lang="en">App Panel 1</c>
 						<c xml:lang="de">App-Panel 1</c>
 						<c xml:lang="nl">App paneel 1</c>
+						<c xml:lang="pt">Painel de Aplicações 1</c>
 					</choice>
 					<choice data="2">
 						<c xml:lang="en">App Panel 2</c>
 						<c xml:lang="de">App-Panel 2</c>
 						<c xml:lang="nl">App paneel 2</c>
+						<c xml:lang="pt">Painel de Aplicações 2</c>
 					</choice>
 					<choice data="3">
 						<c xml:lang="en">App Panel 3</c>
 						<c xml:lang="de">App-Panel 3</c>
 						<c xml:lang="nl">App paneel 3</c>
+						<c xml:lang="pt">Painel de Aplicações 3</c>
 					</choice>
 					<choice data="4">
 						<c xml:lang="en">App Panel 4</c>
 						<c xml:lang="de">App-Panel 4</c>
 						<c xml:lang="nl">App paneel 4</c>
+						<c xml:lang="pt">Painel de Aplicações 4</c>
 					</choice>
 				</choices>
 			</property>
@@ -35256,9 +35336,11 @@
 				<name xml:lang="en">XMP Region Format</name>
 				<name xml:lang="de">XMP Regionsformat</name>
 				<name xml:lang="nl">XMP Regioformaat</name>
+				<name xml:lang="pt">XMP Formato da Região</name>
 				<desc xml:lang="en">How to write-back region data into XMP. The default is compliant with the specification of the Metadata Working Group, but IMatch can also write proprietary schemas used by some other applications.</desc>
 				<desc xml:lang="de">Wie sollen Regionsdaten in den XMP-Datensatz geschrieben werden? IMatch schreibt standardmäßig XMP-Regionen nach der Metadata Working Group Spezifikation, kann aber auch proprietäre Formate schreiben, wie sie von einigen anderen Anwendungen verwendet werden.</desc>
 				<desc xml:lang="nl">Hoe moeten regiogegevens worden teruggeschreven in XMP-gegevens. Standaard schrijft IMatch de gegevens conform de specificaties van de Metadata Working Group, maar IMatch kan ook volgens formaten schrijven die door enige andere applicaties worden gebruikt.</desc>
+				<desc xml:lang="pt">Como os dados da região devem ser gravados no registro XMP? O padrão é compatível com a especificação do Grupo de Trabalho de Metadados, mas o IMatch também pode escrever esquemas proprietários usados por algumas outras aplicações..</desc>
 				<group xml:lang="en">Annotations</group>
 				<group xml:lang="de">Anmerkungen</group>
 				<group xml:lang="fi">Merkinnät</group>
@@ -35272,11 +35354,13 @@
 						<c xml:lang="en">Metadata Workgroup Format (recommended)</c>
 						<c xml:lang="de">Metadata Workgroup Format (empfohlen)</c>
 						<c xml:lang="nl">Metadata Workgroup Format (aanbevolen)</c>
+						<c xml:lang="pt">Formato do grupo de trabalho de metadados (recomendado)</c>
 					</choice>
 					<choice data="1">
 						<c xml:lang="en">Proprietary Adobe Lightroom® Format</c>
 						<c xml:lang="de">Proprietäres Adobe Lightroom® Format</c>
 						<c xml:lang="nl">Adobe Lightroom® Formaat</c>
+						<c xml:lang="pt">Formato Proprietário do Adobe Lightroom®</c>
 					</choice>
 				</choices>
 			</property>
@@ -35626,9 +35710,11 @@
 				<name xml:lang="en">Mask for state</name>
 				<name xml:lang="de">Maske für Staat</name>
 				<name xml:lang="nl">Masker voor staat</name>
+				<name xml:lang="pt">Máscara para estado</name>
 				<desc xml:lang="en">This mask allows you to customize the format of the state field. The placeholder {state} is replaced by the state data delivered by the Geocoding service. Mix it freely with literal text as needed.\nLeave the mask empty if you don't need any custom formatting.</desc>
 				<desc xml:lang="de">Diese Maske ermöglicht eine benutzerdefinierte Formatierung des Staat-Metadatenfeldes. Der Platzhalter {state} wird durch den vom Geodiensten gelieferten Staat ersetzt. Sie können beliebigen anderen Text hinzufügen.\nLassen Sie die Maske leer, wenn Sie keine besondere Formatierung benötigen.</desc>
 				<desc xml:lang="nl">Dit masker maakt het mogelijk het formaat van het veld 'staat' te individualiseren. Het veld {state} wordt vervangen door de gegevens die de Geocoding worden geleverd. U kunt andere tekst naar believen toevoegen.\nLaat dit masker leeg als u geen individueel format nodig hebt.</desc>
+				<desc xml:lang="pt">Esta máscara permite personalizar o formato do campo estado. O espaço reservado {estado} é substituído pelos dados de estado entregues pelo serviço de Geocodificação. Misture-o livremente com texto literal conforme necessário. \ NDeixe a máscara vazia se não precisar de nenhuma formatação personalizada.</desc>
 				<group xml:lang="en">Formatting</group>
 				<group xml:lang="de">Formatierung</group>
 				<group xml:lang="nl">Formattering</group>
@@ -35641,10 +35727,12 @@
 			<property resid="app.geo.formatting.location" desc="">
 				<name xml:lang="en">Mask for location</name>
 				<name xml:lang="de">Maske für Lokation</name>
-				<name xml:lang="nl">Masker voor locatie</name>				
+				<name xml:lang="nl">Masker voor locatie</name>	
+				<name xml:lang="pt">Máscara para local</name>
 				<desc xml:lang="en">This mask allows you to customize the format of the location field. The placeholder {location} is replaced by the location data delivered by the Geocoding service. Mix it freely with literal text as needed.\nLeave the mask empty if you don't need any custom formatting.</desc>
 				<desc xml:lang="de">Diese Maske ermöglicht eine benutzerdefinierte Formatierung des Lokation-Metadatenfeldes. Der Platzhalter {location} wird durch den vom Geodiensten gelieferten Lokalitätseintrag ersetzt. Sie können beliebigen anderen Text hinzufügen.\nLassen Sie die Maske leer, wenn Sie keine besondere Formatierung benötigen.</desc>
 				<desc xml:lang="nl">Dit masker maakt het mogelijk het formaat van het veld 'lokatie' te individualiseren. Het veld {state} wordt vervangen door de gegevens die de Geocoding worden geleverd. U kunt andere tekst naar believen toevoegen.\nLaat dit masker leeg als u geen individueel format nodig hebt.</desc>
+				<desc xml:lang="pt">Esta máscara permite personalizar o formato do campo local. O espaço reservado {local} é substituído pelos dados do local entregues pelo serviço de Geocodificação. Misture-o livremente com texto literal conforme necessário. \ NDeixe a máscara vazia se não precisar de nenhuma formatação personalizada.</desc>
 				<group xml:lang="en">Formatting</group>
 				<group xml:lang="de">Formatierung</group>
 				<group xml:lang="nl">Formattering</group>

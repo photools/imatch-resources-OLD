@@ -348,6 +348,11 @@
 					<cont>Er is een fout opgetreden terwijl IMatch probeerde de instellingen van een oudere IMatch versie te migreren.\r\n\r\nDe IMatch logfile bevat meer informatie. Maak nu een kopie van de logfile via de Help &gt; Ondersteuningsmenu en voeg deze bij aan uw e-mail voor Support.</cont>
 					<ftr></ftr>
 				</m>
+				<m xml:lang="pt">
+					<cap>Erro crítico - Migração da aplicação</cap>
+					<cont>Ocorreu um erro quando o IMatch tentou migrar os dados das definições e configurações de uma versão antiga do IMatch.\r\n\r\nPor favor veja o arquivo de log do IMatch para obter detalhes. Faça agora uma cópia do arquivo de log através do menu Ajuda & gt; Suporte e inclua esse arquivo de log no seu e-mail de forma a que o suporte do IMatch o reçeba.</cont>
+					<ftr></ftr>
+				</m>
 			</msg>
 
 			<!-- Shown when a new ExifTool version is detected and the database needs to update to incorporate the new tag tables -->
@@ -1329,6 +1334,10 @@
 					<cap>Fout bij het toepassen van portabiliteitsinstellingen</cap>
 					<cont>Tijdens het toepassen van de portabiliteisinstellingen, is een fout opgetreden.\r\n\r\nControleer het IMatch logbestand (zoek naar: DB-PORTA) en controleer uw portabiliteitsinstellingen onder Bewerken &gt; Voorkeuren &gt; Database.\r\n\r\n{errors}</cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Falha ao aplicar as opções de portabilidade</cap>
+					<cont>Ao executar uma realocação automática ou outra operação de portabilidade da base de dados, ocorreu um problema no IMatch .\r\n\r\nVerifique o arquivo de registo do IMatch para obter detalhes (procure por: DB-PORTA) e verifique suas configurações de portabilidade em Editar & gt; Preferências & gt; Base de dados.\r\n\r\n {erros}</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_APP_RESTART" typeid="[[TD_INFORMATION_ICON]]" desc="">
@@ -1805,6 +1814,10 @@
 					<cap>Debug Logging actief</cap>
 					<cont>De debug logging is actief en IMatch schrijft een zeer gedetailleerd logbestand.\r\n\r\nAls u op dit moment geen probleem ervaart, kunt u het logbestand terug zetten naar normale logging. Dit bespaart schijfruimte en maakt IMatch een beetje sneller.\r\n\r\nDe logging instellingen kunt u wijzigen door n het Help-menu 'Ondersteuning' te opnenen.</cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Registo de depuração activado</cap>
+					<cont>O IMatch está configurado para usar o log extensivo ao nível da depuração.\r\n\r\nSe actualmente não estiver diagnosticando um problema , deverá redefinir o arquivo de log de volta ao log normal. Isso economiza espaço em disco e faz com que o IMatch funcione um pouco mais rápido.\r\n\r\nPara alterar as configurações do arquivo de log, abra o menu Ajuda e, em seguida, abra 'Suporte'.</cont>
+				</m>
 			</msg>
 
 			<!-- No spell dictionary -->
@@ -1966,6 +1979,11 @@
 					<cont>De geïntegreerde webserver in IMatch (IMWS) kon niet worden gestart. App-gebaseerde functies zijn niet beschikbaar.\r\n\r\nDit probleem wordt hoogstwaarschijnlijk veroorzaakt doordat het aangegeven poortnummer (Bewerken &gt; Voorkeuren &gt; Applicatie) reeds wordt gebruikt door een ander programma of dienst. Probeer het poortnummer te wijzigen (gebruik een nummer in de range van 49152 tot en met 65535) en start IMatch opnieuw.\r\n\r\nTip: U kunt het netstat -b commando vanuit het command prompt window gebruiken om een lijst te zien van alle gebruikte poorten.</cont>
 					<inf>De logfile IMATCH_IMWS_ERRORLOG.TXT in de TEMP map op uw computer bevaat aanvullende informatie. Voeg dit bstand toe als u contact opneemt met support.</inf>
 				</m>
+				<m xml:lang="pt">
+					<cap>WebServer embutido falhou ao iniciar</cap>
+					<cont>O servidor web embutido no IMatch (IMWS) falhou ao iniciar. Os recursos baseados em aplicações não estão disponíveis.\r\n\r\nEste problema é provávelmente causado pelo número de porta configurado (Editar & gt; Preferências & gt; Aplicação) que já é usado por outro software ou serviço em execução no seu computador. Tente alterar o número da porta (use algo no intervalo entre 49152 - 65535) e, em seguida, reinicie o IMatch.\r\n\r\nDica: pode usar o comando netstat -b de uma janela do prompt de comando para ver uma lista de todas as portas em utilização no seu sistema.</cont>
+					<inf>O arquivo de log IMATCH_IMWS_ERRORLOG.TXT na pasta TEMP do seu sistema contém informações adicionais. Inclua este arquivo quando entrar em contato com o suporte.</inf>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_NEW_VERSION" typeid="[[TD_INFORMATION_ICON]]" >
@@ -1983,6 +2001,11 @@
 					<cap>Er is zojuist een nieuwe versie van IMatch geinstalleerd.</cap>
 					<cont>Dit zou een goed moment zijn om de release notes te openen en te bekijken wat er veranderd is en welke nieuwe functies zijn toegevoegd.\r\n\r\nWilt u de pagina met release notes nu openen?</cont>
 					<ftr typeid="[[TD_INFORMATION_ICON]]">U kunt de release notes op ieder gewenst moment openen vanuit het Help menu.</ftr>
+				</m>
+				<m xml:lang="pt">
+					<cap>Uma nova versão do IMatch acaba de ser instalada.</cap>
+					<cont>Agora seria um óptimo momento para abrir as notas de lançamento sobre esta versão, para ver o que mudou e quais recursos que foram adicionados.\r\n\r\nDeseja abrir a página de notas de lançamento sobre esta versão agora?</cont>
+					<ftr typeid="[[TD_INFORMATION_ICON]]">Pode abrir as notas de lançamento sobre esta versão em qualquer altura a partir do menu Ajuda.</ftr>
 				</m>
 			</msg>
 
@@ -2005,6 +2028,12 @@
 					<cont>Eén of meer apps vragen om Imatch te laten draaien. Normaal helpt het om een paar seconden te wachten en dan opnieuw te proberen IMatch te beëindigen.</cont>
 					<button btnid="1001">IMatch niet nu beëindigen</button>
 					<button btnid="1002">IMatch toch beëindigen</button>
+				</m>
+				<m xml:lang="pt">
+					<cap>A fechar aplicações</cap>
+					<cont>Uma ou mais aplicações pedem para manter o IMatch em funcionamento. Isso pode acontecer se uma aplicação estiver no meio de algo e ainda não estiver pronta para fechar. Geralmente, ajuda aguardar alguns segundos e depois tentar fechar o IMatch novamente.</cont>
+					<button btnid="1001">Keep IMatch running</button>
+					<button btnid="1002">Close IMatch anyway</button>
 				</m>
 			</msg>
 
@@ -2671,7 +2700,7 @@
 				<m xml:lang="en">
 					<cap>Database is locked or write-protected.</cap>
 					<cont>
-						<![CDATA[<TextBlock TextWrapping="Wrap" >The database is locked and cannot be opened. Please close other applications which may have the database open and then retry.<LineBreak/><LineBreak/>IMatch has detected that <Bold>IMatch WebServices™</Bold> are running on this computer. Probably the database is currently in use by IMatch WebSerives.<LineBreak/><LineBreak/>Another reason for this error are insufficient file system privleges. The user working with IMatch must have 'read/write/modify' privileges for the folder containing the database. Press F1 for more info.</TextBlock>]]>
+						<![CDATA[<TextBlock TextWrapping="Wrap" >The database is locked and cannot be opened. Please close other applications which may have the database open and then retry.<LineBreak/><LineBreak/>IMatch has detected that <Bold>IMatch WebServices™</Bold> are running on this computer. Probably the database is currently in use by IMatch WebServices.<LineBreak/><LineBreak/>Another reason for this error are insufficient file system privleges. The user working with IMatch must have 'read/write/modify' privileges for the folder containing the database. Press F1 for more info.</TextBlock>]]>
 					</cont>
 				</m>
 				<m xml:lang="de">
@@ -2686,7 +2715,13 @@
 				<m xml:lang="nl">
 					<cap>Database is geblokkeerd of niet beschrijfbaar.</cap>
 					<cont>
-						<![CDATA[<TextBlock TextWrapping="Wrap" >De database is geblokkeerd en kan niet worden geopend. Sluit andere programma's af die mogelijk de database gebruiken en probeer opnieuw .<LineBreak/><LineBreak/>IMatch heeft vastgesteld dat <Bold>IMatch WebServices™</Bold> op deze computer in gebruik is. Waarschijnlijk wordt de database op dit moment gebruikt door IMatch WebSerives.<LineBreak/><LineBreak/>Een andere oorzaak voor deze fout kan zijn dat de gebruiker te weinig rechten heeft. De IMatch gebruiker moest het recht hebben tot 'lezen/schrijven/wijzigen' voor de map waarin de database staat. Druk F1 voor meer informatie.</TextBlock>]]>
+						<![CDATA[<TextBlock TextWrapping="Wrap" >De database is geblokkeerd en kan niet worden geopend. Sluit andere programma's af die mogelijk de database gebruiken en probeer opnieuw .<LineBreak/><LineBreak/>IMatch heeft vastgesteld dat <Bold>IMatch WebServices™</Bold> op deze computer in gebruik is. Waarschijnlijk wordt de database op dit moment gebruikt door IMatch WebServices.<LineBreak/><LineBreak/>Een andere oorzaak voor deze fout kan zijn dat de gebruiker te weinig rechten heeft. De IMatch gebruiker moest het recht hebben tot 'lezen/schrijven/wijzigen' voor de map waarin de database staat. Druk F1 voor meer informatie.</TextBlock>]]>
+					</cont>
+				</m>
+				<m xml:lang="pt">
+					<cap>A base de dados está bloqueada ou protegida contra gravação.</cap>
+					<cont>
+						<![CDATA[<TextBlock TextWrapping="Wrap" >A base de dados está bloqueada e não pode ser aberta. Por favor, feche outras aplicações que possam ter a base de dados aberta e, em seguida, tente novamente. <LineBreak /> <LineBreak /> O IMatch detectou que o <Bold> IMatch WebServices ™ </ Bold> está a ser executado neste computador. Provávelmente, a base de dados está actualmente a ser usada pelo IMatch WebServices. <LineBreak /> <LineBreak /> Outro motivo para este erro são privilégios sobre arquivos insuficientes. O utilizador que trabalha com o IMatch deve ter privilégios de "leitura / gravação / modificação" para a pasta que contém a base de dados. Pressione F1 para mais informações.</TextBlock>]]>
 					</cont>
 				</m>
 			</msg>
@@ -2731,6 +2766,10 @@
 					<cap>De database moet worden geüpgrade.</cap>
 					<cont>Deze database is gecreëerd met een oudere versie van IMatch en moet worden geüpgrade om met de huidige versie te kunnen werken.\r\n\r\nIMatch kan dat niet doen als de database is geopend in "alleen lezen" modus. Open aub de database in "schrijf" modus of vraag uw Administrator.\r\n\r\nNOTE: De testversie van IMatch opent databases die ouder zijn dan 30 dagen altijd in de "alleen-lezen" mode. De testversie kan niet worden gebruikt om oude databases te upgraden. U kun wèl een nieuwe database creëren voor testdoeleinden.</cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Necessária atualização da base de dados.</cap>
+					<cont>Esta base de dados foi criada por uma versão anterior do IMatch e precisa ser actualizada para funcionar com a versão atual.\r\n\r\nO IMatch não pode fazer a actualização quando a base de dados é aberta no modo READ-ONLY. Abra a base de dados em modo gravável ou pergunte ao seu administrador de sistema.\r\n\r\nNOTA: A versão de avaliação do IMatch abre bases de dados com mais de 30 dias, sempre em modo de leitura, não pode ser usada para actualizar base de dados antigas. Pode criar uma nova base de dados para fins de teste.</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_NEEDMIGRATION" typeid="[[IDI_QUESTION]]">
@@ -2746,8 +2785,13 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>De database moet worden geüpgrade.</cap>
-					<cont>Deze database is gecreëerd met een oudere versie van IMatch en moet worden geüpgrade om met de huidige versie te kunnen werken.\r\n\r\nNa deze upgrade, kan de database niet langer gebruikt worden met oudere IMatch- of IMatch Anywhere versies. U kunt in voorkomend geval wel een veiligheidskopie van uw database maken. \r\n\r\nWilt u de database nu openen en upgraden?</cont>
+					<cont>Deze database is gecreëerd met een oudere versie van IMatch en moet worden geüpgrade om met de huidige versie te kunnen werken.\r\n\r\nNa deze upgrade, kan de database niet langer gebruikt worden met oudere IMatch- of IMatch Anywhere versies. U kunt in voorkomend geval wel een veiligheidskopie van uw database maken.\r\n\r\nWilt u de database nu openen en upgraden?</cont>
 					<ftr typeid="[[TD_INFORMATION_ICON]]">Als u zojuist een IMatch-update heeft geïnstalleerd, is deze melding normaal.</ftr>
+				</m>
+				<m xml:lang="pt">
+					<cap>Necessária atualização da base de dados.</cap>
+					<cont>Esta base de dados foi criada por uma versão anterior do IMatch e precisa ser actualizada para funcionar com a versão atual.\r\n\r\nApós esta actualização a base de dados não pode ser utilizada por versões mais antigas do IMatch ou IMatch Anywhere. Se assim o entender poderá primeiro criar um backup da sua base de dados.\r\n\r\nQuer abrir e actualizar a base de dados agora?</cont>
+					<ftr typeid="[[TD_INFORMATION_ICON]]">Se acabou de instalar uma nova versão do IMatch, esta mensagem é normal.</ftr>
 				</m>
 			</msg>
 
@@ -3121,6 +3165,10 @@
 					<cap>Stapel geselecteerd</cap>
 					<cont>Als u een masterbstend of de top van een stapel verwijdert, worden de overieg bestanden in de stapel niet automtisch verwijderd.\r\n\r\nOm alle bestanden in een stapel te verwijderen, moet u de stapel uitklappen en alle bestanden selecteren die u wilt verwijderen.</cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Pilha seleccionada</cap>
+					<cont>A exclusão de um principal ou de uma pilha não excluirá automáticamente todos os outros arquivos na pilha.\r\n\r\nPara excluir todos os arquivos de uma pilha, expanda a mesma e seleccione todos os arquivos que deseja excluir.</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_FILEWND_FACE_DETECT_RESULTS" typeid="[[IDI_INFORMATION]]" desc="">
@@ -3135,6 +3183,10 @@
 				<m xml:lang="nl">
 					<cap>Gezichtsannotaties zijn aangemaakt</cap>
 					<cont>{0} bestand(-en) verwerkt en {1} bestand(-en) geactualiseerd.\r\n{2} Gezichtsannotaties aangemaakt.</cont>
+				</m>
+				<m xml:lang="pt">
+					<cap>Anotações de Rosto Criadas</cap>
+					<cont>{0} ficheiro(s) processados e {1} ficheiro(s) actualizado.\r\n{2} Anotações de Rosto criadas.</cont>
 				</m>
 			</msg>
 
@@ -3151,6 +3203,10 @@
 					<cap>Gezichtsannotaties verwijderen</cap>
 					<cont>Het verwijderen van gezichtannotaties is privacy onderwerp.\r\nWilt u de gezichtsannotaties van alle geselecteerde bestanden werkelijk verwijderen?</cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Apagar Anotações de Rosto</cap>
+					<cont>A remoção de anotações de rosto é uma característica de privacidade.\r\nPretende realmente remover as anotações de rosto de todos os ficheiros seleccionados?</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_FILEWND_FACE_WRITE_XMP" typeid="[[IDI_INFORMATION]]" desc="">
@@ -3166,6 +3222,10 @@
 					<cap>Gezichtsannotaties in de XMP-gegevens schrijven</cap>
 					<cont>Door deze opdracht schrijft IMatch de gezichtsannotaties in de XMP gegevens van de geselecteerde bestanden.\r\n\r\nDat kan nuttig zijn, als de gezichtsannotaties door een ander programma verwijderd werden, of als u foutieve gezichtsannotaties in de XMP-gegevens wilt corrigeren.</cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Gravar Anotações de Rosto no registo XMP</cap>
+					<cont>Este comando grava as Anotações de Rosto no registo XMP para todos os ficheiros de imagem seleccionados.\r\n\r\nEste comando pode ser útil quando necessitar de restaurar os dados de rosto existentes no ficheiro XMP removidos em outras aplicações, ou corrigir regiões de rosto inválidas a partir das Anotações de Rosto correntes no IMatch.</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_FILEWND_FACE_READ_XMP" typeid="[[IDI_INFORMATION]]" desc="">
@@ -3180,6 +3240,10 @@
 				<m xml:lang="nl">
 					<cap>Gezichtsannotaties lezen uit de XMP-gegevens</cap>
 					<cont>Deze opdracht verwijdert alle IMatch gezichtsannotaties en herstelt ze vanuit de XMP-gegevens.\r\n\r\nU kunt deze opdracht gebruiken om handmatig gezichtsannotaties te creëeren als u de automatische import heeft uitgeschakeld (Bewerken &gt; Voorkeuren &gt; Metadata 2) of als u de IMatch gezichtsannotaties moet actualiseren of repareren.</cont>
+				</m>
+				<m xml:lang="pt">
+					<cap>Ler Anotações de Rosto a partir do registo XMP</cap>
+					<cont>Este comando remove todas as Anotações de Rosto do IMatch e recria-as a partir das regiões de rosto existentes nos metadados do ficheiro XMP.\r\n\r\nPode utilizar este comando para manualmente criar Anotações de Rosto quando tiver desactivado a importação automática (Editar &gt; Preferências &gt; Metadados 2) ou quando necessitar de actualizar/reparar as Anotações de Rosto do IMatch, a partir dos dados de rosto existentes no ficheiro XMP.</cont>
 				</m>
 			</msg>
 
@@ -3419,6 +3483,10 @@
 					<cap>Waarschuwing</cap>
 					<cont>U moet deze opdracht alleen gebruiken als u met heel oude software werkt, die niet kan omgaan met het standaard EXIF-oriëntatieveld.\r\n\r\nDeze opdracht wijzigt alleen de pixelgegevens, maar niet de EXIF of XMP gegevens. Dat kan tot problemen leiden als u met IMatch gezichtsannotaties of XMP gezichtsvelden werkt. Het wordt aanbevolen om in plaats hiervan de XMP-oriëntatiefunctionaliteit te werken.</cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Atenção</cap>
+					<cont>Deve usar este comando sómente quando tiver que trabalhar com um software muito antigo que não suporte a etiqueta padrão EXIF de Orientação.\r\n\r\nA rotação sem perdas sómente alterará os dados de pixéis, mas não ajustará os dados EXIF ou XMP contidos no arquivo. Isto pode causar problemas quando trabalhar com Anotações do IMatch ou regiões do rosto XMP. Recomenda-se, em vez disso, usar as funções de Orientação EXIF.</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_FILEWND_CATEGORY_THUMBNAIL" typeid="[[IDI_INFORMATION]]" desc="">
@@ -3429,6 +3497,10 @@
 				<m xml:lang="de">
 					<cap>Falscher Kategorietyp</cap>
 					<cont>Dieser Kategorietyp unterstützt keine Symbolbilder.</cont>
+				</m>
+				<m xml:lang="pt">
+					<cap>Tipo de Categoria Errado</cap>
+					<cont>Este tipo de categoria não suporta miniaturas.</cont>
 				</m>
 			</msg>
 
@@ -5052,7 +5124,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>EXIF/IPTC gegevens kunnen niet worden geschreven</cap>
-					<cont>Eén of meer geselecteerde bestanden bevatten EXIF of IPTC gegevens die IMatch niet mag schrijven vanwege uw instellingen in 'Metadata 2'. \r\n\r\nBij het opnieuw importeren van deze bestanden, zullen de nieuwe XMP tijdgegevens worden overschreven door de oude EXIF/IPTC gegevens.\r\n\r\nWilt u desondanks doorgaan?</cont>
+					<cont>Eén of meer geselecteerde bestanden bevatten EXIF of IPTC gegevens die IMatch niet mag schrijven vanwege uw instellingen in 'Metadata 2'.\r\n\r\nBij het opnieuw importeren van deze bestanden, zullen de nieuwe XMP tijdgegevens worden overschreven door de oude EXIF/IPTC gegevens.\r\n\r\nWilt u desondanks doorgaan?</cont>
 				</m>
 				<m xml:lang="pt">
 					<cap>Dados EXIF/IPTC não graváveis</cap>
@@ -7962,6 +8034,10 @@
 					<cap>Proxy afbeeldingen</cap>
 					<cont>Schakel proxy-afbeeldingen uit, als u met annotaties wilt werken: (&lt;T&gt;+&lt;X&gt;).</cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Proxies visuais ativados</cap>
+					<cont>Desactive proxies visuais se desejar trabalhar com anotações: (&lt;T&gt;+&lt;X&gt;).</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_VIEWER_PASTE_LAYER" typeid="[[IDI_INFORMATION]]" desc="">
@@ -7982,6 +8058,12 @@
 					<cont>De doel laag verschilt van de bronlaag. Wat wilt u doen?</cont>
 					<button btnid="1001">Voeg de annotatie(s) toe aan de actieve laag ('{0}')</button>
 					<button btnid="1002">Voeg de annotatie(s) toe aan de laag met dezelfde naam als de bronlaag ('{1}')</button>
+				</m>
+				<m xml:lang="pt">
+					<cap>Camada diferente</cap>
+					<cont>A camada de destino é diferente da camada de origem. O que pretende fazer?</cont>
+					<button btnid="1001">Insere a(s) anotação(ões) na camada actualmente activa ('{0}')</button>
+					<button btnid="1002">Insere a(s) anotação(ões) na camada com o mesmo nome da camada original ('{1}')</button>
 				</m>
 			</msg>
 
@@ -8998,6 +9080,10 @@
 					<cap>Onveilige tag</cap>
 					<cont>Deze tag wordt door ExifTool als 'onveilig' voor schrijven aangemerkt. U zoe deze tag niet moeten aanpassen. De resultaten zijn niet voorspelbaar.</cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Etiqueta insegura</cap>
+					<cont>Esta etiqueta foi marcada pelo ExifTool como 'insegura' para gravação. Não a deve actualizar. Os resultados são imprevisíveis.</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_APPPREFS_MDTEMPLATES_COMPLEXTAG" typeid="[[IDI_WARNING]]">
@@ -9012,6 +9098,10 @@
 				<m xml:lang="nl">
 					<cap>Complexe tag</cap>
 					<cont>Deze tag is gestructureerd of complex. U kunt deze tag niet direct wijzigen, maar u moet de individuële elementen separaat wijzigen.</cont>
+				</m>
+				<m xml:lang="pt">
+					<cap>Etiqueta Complexa</cap>
+					<cont>Esta etiqueta é estruturada ou complexa. Não pode escrever na etiqueta directamente, necessita escrever nos seus elementos separadamente.</cont>
 				</m>
 			</msg>
 
@@ -10493,6 +10583,10 @@
 					<cap>Dubbele Applicatie ID ontdekt</cap>
 					<cont>De applicatie manager heeft twee apps ontdekt die dezelfde appid hebben. Iedere app moet een unieke ID hebben.\r\n\r\n{0}\r\n{1}.</cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Detectada ID de aplicação duplicada</cap>
+					<cont>O gerenciador de aplicações encontrou duas aplicações que têm o mesmo id. Cada aplicação deve ter um ID exclusivo.\r\n\r\n{0}\r\n{1}.</cont>
+				</m>
 			</msg>
 
 			<msg resid="PTR_MSG_APPMGR_CLOSE_PROMPT" typeid="[[IDI_EXCLAMATION]]" desc="">
@@ -10507,6 +10601,10 @@
 				<m xml:lang="nl">
 					<cap>App sluiten</cap>
 					<cont>Deze app heeft verzocht niet te worden gesloten door de gebruiker.\r\nHet geforceerd beëindigen van deze app kan problemen of zelfs gegevensverlies veroorzaken.\r\n\r\nWilt u de app desondanks sluiten?</cont>
+				</m>
+				<m xml:lang="pt">
+					<cap>Fechar Aplicação</cap>
+					<cont>Esta aplicação pediu para não ser fechada pelo utilizador.\r\nForçando o fecho da aplicação pode causar problemas ou mesmo perda de dados.\r\n\r\nPretende mesmo assim fechar a Aplicação?</cont>
 				</m>
 			</msg>
 		</message_group>
