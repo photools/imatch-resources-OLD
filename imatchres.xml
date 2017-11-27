@@ -6351,7 +6351,7 @@
 				<c xml:lang="en" hotkey="Shift+Ctrl+D" helptext="Reset the custom sort order to the 'Default' sort profile.">Reset Custom Sort to 'Defau&amp;lt'</c>
 				<c xml:lang="de" hotkey="Shift+Ctrl+D" helptext="Die manuelle Sortierreihenfolge auf das 'Standard'-Sortierprofil zurücksetzen.">Sortierfolge auf 'Standard' zurückset&amp;zen</c>
 				<c xml:lang="nl" hotkey="Shift+Ctrl+D" helptext="Zet de aangepaste sortering naar de 'standaard sortering' terug.">Aangepaste sortering terug z&amp;etten naar 'standaard'</c>
-				<c xml:lang="pt" hotkey="Shift+Ctrl+D" helptext="Redefine a ordem de classificação personalizada para o perfil de classificação "Padrão".">Redefine a ordem de classificação personalizada para 'Padr&amp;ão'</c>
+				<c xml:lang="pt" hotkey="Shift+Ctrl+D" helptext="Redefine a ordem de classificação personalizada para o perfil de classificação 'Padrão'.">Redefine a ordem de classificação personalizada para 'Padr&amp;ão'</c>
 			</cmd>
 
 			<cmd resid="ID_CMD_FILE_FIND" desc="Find Command">

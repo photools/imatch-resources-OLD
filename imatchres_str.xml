@@ -5808,10 +5808,7 @@
 				<s xml:lang="en">No filters active.</s>
 				<s xml:lang="de">Keine Filter aktiviert.</s>
 				<s xml:lang="nl">Geen filters actief.</s>
-<<<<<<< HEAD
-=======
 				<s xml:lang="pt">Nenhuns filtros activos.</s>
->>>>>>> Portuguese-translation
 			</str>
 			<str resid="PTR_PANEL_FILTER_PAUSED">
 				<s xml:lang="en">Paused.</s>
@@ -6089,7 +6086,7 @@
                 <s xml:lang="en">IMatch WebServices are not running.\r\nPlease enable them under Edit &gt; Preferences &gt; Application and check the configuration.</s>
                 <s xml:lang="de">Die IMatch Webdienste werden nicht ausgeführt.\r\nBitte aktivieren Sie sie unter Bearbeiten &gt; Einstellungen &gt; Anwendung und überprüfen Sie die Konfiguration.</s>
 				<s xml:lang="nl">IMatch WebServices worden niet uitgevoerd.\r\nActiveer ze aub Bewerken &gt; Voorkeuren &gt; Applicatie en controleer de instellingen.</s>
-				<s xml:lang="pt">O IMatch WebServices não está a ser executado. \ R \ nPor favor, habilite-os em Editar & gt; Preferências & gt; Aplicação e verifique a configuração.</s>
+				<s xml:lang="pt">O IMatch WebServices não está a ser executado. \ R \ nPor favor, habilite-os em Editar &gt; Preferências &gt; Aplicação e verifique a configuração.</s>
             </str>
             
             <str resid="PTR_PANEL_SCRIPT_IDE" desc="Name for the Script IDE panel">

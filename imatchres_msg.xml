@@ -350,7 +350,7 @@
 				</m>
 				<m xml:lang="pt">
 					<cap>Erro crítico - Migração da aplicação</cap>
-					<cont>Ocorreu um erro quando o IMatch tentou migrar os dados das definições e configurações de uma versão antiga do IMatch.\r\n\r\nPor favor veja o arquivo de log do IMatch para obter detalhes. Faça agora uma cópia do arquivo de log através do menu Ajuda & gt; Suporte e inclua esse arquivo de log no seu e-mail de forma a que o suporte do IMatch o reçeba.</cont>
+					<cont>Ocorreu um erro quando o IMatch tentou migrar os dados das definições e configurações de uma versão antiga do IMatch.\r\n\r\nPor favor veja o arquivo de log do IMatch para obter detalhes. Faça agora uma cópia do arquivo de log através do menu Ajuda &gt; Suporte e inclua esse arquivo de log no seu e-mail de forma a que o suporte do IMatch o reçeba.</cont>
 					<ftr></ftr>
 				</m>
 			</msg>
@@ -1336,7 +1336,7 @@
 				</m>
 				<m xml:lang="pt">
 					<cap>Falha ao aplicar as opções de portabilidade</cap>
-					<cont>Ao executar uma realocação automática ou outra operação de portabilidade da base de dados, ocorreu um problema no IMatch .\r\n\r\nVerifique o arquivo de registo do IMatch para obter detalhes (procure por: DB-PORTA) e verifique suas configurações de portabilidade em Editar & gt; Preferências & gt; Base de dados.\r\n\r\n {erros}</cont>
+					<cont>Ao executar uma realocação automática ou outra operação de portabilidade da base de dados, ocorreu um problema no IMatch .\r\n\r\nVerifique o arquivo de registo do IMatch para obter detalhes (procure por: DB-PORTA) e verifique suas configurações de portabilidade em Editar &gt; Preferências &gt; Base de dados.\r\n\r\n {erros}</cont>
 				</m>
 			</msg>
 
@@ -1981,7 +1981,7 @@
 				</m>
 				<m xml:lang="pt">
 					<cap>WebServer embutido falhou ao iniciar</cap>
-					<cont>O servidor web embutido no IMatch (IMWS) falhou ao iniciar. Os recursos baseados em aplicações não estão disponíveis.\r\n\r\nEste problema é provávelmente causado pelo número de porta configurado (Editar & gt; Preferências & gt; Aplicação) que já é usado por outro software ou serviço em execução no seu computador. Tente alterar o número da porta (use algo no intervalo entre 49152 - 65535) e, em seguida, reinicie o IMatch.\r\n\r\nDica: pode usar o comando netstat -b de uma janela do prompt de comando para ver uma lista de todas as portas em utilização no seu sistema.</cont>
+					<cont>O servidor web embutido no IMatch (IMWS) falhou ao iniciar. Os recursos baseados em aplicações não estão disponíveis.\r\n\r\nEste problema é provávelmente causado pelo número de porta configurado (Editar &gt; Preferências &gt; Aplicação) que já é usado por outro software ou serviço em execução no seu computador. Tente alterar o número da porta (use algo no intervalo entre 49152 - 65535) e, em seguida, reinicie o IMatch.\r\n\r\nDica: pode usar o comando netstat -b de uma janela do prompt de comando para ver uma lista de todas as portas em utilização no seu sistema.</cont>
 					<inf>O arquivo de log IMATCH_IMWS_ERRORLOG.TXT na pasta TEMP do seu sistema contém informações adicionais. Inclua este arquivo quando entrar em contato com o suporte.</inf>
 				</m>
 			</msg>
