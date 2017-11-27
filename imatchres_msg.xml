@@ -3520,7 +3520,7 @@
 				<m xml:lang="nl">
 					<cap>Categorie verwijderen</cap>
 					<cont><![CDATA[<TextBlock>Wilt u categorie <LineBreak/><Bold>{0}</Bold> werkelijk verwijderen?</TextBlock>]]></cont>
-					<ftr typeid="[[TD_WARNING_ICON]]">Deze actie verwijdert de categorie en alle onderliggende categoriën uit de database.</ftr>
+					<ftr typeid="[[TD_WARNING_ICON]]">Deze actie verwijdert de categorie en alle onderliggende categorieën uit de database.</ftr>
 				</m>
 				<m xml:lang="pt">
 					<cap>Confirmar Eliminação de Categoria</cap>
@@ -3553,8 +3553,8 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>Categorie verwijderen</cap>
-					<cont>Wilt u alle geselecteerde categoriën verwijderen?</cont>
-					<ftr typeid="[[TD_WARNING_ICON]]">Deze actie verwijdert alle geselecteerde categoriën inclusief alle onderliggende categoriën uit de database.</ftr>
+					<cont>Wilt u alle geselecteerde categorieën verwijderen?</cont>
+					<ftr typeid="[[TD_WARNING_ICON]]">Deze actie verwijdert alle geselecteerde categorieën inclusief alle onderliggende categorieën uit de database.</ftr>
 				</m>
 				<m xml:lang="pt">
 					<cap>Confirmar Eliminação de Categoria</cap>
@@ -3585,7 +3585,7 @@
                 </m>
                 <m xml:lang="nl">
                     <cap>Alias-categorie gevonden</cap>
-                    <cont>Een of meerdere categoriën refereren aan deze categorie met een alias. Deze categoriën worden ook verwijderd indien u deze categorie wist.\n\nWilt u doorgaan?</cont>
+                    <cont>Een of meerdere categorieën refereren aan deze categorie met een alias. Deze categorieën worden ook verwijderd indien u deze categorie wist.\n\nWilt u doorgaan?</cont>
                 </m>
 				<m xml:lang="pt">
                     <cap>Encontradas Categorias-Alternativas</cap>
@@ -3613,7 +3613,7 @@
                 </m>
                 <m xml:lang="nl">
                     <cap>Alias-categorie gevonden.</cap>
-                    <cont>Een of meerdere alias-categoriën refereren aan een of meerdere van de categoriën die u wil wissen. Deze alias-categoriën worden ook verwijderd indien u deze categoriën wist.\n\nWilt u doorgaan?</cont>
+                    <cont>Een of meerdere alias-categorieën refereren aan een of meerdere van de categorieën die u wil wissen. Deze alias-categorieën worden ook verwijderd indien u deze categorieën wist.\n\nWilt u doorgaan?</cont>
                 </m>
 				<m xml:lang="pt">
                     <cap>Encontradas Categorias-Alternativas</cap>
@@ -3852,10 +3852,10 @@
                     <button btnid="1002">Alle Kategorien aktualisieren</button>
                 </m>
                 <m xml:lang="nl">
-                    <cap>Gegevens-gestuurde categoriën verversen</cap>
+                    <cap>Gegevens-gestuurde categorieën verversen</cap>
                     <cont></cont>
-                    <button btnid="1001">Alle als niet up-to-date categoriën bijwerken</button>
-                    <button btnid="1002">Alle categoriën bijwerken</button>
+                    <button btnid="1001">Alle als niet up-to-date categorieën bijwerken</button>
+                    <button btnid="1002">Alle categorieën bijwerken</button>
                 </m>
 				<m xml:lang="pt">
                     <cap>Refrescar Categorias Dinâmicas</cap>
@@ -3896,9 +3896,9 @@
                 <m xml:lang="nl">
                     <cap>Categorie converteren</cap>
                     <cont>Kies een van onderstaande opties:</cont>
-                    <button btnid="1001">Onderliggende categoriën weggooien\nMet deze optie verwijdert u alle onderliggende categoriën van de geselecteerde categorie, nadat deze wordt geconverteerd naar een normale categorie.</button>
-                    <button btnid="1002">Onderliggende categoriën behouden\nMet deze optie behoudt u de onderliggende categoriën.</button>
-                    <ftr typeid="[[TD_INFORMATION_ICON]]">Als u besluit de onderliggende categoriën te behouden, worden ze niet langer meer automatisch bijgewerkt.</ftr>
+                    <button btnid="1001">Onderliggende categorieën weggooien\nMet deze optie verwijdert u alle onderliggende categorieën van de geselecteerde categorie, nadat deze wordt geconverteerd naar een normale categorie.</button>
+                    <button btnid="1002">Onderliggende categorieën behouden\nMet deze optie behoudt u de onderliggende categorieën.</button>
+                    <ftr typeid="[[TD_INFORMATION_ICON]]">Als u besluit de onderliggende categorieën te behouden, worden ze niet langer meer automatisch bijgewerkt.</ftr>
                 </m>
 				<m xml:lang="pt">
                     <cap>Converter Categoria</cap>
@@ -3964,7 +3964,7 @@
                 </m>
                 <m xml:lang="nl">
                     <cap>Ongeldige alias</cap>
-                    <cont>Een categorie die een alias is van een andere categorie of waaraan andere alias-categoriën gekoppeld zijn, kan niet als alias gekozen worden.</cont>
+                    <cont>Een categorie die een alias is van een andere categorie of waaraan andere alias-categorieën gekoppeld zijn, kan niet als alias gekozen worden.</cont>
                 </m>
 				<m xml:lang="pt">
                     <cap>Não Pode Ser Alternativa de Categoria-Alternativa</cap>
@@ -4002,7 +4002,7 @@
                     <cap>Gebruiker-gedefinieerde sorteervolgorde</cap>
                     <cont>Kies een van onderstaande opties:</cont>
                     <button btnid="1001">Verwijder\nDe gebruiker-gedefinieerde sorteervologde verwijderen.</button>
-                    <button btnid="1002">Herstel\nVervang de gebruiker-gedefinieerde sorteervolgorde voor de geselecteerde categoriën door de actieve sorteevolgorde.</button>
+                    <button btnid="1002">Herstel\nVervang de gebruiker-gedefinieerde sorteervolgorde voor de geselecteerde categorieën door de actieve sorteevolgorde.</button>
                     <ftr typeid="[[TD_WARNING_ICON]]">U kunt deze actie niet ongedaan maken!</ftr>
                 </m>
 				<m xml:lang="pt">
@@ -6842,7 +6842,7 @@
 				<m xml:lang="nl">
 					<cap>Categorie neergezet</cap>
 					<cont>U hebt meer dan één categorie neergezet. Wat wilt u doen?</cont>
-					<button btnid="1001">Splasher aanmaken\nAlle neergezette categoriën worden in een Splasher-categorie gecombineerd.</button>
+					<button btnid="1001">Splasher aanmaken\nAlle neergezette categorieën worden in een Splasher-categorie gecombineerd.</button>
 					<button btnid="1002">Aparte favorieten aanmaken\nVoor elke neergezette categorie wordt een favoriet gecreëerd.</button>
 				</m>
 				<m xml:lang="pt">
@@ -8165,7 +8165,7 @@
                 </m>
                 <m xml:lang="nl">
                     <cap>Import voltooid.</cap>
-                    <cont>{0} categoriën toegevoegd, {1} bestanden toegewezen.</cont>
+                    <cont>{0} categorieën toegevoegd, {1} bestanden toegewezen.</cont>
                 </m>
 				<m xml:lang="pt">
                     <cap>Importação concluída.</cap>
@@ -8196,7 +8196,7 @@
                 </m>
                 <m xml:lang="nl">
                     <cap>Export voltooid.</cap>
-                    <cont>{0} categoriën en {1} bestanden geëxporteerd.</cont>
+                    <cont>{0} categorieën en {1} bestanden geëxporteerd.</cont>
                 </m>
 				<m xml:lang="pt">
                     <cap>Exportação concluída.</cap>
@@ -9119,7 +9119,7 @@
                 </m>
                 <m xml:lang="nl">
                     <cap>Waarschuwing</cap>
-                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>U hebt ervoor gekozen nieuwe folders niet aan de database toe te voegen.<LineBreak/><LineBreak/>Als u bestanden verplaatst naar folders <Bold>buiten</Bold> de database wordt alle gerelateerde informatie in de database verwijderd, inclusief ongeschreven metadata, categoriën en collecties.</TextBlock>]]></cont>
+                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>U hebt ervoor gekozen nieuwe folders niet aan de database toe te voegen.<LineBreak/><LineBreak/>Als u bestanden verplaatst naar folders <Bold>buiten</Bold> de database wordt alle gerelateerde informatie in de database verwijderd, inclusief ongeschreven metadata, categorieën en collecties.</TextBlock>]]></cont>
                 </m>
 				<m xml:lang="pt">
                     <cap>Alerta</cap>

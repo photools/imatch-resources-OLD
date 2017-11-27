@@ -2774,7 +2774,7 @@
 			<str resid="PTR_MAINFRAME_STATUSBAR_DDCAT_UPDATE">
 				<s xml:lang="en">Updating data-driven categories...</s>
 				<s xml:lang="de">Aktualisiere datengestützte Kategorien...</s>
-				<s xml:lang="nl">Updaten gegevens-gestuurde categoriën...</s>
+				<s xml:lang="nl">Updaten gegevens-gestuurde categorieën...</s>
 				<s xml:lang="hr">Ažuriranje kategorija prema podacima ...</s>
 				<s xml:lang="fr">Les catégories pilotées par formule sont mises à jour...</s>
 				<s xml:lang="fi">Päivitetään aineistopohjaisia kategorioita...</s>
@@ -3367,7 +3367,7 @@
 				<s xml:lang="fi"><![CDATA[{0}\r\n\r\nNapsauta lisätäksesi tämän tiedoston kategoriat kaikkiin valittuihin tiedostoihin. &lt;Shift&gt;+napsautus korvataksesi kaikkien valittujen tiedostojen kategoriat tämän tiedoston kategorioilla.]]></s>
 				<s xml:lang="it"><![CDATA[{0}\r\n\r\nFare clic per aggiungere le categorie di questo file a tutti i file attualmente selezionati. &lt;Shift&gt;+click per sostituire le categorie di tutti i file selezionati con le categorie di questo file.]]></s>
 				<s xml:lang="de"><![CDATA[{0}\r\n\r\nKlicken Sie, um die Kategorien dieser Datei den ausgewählten Dateien hinzuzufügen. &lt;Umsch&gt;+klick, um die Kategorien der ausgewählten Dateien durch die Kategorien dieser Datei zu ersetzen.]]></s>
-				<s xml:lang="nl"><![CDATA[{0}\r\n\r\nKlikken om de categoriën van dit bestand aan alle geselecteerde bestanden toe te wijzen. &lt;ShftUmsch&gt;+klikken om de categoriën van de geselecteerde bestanden te vervangen door de categorien van dit bestand.]]></s>
+				<s xml:lang="nl"><![CDATA[{0}\r\n\r\nKlikken om de categorieën van dit bestand aan alle geselecteerde bestanden toe te wijzen. &lt;ShftUmsch&gt;+klikken om de categorieën van de geselecteerde bestanden te vervangen door de categorien van dit bestand.]]></s>
 				<s xml:lang="pt"><![CDATA[{0}\r\n\r\nFaça clique para adicionar as categorias deste ficheiro a todos os ficheiros actualmente seleccionados. &lt;Shift&gt;+clique para substituir as categorias de todos os ficheiros seleccionados com as categorias deste ficheiro.]]></s>
 				<s xml:lang="hr"><![CDATA[{0}\r\n\r\nKlikni da bi dodao kategorije iz ove datoteke u sve odabrane datoteke. &lt;Shift&gt;+klik da bi zamijenio kategorije u svim odabranim datotekama s kategorijama iz ove datoteke.]]></s>
 			</str>
@@ -5513,7 +5513,7 @@
 				<s xml:lang="en">Media &amp;&amp; Folders</s>
 				<s xml:lang="de">Medien &amp;&amp; Verzeichnisse</s>
 				<s xml:lang="fi">Mediat &amp;&amp; kansiot</s>
-				<s xml:lang="nl">Media &amp;&amp; Folders</s>
+				<s xml:lang="nl">Media &amp;&amp; mappen</s>
 				<s xml:lang="pt">Suportes de Dados &amp;&amp; Pastas</s>
 				<s xml:lang="hr">Mediji i mape</s>
 				<s xml:lang="no">Media &amp;&amp; mapper</s>
@@ -5546,7 +5546,7 @@
 					<s xml:lang="en">In the Category View you work with dynamic categories to group your images.</s>
 					<s xml:lang="fi">Kategorianäkymässä voit käyttää dynaamisia kategorioita ryhmitelläksesi kuvasi.</s>
 					<s xml:lang="de">In der Kategorieansicht arbeiten Sie mit IMatch-Kategorien, um Ihre Bilder nach verschiedenen Kriterien zu ordnen.</s>
-					<s xml:lang="nl">In de categorie-weergave werkt u met IMatch-categoriën om bestanden te ordenen.</s>
+					<s xml:lang="nl">In de categorie-weergave werkt u met IMatch-categorieën om bestanden te ordenen.</s>
 					<s xml:lang="hr">U prikazu kategorija radiš sa dinamičkim kategorijama da bi grupirao slike.</s>
 					<s xml:lang="pt">Na Vista de Categorias trabalha com categorias dinâmicas para agrupar as suas imagens.</s>
 				    <s xml:lang="no">I kategorivisningen kan du arbeide med dynamiske kategorier for å gruppere bildene dine.</s>
@@ -5839,7 +5839,7 @@
 			<str resid="PTR_PANEL_DBCLIENT_FOLDERS_TREE" desc="Name for the Tree Panel in the Folders and Media view">
 				<s xml:lang="en">Media &amp; Folders</s>
 				<s xml:lang="de">Medien &amp; Verzeichnisse</s>
-				<s xml:lang="nl">Media &amp; Folders</s>
+				<s xml:lang="nl">Media &amp; mappen</s>
 				<s xml:lang="pt">Suportes de Dados &amp; Pastas</s>
 				<s xml:lang="fi">Mediat &amp; Kansiot</s>
 				<s xml:lang="hr">Mediji i mape</s>
@@ -5999,7 +5999,7 @@
 			<str resid="PTR_PANEL_DBCLIENT_GROUP_TREE_FAVS_PROMPT" desc="The prompt shown when there are no favorites yet">
 				<s xml:lang="en">Drag categories to this window to add new bookmarks. These bookmarks allow you to jump quickly to frequently used categories.</s>
 				<s xml:lang="de">Ziehen Sie Kategorien auf dieses Fenster, um neue Lesezeichen anzulegen. Diese Lesezeichen erlauben Ihnen das schnelle Navigieren zu häufig genutzten Kategorien.</s>
-				<s xml:lang="nl">Sleep categoriën in dit venster om nieuwe bladwijzers toe te voegen.</s>
+				<s xml:lang="nl">Sleep categorieën in dit venster om nieuwe bladwijzers toe te voegen.</s>
 				<s xml:lang="pt">Arraste categorias para esta janela para adicionar novos marcadores.</s>
 				<s xml:lang="fi">Vedä kategorioita tähän ikkunaan lisätäksesi uuden kirjanmerkin.</s>
 				<s xml:lang="hr">Dovuci kategorije u ovaj prozor za dodavanje nove knjižne oznake. Te knjižne oznake omogućavaju brzi izbor često korištenih kategorija.</s>
@@ -6011,7 +6011,7 @@
 			<str resid="PTR_PANEL_DBCLIENT_GROUP_TREE" desc="Name for the Tree Panel in the Category view">
 				<s xml:lang="en">Categories</s>
 				<s xml:lang="de">Kategorien</s>
-				<s xml:lang="nl">Categoriën</s>
+				<s xml:lang="nl">Categorieën</s>
 				<s xml:lang="pt">Categorias</s>
 				<s xml:lang="fi">Kategoriat</s>
 				<s xml:lang="hr">Kategorije</s>
@@ -6106,7 +6106,7 @@
 				<s xml:lang="en">Drop folders, categories or collections here to add new favorites.</s>
 				<s xml:lang="en-uk">Drop folders, categories or collections here to add new favourites.</s>
 				<s xml:lang="de">Legen Sie Verzeichnisse, Kategorien oder Kollektionen hier ab, um neue Favoriten zu erstellen.</s>
-				<s xml:lang="nl">Sleep folders, categoriën of collecties in dit window om nieuwe favorieten toe te voegen.</s>
+				<s xml:lang="nl">Sleep folders, categorieën of collecties in dit window om nieuwe favorieten toe te voegen.</s>
 				<s xml:lang="pt">Arraste pastas, categorias ou colecções para aqui, para adicionar novos favoritos.</s>
 				<s xml:lang="fi">Pudota kansiot, kategoriat tai kokoelmat tähän lisätäksesi ne suosikkeihin</s>
 				<s xml:lang="hr">Dovuci mape, kategorije ili zbirke ovdje za dodavanje novih favorita</s>
@@ -6144,7 +6144,7 @@
 			<str resid="PTR_FAVS_TYPENAME_GROUPSPLASHER" desc="">
 				<s xml:lang="en">Assign to Multiple Categories; Remove from Multiple Categories</s>
 				<s xml:lang="de">Mehreren Kategorien zuweisen; Aus mehreren Kategorien entfernen</s>
-				<s xml:lang="nl">Aan meerdere categoriën toewijzen; Uit meerdere categoriën verwijderen</s>
+				<s xml:lang="nl">Aan meerdere categorieën toewijzen; Uit meerdere categorieën verwijderen</s>
 				<s xml:lang="pt">Atribuir a Múltiplas Categorias; Remover de Múltiplas Categorias</s>
 				<s xml:lang="fi">Lisää kerralla useaan kategoriaan; Poista kerralla useasta kategoriasta</s>
 				<s xml:lang="hr">Priduži kategorijama; Ukloni iz kategorija</s>
@@ -6526,7 +6526,7 @@
             <str resid="PTR_CATEGORY_BUILDERPANEL_HINT" desc="">
                 <s xml:lang="en">Drop categories here to combine them. The result of this combination will be displayed in the @Builder category.</s>
                 <s xml:lang="de">Legen Sie hier Kategorien ab, um sie zu verknüpfen. Das Ergebnis der Verknüpfung wird in der @Builder-Kategorie angezeigt.</s>
-                <s xml:lang="nl">Sleep categoriën in dit venster om ze eenvoudig te combineren. Het resultaat van deze combinatie wordt getoond in de @Builder-categorie.</s>
+                <s xml:lang="nl">Sleep categorieën in dit venster om ze eenvoudig te combineren. Het resultaat van deze combinatie wordt getoond in de @Builder-categorie.</s>
 				<s xml:lang="pt">Arraste categorias para aqui, para as combinar com facilidade. O resultado da combinação será apresentado na categoria @Builder.</s>
 				<s xml:lang="fi">Pudota kategoriat tähän yhdistääksesi niiden sisältöjä helposti. Yhdistämisen tulos näkyy @Builder kategoriassa.</s>
 				<s xml:lang="hr">Dovuci kategorije ovdje za kombiniranje. Rezultat ove kombinacije će biti prikazan u @Builder kategoriji.</s>
@@ -6539,7 +6539,7 @@
             <str resid="PTR_CATEGORY_KEYWORDS_ASSIGN" desc="">
                 <s xml:lang="en">Updating categories and keywords...</s>
                 <s xml:lang="de">Kategorien und Schlüsselwörter werden aktualisiert...</s>
-                <s xml:lang="nl">Categoriën en trefwoorden bijwerken...</s>
+                <s xml:lang="nl">Categorieën en trefwoorden bijwerken...</s>
 				<s xml:lang="pt">Actualização de categorias e palavras-chave...</s>
                 <s xml:lang="hr">Ažuriranje kategorija i ključnih riječi...</s>
 				<s xml:lang="fr">Actualisation des catégories et mots-clés</s>
@@ -6928,7 +6928,7 @@
                 <s xml:lang="en">Categories</s>
                 <s xml:lang="de">Kategorien</s>
 				<s xml:lang="fi">Kategoriat</s>
-                <s xml:lang="nl">Categoriën</s>
+                <s xml:lang="nl">Categorieën</s>
 				<s xml:lang="pt">Categorias</s>
 				<s xml:lang="hr">Kategorije</s>
 				<s xml:lang="no">Kategorier</s>
@@ -6940,7 +6940,7 @@
 				<s xml:lang="en">File Categories</s>
 				<s xml:lang="de">Datei-Kategorien</s>
 				<s xml:lang="pt">Categorias de Ficheiros</s>
-				<s xml:lang="nl">Bestandscategoriën</s>
+				<s xml:lang="nl">Bestandscategorieën</s>
 			</str>
 
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_GEO" desc="Name for the Geo panel">
@@ -8489,7 +8489,7 @@
                 <s xml:lang="en">Importing categories...</s>
                 <s xml:lang="no">Importerer kategorier...</s>
                 <s xml:lang="de">Importiere Kategorien...</s>
-                <s xml:lang="nl">Importeren categoriën...</s>
+                <s xml:lang="nl">Importeren categorieën...</s>
 				<s xml:lang="pt">Importação de categorias...</s>
 				<s xml:lang="hr">Uvoz kategorija...</s>
 				<s xml:lang="fr">Importer les catégories...</s>
@@ -9168,7 +9168,7 @@
 				<s xml:lang="en">Categories changed</s>
 				<s xml:lang="no">Kategorier som er endret</s>
 				<s xml:lang="de">Kategorien verändert</s>
-				<s xml:lang="nl">Categoriën gewijzigd</s>
+				<s xml:lang="nl">Categorieën gewijzigd</s>
 				<s xml:lang="pt">Categorias alteradas</s>
 				<s xml:lang="fi">Kategorioita muutettu</s>
 				<s xml:lang="hr">Promijenjena kategorija</s>
@@ -11554,7 +11554,7 @@
 				<s xml:lang="en"><![CDATA[Clicking on a category favorite assigns the currently selected set of files in the active file window to all categories in that favorite. To <Bold>un-assign</Bold>, use &lt;Shift&gt;+Click.]]></s>
 				<s xml:lang="en-uk"><![CDATA[Clicking on a category favourite assigns the currently selected set of files in the active file window to all categories in that favourite. To <Bold>un-assign</Bold>, use &lt;Shift&gt;+Click.]]></s>
 				<s xml:lang="de"><![CDATA[Mit einem Klick auf einen Kategorie-Favoriten weisen Sie alle im aktiven Dateifenster ausgewählten Dateien die Kategorien im Favoriten zu. Verwenden Sie &lt;Shift&gt;+Klick, um die Zuweisung der Dateien aufzuheben.]]></s>
-				<s xml:lang="nl"><![CDATA[Door op een categorie-favoriet te klikken, wijst u alle geselecteerde bestanden in het actieve bestandsvenster toe aan alle categoriën in deze favoriet. Gebruik &lt;Shift&gt;+klik om de bestandstoewijzing ongedaan te maken.]]></s>
+				<s xml:lang="nl"><![CDATA[Door op een categorie-favoriet te klikken, wijst u alle geselecteerde bestanden in het actieve bestandsvenster toe aan alle categorieën in deze favoriet. Gebruik &lt;Shift&gt;+klik om de bestandstoewijzing ongedaan te maken.]]></s>
 				<s xml:lang="pt"><![CDATA[Clicar num favorito de categorias atribui o conjunto de ficheiros actualmente seleccionados na janela de ficheiros activa a todas as categorias desse favorito. Para <Bold>anular a atribuição</Bold>, use &lt;Shift&gt;+Clique.]]></s>
 				<s xml:lang="hr"><![CDATA[Klik na favorit kategorije pridružuje trenutno odabran skup datoteka u aktivnom prozoru datoteka svim kategorijama tog favorita. Za <Bold>razdruživanje</Bold>, koristi &lt;Shift&gt;+klik.]]></s>
 				<s xml:lang="fr"><![CDATA[Cliquer sur une catégorie favorite assigne la sélection courante de fichiers dans la fen^tre active à toutes les catégories de cette favorite. Pour <Bold>dé-assigner</Bold>, faites &lt;Maj&gt;+Click.]]></s>
@@ -11973,7 +11973,7 @@
                 <s xml:lang="en">Drop categories here...</s>
                 <s xml:lang="no">Slipp kategorier her...</s>
                 <s xml:lang="de">Kategorien hier ablegen...</s>
-                <s xml:lang="nl">Categoriën hier neerzetten...</s>
+                <s xml:lang="nl">Categorieën hier neerzetten...</s>
 				<s xml:lang="pt">Arraste categorias para aqui...</s>
 				<s xml:lang="fi">Pudota kategoriat tähän...</s>
 				<s xml:lang="hr">Ispusti kategorije ovdje...</s>
@@ -12037,7 +12037,7 @@
                 <s xml:lang="de">Exportiere Kategorien...</s>
                 <s xml:lang="no">Eksporterer kategorier...</s>
 				<s xml:lang="fi">Viedään kategorioita...</s>
-                <s xml:lang="nl">Categoriën exporteren...</s>
+                <s xml:lang="nl">Categorieën exporteren...</s>
 				<s xml:lang="pt">Exportação de Categorias...</s>
 				<s xml:lang="hr">Izvoz kategorija...</s>
 				<s xml:lang="fr">Exportation de Catégories...</s>
@@ -12073,7 +12073,7 @@
                 <s xml:lang="no">Importer kategori</s>
                 <s xml:lang="de">Kategorie-Import</s>
 				<s xml:lang="fi">Tuo kategoriat</s>
-                <s xml:lang="nl">Categoriën importeren</s>
+                <s xml:lang="nl">Categorieën importeren</s>
 				<s xml:lang="pt">Importação de Categorias</s>
 				<s xml:lang="hr">Uvoz kategorija</s>
 				<s xml:lang="fr">Importation de Catégories...</s>
@@ -12118,7 +12118,7 @@
                 <s xml:lang="no">Behandler kategorier...</s>
                 <s xml:lang="de">Importiere Kategorien...</s>
 				<s xml:lang="fi">Käsitellään kategorioita...</s>
-                <s xml:lang="nl">Categoriën importeren...</s>
+                <s xml:lang="nl">Categorieën importeren...</s>
 				<s xml:lang="pt">Processamento de Categorias...</s>
 				<s xml:lang="hr">Obrada kategorija...</s>
 				<s xml:lang="fr">Traitement des catégories</s>
@@ -12131,7 +12131,7 @@
                 <s xml:lang="en">Importing Categories...</s>
                 <s xml:lang="de">Importiere Kategorien...</s>
 				<s xml:lang="fi">Tuodaan kategorioita...</s>
-                <s xml:lang="nl">Categoriën importeren...</s>
+                <s xml:lang="nl">Categorieën importeren...</s>
 				<s xml:lang="pt">Importação de Categorias...</s>
 				<s xml:lang="hr">Uvoz kategorija...</s>
 				<s xml:lang="fr">Importation des catégories</s>
@@ -13416,7 +13416,7 @@
                 <s xml:lang="en">Too many children for a data-driven category. Please change the category setup to reduce the number of child categories created.</s>
                 <s xml:lang="de">Zu viele untergeordnete Kategorien für eine datengestützte Kategorie. Bitte verändern Sie die Eigenschaften der Kategorien um weniger untergeordnete Kategorien zu erzeugen.</s>
 				<s xml:lang="fi">Aineistopohjaisella kategorialla on liian monta alakategoriaa. Ole hyvä ja muuta kategoria-asetuksia vähentääksesi luotavien alakategorioiden määrän.</s>
-                <s xml:lang="nl">Te veel onderliggende categoriën voor een gegevengestuurde categorie. Verander aub de categorie-instellingen om het aantal onderliggende categoriën te verminderen.</s>
+                <s xml:lang="nl">Te veel onderliggende categorieën voor een gegevengestuurde categorie. Verander aub de categorie-instellingen om het aantal onderliggende categorieën te verminderen.</s>
 				<s xml:lang="pt">Demasiadas categorias subordinadas para uma categoria dinâmica. Altere por favor a definição da categoria para reduzir o número de categorias subordinadas criadas.</s>
                 <s xml:lang="hr">Previše podkategorija za kategoriju prema podacima. Promijeni postavu kategorije da smanjiš broj stvorenih podkategorija.</s>
 				<s xml:lang="fr">Trop de catégories subordonnées pour la catégorie pilotée par les données. Changez les propiétés de cette catégorie pour réduire le nombre de subordonnées.</s>
