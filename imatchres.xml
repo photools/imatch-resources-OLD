@@ -8481,6 +8481,7 @@
 			<cmd resid="ID_FILEWND_AUTOADVANCE">
 				<c xml:lang="en" hotkey="F9|U" helptext="Toggle the auto advance modus">Auto Ad&amp;vance</c>
 				<c xml:lang="de" hotkey="F9|U" helptext="Den 'Automatisch weiterschalten'-Modus umschalten">Automatisch &amp;weiterschalten</c>
+				<c xml:lang="nl" hotkey="F9|U" helptext="'Automatisch verdergaan' aan- of uitzetten">Automatisch &amp;verdergaan</c>
 			</cmd>
 
 		</command_group>
@@ -11987,6 +11988,7 @@
 			<cmd resid="ID_VIEWER_AUTOADVANCE" desc="">
 				<c xml:lang="en" hotkey="T|U" helptext="Toggle the auto advance modus">Auto Ad&amp;vance</c>
 				<c xml:lang="de" hotkey="T|U" helptext="Den 'Automatisch weiterschalten'-Modus umschalten">Automatisch &amp;weiterschalten</c>
+				<c xml:lang="nl" hotkey="T|U" helptext="'Automatisch verdergaan' aan- of uitzetten">Automatisch &amp;verdergaan</c>
 			</cmd>
 
 			<!-- Navigation -->
@@ -19999,9 +20001,11 @@
 			<property resid="app.viewer.autoadvance" desc="">
 				<name xml:lang="en">Auto Advance</name>
 				<name xml:lang="de">Automatisch weiterschalten</name>
+				<name xml:lang="nl">Automatisch verdergaan</name>
 
 				<desc xml:lang="en">If enabled, the Viewer moves to the next file when you apply a rating, label or bookmark.</desc>
 				<desc xml:lang="de">Wenn aktiv, springt der Viewer zur nächsten Datei wenn Sie eine Bewertung, Markierung oder ein Lesezeichen zuweisen.</desc>
+				<desc xml:lang="nl">Als deze optie aan is, gaat de Viewer automatisch verder naar het volgende bestand als u een waardering, label of bladwijzer toekent.</desc>
 
 				<group xml:lang="it">Visualizzatore</group>
 				<group xml:lang="en">Viewer</group>
@@ -28504,10 +28508,13 @@
 			<property resid="filewnd.ui.autoadvance" desc="">
 				<name xml:lang="en">Auto Advance</name>
 				<name xml:lang="de">Automatisch weiterschalten</name>
+				<name xml:lang="nl">Automatisch verdergaan</name>
 				<desc xml:lang="en">If this option is enabled, the file window moves the focus to the next file when you apply a rating, label or bookmark or when you reject a file.</desc>
-				<desc xml:lang="de">Wenn diese Option aktivert ist, bewegt das Dateifenster den Fokus automatisch auf die nächste Datei, wenn Sie eine Bewertung, eine Markierung oder ein Lesezeichen zuweisen, oder wenn Sie eine Datei zurückweisen.</desc>
+				<desc xml:lang="de">Wenn diese Option aktiviert ist, bewegt das Dateifenster den Fokus automatisch auf die nächste Datei, wenn Sie eine Bewertung, eine Markierung oder ein Lesezeichen zuweisen, oder wenn Sie eine Datei zurückweisen.</desc>
+				<desc xml:lang="nl">Als deze optie aan is, zal het bestandsvenster automatisch verder gaan naar het volgende bestand als u een waardering, label of bladwijzer toekent.</desc>
 				<group xml:lang="en">Auto Advance</group>
 				<group xml:lang="de">Automatisch weiterschalten</group>
+				<group xml:lang="nl">Automatisch verdergaan</group>
 			</property>
 
 
