@@ -234,6 +234,7 @@
 				<s xml:lang="en">Added</s>
 				<s xml:lang="de">Hinzugefügt</s>
 				<s xml:lang="nl">Toegevoegd</s>
+				<s xml:lang="pt">Acrescentado</s>
 			</str>
 		
 
@@ -2092,11 +2093,13 @@
 				<s xml:lang="en">The database is upgraded to version {0}. This can take a while...</s>
 				<s xml:lang="de">Die Datenbank wird auf Version {0} aktualisiert. Dies kann ein wenig dauern...</s>
 				<s xml:lang="nl">De database wordt geügarde naar version {0}. Dit kan even duren...</s>
+				<s xml:lang="pt">A base de dados vai ser actualizada para a versão {0}. Esta actualização pode demorar um bocado...</s>
 			</str>
 			<str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_UPGRADE_END" desc="">
 				<s xml:lang="en">Database format is current.</s>
 				<s xml:lang="de">Das Datenbankformat ist aktuell.</s>
 				<s xml:lang="nl">Het databaseformat is actueel.</s>
+				<s xml:lang="pt">O formato da base de dados está actualizado.</s>
 			</str>
 
 
@@ -2255,6 +2258,7 @@
 				<s xml:lang="en">Running portability options and auto-relocate...</s>
 				<s xml:lang="de">Portabilitätsoptionen werden angewendet und 'Automatisches Umziehen' wird durchgeführt...</s>
 				<s xml:lang="nl">Portabiliteitsopties en 'automatisch verplaatsen' worden uitgevoerd...</s>
+				<s xml:lang="pt">As opções de portabilidade são aplicadas e a "Mudança automática" é realizada...</s>
 			</str>
 
 			<str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_FINALSTEPS" desc="">
@@ -2960,6 +2964,7 @@
 				<s xml:lang="en">Closing apps...</s>
 				<s xml:lang="de">Apps werden beendet...</s>
 				<s xml:lang="nl">Apps worden beëindigd...</s>
+				<s xml:lang="pt">Fechando aplicações...</s>
 			</str>
 
 		</string_group>
@@ -3105,8 +3110,9 @@
 
 			<str resid="PTR_MAINFRAME_PROGRESSDLG_DBCOMPACT_TIMER" desc="">
 				<s xml:lang="en">Running for {0}.</s>
-				<s xml:lang="en">Läuft seit {0}.</s>
+				<s xml:lang="de">Läuft seit {0}.</s>
 				<s xml:lang="nl">Loopt sinds {0}.</s>
+				<s xml:lang="pt">Funciona desde {0}.</s>
 			</str>
 
 			<str resid="PTR_MAINFRAME_PROGRESSDLG_DBCLOSE_HEADLINE" desc="">
@@ -3887,6 +3893,7 @@
 				<s xml:lang="en"><![CDATA[The geo service seems to fail to respond or to respond very slowly. Maybe reloading the map panel or switching to another map provider helps.]]></s>
 				<s xml:lang="de"><![CDATA[Der Kartendienst scheint nicht mehr zu antworten oder antwortet nur sehr langsam. Versuchen Sie, die Karte neu zu laden oder wechseln Sie zu einem anderen Kartendienst.]]></s>
 				<s xml:lang="nl"><![CDATA[De kaart reageert niet of heel langzaam. Probeer de kaart opnieuw te laden of wissel van kaartaanbieder.]]></s>
+				<s xml:lang="pt"><![CDATA[O serviço geo parece não responder ou responder muito devagar. Talvez se recarregar o painel do mapa ou mudar para outro provedor de mapas ajude.]]></s>
 			</str>
 
 
@@ -5287,41 +5294,49 @@
 				<s xml:lang="en">Face Detection</s>
 				<s xml:lang="de">Gesichtserkennung</s>
 				<s xml:lang="nl">Gezichtsherkenning</s>
+				<s xml:lang="pt">Detecção de rosto</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_DETECT_FACES_HEADLINE" desc="">
 				<s xml:lang="en">Creating Face Annotations...</s>
 				<s xml:lang="de">Gesichtsanmerkungen werden erstellt...</s>
 				<s xml:lang="nl">Gezichtsannotaties worden aangemaakt...</s>
+				<s xml:lang="pt">Criando Anotações de Rosto...</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_DELETE_FACES" desc="">
 				<s xml:lang="en">Remove Face Annotations</s>
 				<s xml:lang="de">Gesichtsanmerkungen löschen</s>
 				<s xml:lang="nl">Gezichtannotaties verwijderen</s>
+				<s xml:lang="pt">Removendo Anotações de Rosto</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_DELETE_FACES_HEADLINE" desc="">
 				<s xml:lang="en">Deleting Face Annotations...</s>
 				<s xml:lang="de">Gesichtsanmerkungen werden gelöscht...</s>
 				<s xml:lang="nl">Gezichtannotaties worden verwijderd...</s>
+				<s xml:lang="pt">Apagando Anotações de Rosto...</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_WRITE_XMP" desc="">
 				<s xml:lang="en">Write Face Annotations to XMP</s>
 				<s xml:lang="de">Gesichtsanmerkungen im XMP-Datensatz speichern</s>
 				<s xml:lang="nl">Gezichtsannotaties in XMP opslaan</s>
+				<s xml:lang="pt">Escreve Anotações de Rosto no ficheiro XMP</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_WRITE_XMP_HEADLINE" desc="">
 				<s xml:lang="en">Writing Face Annotations to XMP...</s>
 				<s xml:lang="de">Gesichtsanmerkungen werden im XMP-Datensatz gespeichert...</s>
 				<s xml:lang="nl">Gezichtannotaties worden XMP opgeslagen...</s>
+				<s xml:lang="pt">Escrevendo Anotações de Rosto no ficheiro XMP...</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_READ_XMP" desc="">
 				<s xml:lang="en">Read Face Annotations from XMP</s>
 				<s xml:lang="de">Gesichtsanmerkungen aus XMP-Datensatz erstellen</s>
 				<s xml:lang="nl">Gezichtsannotaties uit XMP lezen</s>
+				<s xml:lang="pt">Ler Anotações de Rosto a partir do ficheiro XMP</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_READ_XMP_HEADLINE" desc="">
 				<s xml:lang="en">Reading Face Annotations from XMP...</s>
 				<s xml:lang="de">Gesichtsanmerkungen werden aus dem XMP-Datensatz erstellt...</s>
 				<s xml:lang="nl">Gezichtsannotaties worden uit XMP gelezen...</s>
+				<s xml:lang="pt">Lendo Anotações de Rosto a partir do ficheiro XMP...</s>
 			</str>
 
 			<!-- Rename Tasks -->
@@ -5793,11 +5808,16 @@
 				<s xml:lang="en">No filters active.</s>
 				<s xml:lang="de">Keine Filter aktiviert.</s>
 				<s xml:lang="nl">Geen filters actief.</s>
+<<<<<<< HEAD
+=======
+				<s xml:lang="pt">Nenhuns filtros activos.</s>
+>>>>>>> Portuguese-translation
 			</str>
 			<str resid="PTR_PANEL_FILTER_PAUSED">
 				<s xml:lang="en">Paused.</s>
 				<s xml:lang="de">Pausiert.</s>
 				<s xml:lang="nl">Gepauzeerd.</s>
+				<s xml:lang="pt">Pausado.</s>
 			</str>
 			
 			<str resid="PTR_PANEL_VIEWER" desc="Name for the Viewer panel">
@@ -6062,12 +6082,14 @@
                 <s xml:lang="en">App Manager</s>
                 <s xml:lang="de">App-Manager</s>
                 <s xml:lang="nl">App Manager</s>
+				<s xml:lang="pt">Gestor de Aplicações</s>
             </str>
 
 			<str resid="PTR_PANEL_APP_IMWS_NOT_RUNNING">
                 <s xml:lang="en">IMatch WebServices are not running.\r\nPlease enable them under Edit &gt; Preferences &gt; Application and check the configuration.</s>
                 <s xml:lang="de">Die IMatch Webdienste werden nicht ausgeführt.\r\nBitte aktivieren Sie sie unter Bearbeiten &gt; Einstellungen &gt; Anwendung und überprüfen Sie die Konfiguration.</s>
 				<s xml:lang="nl">IMatch WebServices worden niet uitgevoerd.\r\nActiveer ze aub Bewerken &gt; Voorkeuren &gt; Applicatie en controleer de instellingen.</s>
+				<s xml:lang="pt">O IMatch WebServices não está a ser executado. \ R \ nPor favor, habilite-os em Editar & gt; Preferências & gt; Aplicação e verifique a configuração.</s>
             </str>
             
             <str resid="PTR_PANEL_SCRIPT_IDE" desc="Name for the Script IDE panel">
@@ -6167,6 +6189,7 @@
 				<s xml:lang="en">Run App</s>
 				<s xml:lang="de">App ausführen</s>
 				<s xml:lang="nl">App uitvoeren</s>
+				<s xml:lang="pt">Corre a Aplicação</s>
 			</str>
 			<str resid="PTR_FAVS_TYPENAME_COL" desc="">
 				<s xml:lang="en">Add to Collection; Remove from Collection</s>
@@ -7055,31 +7078,37 @@
 				<s xml:lang="en">Previous file</s>
 				<s xml:lang="de">Vorhergehende Datei</s>
 				<s xml:lang="nl">Vorig bestand</s>
+				<s xml:lang="pt">Ficheiro anterior</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_NEXT">
 				<s xml:lang="en">Next file</s>
 				<s xml:lang="de">Nächste Datei</s>
 				<s xml:lang="nl">Volgend bestand</s>
+				<s xml:lang="pt">Próximo ficheiro</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_PREVSTACK">
 				<s xml:lang="en">Previous file in stack (&lt;Shift&gt;+&lt;Arrow left&gt;)</s>
 				<s xml:lang="de">Vorhergehende Datei im Stapel (&lt;Umsch&gt;+&lt;Pfeil links&gt;)</s>
 				<s xml:lang="nl">Vorig bestand in de stapel (&lt;Shift&gt;+&lt;pijl links&gt;)</s>
+				<s xml:lang="pt">Arquivo anterior na pilha (&lt;Shift&gt;+&lt;Seta esquerda&gt;)</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_NEXTSTACK">
 				<s xml:lang="en">Next file in stack (&lt;Shift&gt;+&lt;Arrow right&gt;)</s>
 				<s xml:lang="de">Nächste Datei im Stapel (&lt;Umsch&gt;+&lt;Pfeil rechts&gt;)</s>
 				<s xml:lang="nl">Volgend bestand in de stapel (&lt;Shift&gt;+&lt;pijl rechts&gt;)</s>
+				<s xml:lang="pt">Próximo arquivo na pilha (&lt;Shift&gt;+&lt;Seta direita&gt;)</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_MENU">
 				<s xml:lang="en">Click to show menu...</s>
 				<s xml:lang="de">Klicken um das Menü anzuzeigen...</s>
 				<s xml:lang="nl">Klik om het menu te tonen...</s>
+				<s xml:lang="pt">Click para mostrar o menu...</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_STACKHOME">
 				<s xml:lang="en">Go back to stack top (&lt;Home&gt;)</s>
 				<s xml:lang="de">Zur Stapelspitze zurückkehren (&lt;Pos 1&gt;)</s>
 				<s xml:lang="nl">Ga terug naar de top van de stapel (&lt;Home&gt;)</s>
+				<s xml:lang="pt">Voltar para o topo da pilha (&lt;Home&gt;)</s>
 			</str>
 
 			<!-- Settings -->
@@ -7594,6 +7623,7 @@
 				<s xml:lang="en">Selection</s>
 				<s xml:lang="de">Auswahl</s>
 				<s xml:lang="nl">Selectie</s>
+				<s xml:lang="pt">Selecção</s>
 			</str>
 
 			<!-- File Window Caption -->
@@ -7659,6 +7689,7 @@
 				<s xml:lang="en">(Direct assignments only)</s>
 				<s xml:lang="de">(Nur direkt zugewiesene Dateien)</s>
 				<s xml:lang="nl">(Alleen directe toewijzingen)</s>
+				<s xml:lang="pt">(Sómente ficheiros directamente atribuídos)</s>
 			</str>
 
 		</string_group>  <!-- File Window -->
@@ -7734,6 +7765,7 @@
 				<s xml:lang="en">3 Image</s>
 				<s xml:lang="de">3 Bild</s>
 				<s xml:lang="nl">3 Afbeelding</s>
+				<s xml:lang="pt">3 Imagem</s>
 			</str>
 
 			<!-- Name/Desc for default '2 Describe' layout -->
@@ -7742,6 +7774,7 @@
 				<s xml:lang="en">2 Describe</s>
 				<s xml:lang="de">2 Beschreiben</s>
 				<s xml:lang="nl">2 Beschrijf</s>
+				<s xml:lang="pt">2 Descrever</s>
 			</str>
 
 			<str resid="PTR_MDCONTAINER_LAYOUT_DEFAULT_DESC" desc="Description for the default panel layout">
@@ -8303,6 +8336,7 @@
 			<str resid="PTR_MDTEMPLATEMANAGER_SAVEAS_MSG">
 				<s xml:lang="en">This copies all tags used by the current layout into a Metadata Template.\r\nYou should edit the template afterwards to remove all unwanted tags - especially tags with potentially harmful side effects like 'Orientation' etc.).</s>
 				<s xml:lang="de">Diese funktion kopiert alle Tags aus dem aktuellen Layout in eine Metadatenvorlage.\r\nSie sollten die Vorlage anschließend bearbeiten und alle nicht benötigten Tags entfernen - insbesondere Tags mit potentiell schädlichen Nebenwirkungen wie 'Ausrichtung/Orientation'.</s>
+				<s xml:lang="pt">Isto copia todas as etiquetas usadas pelo plano actual num Modelo de Metadados. \ R \ nDepois deve editar o modelo para remover todas as etiquetas indesejadas - especialmente etiquetas com efeitos colaterais potencialmente nocivos como 'Orientação', etc.</s>
 			</str>
 
 			<!-- Template Import & Export -->
@@ -9929,6 +9963,7 @@
 				<s xml:lang="en">More filters are available in the 'Gear' menu in the toolbar.</s>
 				<s xml:lang="de">Weitere Filter sind verfügbar über das 'Zahnrad'-Menü in der Symbolleiste.</s>
 				<s xml:lang="nl">Extra filters zijn beschikbaar in het "Instellingen" menu in gereedschapsbalk.</s>
+				<s xml:lang="pt">Estão disponíveis mais filtros no menu 'Roda de engrenagem' na barra de ferramentas.</s>
 			</str>
 
 		</string_group>
@@ -11812,6 +11847,7 @@
 				<s xml:lang="en"><![CDATA[The Filter Panel was active and has been paused to show you all results.<LineBreak/>Click the 'Pause' button in the Filter Panel toolbar if you want to apply the current filter to the Result Window.<LineBreak/><LineBreak/>You can disable this feature under Edit &gt; Preferences; &gt; File Window.]]></s>
 				<s xml:lang="de"><![CDATA[Das Filter-Panel war aktiv und wurde automatisch pausiert, um Ihnen alle Suchergebnisse anzuzeigen.<LineBreak/>Sie können das Filter-Panel über die 'Pause'-Taste in der Filter-Panel Symbolleiste jederzeit wieder aktivieren.<LineBreak/><LineBreak/>Siekönnen diese Funktion über Bearbeiten &gt; Einstellungen &gt; Dateifenster deaktivieren.]]></s>
 				<s xml:lang="nl"><![CDATA[Het filterpaneel was actief, maar werd gepauzeerd om alle resultaten te tonen.<LineBreak/>Klik op de 'Pauze' knop in het filter-paneel als u het actuele filter wilt toepassen op het resultaatvenster.<LineBreak/><LineBreak/>U kunt deze optie uitzetten onder Bewerken &gt; Voorkeuren; &gt; Bestandsvenster.]]></s>
+				<s xml:lang="pt"><![CDATA[O Painel do Filtro estava activo e foi pausado para mostrar todos os resultados. <LineBreak /> Clique no botão 'Pausar' na barra de ferramentas do Painel de Filtro se desejar aplicar o filtro actual na Janela de Resultados. <LineBreak /> <LineBreak / > Pode desactivar este recurso em Editar & gt; Preferências; & gt; Janela de ficheiros.]]></s>
 			</str>
 
 
@@ -13410,6 +13446,7 @@
 			<str resid="PTR_ERRMSG_5017" desc="IMERR_PARS_UNKNOWNTAG">
 				<s xml:lang="en">Tag not found.</s>
 				<s xml:lang="de">Tag nicht gefunden.</s>
+				<s xml:lang="pt">Etiqueta não encontrada.</s>
 			</str>
 
 			<str resid="PTR_ERRMSG_5101" desc="IMERR_DATAGROUP_TOOMANYCHILDREN">

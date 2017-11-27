@@ -4407,6 +4407,7 @@
 				<c xml:lang="en" helptext="">Search the result</c>
 				<c xml:lang="de" helptext="">Das Ergebnis durchsuchen</c>
 				<c xml:lang="nl" helptext="">Doorzoek het resultaat</c>
+				<c xml:lang="pt" helptext="">Pesquisar o resultado</c>
 			</ctrl>
 
 			<textdata>
@@ -7367,18 +7368,21 @@
 				<c xml:lang="en" helptext="">Name:</c>
 				<c xml:lang="de" helptext="">Name:</c>
 				<c xml:lang="nl" helptext="">Naam:</c>
+				<c xml:lang="pt" helptext="">Nome:</c>
 			</ctrl>
 
 			<ctrl text="#l_category">
 				<c xml:lang="en" helptext="">Category:</c>
 				<c xml:lang="de" helptext="">Kategorie:</c>
 				<c xml:lang="nl" helptext="">Categorie:</c>
+				<c xml:lang="pt" helptext="">Categoria:</c>
 			</ctrl>
 
 			<ctrl text="#l_check_use_colors">
 				<c xml:lang="en" helptext="Display the name in the tab using the category text color.">Use category text color for tabs</c>
 				<c xml:lang="de" helptext="Den Reiter-Namen in der Kategorie-Textfarbe anzeigen">Kategorie-Textfarbe für die Reiter verwenden</c>
 				<c xml:lang="nl" helptext="Toon de naam van de tab in de kleur van de categorie.">Use category text color for tabs</c>
+				<c xml:lang="pt" helptext="Exibe o nome na guia usando a cor do texto da categoria.">Utilize a cor do texto da categoria para as guias.</c>
 			</ctrl>
 
 			<ctrl text="#l_check_tab1">
@@ -8301,12 +8305,14 @@
 				<c xml:lang="en" helptext="">&amp;Search:</c>
 				<c xml:lang="de" helptext="">&amp;Suchen:</c>
 				<c xml:lang="nl" helptext="">&amp;Zoeken:</c>
+				<c xml:lang="pt" helptext="">&amp;Procurar:</c>
 			</ctrl>
 
 			<ctrl text="#l_next">
 				<c xml:lang="en" helptext="">&amp;Next</c>
 				<c xml:lang="de" helptext="">&amp;Weiter</c>
 				<c xml:lang="nl" helptext="">&amp;Volgende</c>
+				<c xml:lang="pt" helptext="">&amp;Próximo</c>
 			</ctrl>
 
 		</dialog>
@@ -8410,17 +8416,20 @@
 				<c xml:lang="en" helptext="">Advanced Options</c>
 				<c xml:lang="de" helptext="">Erweiterte Optionen</c>
 				<c xml:lang="nl" helptext="">Geavanceerde opties</c>
+				<c xml:lang="pt" helptext="">Opções Avançadas</c>
 			</ctrl>
 			
 			<ctrl text="#l_port_info">
 				<c xml:lang="en" helptext=""><![CDATA[If you use your database on <Bold>multiple computers</Bold>, you can configure additional options to automatically adapt the database to different computers (e.g. 'Auto Relocate') below.]]></c>
 				<c xml:lang="de" helptext=""><![CDATA[Wenn Sie Ihre Datenbank auf <Bold>verschiedenen Computern</Bold> verwenden, können sie hier Einstellungen vornehmen, die die Datenbank an verschiedene Computer anpassen (z.B. 'Automatisches Umziehen').]]></c>
 				<c xml:lang="nl" helptext=""><![CDATA[Als u uw database op <Bold>verschillende computers</Bold> gebruikt, kunt u hier instellingen opgeven om de database aan te passen aan verschillende comnputers (bv. 'automatisch verplaatsen').]]></c>
+				<c xml:lang="pt" helptext=""><![CDATA[Se utiliza a base de dados em <Bold> vários computadores </ Bold>, pode configurar opções adicionais para adaptar automáticamente a base de dados a diferentes computadores (por exemplo, 'Realocação automática').]]></c>
 			</ctrl>
 			<ctrl text="#l_btn_portable">
 				<c xml:lang="en" helptext="">&amp;Portability Options...</c>
 				<c xml:lang="de" helptext="">&amp;Portabilitätseinstellungen...</c>
 				<c xml:lang="nl" helptext="">&amp;Portabiliteitsinstellingen...</c>
+				<c xml:lang="pt" helptext="">&amp;Opções de Portabilidade...</c>
 			</ctrl>
 			
 			<!-- Video -->
@@ -8429,36 +8438,42 @@
 				<c xml:lang="en" helptext="">Thumbnails for Video Files</c>
 				<c xml:lang="de" helptext="">Vorschaubilder für Video-Dateien</c>
 				<c xml:lang="nl" helptext="">Miniaturen voor video-bestanden</c>
+				<c xml:lang="pt" helptext="">Miniaturas para Ficheiros de Vídeo</c>
 			</ctrl>
 
 			<ctrl text="#l_video_offset">
 				<c xml:lang="en" helptext="The first frame to extract starts at this offset.">&amp;Offset:</c>
 				<c xml:lang="de" helptext="Das erste Bild wird ab dieser Position extrahiert.">&amp;Versatz:</c>
 				<c xml:lang="nl" helptext="Het eerste beeld wordt vanaf dit punt geëxtraheerd.">&amp;Offset:</c>
+				<c xml:lang="pt" helptext="A primeira imagem é extraída desta posição.">&amp;Posição:</c>
 			</ctrl>
 
 			<ctrl text="#l_s">
 				<c xml:lang="en" helptext="">s</c>
 				<c xml:lang="de" helptext="">s</c>
 				<c xml:lang="nl" helptext="">s</c>
+				<c xml:lang="pt" helptext="">s</c>
 			</ctrl>
 
 			<ctrl text="#l_check_vid_custom">
 				<c xml:lang="en" helptext="">C&amp;ustom intervals:</c>
 				<c xml:lang="de" helptext="">Ben&amp;utzerdefiniert:</c>
 				<c xml:lang="nl" helptext="">Gebr&amp;uikerinstelling:</c>
+				<c xml:lang="pt" helptext="">I&amp;ntervalos Personalizados:</c>
 			</ctrl>
 
 			<ctrl text="#l_intervals">
 				<c xml:lang="en" helptext="">Intervals to extract frames, in seconds. Separated with ,</c>
 				<c xml:lang="de" helptext="">Intervalle in Sekunden. Getrennt durch ,</c>
 				<c xml:lang="nl" helptext="">Intervallen in seconden. gescheiden door ,</c>
+				<c xml:lang="pt" helptext="">Intervalos para extrair imagens, em segundos. Separados com ,</c>
 			</ctrl>
 
 			<ctrl text="#l_vid_every">
 				<c xml:lang="en" helptext="">One frame every </c>
 				<c xml:lang="de" helptext="">Ein Bild pro </c>
 				<c xml:lang="nl" helptext="">Eén beeld per </c>
+				<c xml:lang="pt" helptext="">Uma imagem por </c>
 			</ctrl>
 			
 
@@ -8578,40 +8593,48 @@
 			<caption xml:lang="en">Database Portability Options</caption>
 			<caption xml:lang="de">Datenbank Portabilitätseinstellungen</caption>
 			<caption xml:lang="nl">Database Portabiliteitsinstellingen</caption>
+			<caption xml:lang="pt">Opções de Portabilidade da Base de Dados</caption>
 			<ctrl text="#l_computer">
 				<c xml:lang="en" helptext="">Portability options for this computer:</c>
 				<c xml:lang="de" helptext="">Portabilitätseinstellungen für diesen Computer:</c>
 				<c xml:lang="nl" helptext="">Portabiliteitsinstellingen voor deze computer:</c>
+				<c xml:lang="pt" helptext="">Opções de portabilidade para este computador:</c>
 			</ctrl>
 			<ctrl text="#l_btn_add">
 				<c xml:lang="en" helptext="">Add</c>
 				<c xml:lang="de" helptext="">Hinzufügen</c>
 				<c xml:lang="nl" helptext="">Toevoegen</c>
+				<c xml:lang="pt" helptext="">Adiciona</c>
 			</ctrl>
 			<ctrl text="#l_btn_remove">
 				<c xml:lang="en" helptext="">&amp;Remove</c>
 				<c xml:lang="de" helptext="">Enfe&amp;rnen</c>
 				<c xml:lang="nl" helptext="">Ve&amp;rwijderen</c>
+				<c xml:lang="pt" helptext="">&amp;Remove</c>
 			</ctrl>
 			<ctrl text="#l_auto_relocate">
 				<c xml:lang="en" helptext="">Automatically relocate these elements when opening the database on this computer:</c>
 				<c xml:lang="de" helptext="">Folgende Elemente automtisch umziehen, wenn die Datenbank auf diesem Computer geöffnet wird:</c>
 				<c xml:lang="nl" helptext="">De volgende elementen automatisch verplaatsen als de database op deze computer wordt geopend:</c>
+				<c xml:lang="pt" helptext="">Realoque automáticamente estes elementos quando abrir a base de dados neste computador:</c>
 			</ctrl>
 			<ctrl text="#l_btn_reloc_add">
 				<c xml:lang="en" helptext="Add a new auto-relocation rule">&amp;New...</c>
 				<c xml:lang="de" helptext="Eine neue Auto-Umzugsregel erstellen">&amp;Neu...</c>
 				<c xml:lang="nl" helptext="Een nieuwe verplaatsingsregel toevoegen">&amp;Nieuw...</c>
+				<c xml:lang="pt" helptext="Adicione uma nova regra de auto-realocação">&amp;Nova...</c>
 			</ctrl>
 			<ctrl text="#l_btn_reloc_edit">
 				<c xml:lang="en" helptext="Edit the selected auto-relocation rule">&amp;Edit...</c>
 				<c xml:lang="de" helptext="Eine neue Auto-Umzugsregel erstellen">Bearb&amp;eiten...</c>
 				<c xml:lang="nl" helptext="De geselecteerde verplaatsingregel bewerken">B&amp;ewerken...</c>
+				<c xml:lang="pt" helptext="Edita a regra de auto-realocação seleccionada">&amp;Editar...</c>
 			</ctrl>
 			<ctrl text="#l_btn_reloc_del">
 				<c xml:lang="en" helptext="Delete the selected auto-relocation rule">De&amp;lete</c>
 				<c xml:lang="de" helptext="Die ausgewählte Auto-Umzugsregel löschen">&amp;Löschen</c>
 				<c xml:lang="nl" helptext="De geselecteerde verplaatsingeregel verwijderen">Verwijderen</c>
+				<c xml:lang="pt" helptext="Apaga a regra de auto-realocação seleccionada">A&amp;paga</c>
 			</ctrl>
 
 			<textdata>
@@ -8619,26 +8642,31 @@
 					<t xml:lang="en">Type</t>
 					<t xml:lang="de">Typ</t>
 					<t xml:lang="nl">Type</t>
+					<t xml:lang="pt">Tipo</t>
 				</td>
 				<td tid="header_source">
 					<t xml:lang="en">Source</t>
 					<t xml:lang="de">Quelle</t>
 					<t xml:lang="nl">Bron</t>
+					<t xml:lang="pt">Fonte</t>
 				</td>
 				<td tid="header_target">
 					<t xml:lang="en">Target</t>
 					<t xml:lang="de">Ziel</t>
 					<t xml:lang="nl">Doel</t>
+					<t xml:lang="pt">Alvo</t>
 				</td>
 				<td tid="type_disk">
 					<t xml:lang="en">Disk</t>
 					<t xml:lang="de">Laufwerk</t>
 					<t xml:lang="nl">Schijf</t>
+					<t xml:lang="pt">Alvo</t>
 				</td>
 				<td tid="type_folder" selected="true">
 					<t xml:lang="en">Folder</t>
 					<t xml:lang="de">Verzeichnis</t>
 					<t xml:lang="nl">Map</t>
+					<t xml:lang="pt">Pasta</t>
 				</td>
 			</textdata>
 			
@@ -8649,20 +8677,24 @@
 			<caption xml:lang="en">Edit Relocation</caption>
 			<caption xml:lang="de">Umzug bearbeiten</caption>
 			<caption xml:lang="nl">Verplaatsingeregel bewerken</caption>
+			<caption xml:lang="pt">Editar Realocação</caption>
 			<ctrl text="#l_type">
 				<c xml:lang="en" helptext="">&amp;Type:</c>
 				<c xml:lang="de" helptext="">&amp;Typ:</c>
 				<c xml:lang="nl" helptext="">&amp;Type:</c>
+				<c xml:lang="pt" helptext="">&amp;Tipo:</c>
 			</ctrl>
 			<ctrl text="#l_source">
 				<c xml:lang="en" helptext="">&amp;Source:</c>
 				<c xml:lang="de" helptext="">&amp;Quelle:</c>
 				<c xml:lang="nl" helptext="">&amp;Bron:</c>
+				<c xml:lang="pt" helptext="">&amp;Fonte:</c>
 			</ctrl>
 			<ctrl text="#l_target">
 				<c xml:lang="en" helptext="">&amp;Target:</c>
 				<c xml:lang="de" helptext="">&amp;Ziel:</c>
 				<c xml:lang="nl" helptext="">&amp;Doel:</c>
+				<c xml:lang="pt" helptext="">&amp;Alvo:</c>
 			</ctrl>
 
 			<textdata>
@@ -8670,11 +8702,13 @@
 					<t xml:lang="en">Source folder or drive letter</t>
 					<t xml:lang="de">Quellverzeichnis oder Datenträgerbezeichnung</t>
 					<t xml:lang="nl">Bronmap of schijfletter</t>
+					<t xml:lang="pt">Diretório de origem ou letra do disco</t>
 				</td>
 				<td tid="ph_target">
 					<t xml:lang="en">Target folder or drive letter</t>
 					<t xml:lang="de">Zielverzeichnis oder Datenträgerbezeichnung</t>
 					<t xml:lang="nl">Doelmap of schijfletter</t>
+					<t xml:lang="pt">Diretório de destino ou letra do disco</t>
 				</td>
 			</textdata>
 			
@@ -8683,11 +8717,13 @@
 					<l xml:lang="en">Folder</l>
 					<l xml:lang="de">Verzeichnis</l>
 					<l xml:lang="nl">Map</l>
+					<l xml:lang="pt">Pasta</l>
 				</ld>
 				<ld listid="2" selected="true">
 					<l xml:lang="en">Disk</l>
 					<l xml:lang="de">Datenträger</l>
 					<l xml:lang="nl">Schijf</l>
+					<l xml:lang="pt">Disco</l>
 				</ld>
 			</listdata>
 		
@@ -9941,10 +9977,12 @@
 			<caption xml:lang="en">Apps</caption>
 			<caption xml:lang="de">Apps</caption>
 			<caption xml:lang="nl">Apps</caption>
+			<caption xml:lang="pt">Aplicações</caption>
 			<ctrl text="#l_apps">
 				<c xml:lang="en" helptext="">&amp;Apps::</c>
 				<c xml:lang="de" helptext="">&amp;Apps:</c>
 				<c xml:lang="nl" helptext="">&amp;Apps:</c>
+				<c xml:lang="pt" helptext="">&amp;Aplicações::</c>
 			</ctrl>
 		</dialog>
 
@@ -10102,6 +10140,7 @@
 				<c xml:lang="en" helptext="">All duplicate files</c>
 				<c xml:lang="de" helptext="">Alle doppelten Dateien</c>
 				<c xml:lang="nl" helptext="">Alle duplicaten</c>
+				<c xml:lang="pt" helptext="">Todos os ficheiros duplicados</c>
 			</ctrl>
 
 			<!-- Templates -->
@@ -11493,16 +11532,19 @@
 				<c xml:lang="en" helptext="Find versions by comparing master and version variables.">Limit by &amp;Variables:</c>
 				<c xml:lang="de" helptext="Findet Versionen durch Vergleichen von Variablen der Haupt- und Versionsdateien.">Mit &amp;Variablen einschränken:</c>
 				<c xml:lang="nl" helptext="Vindt versies door variabelen van master en versie(-s) te vergelijken.">Limit by &amp;Variables:</c>
+				<c xml:lang="pt" helptext="Encontra versões comparando variáveis dos arquivos principais e de versão.">Limite por &amp;Variáveis:</c>
 			</ctrl>
 			<ctrl text="#l_variable_master">
 				<c xml:lang="en" helptext="Enter a standard IMatch variable expression or a literal.">Mas&amp;ter Expression:</c>
 				<c xml:lang="de" helptext="Geben Sie einen IMatch Variablenausdruck oder ein Literal ein">Haup&amp;tdateiausdruck:</c>
 				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking of een letterlijke tekst in.">Mas&amp;ter Expression:</c>
+				<c xml:lang="pt" helptext="Digite uma variável padrão do IMatch ou um literal.">Exp&amp;ressão Principal:</c>
 			</ctrl>
 			<ctrl text="#l_variable_file">
 				<c xml:lang="en" helptext="Enter a standard IMatch variable expression.">Versio&amp;n Expression:</c>
 				<c xml:lang="de" helptext="Geben Sie einen IMatch Variablenausdruck ein.">Versio&amp;nsausdruck:</c>
-				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking in.">Versio&amp;n Expression:</c>				
+				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking in.">Versio&amp;n Expression:</c>
+				<c xml:lang="pt" helptext="Digite uma variável padrão do IMatch.">Exp&amp;ressão Versão:</c>
 			</ctrl>
 
 			<ctrl text="#l_s">
@@ -12250,6 +12292,7 @@
 				<c xml:lang="en" helptext="Enable this to hide this Attribute Set in the Attribute Panel.">&amp;Hidden Set</c>
 				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um dieses Set im Attribute-Panel zu verbergen.">&amp;Verborgenes Set</c>
 				<c xml:lang="nl" helptext="Activeer deze optie om deze attributenset te verbergen in het Attributen-paneel.">&amp;Hidden Set</c>
+				<c xml:lang="pt" helptext="Activar para esconder este Conjunto de Atributos no Painel de Atributos.">&amp;Esconde Conjunto</c>
 			</ctrl>
 
 			<ctrl text="#l_btn_attr_up">
@@ -13685,11 +13728,13 @@
 				<c xml:lang="en" helptext="">Color: </c>
 				<c xml:lang="de" helptext="">Farbe: </c>
 				<c xml:lang="nl" helptext="">Kleur: </c>
+				<c xml:lang="pt" helptext="">Cor: </c>
 			</ctrl>
 			<ctrl text="#l_color">
 				<c xml:lang="en" helptext="">Color</c>
 				<c xml:lang="de" helptext="">Farbe</c>
 				<c xml:lang="nl" helptext="">Kleur</c>
+				<c xml:lang="pt" helptext="">Cor: </c>
 			</ctrl>
 
 
@@ -23309,21 +23354,25 @@
 			<caption xml:lang="en">Create Face Annotations</caption>
 			<caption xml:lang="de">Gesichtsanmerkungen erstellen</caption>
 			<caption xml:lang="nl">Gezichtsannotaties creëeren</caption>
+			<caption xml:lang="pt">Cria Anotações de Rosto</caption>
 
 			<ctrl text="#l_check_ignore">
 				<c xml:lang="en" helptext="">&amp;Ignore images which already have face annotations</c>
 				<c xml:lang="de" helptext="">Bilder mit Gesichtsanmerkungen &amp;ignorieren</c>
 				<c xml:lang="nl" helptext="">Afbeeldingen die reeds gez&amp;ichtsannotaties hebben, negeren</c>
+				<c xml:lang="pt" helptext="">&amp;Ignora imagens que já tenham anotações de rosto</c>
 			</ctrl>
 			<ctrl text="#l_check_delete">
 				<c xml:lang="en" helptext="">Dele&amp;te existing face annotations</c>
 				<c xml:lang="de" helptext="">Bestehende Gesichtsanmerkungen &amp;löschen</c>
 				<c xml:lang="nl" helptext="">Bestaande gezichtannotaties verwij&amp;deren</c>
+				<c xml:lang="pt" helptext="">Apa&amp;ga anotações de rosto já existentes</c>
 			</ctrl>
 			<ctrl text="#l_info">
 				<c xml:lang="en" helptext="">If all images show the same person, you can optionally assign a tag to all new annotations:</c>
 				<c xml:lang="de" helptext="">Wenn alle Bilder die gleiche Person zeigen, können Sie optional allen neuen Anmerkungen ein Tag zuweisen:</c>
 				<c xml:lang="nl" helptext="">Als alle afbeeldingen dezelfde persoon tonen, kunt u optioneel een tag aan alle nieuwe annotaties toekennen:</c>
+				<c xml:lang="pt" helptext="">Se todas as imagens mostrarem a mesma pessoa, pode opcionalmente atribuir uma etiqueta a todas as novas anotações:</c>
 			</ctrl>
 
 
