@@ -8150,7 +8150,7 @@
 				<s xml:lang="en">Enter new keywords here...</s>
 				<s xml:lang="no">Angi nye søkeord her...</s>
 				<s xml:lang="de">Hier neue Schlüsselwörter eingeben...</s>
-				<s xml:lang="nl">Geef nieuwe trefwoorden hier in...</s>
+				<s xml:lang="nl">Voer hier nieuwe trefwoorden in...</s>
 				<s xml:lang="pt">Inserir novas palavras-chave aqui...</s>
 				<s xml:lang="fi">Lisää uudet asiasanat tähän...</s>
 				<s xml:lang="hr">Unesi nove ključne riječi ovdje...</s>
@@ -8162,7 +8162,7 @@
 				<s xml:lang="en">Enter a filter expression here...</s>
 				<s xml:lang="no">Angi et filteruttrykket her...</s>
 				<s xml:lang="de">Hier einen Filterausdruck eingeben...</s>
-				<s xml:lang="nl">Geef nieuwe filter-expressie hier in...</s>
+				<s xml:lang="nl">Voor hier een nieuwe filter-uitdrukking in...</s>
 				<s xml:lang="pt">Inserir uma expressão de filtragem aqui...</s>
 				<s xml:lang="fi">Syötä suodatuslauseke tähän...</s>
 				<s xml:lang="hr">Unesi nove izraze filtra ovdje...</s>
@@ -9925,7 +9925,7 @@
                 <s xml:lang="en">Enter new or existing filter name:</s>
                 <s xml:lang="no">Angi nye eller eksisterende filternavn:</s>
                 <s xml:lang="de">Geben Sie einen neuen oder existierenden Filternamen ein:</s>
-                <s xml:lang="nl">Geef nieuwe of bestaande filternaam:</s>
+                <s xml:lang="nl">Voer een nieuwe of bestaande filternaam in:</s>
 				<s xml:lang="pt">Insira um nome de filtro novo ou existente:</s>
 				<s xml:lang="fi">Kirjoita uuden tai olemassaolevan suodattimen nimi:</s>
 				<s xml:lang="hr">Unesi novo ili postojeće ime filtra:</s>
