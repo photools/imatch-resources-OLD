@@ -364,16 +364,72 @@
 				<s xml:lang="fi">ORF liitetiedostot</s>
                 <s xml:lang="it">ORF Buddy Files</s>
             </str>
-            <str resid="PTR_DBCORE_RELDEF_NAME_NEFVER" desc="">
-                <s xml:lang="en">NEF Versioning</s>
-                <s xml:lang="de">NEF Versionierung</s>
-                <s xml:lang="nl">NEF Versies</s>
-				<s xml:lang="pt">Versões NEF</s>
-                <s xml:lang="hr">NEF određivanje verzije</s>
-				<s xml:lang="fr">Versionnage des NEF</s>
-				<s xml:lang="fi">NEF versiointi</s>
-                <s xml:lang="it">NEF Versioni</s>
+			
+            <str resid="PTR_DBCORE_RELDEF_NAME_NIKON_VER" desc="">
+                <s xml:lang="en">Nikon Versioning</s>
+                <s xml:lang="de">Nikon Versionierung</s>
+                <s xml:lang="nl">Nikon Versies</s>
+				<s xml:lang="pt">Versões Nikon</s>
+                <s xml:lang="hr">Nikon određivanje verzije</s>
+				<s xml:lang="fr">Versionnage des Nikon</s>
+				<s xml:lang="fi">Nikon versiointi</s>
+                <s xml:lang="it">Nikon Versioni</s>
             </str>
+
+			<str resid="PTR_DBCORE_RELDEF_NAME_CANON_VER" desc="">
+				<s xml:lang="en">Canon Versioning</s>
+				<s xml:lang="de">Canon Versionierung</s>
+				<s xml:lang="nl">Canon Versies</s>
+				<s xml:lang="pt">Versões Canon</s>
+				<s xml:lang="hr">Canon određivanje verzije</s>
+				<s xml:lang="fr">Versionnage des Canon</s>
+				<s xml:lang="fi">Canon versiointi</s>
+				<s xml:lang="it">Canon Versioni</s>
+			</str>
+
+			<str resid="PTR_DBCORE_RELDEF_NAME_SONY_VER" desc="">
+				<s xml:lang="en">Sony Versioning</s>
+				<s xml:lang="de">Sony Versionierung</s>
+				<s xml:lang="nl">Sony Versies</s>
+				<s xml:lang="pt">Versões Sony</s>
+				<s xml:lang="hr">Sony određivanje verzije</s>
+				<s xml:lang="fr">Versionnage des Sony</s>
+				<s xml:lang="fi">Sony versiointi</s>
+				<s xml:lang="it">Sony Versioni</s>
+			</str>
+
+			<str resid="PTR_DBCORE_RELDEF_NAME_OLYMPUS_VER" desc="">
+				<s xml:lang="en">Olympus Versioning</s>
+				<s xml:lang="de">Olympus Versionierung</s>
+				<s xml:lang="nl">Olympus Versies</s>
+				<s xml:lang="pt">Versões Olympus</s>
+				<s xml:lang="hr">Olympus određivanje verzije</s>
+				<s xml:lang="fr">Versionnage des Olympus</s>
+				<s xml:lang="fi">Olympus versiointi</s>
+				<s xml:lang="it">Olympus Versioni</s>
+			</str>
+
+			<str resid="PTR_DBCORE_RELDEF_NAME_PANASONIC_VER" desc="">
+				<s xml:lang="en">Panasonic Versioning</s>
+				<s xml:lang="de">Panasonic Versionierung</s>
+				<s xml:lang="nl">Panasonic Versies</s>
+				<s xml:lang="pt">Versões Panasonic</s>
+				<s xml:lang="hr">Panasonic određivanje verzije</s>
+				<s xml:lang="fr">Versionnage des Panasonic</s>
+				<s xml:lang="fi">Panasonic versiointi</s>
+				<s xml:lang="it">Panasonic Versioni</s>
+			</str>
+
+			<str resid="PTR_DBCORE_RELDEF_NAME_FUJI_VER" desc="">
+				<s xml:lang="en">Fuji Versioning</s>
+				<s xml:lang="de">Fuji Versionierung</s>
+				<s xml:lang="nl">Fuji Versies</s>
+				<s xml:lang="pt">Versões Fuji</s>
+				<s xml:lang="hr">Fuji određivanje verzije</s>
+				<s xml:lang="fr">Versionnage des Fuji</s>
+				<s xml:lang="fi">Fuji versiointi</s>
+				<s xml:lang="it">Fuji Versioni</s>
+			</str>
 
 			<!-- Annotation: Default import base path for keywords. We better set one so users who don't follow the instructions don't mess up the root level of their @Keywords with names pulled in from XMP regions. -->
 			<str resid="PTR_DBCORE_ANNOMAP_BASEPATH" desc="">
@@ -7473,7 +7529,13 @@
 				<s xml:lang="it">Ricerca in corso. Fare click su 'Cancella' nel pannello filtro per terminare.</s>
 			</str>
 
-			
+			<!-- The prompt shown inside the file window search bar -->
+			<str resid="FILEWND_SEARCHBAR_COMBO_PROMPT" desc="">
+				<s xml:lang="en">Search the file window...</s>
+				<s xml:lang="de">Dateifenster durchsuchen....</s>
+			</str>
+
+
 			<!-- File Window Pause overlay. This overlay is shown when the file window pauses -->
 			
 			<str resid="FILEWND_PAUSE_HEADLINE" desc="">

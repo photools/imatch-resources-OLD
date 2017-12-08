@@ -1260,7 +1260,20 @@
                 </m>
             </msg>
 
-            <!-- This message is shown when the engine had hot journals on open and rolled back open an open transaction. -->
+			<!-- This message is shown when the engine reports a physical disk damage or a database structure damage. This is urgend and severe! -->
+			<msg resid="PTR_MSG_DB_PANIC_EXIFTOOL" typeid="[[TD_ERROR_ICON]]" desc="">
+				<m xml:lang="en">
+					<cap>Problem Running ExifTool!</cap>
+					<cont>This external application is used by IMatch to read and write metadata.\r\n\r\nPlease run a repair of IMatch via the Windows control panel. Also make sure that no anti-virus software or software execution policies active on your computer prevent IMatch from launching external programs.</cont>
+				</m>
+				<m xml:lang="de">
+					<cap>Probleme bei der Ausführung von ExifTool!</cap>
+					<cont>Diese externe Anwendung wird von IMatch zum Lesen und Schreiben von Metadaten verwendet.\r\n\r\nBitte reparieren Sie die IMatch-Installation über die Windows Systemsteuerung. Stellen Sie sicher, dass Ihre Antivirus-Software oder auf Ihrem System aktivierte Richtlinien für Softwareeinschränkungen IMatch nicht daran hindern, externe Programme zu starten.</cont>
+				</m>
+			</msg>
+			
+
+			<!-- This message is shown when the engine had hot journals on open and rolled back open an open transaction. -->
             <msg resid="PTR_MSG_DB_HOTJOURNALS" typeid="[[TD_WARNING_ICON]]" desc="">
 				<m xml:lang="en">
                     <cap>Database was not closed correctly.</cap>
@@ -2599,6 +2612,8 @@
 			<m xml:lang="en">
 				<cap>The database is now ready to use</cap>
 				<cont><![CDATA[<TextBlock TextWrapping='Wrap'>The database has been successfully created and you can now start indexing your files.<LineBreak/><LineBreak/>Use the <Bold>Commands menu &gt; Add or Update Folders</Bold> command or just <Bold>drag and drop folders</Bold> from Windows Explorer into the Media &amp; Folders View.<LineBreak/><LineBreak/>Press &lt;F1&gt; for more information.</TextBlock>]]></cont>
+				<button btnid="1">OK, got it!</button>
+				<button btnid="1001">Adobe Lightroom® Importer\nI want to import my Lightroom catalog into this IMatch database.</button>
 			</m>
 			<m xml:lang="it">
 				<cap>Il database è ora pronto all'uso</cap>
@@ -2607,6 +2622,8 @@
 			<m xml:lang="de">
 				<cap>Die Datenbank ist bereit</cap>
 				<cont><![CDATA[<TextBlock TextWrapping='Wrap'>Die Datenbank wurde erfolgreich erstellt und Sie können nun Dateien indizieren.<LineBreak/><LineBreak/>Nutzen Sie das <Bold>Verzeichnisse hinzufügen oder aktualisieren</Bold> Kommando aus dem <Bold>Befehle</Bold>-Menü oder <Bold>ziehen Sie Verzeichnisse</Bold> aus Windows Explorer in die Medien &amp; Verzeichnisse Ansicht.<LineBreak/><LineBreak/>Drücken Sie &lt;F1&gt; für weitere Informationen.</TextBlock>]]></cont>
+				<button btnid="1">Alles klar!</button>
+				<button btnid="1001">Adobe Lightroom® Importer\nIch möchte meinen Lightroom-Katalog importieren.</button>
 			</m>
 			<m xml:lang="nl">
 				<cap>De database is nu klaar voor gebruik</cap>
