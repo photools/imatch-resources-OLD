@@ -7690,30 +7690,37 @@
 				<td tid="tt_tag_novalue">
 					<t xml:lang="en">Find all files without data for the specified metadata tag.</t>
 					<t xml:lang="de">Findet alle Dateien ohne Wert für das angegebene Metadaten-Tag.</t>
+					<t xml:lang="nl">Vindt alle bestanden  zonder waarde in de aangegeven metadata tag.</t>
 				</td>
 				<td tid="tt_tag_hasvalue">
 					<t xml:lang="en">Find all files which have data for the specified metadata tag.</t>
 					<t xml:lang="de">Findet alle Dateien mit einem Wert für das angegebene Metadaten-Tag.</t>
+					<t xml:lang="en">Vindt alle bestanden met een waarde voor de aangegeven metadata tag.</t>
 				</td>
 				<td tid="tt_tag_between">
 					<t xml:lang="en">Find all files with a value in the given range for the specified metadata tag.</t>
 					<t xml:lang="de">Findet alle Dateien mit einem Wert im angegebenen Bereich für das spezifizierte Metadaten-Tag.</t>
+					<t xml:lang="nl">Vindt alle bestanden met een waarde binnen het aangegeven bereik voor de aangegeven metadata tag.</t>
 				</td>
 				<td tid="tt_tag_regexp">
 					<t xml:lang="en">Find all files for which the tag value matches the given regular expression.</t>
 					<t xml:lang="de">Findet alle Dateien deren Tag-Wert dem verwendeten regulären Ausdruck entspricht.</t>
+					<t xml:lang="nl">Vindt alle bestanden waarbij waarde van tag voldoet aan de opgegeven uitdrukking.</t>
 				</td>
 				<td tid="tt_tag_contains_any">
 					<t xml:lang="en">Find all files which have tag data matching at least one of the specified values.</t>
 					<t xml:lang="de">Findet alle Dateien mit einem Tag-Wert, der mindestens einem der angegebenen Werte entspricht.</t>
+					<t xml:lang="nl">Vindt alle bestanden waarbij de waarde van de tag tenminste aan één van de opgegeven waarden voldoet.</t>
 				</td>
 				<td tid="tt_tag_contains_all">
 					<t xml:lang="en">Find all files which have tag data matching all of the specified values.</t>
 					<t xml:lang="de">Findet alle Dateien mit einem Tag-Wert, der allen angegebenen Werte entspricht.</t>
+					<t xml:lang="nl">Vindt alle bestanden waarbij de waarde van de tag aan alle opgegeven waarden voldoet.</t>
 				</td>
 				<td tid="tt_tag_contains_word">
 					<t xml:lang="en">Find all files which have tag data exactly matching all of the specified values.</t>
 					<t xml:lang="de">Findet alle Dateien mit einem Tag-Wert, der allen angegebenen Werte genau entspricht.</t>
+					<t xml:lang="nl">Vindt alle bestanden waarbij de waarde van de tag precies aan alle opgegeven waarden voldoet.</t>
 				</td>
 
 			</textdata>

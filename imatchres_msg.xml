@@ -1270,6 +1270,10 @@
 					<cap>Probleme bei der Ausführung von ExifTool!</cap>
 					<cont>Diese externe Anwendung wird von IMatch zum Lesen und Schreiben von Metadaten verwendet.\r\n\r\nBitte reparieren Sie die IMatch-Installation über die Windows Systemsteuerung. Stellen Sie sicher, dass Ihre Antivirus-Software oder auf Ihrem System aktivierte Richtlinien für Softwareeinschränkungen IMatch nicht daran hindern, externe Programme zu starten.</cont>
 				</m>
+				<m xml:lang="nl">
+					<cap>Er is een probleem bij het uitvoeren van ExifTool!</cap>
+					<cont>Deze externe applicatie wordt gebruikt door IMatch om metadata te lezen en te schrijven.\r\n\r\nVoor een reparatie van IMatch uit via Windows systeembesturing. Zorg er ook voor dat er geen anti-virus software of software uitvoeringsrechten op uw computer voorkomen dat externe programma's start.</cont>
+				</m>
 			</msg>
 			
 
@@ -4264,7 +4268,7 @@
 					<cont>Die Datei\n\n{0}\n\nkonnte nicht kopiert werden.</cont>
 				</m>
 				<m xml:lang="nl">
-					<cap>Fout bij het kopiëren van een besatnd</cap>
+					<cap>Fout bij het kopiëren van een bestand</cap>
 					<cont>Het bestand \n\n{0}\n\nkon niet gekopieerd worden.</cont>
 				</m>
 				<m xml:lang="pt">

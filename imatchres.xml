@@ -7461,6 +7461,7 @@
 			<cmd resid="ID_CMD_CATEGORY_RESETTHUMBNAIL" bmidx="-1">
 				<c xml:lang="en" hotkey="" helptext="Clears the category thumbnail">Clear category thumbnail</c>
 				<c xml:lang="de" hotkey="" helptext="Das Kategorie-Symbolbild auf 'Keines' zurücksetzen.">Kategorie-Symbolbild entfernen</c>
+				<c xml:lang="nl" hotkey="" helptext="Het categorie miniatuur wissen">Clear category thumbnail</c>
 			</cmd>
 		
 
@@ -8517,7 +8518,7 @@
                 <c xml:lang="en" hotkey="" helptext="Search the files currently in the file window (the 'scope').\r\nPress &lt;Enter&gt; to start searching.">Search</c>
                 <c xml:lang="de" hotkey="" helptext="Alle im Dateifenster befindlichen Dateien durchsuchen (der 'Scope').\r\nDrücken Sie &lt;Eingabe&gt;, um die Suche auszuführen.">Suchen</c>
 				<c xml:lang="fi" hotkey="" helptext="Hae">Hae</c>
-                <c xml:lang="nl" hotkey="" helptext="Zoeken">Zoeken</c>
+                <c xml:lang="nl" hotkey="" helptext="Doorzoek de bestanden die zich momenteel in het bestandsvenster (de 'scope') bevinden. \r\nDruk op &lt;Enter&gt; om het zoeken te starten.">Zoeken</c>
 				<c xml:lang="pt" hotkey="" helptext="Procurar">Procurar</c>
                 <c xml:lang="hr" hotkey="" helptext="Traži">Search</c>
                 <c xml:lang="no" hotkey="" helptext="Søk">Søk</c>
@@ -35162,7 +35163,7 @@
 				<desc xml:lang="en">EXIF timestamps often contain no time zone information. When mapping EXIF into XMP timestamps, IMatch leaves the XMP time zone empty. If you want to use a non-empty time zone, enter it here in the format (+/-)HH:MM (for example: +02:00).</desc>
 				<desc xml:lang="it">Il campo data e orario EXIF  non contiene nessuna informazione di fuso orario. Quando si esegue il mapping di data e ora EXIF in XMP, IMatch lascia il fuso orario XMP vuoto. Se si desidera utilizzare un fuso orario non vuoto, immetterlo qui nel formato hh:mm (+/-) (ad esempio: +02:00).</desc>
 				<desc xml:lang="de">Zeitangaben in EXIF sind oftmals nicht mit einer Zeitzone verbunden. Beim Importieren von EXIF-Zeitstempeln in XMP-Daten läßt IMatch die Zeitzone leer. Wenn Sie eine abweichende Zeitzone verwenden möchten, geben Sie diese hier im Format (+/-)HH:MM (z.B. +02:00) ein.</desc>
-				<desc xml:lang="nl">EXIF tijdstempels bevatten geen informatie over de tijdzone. Bij het importeren van EXIT-tijdstempels laat IMatch de tijdzone leeg. In het geval dat u een andere tijdzone wilt invoeren, dan kunt u dat hier doen in het formaat (+/-)HH:MM (b.v.: +02:00).</desc>
+				<desc xml:lang="nl">EXIF tijdstempels bevatten vaak geen informatie over de tijdzone. Bij het importeren van EXIT-tijdstempels laat IMatch de tijdzone leeg. In het geval dat u een andere tijdzone wilt invoeren, dan kunt u dat hier doen in het formaat (+/-)HH:MM (b.v.: +02:00).</desc>
 				<desc xml:lang="pt">>A data e hora do EXIF não possui informação sobre o fuso horário. Quando o IMatch mapeia o EXIF no fuso horário XMP, o IMatch deixa o fuso horário do XMP vazio. Se pretender utilizar um fuso horário, coloque-o aqui no formato (+/-)HH:MM (por exemplo: +02:00).</desc>
 				<group xml:lang="en">IPTC and EXIF Time Zones</group>
 				<group xml:lang="de">IPTC und EXIF Zeitzonen</group>
