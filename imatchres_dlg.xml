@@ -371,7 +371,7 @@
 					<t xml:lang="en"><![CDATA[<Bold>Categories</Bold>]]></t>
 					<t xml:lang="de"><![CDATA[<Bold>Kategorien</Bold>]]></t>
 					<t xml:lang="fi"><![CDATA[<Bold>Kategoriat</Bold>]]></t>
-					<t xml:lang="nl"><![CDATA[<Bold>Categoriën</Bold>]]></t>
+					<t xml:lang="nl"><![CDATA[<Bold>Categorieën</Bold>]]></t>
 					<t xml:lang="pt"><![CDATA[<Bold>Categorias</Bold>]]></t>
 					<t xml:lang="no"><![CDATA[<Bold>Kategorier</Bold>]]></t>
 					<t xml:lang="hr"><![CDATA[<Bold>Kategorije</Bold>]]></t>
@@ -1442,7 +1442,7 @@
             <ctrl text="#l_check_groups">
                 <c xml:lang="en" helptext="">&amp;Categories</c>
                 <c xml:lang="de" helptext="">&amp;Kategorien kopieren</c>
-                <c xml:lang="nl" helptext="">&amp;Categoriën</c>
+                <c xml:lang="nl" helptext="">&amp;Categorieën</c>
                 <c xml:lang="pt" helptext="">&amp;Categorias</c>
                 <c xml:lang="fi" helptext="">&amp;Kategoriat</c>
 				<c xml:lang="no" helptext="">&amp;Kategorier</c>
@@ -1487,7 +1487,7 @@
                 <ld listid="0x100">
                     <l xml:lang="en" helptext="">Categories</l>
                     <l xml:lang="de" helptext="">Kategorien</l>
-                    <l xml:lang="nl" helptext="">Categoriën</l>
+                    <l xml:lang="nl" helptext="">Categorieën</l>
                     <l xml:lang="fi" helptext="">Kategoriat</l>
 					<l xml:lang="pt" helptext="">Categorias</l>
 					<l xml:lang="no" helptext="">Kategorier</l>
@@ -2239,7 +2239,7 @@
 			<ctrl text="#l_hideempty">
 				<c xml:lang="en" helptext="Enable this option to see only categories which contain files">Hide &amp;empty categories</c>
 				<c xml:lang="de" helptext="Aktivieren Sie diese Option um nur Kategorien zu sehen, die Dateien enthalten">&amp;Leere Kategorien verbergen</c>
-				<c xml:lang="nl" helptext="Activeer deze optie om alleen categoriën met bestanden te tonen">L&amp;ege categoriën verbergen</c>
+				<c xml:lang="nl" helptext="Activeer deze optie om alleen categorieën met bestanden te tonen">L&amp;ege categorieën verbergen</c>
 				<c xml:lang="pt" helptext="Active esta opção para visualizar apenas as categorias que contêm ficheiros">Ocultar categorias &amp;vazias</c>
 				<c xml:lang="no" helptext="Angi denne opsjonen for kun å se kategorier med filer">Skjul &amp;tomme kategorier</c>
 				<c xml:lang="hr" helptext="Ako je omogućeno, vide se samo kategorije koje sadrže datoteke">Sakrij &amp;prazne kategorije</c>
@@ -2260,7 +2260,7 @@
 				<c xml:lang="en" helptext="Enable this to display the child categories of categories matching the filter expression.">&amp;Also show children</c>
 				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um Kindkategorien der gefundenen Kategorien ebenfalls anzuzeigen.">&amp;Auch Kindkategorien anzeigen</c>
 				<c xml:lang="pt" helptext="Active esta opção para mostrar os filhos das categorias que correspondem á expressão do filtro utilizada.">&amp;Mostra também os filhos</c>
-				<c xml:lang="nl" helptext="Zet deze optie aan om de ondercategoriën te tonen van de categoriën die aan het filter voldoen..">&amp;Toon subcategoriën</c>
+				<c xml:lang="nl" helptext="Zet deze optie aan om de ondercategorieën te tonen van de categorieën die aan het filter voldoen..">&amp;Toon subcategorieën</c>
 			</ctrl>
 		</dialog>
 
@@ -4148,7 +4148,7 @@
 					<l xml:lang="fi">Alakategoriat</l>
 					<l xml:lang="it">Categorie Supplementari</l>
 					<l xml:lang="pt">Categorias Suplementares</l>
-					<l xml:lang="nl">Aanvullende categoriën</l>
+					<l xml:lang="nl">Aanvullende categorieën</l>
 				</ld>
 				
 				<ld listid="25" key="XMP::Lightroom\hierarchicalSubject\HierarchicalSubject">
@@ -4407,6 +4407,7 @@
 				<c xml:lang="en" helptext="">Search the result</c>
 				<c xml:lang="de" helptext="">Das Ergebnis durchsuchen</c>
 				<c xml:lang="nl" helptext="">Doorzoek het resultaat</c>
+				<c xml:lang="pt" helptext="">Pesquisar o resultado</c>
 			</ctrl>
 
 			<textdata>
@@ -4432,76 +4433,76 @@
                 -->
                 <td tid="dp_allkeywords">
 				<!-- Use a name starting with A so this entry sorts on top -->
-                    <t xml:lang="en">All Keywords|-G1\r\n-IPTC:Keywords\r\n-XMP:Subject\r\n-XMP:HierarchicalSubject\r\n{Files}</t>
-                    <t xml:lang="de">Alle Schlüsselwörter|-G1\r\n-IPTC:Keywords\r\n-XMP:Subject\r\n-XMP:HierarchicalSubject\r\n{Files}</t>
-                    <t xml:lang="nl">Alle trefwoorden|-G1\r\n-IPTC:Keywords\r\n-XMP:Subject\r\n-XMP:HierarchicalSubject\r\n{Files}</t>
-                    <t xml:lang="it">A) tutte le Keywords|-G1\r\n-IPTC:Keywords\r\n-XMP:Subject\r\n-XMP:HierarchicalSubject\r\n{Files}</t>
-					<t xml:lang="pt">Todas as palavras chave|-G1\r\n-IPTC:Palavras chave\r\n-XMP:Assunto\r\n-XMP:Assunto hierárquico\r\n{Ficheiros}</t>
+                    <t xml:lang="en">All Keywords|-G1\r\n-IPTC:Keywords\r\n-XMP:Subject\r\n-XMP:HierarchicalSubject\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="de">Alle Schlüsselwörter|-G1\r\n-IPTC:Keywords\r\n-XMP:Subject\r\n-XMP:HierarchicalSubject\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="nl">Alle trefwoorden|-G1\r\n-IPTC:Keywords\r\n-XMP:Subject\r\n-XMP:HierarchicalSubject\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="it">A) tutte le Keywords|-G1\r\n-IPTC:Keywords\r\n-XMP:Subject\r\n-XMP:HierarchicalSubject\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="pt">Todas as palavras chave|-G1\r\n-IPTC:Palavras chave\r\n-XMP:Assunto\r\n-XMP:Assunto hierárquico\r\n{Files}</t>
                 </td>
                 <td tid="dp_deleteall">
-                    <t xml:lang="en">Delete all Metadata|-overwrite_original_in_place\r\n-all=\r\n{Files}</t>
-                    <t xml:lang="de">Alle Metadaten löschen|-overwrite_original_in_place\r\n-all=\r\n{Files}</t>
-                    <t xml:lang="nl">All Metadata verwijderen|-overwrite_original_in_place\r\n-all=\r\n{Files}</t>
-					<t xml:lang="pt">Eliminar Todos os Metadados|-overwrite_original_in_place\r\n-all=\r\n{Files}</t>
-					<t xml:lang="no">Slett alle metadata|-overwrite_original_in_place\r\n-all=\r\n{Files}</t>
-                    <t xml:lang="it">Cancella tutti i Metadati|-overwrite_original_in_place\r\n-all=\r\n{Files}</t>
+                    <t xml:lang="en">Delete all Metadata|-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="de">Alle Metadaten löschen|-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="nl">All Metadata verwijderen|-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="pt">Eliminar Todos os Metadados|-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="no">Slett alle metadata|-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="it">Cancella tutti i Metadati|-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
                 </td>
                 <td tid="dp_delete_xmp">
-                    <t xml:lang="en">Delete XMP Metadata|-overwrite_original_in_place\r\n-xmp=\r\n{Files}</t>
-                    <t xml:lang="de">XMP-Metadaten löschen|-overwrite_original_in_place\r\n-xmp=\r\n{Files}</t>
-					<t xml:lang="pt">Apagar Metadados XMP|-sobrescreve_original_no_lugar\r\n-xmp=\r\n{Ficheiros}</t>
-                    <t xml:lang="it">Eliminare i metadati XMP|-overwrite_original_in_place\r\n-xmp=\r\n{Files}</t>
-					<t xml:lang="nl">XMP Metadata wissen|-overwrite_original_in_place\r\n-xmp=\r\n{Files}</t>
+                    <t xml:lang="en">Delete XMP Metadata|-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="de">XMP-Metadaten löschen|-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="pt">Apagar Metadados XMP|-sobrescreve_original_no_lugar\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="it">Eliminare i metadati XMP|-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="nl">XMP Metadata wissen|-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
                 </td>
                 <td tid="dp_setheadline">
-                    <t xml:lang="en">Set XMP Headline|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Headline\r\n{Files}</t>
-                    <t xml:lang="de">Setze XMP Überschrift|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Überschrift\r\n{Files}</t>
-                    <t xml:lang="nl">XMP Headline|-overwrite_original_in_place\r\n-xmp-photoshop:headline=titel\r\n{Files}</t>
-					<t xml:lang="pt">Definir Cabeçalho XMP|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Cabeçalho\r\n{Files}</t>
-					<t xml:lang="no">Sett XMP overskrift|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Headline\r\n{Files}</t>
-                    <t xml:lang="it">Imposta Headline XMP|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Headline\r\n{Files}</t>
+                    <t xml:lang="en">Set XMP Headline|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Headline\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="de">Setze XMP Überschrift|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Überschrift\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="nl">XMP Headline|-overwrite_original_in_place\r\n-xmp-photoshop:headline=titel\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="pt">Definir Cabeçalho XMP|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Cabeçalho\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="no">Sett XMP overskrift|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Headline\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="it">Imposta Headline XMP|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Headline\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
                 </td>
                 <td tid="dp_contents">
-                    <t xml:lang="en">List Metadata|-G1\r\n-all\r\n-a\r\n{Files}</t>
-                    <t xml:lang="de">Metadaten ausgeben|-G1\r\n-all\r\n-a\r\n{Files}</t>
-                    <t xml:lang="nl">Metadata uitlijsten|-G1\r\n-all\r\n-a\r\n{Files}</t>
-					<t xml:lang="pt">Listar Metadados|-G1\r\n-all\r\n-a\r\n{Files}</t>
-					<t xml:lang="no">List metadata|-G1\r\n-all\r\n-a\r\n{Files}</t>
-                    <t xml:lang="it">Elenca Metadati|-G1\r\n-all\r\n-a\r\n{Files}</t>
+                    <t xml:lang="en">List Metadata|-G1\r\n-all\r\n-a\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="de">Metadaten ausgeben|-G1\r\n-all\r\n-a\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="nl">Metadata uitlijsten|-G1\r\n-all\r\n-a\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="pt">Listar Metadados|-G1\r\n-all\r\n-a\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="no">List metadata|-G1\r\n-all\r\n-a\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="it">Elenca Metadati|-G1\r\n-all\r\n-a\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
                 </td>
 				<td tid="dp_contents_xmp">
-					<t xml:lang="en">List Metadata in XMP files|-G1\r\n-all\r\n{XMPFiles}</t>
-					<t xml:lang="de">Metadaten aus XMP-Dateien ausgeben|-G1\r\n-all\r\n{XMPFiles}</t>
-					<t xml:lang="pt">Lista os Metadados em ficheiros XMP|-G1\r\n-all\r\n{FicheirosXMP}</t>
-					<t xml:lang="it">Elenca i Metadati nei file XMP|-G1\r\n-all\r\n{XMPFiles}</t>
-					<t xml:lang="nl">Toon de metadata in XMP-bestand|-G1\r\n-all\r\n{XMPFiles}</t>
+					<t xml:lang="en">List Metadata in XMP files|-G1\r\n-all\r\n-charset\r\nfilename=UTF8\r\n{XMPFiles}</t>
+					<t xml:lang="de">Metadaten aus XMP-Dateien ausgeben|-G1\r\n-all\r\n-charset\r\nfilename=UTF8\r\n{XMPFiles}</t>
+					<t xml:lang="pt">Lista os Metadados em ficheiros XMP|-G1\r\n-all\r\n-charset\r\nfilename=UTF8\r\n{FicheirosXMP}</t>
+					<t xml:lang="it">Elenca i Metadati nei file XMP|-G1\r\n-all\r\n-charset\r\nfilename=UTF8\r\n{XMPFiles}</t>
+					<t xml:lang="nl">Toon de metadata in XMP-bestand|-G1\r\n-all\r\n-charset\r\nfilename=UTF8\r\n{XMPFiles}</t>
 				</td>
 				<td tid="dp_xmp">
-                    <t xml:lang="en">Create XMP files|-overwrite_original\r\n-use\r\nMWG\r\n-tagsfromfile\r\n{File.FullName}\r\n{File.Path}{File.Name}.xmp|foreach</t>
-                    <t xml:lang="de">XMP-Dateien erstellen|-overwrite_original\r\n-use\r\nMWG\r\n-tagsfromfile\r\n{File.FullName}\r\n{File.Path}{File.Name}.xmp|foreach</t>
-                    <t xml:lang="nl">XMP-bestanden aanmaken|-overwrite_original\r\n-use\r\nMWG\r\n-tagsfromfile\r\n{File.FullName}\r\n{File.Path}{File.Name}.xmp|foreach</t>
-					<t xml:lang="pt">Criar Ficheiros XMP|-overwrite_original\r\n-use\r\nMWG\r\n-tagsfromfile\r\n{File.FullName}\r\n{File.Path}{File.Name}.xmp|foreach</t>
-					<t xml:lang="no">Opprett XMP-filer|-overwrite_original\r\n-use\r\nMWG\r\n-tagsfromfile\r\n{File.FullName}\r\n{File.Path}{File.Name}.xmp|foreach</t>
-                    <t xml:lang="it">Crea file XMP |-overwrite_original\r\n-use\r\nMWG\r\n-tagsfromfile\r\n{File.FullName}\r\n{File.Path}{File.Name}.xmp|foreach</t>
+                    <t xml:lang="en">Create XMP files|-overwrite_original\r\n-use\r\nMWG\r\n-tagsfromfile\r\n{File.FullName}\r\n-charset\r\nfilename=UTF8\r\n{File.Path}{File.Name}.xmp|foreach</t>
+                    <t xml:lang="de">XMP-Dateien erstellen|-overwrite_original\r\n-use\r\nMWG\r\n-tagsfromfile\r\n{File.FullName}\r\n-charset\r\nfilename=UTF8\r\n{File.Path}{File.Name}.xmp|foreach</t>
+                    <t xml:lang="nl">XMP-bestanden aanmaken|-overwrite_original\r\n-use\r\nMWG\r\n-tagsfromfile\r\n{File.FullName}\r\n-charset\r\nfilename=UTF8\r\n{File.Path}{File.Name}.xmp|foreach</t>
+					<t xml:lang="pt">Criar Ficheiros XMP|-overwrite_original\r\n-use\r\nMWG\r\n-tagsfromfile\r\n{File.FullName}\r\n-charset\r\nfilename=UTF8\r\n{File.Path}{File.Name}.xmp|foreach</t>
+					<t xml:lang="no">Opprett XMP-filer|-overwrite_original\r\n-use\r\nMWG\r\n-tagsfromfile\r\n{File.FullName}\r\n-charset\r\nfilename=UTF8\r\n{File.Path}{File.Name}.xmp|foreach</t>
+                    <t xml:lang="it">Crea file XMP |-overwrite_original\r\n-use\r\nMWG\r\n-tagsfromfile\r\n{File.FullName}\r\n-charset\r\nfilename=UTF8\r\n{File.Path}{File.Name}.xmp|foreach</t>
                 </td>
                 <td tid="dp_list_times">
-                    <t xml:lang="en">List File Dates and Times|-time:all\r\n-a\r\n-G0:1\r\n-s\r\n{Files}</t>
-					<t xml:lang="de">Datum und Zeit auflisten|-time:all\r\n-a\r\n-G0:1\r\n-s\r\n{Files}</t>
-                    <t xml:lang="nl">Datum en tijd tonen|-time:all\r\n-a\r\n-G0:1\r\n-s\r\n{Files}</t>
-                    <t xml:lang="it">Elenca Data e Ora dei file|-time:all\r\n-a\r\n-G0:1\r\n-s\r\n{Files}</t>
+                    <t xml:lang="en">List File Dates and Times|-time:all\r\n-a\r\n-G0:1\r\n-s\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="de">Datum und Zeit auflisten|-time:all\r\n-a\r\n-G0:1\r\n-s\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="nl">Datum en tijd tonen|-time:all\r\n-a\r\n-G0:1\r\n-s\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="it">Elenca Data e Ora dei file|-time:all\r\n-a\r\n-G0:1\r\n-s\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
 					<t xml:lang="pt">Lista as Datas e horas dos ficheiros|-hora:all\r\n-a\r\n-G0:1\r\n-s\r\n{Ficheiros}</t>
                 </td>
 				<td tid="dp_del_crs">
-					<t xml:lang="en">Delete Camera RAW data|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n{Files}</t>
-					<t xml:lang="de">Kamera RAW-Daten löschen|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n{Files}</t>
-					<t xml:lang="nl">Camera RAW data wissen|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n{Files}</t>
-					<t xml:lang="pt">Apagar os dados Camera RAW|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n{Files}</t>
-					<t xml:lang="it">Cancella Camera RAW data|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n{Files}</t>
+					<t xml:lang="en">Delete Camera RAW data|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="de">Kamera RAW-Daten löschen|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="nl">Camera RAW data wissen|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="pt">Apagar os dados Camera RAW|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="it">Cancella Camera RAW data|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
 				</td>
 				<td tid="dp_del_iptc">
-					<t xml:lang="en">Delete legacy IPTC (IIM) metadata|-overwrite_original_in_place\r\n-iptc:all=\r\n{Files}</t>
-					<t xml:lang="de">Alte IPTC-Daten (IIM) löschen|-overwrite_original_in_place\r\n-iptc:all=\r\n{Files}</t>
-					<t xml:lang="nl">Verwijder oude IPTC-gegevens (IIM) metadata|-overwrite_original_in_place\r\n-iptc:all=\r\n{Files}</t>
+					<t xml:lang="en">Delete legacy IPTC (IIM) metadata|-overwrite_original_in_place\r\n-iptc:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="de">Alte IPTC-Daten (IIM) löschen|-overwrite_original_in_place\r\n-iptc:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="nl">Verwijder oude IPTC-gegevens (IIM) metadata|-overwrite_original_in_place\r\n-iptc:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
 				</td>
 
 				<!--
@@ -6945,7 +6946,7 @@
 			<caption xml:lang="en">Categories</caption>
 			<caption xml:lang="de">Kategorien</caption>
 			<caption xml:lang="fi">Kategoriat</caption>
-			<caption xml:lang="nl">Categoriën</caption>
+			<caption xml:lang="nl">Categorieën</caption>
 			<caption xml:lang="pt">Categorias</caption>
 			<caption xml:lang="no">Kategorier</caption>
 			<caption xml:lang="it">Categorie</caption>
@@ -7284,7 +7285,7 @@
             <caption xml:lang="en">Select Group(s)</caption>
             <caption xml:lang="de">Kategorie(en) auswählen</caption>
 			<caption xml:lang="fi">Valitse ryhmä(t)</caption>
-            <caption xml:lang="nl">Categoriën selecteren</caption>
+            <caption xml:lang="nl">Categorieën selecteren</caption>
 			<caption xml:lang="pt">Seleccionar Grupo(s)</caption>
 			<caption xml:lang="no">Velg kategori(er)</caption>
             <caption xml:lang="it">Seleziona Gruppi</caption>
@@ -7303,14 +7304,14 @@
             <caption xml:lang="en">Add Categories</caption>
             <caption xml:lang="de">Kategorien anlegen</caption>
 			<caption xml:lang="fi">Lisää kategoria(t)</caption>
-            <caption xml:lang="nl">Categoriën toevoegen</caption>
+            <caption xml:lang="nl">Categorieën toevoegen</caption>
 			<caption xml:lang="pt">Adicionar Categorias</caption>
 			<caption xml:lang="no">Legg til kategorier</caption>
             <caption xml:lang="it">Aggiungi Categorie</caption>
             <ctrl text="#l_info">
                 <c xml:lang="en" helptext="">This dialog enables you to create multiple categories at the same time. Just type the category names below and separate them with a semicolon (;). You can also add hierarchies by separating the levels with the a | .</c>
                 <c xml:lang="de" helptext="">In diesem Dialog können Sie mehrere Kategorien auf einmal anlegen. Geben Sie unten die Namen der neuen Kategorien ein und trennen Sie diese mit einem Semikolon (;). Sie können auch Hierarchien anlegen, wenn Sie die Ebenen durch | trennen.</c>
-                <c xml:lang="nl" helptext="">Met deze optie kunt u meerdere categoriën ineens creëren. Geef de namen van de nieuwe categoriën gescheiden door een puntkomma (;). U kunt ook een hiërarchie toevoegen door niveau's te scheiden door middel van een | .</c>
+                <c xml:lang="nl" helptext="">Met deze optie kunt u meerdere categorieën ineens creëren. Geef de namen van de nieuwe categorieën gescheiden door een puntkomma (;). U kunt ook een hiërarchie toevoegen door niveau's te scheiden door middel van een | .</c>
 				<c xml:lang="pt" helptext="">Esta janela de diálogo permite-lhe criar múltiplas categorias em simultâneo. Insira os nomes das categorias abaixo e separe-os por ponto-e-vírgula (;). Também pode adicionar hierarquias separando os níveis com um | .</c>
 				<c xml:lang="no" helptext="">Denne dialogen gir deg mulighet til å opprette flere kategorier samtidig. Angi kategorinavn nedenfor og separer dem med semikolon (;). Du kan også legge til hierarkier ved å separere nivåene med | .</c>
                 <c xml:lang="it" helptext="">Questo dialogo abilita a creare categorie multiple nello stesso momento. Semplicemente aggiungete di seguito il nome delle categorie separandole con il punto e virgola (;). Si possono anche aggiungere le gerarchie separando i livelli con il simbolo | .</c>
@@ -7319,7 +7320,7 @@
                 <c xml:lang="en" helptext="">As child categories</c>
                 <c xml:lang="de" helptext="">Als untergeordnete Kategorien</c>
 				<c xml:lang="fi" helptext="">Alakategorioiksi</c>
-                <c xml:lang="nl" helptext="">Als onderliggende categoriën</c>
+                <c xml:lang="nl" helptext="">Als onderliggende categorieën</c>
 				<c xml:lang="pt" helptext="">Como categorias subordinadas</c>
 				<c xml:lang="no" helptext="">Som underordnede kategorier (barn)</c>
                 <c xml:lang="it" helptext="">Come categorie figlie </c>
@@ -7328,7 +7329,7 @@
                 <c xml:lang="en" helptext="">As sibling categories</c>
                 <c xml:lang="de" helptext="">Als Kategorien auf der gleichen Ebene</c>
 				<c xml:lang="fi" helptext="">Samalle kategoriatasolle</c>
-                <c xml:lang="nl" helptext="">Als categoriën op gelijk niveau</c>
+                <c xml:lang="nl" helptext="">Als categorieën op gelijk niveau</c>
 				<c xml:lang="pt" helptext="">Como categorias colaterais</c>
 				<c xml:lang="no" helptext="">Som sidestilte kategorier (søsken)</c>
                 <c xml:lang="it" helptext="">Come categorie sorelle</c>
@@ -7338,7 +7339,7 @@
 				<c xml:lang="de" helptext="Für alle neuen Kategorien die Farbkodierungseinstellungen auf 'Erben' setzen.">&amp;Farben erben</c>
 				<c xml:lang="it" helptext="Attivare l'opzione 'Eredita i colori' per le nuove categorie.">&amp;Eredita colori</c>
 				<c xml:lang="pt" helptext="Active a opção 'Herdar cores' para as novas categorias.">&amp;Herdar cores</c>
-				<c xml:lang="nl" helptext="Activeer de optie 'kleuren overnemen' voor de nieuwe categoriën.">&amp;Kleuren overnemen</c>
+				<c xml:lang="nl" helptext="Activeer de optie 'kleuren overnemen' voor de nieuwe categorieën.">&amp;Kleuren overnemen</c>
 			</ctrl>
 
 		</dialog>
@@ -7367,18 +7368,21 @@
 				<c xml:lang="en" helptext="">Name:</c>
 				<c xml:lang="de" helptext="">Name:</c>
 				<c xml:lang="nl" helptext="">Naam:</c>
+				<c xml:lang="pt" helptext="">Nome:</c>
 			</ctrl>
 
 			<ctrl text="#l_category">
 				<c xml:lang="en" helptext="">Category:</c>
 				<c xml:lang="de" helptext="">Kategorie:</c>
 				<c xml:lang="nl" helptext="">Categorie:</c>
+				<c xml:lang="pt" helptext="">Categoria:</c>
 			</ctrl>
 
 			<ctrl text="#l_check_use_colors">
 				<c xml:lang="en" helptext="Display the name in the tab using the category text color.">Use category text color for tabs</c>
 				<c xml:lang="de" helptext="Den Reiter-Namen in der Kategorie-Textfarbe anzeigen">Kategorie-Textfarbe für die Reiter verwenden</c>
 				<c xml:lang="nl" helptext="Toon de naam van de tab in de kleur van de categorie.">Use category text color for tabs</c>
+				<c xml:lang="pt" helptext="Exibe o nome na guia usando a cor do texto da categoria.">Utilize a cor do texto da categoria para as guias.</c>
 			</ctrl>
 
 			<ctrl text="#l_check_tab1">
@@ -7478,7 +7482,7 @@
                     <t xml:lang="en">Categories</t>
                     <t xml:lang="de">Kategorien</t>
 					<t xml:lang="fi">Kategoriat</t>
-                    <t xml:lang="nl">Categoriën</t>
+                    <t xml:lang="nl">Categorieën</t>
 					<t xml:lang="pt">Categorias</t>
 					<t xml:lang="no">Kategorier</t>
                     <t xml:lang="it">Categorie</t>
@@ -7487,7 +7491,7 @@
                     <t xml:lang="en">This section lists all categories in the database</t>
                     <t xml:lang="de">Diese Sektion listet alle Kategorien in der Datenbank auf</t>
 					<t xml:lang="fi">Tässä osassa on luettelo kaikista tietokannan kategorioista</t>
-                    <t xml:lang="nl">Dit onderdeel toont alle categoriën in de database</t>
+                    <t xml:lang="nl">Dit onderdeel toont alle categorieën in de database</t>
 					<t xml:lang="pt">Esta secção lista todas as categorias existentes na base de dados</t>
 					<t xml:lang="no">Denne delen lister opp alle kategorier i databasen</t>
                     <t xml:lang="it">Questa sezione elenca tutte le categorie presenti nel database</t>
@@ -7678,10 +7682,45 @@
                     <t xml:lang="it">Trova tutti i file il cui nome corrisponde all'espressione regolare data.</t>
 					<t xml:lang="pt">Encontra todos os ficheiros cujo nome corresponda á expressão regular dada.</t>
                 </td>
-				<td tid="tt_tag">
+				<td tid="tt_tag_generic">
 					<t xml:lang="en">Find all files based on the specified metadata tag and operation.</t>
 					<t xml:lang="de">Findet alle Dateien basierend auf dem angegebenen Metadaten-Tag.</t>
 					<t xml:lang="nl">Vindt alle bestanden, gebaseerd op de aangegeven metadata tag.</t>
+				</td>
+				<td tid="tt_tag_novalue">
+					<t xml:lang="en">Find all files without data for the specified metadata tag.</t>
+					<t xml:lang="de">Findet alle Dateien ohne Wert für das angegebene Metadaten-Tag.</t>
+					<t xml:lang="nl">Vindt alle bestanden  zonder waarde in de aangegeven metadata tag.</t>
+				</td>
+				<td tid="tt_tag_hasvalue">
+					<t xml:lang="en">Find all files which have data for the specified metadata tag.</t>
+					<t xml:lang="de">Findet alle Dateien mit einem Wert für das angegebene Metadaten-Tag.</t>
+					<t xml:lang="en">Vindt alle bestanden met een waarde voor de aangegeven metadata tag.</t>
+				</td>
+				<td tid="tt_tag_between">
+					<t xml:lang="en">Find all files with a value in the given range for the specified metadata tag.</t>
+					<t xml:lang="de">Findet alle Dateien mit einem Wert im angegebenen Bereich für das spezifizierte Metadaten-Tag.</t>
+					<t xml:lang="nl">Vindt alle bestanden met een waarde binnen het aangegeven bereik voor de aangegeven metadata tag.</t>
+				</td>
+				<td tid="tt_tag_regexp">
+					<t xml:lang="en">Find all files for which the tag value matches the given regular expression.</t>
+					<t xml:lang="de">Findet alle Dateien deren Tag-Wert dem verwendeten regulären Ausdruck entspricht.</t>
+					<t xml:lang="nl">Vindt alle bestanden waarbij waarde van tag voldoet aan de opgegeven uitdrukking.</t>
+				</td>
+				<td tid="tt_tag_contains_any">
+					<t xml:lang="en">Find all files which have tag data matching at least one of the specified values.</t>
+					<t xml:lang="de">Findet alle Dateien mit einem Tag-Wert, der mindestens einem der angegebenen Werte entspricht.</t>
+					<t xml:lang="nl">Vindt alle bestanden waarbij de waarde van de tag tenminste aan één van de opgegeven waarden voldoet.</t>
+				</td>
+				<td tid="tt_tag_contains_all">
+					<t xml:lang="en">Find all files which have tag data matching all of the specified values.</t>
+					<t xml:lang="de">Findet alle Dateien mit einem Tag-Wert, der allen angegebenen Werte entspricht.</t>
+					<t xml:lang="nl">Vindt alle bestanden waarbij de waarde van de tag aan alle opgegeven waarden voldoet.</t>
+				</td>
+				<td tid="tt_tag_contains_word">
+					<t xml:lang="en">Find all files which have tag data exactly matching all of the specified values.</t>
+					<t xml:lang="de">Findet alle Dateien mit einem Tag-Wert, der allen angegebenen Werte genau entspricht.</t>
+					<t xml:lang="nl">Vindt alle bestanden waarbij de waarde van de tag precies aan alle opgegeven waarden voldoet.</t>
 				</td>
 
 			</textdata>
@@ -7692,7 +7731,7 @@
             <caption xml:lang="en">Edit Data-driven Category</caption>
             <caption xml:lang="de">Datengesteuerte Kategorie bearbeiten</caption>
 			<caption xml:lang="fi">Muokkaa aineistopohjaista kategoriaa</caption>
-            <caption xml:lang="nl">Gegevensgestuurde categoriën bewerken</caption>
+            <caption xml:lang="nl">Gegevensgestuurde categorieën bewerken</caption>
 			<caption xml:lang="pt">Editar Categoria Dinâmica</caption>
 			<caption xml:lang="no">Rediger data-drevne kategorier</caption>
             <caption xml:lang="it">Modifica la categoria Data-driven</caption>
@@ -8301,12 +8340,14 @@
 				<c xml:lang="en" helptext="">&amp;Search:</c>
 				<c xml:lang="de" helptext="">&amp;Suchen:</c>
 				<c xml:lang="nl" helptext="">&amp;Zoeken:</c>
+				<c xml:lang="pt" helptext="">&amp;Procurar:</c>
 			</ctrl>
 
 			<ctrl text="#l_next">
 				<c xml:lang="en" helptext="">&amp;Next</c>
 				<c xml:lang="de" helptext="">&amp;Weiter</c>
 				<c xml:lang="nl" helptext="">&amp;Volgende</c>
+				<c xml:lang="pt" helptext="">&amp;Próximo</c>
 			</ctrl>
 
 		</dialog>
@@ -8410,17 +8451,20 @@
 				<c xml:lang="en" helptext="">Advanced Options</c>
 				<c xml:lang="de" helptext="">Erweiterte Optionen</c>
 				<c xml:lang="nl" helptext="">Geavanceerde opties</c>
+				<c xml:lang="pt" helptext="">Opções Avançadas</c>
 			</ctrl>
 			
 			<ctrl text="#l_port_info">
 				<c xml:lang="en" helptext=""><![CDATA[If you use your database on <Bold>multiple computers</Bold>, you can configure additional options to automatically adapt the database to different computers (e.g. 'Auto Relocate') below.]]></c>
 				<c xml:lang="de" helptext=""><![CDATA[Wenn Sie Ihre Datenbank auf <Bold>verschiedenen Computern</Bold> verwenden, können sie hier Einstellungen vornehmen, die die Datenbank an verschiedene Computer anpassen (z.B. 'Automatisches Umziehen').]]></c>
 				<c xml:lang="nl" helptext=""><![CDATA[Als u uw database op <Bold>verschillende computers</Bold> gebruikt, kunt u hier instellingen opgeven om de database aan te passen aan verschillende comnputers (bv. 'automatisch verplaatsen').]]></c>
+				<c xml:lang="pt" helptext=""><![CDATA[Se utiliza a base de dados em <Bold> vários computadores </ Bold>, pode configurar opções adicionais para adaptar automáticamente a base de dados a diferentes computadores (por exemplo, 'Realocação automática').]]></c>
 			</ctrl>
 			<ctrl text="#l_btn_portable">
 				<c xml:lang="en" helptext="">&amp;Portability Options...</c>
 				<c xml:lang="de" helptext="">&amp;Portabilitätseinstellungen...</c>
 				<c xml:lang="nl" helptext="">&amp;Portabiliteitsinstellingen...</c>
+				<c xml:lang="pt" helptext="">&amp;Opções de Portabilidade...</c>
 			</ctrl>
 			
 			<!-- Video -->
@@ -8429,36 +8473,42 @@
 				<c xml:lang="en" helptext="">Thumbnails for Video Files</c>
 				<c xml:lang="de" helptext="">Vorschaubilder für Video-Dateien</c>
 				<c xml:lang="nl" helptext="">Miniaturen voor video-bestanden</c>
+				<c xml:lang="pt" helptext="">Miniaturas para Ficheiros de Vídeo</c>
 			</ctrl>
 
 			<ctrl text="#l_video_offset">
 				<c xml:lang="en" helptext="The first frame to extract starts at this offset.">&amp;Offset:</c>
 				<c xml:lang="de" helptext="Das erste Bild wird ab dieser Position extrahiert.">&amp;Versatz:</c>
 				<c xml:lang="nl" helptext="Het eerste beeld wordt vanaf dit punt geëxtraheerd.">&amp;Offset:</c>
+				<c xml:lang="pt" helptext="A primeira imagem é extraída desta posição.">&amp;Posição:</c>
 			</ctrl>
 
 			<ctrl text="#l_s">
 				<c xml:lang="en" helptext="">s</c>
 				<c xml:lang="de" helptext="">s</c>
 				<c xml:lang="nl" helptext="">s</c>
+				<c xml:lang="pt" helptext="">s</c>
 			</ctrl>
 
 			<ctrl text="#l_check_vid_custom">
 				<c xml:lang="en" helptext="">C&amp;ustom intervals:</c>
 				<c xml:lang="de" helptext="">Ben&amp;utzerdefiniert:</c>
 				<c xml:lang="nl" helptext="">Gebr&amp;uikerinstelling:</c>
+				<c xml:lang="pt" helptext="">I&amp;ntervalos Personalizados:</c>
 			</ctrl>
 
 			<ctrl text="#l_intervals">
 				<c xml:lang="en" helptext="">Intervals to extract frames, in seconds. Separated with ,</c>
 				<c xml:lang="de" helptext="">Intervalle in Sekunden. Getrennt durch ,</c>
 				<c xml:lang="nl" helptext="">Intervallen in seconden. gescheiden door ,</c>
+				<c xml:lang="pt" helptext="">Intervalos para extrair imagens, em segundos. Separados com ,</c>
 			</ctrl>
 
 			<ctrl text="#l_vid_every">
 				<c xml:lang="en" helptext="">One frame every </c>
 				<c xml:lang="de" helptext="">Ein Bild pro </c>
 				<c xml:lang="nl" helptext="">Eén beeld per </c>
+				<c xml:lang="pt" helptext="">Uma imagem por </c>
 			</ctrl>
 			
 
@@ -8578,40 +8628,48 @@
 			<caption xml:lang="en">Database Portability Options</caption>
 			<caption xml:lang="de">Datenbank Portabilitätseinstellungen</caption>
 			<caption xml:lang="nl">Database Portabiliteitsinstellingen</caption>
+			<caption xml:lang="pt">Opções de Portabilidade da Base de Dados</caption>
 			<ctrl text="#l_computer">
 				<c xml:lang="en" helptext="">Portability options for this computer:</c>
 				<c xml:lang="de" helptext="">Portabilitätseinstellungen für diesen Computer:</c>
 				<c xml:lang="nl" helptext="">Portabiliteitsinstellingen voor deze computer:</c>
+				<c xml:lang="pt" helptext="">Opções de portabilidade para este computador:</c>
 			</ctrl>
 			<ctrl text="#l_btn_add">
 				<c xml:lang="en" helptext="">Add</c>
 				<c xml:lang="de" helptext="">Hinzufügen</c>
 				<c xml:lang="nl" helptext="">Toevoegen</c>
+				<c xml:lang="pt" helptext="">Adiciona</c>
 			</ctrl>
 			<ctrl text="#l_btn_remove">
 				<c xml:lang="en" helptext="">&amp;Remove</c>
 				<c xml:lang="de" helptext="">Enfe&amp;rnen</c>
 				<c xml:lang="nl" helptext="">Ve&amp;rwijderen</c>
+				<c xml:lang="pt" helptext="">&amp;Remove</c>
 			</ctrl>
 			<ctrl text="#l_auto_relocate">
 				<c xml:lang="en" helptext="">Automatically relocate these elements when opening the database on this computer:</c>
 				<c xml:lang="de" helptext="">Folgende Elemente automtisch umziehen, wenn die Datenbank auf diesem Computer geöffnet wird:</c>
 				<c xml:lang="nl" helptext="">De volgende elementen automatisch verplaatsen als de database op deze computer wordt geopend:</c>
+				<c xml:lang="pt" helptext="">Realoque automáticamente estes elementos quando abrir a base de dados neste computador:</c>
 			</ctrl>
 			<ctrl text="#l_btn_reloc_add">
 				<c xml:lang="en" helptext="Add a new auto-relocation rule">&amp;New...</c>
 				<c xml:lang="de" helptext="Eine neue Auto-Umzugsregel erstellen">&amp;Neu...</c>
 				<c xml:lang="nl" helptext="Een nieuwe verplaatsingsregel toevoegen">&amp;Nieuw...</c>
+				<c xml:lang="pt" helptext="Adicione uma nova regra de auto-realocação">&amp;Nova...</c>
 			</ctrl>
 			<ctrl text="#l_btn_reloc_edit">
 				<c xml:lang="en" helptext="Edit the selected auto-relocation rule">&amp;Edit...</c>
 				<c xml:lang="de" helptext="Eine neue Auto-Umzugsregel erstellen">Bearb&amp;eiten...</c>
 				<c xml:lang="nl" helptext="De geselecteerde verplaatsingregel bewerken">B&amp;ewerken...</c>
+				<c xml:lang="pt" helptext="Edita a regra de auto-realocação seleccionada">&amp;Editar...</c>
 			</ctrl>
 			<ctrl text="#l_btn_reloc_del">
 				<c xml:lang="en" helptext="Delete the selected auto-relocation rule">De&amp;lete</c>
 				<c xml:lang="de" helptext="Die ausgewählte Auto-Umzugsregel löschen">&amp;Löschen</c>
 				<c xml:lang="nl" helptext="De geselecteerde verplaatsingeregel verwijderen">Verwijderen</c>
+				<c xml:lang="pt" helptext="Apaga a regra de auto-realocação seleccionada">A&amp;paga</c>
 			</ctrl>
 
 			<textdata>
@@ -8619,26 +8677,31 @@
 					<t xml:lang="en">Type</t>
 					<t xml:lang="de">Typ</t>
 					<t xml:lang="nl">Type</t>
+					<t xml:lang="pt">Tipo</t>
 				</td>
 				<td tid="header_source">
 					<t xml:lang="en">Source</t>
 					<t xml:lang="de">Quelle</t>
 					<t xml:lang="nl">Bron</t>
+					<t xml:lang="pt">Fonte</t>
 				</td>
 				<td tid="header_target">
 					<t xml:lang="en">Target</t>
 					<t xml:lang="de">Ziel</t>
 					<t xml:lang="nl">Doel</t>
+					<t xml:lang="pt">Alvo</t>
 				</td>
 				<td tid="type_disk">
 					<t xml:lang="en">Disk</t>
 					<t xml:lang="de">Laufwerk</t>
 					<t xml:lang="nl">Schijf</t>
+					<t xml:lang="pt">Alvo</t>
 				</td>
 				<td tid="type_folder" selected="true">
 					<t xml:lang="en">Folder</t>
 					<t xml:lang="de">Verzeichnis</t>
 					<t xml:lang="nl">Map</t>
+					<t xml:lang="pt">Pasta</t>
 				</td>
 			</textdata>
 			
@@ -8649,20 +8712,24 @@
 			<caption xml:lang="en">Edit Relocation</caption>
 			<caption xml:lang="de">Umzug bearbeiten</caption>
 			<caption xml:lang="nl">Verplaatsingeregel bewerken</caption>
+			<caption xml:lang="pt">Editar Realocação</caption>
 			<ctrl text="#l_type">
 				<c xml:lang="en" helptext="">&amp;Type:</c>
 				<c xml:lang="de" helptext="">&amp;Typ:</c>
 				<c xml:lang="nl" helptext="">&amp;Type:</c>
+				<c xml:lang="pt" helptext="">&amp;Tipo:</c>
 			</ctrl>
 			<ctrl text="#l_source">
 				<c xml:lang="en" helptext="">&amp;Source:</c>
 				<c xml:lang="de" helptext="">&amp;Quelle:</c>
 				<c xml:lang="nl" helptext="">&amp;Bron:</c>
+				<c xml:lang="pt" helptext="">&amp;Fonte:</c>
 			</ctrl>
 			<ctrl text="#l_target">
 				<c xml:lang="en" helptext="">&amp;Target:</c>
 				<c xml:lang="de" helptext="">&amp;Ziel:</c>
 				<c xml:lang="nl" helptext="">&amp;Doel:</c>
+				<c xml:lang="pt" helptext="">&amp;Alvo:</c>
 			</ctrl>
 
 			<textdata>
@@ -8670,11 +8737,13 @@
 					<t xml:lang="en">Source folder or drive letter</t>
 					<t xml:lang="de">Quellverzeichnis oder Datenträgerbezeichnung</t>
 					<t xml:lang="nl">Bronmap of schijfletter</t>
+					<t xml:lang="pt">Diretório de origem ou letra do disco</t>
 				</td>
 				<td tid="ph_target">
 					<t xml:lang="en">Target folder or drive letter</t>
 					<t xml:lang="de">Zielverzeichnis oder Datenträgerbezeichnung</t>
 					<t xml:lang="nl">Doelmap of schijfletter</t>
+					<t xml:lang="pt">Diretório de destino ou letra do disco</t>
 				</td>
 			</textdata>
 			
@@ -8683,11 +8752,13 @@
 					<l xml:lang="en">Folder</l>
 					<l xml:lang="de">Verzeichnis</l>
 					<l xml:lang="nl">Map</l>
+					<l xml:lang="pt">Pasta</l>
 				</ld>
 				<ld listid="2" selected="true">
 					<l xml:lang="en">Disk</l>
 					<l xml:lang="de">Datenträger</l>
 					<l xml:lang="nl">Schijf</l>
+					<l xml:lang="pt">Disco</l>
 				</ld>
 			</listdata>
 		
@@ -9941,10 +10012,12 @@
 			<caption xml:lang="en">Apps</caption>
 			<caption xml:lang="de">Apps</caption>
 			<caption xml:lang="nl">Apps</caption>
+			<caption xml:lang="pt">Aplicações</caption>
 			<ctrl text="#l_apps">
 				<c xml:lang="en" helptext="">&amp;Apps::</c>
 				<c xml:lang="de" helptext="">&amp;Apps:</c>
 				<c xml:lang="nl" helptext="">&amp;Apps:</c>
+				<c xml:lang="pt" helptext="">&amp;Aplicações::</c>
 			</ctrl>
 		</dialog>
 
@@ -10033,7 +10106,7 @@
 			<ctrl text="#l_cats" style="bold">
 				<c xml:lang="en" helptext="">Add files to catego&amp;ries:</c>
 				<c xml:lang="de" helptext="">Dateien zu Katego&amp;rien hinzufügen</c>
-				<c xml:lang="nl" helptext="">Bestanden aan categoriën toevoegen:</c>
+				<c xml:lang="nl" helptext="">Bestanden aan categorieën toevoegen:</c>
 				<c xml:lang="pt" helptext="">Adicionar ficheiros a catego&amp;rias:</c>
 				<c xml:lang="no" helptext="">Legg filer til katego&amp;rier:</c>
 				<c xml:lang="it" helptext="">Aggiungi file alle catego&amp;rie:</c>
@@ -10102,6 +10175,7 @@
 				<c xml:lang="en" helptext="">All duplicate files</c>
 				<c xml:lang="de" helptext="">Alle doppelten Dateien</c>
 				<c xml:lang="nl" helptext="">Alle duplicaten</c>
+				<c xml:lang="pt" helptext="">Todos os ficheiros duplicados</c>
 			</ctrl>
 
 			<!-- Templates -->
@@ -11493,16 +11567,19 @@
 				<c xml:lang="en" helptext="Find versions by comparing master and version variables.">Limit by &amp;Variables:</c>
 				<c xml:lang="de" helptext="Findet Versionen durch Vergleichen von Variablen der Haupt- und Versionsdateien.">Mit &amp;Variablen einschränken:</c>
 				<c xml:lang="nl" helptext="Vindt versies door variabelen van master en versie(-s) te vergelijken.">Limit by &amp;Variables:</c>
+				<c xml:lang="pt" helptext="Encontra versões comparando variáveis dos arquivos principais e de versão.">Limite por &amp;Variáveis:</c>
 			</ctrl>
 			<ctrl text="#l_variable_master">
 				<c xml:lang="en" helptext="Enter a standard IMatch variable expression or a literal.">Mas&amp;ter Expression:</c>
 				<c xml:lang="de" helptext="Geben Sie einen IMatch Variablenausdruck oder ein Literal ein">Haup&amp;tdateiausdruck:</c>
 				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking of een letterlijke tekst in.">Mas&amp;ter Expression:</c>
+				<c xml:lang="pt" helptext="Digite uma variável padrão do IMatch ou um literal.">Exp&amp;ressão Principal:</c>
 			</ctrl>
 			<ctrl text="#l_variable_file">
 				<c xml:lang="en" helptext="Enter a standard IMatch variable expression.">Versio&amp;n Expression:</c>
 				<c xml:lang="de" helptext="Geben Sie einen IMatch Variablenausdruck ein.">Versio&amp;nsausdruck:</c>
-				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking in.">Versio&amp;n Expression:</c>				
+				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking in.">Versio&amp;n Expression:</c>
+				<c xml:lang="pt" helptext="Digite uma variável padrão do IMatch.">Exp&amp;ressão Versão:</c>
 			</ctrl>
 
 			<ctrl text="#l_s">
@@ -11915,7 +11992,7 @@
 				<c xml:lang="en" helptext="">&amp;Categories to propagate:</c>
 				<c xml:lang="de" helptext="">Diese &amp;Kategorien propagieren:</c>
 				<c xml:lang="fi" helptext="">&amp;Laajennettavat kategoriat</c>
-				<c xml:lang="nl" helptext="">&amp;Categoriën:</c>
+				<c xml:lang="nl" helptext="">&amp;Categorieën:</c>
 				<c xml:lang="pt" helptext="">&amp;Categorias a propagar:</c>
 				<c xml:lang="no" helptext="">&amp;Kategorier:</c>
 				<c xml:lang="it" helptext="">&amp;Categorie sa propagare:</c>
@@ -11945,7 +12022,7 @@
 				<c xml:lang="en" helptext="This controls if the master categories are merged with the existing categories of the version or if the version categories are replaced entirely.">Remove versio&amp;n from all other categories</c>
 				<c xml:lang="de" helptext="Bestimmt, ob die Kategorien des Masters zu den bestehenden Kategorien der Version hinzugefügt werden, oder diese komplett ersetzen.">Versio&amp;n aus allen anderen Kategorien entfernen.</c>
 				<c xml:lang="pt" helptext="Isto controla se as categorias principais são fundidas (misturadas) com as categorias existentes da versão ou se são substituidas completamente.">Remove versã&amp;o de todas as outras categorias</c>
-				<c xml:lang="nl" helptext="Dit bepaalt of de categoriën van de master worden toegevoegd aan de bestaande categoriën (van de versie), of dat die geheel worden vervangen.">Versie verwijdere&amp;n uit alle andere categoriën</c>
+				<c xml:lang="nl" helptext="Dit bepaalt of de categorieën van de master worden toegevoegd aan de bestaande categorieën (van de versie), of dat die geheel worden vervangen.">Versie verwijdere&amp;n uit alle andere categorieën</c>
 				<c xml:lang="it" helptext="Controlla se le categorie master sono fuse con le categorie esistenti nella versione o le categorie di versione vengono sostituite interamente.">Rimuovi  versio&amp;ni da tutte le altre categorie</c>
 			</ctrl>
 
@@ -11955,7 +12032,7 @@
 					<l xml:lang="en">Categories</l>
 					<l xml:lang="de">Kategorien</l>
 					<l xml:lang="fi">Kategoriat</l>
-					<l xml:lang="nl">Categoriën</l>
+					<l xml:lang="nl">Categorieën</l>
 					<l xml:lang="pt">Categorias</l>
 					<l xml:lang="no">Kategorier</l>
 					<l xml:lang="it">Categorie</l>
@@ -12250,6 +12327,7 @@
 				<c xml:lang="en" helptext="Enable this to hide this Attribute Set in the Attribute Panel.">&amp;Hidden Set</c>
 				<c xml:lang="de" helptext="Aktivieren Sie diese Option, um dieses Set im Attribute-Panel zu verbergen.">&amp;Verborgenes Set</c>
 				<c xml:lang="nl" helptext="Activeer deze optie om deze attributenset te verbergen in het Attributen-paneel.">&amp;Hidden Set</c>
+				<c xml:lang="pt" helptext="Activar para esconder este Conjunto de Atributos no Painel de Atributos.">&amp;Esconde Conjunto</c>
 			</ctrl>
 
 			<ctrl text="#l_btn_attr_up">
@@ -13685,11 +13763,13 @@
 				<c xml:lang="en" helptext="">Color: </c>
 				<c xml:lang="de" helptext="">Farbe: </c>
 				<c xml:lang="nl" helptext="">Kleur: </c>
+				<c xml:lang="pt" helptext="">Cor: </c>
 			</ctrl>
 			<ctrl text="#l_color">
 				<c xml:lang="en" helptext="">Color</c>
 				<c xml:lang="de" helptext="">Farbe</c>
 				<c xml:lang="nl" helptext="">Kleur</c>
+				<c xml:lang="pt" helptext="">Cor: </c>
 			</ctrl>
 
 
@@ -13915,7 +13995,7 @@
         <dialog resid="PTRMDLG_IMPEXP_GROUPS_EXPORT" resgroup="impexp" desc="Dialog for Category Export">
             <caption xml:lang="en">Export Categories</caption>
             <caption xml:lang="de">Kategorien exportieren</caption>
-            <caption xml:lang="nl">Categoriën exporteren</caption>
+            <caption xml:lang="nl">Categorieën exporteren</caption>
 			<caption xml:lang="pt">Exportar Categorias</caption>
 			<caption xml:lang="no">Eksporter kategorier</caption>
 			<caption xml:lang="fi">Vie kategoriat</caption>
@@ -13923,7 +14003,7 @@
             <ctrl text="#l_recurse">
                 <c xml:lang="en" helptext="">Includ&amp;e child categories</c>
                 <c xml:lang="de" helptext="">Untergeordnete Kategorien &amp;einschließen</c>
-                <c xml:lang="nl" helptext="">Inclusief ond&amp;erliggende categoriën</c>
+                <c xml:lang="nl" helptext="">Inclusief ond&amp;erliggende categorieën</c>
 				<c xml:lang="pt" helptext="">Inclui&amp;r categorias subordinadas</c>
 				<c xml:lang="no" helptext="">Inklud&amp;er underkategorier</c>
 				<c xml:lang="fi" helptext="">Sisällytä &amp;alakategoriat</c>
@@ -13992,7 +14072,7 @@
         <dialog resid="PTRMDLG_IMPEXP_GROUPS_IMPORT" resgroup="impexp" desc="Dialog for Category Import">
             <caption xml:lang="en">Import Categories</caption>
             <caption xml:lang="de">Kategorien importieren</caption>
-            <caption xml:lang="nl">Categoriën importeren</caption>
+            <caption xml:lang="nl">Categorieën importeren</caption>
 			<caption xml:lang="pt">Importar Categorias</caption>
 			<caption xml:lang="no">Importer kategorier</caption>
 			<caption xml:lang="fi">Tuo kategoriat</caption>
@@ -14094,7 +14174,7 @@
             <ctrl text="#l_recurse">
                 <c xml:lang="en" helptext="Enable this to include child folders and child categories of dropped folders and categories.">Process dropped objects &amp;recursively</c>
                 <c xml:lang="de" helptext="Aktivieren Sie diese Option um Unterverzeichnisse bzw. Kindkategorien von abgelegten Verzeichnissen oder Kategorien einzuschließen.">Abgelegte Objekte &amp;rekursiv bearbeiten</c>
-                <c xml:lang="nl" helptext="Activeer deze optie om onderliggende folders en categoriën van neergezette folders en categoriën ook te exporteren.">Neergezette objecten &amp;recursief verwerken</c>
+                <c xml:lang="nl" helptext="Activeer deze optie om onderliggende folders en categorieën van neergezette folders en categorieën ook te exporteren.">Neergezette objecten &amp;recursief verwerken</c>
 				<c xml:lang="pt" helptext="Active esta opção para incluir sub-pastas e categorias subordinadas das pastas e categorias para aqui arrastadas.">Processar objectos arrastados  &amp;recursivamente</c>
 				<c xml:lang="no" helptext="Aktiver dette for å inkludere undermapper og underkategorier for mapper og kategorier som dras og slippes.">Prosesser objekter &amp;rekursivt</c>
                 <c xml:lang="it" helptext="Abilita questo per includere sotto-cartelle w sotto-categorie di cartelle e categorie trascinate.">	Elabora &amp;ricorsivamente gli oggetti trascinati</c>
@@ -23309,21 +23389,25 @@
 			<caption xml:lang="en">Create Face Annotations</caption>
 			<caption xml:lang="de">Gesichtsanmerkungen erstellen</caption>
 			<caption xml:lang="nl">Gezichtsannotaties creëeren</caption>
+			<caption xml:lang="pt">Cria Anotações de Rosto</caption>
 
 			<ctrl text="#l_check_ignore">
 				<c xml:lang="en" helptext="">&amp;Ignore images which already have face annotations</c>
 				<c xml:lang="de" helptext="">Bilder mit Gesichtsanmerkungen &amp;ignorieren</c>
 				<c xml:lang="nl" helptext="">Afbeeldingen die reeds gez&amp;ichtsannotaties hebben, negeren</c>
+				<c xml:lang="pt" helptext="">&amp;Ignora imagens que já tenham anotações de rosto</c>
 			</ctrl>
 			<ctrl text="#l_check_delete">
 				<c xml:lang="en" helptext="">Dele&amp;te existing face annotations</c>
 				<c xml:lang="de" helptext="">Bestehende Gesichtsanmerkungen &amp;löschen</c>
 				<c xml:lang="nl" helptext="">Bestaande gezichtannotaties verwij&amp;deren</c>
+				<c xml:lang="pt" helptext="">Apa&amp;ga anotações de rosto já existentes</c>
 			</ctrl>
 			<ctrl text="#l_info">
 				<c xml:lang="en" helptext="">If all images show the same person, you can optionally assign a tag to all new annotations:</c>
 				<c xml:lang="de" helptext="">Wenn alle Bilder die gleiche Person zeigen, können Sie optional allen neuen Anmerkungen ein Tag zuweisen:</c>
 				<c xml:lang="nl" helptext="">Als alle afbeeldingen dezelfde persoon tonen, kunt u optioneel een tag aan alle nieuwe annotaties toekennen:</c>
+				<c xml:lang="pt" helptext="">Se todas as imagens mostrarem a mesma pessoa, pode opcionalmente atribuir uma etiqueta a todas as novas anotações:</c>
 			</ctrl>
 
 

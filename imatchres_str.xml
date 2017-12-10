@@ -234,6 +234,7 @@
 				<s xml:lang="en">Added</s>
 				<s xml:lang="de">Hinzugefügt</s>
 				<s xml:lang="nl">Toegevoegd</s>
+				<s xml:lang="pt">Acrescentado</s>
 			</str>
 		
 
@@ -363,16 +364,72 @@
 				<s xml:lang="fi">ORF liitetiedostot</s>
                 <s xml:lang="it">ORF Buddy Files</s>
             </str>
-            <str resid="PTR_DBCORE_RELDEF_NAME_NEFVER" desc="">
-                <s xml:lang="en">NEF Versioning</s>
-                <s xml:lang="de">NEF Versionierung</s>
-                <s xml:lang="nl">NEF Versies</s>
-				<s xml:lang="pt">Versões NEF</s>
-                <s xml:lang="hr">NEF određivanje verzije</s>
-				<s xml:lang="fr">Versionnage des NEF</s>
-				<s xml:lang="fi">NEF versiointi</s>
-                <s xml:lang="it">NEF Versioni</s>
+			
+            <str resid="PTR_DBCORE_RELDEF_NAME_NIKON_VER" desc="">
+                <s xml:lang="en">Nikon Versioning</s>
+                <s xml:lang="de">Nikon Versionierung</s>
+                <s xml:lang="nl">Nikon Versies</s>
+				<s xml:lang="pt">Versões Nikon</s>
+                <s xml:lang="hr">Nikon određivanje verzije</s>
+				<s xml:lang="fr">Versionnage des Nikon</s>
+				<s xml:lang="fi">Nikon versiointi</s>
+                <s xml:lang="it">Nikon Versioni</s>
             </str>
+
+			<str resid="PTR_DBCORE_RELDEF_NAME_CANON_VER" desc="">
+				<s xml:lang="en">Canon Versioning</s>
+				<s xml:lang="de">Canon Versionierung</s>
+				<s xml:lang="nl">Canon Versies</s>
+				<s xml:lang="pt">Versões Canon</s>
+				<s xml:lang="hr">Canon određivanje verzije</s>
+				<s xml:lang="fr">Versionnage des Canon</s>
+				<s xml:lang="fi">Canon versiointi</s>
+				<s xml:lang="it">Canon Versioni</s>
+			</str>
+
+			<str resid="PTR_DBCORE_RELDEF_NAME_SONY_VER" desc="">
+				<s xml:lang="en">Sony Versioning</s>
+				<s xml:lang="de">Sony Versionierung</s>
+				<s xml:lang="nl">Sony Versies</s>
+				<s xml:lang="pt">Versões Sony</s>
+				<s xml:lang="hr">Sony određivanje verzije</s>
+				<s xml:lang="fr">Versionnage des Sony</s>
+				<s xml:lang="fi">Sony versiointi</s>
+				<s xml:lang="it">Sony Versioni</s>
+			</str>
+
+			<str resid="PTR_DBCORE_RELDEF_NAME_OLYMPUS_VER" desc="">
+				<s xml:lang="en">Olympus Versioning</s>
+				<s xml:lang="de">Olympus Versionierung</s>
+				<s xml:lang="nl">Olympus Versies</s>
+				<s xml:lang="pt">Versões Olympus</s>
+				<s xml:lang="hr">Olympus određivanje verzije</s>
+				<s xml:lang="fr">Versionnage des Olympus</s>
+				<s xml:lang="fi">Olympus versiointi</s>
+				<s xml:lang="it">Olympus Versioni</s>
+			</str>
+
+			<str resid="PTR_DBCORE_RELDEF_NAME_PANASONIC_VER" desc="">
+				<s xml:lang="en">Panasonic Versioning</s>
+				<s xml:lang="de">Panasonic Versionierung</s>
+				<s xml:lang="nl">Panasonic Versies</s>
+				<s xml:lang="pt">Versões Panasonic</s>
+				<s xml:lang="hr">Panasonic određivanje verzije</s>
+				<s xml:lang="fr">Versionnage des Panasonic</s>
+				<s xml:lang="fi">Panasonic versiointi</s>
+				<s xml:lang="it">Panasonic Versioni</s>
+			</str>
+
+			<str resid="PTR_DBCORE_RELDEF_NAME_FUJI_VER" desc="">
+				<s xml:lang="en">Fuji Versioning</s>
+				<s xml:lang="de">Fuji Versionierung</s>
+				<s xml:lang="nl">Fuji Versies</s>
+				<s xml:lang="pt">Versões Fuji</s>
+				<s xml:lang="hr">Fuji određivanje verzije</s>
+				<s xml:lang="fr">Versionnage des Fuji</s>
+				<s xml:lang="fi">Fuji versiointi</s>
+				<s xml:lang="it">Fuji Versioni</s>
+			</str>
 
 			<!-- Annotation: Default import base path for keywords. We better set one so users who don't follow the instructions don't mess up the root level of their @Keywords with names pulled in from XMP regions. -->
 			<str resid="PTR_DBCORE_ANNOMAP_BASEPATH" desc="">
@@ -2092,11 +2149,13 @@
 				<s xml:lang="en">The database is upgraded to version {0}. This can take a while...</s>
 				<s xml:lang="de">Die Datenbank wird auf Version {0} aktualisiert. Dies kann ein wenig dauern...</s>
 				<s xml:lang="nl">De database wordt geügarde naar version {0}. Dit kan even duren...</s>
+				<s xml:lang="pt">A base de dados vai ser actualizada para a versão {0}. Esta actualização pode demorar um bocado...</s>
 			</str>
 			<str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_UPGRADE_END" desc="">
 				<s xml:lang="en">Database format is current.</s>
 				<s xml:lang="de">Das Datenbankformat ist aktuell.</s>
 				<s xml:lang="nl">Het databaseformat is actueel.</s>
+				<s xml:lang="pt">O formato da base de dados está actualizado.</s>
 			</str>
 
 
@@ -2255,6 +2314,7 @@
 				<s xml:lang="en">Running portability options and auto-relocate...</s>
 				<s xml:lang="de">Portabilitätsoptionen werden angewendet und 'Automatisches Umziehen' wird durchgeführt...</s>
 				<s xml:lang="nl">Portabiliteitsopties en 'automatisch verplaatsen' worden uitgevoerd...</s>
+				<s xml:lang="pt">As opções de portabilidade são aplicadas e a "Mudança automática" é realizada...</s>
 			</str>
 
 			<str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_FINALSTEPS" desc="">
@@ -2774,7 +2834,7 @@
 			<str resid="PTR_MAINFRAME_STATUSBAR_DDCAT_UPDATE">
 				<s xml:lang="en">Updating data-driven categories...</s>
 				<s xml:lang="de">Aktualisiere datengestützte Kategorien...</s>
-				<s xml:lang="nl">Updaten gegevens-gestuurde categoriën...</s>
+				<s xml:lang="nl">Updaten gegevens-gestuurde categorieën...</s>
 				<s xml:lang="hr">Ažuriranje kategorija prema podacima ...</s>
 				<s xml:lang="fr">Les catégories pilotées par formule sont mises à jour...</s>
 				<s xml:lang="fi">Päivitetään aineistopohjaisia kategorioita...</s>
@@ -2960,6 +3020,7 @@
 				<s xml:lang="en">Closing apps...</s>
 				<s xml:lang="de">Apps werden beendet...</s>
 				<s xml:lang="nl">Apps worden beëindigd...</s>
+				<s xml:lang="pt">Fechando aplicações...</s>
 			</str>
 
 		</string_group>
@@ -3105,8 +3166,9 @@
 
 			<str resid="PTR_MAINFRAME_PROGRESSDLG_DBCOMPACT_TIMER" desc="">
 				<s xml:lang="en">Running for {0}.</s>
-				<s xml:lang="en">Läuft seit {0}.</s>
+				<s xml:lang="de">Läuft seit {0}.</s>
 				<s xml:lang="nl">Loopt sinds {0}.</s>
+				<s xml:lang="pt">Funciona desde {0}.</s>
 			</str>
 
 			<str resid="PTR_MAINFRAME_PROGRESSDLG_DBCLOSE_HEADLINE" desc="">
@@ -3367,7 +3429,7 @@
 				<s xml:lang="fi"><![CDATA[{0}\r\n\r\nNapsauta lisätäksesi tämän tiedoston kategoriat kaikkiin valittuihin tiedostoihin. &lt;Shift&gt;+napsautus korvataksesi kaikkien valittujen tiedostojen kategoriat tämän tiedoston kategorioilla.]]></s>
 				<s xml:lang="it"><![CDATA[{0}\r\n\r\nFare clic per aggiungere le categorie di questo file a tutti i file attualmente selezionati. &lt;Shift&gt;+click per sostituire le categorie di tutti i file selezionati con le categorie di questo file.]]></s>
 				<s xml:lang="de"><![CDATA[{0}\r\n\r\nKlicken Sie, um die Kategorien dieser Datei den ausgewählten Dateien hinzuzufügen. &lt;Umsch&gt;+klick, um die Kategorien der ausgewählten Dateien durch die Kategorien dieser Datei zu ersetzen.]]></s>
-				<s xml:lang="nl"><![CDATA[{0}\r\n\r\nKlikken om de categoriën van dit bestand aan alle geselecteerde bestanden toe te wijzen. &lt;ShftUmsch&gt;+klikken om de categoriën van de geselecteerde bestanden te vervangen door de categorien van dit bestand.]]></s>
+				<s xml:lang="nl"><![CDATA[{0}\r\n\r\nKlikken om de categorieën van dit bestand aan alle geselecteerde bestanden toe te wijzen. &lt;ShftUmsch&gt;+klikken om de categorieën van de geselecteerde bestanden te vervangen door de categorien van dit bestand.]]></s>
 				<s xml:lang="pt"><![CDATA[{0}\r\n\r\nFaça clique para adicionar as categorias deste ficheiro a todos os ficheiros actualmente seleccionados. &lt;Shift&gt;+clique para substituir as categorias de todos os ficheiros seleccionados com as categorias deste ficheiro.]]></s>
 				<s xml:lang="hr"><![CDATA[{0}\r\n\r\nKlikni da bi dodao kategorije iz ove datoteke u sve odabrane datoteke. &lt;Shift&gt;+klik da bi zamijenio kategorije u svim odabranim datotekama s kategorijama iz ove datoteke.]]></s>
 			</str>
@@ -3887,6 +3949,7 @@
 				<s xml:lang="en"><![CDATA[The geo service seems to fail to respond or to respond very slowly. Maybe reloading the map panel or switching to another map provider helps.]]></s>
 				<s xml:lang="de"><![CDATA[Der Kartendienst scheint nicht mehr zu antworten oder antwortet nur sehr langsam. Versuchen Sie, die Karte neu zu laden oder wechseln Sie zu einem anderen Kartendienst.]]></s>
 				<s xml:lang="nl"><![CDATA[De kaart reageert niet of heel langzaam. Probeer de kaart opnieuw te laden of wissel van kaartaanbieder.]]></s>
+				<s xml:lang="pt"><![CDATA[O serviço geo parece não responder ou responder muito devagar. Talvez se recarregar o painel do mapa ou mudar para outro provedor de mapas ajude.]]></s>
 			</str>
 
 
@@ -5287,41 +5350,49 @@
 				<s xml:lang="en">Face Detection</s>
 				<s xml:lang="de">Gesichtserkennung</s>
 				<s xml:lang="nl">Gezichtsherkenning</s>
+				<s xml:lang="pt">Detecção de rosto</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_DETECT_FACES_HEADLINE" desc="">
 				<s xml:lang="en">Creating Face Annotations...</s>
 				<s xml:lang="de">Gesichtsanmerkungen werden erstellt...</s>
 				<s xml:lang="nl">Gezichtsannotaties worden aangemaakt...</s>
+				<s xml:lang="pt">Criando Anotações de Rosto...</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_DELETE_FACES" desc="">
 				<s xml:lang="en">Remove Face Annotations</s>
 				<s xml:lang="de">Gesichtsanmerkungen löschen</s>
 				<s xml:lang="nl">Gezichtannotaties verwijderen</s>
+				<s xml:lang="pt">Removendo Anotações de Rosto</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_DELETE_FACES_HEADLINE" desc="">
 				<s xml:lang="en">Deleting Face Annotations...</s>
 				<s xml:lang="de">Gesichtsanmerkungen werden gelöscht...</s>
 				<s xml:lang="nl">Gezichtannotaties worden verwijderd...</s>
+				<s xml:lang="pt">Apagando Anotações de Rosto...</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_WRITE_XMP" desc="">
 				<s xml:lang="en">Write Face Annotations to XMP</s>
 				<s xml:lang="de">Gesichtsanmerkungen im XMP-Datensatz speichern</s>
 				<s xml:lang="nl">Gezichtsannotaties in XMP opslaan</s>
+				<s xml:lang="pt">Escreve Anotações de Rosto no ficheiro XMP</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_WRITE_XMP_HEADLINE" desc="">
 				<s xml:lang="en">Writing Face Annotations to XMP...</s>
 				<s xml:lang="de">Gesichtsanmerkungen werden im XMP-Datensatz gespeichert...</s>
 				<s xml:lang="nl">Gezichtannotaties worden XMP opgeslagen...</s>
+				<s xml:lang="pt">Escrevendo Anotações de Rosto no ficheiro XMP...</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_READ_XMP" desc="">
 				<s xml:lang="en">Read Face Annotations from XMP</s>
 				<s xml:lang="de">Gesichtsanmerkungen aus XMP-Datensatz erstellen</s>
 				<s xml:lang="nl">Gezichtsannotaties uit XMP lezen</s>
+				<s xml:lang="pt">Ler Anotações de Rosto a partir do ficheiro XMP</s>
 			</str>
 			<str resid="PTR_TASKMAN_ANNOTATIONS_READ_XMP_HEADLINE" desc="">
 				<s xml:lang="en">Reading Face Annotations from XMP...</s>
 				<s xml:lang="de">Gesichtsanmerkungen werden aus dem XMP-Datensatz erstellt...</s>
 				<s xml:lang="nl">Gezichtsannotaties worden uit XMP gelezen...</s>
+				<s xml:lang="pt">Lendo Anotações de Rosto a partir do ficheiro XMP...</s>
 			</str>
 
 			<!-- Rename Tasks -->
@@ -5513,7 +5584,7 @@
 				<s xml:lang="en">Media &amp;&amp; Folders</s>
 				<s xml:lang="de">Medien &amp;&amp; Verzeichnisse</s>
 				<s xml:lang="fi">Mediat &amp;&amp; kansiot</s>
-				<s xml:lang="nl">Media &amp;&amp; Folders</s>
+				<s xml:lang="nl">Media &amp;&amp; mappen</s>
 				<s xml:lang="pt">Suportes de Dados &amp;&amp; Pastas</s>
 				<s xml:lang="hr">Mediji i mape</s>
 				<s xml:lang="no">Media &amp;&amp; mapper</s>
@@ -5546,7 +5617,7 @@
 					<s xml:lang="en">In the Category View you work with dynamic categories to group your images.</s>
 					<s xml:lang="fi">Kategorianäkymässä voit käyttää dynaamisia kategorioita ryhmitelläksesi kuvasi.</s>
 					<s xml:lang="de">In der Kategorieansicht arbeiten Sie mit IMatch-Kategorien, um Ihre Bilder nach verschiedenen Kriterien zu ordnen.</s>
-					<s xml:lang="nl">In de categorie-weergave werkt u met IMatch-categoriën om bestanden te ordenen.</s>
+					<s xml:lang="nl">In de categorie-weergave werkt u met IMatch-categorieën om bestanden te ordenen.</s>
 					<s xml:lang="hr">U prikazu kategorija radiš sa dinamičkim kategorijama da bi grupirao slike.</s>
 					<s xml:lang="pt">Na Vista de Categorias trabalha com categorias dinâmicas para agrupar as suas imagens.</s>
 				    <s xml:lang="no">I kategorivisningen kan du arbeide med dynamiske kategorier for å gruppere bildene dine.</s>
@@ -5793,11 +5864,13 @@
 				<s xml:lang="en">No filters active.</s>
 				<s xml:lang="de">Keine Filter aktiviert.</s>
 				<s xml:lang="nl">Geen filters actief.</s>
+				<s xml:lang="pt">Nenhuns filtros activos.</s>
 			</str>
 			<str resid="PTR_PANEL_FILTER_PAUSED">
 				<s xml:lang="en">Paused.</s>
 				<s xml:lang="de">Pausiert.</s>
 				<s xml:lang="nl">Gepauzeerd.</s>
+				<s xml:lang="pt">Pausado.</s>
 			</str>
 			
 			<str resid="PTR_PANEL_VIEWER" desc="Name for the Viewer panel">
@@ -5839,7 +5912,7 @@
 			<str resid="PTR_PANEL_DBCLIENT_FOLDERS_TREE" desc="Name for the Tree Panel in the Folders and Media view">
 				<s xml:lang="en">Media &amp; Folders</s>
 				<s xml:lang="de">Medien &amp; Verzeichnisse</s>
-				<s xml:lang="nl">Media &amp; Folders</s>
+				<s xml:lang="nl">Media &amp; mappen</s>
 				<s xml:lang="pt">Suportes de Dados &amp; Pastas</s>
 				<s xml:lang="fi">Mediat &amp; Kansiot</s>
 				<s xml:lang="hr">Mediji i mape</s>
@@ -5999,7 +6072,7 @@
 			<str resid="PTR_PANEL_DBCLIENT_GROUP_TREE_FAVS_PROMPT" desc="The prompt shown when there are no favorites yet">
 				<s xml:lang="en">Drag categories to this window to add new bookmarks. These bookmarks allow you to jump quickly to frequently used categories.</s>
 				<s xml:lang="de">Ziehen Sie Kategorien auf dieses Fenster, um neue Lesezeichen anzulegen. Diese Lesezeichen erlauben Ihnen das schnelle Navigieren zu häufig genutzten Kategorien.</s>
-				<s xml:lang="nl">Sleep categoriën in dit venster om nieuwe bladwijzers toe te voegen.</s>
+				<s xml:lang="nl">Sleep categorieën in dit venster om nieuwe bladwijzers toe te voegen.</s>
 				<s xml:lang="pt">Arraste categorias para esta janela para adicionar novos marcadores.</s>
 				<s xml:lang="fi">Vedä kategorioita tähän ikkunaan lisätäksesi uuden kirjanmerkin.</s>
 				<s xml:lang="hr">Dovuci kategorije u ovaj prozor za dodavanje nove knjižne oznake. Te knjižne oznake omogućavaju brzi izbor često korištenih kategorija.</s>
@@ -6011,7 +6084,7 @@
 			<str resid="PTR_PANEL_DBCLIENT_GROUP_TREE" desc="Name for the Tree Panel in the Category view">
 				<s xml:lang="en">Categories</s>
 				<s xml:lang="de">Kategorien</s>
-				<s xml:lang="nl">Categoriën</s>
+				<s xml:lang="nl">Categorieën</s>
 				<s xml:lang="pt">Categorias</s>
 				<s xml:lang="fi">Kategoriat</s>
 				<s xml:lang="hr">Kategorije</s>
@@ -6062,12 +6135,14 @@
                 <s xml:lang="en">App Manager</s>
                 <s xml:lang="de">App-Manager</s>
                 <s xml:lang="nl">App Manager</s>
+				<s xml:lang="pt">Gestor de Aplicações</s>
             </str>
 
 			<str resid="PTR_PANEL_APP_IMWS_NOT_RUNNING">
                 <s xml:lang="en">IMatch WebServices are not running.\r\nPlease enable them under Edit &gt; Preferences &gt; Application and check the configuration.</s>
                 <s xml:lang="de">Die IMatch Webdienste werden nicht ausgeführt.\r\nBitte aktivieren Sie sie unter Bearbeiten &gt; Einstellungen &gt; Anwendung und überprüfen Sie die Konfiguration.</s>
 				<s xml:lang="nl">IMatch WebServices worden niet uitgevoerd.\r\nActiveer ze aub Bewerken &gt; Voorkeuren &gt; Applicatie en controleer de instellingen.</s>
+				<s xml:lang="pt">O IMatch WebServices não está a ser executado. \ R \ nPor favor, habilite-os em Editar &gt; Preferências &gt; Aplicação e verifique a configuração.</s>
             </str>
             
             <str resid="PTR_PANEL_SCRIPT_IDE" desc="Name for the Script IDE panel">
@@ -6106,7 +6181,7 @@
 				<s xml:lang="en">Drop folders, categories or collections here to add new favorites.</s>
 				<s xml:lang="en-uk">Drop folders, categories or collections here to add new favourites.</s>
 				<s xml:lang="de">Legen Sie Verzeichnisse, Kategorien oder Kollektionen hier ab, um neue Favoriten zu erstellen.</s>
-				<s xml:lang="nl">Sleep folders, categoriën of collecties in dit window om nieuwe favorieten toe te voegen.</s>
+				<s xml:lang="nl">Sleep folders, categorieën of collecties in dit window om nieuwe favorieten toe te voegen.</s>
 				<s xml:lang="pt">Arraste pastas, categorias ou colecções para aqui, para adicionar novos favoritos.</s>
 				<s xml:lang="fi">Pudota kansiot, kategoriat tai kokoelmat tähän lisätäksesi ne suosikkeihin</s>
 				<s xml:lang="hr">Dovuci mape, kategorije ili zbirke ovdje za dodavanje novih favorita</s>
@@ -6144,7 +6219,7 @@
 			<str resid="PTR_FAVS_TYPENAME_GROUPSPLASHER" desc="">
 				<s xml:lang="en">Assign to Multiple Categories; Remove from Multiple Categories</s>
 				<s xml:lang="de">Mehreren Kategorien zuweisen; Aus mehreren Kategorien entfernen</s>
-				<s xml:lang="nl">Aan meerdere categoriën toewijzen; Uit meerdere categoriën verwijderen</s>
+				<s xml:lang="nl">Aan meerdere categorieën toewijzen; Uit meerdere categorieën verwijderen</s>
 				<s xml:lang="pt">Atribuir a Múltiplas Categorias; Remover de Múltiplas Categorias</s>
 				<s xml:lang="fi">Lisää kerralla useaan kategoriaan; Poista kerralla useasta kategoriasta</s>
 				<s xml:lang="hr">Priduži kategorijama; Ukloni iz kategorija</s>
@@ -6167,6 +6242,7 @@
 				<s xml:lang="en">Run App</s>
 				<s xml:lang="de">App ausführen</s>
 				<s xml:lang="nl">App uitvoeren</s>
+				<s xml:lang="pt">Corre a Aplicação</s>
 			</str>
 			<str resid="PTR_FAVS_TYPENAME_COL" desc="">
 				<s xml:lang="en">Add to Collection; Remove from Collection</s>
@@ -6526,7 +6602,7 @@
             <str resid="PTR_CATEGORY_BUILDERPANEL_HINT" desc="">
                 <s xml:lang="en">Drop categories here to combine them. The result of this combination will be displayed in the @Builder category.</s>
                 <s xml:lang="de">Legen Sie hier Kategorien ab, um sie zu verknüpfen. Das Ergebnis der Verknüpfung wird in der @Builder-Kategorie angezeigt.</s>
-                <s xml:lang="nl">Sleep categoriën in dit venster om ze eenvoudig te combineren. Het resultaat van deze combinatie wordt getoond in de @Builder-categorie.</s>
+                <s xml:lang="nl">Sleep categorieën in dit venster om ze eenvoudig te combineren. Het resultaat van deze combinatie wordt getoond in de @Builder-categorie.</s>
 				<s xml:lang="pt">Arraste categorias para aqui, para as combinar com facilidade. O resultado da combinação será apresentado na categoria @Builder.</s>
 				<s xml:lang="fi">Pudota kategoriat tähän yhdistääksesi niiden sisältöjä helposti. Yhdistämisen tulos näkyy @Builder kategoriassa.</s>
 				<s xml:lang="hr">Dovuci kategorije ovdje za kombiniranje. Rezultat ove kombinacije će biti prikazan u @Builder kategoriji.</s>
@@ -6539,7 +6615,7 @@
             <str resid="PTR_CATEGORY_KEYWORDS_ASSIGN" desc="">
                 <s xml:lang="en">Updating categories and keywords...</s>
                 <s xml:lang="de">Kategorien und Schlüsselwörter werden aktualisiert...</s>
-                <s xml:lang="nl">Categoriën en trefwoorden bijwerken...</s>
+                <s xml:lang="nl">Categorieën en trefwoorden bijwerken...</s>
 				<s xml:lang="pt">Actualização de categorias e palavras-chave...</s>
                 <s xml:lang="hr">Ažuriranje kategorija i ključnih riječi...</s>
 				<s xml:lang="fr">Actualisation des catégories et mots-clés</s>
@@ -6928,7 +7004,7 @@
                 <s xml:lang="en">Categories</s>
                 <s xml:lang="de">Kategorien</s>
 				<s xml:lang="fi">Kategoriat</s>
-                <s xml:lang="nl">Categoriën</s>
+                <s xml:lang="nl">Categorieën</s>
 				<s xml:lang="pt">Categorias</s>
 				<s xml:lang="hr">Kategorije</s>
 				<s xml:lang="no">Kategorier</s>
@@ -6940,7 +7016,7 @@
 				<s xml:lang="en">File Categories</s>
 				<s xml:lang="de">Datei-Kategorien</s>
 				<s xml:lang="pt">Categorias de Ficheiros</s>
-				<s xml:lang="nl">Bestandscategoriën</s>
+				<s xml:lang="nl">Bestandscategorieën</s>
 			</str>
 
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_GEO" desc="Name for the Geo panel">
@@ -7055,31 +7131,37 @@
 				<s xml:lang="en">Previous file</s>
 				<s xml:lang="de">Vorhergehende Datei</s>
 				<s xml:lang="nl">Vorig bestand</s>
+				<s xml:lang="pt">Ficheiro anterior</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_NEXT">
 				<s xml:lang="en">Next file</s>
 				<s xml:lang="de">Nächste Datei</s>
 				<s xml:lang="nl">Volgend bestand</s>
+				<s xml:lang="pt">Próximo ficheiro</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_PREVSTACK">
 				<s xml:lang="en">Previous file in stack (&lt;Shift&gt;+&lt;Arrow left&gt;)</s>
 				<s xml:lang="de">Vorhergehende Datei im Stapel (&lt;Umsch&gt;+&lt;Pfeil links&gt;)</s>
 				<s xml:lang="nl">Vorig bestand in de stapel (&lt;Shift&gt;+&lt;pijl links&gt;)</s>
+				<s xml:lang="pt">Arquivo anterior na pilha (&lt;Shift&gt;+&lt;Seta esquerda&gt;)</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_NEXTSTACK">
 				<s xml:lang="en">Next file in stack (&lt;Shift&gt;+&lt;Arrow right&gt;)</s>
 				<s xml:lang="de">Nächste Datei im Stapel (&lt;Umsch&gt;+&lt;Pfeil rechts&gt;)</s>
 				<s xml:lang="nl">Volgend bestand in de stapel (&lt;Shift&gt;+&lt;pijl rechts&gt;)</s>
+				<s xml:lang="pt">Próximo arquivo na pilha (&lt;Shift&gt;+&lt;Seta direita&gt;)</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_MENU">
 				<s xml:lang="en">Click to show menu...</s>
 				<s xml:lang="de">Klicken um das Menü anzuzeigen...</s>
 				<s xml:lang="nl">Klik om het menu te tonen...</s>
+				<s xml:lang="pt">Click para mostrar o menu...</s>
 			</str>
 			<str resid="PTR_PANEL_FILEWNDCONTAINER_PREVIEW_STACKHOME">
 				<s xml:lang="en">Go back to stack top (&lt;Home&gt;)</s>
 				<s xml:lang="de">Zur Stapelspitze zurückkehren (&lt;Pos 1&gt;)</s>
 				<s xml:lang="nl">Ga terug naar de top van de stapel (&lt;Home&gt;)</s>
+				<s xml:lang="pt">Voltar para o topo da pilha (&lt;Home&gt;)</s>
 			</str>
 
 			<!-- Settings -->
@@ -7447,7 +7529,14 @@
 				<s xml:lang="it">Ricerca in corso. Fare click su 'Cancella' nel pannello filtro per terminare.</s>
 			</str>
 
-			
+			<!-- The prompt shown inside the file window search bar -->
+			<str resid="FILEWND_SEARCHBAR_COMBO_PROMPT" desc="">
+				<s xml:lang="en">Search the file window...</s>
+				<s xml:lang="de">Dateifenster durchsuchen....</s>
+				<s xml:lang="nl">Bestandsvenster doorzoeken...</s>
+			</str>
+
+
 			<!-- File Window Pause overlay. This overlay is shown when the file window pauses -->
 			
 			<str resid="FILEWND_PAUSE_HEADLINE" desc="">
@@ -7594,6 +7683,7 @@
 				<s xml:lang="en">Selection</s>
 				<s xml:lang="de">Auswahl</s>
 				<s xml:lang="nl">Selectie</s>
+				<s xml:lang="pt">Selecção</s>
 			</str>
 
 			<!-- File Window Caption -->
@@ -7659,6 +7749,7 @@
 				<s xml:lang="en">(Direct assignments only)</s>
 				<s xml:lang="de">(Nur direkt zugewiesene Dateien)</s>
 				<s xml:lang="nl">(Alleen directe toewijzingen)</s>
+				<s xml:lang="pt">(Sómente ficheiros directamente atribuídos)</s>
 			</str>
 
 		</string_group>  <!-- File Window -->
@@ -7734,6 +7825,7 @@
 				<s xml:lang="en">3 Image</s>
 				<s xml:lang="de">3 Bild</s>
 				<s xml:lang="nl">3 Afbeelding</s>
+				<s xml:lang="pt">3 Imagem</s>
 			</str>
 
 			<!-- Name/Desc for default '2 Describe' layout -->
@@ -7742,6 +7834,7 @@
 				<s xml:lang="en">2 Describe</s>
 				<s xml:lang="de">2 Beschreiben</s>
 				<s xml:lang="nl">2 Beschrijf</s>
+				<s xml:lang="pt">2 Descrever</s>
 			</str>
 
 			<str resid="PTR_MDCONTAINER_LAYOUT_DEFAULT_DESC" desc="Description for the default panel layout">
@@ -8120,7 +8213,7 @@
 				<s xml:lang="en">Enter new keywords here...</s>
 				<s xml:lang="no">Angi nye søkeord her...</s>
 				<s xml:lang="de">Hier neue Schlüsselwörter eingeben...</s>
-				<s xml:lang="nl">Geef nieuwe trefwoorden hier in...</s>
+				<s xml:lang="nl">Voer hier nieuwe trefwoorden in...</s>
 				<s xml:lang="pt">Inserir novas palavras-chave aqui...</s>
 				<s xml:lang="fi">Lisää uudet asiasanat tähän...</s>
 				<s xml:lang="hr">Unesi nove ključne riječi ovdje...</s>
@@ -8132,7 +8225,7 @@
 				<s xml:lang="en">Enter a filter expression here...</s>
 				<s xml:lang="no">Angi et filteruttrykket her...</s>
 				<s xml:lang="de">Hier einen Filterausdruck eingeben...</s>
-				<s xml:lang="nl">Geef nieuwe filter-expressie hier in...</s>
+				<s xml:lang="nl">Voer hier een nieuwe filter-uitdrukking in...</s>
 				<s xml:lang="pt">Inserir uma expressão de filtragem aqui...</s>
 				<s xml:lang="fi">Syötä suodatuslauseke tähän...</s>
 				<s xml:lang="hr">Unesi nove izraze filtra ovdje...</s>
@@ -8303,6 +8396,7 @@
 			<str resid="PTR_MDTEMPLATEMANAGER_SAVEAS_MSG">
 				<s xml:lang="en">This copies all tags used by the current layout into a Metadata Template.\r\nYou should edit the template afterwards to remove all unwanted tags - especially tags with potentially harmful side effects like 'Orientation' etc.).</s>
 				<s xml:lang="de">Diese funktion kopiert alle Tags aus dem aktuellen Layout in eine Metadatenvorlage.\r\nSie sollten die Vorlage anschließend bearbeiten und alle nicht benötigten Tags entfernen - insbesondere Tags mit potentiell schädlichen Nebenwirkungen wie 'Ausrichtung/Orientation'.</s>
+				<s xml:lang="pt">Isto copia todas as etiquetas usadas pelo plano actual num Modelo de Metadados. \ R \ nDepois deve editar o modelo para remover todas as etiquetas indesejadas - especialmente etiquetas com efeitos colaterais potencialmente nocivos como 'Orientação', etc.</s>
 			</str>
 
 			<!-- Template Import & Export -->
@@ -8489,7 +8583,7 @@
                 <s xml:lang="en">Importing categories...</s>
                 <s xml:lang="no">Importerer kategorier...</s>
                 <s xml:lang="de">Importiere Kategorien...</s>
-                <s xml:lang="nl">Importeren categoriën...</s>
+                <s xml:lang="nl">Importeren categorieën...</s>
 				<s xml:lang="pt">Importação de categorias...</s>
 				<s xml:lang="hr">Uvoz kategorija...</s>
 				<s xml:lang="fr">Importer les catégories...</s>
@@ -9168,7 +9262,7 @@
 				<s xml:lang="en">Categories changed</s>
 				<s xml:lang="no">Kategorier som er endret</s>
 				<s xml:lang="de">Kategorien verändert</s>
-				<s xml:lang="nl">Categoriën gewijzigd</s>
+				<s xml:lang="nl">Categorieën gewijzigd</s>
 				<s xml:lang="pt">Categorias alteradas</s>
 				<s xml:lang="fi">Kategorioita muutettu</s>
 				<s xml:lang="hr">Promijenjena kategorija</s>
@@ -9894,7 +9988,7 @@
                 <s xml:lang="en">Enter new or existing filter name:</s>
                 <s xml:lang="no">Angi nye eller eksisterende filternavn:</s>
                 <s xml:lang="de">Geben Sie einen neuen oder existierenden Filternamen ein:</s>
-                <s xml:lang="nl">Geef nieuwe of bestaande filternaam:</s>
+                <s xml:lang="nl">Voer een nieuwe of bestaande filternaam in:</s>
 				<s xml:lang="pt">Insira um nome de filtro novo ou existente:</s>
 				<s xml:lang="fi">Kirjoita uuden tai olemassaolevan suodattimen nimi:</s>
 				<s xml:lang="hr">Unesi novo ili postojeće ime filtra:</s>
@@ -9929,6 +10023,7 @@
 				<s xml:lang="en">More filters are available in the 'Gear' menu in the toolbar.</s>
 				<s xml:lang="de">Weitere Filter sind verfügbar über das 'Zahnrad'-Menü in der Symbolleiste.</s>
 				<s xml:lang="nl">Extra filters zijn beschikbaar in het "Instellingen" menu in gereedschapsbalk.</s>
+				<s xml:lang="pt">Estão disponíveis mais filtros no menu 'Roda de engrenagem' na barra de ferramentas.</s>
 			</str>
 
 		</string_group>
@@ -11554,7 +11649,7 @@
 				<s xml:lang="en"><![CDATA[Clicking on a category favorite assigns the currently selected set of files in the active file window to all categories in that favorite. To <Bold>un-assign</Bold>, use &lt;Shift&gt;+Click.]]></s>
 				<s xml:lang="en-uk"><![CDATA[Clicking on a category favourite assigns the currently selected set of files in the active file window to all categories in that favourite. To <Bold>un-assign</Bold>, use &lt;Shift&gt;+Click.]]></s>
 				<s xml:lang="de"><![CDATA[Mit einem Klick auf einen Kategorie-Favoriten weisen Sie alle im aktiven Dateifenster ausgewählten Dateien die Kategorien im Favoriten zu. Verwenden Sie &lt;Shift&gt;+Klick, um die Zuweisung der Dateien aufzuheben.]]></s>
-				<s xml:lang="nl"><![CDATA[Door op een categorie-favoriet te klikken, wijst u alle geselecteerde bestanden in het actieve bestandsvenster toe aan alle categoriën in deze favoriet. Gebruik &lt;Shift&gt;+klik om de bestandstoewijzing ongedaan te maken.]]></s>
+				<s xml:lang="nl"><![CDATA[Door op een categorie-favoriet te klikken, wijst u alle geselecteerde bestanden in het actieve bestandsvenster toe aan alle categorieën in deze favoriet. Gebruik &lt;Shift&gt;+klik om de bestandstoewijzing ongedaan te maken.]]></s>
 				<s xml:lang="pt"><![CDATA[Clicar num favorito de categorias atribui o conjunto de ficheiros actualmente seleccionados na janela de ficheiros activa a todas as categorias desse favorito. Para <Bold>anular a atribuição</Bold>, use &lt;Shift&gt;+Clique.]]></s>
 				<s xml:lang="hr"><![CDATA[Klik na favorit kategorije pridružuje trenutno odabran skup datoteka u aktivnom prozoru datoteka svim kategorijama tog favorita. Za <Bold>razdruživanje</Bold>, koristi &lt;Shift&gt;+klik.]]></s>
 				<s xml:lang="fr"><![CDATA[Cliquer sur une catégorie favorite assigne la sélection courante de fichiers dans la fen^tre active à toutes les catégories de cette favorite. Pour <Bold>dé-assigner</Bold>, faites &lt;Maj&gt;+Click.]]></s>
@@ -11812,6 +11907,7 @@
 				<s xml:lang="en"><![CDATA[The Filter Panel was active and has been paused to show you all results.<LineBreak/>Click the 'Pause' button in the Filter Panel toolbar if you want to apply the current filter to the Result Window.<LineBreak/><LineBreak/>You can disable this feature under Edit &gt; Preferences; &gt; File Window.]]></s>
 				<s xml:lang="de"><![CDATA[Das Filter-Panel war aktiv und wurde automatisch pausiert, um Ihnen alle Suchergebnisse anzuzeigen.<LineBreak/>Sie können das Filter-Panel über die 'Pause'-Taste in der Filter-Panel Symbolleiste jederzeit wieder aktivieren.<LineBreak/><LineBreak/>Siekönnen diese Funktion über Bearbeiten &gt; Einstellungen &gt; Dateifenster deaktivieren.]]></s>
 				<s xml:lang="nl"><![CDATA[Het filterpaneel was actief, maar werd gepauzeerd om alle resultaten te tonen.<LineBreak/>Klik op de 'Pauze' knop in het filter-paneel als u het actuele filter wilt toepassen op het resultaatvenster.<LineBreak/><LineBreak/>U kunt deze optie uitzetten onder Bewerken &gt; Voorkeuren; &gt; Bestandsvenster.]]></s>
+				<s xml:lang="pt"><![CDATA[O Painel do Filtro estava activo e foi pausado para mostrar todos os resultados. <LineBreak /> Clique no botão 'Pausar' na barra de ferramentas do Painel de Filtro se desejar aplicar o filtro actual na Janela de Resultados. <LineBreak /> <LineBreak / > Pode desactivar este recurso em Editar & gt; Preferências; & gt; Janela de ficheiros.]]></s>
 			</str>
 
 
@@ -11973,7 +12069,7 @@
                 <s xml:lang="en">Drop categories here...</s>
                 <s xml:lang="no">Slipp kategorier her...</s>
                 <s xml:lang="de">Kategorien hier ablegen...</s>
-                <s xml:lang="nl">Categoriën hier neerzetten...</s>
+                <s xml:lang="nl">Categorieën hier neerzetten...</s>
 				<s xml:lang="pt">Arraste categorias para aqui...</s>
 				<s xml:lang="fi">Pudota kategoriat tähän...</s>
 				<s xml:lang="hr">Ispusti kategorije ovdje...</s>
@@ -12037,7 +12133,7 @@
                 <s xml:lang="de">Exportiere Kategorien...</s>
                 <s xml:lang="no">Eksporterer kategorier...</s>
 				<s xml:lang="fi">Viedään kategorioita...</s>
-                <s xml:lang="nl">Categoriën exporteren...</s>
+                <s xml:lang="nl">Categorieën exporteren...</s>
 				<s xml:lang="pt">Exportação de Categorias...</s>
 				<s xml:lang="hr">Izvoz kategorija...</s>
 				<s xml:lang="fr">Exportation de Catégories...</s>
@@ -12073,7 +12169,7 @@
                 <s xml:lang="no">Importer kategori</s>
                 <s xml:lang="de">Kategorie-Import</s>
 				<s xml:lang="fi">Tuo kategoriat</s>
-                <s xml:lang="nl">Categoriën importeren</s>
+                <s xml:lang="nl">Categorieën importeren</s>
 				<s xml:lang="pt">Importação de Categorias</s>
 				<s xml:lang="hr">Uvoz kategorija</s>
 				<s xml:lang="fr">Importation de Catégories...</s>
@@ -12118,7 +12214,7 @@
                 <s xml:lang="no">Behandler kategorier...</s>
                 <s xml:lang="de">Importiere Kategorien...</s>
 				<s xml:lang="fi">Käsitellään kategorioita...</s>
-                <s xml:lang="nl">Categoriën importeren...</s>
+                <s xml:lang="nl">Categorieën importeren...</s>
 				<s xml:lang="pt">Processamento de Categorias...</s>
 				<s xml:lang="hr">Obrada kategorija...</s>
 				<s xml:lang="fr">Traitement des catégories</s>
@@ -12131,7 +12227,7 @@
                 <s xml:lang="en">Importing Categories...</s>
                 <s xml:lang="de">Importiere Kategorien...</s>
 				<s xml:lang="fi">Tuodaan kategorioita...</s>
-                <s xml:lang="nl">Categoriën importeren...</s>
+                <s xml:lang="nl">Categorieën importeren...</s>
 				<s xml:lang="pt">Importação de Categorias...</s>
 				<s xml:lang="hr">Uvoz kategorija...</s>
 				<s xml:lang="fr">Importation des catégories</s>
@@ -13410,13 +13506,14 @@
 			<str resid="PTR_ERRMSG_5017" desc="IMERR_PARS_UNKNOWNTAG">
 				<s xml:lang="en">Tag not found.</s>
 				<s xml:lang="de">Tag nicht gefunden.</s>
+				<s xml:lang="pt">Etiqueta não encontrada.</s>
 			</str>
 
 			<str resid="PTR_ERRMSG_5101" desc="IMERR_DATAGROUP_TOOMANYCHILDREN">
                 <s xml:lang="en">Too many children for a data-driven category. Please change the category setup to reduce the number of child categories created.</s>
                 <s xml:lang="de">Zu viele untergeordnete Kategorien für eine datengestützte Kategorie. Bitte verändern Sie die Eigenschaften der Kategorien um weniger untergeordnete Kategorien zu erzeugen.</s>
 				<s xml:lang="fi">Aineistopohjaisella kategorialla on liian monta alakategoriaa. Ole hyvä ja muuta kategoria-asetuksia vähentääksesi luotavien alakategorioiden määrän.</s>
-                <s xml:lang="nl">Te veel onderliggende categoriën voor een gegevengestuurde categorie. Verander aub de categorie-instellingen om het aantal onderliggende categoriën te verminderen.</s>
+                <s xml:lang="nl">Te veel onderliggende categorieën voor een gegevengestuurde categorie. Verander aub de categorie-instellingen om het aantal onderliggende categorieën te verminderen.</s>
 				<s xml:lang="pt">Demasiadas categorias subordinadas para uma categoria dinâmica. Altere por favor a definição da categoria para reduzir o número de categorias subordinadas criadas.</s>
                 <s xml:lang="hr">Previše podkategorija za kategoriju prema podacima. Promijeni postavu kategorije da smanjiš broj stvorenih podkategorija.</s>
 				<s xml:lang="fr">Trop de catégories subordonnées pour la catégorie pilotée par les données. Changez les propiétés de cette catégorie pour réduire le nombre de subordonnées.</s>

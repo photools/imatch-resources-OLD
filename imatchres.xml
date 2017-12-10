@@ -1545,21 +1545,25 @@
 				<c xml:lang="en" hotkey="Ctrl+M|F" helptext="Detect faces in images and convert them into Face Annotations.">Detect faces and create &amp;Face Annotations</c>
 				<c xml:lang="de" hotkey="Ctrl+M|F" helptext="Gesichtsdetektion durchführen und Gesichtsanmerkungen erstellen">Gesichter ermittlen und &amp;Gesichtsanmerkungen erstellen</c>
 				<c xml:lang="nl" hotkey="Ctrl+M|F" helptext="Gezichten in afbeeldingen herkennen en er gezichtsannotaties van maken.">Gezichten ontdekken en &amp;gezichtsannotaties maken</c>
+				<c xml:lang="pt" hotkey="Ctrl+M|F" helptext="Detecta rostos em imagens e converte-as em Anotações de Rosto.">Detecta rostos e cria &amp;Anotações de Rosto</c>
 			</cmd>
 			<cmd resid="ID_CMD_TOOL_FACE_DELETE" desc="" bmidx="0">
 				<c xml:lang="en" hotkey="" helptext="Remove face annotations.">Delete Face A&amp;nnotations</c>
 				<c xml:lang="de" hotkey="" helptext="Gesichtsanmerkungen löschen">Gesichtsa&amp;nmerkungen löschen</c>
 				<c xml:lang="nl" hotkey="" helptext="Gezichtsannotaties verwijderen.">Verwijder gezichtsa&amp;nnotaties</c>
+				<c xml:lang="pt" hotkey="" helptext="Remove Anotações de Rosto.">Apaga Anotações de R&amp;osto</c>
 			</cmd>
 			<cmd resid="ID_CMD_TOOL_FACE_WRITE_XMP" desc="" bmidx="0">
 				<c xml:lang="en" hotkey="" helptext="Save IMatch face annotations into the XMP record.">&amp;Save Face Annotations to XMP data</c>
 				<c xml:lang="de" hotkey="" helptext="IMatch-Gesichtsanmerkungen im XMP-Datensatz speichern">Gesichtsanmerkungen im XMP-Datensatz &amp;speichern</c>
 				<c xml:lang="nl" hotkey="" helptext="IMatch gezichtsannotaties in de XMP gegevens opslaan.">&amp;Gezichtsannotaties in XMP-gegevens op&amp;slaan</c>
+				<c xml:lang="pt" hotkey="" helptext="Grava as Anotações de Rosto do IMatch no registo XMP.">&amp;Grava Anotações de Rosto aos dados XMP</c>
 			</cmd>
 			<cmd resid="ID_CMD_TOOL_FACE_READ_XMP" desc="" bmidx="0">
 				<c xml:lang="en" hotkey="" helptext="Reload face regions from the XMP record and re-create face annotations.">&amp;Re-create Face Annotations from XMP data</c>
 				<c xml:lang="de" hotkey="" helptext="IMatch-Gesichtsanmerkungen neu aus den XMP-Gesichtsdaten erstellen">Gesichtsanmerkungen aus dem XMP-Datensatz e&amp;rstellen</c>
 				<c xml:lang="nl" hotkey="" helptext="Gezichten uit de XMP-gegevens herladen en gezichtsannotaties opnieuw creëren.">He&amp;rstellen van gezichtsannotaties uit de XMP-gegevens</c>
+				<c xml:lang="pt" hotkey="" helptext="Recarrega regiões de rosto do registo XMP e recriar anotações de rosto">&amp;Recria Anotações de Rosto a partir dos dados XMP</c>
 			</cmd>
 
 		</command_group>
@@ -2367,7 +2371,7 @@
 				<c xml:lang="fi" hotkey="F9|X" helptext="Näytä tai piilota Tuo &amp; vie paneeli">T&amp;uo &amp;&amp; vie</c>
                 <c xml:lang="nl" hotkey="F9|X" helptext="Toon of verberg het import &amp; export-paneel">I&amp;mport &amp;&amp; Export</c>
 				<c xml:lang="pt" hotkey="F9|X" helptext="Mostrar ou ocultar o painel de Importação&amp;Exportação para importar e exportar ficheiros e dados">I&amp;mportação &amp;&amp; Exportação</c>
-                <c xml:lang="hr" hotkey="F9|U" helptext="Pokaži ili sakrij panel za uvoz i izvoz datoteka i podataka">&amp;Uvoz i izvoz</c>
+                <c xml:lang="hr" hotkey="F9|X" helptext="Pokaži ili sakrij panel za uvoz i izvoz datoteka i podataka">&amp;Uvoz i izvoz</c>
 				<c xml:lang="no" hotkey="F9|X" helptext="Vis eller lukk import&amp;eksport panelet for å importere og eksportere filer og data">I&amp;mport &amp;&amp; eksport</c>
 				<c xml:lang="se" hotkey="F9|X" helptext="Visa eller dölj Importera och Exportera">&amp;Import &amp;&amp; eksport</c>
 				<c xml:lang="es" hotkey="F9|X" helptext="Mostrar u ocultar el panel de Importación y Exportación para importar o exportar archivos y datos">&amp;Importar &amp;&amp; Exportar</c>
@@ -2390,6 +2394,7 @@
                 <c xml:lang="en" hotkey="F9|Y" helptext="Show or hide the App Manager panel">App &amp;Manager</c>
                 <c xml:lang="de" hotkey="F9|Y" helptext="Anzeigen oder Verbergen des App-Manager Panels">&amp;App-Manager</c>
 				<c xml:lang="nl" hotkey="F9|Y" helptext="Toon of verberg het App Manager paneel">&amp;App-Manager</c>
+				<c xml:lang="pt" hotkey="F9|Y" helptext="Mostra ou esconde o painel do Gestor de Aplicações">Gestor &amp;Aplicações</c>
             </cmd>
 			
 			<!-- Thumbnail Tooltips? (Toggles E > P > Application: Thumb Tips) -->
@@ -2402,7 +2407,6 @@
 				<c xml:lang="no" hotkey="F9|T" helptext="Aktiver eller deaktiver verktøytips for miniatyrer">Verktøytips minia&amp;tyrer</c>
             </cmd>
 
-			<!-- Thumbnail Tooltips? (Toggles E > P > Application: Thumb Tips) -->
 			<cmd resid="ID_VIEW_SHOW_PROTECTED_FILES">
 				<c xml:lang="en" hotkey="F9|0" helptext="Show or hide protected files">Protecte&amp;d Files visible</c>
 				<c xml:lang="de" hotkey="F9|0" helptext="Geschützte Dateien verbergen oder anzeigen">Geschützte &amp;Dateien sichtbar</c>
@@ -2571,7 +2575,7 @@
             <cmd resid="ID_VIEW_SHOW_FILEWNDCONTAINER_GROUPS_SCOPE">
                 <c xml:lang="en" hotkey="F9|D" helptext="Show or hide the File Categories panel">&amp;File Categories</c>
                 <c xml:lang="de" hotkey="F9|D" helptext="Anzeigen oder Verbergen des Datei-Kategorien-Panels">&amp;Datei-Kategorien</c>
-				<c xml:lang="nl" hotkey="F9|D" helptext="Toon of verberg het paneel voor bestandscategoriën">&amp;Bestands-categoriën</c>
+				<c xml:lang="nl" hotkey="F9|D" helptext="Toon of verberg het paneel voor bestandscategorieën">&amp;Bestands-categorieën</c>
 				<c xml:lang="no" hotkey="F9|D" helptext="Vis eller skjul filkategoripanelet">&amp;Filkategorier</c>
 				<c xml:lang="pt" hotkey="F9|D" helptext="Mostra ou oculta o painel da Categoria de Ficheiros">&amp;Categoria de Ficheiros</c>
                 <c xml:lang="it" hotkey="F9|D" helptext="Mostra o nascosdi il pannello Categorie">Categorie &amp;File</c>
@@ -2596,7 +2600,7 @@
 				<c xml:lang="fi" hotkey="F9|K" helptext="Näytä tai piilota asiasanat">Asiasa&amp;nat</c>
                 <c xml:lang="nl" hotkey="F9|K" helptext="Toon of verberg het  trefwoorden-paneel">&amp;Trefwoorden</c>
                 <c xml:lang="pt" hotkey="F9|K" helptext="Mostrar ou ocultar o painel de palavras-chave">Pa&amp;lavras-chave</c>
-                <c xml:lang="hr" hotkey="F9|U" helptext="Pokaži ili sakrij panel s ključnim riječima">Klj&amp;učne riječi</c>
+                <c xml:lang="hr" hotkey="F9|K" helptext="Pokaži ili sakrij panel s ključnim riječima">Klj&amp;učne riječi</c>
 				<c xml:lang="no" hotkey="F9|K" helptext="Vis eller lukk Nøkkelord panelet">&amp;Nøkkelord</c>
 				<c xml:lang="se" hotkey="F9|N" helptext="Öppna eller stäng Nyckelordspanelen">&amp;Nyckelord</c>
 				<c xml:lang="es" hotkey="F9|N" helptext="Mostrar u ocultar el panel de Palabras Clave">Palabras &amp;Clave</c>
@@ -3031,6 +3035,7 @@
                 <c xml:lang="en" hotkey="" helptext="Add a new favorite for an app">New from &amp;App...</c>
                 <c xml:lang="de" hotkey="" helptext="Einen neuen Favoriten für eine App hinzufügen.">Neu von &amp;App...</c>
 				<c xml:lang="nl" hotkey="" helptext="Een nieuwe favoriet voor een App toevoegen">Nieuw vanuit &amp;App...</c>
+				<c xml:lang="pt" hotkey="" helptext="Adicione um novo favorito para uma aplicação">Novo a partir &amp;Apl...</c>
             </cmd>
 			
             <!-- Favorites, Metadata Templates -->
@@ -3256,7 +3261,7 @@
                 <c xml:lang="de" hotkey="" helptext="Datengestützte Kategorien anzeigen oder verbergen.">&amp;Datengestützte Kategorien umschalten</c>
 				<c xml:lang="pt" hotkey="" helptext="Mostrar ou ocultar as categorias dinâmicas">Mostrar/Ocultar Categorias &amp;Dinâmicas</c>
 				<c xml:lang="fi" hotkey="" helptext="Näytä tai piilota aineistopohjaiset kategoriat">Näytä/piilota &amp;aineistopohjaiset kategoriat</c>
-                <c xml:lang="nl" hotkey="" helptext="Toon of verberg de gegevensgestuurde categoriën">Gegevensgestuur&amp;de categoriën in-/uitschakelen</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg de gegevensgestuurde categorieën">Gegevensgestuur&amp;de categorieën in-/uitschakelen</c>
                 <c xml:lang="hr" hotkey="" helptext="Pokaži ili sakrij kategorije prema podacima.">Preklopi kategorije prema po&amp;dacima</c>
                 <c xml:lang="no" hotkey="" helptext="Vise eller skjule datadrevne kategorier">Aktiver/deaktiver &amp;datadrevne kategorier</c>
                 <c xml:lang="it" hotkey="" helptext="Mostra o nascondi le categorie data-driven">Dis/Abilita le Categorie &amp;data-driven</c>
@@ -3264,7 +3269,7 @@
 			<cmd resid="ID_CMD_GROUP_PANEL_TOGGLE_KEYWORDS" bmidx="13">
 				<c xml:lang="en" hotkey="" helptext="Show or hide @Keywords categories">Toggle @&amp;Keywords Categories</c>
 				<c xml:lang="de" hotkey="" helptext="@Keywords-Kategorien anzeigen oder verbergen.">@&amp;Keywords-Kategorien umschalten</c>
-				<c xml:lang="nl" hotkey="" helptext="@Keywords-categoriën tonen of verbergen">@&amp;Keywords-categoriën wisselen</c>
+				<c xml:lang="nl" hotkey="" helptext="@Keywords-categorieën tonen of verbergen">@&amp;Keywords-categorieën wisselen</c>
 				<c xml:lang="hr" hotkey="" helptext="Pokaži ili sakrij @Keywords kategorije">Preklopi @&amp;Keywords kategorije</c>
 				<c xml:lang="no" hotkey="" helptext="Vise eller skjule @Keywords kategorier">Veksle @&amp;Keywords kategorier</c>
 				<c xml:lang="fi" hotkey="" helptext="Näytä tai piilota @Keywords kategoriat">Näytä/piilota @&amp;asiasanakategoriat</c>
@@ -3275,7 +3280,7 @@
 				<c xml:lang="en" hotkey="" helptext="Assign the same categories as the previously selected file">Like &amp;Previous</c>
 				<c xml:lang="de" hotkey="" helptext="Die gleichen Kategorien wie die zuvor ausgewählte Datei zuweisen.">Wie &amp;Vorhergehende</c>
 				<c xml:lang="fi" hotkey="" helptext="Kytke samat kategoriat kuin viimeksi valitulle tiedostolle">Kuten &amp;edellinen</c>
-				<c xml:lang="nl" hotkey="" helptext="Dezelfde categoriën als het eerder geselecteerde bestand toewijzen">Als &amp;Vorige</c>
+				<c xml:lang="nl" hotkey="" helptext="Dezelfde categorieën als het eerder geselecteerde bestand toewijzen">Als &amp;Vorige</c>
 				<c xml:lang="it" hotkey="" helptext="Assegna le stesse categorie dei file precedentemente selezionati">Come &amp;Precedenti</c>
 				<c xml:lang="hr" hotkey="" helptext="Pridruži iste kategorije kao i za prothodno odabranu datoteku">Kao &amp;prethodna</c>
 				<c xml:lang="pt" hotkey="" helptext="Atribui as mesmas categorias do ficheiro anteriormente seleccionado">Como &amp;Anterior</c>
@@ -3709,6 +3714,7 @@
                 <c xml:lang="en" helptext="Select an App">App</c>
                 <c xml:lang="de" helptext="Wählen Sie eine App aus">App</c>
 				<c xml:lang="nl" helptext="Selecteer een App">App</c>
+				<c xml:lang="pt" helptext="Seleccione uma Aplicação">Aplicação</c>
             </cmd>
             
 			<cmd resid="ID_CMD_APP_PANEL_RELOAD" bmidx="1">
@@ -4435,11 +4441,13 @@
 				<c xml:lang="en" hotkey="Ctrl+E|K" helptext="Opens the Keyword Panel and starts editing.">Edit &amp;Keywords...</c>
 				<c xml:lang="de" hotkey="Ctrl+E|K" helptext="Öffnet das Schlüsselwort-Panel und beginnt mit der Bearbeitung">&amp;Schlüsselwörter bearbeiten</c>
 				<c xml:lang="nl" hotkey="Ctrl+E|K" helptext="Opent het trefwoorden paneel en start met de bewerking.">&amp;Trefwoorden bewerken...</c>
+				<c xml:lang="pt" hotkey="Ctrl+E|K" helptext="Abre o Painel das Palavras Chave e começa a editar.">Edita &amp;Palavras Chave...</c>
 			</cmd>
 			<cmd resid="ID_EDIT_METADATA">
 				<c xml:lang="en" hotkey="Ctrl+E|M" helptext="Opens the Metadata Panel and starts editing.">Edit &amp;Metadata...</c>
 				<c xml:lang="de" hotkey="Ctrl+E|M" helptext="Öffnet das Metadaten-Panel und beginnt mit der Bearbeitung">&amp;Metadaten bearbeiten</c>
 				<c xml:lang="nl" hotkey="Ctrl+E|M" helptext="Opent het Metadata paneel en start met de bewerking.">&amp;Metadata bewerken...</c>
+				<c xml:lang="pt" hotkey="Ctrl+E|M" helptext="Abre o Painel dos Metadados e começa a editar.">Edita &amp;Metadados...</c>
 			</cmd>
 		
 		</command_group>
@@ -4984,12 +4992,14 @@
 				<c xml:lang="en" hotkey="" helptext="Opens the release notes page in your default browser.">&amp;Release Notes (Online)</c>
 				<c xml:lang="de" hotkey="" helptext="Öffnet die Versionsinformationen in Ihrem Browser.">Ve&amp;rsionsinformationen (Online)</c>
 				<c xml:lang="nl" hotkey="" helptext="Opent de realease notes in uw standaard browser.">&amp;Release Notes (Online)</c>
+				<c xml:lang="pt" hotkey="" helptext="Abre a página das notas sobre a nova versão no seu navegador padrão.">&amp;Notas sobre a nova versão (Online)</c>
 			</cmd>
 
 			<cmd resid="ID_APP_DEVCENTER" bmidx="3">
 				<c xml:lang="en" hotkey="" helptext="Opens the IMatch Developer Center website.">&amp;Developer Center (Online)</c>
 				<c xml:lang="de" hotkey="" helptext="Öffnet die photools.com Developer Center Webseite.">&amp;Developer Center (Online)</c>
-				<c xml:lang="nl" hotkey="" helptext="Opent de IMatch Developer Center website.">&amp;Developer Center (Online)</c>				
+				<c xml:lang="nl" hotkey="" helptext="Opent de IMatch Developer Center website.">&amp;Developer Center (Online)</c>	
+				<c xml:lang="pt" hotkey="" helptext="Abre o site do Centro de desenvolvimento do IMatch.">&amp;Centro de Desenvolvimento (Online)</c>				
 			</cmd>
 
 			<cmd resid="ID_APP_ORDER" bmidx="9">
@@ -5151,6 +5161,7 @@
 				<c xml:lang="en" hotkey="" helptext="Open the IMatch Learning Center with free videos and tutorials.">The IMatch &amp;Learning Center (Online)...</c>
 				<c xml:lang="de" hotkey="" helptext="Das IMatch Learning Center mit kostenlosen Videos und Tutorials öffnen.">Das IMatch &amp;Learning Center (Online)...</c>
 				<c xml:lang="nl" hotkey="" helptext="Open het IMatch Learning Center met gratis videos en tutotials.">Het IMatch &amp;Learning Center (Online)...</c>
+				<c xml:lang="pt" hotkey="" helptext="Abre o Centro de Aprendizagem do IMatch com videos e tutoriais (sem custo).">IMatch &amp;Centro de Aprendizagem (Online)...</c>
 			</cmd>
 			
 		</command_group>
@@ -6340,6 +6351,7 @@
 				<c xml:lang="en" hotkey="Shift+Ctrl+D" helptext="Reset the custom sort order to the 'Default' sort profile.">Reset Custom Sort to 'Defau&amp;lt'</c>
 				<c xml:lang="de" hotkey="Shift+Ctrl+D" helptext="Die manuelle Sortierreihenfolge auf das 'Standard'-Sortierprofil zurücksetzen.">Sortierfolge auf 'Standard' zurückset&amp;zen</c>
 				<c xml:lang="nl" hotkey="Shift+Ctrl+D" helptext="Zet de aangepaste sortering naar de 'standaard sortering' terug.">Aangepaste sortering terug z&amp;etten naar 'standaard'</c>
+				<c xml:lang="pt" hotkey="Shift+Ctrl+D" helptext="Redefine a ordem de classificação personalizada para o perfil de classificação 'Padrão'.">Redefine a ordem de classificação personalizada para 'Padr&amp;ão'</c>
 			</cmd>
 
 			<cmd resid="ID_CMD_FILE_FIND" desc="Find Command">
@@ -6622,6 +6634,7 @@
 			<cmd resid="ID_CMD_FILE_OPEN_IN_RESULT_WINDOW">
 				<c xml:lang="en" hotkey="Ctrl+G|R" helptext="Opens a result window for all selected files.">Open selection in Result &amp;Window...</c>
 				<c xml:lang="de" hotkey="Ctrl+G|R" helptext="Öffnet ein Ergebnisfenster mit den ausgewählten Dateien.">Auswahl in Ergebnisfenster öffnen...</c>
+				<c xml:lang="pt" hotkey="Ctrl+G|R" helptext="Abre uma janela com os resultados de acordo com todos os arquivos selecionados.">Abre selecção em janela de &amp;Resultados...</c>
 				<c xml:lang="nl" hotkey="Ctrl+G|R" helptext="Opent een resultaatvenster voor alle geselecteerde bestanden.">Selectie in een resultaatvenster weergeven...</c>
 			</cmd>
 
@@ -6711,11 +6724,13 @@
 				<c xml:lang="en" hotkey="Shift+Ctrl+VK_NEXT" helptext="Change the thumbnail to use for this video.">&amp;Next Frame</c>
 				<c xml:lang="de" hotkey="Shift+Ctrl+VK_NEXT" helptext="Das Vorschaubild für dieses Video ändern.">&amp;Nächtes Bild</c>
 				<c xml:lang="nl" hotkey="Shift+Ctrl+VK_NEXT" helptext="Wijzig de miniatuur voor deze video.">&amp;Volgende beeld</c>
+				<c xml:lang="pt" hotkey="Shift+Ctrl+VK_NEXT" helptext="Muda a miniatura a utilizar com este video.">&amp;Próximo Quadro</c>
 			</cmd>
 			<cmd resid="ID_CMD_FILE_THUMBSET_PREV" desc="">
 				<c xml:lang="en" hotkey="Shift+Ctrl+VK_PRIOR" helptext="Change the thumbnail to use for this video.">&amp;Previous Frame</c>
 				<c xml:lang="de" hotkey="Shift+Ctrl+VK_PRIOR" helptext="Das Vorschaubild für dieses Video ändern.">&amp;Vorhergehendes Bild</c>
 				<c xml:lang="nl" hotkey="Shift+Ctrl+VK_NEXT" helptext="Wijzig de miniatuur voor deze video.">&amp;Vorige beeld</c>
+				<c xml:lang="pt" hotkey="Shift+Ctrl+VK_NEXT" helptext="Muda a miniatura a utilizar com este video.">&amp;Quadro Anterior</c>
 			</cmd>
 		</command_group>
 
@@ -7399,7 +7414,7 @@
                 <c xml:lang="en" hotkey="" helptext="Modify data-driven category properties">&amp;Data-driven Properties...</c>
                 <c xml:lang="de" hotkey="" helptext="Datengestützte Kategorie konfigurieren.">&amp;Datengestütze Eigenschaften...</c>
 				<c xml:lang="fi" hotkey="" helptext="Muokkaa aineistopohjaisen kategorian ominaisuuksia">&amp;Aineistopohjaisen kategorian ominaisuudet...</c>
-                <c xml:lang="nl" hotkey="" helptext="Eigenschappen van gegevensgestuurde categoriën wijzigen">&amp;Gegevensgestuurde eigenschappen...</c>
+                <c xml:lang="nl" hotkey="" helptext="Eigenschappen van gegevensgestuurde categorieën wijzigen">&amp;Gegevensgestuurde eigenschappen...</c>
 				<c xml:lang="pt" hotkey="" helptext="Modificar as propriedades de uma categoria dinâmica">Propriedades de Categoria &amp;Dinâmica...</c>
                 <c xml:lang="hr" hotkey="" helptext="Izmijeni svojstva kategorije prema podacima">Svojstva prema po&amp;dacima...</c>
                 <c xml:lang="no" hotkey="" helptext="Endre datadrevne kategori egenskaper">Datadrevne egenskaper...</c>
@@ -7419,7 +7434,7 @@
                 <c xml:lang="en" hotkey="Ctrl+Shift+F5" helptext="Refresh all pending data-driven categories now.">Refresh all data-driven categories...</c>
                 <c xml:lang="de" hotkey="Ctrl+Shift+F5" helptext="Alle datengestützten Kategorien jetzt aktualisieren.">Alle datengestützten Kategorien aktualisieren...</c>
 				<c xml:lang="fi" hotkey="Ctrl+Shift+F5" helptext="Päivitä kaikki aineistopohjaiset kategoriat">Päivitä aineistopohjaiset kategoriat...</c>
-                <c xml:lang="nl" hotkey="Ctrl+Shift+F5" helptext="Alle gegevensgestuurde categoriën vernieuwen.">Alle gegevensgestuurde categoriën vernieuwen...</c>
+                <c xml:lang="nl" hotkey="Ctrl+Shift+F5" helptext="Alle gegevensgestuurde categorieën vernieuwen.">Alle gegevensgestuurde categorieën vernieuwen...</c>
 				<c xml:lang="pt" hotkey="Ctrl+Shift+F5" helptext="Actualizar todas as categorias dinâmicas em espera.">Actualizar todas as Categorias Dinâmicas...</c>
                 <c xml:lang="hr" hotkey="Ctrl+Shift+F5" helptext="Osvježi sve kategorije prema podacima na čekanju.">Osvježi sve kategorije prema podacima...</c>
                 <c xml:lang="no" hotkey="Ctrl+Shift+F5" helptext="Oppdater alle utestående datadrevne kategorier nå.">Oppdater alle datadrevne kategorier...</c>
@@ -7440,7 +7455,15 @@
 				<c xml:lang="en" hotkey="" helptext="Set the selected file as the category thumbnail">Set category thumbnail</c>
 				<c xml:lang="de" hotkey="" helptext="Die ausgewählte Datei als Kategorie-Symbolbild verwenden.">Kategorie-Symbolbild festlegen</c>
 				<c xml:lang="nl" hotkey="" helptext="Het geselecteerde bestand gebruiken miniatuur voor de categorie">Set category thumbnail</c>
+				<c xml:lang="pt" hotkey="" helptext="Define o arquivo seleccionado como a miniatura da categoria">Define miniatura da categoria</c>
 			</cmd>
+
+			<cmd resid="ID_CMD_CATEGORY_RESETTHUMBNAIL" bmidx="-1">
+				<c xml:lang="en" hotkey="" helptext="Clears the category thumbnail">Clear category thumbnail</c>
+				<c xml:lang="de" hotkey="" helptext="Das Kategorie-Symbolbild auf 'Keines' zurücksetzen.">Kategorie-Symbolbild entfernen</c>
+				<c xml:lang="nl" hotkey="" helptext="Het categorie miniatuur wissen">Clear category thumbnail</c>
+			</cmd>
+		
 
 		</command_group>
 
@@ -8476,7 +8499,14 @@
 			<cmd resid="ID_FILEWND_SHOWGROUPS_DIRECT_FILES_ONLY"  bmidx="11">
 				<c xml:lang="en" hotkey="" helptext="Show only the files directly assigned to the selected category. Don't include files in child categories.">Show only &amp;directly assigned files</c>
 				<c xml:lang="de" hotkey="" helptext="Zeige nur Dateien, die der ausgewählten Kategorie direkt zugewiesen wurden. Dateien in Kindkategorien nicht einschließen.">Nur &amp;direkt zugewiesene Dateien zeigen</c>
-				<c xml:lang="nl" hotkey="" helptext="Toon alleen de direct aan deze categorie toegewezen bestanden. Bestanden in subcategoriën niet tonen.">Toon alleen &amp;direct toegewezen bestanden</c>
+				<c xml:lang="pt" hotkey="" helptext="Mostra apenas os ficheiros directamente atribuidos à categoria seleccionada. Não inclui ficheiros existentes em categorias filhas.">Mostra apenas &amp;ficheiros atribuidos directamente</c>
+				<c xml:lang="nl" hotkey="" helptext="Toon alleen de direct aan deze categorie toegewezen bestanden. Bestanden in subcategorieën niet tonen.">Toon alleen &amp;direct toegewezen bestanden</c>
+			</cmd>
+
+			<cmd resid="ID_FILEWND_AUTOADVANCE">
+				<c xml:lang="en" hotkey="F9|U" helptext="Toggle the auto advance modus">Auto Ad&amp;vance</c>
+				<c xml:lang="de" hotkey="F9|U" helptext="Den 'Automatisch weiterschalten'-Modus umschalten">Automatisch &amp;weiterschalten</c>
+				<c xml:lang="nl" hotkey="F9|U" helptext="'Automatisch verdergaan' aan- of uitzetten">Automatisch &amp;verdergaan</c>
 			</cmd>
 
 		</command_group>
@@ -8485,10 +8515,10 @@
             <!-- Placeholder for the search drop-down combo -->
 			<!-- @Translators: Keep the help text short, it must fit into the search bar.-->
             <cmd resid="ID_FILEWND_SEARCHBAR_COMBO">
-                <c xml:lang="en" hotkey="" helptext="Search the file window.">Search</c>
-                <c xml:lang="de" hotkey="" helptext="Dateifenster durchsuchen">Suchen</c>
+                <c xml:lang="en" hotkey="" helptext="Search the files currently in the file window (the 'scope').\r\nPress &lt;Enter&gt; to start searching.">Search</c>
+                <c xml:lang="de" hotkey="" helptext="Alle im Dateifenster befindlichen Dateien durchsuchen (der 'Scope').\r\nDrücken Sie &lt;Eingabe&gt;, um die Suche auszuführen.">Suchen</c>
 				<c xml:lang="fi" hotkey="" helptext="Hae">Hae</c>
-                <c xml:lang="nl" hotkey="" helptext="Zoeken">Zoeken</c>
+                <c xml:lang="nl" hotkey="" helptext="Doorzoek de bestanden die zich momenteel in het bestandsvenster (de 'scope') bevinden. \r\nDruk op &lt;Enter&gt; om het zoeken te starten.">Zoeken</c>
 				<c xml:lang="pt" hotkey="" helptext="Procurar">Procurar</c>
                 <c xml:lang="hr" hotkey="" helptext="Traži">Search</c>
                 <c xml:lang="no" hotkey="" helptext="Søk">Søk</c>
@@ -8715,6 +8745,7 @@
 				<c xml:lang="en" hotkey="" helptext="Enable advanced search options with AND, OR and NOT">&amp;Advanced Search</c>
 				<c xml:lang="de" hotkey="" helptext="Mit regulären Ausdrücken suchen">Er&amp;weiterte Suche</c>
 				<c xml:lang="nl" hotkey="" helptext="Geavanceerd zoeken met EN, OF en NIET">Ge&amp;avanceerd zoeken</c>
+				<c xml:lang="pt" hotkey="" helptext="Activa as opções de procura avançada com AND, OR e NOT">&amp;Procura avançada</c>
 			</cmd>
 
 		</command_group>
@@ -11980,7 +12011,13 @@
                 <c xml:lang="it" hotkey="L" helptext="Se abilitato, tutte le finestr zoommano e si muovono assieme.">&amp;Link Windows</c>
             </cmd>
 
-            <!-- Navigation -->
+			<cmd resid="ID_VIEWER_AUTOADVANCE" desc="">
+				<c xml:lang="en" hotkey="T|U" helptext="Toggle the auto advance modus">Auto Ad&amp;vance</c>
+				<c xml:lang="de" hotkey="T|U" helptext="Den 'Automatisch weiterschalten'-Modus umschalten">Automatisch &amp;weiterschalten</c>
+				<c xml:lang="nl" hotkey="T|U" helptext="'Automatisch verdergaan' aan- of uitzetten">Automatisch &amp;verdergaan</c>
+			</cmd>
+
+			<!-- Navigation -->
 
             <cmd resid="ID_VIEWER_NAV_FIRST" desc="" bmidx="-1">
                 <c xml:lang="en" hotkey="Pos1" helptext="Goto first file">Goto &amp;First</c>
@@ -12212,7 +12249,7 @@
                 <c xml:lang="hr" hotkey="L|8" helptext="Izaberi izgled mreže">&amp;8 datoteka</c>
                 <c xml:lang="it" hotkey="L|8" helptext="Scegli un layout a griglia">&amp;8 File</c>
             </cmd>
-			
+
 			<!-- No longer used -->
             <cmd resid="ID_VIEWER_GRIDLAYOUT_9" desc="" bmidx="-1">
                 <c xml:lang="en" hotkey="L|9" helptext="Choose a grid layout">&amp;9 Files</c>
@@ -12586,6 +12623,7 @@
 				<c xml:lang="en" hotkey="A" helptext="Toggle Annotations">Toggle &amp;Annotations</c>
 				<c xml:lang="de" hotkey="A" helptext="Anmerkungen zeigen oder verbergen.">&amp;Anmerkungen zeigen oder verbergen</c>
 				<c xml:lang="nl" hotkey="A" helptext="Annotaties tonen of verbergen">&amp;Annotaties tonen of verbergen</c>
+				<c xml:lang="pt" hotkey="A" helptext="Alterna Anotações">Alterna &amp;Anotações</c>
 			</cmd>
 	
 		</command_group>
@@ -14077,6 +14115,7 @@
 							<n xml:lang="en" helptext="">&amp;Face Annotations</n>
 							<n xml:lang="de" helptext="">&amp;Gesichtsanmerkungen</n>
 							<n xml:lang="nl" helptext="">&amp;Gezichtsannotaties</n>
+							<n xml:lang="pt" helptext="">&amp;Anotações de Rosto</n>
 						</name>
 						<item>ID_CMD_TOOL_FACE_DETECT</item>
 						<separator/>
@@ -14268,6 +14307,7 @@
                 </menu>
 				<item>ID_VIEW_SHOW_THUMBTIPS</item>
 				<item>ID_VIEW_SHOW_PROTECTED_FILES</item>
+				<item>ID_FILEWND_AUTOADVANCE</item>
 				<separator></separator>
                 <item>ID_CMD_TOOL_SLIDESHOW</item>
             </menu>
@@ -15297,7 +15337,7 @@
 				<n xml:lang="no" helptext="Kategori-kommandoer">&amp;Kategorier</n>
 				<n xml:lang="de" helptext="Kategoriebefehle">&amp;Kategorien</n>
 				<n xml:lang="fi" helptext="Kategoriakomennot">&amp;Kategoriat</n>
-				<n xml:lang="nl" helptext="Categorie-opdrachten">&amp;Categoriën</n>
+				<n xml:lang="nl" helptext="Categorie-opdrachten">&amp;categorieën</n>
 				<n xml:lang="pt" helptext="Comandos das categorias">&amp;Categorias</n>
 				<n xml:lang="hr" helptext="Naredbe kategorija">&amp;Kategorije</n>
 				<n xml:lang="it" helptext="Comandi sulle Categorie">&amp;Categorie</n>
@@ -15343,6 +15383,7 @@
                 <item>ID_CMD_CATEGORY_DD_REFRESHALL</item>
                 <separator/>
                 <item>ID_CMD_CATEGORY_RESTORESORTORDER</item>
+				<item>ID_CMD_CATEGORY_RESETTHUMBNAIL</item>
                 <item>ID_APP_REFRESH</item>
             </menu>
         </menu>
@@ -15355,7 +15396,7 @@
 				<n xml:lang="no" helptext="Kategori-kommandoer">&amp;Kategorier</n>
 				<n xml:lang="de" helptext="Kategoriebefehle">&amp;Kategorien</n>
 				<n xml:lang="fi" helptext="Kategorioihin liittyvät toiminnot">&amp;Kategoriat</n>
-				<n xml:lang="nl" helptext="Categorie-opdrachten">&amp;Categoriën</n>
+				<n xml:lang="nl" helptext="Categorie-opdrachten">&amp;categorieën</n>
 				<n xml:lang="pt" helptext="Comandos das categorias">&amp;Categorias</n>
 				<n xml:lang="hr" helptext="Naredbe kategorija">&amp;Kategorije</n>
 				<n xml:lang="it" helptext="Comandi sulle Categorie">&amp;Categorie</n>
@@ -15403,7 +15444,7 @@
                 <n xml:lang="no" helptext="Kategori-kommandoer">&amp;Kategorier</n>
                 <n xml:lang="de" helptext="Kategoriebefehle">&amp;Kategorien</n>
 				<n xml:lang="fi" helptext="Kategoriat">&amp;Kategoriat</n>
-				<n xml:lang="nl" helptext="Categorie-opdrachten">&amp;Categoriën</n>
+				<n xml:lang="nl" helptext="Categorie-opdrachten">&amp;categorieën</n>
 				<n xml:lang="pt" helptext="Comandos das categorias">&amp;Categorias</n>
 				<n xml:lang="hr" helptext="Naredbe kategorija">&amp;Kategorije</n>
                 <n xml:lang="it" helptext="Comandi sulle Categorie">&amp;Categorie</n>
@@ -15879,6 +15920,7 @@
 					<n xml:lang="en">&amp;Video Options</n>
 					<n xml:lang="de">&amp;Video-Optionen</n>
 					<n xml:lang="nl">&amp;Video Opties</n>
+					<n xml:lang="pt">&amp;Opções de Vídeo</n>
 				</name>
 				<item>ID_CMD_FILE_THUMBSET_NEXT</item>
 				<item>ID_CMD_FILE_THUMBSET_PREV</item>
@@ -15896,6 +15938,8 @@
 					<n xml:lang="hr">Dod&amp;atne funkcije</n>
 					<n xml:lang="it">Funzioni &amp;Addizionali</n>
 				</name>
+				<item>ID_FILEWND_AUTOADVANCE</item>
+				<separator/>
 				<item>ID_CMD_FILE_READONLY_TOGGLE</item>
 				<item>ID_CMD_FILE_GOTOTIMELINE</item>
 				<separator/>
@@ -17035,6 +17079,7 @@
                 <item>ID_VIEWER_ZOOM_OUT</item>
             </menu>
 			<item>ID_VIEWER_LINK_WINDOWS</item>
+			<item>ID_VIEWER_AUTOADVANCE</item>
             <separator/>
 			<item>ID_VIEWER_GOTOFOLDER</item>
 			<item>ID_VIEWER_SLIDESHOW</item>
@@ -17125,6 +17170,7 @@
                 <item>ID_VIEWER_GRIDLAYOUT_8</item>
 				<separator/>
 				<item>ID_VIEWER_LINK_WINDOWS</item>
+				<item>ID_VIEWER_AUTOADVANCE</item>
             </menu>
             <menu resid="ID_MENU_VIEWER_NAVIGATION">
                 <name>
@@ -18017,12 +18063,15 @@
                 <name xml:lang="en">Root folder for apps</name>
                 <name xml:lang="de">Wurzelverzeichnis für Apps</name>
 				<name xml:lang="nl">Root maapvoot apps</name>
+				<name xml:lang="pt">Pasta raiz para aplicações</name>
                 <desc xml:lang="en">The folder containing apps and scripts for IMatch.</desc>
                 <desc xml:lang="de">Dieses Verzeichnis enthält Apps und Skripte für IMatch.</desc>
 				<desc xml:lang="nl">The map waarin de apps en scripts voor IMatch staan.</desc>
+				<desc xml:lang="pt">A pasta que contém aplicações e scripts para o IMatch.</desc>
                 <group xml:lang="en">Folders</group>
                 <group xml:lang="de">Verzeichnisse</group>
 				<group xml:lang="nl">Mappen</group>
+				<group xml:lang="pt">Pastas</group>
             </property>
 			
             <property resid="app.shfpresets" desc="">
@@ -18501,9 +18550,11 @@
                 <name xml:lang="en">Show HTML files</name>
                 <name xml:lang="de">Zeige HTML-Dateien</name>
 				<name xml:lang="nl">Toon HTML bestanden</name>
+				<name xml:lang="pt">Mostra os ficheiros HTML</name>
 				<desc xml:lang="en">Enable this option to use display HTML files in the built-in browser. If you consider this a privacy risk, disable this option.</desc>
                 <desc xml:lang="de">Aktivieren Sie diese Option, um HTML-Dateien mit dem eingebauten Web-Browser anzuzeigen.</desc>
 				<desc xml:lang="nl">Activeer deze optie op HTML-bestanden te kunnen weergeven met de ingebouwde browser. Als u dit een privact-risico vindt, dé-activeer dan deze optie.</desc>
+				<desc xml:lang="pt">Active esta opção para usar os arquivos HTML no navegador embutido. Se considerar este procedimento um risco de privacidade, desactive esta opção.</desc>
 				<group xml:lang="it">Quick View</group>
                 <group xml:lang="en">Quick View</group>
                 <group xml:lang="no">Hurtigvisning</group>
@@ -18866,6 +18917,7 @@
 				<name xml:lang="en">App Panel Scale</name>
 				<name xml:lang="de">App-Panel Skalierung</name>
 				<name xml:lang="nl">Schaal van het App-paneel</name>
+				<name xml:lang="pt">Escala do Painel de Aplicações</name>
 				<group xml:lang="en">User Interface</group>
 				<group xml:lang="de">Benutzerschnittstelle</group>
 				<group xml:lang="fi">Käyttöliittymä</group>
@@ -19375,60 +19427,75 @@
 				<name xml:lang="en">IMWS enabled</name>
 				<name xml:lang="de">IMWS aktiviert</name>
 				<name xml:lang="nl">IMWS actief</name>
+				<name xml:lang="pt">IMWS activo</name>
 				<desc xml:lang="en">If this setting is off, the embedded IMatch WebServices is disabled. No scripts or apps can work.</desc>
 				<desc xml:lang="de">Diese Einstellung bestimmt, ob der integrierte Webdienst in IMatch ausgeführt wird. Er wird für die Ausführung von Skripten und Apps benötigt.</desc>
 				<desc xml:lang="nl">Deze instelling bepaalt of de geïntegreerde IMatch Webservices worden uitgevoerd. Die zijn voor de uitvoering van scripts en Apps nodig.</desc>
+				<desc xml:lang="pt">Se esta configuração estiver desactivada, os Serviços Web do IMatch incorporados estão inactivos. Nenhum script ou aplicação funciona.</desc>
 				<group xml:lang="en">Embedded IMatch WebServices</group>
 				<group xml:lang="de">Integrierte IMatch-Webdienste</group>
 				<group xml:lang="nl">Geïntegreerde IMatch WebServices</group>
+				<group xml:lang="pt">Serviços Web do IMatch incorporados</group>
 			</property>
 			
 			<property resid="imws.port" >
 				<name xml:lang="en">Port Number</name>
 				<name xml:lang="de">Port-Nummer</name>
 				<name xml:lang="nl">Poort nummer</name>
+				<name xml:lang="pt">Número da Porta</name>
 				<desc xml:lang="en">The port number to use for IMWS. If the default port number is already in use on your system, select another number in the range 49152-65535.</desc>
 				<desc xml:lang="de">Die Port-Nummer, under der der integrierte Webdienst ereichbar ist. Wenn der Standard-Port auf Ihrem System bereits von einem anderen Dienst verwendet wird, wählen Sie einen freien Port im Bereich 49152-65535.</desc>
 				<desc xml:lang="nl">Het poortnummer dat voor IMWS wordt gebruikt. Als het standaardpoortnummer al in gebruik is op uw systeem, kiers dan een ander vrij nummer in de reeks 49152-65535.</desc>
+				<desc xml:lang="pt">O número da porta que irá ser utilizado pelo IMWS. Se o número da porta padrão já estiver a ser utilizado no seu sistema, seleccione outro número dentro da range 49152-65535.</desc>
 				<group xml:lang="en">Embedded IMatch WebServices</group>
 				<group xml:lang="de">Integrierte IMatch-Webdienste</group>
 				<group xml:lang="nl">Geïntegreerde IMatch WebServices</group>
+				<group xml:lang="pt">Serviços Web do IMatch incorporados</group>
 			</property>
 
 			<property resid="imws.documentroot" >
 				<name xml:lang="en">Document Root / App Folder</name>
 				<name xml:lang="de">Dokument- und App-Wurzelverzeichnis</name>
 				<name xml:lang="nl">Document Root / App map</name>
+				<name xml:lang="pt">Raiz do Documento / Pasta das Aplicações</name>
 				<desc xml:lang="en">This folder contains all scripts, documents and apps which should be accessible via the embedded IMatch WebServices. The IMatch App Manager also uses this folder to find the system and your apps.</desc>
 				<desc xml:lang="de">Dieses Verzeichnis enthält alle Skripte, Dokumente und Apps, die über den integrierten Webdienst erreichbar sein sollen. Der IMatch App-Manager durchsucht ebenfalls dieses Verzeichnis, um System- und benutzerdefinierte Skripte zu finden.</desc>
 				<desc xml:lang="nl">Deze map bevat alle scripts, documenten en apps die via de geïntegreerde IMatch WebServices bereikbaar zouden moeten zijn. Ookde IMatch App Manager gebruikt deze map om de systeem- en gebruikers apps te vinden.</desc>
+				<desc xml:lang="pt">Esta pasta contém todos os scripts, documentos e aplicações que devem ser acedidos através dos Serviços Web incorporados do IMatch. O Gerenciador de aplicações do IMatch também usa essa pasta para encontrar o sistema e as suas aplicações..</desc>
 				<group xml:lang="en">Embedded IMatch WebServices</group>
 				<group xml:lang="de">Integrierte IMatch-Webdienste</group>
 				<group xml:lang="nl">Geïntegreerde IMatch WebServices</group>
+				<group xml:lang="pt">Serviços Web do IMatch incorporados</group>
 			</property>
 
 			<property resid="cef.debugport" >
 				<name xml:lang="en">Remote Debugging Port</name>
 				<name xml:lang="de">Remote-Debugging Port</name>
 				<name xml:lang="nl">Remote Debugging Poort</name>
+				<name xml:lang="pt">Porta de depuração remota</name>
 				<desc xml:lang="en">If this is 0, remote debugging of the embedded browser is disabled. Set this to a valid port number (e.g. 8080) to enable remote debugging.</desc>
 				<desc xml:lang="de">Ist dieser Wert 0, ist Remote-Debugging für den eingebetteten Web-Browsers deaktiviert. Tragen Sie eine gültige Port-Nummer (z.B. 8080) ein, um Remote-Debugging zu nutzen.</desc>
 				<desc xml:lang="nl">Als deze waarde op 0 staat, is remote debugging van de ingebouwd browser niet mogelijk. Voer een geldig poortnummer is (bv. 8080) om remote debugging te benutten.</desc>
+				<desc xml:lang="pt">Se isto for 0, a depuração remota do navegador incorporado está desabilitada. Defina isto com um número de porta válido (por exemplo, 8080) para habilitar a depuração remota.</desc>
 				<group xml:lang="en">Developer Options</group>
 				<group xml:lang="de">Entwickler-Optionen</group>
 				<group xml:lang="nl">Opties voor ontwikkelaars</group>
+				<group xml:lang="pt">Opções do programador</group>
 			</property>
 
 			<property resid="cef.clearcache" >
 				<name xml:lang="en">Clear browser cache on exit</name>
 				<name xml:lang="de">Browser-Cache beim Beenden leeren</name>
 				<name xml:lang="nl">Browsercache leegmaken bij afsluiten</name>
+				<name xml:lang="pt">Limpar a cache do navegador na saída</name>
 				<desc xml:lang="en">If this is enabled, IMatch clears the cache of the embedded browser when exiting. Use this option if there is a problem with the cache or the browser does not pick up changes done to files.</desc>
 				<desc xml:lang="de">Wenn diese Einstellung aktiviert ist, leert IMatch beim Schließen den Cache des integrierten Web-Browsers. Nutzen Sie dies temporär, wenn es ein Problem mit dem Cache gibt oder der Browser geänderte Dateien nicht erkennt.</desc>
 				<desc xml:lang="nl">Als deze otie geaktveerd is, zal IMatch de cache van de ingebouwde browser leeg maken bij afsluiten. Gebruik deze optie als er een probleem met de browser is of als de browser wijzigingen in bestanden niet herkent.</desc>
+				<desc xml:lang="en">Se isto estiver activo, o IMatch limpa o cache do navegador incorporado ao sair. Use esta opção se houver um problema com a cache ou se o navegador não apanhar as alterações feitas nos ficheiros.</desc>
 				<group xml:lang="en">Developer Options</group>
 				<group xml:lang="de">Entwickler-Optionen</group>
 				<group xml:lang="nl">Opties voor ontwikkelaars</group>
+				<group xml:lang="pt">Opções do programador</group>
 			</property>
 
 
@@ -19982,7 +20049,28 @@
 				<group xml:lang="fi">Katseluikkuna</group>
             </property>
 
-            <property resid="app.viewer.ssclose" desc="">
+			<property resid="app.viewer.autoadvance" desc="">
+				<name xml:lang="en">Auto Advance</name>
+				<name xml:lang="de">Automatisch weiterschalten</name>
+				<name xml:lang="nl">Automatisch verdergaan</name>
+
+				<desc xml:lang="en">If enabled, the Viewer moves to the next file when you apply a rating, label or bookmark.</desc>
+				<desc xml:lang="de">Wenn aktiv, springt der Viewer zur nächsten Datei wenn Sie eine Bewertung, Markierung oder ein Lesezeichen zuweisen.</desc>
+				<desc xml:lang="nl">Als deze optie aan is, gaat de Viewer automatisch verder naar het volgende bestand als u een waardering, label of bladwijzer toekent.</desc>
+
+				<group xml:lang="it">Visualizzatore</group>
+				<group xml:lang="en">Viewer</group>
+				<group xml:lang="no">Visningsprogram</group>
+				<group xml:lang="de">Viewer</group>
+				<group xml:lang="de">Viewer</group>
+				<group xml:lang="nl">Viewer</group>
+				<group xml:lang="pt">Visualizador</group>
+				<group xml:lang="hr">Preglednik</group>
+				<group xml:lang="fi">Katseluikkuna</group>
+			</property>
+			
+
+			<property resid="app.viewer.ssclose" desc="">
                 <name xml:lang="it">Lo Slide Show chiude il Visualizzatore</name>
                 <name xml:lang="en">Slide Show closes Viewer</name>
                 <name xml:lang="no">Lysbildefremvisning lukker visningsprogram</name>
@@ -20345,10 +20433,12 @@
 				<name xml:lang="en">How many files to preload in background (0 = Auto)</name>
 				<name xml:lang="de">Anzahl der im Hintergrund vorausgeladenenen Dateien (0 = Automatisch)</name>
 				<name xml:lang="nl">Aantal bestanden dat op de achtergrond vooraf wordt geladen(0 = Auto)</name>
+				<name xml:lang="pt">Quantos arquivos para pré-carregar em 2º plano (0 = Auto)</name>
 
 				<desc xml:lang="en">By default, this option is 0 and IMatch determines automatically, how many files to preload in the background for a smooth viewing experience.\r\n\r\nThis option can be helpful when your graphic card causes problems with the automatic preloading. If you experience problems, 'black frames' etc. try to reduce the number of preloaded files (e.g., to 2 or 3) until the problem goes away.</desc>
 				<desc xml:lang="de">Standardmäßig steht diese Option auf 0 und IMatch ermittelt automatisch, wie viele Bilder im Hintergrund vorausgeladen werden müssen, um eine bestmögliches Ansichtserlebnis zu ermöglichen.\r\n\r\nDas Ändern dieser Option kann sehr hilfreich sein, wenn Ihre Grafikkarte Probleme mit dem automatischen Vorausladen von Bildern macht (Bilder werden nicht geladen oder bleiben schwarz). Reduzieren Sie in diesem Fall die Anzahl der im Voraus geladenen Bilder (zum Beispiel auf 2 oder 3), bis das Problem nicht mehr auftritt.</desc>
 				<desc xml:lang="nl">Standaard is dit aantal 0 en bepaalt IMatch automatisch, hoeveel bestanden er in de achtergrond vooraf moeten worden geladen voor een soepele kijkervaring.\r\n\r\nHet wijzigen van dit aantal kan helpen als uw grafische kaart problemen veroorzaakt met het automatisch laden. Als u problemen ervaart (bv. omdat afbeeldingen niet worden getoond, etc.) probeer dan het aantal te verminderen (bv. tot 2 of 3) totdat het probleem verdwijnt.</desc>
+				<desc xml:lang="pt">Por padrão, esta opção é 0 e o IMatch determina automáticamente, quantos arquivos a pré-carregar em 2º plano para uma experiência de visualização suave. \ R \ n \ r \ nEsta opção pode ser útil quando a sua placa gráfica causa problemas com o pré-carregamento automático. Se tiver problemas, 'quadros pretos',etc., tente reduzir o número de arquivos pré-carregados (por exemplo, para 2 ou 3) até que o problema desapareça.</desc>
 				
 				<group xml:lang="en">Viewer</group>
 				<group xml:lang="de">Viewer</group>
@@ -20364,28 +20454,34 @@
 				<name xml:lang="en">Face Annotations Font Size</name>
 				<name xml:lang="de">Gesichtsanmerkungen Schriftgröße</name>
 				<name xml:lang="nl">Gezichtsannotaties lettergrootte</name>
+				<name xml:lang="pt">Tamanho das Fontes para as Anotações de Rosto</name>
 
 				<desc xml:lang="en"><![CDATA[The font size used to display face annotations in the Viewer and the Quick View Panel.]]></desc>
 				<desc xml:lang="de"><![CDATA[Die Schriftgröße für Gesichtsanmerkungen im Viewer und in der Schnellansicht.]]></desc>
 				<desc xml:lang="nl"><![CDATA[De lettergrootte die wordt gebruikt om de gezichtsannotaties in de viewer en de snelweergave te tonen.]]></desc>
+				<desc xml:lang="pt"><![CDATA[Tamanho da fonte utilizada para exibir as anotações de rosto no Visualizador e no Painel de Visualização Rápida.]]></desc>
 
 				<group xml:lang="en">Face Detection and Annotations</group>
 				<group xml:lang="de">Gesichtsdetektion und Anmerkungen</group>
 				<group xml:lang="nl">Gezichtsherkenning en -annotaties</group>
+				<group xml:lang="pt">Detecção de Rosto e Anotações</group>
 			</property>
 
 			<property resid="app.viewer.face.source" desc="">
 				<name xml:lang="en">Face Annotations Source</name>
 				<name xml:lang="de">Gesichtsanmerkungen-Basis</name>
 				<name xml:lang="nl">Bron voor gezichtsannotaties</name>
+				<name xml:lang="pt">Fonte das Anotações de Rosto</name>
 
 				<desc xml:lang="en"><![CDATA[This setting controls which image IMatch uses when searching for faces.]]></desc>
 				<desc xml:lang="de"><![CDATA[Diese Einstellung legt fest, welches Bild IMatch für die Suche nach Gesichtern verwendet.]]></desc>
 				<desc xml:lang="nl"><![CDATA[Deze instelling bepaalt welke afbeelding IMatch gebruikt als gezichten wordt gezocht.]]></desc>
+				<desc xml:lang="pt"><![CDATA[Esta configuração controla a imagem que o IMatch usa ao procurar rostos.]]></desc>
 
 				<group xml:lang="en">Face Detection and Annotations</group>
 				<group xml:lang="de">Gesichtsdetektion und Anmerkungen</group>
 				<group xml:lang="nl">Gezichtsherkenning en -annotaties</group>
+				<group xml:lang="pt">Detecção de Rosto e Anotações</group>
 				
 				<!-- @Mario: Must match EFaceAnnoSource -->
 				<choices>
@@ -20393,11 +20489,13 @@
 						<c xml:lang="en" desc="">Thumbnail (faster)</c>
 						<c xml:lang="de" desc="">Vorschaubild (schneller)</c>
 						<c xml:lang="nl" desc="">Voorbeeldafbeelding (sneller)</c>
+						<c xml:lang="pt" desc="">Miniatura (mais rápido)</c>
 					</choice>
 					<choice data="1">
 						<c xml:lang="en" desc="">Full image (slower, maybe more precise)</c>
 						<c xml:lang="de" desc="">Vollbild (langsamer, eventuell präziser)</c>
 						<c xml:lang="nl" desc="">Volledige afbeelding (langzamer, maar mogelijk accurater)</c>
+						<c xml:lang="pt" desc="">Imagem completa (mais lento, talvez mais preciso)</c>
 					</choice>
 				</choices>
 			</property>
@@ -20409,12 +20507,15 @@
 				<name xml:lang="en">Prefer photools.com RAW Processing</name>
 				<name xml:lang="de">photools.com RAW-Prozess bevorzugen</name>
 				<name xml:lang="nl">Geef de voorkeur aan photools.com RAW bewerker</name>
+				<name xml:lang="pt">Prefira o processamento RAW da photools.com</name>
 				<desc xml:lang="en">By default, IMatch uses installed WIC Codecs provided by camera vendors, Microsoft or 3rd parties to extract previews and cache images from RAW images. The integrated photools.com RAW processor is used as a fallback if no WIC codec is installed or if it fails to load a RAW image. If you want to ignore installed WIC codecs and use photools.com RAW processing always, enable this option.</desc>
 				<desc xml:lang="de">Standardmäßig verwendet IMatch zum Verarbeiten von RAW-Bilddateien installierte WIC-Codecs, die von Kameraherstellern, Microsoft oder Drittanbietern bereitgestellt werden. Falls kein WIC-Codec installiert ist oder dieser ein Bild nicht laden kann, nutzt IMatch den eingebauten photools.com RAW-Prozessor. Falls Sie WIC-Codecs ignorieren möchten und stattdessen immer den photools.com RAW-Prozessor nutzen möchten, aktivieren Sie diese Option.</desc>
 				<desc xml:lang="nl">Standaard gebruikt IMatch de geïnstalleerde WIC-codecs, die door de cameraleverancier, Microsoft of derde partijen beschikbaar worden gesteld, om miniaturen en cache afbeeldingen uit RAW-bestanden te genereren.  In het geval dat geen WIC-codec is geïnstalleerd of een afbeelding niet kan worden geladen, gebruikt IMatch de ingebouwde photools.com RAW bewerker. Als u de geïnstalleerde WIC codecs niet wilt gebruiken en altijd de photools.com RAW bewerker wilt gebruiken, kunt u deze optie activeren.</desc>
+				<desc xml:lang="pt">Por padrão, o IMatch usa os Codecs WIC instalados fornecidos pelos vendedores de câmeras, Microsoft ou terceiros para extrair visualizações e imagens de cache a partir de imagens RAW. O processador RAW integrado da photools.com é usado como reserva se nenhum codec WIC estiver instalado ou se ele não carregar uma imagem RAW. Se quiser ignorar os codecs WIC instalados e usar sempre o processamento RAW da photools.com, habilite esta opção.</desc>
 				<group xml:lang="en">photools.com RAW Processing</group>
 				<group xml:lang="en">photools.com RAW-Prozess</group>
 				<group xml:lang="nl">photools.com RAW-verwerking</group>
+				<group xml:lang="pt">Processamento RAW da photools.com</group>
 			</property>
 
 
@@ -24310,8 +24411,10 @@
 			<property resid="objectproperties.cattree.showthumbnails" desc="">
 				<name xml:lang="en">Show Category Thumbnails</name>
 				<name xml:lang="de">Kategorie-Symbolbilder anzeigen</name>
+				<name xml:lang="pt">Mostra as Miniaturas das Categorias</name>
 				<desc xml:lang="en">Activate this option to show category thumbnails instead of standard icons.</desc>
 				<desc xml:lang="de">Aktivieren Sie diese Option, um Verzeichnis-Symbolbilder anstatt der Standard-Symbolbilder anzuzeigen.</desc>
+				<desc xml:lang="pt">Active esta opção de forma a mostrar as miniaturas das categorias em vez dos icons padrão.</desc>
 				<group xml:lang="en"></group>
 				<group xml:lang="de"></group>
 				<group xml:lang="fi"></group>
@@ -24354,8 +24457,10 @@
 			<property resid="objectproperties.cattree.thumbnailsize" desc="">
 				<name xml:lang="en">Category Thumbnail Size</name>
 				<name xml:lang="de">Kategorie-Symbolbildgröße</name>
+				<name xml:lang="pt">Tamanho das Miniaturas das Categorias</name>
 				<desc xml:lang="en">Controls the size of category thumbnails.</desc>
 				<desc xml:lang="de">Die Größe der Kategorie-Symbolbilder.</desc>
+				<desc xml:lang="pt">Controla o tamanho das miniaturas das categorias.</desc>
 				<group xml:lang="en"></group>
 				<group xml:lang="de"></group>
 				<group xml:lang="fi"></group>
@@ -24947,7 +25052,7 @@
 				<desc xml:lang="en"><![CDATA[If you enable <Bold>Un-assign from all</Bold>, a file assigned to this category will be removed from all other categories. <Bold>Un-assign from siblings</Bold> will remove the file from all categories with the same parent.]]></desc>
                 <desc xml:lang="de"><![CDATA[Wenn <Bold>Aus allen entfernen</Bold> ausgewählt ist, werden zugewiesene Dateien aus allen anderen Kategorien entfernt. Die Option <Bold>Aus Geschwisterkategorien entfernen</Bold> entfernt zugewiesene Dateien aus allen Kategorien mit der gleichen Elternkategorie.]]></desc>
 				<desc xml:lang="fi"><![CDATA[Jos valitset <Bold>Poista kaikista muista</Bold> tiedosto, joka on sijoitettu tähän kategoriaan, poistetaan kaikista muista kategorioista. <Bold>Poista alakategorioista</Bold> poistaa tiedoston kaikista alakategorioista.]]></desc>
-				<desc xml:lang="nl"><![CDATA[Als u <Bold>Overal verwijderen</Bold> activeert, zal een bestand dat aan deze categorie is toegewezen, ook uit alle andere categoriën worden verwijderd. <Bold>Op gelijk niveau verwijderen</Bold> zal het bestand verwijderen uit alle categoriën met dezelfde ouder.]]></desc>
+				<desc xml:lang="nl"><![CDATA[Als u <Bold>Overal verwijderen</Bold> activeert, zal een bestand dat aan deze categorie is toegewezen, ook uit alle andere categorieën worden verwijderd. <Bold>Op gelijk niveau verwijderen</Bold> zal het bestand verwijderen uit alle categorieën met dezelfde ouder.]]></desc>
 				<desc xml:lang="hr"><![CDATA[Ako odabereš <Bold>Poništi dodjelu od svih</Bold>, datoteka pridružena ovoj kategoriji će biti uklonjena iz svih ostalih kategorija. <Bold>Poništi dodjelu od ravnopravnih</Bold> će ukloniti datoteku iz svih potkategorija.]]></desc>
 				<desc xml:lang="pt"><![CDATA[Se activar <Bold>Remover de Todas</Bold>, um ficheiro atribuído a esta categoria será removido de todas as outras categorias. <Bold>Remover das Colaterais</Bold> removerá este ficheiro de todas as categorias subordinadas desta categoria.]]></desc>
 				<desc xml:lang="no"><![CDATA[Dersom du aktiverer <Bold>Fjern fra alle</Bold> vil en fil tilordnet denne kategorien fjernes fra alle andre kategorier. <Bold>Fjern fra søsken</Bold> vil fjerne filen fra alle kategorier med samme forelder.]]></desc>
@@ -25046,7 +25151,7 @@
                 <name xml:lang="en">Keep empty categories</name>
                 <name xml:lang="de">Leere Kategorien beibehalten</name>
 				<name xml:lang="fi">Säilytä tyhjät kategoriat</name>
-                <name xml:lang="nl">Lege categoriën behouden</name>
+                <name xml:lang="nl">Lege categorieën behouden</name>
 				<name xml:lang="pt">Manter categorias vazias</name>
                 <name xml:lang="hr">Zadrži prazne kategorije</name>
                 <name xml:lang="it">Mantieni le categorie vuote</name>
@@ -25055,7 +25160,7 @@
                 <desc xml:lang="it">Se questa opzione è abilitata, verranno mantenute le categorie figlie vuote quando si aggiornano le categorie data-driven.</desc>
                 <desc xml:lang="de">Wenn Sie diese Option aktivieren, behält IMatch leere Kindkategorien bei, wenn Sie die datengestützte Kategorie aktualisieren.</desc>
 				<desc xml:lang="fi">Kun valinta on käytössä, tyhjät alakategoriat säilytetään, kun aineistopohjaisia kategorioita päivitetään.</desc>
-                <desc xml:lang="nl">Indien geactiveerd, behoudt IMatch lege onderliggende categoriën na het bijwerken van een gegevensgestuurde categorie.</desc>
+                <desc xml:lang="nl">Indien geactiveerd, behoudt IMatch lege onderliggende categorieën na het bijwerken van een gegevensgestuurde categorie.</desc>
 				<desc xml:lang="pt">Se esta opção estiver activadas, as categorias subordinadas vazias serão mantidas quando refrescar a categoria dinâmica.</desc>
                 <desc xml:lang="hr">Ako je omogućeno, prazne podkategorije će biti zadržane nakon osvježavanja kategorije prema podacima.</desc>
 				<desc xml:lang="no">Dersom valget er aktivt vil tomme barnekategorier beholdes når du oppfrisker den datadrevne kategorien.</desc>
@@ -25956,9 +26061,11 @@
 				<name xml:lang="en">Show current year on top</name>
 				<name xml:lang="de">Aktuelles Jahr zuerst</name>
 				<name xml:lang="nl">Lopend jaar bovenaan</name>
+				<name xml:lang="pt">Mostra o ano corrente no topo</name>
 				<desc xml:lang="en">Change the year order, show current year on top.</desc>
 				<desc xml:lang="de">Anzeigereihenfolge umkehren. Zeige aktuelles Jahr zuerst.</desc>
 				<desc xml:lang="nl">Verander de volgorde van jaren, lopende jaar bovenaan.</desc>
+				<desc xml:lang="pt">Altera a ordem do ano, mostra o ano actual no topo.</desc>
 				<group xml:lang="en"></group>
 				<group xml:lang="de"></group>
 				<group xml:lang="nl"></group>
@@ -27999,9 +28106,11 @@
 				<name xml:lang="en">Background Color (Searching)</name>
 				<name xml:lang="de">Hintergrundfarbe (Suche aktiv)</name>
 				<name xml:lang="nl">Achtergrondkleur(zoeken)</name>
+				<name xml:lang="pt">Cor do 2º plano (Procura)</name>
 				<desc xml:lang="en">The background color used when the search bar is used.</desc>
 				<desc xml:lang="de">Die Hintergrundfarbe bei Verwendung der Suchleiste.</desc>
 				<desc xml:lang="nl">De achtergrondkleur als de zoekbalk wordt gebruikt.</desc>
+				<desc xml:lang="pt">A cor do 2º plano utilizada quando a barra de pesquisa é usada.</desc>
 				<group xml:lang="en">Caption Bar</group>
 				<group xml:lang="no">Bildetekstlinjen</group>
 				<group xml:lang="de">Kopfzeile</group>
@@ -28436,37 +28545,59 @@
 				<name xml:lang="en">Animated previews for videos</name>
 				<name xml:lang="de">Animierte Vorschau von Videos</name>
 				<name xml:lang="nl">Geanimeerde previews voor videos</name>
+				<name xml:lang="pt">Pré-visualizações animadas para vídeos</name>
 				<desc xml:lang="en">If this is enabled, the file window displays multiple frames for each video file when you move the mouse into a thumbnail panel.</desc>
 				<desc xml:lang="de">Aktivieren Sie diese Option, um animierte Vorschauen für Videos zu zeigen. Das Dateifenster zeigt diese Vorschauen, wenn Sie mit der Maus auf ein Vorschaubild zeigen.</desc>
 				<desc xml:lang="nl">Activeer deze optie, om een genaimeerde preview voor iedere video te zien, als u met de muis naar een miniatuur wijst.</desc>
+				<desc xml:lang="pt">Se isto for activado, a janela do ficheiro exibirá vários quadros para cada arquivo de vídeo quando mover o rato para dentro de um painel de miniaturas.</desc>
 				<group xml:lang="en">Animation</group>
 				<group xml:lang="de">Animation</group>
 				<group xml:lang="nl">Animatie</group>
+				<group xml:lang="pt">Animação</group>
 			</property>
 
 			<property resid="filewnd.ui.anim.steptime" desc="">
 				<name xml:lang="en">Animation frame duration</name>
 				<name xml:lang="de">Anzeigedauer pro Bild</name>
 				<name xml:lang="nl">Animatieduur per frame</name>
-				<desc xml:lang="en">The time between individual animation frams in millseconds (1000ms = 1 second).</desc>
+				<name xml:lang="pt">Duração do quadro de animação</name>
+				<desc xml:lang="en">The time between individual animation frames in millseconds (1000ms = 1 second).</desc>
 				<desc xml:lang="de">Anzeigeduaer der einzelnen Bilder in Millisekunden (1000ms = 1 Sekunde).</desc>
 				<desc xml:lang="nl">De tijd tussen afzonderlijke animatie frames in milliseconden (1000ms = 1 second).</desc>
+				<desc xml:lang="pt">O tempo entre quadros individuais de animação em milisegundos (1000ms = 1 second).</desc>
 				<group xml:lang="en">Animation</group>
 				<group xml:lang="de">Animation</group>
 				<group xml:lang="nl">Animatie</group>
+				<group xml:lang="pt">Animação</group>
 			</property>
 
 			<property resid="filewnd.ui.resultwindow.filter.autopause" desc="">
 				<name xml:lang="en">Result Windows pause filter panel</name>
 				<name xml:lang="de">Ergebnisfenster pausieren Filter-Panel</name>
 				<name xml:lang="nl">Resultaatvenster pauzeren filter paneel</name>
+				<name xml:lang="pt">Painel de filtro de pausa de resultados do Windows </name>
 				<desc xml:lang="en">If this option is enabled, the Filter Panel is automatically paused when a Result Window becomes active.</desc>
 				<desc xml:lang="de">Wenn diese Option aktivert ist, wird das Filter-Panel automatisch pausiert, wenn ein Ergebnisfenster aktiviert wird.</desc>
 				<desc xml:lang="nl">Als deze optie geactiveerd is, wordt het het filter paneel automatisch gepauzeerd als een resultaatvenster wordt geactiveerd.</desc>
+				<desc xml:lang="pt">Se esta opção estiver activa, o Painel do Filtro será pausado automáticamente quando uma janela de resultados ficar activa.</desc>
 				<group xml:lang="en">Result Windows</group>
 				<group xml:lang="de">Ergebnisfenster</group>
 				<group xml:lang="nl">Resultaatvenster</group>
+				<group xml:lang="pt">Resultado Windows</group>
 			</property>
+
+			<property resid="filewnd.ui.autoadvance" desc="">
+				<name xml:lang="en">Auto Advance</name>
+				<name xml:lang="de">Automatisch weiterschalten</name>
+				<name xml:lang="nl">Automatisch verdergaan</name>
+				<desc xml:lang="en">If this option is enabled, the file window moves the focus to the next file when you apply a rating, label or bookmark or when you reject a file.</desc>
+				<desc xml:lang="de">Wenn diese Option aktiviert ist, bewegt das Dateifenster den Fokus automatisch auf die nächste Datei, wenn Sie eine Bewertung, eine Markierung oder ein Lesezeichen zuweisen, oder wenn Sie eine Datei zurückweisen.</desc>
+				<desc xml:lang="nl">Als deze optie aan is, zal het bestandsvenster automatisch verder gaan naar het volgende bestand als u een waardering, label of bladwijzer toekent.</desc>
+				<group xml:lang="en">Auto Advance</group>
+				<group xml:lang="de">Automatisch weiterschalten</group>
+				<group xml:lang="nl">Automatisch verdergaan</group>
+			</property>
+
 
 			<!-- LOD Editor Properties -->
 
@@ -28648,7 +28779,7 @@
 				<desc xml:lang="en-uk">If this is on, the category colour bar is displayed in panels. It shows the colours of categories to which the item is assigned.</desc>
 				<desc xml:lang="de">Ist diese Option aktiv, wird der Kategoriebalken angezeigt. Er stellt die Farbcodes der Kategorien dar, denen das Element zugeordnet wurde.</desc>
 				<desc xml:lang="fi">Kun tämä on valittuna, kategorioiden tunnisteväripalkit näytetään kuvapaneeleissa. Ne näyttävät onko tiedosto sijoitettu kategoriaan, jolla on tunnisteväri.</desc>
-				<desc xml:lang="nl">Toont of verbergt de categorie-balk in de panelen. De categorie-balk toont de kleuren van de categoriën waar het bestand aan toegewezen is.</desc>
+				<desc xml:lang="nl">Toont of verbergt de categorie-balk in de panelen. De categorie-balk toont de kleuren van de categorieën waar het bestand aan toegewezen is.</desc>
 				<desc xml:lang="pt">Se esta opção estiver activa, a barra de cores das categorias é apresentada nos painéis. Esta barra mostra as cores das categorias às quais o item está atribuído.</desc>
 				<desc xml:lang="hr">Prikazuje traku s bojama kategorija u pločama. Prikazuje boje kategorija koje su dodjeljene stavci.</desc>
 			</property>
@@ -31111,7 +31242,7 @@
 				<name xml:lang="no">Kategorier</name>
 				<name xml:lang="de">Kategorien</name>
 				<name xml:lang="fi">Kategoriat</name>
-				<name xml:lang="nl">Categoriën</name>
+				<name xml:lang="nl">categorieën</name>
 				<name xml:lang="pt">Categorias</name>
 				<name xml:lang="hr">Kategorije</name>
 				<name xml:lang="it">Categorie</name>
@@ -31120,7 +31251,7 @@
 				<desc xml:lang="no">Liste over kategorier i denne splasher. Du kan redigere denne listen for å legge til eller fjerne kategorier. Angi en fullstendig kvalifisert kategorinavnet per linje, Ctrl + Enter for å legge til en ny linje.</desc>
 				<desc xml:lang="de">Liste der Kategorien in diesem Splasher. Die Liste kann ediert werden. Geben Sie einen vollständigen Kategorienamen pro Zeile ein. Mit Strg+Eingabe erstellen Sie eine neue Zeile.</desc>
 				<desc xml:lang="fi">Splasherin käyttämät kategoriat. Voit lisätä tai vähentää kategorioita listasta. Syötä yksi kategorian nimi riviä kohti,  Ctrl+Enter lisätäksesi uuden rivin.</desc>
-				<desc xml:lang="nl">Lijst van categoriën in deze splasher. U kunt categoriën toevoegen of verwijderen. Geef een volledige categorie-naam per regel in. Met Ctrl-Enter kunt u een nuew regel toevoegen.</desc>
+				<desc xml:lang="nl">Lijst van categorieën in deze splasher. U kunt categorieën toevoegen of verwijderen. Geef een volledige categorie-naam per regel in. Met Ctrl-Enter kunt u een nuew regel toevoegen.</desc>
 				<desc xml:lang="pt">Lista de categorias nesta Regra de Atribuição. Pode editar esta lista para adicionar ou remover categorias. Insira um nome de categoria totalmente qualificado por linha, Ctrl+Enter para adicionar uma nova linha.</desc>
 				<desc xml:lang="hr">Popis kategorija u ovom prskaču. Možeš urediti ovaj popis dodavajući i uklanjajući kategorije. Unesi jedno potpuno kvalificirano ime kategorije po retku, pritisni Ctrl+Enter da bi dodao novi red.</desc>
 			</property>
@@ -31129,34 +31260,41 @@
 				<name xml:lang="en">App Target</name>
 				<name xml:lang="de">App Ziel</name>
 				<name xml:lang="nl">App doel</name>
+				<name xml:lang="pt">Objectivo da Aplicação</name>
 				<desc xml:lang="en">Pick the preferred app panel to run this app in.</desc>
 				<desc xml:lang="de">Wählen Sie das bevorzugte App-Panel für diese App aus.</desc>
 				<desc xml:lang="nl">Kies het geprefereerde app panel voor deze app.</desc>
+				<desc xml:lang="pt">Escolha o painel de aplicações preferido para executar este aplicativo.</desc>
 				<choices>
 					<choice data="0" default="true">
 						<c xml:lang="en">Automatically select panel</c>
 						<c xml:lang="de">Panel automatisch auswählen</c>
 						<c xml:lang="nl">Paneel automatisch kiezen</c>
+						<c xml:lang="pt">Selecciona o painel automáticamente</c>
 					</choice>
 					<choice data="1">
 						<c xml:lang="en">App Panel 1</c>
 						<c xml:lang="de">App-Panel 1</c>
 						<c xml:lang="nl">App paneel 1</c>
+						<c xml:lang="pt">Painel de Aplicações 1</c>
 					</choice>
 					<choice data="2">
 						<c xml:lang="en">App Panel 2</c>
 						<c xml:lang="de">App-Panel 2</c>
 						<c xml:lang="nl">App paneel 2</c>
+						<c xml:lang="pt">Painel de Aplicações 2</c>
 					</choice>
 					<choice data="3">
 						<c xml:lang="en">App Panel 3</c>
 						<c xml:lang="de">App-Panel 3</c>
 						<c xml:lang="nl">App paneel 3</c>
+						<c xml:lang="pt">Painel de Aplicações 3</c>
 					</choice>
 					<choice data="4">
 						<c xml:lang="en">App Panel 4</c>
 						<c xml:lang="de">App-Panel 4</c>
 						<c xml:lang="nl">App paneel 4</c>
+						<c xml:lang="pt">Painel de Aplicações 4</c>
 					</choice>
 				</choices>
 			</property>
@@ -35022,10 +35160,10 @@
 				<name xml:lang="nl">EXIF tijdzone</name>
 				<name xml:lang="pt">Fuso horário EXIF</name>
 				<name xml:lang="it">Fuso orario EXIF </name>
-				<desc xml:lang="en">EXIF timestamps contain no time zone information. When mapping EXIF into XMP timestamps, IMatch leaves the XMP time zone empty. If you want to use a non-empty time zone, enter it here in the format (+/-)HH:MM (for example: +02:00).</desc>
+				<desc xml:lang="en">EXIF timestamps often contain no time zone information. When mapping EXIF into XMP timestamps, IMatch leaves the XMP time zone empty. If you want to use a non-empty time zone, enter it here in the format (+/-)HH:MM (for example: +02:00).</desc>
 				<desc xml:lang="it">Il campo data e orario EXIF  non contiene nessuna informazione di fuso orario. Quando si esegue il mapping di data e ora EXIF in XMP, IMatch lascia il fuso orario XMP vuoto. Se si desidera utilizzare un fuso orario non vuoto, immetterlo qui nel formato hh:mm (+/-) (ad esempio: +02:00).</desc>
-				<desc xml:lang="de">Zeitangaben in EXIF sind nicht mit einer Zeitzone verbunden. Beim Importieren von EXIF-Zeitstempeln in XMP-Daten läßt IMatch die Zeitzone leer. Wenn Sie eine abweichende Zeitzone verwenden möchten, geben Sie diese hier im Format (+/-)HH:MM (z.B. +02:00) ein.</desc>
-				<desc xml:lang="nl">EXIF tijdstempels bevatten geen informatie over de tijdzone. Bij het importeren van EXIT-tijdstempels laat IMatch de tijdzone leeg. In het geval dat u een andere tijdzone wilt invoeren, dan kunt u dat hier doen in het formaat (+/-)HH:MM (b.v.: +02:00).</desc>
+				<desc xml:lang="de">Zeitangaben in EXIF sind oftmals nicht mit einer Zeitzone verbunden. Beim Importieren von EXIF-Zeitstempeln in XMP-Daten läßt IMatch die Zeitzone leer. Wenn Sie eine abweichende Zeitzone verwenden möchten, geben Sie diese hier im Format (+/-)HH:MM (z.B. +02:00) ein.</desc>
+				<desc xml:lang="nl">EXIF tijdstempels bevatten vaak geen informatie over de tijdzone. Bij het importeren van EXIT-tijdstempels laat IMatch de tijdzone leeg. In het geval dat u een andere tijdzone wilt invoeren, dan kunt u dat hier doen in het formaat (+/-)HH:MM (b.v.: +02:00).</desc>
 				<desc xml:lang="pt">>A data e hora do EXIF não possui informação sobre o fuso horário. Quando o IMatch mapeia o EXIF no fuso horário XMP, o IMatch deixa o fuso horário do XMP vazio. Se pretender utilizar um fuso horário, coloque-o aqui no formato (+/-)HH:MM (por exemplo: +02:00).</desc>
 				<group xml:lang="en">IPTC and EXIF Time Zones</group>
 				<group xml:lang="de">IPTC und EXIF Zeitzonen</group>
@@ -35256,9 +35394,11 @@
 				<name xml:lang="en">XMP Region Format</name>
 				<name xml:lang="de">XMP Regionsformat</name>
 				<name xml:lang="nl">XMP Regioformaat</name>
+				<name xml:lang="pt">XMP Formato da Região</name>
 				<desc xml:lang="en">How to write-back region data into XMP. The default is compliant with the specification of the Metadata Working Group, but IMatch can also write proprietary schemas used by some other applications.</desc>
 				<desc xml:lang="de">Wie sollen Regionsdaten in den XMP-Datensatz geschrieben werden? IMatch schreibt standardmäßig XMP-Regionen nach der Metadata Working Group Spezifikation, kann aber auch proprietäre Formate schreiben, wie sie von einigen anderen Anwendungen verwendet werden.</desc>
 				<desc xml:lang="nl">Hoe moeten regiogegevens worden teruggeschreven in XMP-gegevens. Standaard schrijft IMatch de gegevens conform de specificaties van de Metadata Working Group, maar IMatch kan ook volgens formaten schrijven die door enige andere applicaties worden gebruikt.</desc>
+				<desc xml:lang="pt">Como os dados da região devem ser gravados no registro XMP? O padrão é compatível com a especificação do Grupo de Trabalho de Metadados, mas o IMatch também pode escrever esquemas proprietários usados por algumas outras aplicações..</desc>
 				<group xml:lang="en">Annotations</group>
 				<group xml:lang="de">Anmerkungen</group>
 				<group xml:lang="fi">Merkinnät</group>
@@ -35272,11 +35412,13 @@
 						<c xml:lang="en">Metadata Workgroup Format (recommended)</c>
 						<c xml:lang="de">Metadata Workgroup Format (empfohlen)</c>
 						<c xml:lang="nl">Metadata Workgroup Format (aanbevolen)</c>
+						<c xml:lang="pt">Formato do grupo de trabalho de metadados (recomendado)</c>
 					</choice>
 					<choice data="1">
 						<c xml:lang="en">Proprietary Adobe Lightroom® Format</c>
 						<c xml:lang="de">Proprietäres Adobe Lightroom® Format</c>
 						<c xml:lang="nl">Adobe Lightroom® Formaat</c>
+						<c xml:lang="pt">Formato Proprietário do Adobe Lightroom®</c>
 					</choice>
 				</choices>
 			</property>
@@ -35626,9 +35768,11 @@
 				<name xml:lang="en">Mask for state</name>
 				<name xml:lang="de">Maske für Staat</name>
 				<name xml:lang="nl">Masker voor staat</name>
+				<name xml:lang="pt">Máscara para estado</name>
 				<desc xml:lang="en">This mask allows you to customize the format of the state field. The placeholder {state} is replaced by the state data delivered by the Geocoding service. Mix it freely with literal text as needed.\nLeave the mask empty if you don't need any custom formatting.</desc>
 				<desc xml:lang="de">Diese Maske ermöglicht eine benutzerdefinierte Formatierung des Staat-Metadatenfeldes. Der Platzhalter {state} wird durch den vom Geodiensten gelieferten Staat ersetzt. Sie können beliebigen anderen Text hinzufügen.\nLassen Sie die Maske leer, wenn Sie keine besondere Formatierung benötigen.</desc>
 				<desc xml:lang="nl">Dit masker maakt het mogelijk het formaat van het veld 'staat' te individualiseren. Het veld {state} wordt vervangen door de gegevens die de Geocoding worden geleverd. U kunt andere tekst naar believen toevoegen.\nLaat dit masker leeg als u geen individueel format nodig hebt.</desc>
+				<desc xml:lang="pt">Esta máscara permite personalizar o formato do campo estado. O espaço reservado {estado} é substituído pelos dados de estado entregues pelo serviço de Geocodificação. Misture-o livremente com texto literal conforme necessário. \ NDeixe a máscara vazia se não precisar de nenhuma formatação personalizada.</desc>
 				<group xml:lang="en">Formatting</group>
 				<group xml:lang="de">Formatierung</group>
 				<group xml:lang="nl">Formattering</group>
@@ -35641,10 +35785,12 @@
 			<property resid="app.geo.formatting.location" desc="">
 				<name xml:lang="en">Mask for location</name>
 				<name xml:lang="de">Maske für Lokation</name>
-				<name xml:lang="nl">Masker voor locatie</name>				
+				<name xml:lang="nl">Masker voor locatie</name>	
+				<name xml:lang="pt">Máscara para local</name>
 				<desc xml:lang="en">This mask allows you to customize the format of the location field. The placeholder {location} is replaced by the location data delivered by the Geocoding service. Mix it freely with literal text as needed.\nLeave the mask empty if you don't need any custom formatting.</desc>
 				<desc xml:lang="de">Diese Maske ermöglicht eine benutzerdefinierte Formatierung des Lokation-Metadatenfeldes. Der Platzhalter {location} wird durch den vom Geodiensten gelieferten Lokalitätseintrag ersetzt. Sie können beliebigen anderen Text hinzufügen.\nLassen Sie die Maske leer, wenn Sie keine besondere Formatierung benötigen.</desc>
 				<desc xml:lang="nl">Dit masker maakt het mogelijk het formaat van het veld 'lokatie' te individualiseren. Het veld {state} wordt vervangen door de gegevens die de Geocoding worden geleverd. U kunt andere tekst naar believen toevoegen.\nLaat dit masker leeg als u geen individueel format nodig hebt.</desc>
+				<desc xml:lang="pt">Esta máscara permite personalizar o formato do campo local. O espaço reservado {local} é substituído pelos dados do local entregues pelo serviço de Geocodificação. Misture-o livremente com texto literal conforme necessário. \ NDeixe a máscara vazia se não precisar de nenhuma formatação personalizada.</desc>
 				<group xml:lang="en">Formatting</group>
 				<group xml:lang="de">Formatierung</group>
 				<group xml:lang="nl">Formattering</group>
