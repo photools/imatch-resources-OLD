@@ -31242,7 +31242,7 @@
 				<name xml:lang="no">Kategorier</name>
 				<name xml:lang="de">Kategorien</name>
 				<name xml:lang="fi">Kategoriat</name>
-				<name xml:lang="nl">categorieën</name>
+				<name xml:lang="nl">Categorieën</name>
 				<name xml:lang="pt">Categorias</name>
 				<name xml:lang="hr">Kategorije</name>
 				<name xml:lang="it">Categorie</name>
@@ -31251,7 +31251,7 @@
 				<desc xml:lang="no">Liste over kategorier i denne splasher. Du kan redigere denne listen for å legge til eller fjerne kategorier. Angi en fullstendig kvalifisert kategorinavnet per linje, Ctrl + Enter for å legge til en ny linje.</desc>
 				<desc xml:lang="de">Liste der Kategorien in diesem Splasher. Die Liste kann ediert werden. Geben Sie einen vollständigen Kategorienamen pro Zeile ein. Mit Strg+Eingabe erstellen Sie eine neue Zeile.</desc>
 				<desc xml:lang="fi">Splasherin käyttämät kategoriat. Voit lisätä tai vähentää kategorioita listasta. Syötä yksi kategorian nimi riviä kohti,  Ctrl+Enter lisätäksesi uuden rivin.</desc>
-				<desc xml:lang="nl">Lijst van categorieën in deze splasher. U kunt categorieën toevoegen of verwijderen. Geef een volledige categorie-naam per regel in. Met Ctrl-Enter kunt u een nuew regel toevoegen.</desc>
+				<desc xml:lang="nl">Lijst van categorieën in deze splasher. U kunt categorieën toevoegen of verwijderen. Geef een volledige categorie-naam per regel in. Met Ctrl-Enter kunt u een nieuwe regel toevoegen.</desc>
 				<desc xml:lang="pt">Lista de categorias nesta Regra de Atribuição. Pode editar esta lista para adicionar ou remover categorias. Insira um nome de categoria totalmente qualificado por linha, Ctrl+Enter para adicionar uma nova linha.</desc>
 				<desc xml:lang="hr">Popis kategorija u ovom prskaču. Možeš urediti ovaj popis dodavajući i uklanjajući kategorije. Unesi jedno potpuno kvalificirano ime kategorije po retku, pritisni Ctrl+Enter da bi dodao novi red.</desc>
 			</property>
