@@ -2,7 +2,7 @@
 
 <!-- $Revision: 1408 $ $Date: 2016-09-12 17:18:06 +0200 (Mo, 12 Sep 2016) $ - $Author: mees $ -->
 
-<!-- Copyright © 2013-2017 Mario M. Westphal and photools.com. -->
+<!-- Copyright © 2013-2018 Mario M. Westphal and photools.com. -->
 <!-- No part of this file may be changed without written permission. -->
 <!-- Contact support@photools.com for more information. -->
 
@@ -7462,6 +7462,7 @@
 				<c xml:lang="en" hotkey="" helptext="Clears the category thumbnail">Clear category thumbnail</c>
 				<c xml:lang="de" hotkey="" helptext="Das Kategorie-Symbolbild auf 'Keines' zurücksetzen.">Kategorie-Symbolbild entfernen</c>
 				<c xml:lang="nl" hotkey="" helptext="Het categorie miniatuur wissen">Clear category thumbnail</c>
+				<c xml:lang="pt" hotkey="" helptext="Repõe a imagem do ícone da categoria para 'Nenhum'">Clear category thumbnail</c>
 			</cmd>
 		
 
@@ -8507,6 +8508,7 @@
 				<c xml:lang="en" hotkey="F9|U" helptext="Toggle the auto advance modus">Auto Ad&amp;vance</c>
 				<c xml:lang="de" hotkey="F9|U" helptext="Den 'Automatisch weiterschalten'-Modus umschalten">Automatisch &amp;weiterschalten</c>
 				<c xml:lang="nl" hotkey="F9|U" helptext="'Automatisch verdergaan' aan- of uitzetten">Automatisch &amp;verdergaan</c>
+				<c xml:lang="pt" hotkey="F9|U" helptext="Alternar o modo de avanço automático">Auto Ad&amp;vance</c>
 			</cmd>
 
 		</command_group>
@@ -12015,6 +12017,7 @@
 				<c xml:lang="en" hotkey="T|U" helptext="Toggle the auto advance modus">Auto Ad&amp;vance</c>
 				<c xml:lang="de" hotkey="T|U" helptext="Den 'Automatisch weiterschalten'-Modus umschalten">Automatisch &amp;weiterschalten</c>
 				<c xml:lang="nl" hotkey="T|U" helptext="'Automatisch verdergaan' aan- of uitzetten">Automatisch &amp;verdergaan</c>
+				<c xml:lang="pt" hotkey="T|U" helptext="Alternar o modo de avanço automático">Auto Ad&amp;vance</c>
 			</cmd>
 
 			<!-- Navigation -->
@@ -18928,6 +18931,7 @@
 				<desc xml:lang="en">This setting controls the scale factor used for App Panels, the App Manager and the Map Panel. Use this to adjust the size of text and images to your liking. The default value is 0, which means 100%. Use values smaller than 0 to reduce the scale and reduce the text size. Use values above 0 to increase the font size for better readability.</desc>
 				<desc xml:lang="de">Diese Einstellung kontrolliert den Skalierungsfaktor für App-Panels, den App Manager und das Map-Panel. Stellen Sie den Skalierungsfaktor nach Ihren Bedarfnissen ein. 0 bedeutet 100%. Werte kleiner 0 reduzieren die Schriftgröße, Werte größer als 0 stellen Schrift und Bilder größer dar.</desc>
 				<desc xml:lang="nl">Deze instelling bepaalt the schalingsfactor voor de App-panelen, de App Manager en het kaart-paneel. Gebruik om de groote van tekst en afbeedlingen aan te passen aan uw smaak. De standaard waarde is 0, wat 100% betekent. Waarden kleiner dan 0 verkleinen de grootte, waarden groter dan 0 maken de grootte van tekst en afbeeldingen groter.</desc>
+				<desc xml:lang="pt">Esta configuração controla o factor de escala para os Painéis das Aplicações, o Gerenciador de Aplicações e o Painel do Mapa. Defina o factor de escala de acordo com suas necessidades. 0 significa 100%. Valores menores que 0 reduzem o tamanho da fonte, valores maiores que 0 fazem a fonte e as imagens maiores.</desc>
 			</property>
 		
 
@@ -19491,7 +19495,7 @@
 				<desc xml:lang="en">If this is enabled, IMatch clears the cache of the embedded browser when exiting. Use this option if there is a problem with the cache or the browser does not pick up changes done to files.</desc>
 				<desc xml:lang="de">Wenn diese Einstellung aktiviert ist, leert IMatch beim Schließen den Cache des integrierten Web-Browsers. Nutzen Sie dies temporär, wenn es ein Problem mit dem Cache gibt oder der Browser geänderte Dateien nicht erkennt.</desc>
 				<desc xml:lang="pt">Se esta configuração estiver Activada, o IMatch limpa a cache interna do navegador quando o fechar. Utilize apenas se houver um problema com a cache ou se o navegador não reconhecer os arquivos alterados.</desc>
-				<desc xml:lang="nl">Als deze optie geactiveerd is, zal IMatch de cache van de ingebouwde browser leeg maken bij afsluiten. Gebruik deze optie als er een probleem met de browser is of als de browser wijzigingen in bestanden niet herkent.</desc>
+				<desc xml:lang="nl">Als deze otie geaktveerd is, zal IMatch de cache van de ingebouwde browser leeg maken bij afsluiten. Gebruik deze optie als er een probleem met de browser is of als de browser wijzigingen in bestanden niet herkent.</desc>
 				<group xml:lang="en">Developer Options</group>
 				<group xml:lang="de">Entwickler-Optionen</group>
 				<group xml:lang="nl">Opties voor ontwikkelaars</group>
@@ -20053,10 +20057,12 @@
 				<name xml:lang="en">Auto Advance</name>
 				<name xml:lang="de">Automatisch weiterschalten</name>
 				<name xml:lang="nl">Automatisch verdergaan</name>
+				<name xml:lang="pt">Avanço automático</name>
 
 				<desc xml:lang="en">If enabled, the Viewer moves to the next file when you apply a rating, label or bookmark.</desc>
 				<desc xml:lang="de">Wenn aktiv, springt der Viewer zur nächsten Datei wenn Sie eine Bewertung, Markierung oder ein Lesezeichen zuweisen.</desc>
 				<desc xml:lang="nl">Als deze optie aan is, gaat de Viewer automatisch verder naar het volgende bestand als u een waardering, label of bladwijzer toekent.</desc>
+				<desc xml:lang="pt">Quando activo, o visualizador passa para o próximo arquivo quando atribuir uma classificação, etiqueta ou marcador.</desc>
 
 				<group xml:lang="it">Visualizzatore</group>
 				<group xml:lang="en">Viewer</group>
@@ -28590,12 +28596,15 @@
 				<name xml:lang="en">Auto Advance</name>
 				<name xml:lang="de">Automatisch weiterschalten</name>
 				<name xml:lang="nl">Automatisch verdergaan</name>
+				<name xml:lang="pt">Avanço Automático</name>
 				<desc xml:lang="en">If this option is enabled, the file window moves the focus to the next file when you apply a rating, label or bookmark or when you reject a file.</desc>
 				<desc xml:lang="de">Wenn diese Option aktiviert ist, bewegt das Dateifenster den Fokus automatisch auf die nächste Datei, wenn Sie eine Bewertung, eine Markierung oder ein Lesezeichen zuweisen, oder wenn Sie eine Datei zurückweisen.</desc>
 				<desc xml:lang="nl">Als deze optie aan is, zal het bestandsvenster automatisch verder gaan naar het volgende bestand als u een waardering, label of bladwijzer toekent.</desc>
+				<desc xml:lang="pt">Quando esta opção está activa, a janela do arquivo move automáticamente o foco para o próximo arquivo quando atribuir uma classificação, etiqueta ou marcador, ou quando rejeitar um arquivo.</desc>
 				<group xml:lang="en">Auto Advance</group>
 				<group xml:lang="de">Automatisch weiterschalten</group>
 				<group xml:lang="nl">Automatisch verdergaan</group>
+				<group xml:lang="pt">Avanço Automático</group>
 			</property>
 
 

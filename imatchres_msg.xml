@@ -2,7 +2,7 @@
 
 <!-- This resource file contains all message resources for IMatch -->
 
-<!-- Copyright © 2013-2017 Mario M. Westphal and photools.com. -->
+<!-- Copyright © 2013-2018 Mario M. Westphal and photools.com. -->
 <!-- No part of this file may be changed without written permission. -->
 <!-- Contact support@photools.com for more information. -->
 
@@ -1273,6 +1273,10 @@
 				<m xml:lang="nl">
 					<cap>Er is een probleem bij het uitvoeren van ExifTool!</cap>
 					<cont>Deze externe applicatie wordt gebruikt door IMatch om metadata te lezen en te schrijven.\r\n\r\nVoor een reparatie van IMatch uit via Windows systeembesturing. Zorg er ook voor dat er geen anti-virus software of software uitvoeringsrechten op uw computer voorkomen dat externe programma's start.</cont>
+				</m>
+				<m xml:lang="pt">
+					<cap>Ocorreu um problema ao correr o ExifTool!</cap>
+					<cont>Esta aplicação externa é utilizada pelo IMatch para ler e escrever metadados.\r\n\r\nPor favor repare a instalação do IMatch através do painel de controle do Windows. Certifique-se de que o seu software de antivírus ou as políticas de restrição de software activadas no seu sistema impedem que o IMatch inicie programas externos.</cont>
 				</m>
 			</msg>
 			
