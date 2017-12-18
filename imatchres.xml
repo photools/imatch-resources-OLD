@@ -19490,8 +19490,8 @@
 				<name xml:lang="pt">Limpar a cache do navegador na saída</name>
 				<desc xml:lang="en">If this is enabled, IMatch clears the cache of the embedded browser when exiting. Use this option if there is a problem with the cache or the browser does not pick up changes done to files.</desc>
 				<desc xml:lang="de">Wenn diese Einstellung aktiviert ist, leert IMatch beim Schließen den Cache des integrierten Web-Browsers. Nutzen Sie dies temporär, wenn es ein Problem mit dem Cache gibt oder der Browser geänderte Dateien nicht erkennt.</desc>
-				<desc xml:lang="nl">Als deze otie geaktveerd is, zal IMatch de cache van de ingebouwde browser leeg maken bij afsluiten. Gebruik deze optie als er een probleem met de browser is of als de browser wijzigingen in bestanden niet herkent.</desc>
-				<desc xml:lang="en">Se isto estiver activo, o IMatch limpa o cache do navegador incorporado ao sair. Use esta opção se houver um problema com a cache ou se o navegador não apanhar as alterações feitas nos ficheiros.</desc>
+				<desc xml:lang="pt">Se esta configuração estiver Activada, o IMatch limpa a cache interna do navegador quando o fechar. Utilize apenas se houver um problema com a cache ou se o navegador não reconhecer os arquivos alterados.</desc>
+				<desc xml:lang="nl">Als deze optie geactiveerd is, zal IMatch de cache van de ingebouwde browser leeg maken bij afsluiten. Gebruik deze optie als er een probleem met de browser is of als de browser wijzigingen in bestanden niet herkent.</desc>
 				<group xml:lang="en">Developer Options</group>
 				<group xml:lang="de">Entwickler-Optionen</group>
 				<group xml:lang="nl">Opties voor ontwikkelaars</group>
