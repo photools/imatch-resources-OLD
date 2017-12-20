@@ -19495,7 +19495,7 @@
 				<desc xml:lang="en">If this is enabled, IMatch clears the cache of the embedded browser when exiting. Use this option if there is a problem with the cache or the browser does not pick up changes done to files.</desc>
 				<desc xml:lang="de">Wenn diese Einstellung aktiviert ist, leert IMatch beim Schließen den Cache des integrierten Web-Browsers. Nutzen Sie dies temporär, wenn es ein Problem mit dem Cache gibt oder der Browser geänderte Dateien nicht erkennt.</desc>
 				<desc xml:lang="pt">Se esta configuração estiver Activada, o IMatch limpa a cache interna do navegador quando o fechar. Utilize apenas se houver um problema com a cache ou se o navegador não reconhecer os arquivos alterados.</desc>
-				<desc xml:lang="nl">Als deze otie geaktveerd is, zal IMatch de cache van de ingebouwde browser leeg maken bij afsluiten. Gebruik deze optie als er een probleem met de browser is of als de browser wijzigingen in bestanden niet herkent.</desc>
+				<desc xml:lang="nl">Als deze optie geactiveerd is, zal IMatch de cache van de ingebouwde browser leeg maken bij afsluiten. Gebruik deze optie als er een probleem met de browser is of als de browser wijzigingen in bestanden niet herkent.</desc>
 				<group xml:lang="en">Developer Options</group>
 				<group xml:lang="de">Entwickler-Optionen</group>
 				<group xml:lang="nl">Opties voor ontwikkelaars</group>
@@ -20061,7 +20061,7 @@
 
 				<desc xml:lang="en">If enabled, the Viewer moves to the next file when you apply a rating, label or bookmark.</desc>
 				<desc xml:lang="de">Wenn aktiv, springt der Viewer zur nächsten Datei wenn Sie eine Bewertung, Markierung oder ein Lesezeichen zuweisen.</desc>
-				<desc xml:lang="nl">Als deze optie aan is, gaat de Viewer automatisch verder naar het volgende bestand als u een waardering, label of bladwijzer toekent.</desc>
+				<desc xml:lang="nl">Als deze optie geactiveerd is, gaat de Viewer automatisch verder naar het volgende bestand als u een waardering, label of bladwijzer toekent.</desc>
 				<desc xml:lang="pt">Quando activo, o visualizador passa para o próximo arquivo quando atribuir uma classificação, etiqueta ou marcador.</desc>
 
 				<group xml:lang="it">Visualizzatore</group>
@@ -20089,7 +20089,7 @@
                 <desc xml:lang="en">If enabled and you open the Slide Show from the viewer, the viewer closes to conserve system resources.</desc>
                 <desc xml:lang="no">Hvis aktivert og du åpner lysbildefremvisningen fra betrakteren, betrakteren lukkes for å spare systemressurser.</desc>
                 <desc xml:lang="de">Ist diese Option aktiv und sie öffnen die Bilderschau aus dem Viewer, wird der Viewer automatisch geschlossen um Systemressourcen zu schonen.</desc>
-                <desc xml:lang="nl">Indien deze optie actief is dan sluit de Viewer automatisch als u de Diashow start (om systeem-resources beschikbaar te maken).</desc>
+                <desc xml:lang="nl">Indien deze optie geactiveerd is,  sluit de Viewer automatisch als u de Diashow start (om systeem-resources beschikbaar te maken).</desc>
 				<desc xml:lang="pt">Se esta opção estiver activada e abrir o Slide Show a partir do visualizador, o visualizador é fechado para conservar os recursos do sistema.</desc>
 				<desc xml:lang="hr">Kada otvoriš prezentaciju iz preglednika, preglednik se zatvara da bi se sačuvali sistemski resursi.</desc>
                 <group xml:lang="it">Visualizzatore</group>
@@ -35061,7 +35061,7 @@
                 <name xml:lang="it">Importare tag volti XMP nelle annotazioni</name>
                 <desc xml:lang="en">If this is enabled, IMatch imports XMP face regions into IMatch face Annotations.</desc>
                 <desc xml:lang="de">Wenn aktiviert, erstellt IMatch Gesichts-Anmerkungen aus XMP Gesichtsregionen.</desc>
-				<desc xml:lang="nl">Als deze optie aktief is, worden XMP gezichtsannotaties in IMatch gezichtsannotaties geïmporteerd.</desc>
+				<desc xml:lang="nl">Als deze optie actief is, worden XMP gezichtsannotaties in IMatch gezichtsannotaties geïmporteerd.</desc>
 				<desc xml:lang="pt">Se esta opção estiver activa, o IMatch importa as regiões do rosto existentes no XMP para as Anotações de Rosto no IMatch.</desc>
                 <desc xml:lang="it">Se questa opzione è attivata, IMatch importa le regioni volto XMP in annotazioni volti IMatch.</desc>
                 <group xml:lang="en">Annotations</group>
