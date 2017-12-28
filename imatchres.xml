@@ -34369,8 +34369,8 @@
 			<property resid="config.md.protectxmp" desc="">
 				<name xml:lang="en">Protect existing XMP</name>
 				<name xml:lang="de">Bestehende XMP-Daten schützen</name>
-				<desc xml:lang="en">If a file is rescanned and it already has XMP data (in the database or in an XMP sidecar file) IMatch does not re-import IPTC/EXIF/GPS data from the original image into the XMP record. This protects XMP data if the metadata in the image and in the XMP record are not synchronized (because the data was not written by IMatch or you do not allow IMatch to update the original image file).</desc>
-				<desc xml:lang="de">Wenn eine Datei neu eingelesen wird und bereits XMP-Metadaten hat (in der Datenbank oder einer XMP Beiwagen-Datei) importiert IMatch nicht erneut die IPTC/EXIF/GPS-Daten aus der Bilddatei. Falls die XMP-Daten und die Metadaten im Bild nicht synchon sind (etwa, weil sie nicht von IMatch geschrieben wurden oder Sie IMatch nicht erlauben, die Originaldatei zu aktualisieren) schützt dies die XMP-Daten.</desc>
+				<desc xml:lang="en">If a file is rescanned and it already has XMP data in the database, IMatch does not re-import IPTC/EXIF/GPS data from the original image into the XMP record. This protects XMP data if the metadata in the image and in the XMP record are not synchronized (because the data was not written by IMatch or you do not allow IMatch to update the original image file).</desc>
+				<desc xml:lang="de">Wenn eine Datei neu eingelesen wird und für diese Datei bereits XMP-Daten in der Datenbank existieren, importiert IMatch nicht erneut die IPTC/EXIF/GPS-Daten aus der Bilddatei. Falls die XMP-Daten und die Metadaten im Bild nicht synchon sind (etwa, weil sie nicht von IMatch geschrieben wurden oder Sie IMatch nicht erlauben, die Originaldatei zu aktualisieren) schützt dies die XMP-Daten.</desc>
 				<group xml:lang="en">Protection</group>
 				<group xml:lang="no">Beskyttelse</group>
 				<group xml:lang="de">Schutz</group>
