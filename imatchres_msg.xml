@@ -9138,6 +9138,18 @@
 			</msg>
 
 
+			<msg resid="PTR_MSG_APPPREFS_INDEXING_FOLDER_REGEXP" typeid="[[IDI_EXCLAMATION]]" desc="">
+				<m xml:lang="en">
+					<cap>Invalid Regular Expression</cap>
+					<cont>The regular expressions for skipping folders is invalid.</cont>
+				</m>
+				<m xml:lang="de">
+					<cap>Ungültiger Regulärer Ausdruck</cap>
+					<cont>Einer der regulären Ausdrücke zum Auschluß von Verzeichnissen ist ungültig.</cont>
+				</m>
+			</msg>			
+
+
 		</message_group>
         
         <!-- Renamer -->

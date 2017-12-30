@@ -8210,14 +8210,14 @@
 		<command_group name="File Window View Commands" bmid="PTR_BM_FILEWND_VIEW" desc="Commands used in the file window">
 
 			<cmd resid="ID_FILEWND_LAYOUT_SELECT">
-				<c xml:lang="en" hotkey="" helptext="Select a file window layout">Select &amp;Layout</c>
-				<c xml:lang="de" hotkey="" helptext="Ein Dateifenster-Layout auswählen.">&amp;Layout auswählen</c>
-				<c xml:lang="fi" hotkey="" helptext="Valitse tiedostoikkunan asettelu">&amp;Valitse asettelupohja</c>
-				<c xml:lang="nl" hotkey="" helptext="Schermindeling kiezen">Scherminde&amp;ling kiezen</c>
-				<c xml:lang="pt" hotkey="" helptext="Seleccionar uma disposição para a janela de ficheiros">Seleccionar &amp;Disposição</c>
-				<c xml:lang="hr" hotkey="" helptext="Odaberi izgled prozora s datotekama">Odaberi &amp;izgled</c>
-				<c xml:lang="no" hotkey="" helptext="Velg en vindu oppsett (layout)">Velg &amp;oppsett</c>
-				<c xml:lang="it" hotkey="" helptext="Seleziona un layout per la finestra">Seleziona &amp;Layout</c>
+				<c xml:lang="en" hotkey="Ctrl+L" helptext="Select a file window layout">Select &amp;Layout</c>
+				<c xml:lang="de" hotkey="Ctrl+L" helptext="Ein Dateifenster-Layout auswählen">&amp;Layout auswählen</c>
+				<c xml:lang="fi" hotkey="Ctrl+L" helptext="Valitse tiedostoikkunan asettelu">&amp;Valitse asettelupohja</c>
+				<c xml:lang="nl" hotkey="Ctrl+L" helptext="Schermindeling kiezen">Scherminde&amp;ling kiezen</c>
+				<c xml:lang="pt" hotkey="Ctrl+L" helptext="Seleccionar uma disposição para a janela de ficheiros">Seleccionar &amp;Disposição</c>
+				<c xml:lang="hr" hotkey="Ctrl+L" helptext="Odaberi izgled prozora s datotekama">Odaberi &amp;izgled</c>
+				<c xml:lang="no" hotkey="Ctrl+L" helptext="Velg en vindu oppsett (layout)">Velg &amp;oppsett</c>
+				<c xml:lang="it" hotkey="Ctrl+L" helptext="Seleziona un layout per la finestra">Seleziona &amp;Layout</c>
 			</cmd>
 
 			<cmd resid="ID_FILEWND_LAYOUT_CONFIGURE">
@@ -8864,95 +8864,96 @@
 
 		<command_group name="File Window Layout Selector" bmid="PTR_BM_FILEWND_VIEW" desc="Placeholder command ids for the toolbar popup">
 
+
 			<cmd resid="ID_FILEWND_LAYOUT_ITEM_1" bmidx="3" desc="Placeholder entry for items in the choose layout drop-down menu">
-				<c xml:lang="en" hotkey="" helptext="Switch to this layout">1</c>
-				<c xml:lang="de" hotkey="" helptext="Dieses Layout aktivieren.">1</c>
-				<c xml:lang="fi" hotkey="" helptext="Käytä tätä asettelua">1</c>
-				<c xml:lang="nl" hotkey="" helptext="Deze weergave activeren">1</c>
-				<c xml:lang="pt" hotkey="" helptext="Mudar para esta disposição">1</c>
-				<c xml:lang="hr" hotkey="" helptext="Prebaci se na ovaj izgled">1</c>
-				<c xml:lang="no" hotkey="" helptext="Bytt til dette oppsettet">1</c>
-				<c xml:lang="it" hotkey="" helptext="Utilizza questo layout">1</c>
+				<c xml:lang="en" hotkey="Ctrl+L|1" helptext="Switch to this layout">1</c>
+				<c xml:lang="de" hotkey="Ctrl+L|1" helptext="Dieses Layout aktivieren.">1</c>
+				<c xml:lang="fi" hotkey="Ctrl+L|1" helptext="Käytä tätä asettelua">1</c>
+				<c xml:lang="nl" hotkey="Ctrl+L|1" helptext="Deze weergave activeren">1</c>
+				<c xml:lang="pt" hotkey="Ctrl+L|1" helptext="Mudar para esta disposição">1</c>
+				<c xml:lang="hr" hotkey="Ctrl+L|1" helptext="Prebaci se na ovaj izgled">1</c>
+				<c xml:lang="no" hotkey="Ctrl+L|1" helptext="Bytt til dette oppsettet">1</c>
+				<c xml:lang="it" hotkey="Ctrl+L|1" helptext="Utilizza questo layout">1</c>
 			</cmd>
 			<cmd resid="ID_FILEWND_LAYOUT_ITEM_2" bmidx="3" desc="Placeholder entry for items in the choose layout drop-down menu">
-				<c xml:lang="en" hotkey="" helptext="Switch to this layout">1</c>
-				<c xml:lang="de" hotkey="" helptext="Dieses Layout aktivieren.">1</c>
-				<c xml:lang="fi" hotkey="" helptext="Käytä tätä asettelua">1</c>
-				<c xml:lang="nl" hotkey="" helptext="Deze weergave activeren">1</c>
-				<c xml:lang="pt" hotkey="" helptext="Mudar para esta disposição">1</c>
-				<c xml:lang="hr" hotkey="" helptext="Prebaci se na ovaj izgled">1</c>
-				<c xml:lang="no" hotkey="" helptext="Bytt til dette oppsettet">1</c>
-				<c xml:lang="it" hotkey="" helptext="Utilizza questo layout">1</c>
+				<c xml:lang="en" hotkey="Ctrl+L|2" helptext="Switch to this layout">1</c>
+				<c xml:lang="de" hotkey="Ctrl+L|2" helptext="Dieses Layout aktivieren.">1</c>
+				<c xml:lang="fi" hotkey="Ctrl+L|2" helptext="Käytä tätä asettelua">1</c>
+				<c xml:lang="nl" hotkey="Ctrl+L|2" helptext="Deze weergave activeren">1</c>
+				<c xml:lang="pt" hotkey="Ctrl+L|2" helptext="Mudar para esta disposição">1</c>
+				<c xml:lang="hr" hotkey="Ctrl+L|2" helptext="Prebaci se na ovaj izgled">1</c>
+				<c xml:lang="no" hotkey="Ctrl+L|2" helptext="Bytt til dette oppsettet">1</c>
+				<c xml:lang="it" hotkey="Ctrl+L|2" helptext="Utilizza questo layout">1</c>
 			</cmd>
 			<cmd resid="ID_FILEWND_LAYOUT_ITEM_3" bmidx="3" desc="Placeholder entry for items in the choose layout drop-down menu">
-				<c xml:lang="en" hotkey="" helptext="Switch to this layout">1</c>
-				<c xml:lang="de" hotkey="" helptext="Dieses Layout aktivieren.">1</c>
-				<c xml:lang="fi" hotkey="" helptext="Käytä tätä asettelua">1</c>
-				<c xml:lang="nl" hotkey="" helptext="Deze weergave activeren">1</c>
-				<c xml:lang="pt" hotkey="" helptext="Mudar para esta disposição">1</c>
-				<c xml:lang="hr" hotkey="" helptext="Prebaci se na ovaj izgled">1</c>
-				<c xml:lang="no" hotkey="" helptext="Bytt til dette oppsettet">1</c>
-				<c xml:lang="it" hotkey="" helptext="Utilizza questo layout">1</c>
+				<c xml:lang="en" hotkey="Ctrl+L|3" helptext="Switch to this layout">1</c>
+				<c xml:lang="de" hotkey="Ctrl+L|3" helptext="Dieses Layout aktivieren.">1</c>
+				<c xml:lang="fi" hotkey="Ctrl+L|3" helptext="Käytä tätä asettelua">1</c>
+				<c xml:lang="nl" hotkey="Ctrl+L|3" helptext="Deze weergave activeren">1</c>
+				<c xml:lang="pt" hotkey="Ctrl+L|3" helptext="Mudar para esta disposição">1</c>
+				<c xml:lang="hr" hotkey="Ctrl+L|3" helptext="Prebaci se na ovaj izgled">1</c>
+				<c xml:lang="no" hotkey="Ctrl+L|3" helptext="Bytt til dette oppsettet">1</c>
+				<c xml:lang="it" hotkey="Ctrl+L|3" helptext="Utilizza questo layout">1</c>
 			</cmd>
 			<cmd resid="ID_FILEWND_LAYOUT_ITEM_4" bmidx="3" desc="Placeholder entry for items in the choose layout drop-down menu">
-				<c xml:lang="en" hotkey="" helptext="Switch to this layout">1</c>
-				<c xml:lang="de" hotkey="" helptext="Dieses Layout aktivieren.">1</c>
-				<c xml:lang="fi" hotkey="" helptext="Käytä tätä asettelua">1</c>
-				<c xml:lang="nl" hotkey="" helptext="Deze weergave activeren">1</c>
-				<c xml:lang="pt" hotkey="" helptext="Mudar para esta disposição">1</c>
-				<c xml:lang="hr" hotkey="" helptext="Prebaci se na ovaj izgled">1</c>
-				<c xml:lang="no" hotkey="" helptext="Bytt til dette oppsettet">1</c>
-				<c xml:lang="it" hotkey="" helptext="Utilizza questo layout">1</c>
+				<c xml:lang="en" hotkey="Ctrl+L|4" helptext="Switch to this layout">1</c>
+				<c xml:lang="de" hotkey="Ctrl+L|4" helptext="Dieses Layout aktivieren.">1</c>
+				<c xml:lang="fi" hotkey="Ctrl+L|4" helptext="Käytä tätä asettelua">1</c>
+				<c xml:lang="nl" hotkey="Ctrl+L|4" helptext="Deze weergave activeren">1</c>
+				<c xml:lang="pt" hotkey="Ctrl+L|4" helptext="Mudar para esta disposição">1</c>
+				<c xml:lang="hr" hotkey="Ctrl+L|4" helptext="Prebaci se na ovaj izgled">1</c>
+				<c xml:lang="no" hotkey="Ctrl+L|4" helptext="Bytt til dette oppsettet">1</c>
+				<c xml:lang="it" hotkey="Ctrl+L|4" helptext="Utilizza questo layout">1</c>
 		        </cmd>
 			<cmd resid="ID_FILEWND_LAYOUT_ITEM_5" bmidx="3" desc="Placeholder entry for items in the choose layout drop-down menu">
-				<c xml:lang="en" hotkey="" helptext="Switch to this layout">1</c>
-				<c xml:lang="de" hotkey="" helptext="Dieses Layout aktivieren.">1</c>
-				<c xml:lang="fi" hotkey="" helptext="Käytä tätä asettelua">1</c>
-				<c xml:lang="nl" hotkey="" helptext="Deze weergave activeren">1</c>
-				<c xml:lang="pt" hotkey="" helptext="Mudar para esta disposição">1</c>
-				<c xml:lang="hr" hotkey="" helptext="Prebaci se na ovaj izgled">1</c>
-				<c xml:lang="no" hotkey="" helptext="Bytt til dette oppsettet">1</c>
-				<c xml:lang="it" hotkey="" helptext="Utilizza questo layout">1</c>
+				<c xml:lang="en" hotkey="Ctrl+L|5" helptext="Switch to this layout">1</c>
+				<c xml:lang="de" hotkey="Ctrl+L|5" helptext="Dieses Layout aktivieren.">1</c>
+				<c xml:lang="fi" hotkey="Ctrl+L|5" helptext="Käytä tätä asettelua">1</c>
+				<c xml:lang="nl" hotkey="Ctrl+L|5" helptext="Deze weergave activeren">1</c>
+				<c xml:lang="pt" hotkey="Ctrl+L|5" helptext="Mudar para esta disposição">1</c>
+				<c xml:lang="hr" hotkey="Ctrl+L|5" helptext="Prebaci se na ovaj izgled">1</c>
+				<c xml:lang="no" hotkey="Ctrl+L|5" helptext="Bytt til dette oppsettet">1</c>
+				<c xml:lang="it" hotkey="Ctrl+L|5" helptext="Utilizza questo layout">1</c>
 			</cmd>
 			<cmd resid="ID_FILEWND_LAYOUT_ITEM_6" bmidx="3" desc="Placeholder entry for items in the choose layout drop-down menu">
-				<c xml:lang="en" hotkey="" helptext="Switch to this layout">1</c>
-				<c xml:lang="de" hotkey="" helptext="Dieses Layout aktivieren.">1</c>
-				<c xml:lang="fi" hotkey="" helptext="Käytä tätä asettelua">1</c>
-				<c xml:lang="nl" hotkey="" helptext="Deze weergave activeren">1</c>
-				<c xml:lang="pt" hotkey="" helptext="Mudar para esta disposição">1</c>
-				<c xml:lang="hr" hotkey="" helptext="Prebaci se na ovaj izgled">1</c>
-				<c xml:lang="no" hotkey="" helptext="Bytt til dette oppsettet">1</c>
-				<c xml:lang="it" hotkey="" helptext="Utilizza questo layout">1</c>
+				<c xml:lang="en" hotkey="Ctrl+L|6" helptext="Switch to this layout">1</c>
+				<c xml:lang="de" hotkey="Ctrl+L|6" helptext="Dieses Layout aktivieren.">1</c>
+				<c xml:lang="fi" hotkey="Ctrl+L|6" helptext="Käytä tätä asettelua">1</c>
+				<c xml:lang="nl" hotkey="Ctrl+L|6" helptext="Deze weergave activeren">1</c>
+				<c xml:lang="pt" hotkey="Ctrl+L|6" helptext="Mudar para esta disposição">1</c>
+				<c xml:lang="hr" hotkey="Ctrl+L|6" helptext="Prebaci se na ovaj izgled">1</c>
+				<c xml:lang="no" hotkey="Ctrl+L|6" helptext="Bytt til dette oppsettet">1</c>
+				<c xml:lang="it" hotkey="Ctrl+L|6" helptext="Utilizza questo layout">1</c>
 			</cmd>
 		  <cmd resid="ID_FILEWND_LAYOUT_ITEM_7" bmidx="3" desc="Placeholder entry for items in the choose layout drop-down menu">
-			<c xml:lang="en" hotkey="" helptext="Switch to this layout">1</c>
-			<c xml:lang="de" hotkey="" helptext="Dieses Layout aktivieren.">1</c>
-			<c xml:lang="fi" hotkey="" helptext="Käytä tätä asettelua">1</c>
-			<c xml:lang="nl" hotkey="" helptext="Deze weergave activeren">1</c>
-			<c xml:lang="pt" hotkey="" helptext="Mudar para esta disposição">1</c>
-			<c xml:lang="hr" hotkey="" helptext="Prebaci se na ovaj izgled">1</c>
-			<c xml:lang="no" hotkey="" helptext="Bytt til dette oppsettet">1</c>
-			<c xml:lang="it" hotkey="" helptext="Utilizza questo layout">1</c>
+			<c xml:lang="en" hotkey="Ctrl+L|7" helptext="Switch to this layout">1</c>
+			<c xml:lang="de" hotkey="Ctrl+L|7" helptext="Dieses Layout aktivieren.">1</c>
+			<c xml:lang="fi" hotkey="Ctrl+L|7" helptext="Käytä tätä asettelua">1</c>
+			<c xml:lang="nl" hotkey="Ctrl+L|7" helptext="Deze weergave activeren">1</c>
+			<c xml:lang="pt" hotkey="Ctrl+L|7" helptext="Mudar para esta disposição">1</c>
+			<c xml:lang="hr" hotkey="Ctrl+L|7" helptext="Prebaci se na ovaj izgled">1</c>
+			<c xml:lang="no" hotkey="Ctrl+L|7" helptext="Bytt til dette oppsettet">1</c>
+			<c xml:lang="it" hotkey="Ctrl+L|7" helptext="Utilizza questo layout">1</c>
 		  </cmd>
 		  <cmd resid="ID_FILEWND_LAYOUT_ITEM_8" bmidx="3" desc="Placeholder entry for items in the choose layout drop-down menu">
-			<c xml:lang="en" hotkey="" helptext="Switch to this layout">1</c>
-			<c xml:lang="de" hotkey="" helptext="Dieses Layout aktivieren.">1</c>
-			<c xml:lang="fi" hotkey="" helptext="Käytä tätä asettelua">1</c>
-			<c xml:lang="nl" hotkey="" helptext="Deze weergave activeren">1</c>
-			<c xml:lang="pt" hotkey="" helptext="Mudar para esta disposição">1</c>
-			<c xml:lang="hr" hotkey="" helptext="Prebaci se na ovaj izgled">1</c>
-			<c xml:lang="no" hotkey="" helptext="Bytt til dette oppsettet">1</c>
-			<c xml:lang="it" hotkey="" helptext="Utilizza questo layout">1</c>
+			<c xml:lang="en" hotkey="Ctrl+L|8" helptext="Switch to this layout">1</c>
+			<c xml:lang="de" hotkey="Ctrl+L|8" helptext="Dieses Layout aktivieren.">1</c>
+			<c xml:lang="fi" hotkey="Ctrl+L|8" helptext="Käytä tätä asettelua">1</c>
+			<c xml:lang="nl" hotkey="Ctrl+L|8" helptext="Deze weergave activeren">1</c>
+			<c xml:lang="pt" hotkey="Ctrl+L|8" helptext="Mudar para esta disposição">1</c>
+			<c xml:lang="hr" hotkey="Ctrl+L|8" helptext="Prebaci se na ovaj izgled">1</c>
+			<c xml:lang="no" hotkey="Ctrl+L|8" helptext="Bytt til dette oppsettet">1</c>
+			<c xml:lang="it" hotkey="Ctrl+L|8" helptext="Utilizza questo layout">1</c>
 		  </cmd>
 		  <cmd resid="ID_FILEWND_LAYOUT_ITEM_9" bmidx="3" desc="Placeholder entry for items in the choose layout drop-down menu">
-			<c xml:lang="en" hotkey="" helptext="Switch to this layout">1</c>
-			<c xml:lang="de" hotkey="" helptext="Dieses Layout aktivieren.">1</c>
-			<c xml:lang="fi" hotkey="" helptext="Käytä tätä asettelua">1</c>
-			<c xml:lang="nl" hotkey="" helptext="Deze weergave activeren">1</c>
-			<c xml:lang="pt" hotkey="" helptext="Mudar para esta disposição">1</c>
-			<c xml:lang="hr" hotkey="" helptext="Prebaci se na ovaj izgled">1</c>
-			<c xml:lang="no" hotkey="" helptext="Bytt til dette oppsettet">1</c>
-			<c xml:lang="it" hotkey="" helptext="Utilizza questo layout">1</c>
+			<c xml:lang="en" hotkey="Ctrl+L|9" helptext="Switch to this layout">1</c>
+			<c xml:lang="de" hotkey="Ctrl+L|9" helptext="Dieses Layout aktivieren.">1</c>
+			<c xml:lang="fi" hotkey="Ctrl+L|9" helptext="Käytä tätä asettelua">1</c>
+			<c xml:lang="nl" hotkey="Ctrl+L|9" helptext="Deze weergave activeren">1</c>
+			<c xml:lang="pt" hotkey="Ctrl+L|9" helptext="Mudar para esta disposição">1</c>
+			<c xml:lang="hr" hotkey="Ctrl+L|9" helptext="Prebaci se na ovaj izgled">1</c>
+			<c xml:lang="no" hotkey="Ctrl+L|9" helptext="Bytt til dette oppsettet">1</c>
+			<c xml:lang="it" hotkey="Ctrl+L|9" helptext="Utilizza questo layout">1</c>
 		  </cmd>
 		  <cmd resid="ID_FILEWND_LAYOUT_ITEM_10" bmidx="3" desc="Placeholder entry for items in the choose layout drop-down menu">
 			<c xml:lang="en" hotkey="" helptext="Switch to this layout">1</c>
