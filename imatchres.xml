@@ -34370,8 +34370,10 @@
 			<property resid="config.md.protectxmp" desc="">
 				<name xml:lang="en">Protect existing XMP</name>
 				<name xml:lang="de">Bestehende XMP-Daten schützen</name>
+				<name xml:lang="nl">Bestaande XMP-gegevens beschermen</name>
 				<desc xml:lang="en">If a file is rescanned and it already has XMP data in the database, IMatch does not re-import IPTC/EXIF/GPS data from the original image into the XMP record. This protects XMP data if the metadata in the image and in the XMP record are not synchronized (because the data was not written by IMatch or you do not allow IMatch to update the original image file).</desc>
 				<desc xml:lang="de">Wenn eine Datei neu eingelesen wird und für diese Datei bereits XMP-Daten in der Datenbank existieren, importiert IMatch nicht erneut die IPTC/EXIF/GPS-Daten aus der Bilddatei. Falls die XMP-Daten und die Metadaten im Bild nicht synchon sind (etwa, weil sie nicht von IMatch geschrieben wurden oder Sie IMatch nicht erlauben, die Originaldatei zu aktualisieren) schützt dies die XMP-Daten.</desc>
+				<desc xml:lang="nl">Als een bestand opnieuw gescand wordt en er zijn al XMP-gegevens in de database aanwezig, zal IMatch niet opnieuw de IPTC/EXIF/GPS gegevens uit het oorspronkelijke bestand importeren. Dit beschermt de XMP-gegevens in het geval de XMP-gegevens en de metagegevens in het bestand niet gesynchroniseerd zijn (bv. omdat de gegevens niet door IMatch zijn geschreven of u niet wilt dat de originele gegevens worden geactualiseerd).</desc>
 				<group xml:lang="en">Protection</group>
 				<group xml:lang="no">Beskyttelse</group>
 				<group xml:lang="de">Schutz</group>
@@ -35585,8 +35587,8 @@
 				<name xml:lang="pt">Chave do Google Maps API</name>
 				<desc xml:lang="it">Se richiesto, immettere qui il proprio 'Google Maps API key' personale o aziendale.</desc>
 				<desc xml:lang="en">If required, enter your personal or corporate Google Maps API key here. This key must be activated for JavaScript Maps API, Geo-coding API and Elevation API.</desc>
-				<desc xml:lang="de">Falls benötigt, geben Sie Ihren persönlichen oder firmenweiten Google API key hier ein. Dieser Key muss aktiviert sein für: JavaScript Maps API, Geo-coding API and Elevation API.</desc>
-				<desc xml:lang="nl">Indien nodig kunt u hier uw persoonlijke of bedrijfsmatige Google Maps API-sleutel ingeven.</desc>
+				<desc xml:lang="de">Falls benötigt, geben Sie Ihren persönlichen oder firmenweiten Google API key hier ein. Dieser Key muss aktiviert sein für: JavaScript Maps API, Geo-coding API und Elevation API.</desc>
+				<desc xml:lang="nl">Indien nodig kunt u hier uw persoonlijke of bedrijfsmatige Google Maps API-sleutel ingeven. Deze sleutel moet actief zijn voor: JavaCcript Maps API, Geo-coding API en Elevation API.</desc>
 				<desc xml:lang="hr">Ako je potrebno unesi osobni ili poslovni API ključ za Google karte.</desc>
 				<desc xml:lang="pt">Se pedido, colocar aqui a chave pessoal ou empresarial do Google Maps.</desc>
 				<group xml:lang="en">Services</group>
@@ -35715,7 +35717,7 @@
 				<desc xml:lang="it">Si scelga il servizio da usare per la codifica 'reverse-geocoding' (ottnere un indirizzo dalle coordinate GPS). Si noti che usando questi servizi si è vincolati ai 'terms of service and usage restrictions'. Si consultino i siti web per informazioni aggiuntive.</desc>
 				<desc xml:lang="en">Choose the service to use for reverse-geocoding (getting an address from GPS coordinates). By using a service you certify that you are bound by their terms of service and usage restrictions. Check their web sites for additional info.</desc>
 				<desc xml:lang="de">Wählen Sie einen Anbieter von Geokodierungsdiensten aus. IMatch verwendet diese Dienste zur Konvertierung von GPS-Koordinaten in Adressen. Durch Verwendung eines Anbieters akzeptieren Sie die Nutzungsbedingungen des Anbieters, die Sie auf der Webseite des Anbieters einsehen können.</desc>
-				<desc xml:lang="nl">Selecteer een aanbieder voor reverse-geocoding (het verkrijgen van een adres op basis van GPS-coördinaten. Het gebruik van de diensten van de aanbieder geschiedt onder de voorwaarden die deze aanbieder stelt. Controleer de website van de aanbieder voor meer informatie.</desc>
+				<desc xml:lang="nl">Selecteer een aanbieder voor reverse-geocoding. Imatch gebruikt deze diensten om een adres te vinden op basis van GPS-coördinaten. Het gebruik van de diensten van de aanbieder geschiedt onder de voorwaarden die deze aanbieder stelt. Controleer de website van de aanbieder voor meer informatie.</desc>
 				<desc xml:lang="hr">Odaberi servis obrnutog geokodiranja (pronalaženje adrese iz GPS koordinata). Imaj na umu da korištenjem ovog servisa prihvaćaš njihove uvjete korištenja i ograničenja. Provjeri njihove web stranice za dodatne informacije.</desc>
 				<desc xml:lang="pt">Escolha o serviço a utilizar para geocodificação inversa (obter um endereço a partir das coordenadas GPS). Note que ao utilizar estes serviços está vinculado aos seus termos de serviço e restrições de utilização. Consulte o seu sítio na Internet para informação adicional.</desc>
 				<group xml:lang="en">Services</group>

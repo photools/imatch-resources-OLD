@@ -9147,6 +9147,10 @@
 					<cap>Ungültiger Regulärer Ausdruck</cap>
 					<cont>Einer der regulären Ausdrücke zum Auschluß von Verzeichnissen ist ungültig.</cont>
 				</m>
+				<m xml:lang="nl">
+					<cap>Ongüeldige reguliere uitdrukking</cap>
+					<cont>Eén van reguliere uitdrukkingen om mappen uit te sluiten, is ongeldig.</cont>
+				</m>
 			</msg>			
 
 
