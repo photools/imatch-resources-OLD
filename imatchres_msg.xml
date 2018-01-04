@@ -4209,6 +4209,10 @@
 					<cap>Gesichtsanmerkng umbenennen</cap>
 					<cont>Dieser Befehl ermöglicht Ihnen das Umbennen einer Gesichtsnmerkung in Ihrer Datenbank.\r\nIMatch aktualisiert auch die XMP-Regionsdaten und verknüpfte Schlüsselwörter automatisch.\r\n\r\nAnwendungsbeispiele: Korrigieren Sie einen falsch geschriebenen Namen oder ändern Sie den Nachnamen einer Person nach der Hochzeit.</cont>
 				</m>
+				<m xml:lang="nl">
+					<cap>Gezichtsannotatie hernoemen</cap>
+					<cont>Dit commando maakt het mogelijk een gzichtsannotatie in de gehele database te wijzigen.\r\nIMatch actualiseert ook de corresponderende XMP gebieds metadata trefwoorden voor u.\r\n\r\nGebruiksvoorbeelden: het corrigeren van een foutief gespelde naam of wijzigen van iemands naam na een huwelijk. </cont>
+				</m>
 			</msg>
 
 
@@ -9162,7 +9166,7 @@
 					<cont>Einer der regulären Ausdrücke zum Auschluß von Verzeichnissen ist ungültig.</cont>
 				</m>
 				<m xml:lang="nl">
-					<cap>Ongüeldige reguliere uitdrukking</cap>
+					<cap>Ongeldige reguliere uitdrukking</cap>
 					<cont>Eén van reguliere uitdrukkingen om mappen uit te sluiten, is ongeldig.</cont>
 				</m>
 			</msg>			

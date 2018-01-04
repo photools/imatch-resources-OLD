@@ -6485,11 +6485,13 @@
 			<str resid="PTR_DBCLIENT_COL_RENAME_TAG_CAPTION">
 				<s xml:lang="en">Rename Tag</s>
 				<s xml:lang="de">Tag umbennen</s>
+				<s xml:lang="nl">Hernoem tag</s>
 			</str>
 
 			<str resid="PTR_DBCLIENT_COL_RENAME_TAG_PROMPT">
 				<s xml:lang="en">Rename '{0}' to:</s>
 				<s xml:lang="de">"{0}" umbennen in:</s>
+				<s xml:lang="nl">Hernoem '{0}' in:</s>
 			</str>
 
 

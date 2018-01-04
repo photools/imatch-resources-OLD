@@ -7917,6 +7917,7 @@
 			<cmd resid="ID_CMD_COLLECTION_RENAME_TAG" desc="" bmidx="-1">
 				<c xml:lang="en" hotkey="" helptext="This command allows you to rename a tag in the entire database, e.g. to change the tag associated with a face annotation.">Re&amp;name Face Annotation</c>
 				<c xml:lang="de" hotkey="" helptext="Mit diesem Befehl können Sie ein Tag in der gesamten Datenbank ändern, z.B. um eine Gesichtsanmerkung umzubenennen.">Gesichtsanmerkung umbe&amp;nennen</c>
+				<c xml:lang="nl" hotkey="" helptext="Dit commando maakt het mogelijk een tag in de gehele database te wijzigen, b.v. van een tag voor een gezichtsannotatie.">Her&amp;noem gezichtsannotatie</c>
 			</cmd>
 
 		</command_group>
