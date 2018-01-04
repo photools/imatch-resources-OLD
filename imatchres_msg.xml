@@ -4198,6 +4198,20 @@
 					<ftr></ftr>
 				</m>
 			</msg>
+
+			<!-- This message is shown when the user attempts to remove a folder from the database -->
+			<msg resid="PTR_MSG_COLL_RENAME_FACE_TAG" typeid="[[IDI_INFORMATION]]">
+				<m xml:lang="en">
+					<cap>Rename Face Annotation</cap>
+					<cont>This command allows you to rename a face annotation tag in your entire database.\r\nIMatch also updates the corresponding XMP region metadata and associated keywords for you.\r\n\r\nExample uses: Correcting a misspelled name or changing the name of a person after marriage.</cont>
+				</m>
+				<m xml:lang="de">
+					<cap>Gesichtsanmerkng umbenennen</cap>
+					<cont>Dieser Befehl ermöglicht Ihnen das Umbennen einer Gesichtsnmerkung in Ihrer Datenbank.\r\nIMatch aktualisiert auch die XMP-Regionsdaten und verknüpfte Schlüsselwörter automatisch.\r\n\r\nAnwendungsbeispiele: Korrigieren Sie einen falsch geschriebenen Namen oder ändern Sie den Nachnamen einer Person nach der Hochzeit.</cont>
+				</m>
+			</msg>
+
+
 		</message_group>
 
 		<!-- File System Operation messages (CIMatchFileOpUI)  -->
