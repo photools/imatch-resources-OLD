@@ -1274,6 +1274,10 @@
 					<cap>Er is een probleem bij het uitvoeren van ExifTool!</cap>
 					<cont>Deze externe applicatie wordt gebruikt door IMatch om metadata te lezen en te schrijven.\r\n\r\nVoor een reparatie van IMatch uit via Windows systeembesturing. Zorg er ook voor dat er geen anti-virus software of software uitvoeringsrechten op uw computer voorkomen dat externe programma's start.</cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Ocorreu um problema ao correr o ExifTool!</cap>
+					<cont>Esta aplicação externa é utilizada pelo IMatch para ler e escrever metadados.\r\n\r\nPor favor repare a instalação do IMatch através do Painel de controle do Windows. Certifique-se de que o seu software antivírus ou as políticas de restrição de software activas no seu sistema não impedem que o IMatch inicie programas externos.</cont>
+				</m>
 			</msg>
 			
 
