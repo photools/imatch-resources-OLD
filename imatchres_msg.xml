@@ -7764,7 +7764,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>Google omgekeerde geocodering</cap>
-					<cont>Om de omgekeerde geocodering van Google te kunnen gebruiken, moet u een geldige Google Maps API sleutle invoeren in Bewerken &gt; Voorkeuren &gt; Geo &amp; Kaarten. Deze sleutel moet geactiveerd zijn voor de diensten Maps, Reverse Geocoding en Elevation APIs.\r\n\r\nZie ook de IMatch help voor meer details.</cont>
+					<cont>Om de omgekeerde geocodering van Google te kunnen gebruiken, moet u een geldige Google Maps API sleutel invoeren in Bewerken &gt; Voorkeuren &gt; Geo &amp; Kaarten. Deze sleutel moet geactiveerd zijn voor de diensten Maps, Reverse Geocoding en Elevation APIs.\r\n\r\nZie ook de IMatch help voor meer details.</cont>
 				</m>
 			</msg>
 
