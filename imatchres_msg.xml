@@ -7756,11 +7756,15 @@
 			<msg resid="PTR_MSG_GEO_GOOGLE_API_KEY" typeid="[[IDI_INFORMATION]]">
 				<m xml:lang="en">
 					<cap>Google Reverse Geocoding</cap>
-					<cont>To use the reverse geocoding provided by Google you have to enter a valid Goole Maps API key in Edit &gt; Preferences &gt; Geo &amp; Maps. This key must be enabled for the Maps, Reverse Geocoding and Elevation APIs.\r\n\r\nSee the IMatch help for details.</cont>
+					<cont>To use the reverse geocoding provided by Google you have to enter a valid Google Maps API key in Edit &gt; Preferences &gt; Geo &amp; Maps. This key must be enabled for the Maps, Reverse Geocoding and Elevation APIs.\r\n\r\nSee the IMatch help for details.</cont>
 				</m>
 				<m xml:lang="de">
 					<cap>Google Reverse Geocoding</cap>
-					<cont>Um die von Google bereitgestellte Funktionalität nutzen zu können, müssen Sie einen gültigen Goole Maps API Schlüssel in Edit &gt; Preferences &gt; Geo &amp; Karten eintragen. Der Schlüssel muss für die Dienste Maps, Reverse Geocoding und Elevation aktiviert sein.\r\n\r\nSiehe die IMatch Hilfe für mehr Informationen.</cont>
+					<cont>Um die von Google bereitgestellte Funktionalität nutzen zu können, müssen Sie einen gültigen Google Maps API Schlüssel in Edit &gt; Preferences &gt; Geo &amp; Karten eintragen. Der Schlüssel muss für die Dienste Maps, Reverse Geocoding und Elevation aktiviert sein.\r\n\r\nSiehe die IMatch Hilfe für mehr Informationen.</cont>
+				</m>
+				<m xml:lang="nl">
+					<cap>Google omgekeerde geocodering</cap>
+					<cont>Om de omgekeerde geocodering van Google te kunnen gebruiken, moet u een geldige Google Maps API sleutle invoeren in Bewerken &gt; Voorkeuren &gt; Geo &amp; Kaarten. Deze sleutel moet geactiveerd zijn voor de diensten Maps, Reverse Geocoding en Elevation APIs.\r\n\r\nZie ook de IMatch help voor meer details.</cont>
 				</m>
 			</msg>
 
