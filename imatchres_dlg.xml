@@ -10073,6 +10073,7 @@
 				<c xml:lang="en" helptext="If you want to ignore certain folders, enter one or more regular expressions.\nSeparate the regular expressions with a ;">Sk&amp;ip these folders:</c>
 				<c xml:lang="de" helptext="Wenn Sie bestimmte Verzeichnisse ausschließen möchten, geben Sie eine oder mehrere reguläre Ausdrücke ein.\nTrennen Sie die Ausdrücke mit einem ;">Diese Verzeichn&amp;isse ignorieren:</c>
 				<c xml:lang="nl" helptext="Als u bepaalde mappen wilt uitsluiten, voer dan één of meer reguliere uitdrukkingen in. \nScheidt de uitdrukkingen met een ;">Slu&amp;it deze mappen uit:</c>
+				<c xml:lang="pt" helptext="Se desejar excluir determinadas pastas, insira uma ou mais expressões regulares.\nSepare as expressões regulares com um ;">Ex&amp;cluir estas pastas:</c>
 			</ctrl>
 
 			<ctrl text="#l_remove_offline">
