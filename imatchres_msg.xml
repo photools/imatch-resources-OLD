@@ -4213,6 +4213,10 @@
 					<cap>Gezichtsannotatie hernoemen</cap>
 					<cont>Dit commando maakt het mogelijk een gzichtsannotatie in de gehele database te wijzigen.\r\nIMatch actualiseert ook de corresponderende XMP gebieds metadata trefwoorden voor u.\r\n\r\nGebruiksvoorbeelden: het corrigeren van een foutief gespelde naam of wijzigen van iemands naam na een huwelijk. </cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Renomear Anotações de Rosto</cap>
+					<cont>Este comando permite renomear uma etiqueta de anotação de rosto em toda a base de dados.\r\nO IMatch também actualiza os metadados da região XMP correspondente e palavras chave associadas.\r\n\r\nExemplo de aplicação: Corrigindo um nome com erros ortográficos ou mudar o nome de uma pessoa após casamento.</cont>
+				</m>
 			</msg>
 
 
@@ -7766,6 +7770,10 @@
 					<cap>Google omgekeerde geocodering</cap>
 					<cont>Om de omgekeerde geocodering van Google te kunnen gebruiken, moet u een geldige Google Maps API sleutel invoeren in Bewerken &gt; Voorkeuren &gt; Geo &amp; Kaarten. Deze sleutel moet geactiveerd zijn voor de diensten Maps, Reverse Geocoding en Elevation APIs.\r\n\r\nZie ook de IMatch help voor meer details.</cont>
 				</m>
+				<m xml:lang="pt">
+					<cap>Geocodificação inversa do Google</cap>
+					<cont>De forma a poder utilizar a geocodificação inversa fornecida pelo Google, necessita de colocar uma chave API válida dos mapas do Google em Editar &gt; Preferências &gt; Geo &amp; Mapas. Esta chave deve ser activada para os serviços dos Mapas, Geocodificação Inversa e Elevação.\r\n\r\nConsulte a ajuda do IMatch para mais detalhes.</cont>
+				</m>
 			</msg>
 
 		</message_group>
@@ -9172,6 +9180,10 @@
 				<m xml:lang="nl">
 					<cap>Ongeldige reguliere uitdrukking</cap>
 					<cont>Eén van reguliere uitdrukkingen om mappen uit te sluiten, is ongeldig.</cont>
+				</m>
+				<m xml:lang="pt">
+					<cap>Expressão Regular Inválida</cap>
+					<cont>A expressão regular para excluir pastas é inválida.</cont>
 				</m>
 			</msg>			
 
