@@ -2,7 +2,7 @@
 
 <!-- $Date: 2013-06-14 18:49:32 +0200 (Fr, 14 Jun 2013) $ ($Rev: 473 $) -->
 
-<!-- Copyright © 2013-2017 Mario M. Westphal and photools.com. -->
+<!-- Copyright © 2013-2018 Mario M. Westphal and photools.com. -->
 <!-- No part of this file may be changed without written permission. -->
 <!-- Contact support@photools.com for more information. -->
 
@@ -5559,6 +5559,88 @@
 			<a xml:lang="en-us">app_basics.htm</a>
 		</alias>
 		<alias resid="CONTEXTID_PANELS_OUTPUT_APP">
+			<a xml:lang="en-us">app_basics.htm</a>
+		</alias>
+
+		<alias resid="ID_APP_DEVCENTER">
+			<a xml:lang="en-us">welcome.htm</a>
+		</alias>
+		<alias resid="ID_HELP_LEARNING_CENTER">
+			<a xml:lang="en-us">welcome.htm</a>
+		</alias>
+		<alias resid="ID_CMD_FILE_RESETCUSTOMSORT_DEFAULT">
+			<a xml:lang="en-us">welcome.htm</a>
+		</alias>
+		<alias resid="ID_CMD_FILE_OPEN_IN_RESULT_WINDOW">
+			<a xml:lang="en-us">welcome.htm</a>
+		</alias>
+		<alias resid="ID_CMD_CATEGORY_SETTHUMBNAIL">
+			<a xml:lang="en-us">cat_basics.htm</a>
+		</alias>
+		<alias resid="ID_CMD_CATEGORY_RESETTHUMBNAIL">
+			<a xml:lang="en-us">cat_basics.htm</a>
+		</alias>
+		<alias resid="ID_FILEWND_AUTOADVANCE">
+			<a xml:lang="en-us">fw_basics.htm</a>
+		</alias>
+		<alias resid="ID_FILEWND_SEARCHBAR_MODE_ADVANCED">
+			<a xml:lang="en-us">fw_basics.htm</a>
+		</alias>
+		<alias resid="ID_VIEWER_AUTOADVANCE">
+			<a xml:lang="en-us">viewer.htm</a>
+		</alias>
+		<alias resid="PTRMDLG_SCRIPTS_PLUGIN">
+			<a xml:lang="en-us">app_basics.htm</a>
+		</alias>
+		<alias resid="PTRMDLG_SCRIPTS_PROPERTIES">
+			<a xml:lang="en-us">app_basics.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_APPMGR_CLOSE_PROMPT">
+			<a xml:lang="en-us">app_basics.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_APPS_CLOSING_WARNING">
+			<a xml:lang="en-us">app_basics.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_ASSIST_FIRSTRUN">
+			<a xml:lang="en-us">welcome.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_CREATE_DB_OK">
+			<a xml:lang="en-us">rmh_database_new.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_DB_PANIC_EXIFTOOL">
+			<a xml:lang="en-us">welcome.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_FILEWND_CATEGORY_THUMBNAIL">
+			<a xml:lang="en-us">fw_basics.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_GEO_GOOGLE_API_KEY">
+			<a xml:lang="en-us">rmh_config_geo.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_NO_SPELL_DICT">
+			<a xml:lang="en-us">spellchecker.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_SCRIPTS_APPSCRIPTPROMPT">
+			<a xml:lang="en-us">app_basics.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_SCRIPTS_DBSCRIPTPROMPT">
+			<a xml:lang="en-us">app_basics.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_SCRIPTS_DEL_SCRIPT">
+			<a xml:lang="en-us">app_basics.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_SCRIPTS_DESIGNMODEHINT">
+			<a xml:lang="en-us">app_basics.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_SCRIPTS_REN_DUPLICATE_NAME">
+			<a xml:lang="en-us">app_basics.htm</a>
+		</alias>
+		<alias resid="PTR_MSG_SCRIPTS_SYSSCRIPTPROMPT">
+			<a xml:lang="en-us">app_basics.htm</a>
+		</alias>
+		<alias resid="CONTEXTID_PANELS_SCRIPT_IDE">
+			<a xml:lang="en-us">app_basics.htm</a>
+		</alias>
+		<alias resid="CONTEXTID_PANELS_SCRIPT_INFO">
 			<a xml:lang="en-us">app_basics.htm</a>
 		</alias>
 

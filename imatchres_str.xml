@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- $Revision: 449 $ $Date: 2013-05-12 22:24:47 +0200 (So, 12 Mai 2013) $ - $Author: predrag $ -->
-
 <!-- This resource file contains all string resources for IMatch -->
 
-<!-- Copyright © 2013-2017 Mario M. Westphal and photools.com. -->
+<!-- Copyright © 2013-2018 Mario M. Westphal and photools.com. -->
 <!-- No part of this file may be changed without written permission. -->
 <!-- Contact support@photools.com for more information. -->
 
@@ -6483,6 +6481,19 @@
 				<s xml:lang="fr">Configurer</s>
 				<s xml:lang="it">Configura</s>
 			</str>
+
+			<str resid="PTR_DBCLIENT_COL_RENAME_TAG_CAPTION">
+				<s xml:lang="en">Rename Tag</s>
+				<s xml:lang="de">Tag umbennen</s>
+				<s xml:lang="nl">Hernoem tag</s>
+			</str>
+
+			<str resid="PTR_DBCLIENT_COL_RENAME_TAG_PROMPT">
+				<s xml:lang="en">Rename '{0}' to:</s>
+				<s xml:lang="de">"{0}" umbennen in:</s>
+				<s xml:lang="nl">Hernoem '{0}' in:</s>
+			</str>
+
 
 		</string_group>
 		

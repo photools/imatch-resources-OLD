@@ -4,7 +4,7 @@
 
 <!-- This resource file contains all dialog resources for IMatch -->
 
-<!-- Copyright © 2013-2017 Mario M. Westphal and photools.com. -->
+<!-- Copyright © 2013-2018 Mario M. Westphal and photools.com. -->
 <!-- No part of this file may be changed without written permission. -->
 <!-- Contact support@photools.com for more information. -->
 
@@ -10069,6 +10069,12 @@
 				<c xml:lang="nl" helptext="Zet deze optie aan om verborgen en systeembestanden te negeren.">&amp;Sla verborgen en systeembestanden over</c>
 			</ctrl>
 
+			<ctrl text="#l_skip_mask">
+				<c xml:lang="en" helptext="If you want to ignore certain folders, enter one or more regular expressions.\nSeparate the regular expressions with a ;">Sk&amp;ip these folders:</c>
+				<c xml:lang="de" helptext="Wenn Sie bestimmte Verzeichnisse ausschließen möchten, geben Sie eine oder mehrere reguläre Ausdrücke ein.\nTrennen Sie die Ausdrücke mit einem ;">Diese Verzeichn&amp;isse ignorieren:</c>
+				<c xml:lang="nl" helptext="Als u bepaalde mappen wilt uitsluiten, voer dan één of meer reguliere uitdrukkingen in. \nScheidt de uitdrukkingen met een ;">Slu&amp;it deze mappen uit:</c>
+			</ctrl>
+
 			<ctrl text="#l_remove_offline">
 				<c xml:lang="en" helptext="Enable this option if you want to remove files from the database which cannot be found on disk anymore.">Remove &amp;non-existing files from database</c>
 				<c xml:lang="de" helptext="Aktivieren Sie diese Option, wenn Sie Dateien aus der Datenbank löschen möchten, die nicht mehr auf dem Datenträger existieren.">&amp;Nicht existierende Dateien aus Datenbank entfernen</c>
@@ -10216,11 +10222,22 @@
             <ctrl text="#l_templ_ro_upd">
                 <c xml:lang="en" helptext="">Updated:</c>
                 <c xml:lang="de" helptext="">Aktualisiert:</c>
-                <c xml:lang="nl" helptext="">Geupdated:</c>
+                <c xml:lang="nl" helptext="">Geactualiseerd:</c>
 				<c xml:lang="pt" helptext="">Actualizado:</c>
 				<c xml:lang="no" helptext="">Oppdatert:</c>
                 <c xml:lang="it" helptext="">Aggiornato:</c>
             </ctrl>
+
+			<textdata>
+				<!-- Data used for the New... text entry dialog box -->
+				<td tid="ph_skip_mask">
+					<t xml:lang="en">Enter regular expression</t>
+					<t xml:lang="de">Regulären Ausdruck eingeben</t>
+					<t xml:lang="nl">Voer een reguliere uitdrukking in</t>
+				</td>
+			</textdata>
+			
+			
         </dialog>
 
 

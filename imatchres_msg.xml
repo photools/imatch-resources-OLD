@@ -2,7 +2,7 @@
 
 <!-- This resource file contains all message resources for IMatch -->
 
-<!-- Copyright © 2013-2017 Mario M. Westphal and photools.com. -->
+<!-- Copyright © 2013-2018 Mario M. Westphal and photools.com. -->
 <!-- No part of this file may be changed without written permission. -->
 <!-- Contact support@photools.com for more information. -->
 
@@ -1087,35 +1087,6 @@
                     <cap>
                         <![CDATA[<TextBlock FontSize="20" FontWeight="Bold"><Bold>Oops!</Bold></TextBlock>]]></cap>
                     <cont>Questa funzione non è ancora stata implementata.</cont>
-                </m>
-            </msg>
-
-            <!-- Scripting: Type library not registered -->
-
-            <msg resid="PTR_MSG_TYPELIB_NOT_REGISTERED" typeid="[[TD_ERROR_ICON]]" desc="">
-                <m xml:lang="en">
-                    <cap>Scripting not available</cap>
-                    <cont>The application was not properly installed or the scripting registation has failed.\r\n\r\nPlease close IMatch and then run it under an administrative account. This allows IMatch to register the scripting environment.</cont>
-                </m>
-                <m xml:lang="de">
-                    <cap>Skriptsprache nicht verfügbar</cap>
-                    <cont>Die IMatch Skriptsprache wurde nicht korrekt registriert.\r\n\r\nBitte beenden Sie IMatch und starten Sie es dann einmalig unter einem administrativen Konto. Dadurch kann die Skripting-Umgebung korrekt registriert werden.</cont>
-                </m>
-                <m xml:lang="nl">
-                    <cap>Scripting niet beschikbaar</cap>
-                    <cont>De applicatie werd niet correct geïnstalleerd of the registratie van scripting heeft gefaald.\r\n\r\nSluit aub IMatch en herstart eenmalig onder een beheerdersaccount.</cont>
-                </m>
-                <m xml:lang="hr">
-                    <cap>Skripte nisu dostupne</cap>
-                    <cont>Aplikacija nije pravilno instalirana ili registracija skripti nije uspjela.\r\n\r\nZatvori IMatch i onda ga pokreni sa administrativnim pravima. To će omogućiti IMatch-u da registrira skripte.</cont>
-                </m>
-                <m xml:lang="it">
-                    <cap>Scripting non disponibile</cap>
-                    <cont>L'Applicazione non è stata installata correttamente o la registrazione dello scripting non è riuscita.\r\n\r\nPer cortesia chiudere IMatch ed eseguirlo con un account da Amministratore. Questo permetterà a IMatch di registrare l'ambiente di scripting.</cont>
-                </m>
-				<m xml:lang="pt">
-                    <cap>Scripting não está disponível</cap>
-                    <cont>A aplicação não foi correctamente instalada ou o registo dos scripts falhou.\r\n\r\nPor favor encerre o IMatch e se seguida corra-o numa conta de administrador. Isto permitirá que o IMatch se registe no ambiente de scripting.</cont>
                 </m>
             </msg>
 
@@ -4227,6 +4198,24 @@
 					<ftr></ftr>
 				</m>
 			</msg>
+
+			<!-- This message is shown when the user attempts to remove a folder from the database -->
+			<msg resid="PTR_MSG_COLL_RENAME_FACE_TAG" typeid="[[IDI_INFORMATION]]">
+				<m xml:lang="en">
+					<cap>Rename Face Annotation</cap>
+					<cont>This command allows you to rename a face annotation tag in your entire database.\r\nIMatch also updates the corresponding XMP region metadata and associated keywords for you.\r\n\r\nExample uses: Correcting a misspelled name or changing the name of a person after marriage.</cont>
+				</m>
+				<m xml:lang="de">
+					<cap>Gesichtsanmerkng umbenennen</cap>
+					<cont>Dieser Befehl ermöglicht Ihnen das Umbennen einer Gesichtsnmerkung in Ihrer Datenbank.\r\nIMatch aktualisiert auch die XMP-Regionsdaten und verknüpfte Schlüsselwörter automatisch.\r\n\r\nAnwendungsbeispiele: Korrigieren Sie einen falsch geschriebenen Namen oder ändern Sie den Nachnamen einer Person nach der Hochzeit.</cont>
+				</m>
+				<m xml:lang="nl">
+					<cap>Gezichtsannotatie hernoemen</cap>
+					<cont>Dit commando maakt het mogelijk een gzichtsannotatie in de gehele database te wijzigen.\r\nIMatch actualiseert ook de corresponderende XMP gebieds metadata trefwoorden voor u.\r\n\r\nGebruiksvoorbeelden: het corrigeren van een foutief gespelde naam of wijzigen van iemands naam na een huwelijk. </cont>
+				</m>
+			</msg>
+
+
 		</message_group>
 
 		<!-- File System Operation messages (CIMatchFileOpUI)  -->
@@ -7764,6 +7753,17 @@
 				</m>
 			</msg>
 
+			<msg resid="PTR_MSG_GEO_GOOGLE_API_KEY" typeid="[[IDI_INFORMATION]]">
+				<m xml:lang="en">
+					<cap>Google Reverse Geocoding</cap>
+					<cont>To use the reverse geocoding provided by Google you have to enter a valid Goole Maps API key in Edit &gt; Preferences &gt; Geo &amp; Maps. This key must be enabled for the Maps, Reverse Geocoding and Elevation APIs.\r\n\r\nSee the IMatch help for details.</cont>
+				</m>
+				<m xml:lang="de">
+					<cap>Google Reverse Geocoding</cap>
+					<cont>Um die von Google bereitgestellte Funktionalität nutzen zu können, müssen Sie einen gültigen Goole Maps API Schlüssel in Edit &gt; Preferences &gt; Geo &amp; Karten eintragen. Der Schlüssel muss für die Dienste Maps, Reverse Geocoding und Elevation aktiviert sein.\r\n\r\nSiehe die IMatch Hilfe für mehr Informationen.</cont>
+				</m>
+			</msg>
+
 		</message_group>
         
         <!-- Viewer -->
@@ -9154,6 +9154,22 @@
 					<cont>Ao activar esta opção faz com que o IMatch actualize sempre os ficheiros quando altera os metadados.\r\n\r\nIsto pode abrandar considerávelmente a performance do IMatch. Deve activar esta opção apenas se fôr realmente necessário.</cont>
 				</m>
 			</msg>
+
+
+			<msg resid="PTR_MSG_APPPREFS_INDEXING_FOLDER_REGEXP" typeid="[[IDI_EXCLAMATION]]" desc="">
+				<m xml:lang="en">
+					<cap>Invalid Regular Expression</cap>
+					<cont>The regular expressions for skipping folders is invalid.</cont>
+				</m>
+				<m xml:lang="de">
+					<cap>Ungültiger Regulärer Ausdruck</cap>
+					<cont>Einer der regulären Ausdrücke zum Auschluß von Verzeichnissen ist ungültig.</cont>
+				</m>
+				<m xml:lang="nl">
+					<cap>Ongeldige reguliere uitdrukking</cap>
+					<cont>Eén van reguliere uitdrukkingen om mappen uit te sluiten, is ongeldig.</cont>
+				</m>
+			</msg>			
 
 
 		</message_group>
