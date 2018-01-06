@@ -7462,7 +7462,7 @@
 			<cmd resid="ID_CMD_CATEGORY_RESETTHUMBNAIL" bmidx="-1">
 				<c xml:lang="en" hotkey="" helptext="Clears the category thumbnail">Clear category thumbnail</c>
 				<c xml:lang="de" hotkey="" helptext="Das Kategorie-Symbolbild auf 'Keines' zurücksetzen.">Kategorie-Symbolbild entfernen</c>
-				<c xml:lang="nl" hotkey="" helptext="Het categorie miniatuur wissen">Categorie minitauur wissen</c>
+				<c xml:lang="nl" hotkey="" helptext="Het categorie miniatuur wissen">Categorie miniatuur wissen</c>
 				<c xml:lang="pt" hotkey="" helptext="Repõe a imagem do ícone da categoria para 'Nenhum'">Clear category thumbnail</c>
 			</cmd>
 		
