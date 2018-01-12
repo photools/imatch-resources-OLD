@@ -8411,7 +8411,7 @@
 				<s xml:lang="en">This copies all tags used by the current layout into a Metadata Template.\r\nYou should edit the template afterwards to remove all unwanted tags - especially tags with potentially harmful side effects like 'Orientation' etc.).</s>
 				<s xml:lang="de">Diese funktion kopiert alle Tags aus dem aktuellen Layout in eine Metadatenvorlage.\r\nSie sollten die Vorlage anschließend bearbeiten und alle nicht benötigten Tags entfernen - insbesondere Tags mit potentiell schädlichen Nebenwirkungen wie 'Ausrichtung/Orientation'.</s>
 				<s xml:lang="pt">Isto copia todas as etiquetas usadas pelo plano actual num Modelo de Metadados. \ R \ nDepois deve editar o modelo para remover todas as etiquetas indesejadas - especialmente etiquetas com efeitos colaterais potencialmente nocivos como 'Orientação', etc.</s>
-				<s xml:lang="en">Dit kopieert alle tags die door de actuele lay-out worden gebruikt naar een metadata-sjabloon. r\nU moet dit sjabloon naderhand bewerken om alle ongewenste tags te verwijderen -  in het bojzponder tags met mogelik schadelijke neveneffecten zoals 'Oriëntatie, etc.).</s>
+				<s xml:lang="nl">Dit kopieert alle tags die door de actuele lay-out worden gebruikt naar een metadata-sjabloon. r\nU moet dit sjabloon naderhand bewerken om alle ongewenste tags te verwijderen -  in het bojzponder tags met mogelik schadelijke neveneffecten zoals 'Oriëntatie, etc.).</s>
 			</str>
 
 			<!-- Template Import & Export -->
