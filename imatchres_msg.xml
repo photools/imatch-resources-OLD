@@ -3498,6 +3498,10 @@
 					<cap>Tipo de Categoria Errado</cap>
 					<cont>Este tipo de categoria não suporta miniaturas.</cont>
 				</m>
+				<m xml:lang="nl">
+					<cap>Verkeerde categorie-type</cap>
+					<cont>Dit type categorie ondersteunt geen categorie-miniaturen.</cont>
+				</m>
 			</msg>
 
 		</message_group>

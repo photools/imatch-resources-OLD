@@ -7877,6 +7877,7 @@
 			<!-- @Translators: This is empty by intention! -->
 			<str resid="PTR_MDCONTAINER_LAYOUT_NEW_DESC" desc="Name for the new panel layouts">
 				<s xml:lang="en"></s>
+				<s xml:lang="nl"></s>
 			</str>
 
 			<!-- These strings are used to fill the combo box showing the "Show" options -->
@@ -8410,6 +8411,7 @@
 				<s xml:lang="en">This copies all tags used by the current layout into a Metadata Template.\r\nYou should edit the template afterwards to remove all unwanted tags - especially tags with potentially harmful side effects like 'Orientation' etc.).</s>
 				<s xml:lang="de">Diese funktion kopiert alle Tags aus dem aktuellen Layout in eine Metadatenvorlage.\r\nSie sollten die Vorlage anschließend bearbeiten und alle nicht benötigten Tags entfernen - insbesondere Tags mit potentiell schädlichen Nebenwirkungen wie 'Ausrichtung/Orientation'.</s>
 				<s xml:lang="pt">Isto copia todas as etiquetas usadas pelo plano actual num Modelo de Metadados. \ R \ nDepois deve editar o modelo para remover todas as etiquetas indesejadas - especialmente etiquetas com efeitos colaterais potencialmente nocivos como 'Orientação', etc.</s>
+				<s xml:lang="nl">Dit kopieert alle tags die door de actuele lay-out worden gebruikt naar een metadata-sjabloon. r\nU moet dit sjabloon naderhand bewerken om alle ongewenste tags te verwijderen -  in het bojzponder tags met mogelik schadelijke neveneffecten zoals 'Oriëntatie, etc.).</s>
 			</str>
 
 			<!-- Template Import & Export -->
@@ -13371,7 +13373,7 @@
                 <s xml:lang="nl">Lege sleutel gevonden. Geen geldig object tussen " en ".</s>
 				<s xml:lang="pt">Foi encontrado um elemento vazio. Não existe um elemento válido entre " e ".</s>
                 <s xml:lang="hr">Pronađen je prazan token između &quot; i &quot;.</s>
-					<s xml:lang="fr">Objet vide trouvé. Pas d'objet valide entre " et ".</s>
+				<s xml:lang="fr">Objet vide trouvé. Pas d'objet valide entre " et ".</s>
                 <s xml:lang="it">Trovato un token vuoto. Non è presente un token valido tra " e ".</s>
             </str>
             <str resid="PTR_ERRMSG_5002" desc="IMERR_PARS_UNKNOWNTOKEN">
@@ -13380,7 +13382,7 @@
                 <s xml:lang="nl">Ongeldige sleutel gevonden. Controleer of alle formule- en functienamen correct gespeld zijn.</s>
 				<s xml:lang="pt">Foi encontrado um elemento desconhecido. Garanta que todos os nomes de fórmulas e funções se encontram correctamente escritos.</s>
                 <s xml:lang="hr">Pronađen je nepoznati token. Provjeri da su sve formule i funkcije napisane pravilno.</s>
-					<s xml:lang="fr">Un objet inconnu a été trouvé</s>
+				<s xml:lang="fr">Un objet inconnu a été trouvé</s>
                 <s xml:lang="it">Trovato token sconosciuto. Per cortesia verificare che l'ortografia di tutte le formule e le funzioni sia corretta.</s>
             </str>
             <str resid="PTR_ERRMSG_5003" desc="IMERR_PARS_MISSINGQUOTE">
@@ -13389,7 +13391,7 @@
                 <s xml:lang="nl">Missende quote ".</s>
 				<s xml:lang="pt">Falta ".</s>
                 <s xml:lang="hr">Nedostaje navodnik &quot;.</s>
-					<s xml:lang="fr">Il manque un guillemet ".</s>
+				<s xml:lang="fr">Il manque un guillemet ".</s>
 				<s xml:lang="fi">Lainausmerkki " puuttuu.</s>
                 <s xml:lang="it">Manca il simbolo ".</s>
             </str>
@@ -13400,7 +13402,7 @@
 				<s xml:lang="pt">Falta (.</s>
                 <s xml:lang="hr">Nedostaje (.</s>
 				<s xml:lang="fi">Sulkumerkki ( puuttuu.</s>
-					<s xml:lang="fr">Il manque (.</s>
+				<s xml:lang="fr">Il manque (.</s>
                 <s xml:lang="it">Manca parentesi: (.</s>
             </str>
             <str resid="PTR_ERRMSG_5005" desc="IMERR_PARS_MISSINGRPAR">
@@ -13410,7 +13412,7 @@
 				<s xml:lang="pt">Falta ).</s>
                 <s xml:lang="hr">Nedostaje ).</s>
 				<s xml:lang="fi">Sulkumerkki ) puuttuu.</s>
-					<s xml:lang="fr">Il manque ).</s>
+				<s xml:lang="fr">Il manque ).</s>
                 <s xml:lang="it">Manca parentesi: ).</s>
             </str>
             <str resid="PTR_ERRMSG_5006" desc="IMERR_PARS_UNKNOWNPREFIX">
@@ -13419,7 +13421,7 @@
                 <s xml:lang="nl">Onbekend voorvoegsel.</s>
 				<s xml:lang="pt">Prefixo desconhecido.</s>
                 <s xml:lang="hr">Nepoznaki prefiks.</s>
-					<s xml:lang="fr">Préfixe inconnu.</s>
+				<s xml:lang="fr">Préfixe inconnu.</s>
                 <s xml:lang="it">Prefisso sconosciuto.</s>
             </str>
             <str resid="PTR_ERRMSG_5007" desc="IMERR_PARS_NOTOKENS">
@@ -13520,6 +13522,7 @@
 				<s xml:lang="en">Tag not found.</s>
 				<s xml:lang="de">Tag nicht gefunden.</s>
 				<s xml:lang="pt">Etiqueta não encontrada.</s>
+				<s xml:lang="nl">Tag niet gevonden.</s>
 			</str>
 
 			<str resid="PTR_ERRMSG_5101" desc="IMERR_DATAGROUP_TOOMANYCHILDREN">

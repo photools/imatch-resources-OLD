@@ -24427,9 +24427,11 @@
 				<name xml:lang="en">Show Category Thumbnails</name>
 				<name xml:lang="de">Kategorie-Symbolbilder anzeigen</name>
 				<name xml:lang="pt">Mostra as Miniaturas das Categorias</name>
+				<name xml:lang="nl">Toon categorie-miniaturen</name>
 				<desc xml:lang="en">Activate this option to show category thumbnails instead of standard icons.</desc>
 				<desc xml:lang="de">Aktivieren Sie diese Option, um Verzeichnis-Symbolbilder anstatt der Standard-Symbolbilder anzuzeigen.</desc>
 				<desc xml:lang="pt">Active esta opção de forma a mostrar as miniaturas das categorias em vez dos icons padrão.</desc>
+				<desc xml:lang="nl">Activeer deze optie om de categorie-miniaturen te tonen i.p.v. de standaard icons.</desc>
 				<group xml:lang="en"></group>
 				<group xml:lang="de"></group>
 				<group xml:lang="fi"></group>
@@ -24473,9 +24475,11 @@
 				<name xml:lang="en">Category Thumbnail Size</name>
 				<name xml:lang="de">Kategorie-Symbolbildgröße</name>
 				<name xml:lang="pt">Tamanho das Miniaturas das Categorias</name>
+				<name xml:lang="nl">Grootte categorie-miniaturen</name>
 				<desc xml:lang="en">Controls the size of category thumbnails.</desc>
 				<desc xml:lang="de">Die Größe der Kategorie-Symbolbilder.</desc>
 				<desc xml:lang="pt">Controla o tamanho das miniaturas das categorias.</desc>
+				<desc xml:lang="nl">Bepaalt de grootte van de categorie-miniaturen.</desc>
 				<group xml:lang="en"></group>
 				<group xml:lang="de"></group>
 				<group xml:lang="fi"></group>
