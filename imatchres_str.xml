@@ -6486,6 +6486,7 @@
 				<s xml:lang="en">Rename Tag</s>
 				<s xml:lang="de">Tag umbennen</s>
 				<s xml:lang="nl">Hernoem tag</s>
+				<s xml:lang="pt">Renomear Etiqueta</s>
 			</str>
 
 			<str resid="PTR_DBCLIENT_COL_RENAME_TAG_PROMPT">
@@ -7878,6 +7879,7 @@
 			<str resid="PTR_MDCONTAINER_LAYOUT_NEW_DESC" desc="Name for the new panel layouts">
 				<s xml:lang="en"></s>
 				<s xml:lang="nl"></s>
+				<s xml:lang="pt"></s>
 			</str>
 
 			<!-- These strings are used to fill the combo box showing the "Show" options -->
