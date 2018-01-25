@@ -7381,7 +7381,7 @@
 			<ctrl text="#l_check_use_colors">
 				<c xml:lang="en" helptext="Display the name in the tab using the category text color.">Use category text color for tabs</c>
 				<c xml:lang="de" helptext="Den Reiter-Namen in der Kategorie-Textfarbe anzeigen">Kategorie-Textfarbe für die Reiter verwenden</c>
-				<c xml:lang="nl" helptext="Toon de naam van de tab in de kleur van de categorie.">Use category text color for tabs</c>
+				<c xml:lang="nl" helptext="Toon de naam van de tab in de kleur van de categorie.">Gebruik de categoriekleur voor de tabs</c>
 				<c xml:lang="pt" helptext="Exibe o nome na guia usando a cor do texto da categoria.">Utilize a cor do texto da categoria para as guias.</c>
 			</ctrl>
 
