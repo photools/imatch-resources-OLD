@@ -10406,7 +10406,7 @@
 				<c xml:lang="en" helptext="Resets all properties shown here back to their default values.">&amp;Defaults</c>
 				<c xml:lang="de" helptext="Setzt alle hier angezeigten Eigenschaften auf ihre Standardwerte zurück.">&amp;Standardwerte</c>
 				<c xml:lang="fi" helptext="Palauta kaikki tässä näkyvät ominaisuudet oletusarvoihin.">&amp;Oletusarvot</c>
-				<c xml:lang="nl" helptext="Alle eigenschappen op standaardwaarden instellen">&amp;Standaard</c>
+				<c xml:lang="nl" helptext="Alle eigenschappen op standaardwaarden instellen">&amp;Standaardwaarden</c>
 				<c xml:lang="pt" helptext="Repõe os valores pré-definidos para todas as propriedades aqui apresentadas">&amp;Pré-Definições</c>
 				<c xml:lang="no" helptext="Resetter alle viste egenskaper tilbake til standardverdier">&amp;Standardverdier</c>
 				<c xml:lang="it" helptext="Reimposta tutte le proprietà qui illustrate ai valori predefiniti">&amp;Defaults</c>

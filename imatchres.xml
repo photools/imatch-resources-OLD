@@ -18435,11 +18435,11 @@
                 <name xml:lang="hr">Automatske kopije verzija</name>
                 <name xml:lang="it">Auto-Versiona le copie</name>
                 <desc xml:lang="it">Se si copia un file che è parte di una Versione, vuoi che l'immagine copiata sia automaticamente una versione con link manuale?</desc>
-                <desc xml:lang="en">If you copy a file which is part of a version set, do you want the copy to be manually versioned?</desc>
+                <desc xml:lang="en">If you copy a file which is part of a version set, do you want the copy to be versioned automatically through a manual link?</desc>
                 <desc xml:lang="no">Hvis du kopierer en fil som er en del av en versjon, vil du at kopien skal versjoneres manuelt?</desc>
                 <desc xml:lang="de">Wenn Sie eine Datei kopieren, die Teil eines Versions-Sets ist, möchten Sie die Kopie automatisch dem Versions-Set als manuell zugewiesene Datei hinzufügen?</desc>
 				 <desc xml:lang="fi">Kun kopioit tiedoston, joka on osa versiosarjaa, haluatko liittää kopioin versiosarjaan manuaalisesti?</desc>
-                <desc xml:lang="nl">Als u een bestand kopieert dat onderdeel van een versie is, wilt u de kopie dan handmatig aan de versie toevoegen?</desc>
+                <desc xml:lang="nl">Als u een bestand kopieert dat onderdeel van een versie is, wilt u dat de kopie dan automatisch via een 'handmatige koppeling' aan de versieset wordt toegevoegd?</desc>
 				<desc xml:lang="pt">Se copiar um ficheiro que faz parte de um conjunto de versões, pretende que o conjunto de versões a que a cópia pertence seja definido manualmente?</desc>
                 <desc xml:lang="hr">Kada kopiraš datoteku koja je dio skupa verzija, da li želiš da kopija automatski dobije verziju?</desc>
                 <group xml:lang="it">Impostazioni</group>
@@ -20529,7 +20529,7 @@
 				<desc xml:lang="pt">Por padrão, o IMatch usa os Codecs WIC instalados fornecidos pelos vendedores de câmeras, Microsoft ou terceiros para extrair visualizações e imagens de cache a partir de imagens RAW. O processador RAW integrado da photools.com é usado como reserva se nenhum codec WIC estiver instalado ou se ele não carregar uma imagem RAW. Se quiser ignorar os codecs WIC instalados e usar sempre o processamento RAW da photools.com, habilite esta opção.</desc>
 				<group xml:lang="en">photools.com RAW Processing</group>
 				<group xml:lang="en">photools.com RAW-Prozess</group>
-				<group xml:lang="nl">photools.com RAW-verwerking</group>
+				<group xml:lang="nl">Photools.com RAW-verwerking</group>
 				<group xml:lang="pt">Processamento RAW da photools.com</group>
 			</property>
 
