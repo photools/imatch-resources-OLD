@@ -18439,7 +18439,7 @@
                 <desc xml:lang="no">Hvis du kopierer en fil som er en del av en versjon, vil du at kopien skal versjoneres manuelt?</desc>
                 <desc xml:lang="de">Wenn Sie eine Datei kopieren, die Teil eines Versions-Sets ist, möchten Sie die Kopie automatisch dem Versions-Set als manuell zugewiesene Datei hinzufügen?</desc>
 				 <desc xml:lang="fi">Kun kopioit tiedoston, joka on osa versiosarjaa, haluatko liittää kopioin versiosarjaan manuaalisesti?</desc>
-                <desc xml:lang="nl">Als u een bestand kopieert dat onderdeel van een versie is, wilt u dat de kopie dan automatisch met handmatige koppeling wordt toegevoegd?</desc>
+                <desc xml:lang="nl">Als u een bestand kopieert dat onderdeel van een versie is, wilt u dat de kopie dan automatisch via een 'handmatige koppeling' aan de versieset wordt toegevoegd?</desc>
 				<desc xml:lang="pt">Se copiar um ficheiro que faz parte de um conjunto de versões, pretende que o conjunto de versões a que a cópia pertence seja definido manualmente?</desc>
                 <desc xml:lang="hr">Kada kopiraš datoteku koja je dio skupa verzija, da li želiš da kopija automatski dobije verziju?</desc>
                 <group xml:lang="it">Impostazioni</group>
