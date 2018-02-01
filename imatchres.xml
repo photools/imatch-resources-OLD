@@ -7948,14 +7948,14 @@
 				<c xml:lang="it" hotkey="Ctrl+Shift+U" helptext="Rimuovi il collegamento manuale di versione">&amp;Rimuovi link di versione manuale</c>
 			</cmd>
 			<cmd resid="ID_CMD_VERSION_STACK_TOGGLE" desc="">
-				<c xml:lang="en" hotkey="T;Ctrl+Shift+Q" helptext="Toggle the stack status of this version set">Toggle Version &amp;Stack</c>
-				<c xml:lang="de" hotkey="T;Ctrl+Shift+Q" helptext="Den Stapelzustand dieses Versionssatzes umkehren.">Versions&amp;stapelzustand umschalten</c>
-				<c xml:lang="fi" hotkey="T;Ctrl+Shift+Q" helptext="Muuta tämän versiojoukon pinotila">&amp;Muuta pinotila</c>
-				<c xml:lang="nl" hotkey="T;Ctrl+Shift+Q" helptext="Stapel-status wisselen">&amp;Stapel-status wisselen</c>
-				<c xml:lang="pt" hotkey="T;Ctrl+Shift+Q" helptext="Activar/Desactivar estado de empilhamento deste conjunto de versões">Activar/Desactivar &amp;Pilha de Versões</c>
-				<c xml:lang="hr" hotkey="T;Ctrl+Shift+Q" helptext="Preklopi stožno stanje ovog skupa verzija">Preklopi &amp;stog verzija</c>
-				<c xml:lang="no" hotkey="T;Ctrl+Shift+Q" helptext="Veksle stabel status av dette versjon settet">Veksle versjon &amp;stabel</c>
-				<c xml:lang="it" hotkey="T;Ctrl+Shift+Q" helptext="Abilita o Disabilita il raggruppamento di questa versione">ON/OFF &amp;Raggruppamento Versione</c>
+				<c xml:lang="en" hotkey="T" helptext="Toggle the stack status of this/these version set/sets">Toggle Version &amp;Stack</c>
+				<c xml:lang="de" hotkey="T" helptext="Den Stapelzustand dieses Versionssatzes umkehren.">Versions&amp;stapelzustand umschalten</c>
+				<c xml:lang="fi" hotkey="T" helptext="Muuta tämän versiojoukon pinotila">&amp;Muuta pinotila</c>
+				<c xml:lang="nl" hotkey="T" helptext="Stapel-status van deze versieset (-s) wisselen">&amp;Stapel-status wisselen</c>
+				<c xml:lang="pt" hotkey="T" helptext="Activar/Desactivar estado de empilhamento deste conjunto de versões">Activar/Desactivar &amp;Pilha de Versões</c>
+				<c xml:lang="hr" hotkey="T" helptext="Preklopi stožno stanje ovog skupa verzija">Preklopi &amp;stog verzija</c>
+				<c xml:lang="no" hotkey="T" helptext="Veksle stabel status av dette versjon settet">Veksle versjon &amp;stabel</c>
+				<c xml:lang="it" hotkey="T" helptext="Abilita o Disabilita il raggruppamento di questa versione">ON/OFF &amp;Raggruppamento Versione</c>
 			</cmd>
             <cmd resid="ID_CMD_VERSION_FIND" desc="">
                 <c xml:lang="en" hotkey="F4|S" helptext="Open a result window with all selected masters and versions">Show all &amp;Versions...</c>
@@ -34383,9 +34383,11 @@
 				<name xml:lang="en">Protect existing XMP</name>
 				<name xml:lang="de">Bestehende XMP-Daten schützen</name>
 				<name xml:lang="nl">Bestaande XMP-gegevens beschermen</name>
+				<name xml:lang="pt">Proteja o ficheiro XMP existente</name>
 				<desc xml:lang="en">If a file is rescanned and it already has XMP data in the database, IMatch does not re-import IPTC/EXIF/GPS data from the original image into the XMP record. This protects XMP data if the metadata in the image and in the XMP record are not synchronized (because the data was not written by IMatch or you do not allow IMatch to update the original image file).</desc>
 				<desc xml:lang="de">Wenn eine Datei neu eingelesen wird und für diese Datei bereits XMP-Daten in der Datenbank existieren, importiert IMatch nicht erneut die IPTC/EXIF/GPS-Daten aus der Bilddatei. Falls die XMP-Daten und die Metadaten im Bild nicht synchon sind (etwa, weil sie nicht von IMatch geschrieben wurden oder Sie IMatch nicht erlauben, die Originaldatei zu aktualisieren) schützt dies die XMP-Daten.</desc>
 				<desc xml:lang="nl">Als een bestand opnieuw gescand wordt en er zijn al XMP-gegevens in de database aanwezig, zal IMatch niet opnieuw de IPTC/EXIF/GPS gegevens uit het oorspronkelijke bestand importeren. Dit beschermt de XMP-gegevens in het geval de XMP-gegevens en de metagegevens in het bestand niet gesynchroniseerd zijn (bv. omdat de gegevens niet door IMatch zijn geschreven of u niet wilt dat de originele gegevens worden geactualiseerd).</desc>
+				<desc xml:lang="pt">Se um arquivo for recriado e os dados XMP já existirem na base de dados para esse arquivo, o IMatch não reimporta os dados IPTC/EXIF​​/GPS do arquivo original para o registo XMP. Desta forma, se os dados XMP e os metadados na imagem não forem sincronizados (porque os dados não foram escritos pelo IMatch ou não permitiu que o IMatch atualizasse o arquivo original) isso protegerá os dados XMP.</desc>
 				<group xml:lang="en">Protection</group>
 				<group xml:lang="no">Beskyttelse</group>
 				<group xml:lang="de">Schutz</group>
