@@ -7948,10 +7948,10 @@
 				<c xml:lang="it" hotkey="Ctrl+Shift+U" helptext="Rimuovi il collegamento manuale di versione">&amp;Rimuovi link di versione manuale</c>
 			</cmd>
 			<cmd resid="ID_CMD_VERSION_STACK_TOGGLE" desc="">
-				<c xml:lang="en" hotkey="T" helptext="Toggle the stack status of this version set">Toggle Version &amp;Stack</c>
+				<c xml:lang="en" hotkey="T" helptext="Toggle the stack status of this/these version set/sets">Toggle Version &amp;Stack</c>
 				<c xml:lang="de" hotkey="T" helptext="Den Stapelzustand dieses Versionssatzes umkehren.">Versions&amp;stapelzustand umschalten</c>
 				<c xml:lang="fi" hotkey="T" helptext="Muuta tämän versiojoukon pinotila">&amp;Muuta pinotila</c>
-				<c xml:lang="nl" hotkey="T" helptext="Stapel-status wisselen">&amp;Stapel-status wisselen</c>
+				<c xml:lang="nl" hotkey="T" helptext="Stapel-status van deze versieset (-s) wisselen">&amp;Stapel-status wisselen</c>
 				<c xml:lang="pt" hotkey="T" helptext="Activar/Desactivar estado de empilhamento deste conjunto de versões">Activar/Desactivar &amp;Pilha de Versões</c>
 				<c xml:lang="hr" hotkey="T" helptext="Preklopi stožno stanje ovog skupa verzija">Preklopi &amp;stog verzija</c>
 				<c xml:lang="no" hotkey="T" helptext="Veksle stabel status av dette versjon settet">Veksle versjon &amp;stabel</c>
