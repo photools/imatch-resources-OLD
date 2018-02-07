@@ -19270,12 +19270,18 @@
                 <c xml:lang="en" hotkey="" helptext="">&amp;Regular Expression</c>
                 <c xml:lang="de" hotkey="" helptext="">&amp;Regulärer Ausdruck</c>
                 <c xml:lang="nl" hotkey="" helptext="">&amp;Reguliere expressie</c>
-				<c xml:lang="pt" hotkey="" helptext="">Expressão &amp;Regular</c>
-				<c xml:lang="fi" hotkey="" helptext="">&amp;Säännölliset lausekkeet</c>
-				<c xml:lang="no" hotkey="" helptext="">&amp;Regulært uttrykk</c>
+				        <c xml:lang="pt" hotkey="" helptext="">Expressão &amp;Regular</c>
+				        <c xml:lang="fi" hotkey="" helptext="">&amp;Säännölliset lausekkeet</c>
+				        <c xml:lang="no" hotkey="" helptext="">&amp;Regulært uttrykk</c>
                 <c xml:lang="it" hotkey="" helptext="">Espressione &amp;Regolare</c>
             </ctrl>
 
+            <ctrl text="#l_check_regexp_case">
+                <c xml:lang="en" hotkey="" helptext="">Case-sens&amp;itive</c>
+                <c xml:lang="de" hotkey="" helptext="">Groß- und Kle&amp;inschreibung beachten</c>
+            </ctrl>
+          
+          
             <textdata>
                 <td tid="cap_remove">
                     <t xml:lang="en">Text to remove:</t>
