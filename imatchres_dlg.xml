@@ -19279,6 +19279,7 @@
             <ctrl text="#l_check_regexp_case">
                 <c xml:lang="en" hotkey="" helptext="">Case-sens&amp;itive</c>
                 <c xml:lang="de" hotkey="" helptext="">Groß- und Kle&amp;inschreibung beachten</c>
+				<c xml:lang="nl" hotkey="" helptext="">Hoofdlettergevoel&amp;ig</c>
             </ctrl>
           
           
