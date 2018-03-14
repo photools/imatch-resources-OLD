@@ -17976,7 +17976,7 @@
 				<desc xml:lang="no">Hvis denne innstillingen aktiveres, er siste brukte databasen lastet automatisk på neste programstart</desc>
 				<desc xml:lang="de">Wenn diese Option aktiviert ist, wird die zuletzt geladene Datenbank automatisch beim nächsten Programmstart geladen.</desc>
 				<desc xml:lang="fi">Kun tämä on valittu, viimeksi käytetty tietokanta latautuu automaattisesti, kun IMatch käynnistetään seuraavan kerran</desc>
-				<desc xml:lang="nl">Indien deze optie aan staat wordt de laatst gebruikte database automatisch geladen bij de volgende start van IMatch</desc>
+				<desc xml:lang="nl">Indien deze optie geactiveerd is, wordt de laatst gebruikte database automatisch geladen bij de volgende start van IMatch</desc>
 				<desc xml:lang="pt">Se esta configuração estiver activa, a última base de dados utilizada é carregada automaticamente no próximo arranque do programa</desc>
 				<desc xml:lang="hr">Kada je ova postavka uključena, posljednja korištena baza podataka će se automatski učitati kod slijedećeg pokretanja programa</desc>
 				<desc xml:lang="it">Se questa opzione è attiva, l'ultimo database utilizzato viene caricato automaticamente al prossimo avvio del programma</desc>
@@ -19391,7 +19391,7 @@
                 <desc xml:lang="no">Aktiver dette alternativet for å vise miniatyrbilder av avviste filer i en nedtonet mote.</desc>
                 <desc xml:lang="de">Aktivieren Sie diese Option, um die Thumbnails der zurückgewiesenen (abgelehnten) Dateien dunkel gedimmt darzustellen.</desc>
 				<desc xml:lang="fi">Käytä tätä asetusta, jos haluat että hylätyiksi merkityt tiedostot näytetään himmennettyinä.</desc>
-                <desc xml:lang="nl">Als deze optie geactiveerd is worden afgekeurde bestanden gedimd weergegeven.</desc>
+                <desc xml:lang="nl">Als deze optie geactiveerd is, worden afgekeurde bestanden gedimd weergegeven.</desc>
 				<desc xml:lang="pt">Active esta opção para visualizar as miniaturas dos ficheiros rejeitados de forma esbatida.</desc>
                 <desc xml:lang="hr">Prikaži sličice odbačenih datoteka kao izblijeđene.</desc>
                 
@@ -21571,7 +21571,7 @@
 				<desc xml:lang="no">Aktiver dette alternativet å bruke forhåndsvisningsbildene som er innebygd i de fleste RAW-formater. Dette går mye raskere enn å behandle RAW-filen.</desc>
 				<desc xml:lang="de">Aktivieren Sie diese Option, um die eingebetteten Vorschaubilder zu verwenden. Viele RAW-Dateiformate enthalten Vorschaubilder. Deren Verwendung ist sehr viel performanter als die Erzeugung des Vorschaubildes aus dem RAW-Bild.</desc>
 				<desc xml:lang="fi">Aktivoi tämä asetus käyttääksesi RAW-formaattien sisältämää esikatselukuvaa. Se on huomattavasti nopeampaa kuin käsitellä RAW-tiedostoa.</desc>
-				<desc xml:lang="nl">Als deze optie geactiveerd is worden de ingesloten voorbeeldafbeeldingen gebruikt die de meeste RAW-bestandsformaten gebruiken. Het ontwikkelen en tonen van de RAW-afbeeldingen is veel langzamer dan deze voorbeeldafbeeldingen.</desc>
+				<desc xml:lang="nl">Als deze optie geactiveerd is, worden de ingesloten voorbeeldafbeeldingen gebruikt die de meeste RAW-bestandsformaten gebruiken. Het ontwikkelen en tonen van de RAW-afbeeldingen is veel langzamer dan deze voorbeeldafbeeldingen.</desc>
 				<desc xml:lang="pt">Active esta opção para utilizar a pré-visualização de imagem incorporada na maioria dos formatos RAW. Isto é muito mais rápido do que processar o ficheiro RAW.</desc>
 				<desc xml:lang="hr">Koristi uložene sličice koje se nalaze u većini RAW formata. To je puno brže nego razvijanje RAW datoteke.</desc>
 				<group xml:lang="en"></group>
@@ -24970,7 +24970,7 @@
 				<desc xml:lang="no">Hvis denne innstillingen aktiveres, tar ikke kategorien hensyn til bilder tilordnet barnekategorier.</desc>
 				<desc xml:lang="de">Wenn diese Option aktiv ist, ignoriert die Kategorie Dateien in untergeordneten Kategorien.</desc>
 				<desc xml:lang="fi">Kun tämä valinta on käytössä, kategoria ei ota huomioon alakategorioihin sijoitettuja tiedostoja.</desc>
-				<desc xml:lang="nl">Indien deze optie geactiveerd is worden bestanden uit onderliggende categorieën niet meegenomen.</desc>
+				<desc xml:lang="nl">Indien deze optie geactiveerd is, worden bestanden uit onderliggende categorieën niet meegenomen.</desc>
 				<desc xml:lang="pt">Se esta configuração estiver activada, a categoria não considera as imagens atribuidas às suas categorias subordinadas.</desc>
 				<desc xml:lang="hr">Ako je ova postavka omogućena kategorija zanemaruje slike pridružene potkategorijama.</desc>
 				<group xml:lang="en"></group>
@@ -28124,7 +28124,7 @@
 			<property resid="filewnd.caption.backcolor.searching" desc="">
 				<name xml:lang="en">Background Color (Searching)</name>
 				<name xml:lang="de">Hintergrundfarbe (Suche aktiv)</name>
-				<name xml:lang="nl">Achtergrondkleur(zoeken)</name>
+				<name xml:lang="nl">Achtergrondkleur (zoeken)</name>
 				<name xml:lang="pt">Cor do 2º plano (Procura)</name>
 				<desc xml:lang="en">The background color used when the search bar is used.</desc>
 				<desc xml:lang="de">Die Hintergrundfarbe bei Verwendung der Suchleiste.</desc>
