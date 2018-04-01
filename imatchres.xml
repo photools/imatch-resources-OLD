@@ -5284,7 +5284,7 @@
                 <c xml:lang="en" hotkey="" helptext="Use the categories of the currently selected files to setup the filter.">Use categories of &amp;selected files</c>
                 <c xml:lang="de" hotkey="" helptext="Die Kategorien der aktuell ausgewählten Dateien in den Filter übernehmen.">Kategorien der au&amp;sgewählten Dateien verwenden</c>
 				<c xml:lang="fi" hotkey="" helptext="Käytä valittujen tiedostojen kategorioita suodattimen muodostamisessa.">K&amp;äytä valittujen tiedostojen kategorioita</c>
-                <c xml:lang="nl" hotkey="" helptext="De categorieën van de geselecteerde bestanden in de filter plaatsen.">Categorieën van ge&amp;selecteerde bestandn gebruiken</c>
+                <c xml:lang="nl" hotkey="" helptext="De categorieën van de geselecteerde bestanden in het filter plaatsen.">Categorieën van ge&amp;selecteerde bestanden gebruiken</c>
 				<c xml:lang="pt" hotkey="" helptext="Utilizar as categorias dos ficheiros actualmente seleccionados para configurar o filtro.">Utilizar categorias dos ficheiros &amp;seleccionados</c>
                 <c xml:lang="hr" hotkey="" helptext="Iskoristi kategorije trenutno odabranih datoteka za postavu filtra.">Kori&amp;sti kategorije odabranih datoteka</c>
 				<c xml:lang="no" hotkey="" helptext="Legg kategorier fra de valgte filene inn i filteret.">Bruk kategorier for &amp;valgte filer</c>
