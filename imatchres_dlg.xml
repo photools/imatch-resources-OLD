@@ -2073,7 +2073,7 @@
 			<ctrl text="#l_folderpath" style="bold">
 				<c xml:lang="en" helptext="">c:\data\images\travels\summer</c>
 				<c xml:lang="de" helptext="">c:\Daten\Bilder\Reisen\Sommer</c>
-				<c xml:lang="nl" helptext="">c:\data\fotos\reizen\Zomder</c>
+				<c xml:lang="nl" helptext="">c:\data\fotos\reizen\zomer</c>
 				<c xml:lang="pt" helptext="">c:\dados\imagens\viagens\verão</c>
 				<c xml:lang="no" helptext="">c:\data\bilder\reiser\sommer</c>
 				<c xml:lang="hr" helptext="">c:\podaci\slike\putovanja\ljeto</c>
