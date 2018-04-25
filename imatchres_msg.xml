@@ -8925,7 +8925,7 @@
                 </m>
                 <m xml:lang="nl">
                     <cap>Gehele database doorzoeken</cap>
-                    <cont><![CDATA[<TextBlock>Deze optie doorzoekt de hele database op mogelijke versies. Dit is een zeer <Underline>langzaam</Underline> proces hetgeen u alleen als <Bold>laatste mogelijkheid</Bold> moet uitvoeren.<LineBreak/><LineBreak/>Het is veel sneller specifieke folders op versies te doorzoeken.</TextBlock>]]></cont>
+                    <cont><![CDATA[<TextBlock>Deze optie doorzoekt de hele database op mogelijke versies. Dit is een <Underline>zeer langzaam</Underline> proces dat u alleen als <Bold>laatste mogelijkheid</Bold> moet uitvoeren.<LineBreak/><LineBreak/>Het is veel sneller specifieke folders op versies te doorzoeken.</TextBlock>]]></cont>
                 </m>
 				<m xml:lang="no">
                     <cap>Søke i hele databasen</cap>
