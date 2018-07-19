@@ -22,7 +22,10 @@
 	<!-- Name of the output FILES file (written to basepath) -->
 	<includefilename>imatch_rm.inc</includefilename>
 
-	<!--	The name of the document template (relative to basepath).
+    <!-- Name of the JSON file used by the help app and web site (written to basepath) -->
+    <jsonfilename>V:\develop\IMatch5\help2018\web\content\imatch_help_context_map.json</jsonfilename>
+
+    <!--	The name of the document template (relative to basepath).
 			When new HTML documents are created, and a document template is specified,
 			PTRM copies the template to the name of the new HTML file instead of just creating an empty HTML file -->
 	<doctemplate>
@@ -206,7 +209,6 @@
         <alias resid="CONTEXTID_STARTUP_RELEASE_NOTES">
             <a xml:lang="en-us">release_notes.htm</a>
         </alias>
-		
         <alias resid="CONTEXTID_PANELS_DBINFO">
             <a xml:lang="en-us">panel_info.htm</a>
         </alias>
@@ -266,9 +268,6 @@
         </alias>
         <alias resid="CONTEXTID_PANELS_DBCLIENT_TIMELINE_FILTER_ACTIVE">
             <a xml:lang="en-us">tl_basics.htm</a>
-        </alias>
-        <alias resid="CONTEXTID_PANELS_DBINFO">
-            <a xml:lang="en-us">panel_info.htm</a>
         </alias>
         <alias resid="CONTEXTID_PANELS_DEBUG">
             <a xml:lang="en-us">welcome.htm</a>
@@ -504,9 +503,6 @@
             <a xml:lang="en-us">rmh_app_settings.htm</a>
         </alias>
         <alias resid="ID_MD_EXIFTOOL_CMDPROCESSOR">
-            <a xml:lang="en-us">et_command_processor.htm</a>
-        </alias>
-        <alias resid="PTR_MSG_APP_TRIAL_EXPIRED">
             <a xml:lang="en-us">et_command_processor.htm</a>
         </alias>
         <alias resid="ID_MD_WRITEBACK_SEL">
@@ -3354,19 +3350,19 @@
             <a xml:lang="en-us">md_templates.htm</a>
         </alias>
         <alias resid="PTRMDLG_APPPREFS_RELATIONS_BASE">
-            <a xml:lang="en-us">rmh_config_relations.htm</a>
+            <a xml:lang="en-us">rel_config.htm</a>
         </alias>
         <alias resid="PTRMDLG_APPPREFS_RELATIONS_BASE_NEW">
-            <a xml:lang="en-us">rmh_config_relations.htm</a>
+            <a xml:lang="en-us">rel_config.htm</a>
         </alias>
         <alias resid="PTRMDLG_APPPREFS_RELATIONS_DETECT_TESTER">
-            <a xml:lang="en-us">rmh_config_relations.htm</a>
+            <a xml:lang="en-us">rel_config.htm</a>
         </alias>
         <alias resid="PTRMDLG_APPPREFS_RELATIONS_VERSIONS_DETECTION">
-            <a xml:lang="en-us">rmh_config_relations.htm</a>
+            <a xml:lang="en-us">rel_config.htm</a>
         </alias>
         <alias resid="PTRMDLG_APPPREFS_RELATIONS_VERSIONS_OPTIONS">
-            <a xml:lang="en-us">rmh_config_relations.htm</a>
+            <a xml:lang="en-us">rel_config.htm</a>
         </alias>
         <alias resid="PTRMDLG_APPPREFS_SLIDESHOW">
             <a xml:lang="en-us">rmh_config_slideshow.htm</a>
@@ -3406,9 +3402,6 @@
         </alias>
         <alias resid="PTRMDLG_DBCLIENT_TIMELINE_CTRL_FILTER">
             <a xml:lang="en-us">tl_basics.htm</a>
-        </alias>
-        <alias resid="PTRMDLG_DB_DIAG">
-            <a xml:lang="en-us">rmh_dlg_dbdiag.htm</a>
         </alias>
         <alias resid="PTRMDLG_FILEOP_RENAME_FILE">
             <a xml:lang="en-us">file_management.htm</a>
@@ -3657,14 +3650,8 @@
         <alias resid="PTRMDLG_MRU_EDIT">
             <a xml:lang="en-us">md_basics.htm</a>
         </alias>
-        <alias resid="PTRMDLG_NEWDB">
-            <a xml:lang="en-us">rmh_database_new.htm</a>
-        </alias>
         <alias resid="PTRMDLG_PASTE_ATTRIBUTES">
             <a xml:lang="en-us">paste_attributes.htm</a>
-        </alias>
-        <alias resid="PTRMDLG_PROPERTY_EDITOR">
-            <a xml:lang="en-us">welcome.htm</a>
         </alias>
         <alias resid="PTRMDLG_PTMCI_FORM">
             <a xml:lang="en-us">welcome.htm</a>
@@ -3691,9 +3678,6 @@
             <a xml:lang="en-us">ren_basics.htm</a>
         </alias>
         <alias resid="PTRMDLG_RESMGR_HISTORY">
-            <a xml:lang="en-us">welcome.htm</a>
-        </alias>
-        <alias resid="PTRMDLG_SCANFOLDER">
             <a xml:lang="en-us">welcome.htm</a>
         </alias>
         <alias resid="PTRMDLG_SEARCH_VISUALQUERY">
@@ -4426,10 +4410,10 @@
             <a xml:lang="en-us">panel_filter.htm</a>
         </alias>
         <alias resid="PTR_MSG_APPPREFS_RELDEF_CHANGED">
-            <a xml:lang="en-us">rmh_config_relations.htm</a>
+            <a xml:lang="en-us">rel_config.htm</a>
         </alias>
         <alias resid="PTR_MSG_APPPREFS_RELDEF_GLOBALSEARCH">
-            <a xml:lang="en-us">rmh_config_relations.htm</a>
+            <a xml:lang="en-us">rel_config.htm</a>
         </alias>
         <alias resid="PTR_MSG_APP_RESTART">
             <a xml:lang="en-us">welcome.htm</a>
