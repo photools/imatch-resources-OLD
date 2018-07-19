@@ -1439,51 +1439,58 @@
                 <m xml:lang="en">
                     <cap>Update Check</cap>
                     <cont><![CDATA[<TextBlock TextWrapping='Wrap'>A newer version of IMatch is available.<LineBreak/><LineBreak/>The current version is <Bold>{0}</Bold>, released on <Bold>{1}</Bold>.<LineBreak/><LineBreak/>{2}</TextBlock>]]></cont>
+                    <button btnid="1004">Download and install now...</button>
                     <button btnid="1001">Open Customer Portal Website\nHere you can manage and download your licensed products.</button>
                     <button btnid="1002">View Release Notes\nLearn about the changes and added features in the new IMatch version.</button>
-                    <button btnid="1003">Download later</button>
+                    <button btnid="1003">Download later.</button>
                 </m>
                 <m xml:lang="de">
                     <cap>Update-Prüfung</cap>
                     <cont><![CDATA[<TextBlock TextWrapping='Wrap'>Eine neuere Version von IMatch ist verfügbar.<LineBreak/><LineBreak/>Die aktuelle Version ist <Bold>{0}</Bold>, vom <Bold>{1}</Bold>.<LineBreak/><LineBreak/>{2}</TextBlock>]]></cont>
+                    <button btnid="1004">Jetzt herunterladen und installieren...</button>
                     <button btnid="1001">Kundenportal-Webseite öffnen\nHier können Sie Ihre lizensierten Produkte verwalten und hernterladen.</button>
                     <button btnid="1002">Versionshinweise ansehen\nErfahren Sie mehr über die Änderungen und Erweiterungen der neuen IMatch-Version.</button>
-                    <button btnid="1003">Später herunterladen</button>
+                    <button btnid="1003">Später herunterladen.</button>
                 </m>
 				<m xml:lang="fi">
                     <cap>Päivitystarkastus</cap>
                     <cont><![CDATA[<TextBlock TextWrapping='Wrap'>Uusi IMatch versio on saatavissa.<LineBreak/><LineBreak/>Nykyinen versio on <Bold>{0}</Bold>, julkaistu <Bold>{1}</Bold>.<LineBreak/><LineBreak/>{2}</TextBlock>]]></cont>
+                    <button btnid="1004">Download and install now...</button>
                     <button btnid="1001">Avaa lataussivusto...</button>
                     <button btnid="1002">Katso julkaisutiedot...</button>
-                    <button btnid="1003">Lataa myöhemmin</button>
+                    <button btnid="1003">Lataa myöhemmin.</button>
                 </m>
                 <m xml:lang="nl">
                     <cap>Update Check</cap>
                     <cont><![CDATA[<TextBlock TextWrapping='Wrap'>Een nieuwere versie van IMatch is beschikbaar.<LineBreak/><LineBreak/>De huidige versie is <Bold>{0}</Bold>, van <Bold>{1}</Bold>.<LineBreak/><LineBreak/>{2}</TextBlock>]]></cont>
+                    <button btnid="1004">Download and install now...</button>
                     <button btnid="1001">Open de download Website...</button>
                     <button btnid="1002">Bekijk de website met versie-notities...</button>
-                    <button btnid="1003">Download later</button>
+                    <button btnid="1003">Download later.</button>
                 </m>
                 <m xml:lang="hr">
                     <cap>Provjera nove verzije</cap>
                     <cont><![CDATA[<TextBlock TextWrapping='Wrap'>Novija verzija IMatch je dostupna.<LineBreak/><LineBreak/>Instalirana verzija je <Bold>{0}</Bold>, izdana <Bold>{1}</Bold>.<LineBreak/><LineBreak/>{2}</TextBlock>]]></cont>
+                    <button btnid="1004">Download and install now...</button>
                     <button btnid="1001">Otvori web stranicu...</button>
                     <button btnid="1002">Pogledaj bilješke o objavi...</button>
-                    <button btnid="1003">Preuzmi kasnije</button>
+                    <button btnid="1003">Preuzmi kasnije.</button>
                 </m>
                 <m xml:lang="it">
                     <cap>Verifica aggiornamenti</cap>
                     <cont><![CDATA[<TextBlock TextWrapping='Wrap'>È disponibile una nuova versione di IMatch.<LineBreak/><LineBreak/>La versione corrente è <Bold>{0}</Bold>, rilasciata il <Bold>{1}</Bold>.<LineBreak/><LineBreak/>{2}</TextBlock>]]></cont>
+                    <button btnid="1004">Download and install now...</button>
                     <button btnid="1001">Apri il sito Web di Download...</button>
                     <button btnid="1002">Vedi le Note di Rilascio...</button>
-                    <button btnid="1003">Scarica più tardi</button>
+                    <button btnid="1003">Scarica più tardi.</button>
                 </m>
 				<m xml:lang="pt">
                     <cap>Verifica actualizações</cap>
                     <cont><![CDATA[<TextBlock TextWrapping='Wrap'>È disponibile una nuova versione di IMatch.<LineBreak/><LineBreak/>La versione corrente è <Bold>{0}</Bold>, rilasciata il <Bold>{1}</Bold>.<LineBreak/><LineBreak/>{2}</TextBlock>]]></cont>
+                    <button btnid="1004">Download and install now...</button>
                     <button btnid="1001">Abre o sítio da Web para download...</button>
                     <button btnid="1002">Vê as notas de lançamento...</button>
-                    <button btnid="1003">Descarrega mais tarde</button>
+                    <button btnid="1003">Descarrega mais tarde.</button>
                 </m>
             </msg>
 
@@ -1525,7 +1532,21 @@
 				</m>
 			</msg>
 
-			<!-- Shown when certain operations cannot be peformed because IMatch waiting for a background operation -->
+
+            <msg resid="PTR_MSG_APP_RUN_ON_EXIT" typeid="[[IDI_QUESTION]]" desc="">
+                <m xml:lang="en">
+                    <cap>Permission to run</cap>
+                    <cont>An App has requested IMatch to run the following script/application on exit:\r\n\r\n{0}\r\n\r\nDo you allow IMatch to do this?</cont>
+                    <ftr typeid="[[TD_INFORMATION_ICON]]">If this operation was triggerd by something you did, this is most likely OK. If this is unexpected, you should not allow it for security reasons.</ftr>
+                </m>
+                <m xml:lang="de">
+                    <cap>Genehmigung zur Ausführung</cap>
+                    <cont>Eine App hat IMatch aufgefordert, beim Beenden dieses Skript bzw. Anwendung auszuführen:\r\n\r\n{0}\r\n\r\nErlauben Sie IMatch, dies zu tun?.</cont>
+                    <ftr typeid="[[TD_INFORMATION_ICON]]">Wenn dieser Vorgang nicht von Ihnen ausgelöst wurde, sollten Sie die Ausführung nicht erlauben.</ftr>
+                </m>
+            </msg>
+
+            <!-- Shown when certain operations cannot be peformed because IMatch waiting for a background operation -->
             <msg resid="PTR_MSG_APP_BUSY_BACKGROUNDTASK" typeid="[[TD_INFORMATION_ICON]]" desc="">
                 <m xml:lang="en">
                     <cap>IMatch is busy</cap>
@@ -2030,7 +2051,55 @@
 			</msg>
 
 
-		</message_group>
+            <msg resid="PTR_MSG_HELPAPP_OUTDATED" typeid="[[TD_INFORMATION_ICON]]">
+                <m xml:lang="en">
+                    <cap>IMatch Help Outdated</cap>
+                    <cont>The version of the IMatch Help System installed on your computer is outdated.</cont>
+                    <button btnid="1001">Use it anyway</button>
+                    <button btnid="1002">Download the current version</button>
+                </m>
+                <m xml:lang="de">
+                    <cap>Das IMatch-Hilfesystem ist veraltet</cap>
+                    <cont>Die installierte Version des IMach-Hilfesystems ist veraltet.</cont>
+                    <button btnid="1001">Trotzdem verrwenden</button>
+                    <button btnid="1002">Die aktuelle Version herunterladen</button>
+                </m>
+            </msg>
+
+            <msg resid="PTR_MSG_HELPAPP_MISSING" typeid="[[TD_INFORMATION_ICON]]">
+                <m xml:lang="en">
+                    <cap>IMatch Help System not installed</cap>
+                    <cont>You have configured IMatch to use the installed help system instead of the online version. The IMatch help has not been installed yet or cannot be found.</cont>
+                    <button btnid="1001">Switch to the online help version</button>
+                    <button btnid="1002">Download the IMatch Help System App</button>
+                </m>
+                <m xml:lang="de">
+                    <cap>Das IMatch-Hilfesystem ist nicht installiert</cap>
+                    <cont>Sie haben die Verwendung des installierten Hilfesystems aktiviert, aber es ist noch nicht installiert oder kann nicht gefunden werden.</cont>
+                    <button btnid="1001">Online-Version des Hilfesystems aktivieren</button>
+                    <button btnid="1002">Die IMatch-Hilfesystem App herunterladen</button>
+                </m>
+            </msg>
+
+            <msg resid="PTR_MSG_HELP_CHOICE" typeid="[[TD_INFORMATION_ICON]]">
+                <m xml:lang="en">
+                    <cap>The IMatch Help System</cap>
+                    <cont>IMatch by default uses the web-based help system at www.photools.com. This ensures that you always have access to the most up-to-date version of the help and that you can easily translate help contents into your language using the built-in translation features in your web browser.\r\n\r\nIf you prefer a locally installed help or your computer is not always connected to the Internet, you can download a self-contained version of the help system for installation.</cont>
+                    <ftr>You can change this setting any time under Edit &gt; Preferences &gt; Application.</ftr>
+                    <button btnid="1001">Use the web help (Default)</button>
+                    <button btnid="1002">Download the current version of the help app</button>
+                </m>
+                <m xml:lang="de">
+                    <cap>Das IMatch-Hilfesystem</cap>
+                    <cont>IMatch verwendet standardmäßig die webbasierte Hilfe auf www.photools.com. Dies stellt sicher, dass Sie immer die aktuellste Version des Hilfesystems verwenden und das Sie die Hilfe mit den eingebauten Übersetzungsfunktionen Ihres Webbrowsers in Ihre Sprache übersetzen können.\r\n\r\nFalls Sie eine lokal installierte Hilfe bevorzugen oder Ihr PC nicht ständig mit dem Internet verbunden ist, können sie eine eigenständige Version des Hilfesystems zur Installation herunterladen.</cont>
+                    <ftr>Sie können diese Einstellung jederzeit unter Bearbeiten &gt; Einstellungen &gt; Anwendung ändern.</ftr>
+                    <button btnid="1001">Webbasierte Hilfe verwenden (Standard)</button>
+                    <button btnid="1002">Die aktuelle Version der Hilfe-App herunterladen</button>
+                </m>
+            </msg>
+
+
+        </message_group>
         
         <!-- General Messages -->
 		<message_group name="General Messages" desc="Messages like validation messages etc.">
@@ -4155,6 +4224,17 @@
 					<cont><![CDATA[<TextBlock>Este comando <Underline>acrescenta</Underline> as categorias pertencentes ao ficheiro clicado a todos os ficheiros correntemente seleccionados.<LineBreak/>Pressionar a tecla &lt;Shift&gt; para <Underline>substituir</Underline> as categorias de todos os ficheiros seleccionados com as categorias do ficheiro clicado.</TextBlock>]]></cont>
 				</m>
 			</msg>
+
+            <msg resid="PTR_MSG_CATEGORY_HIDEACTIVE" typeid="[[IDI_INFORMATION]]">
+                <m xml:lang="en">
+                    <cap>Empty categories are hidden by filter</cap>
+                    <cont>To see the new category, disable the 'hide empty categries' filter.</cont>
+                </m>
+                <m xml:lang="de">
+                    <cap>Leere Kategorien sind durch Filter verborgen</cap>
+                    <cont>Um die neu angelegte Kategorie zu sehen, deaktivieren Sie bitte den "Leere Kategorien verbergen" filter.</cont>
+                </m>
+           </msg>
 
 		</message_group>
 		
@@ -7768,7 +7848,7 @@
 				</m>
 				<m xml:lang="de">
 					<cap>Google Reverse Geocoding</cap>
-					<cont>Um die von Google bereitgestellte Funktionalität nutzen zu können, müssen Sie einen gültigen Google Maps API Schlüssel in Edit &gt; Preferences &gt; Geo &amp; Karten eintragen. Der Schlüssel muss für die Dienste Maps, Reverse Geocoding und Elevation aktiviert sein.\r\n\r\nSiehe die IMatch Hilfe für mehr Informationen.</cont>
+					<cont>Um die von Google bereitgestellte Funktionalität nutzen zu können, müssen Sie einen gültigen Google Maps API Schlüssel in Bearbeiten &gt; Einstellungen &gt; Geo &amp; Karten eintragen. Der Schlüssel muss für die Dienste Maps, Reverse Geocoding und Elevation aktiviert sein.\r\n\r\nSiehe die IMatch Hilfe für mehr Informationen.</cont>
 				</m>
 				<m xml:lang="nl">
 					<cap>Google omgekeerde geocodering</cap>
@@ -7780,7 +7860,18 @@
 				</m>
 			</msg>
 
-		</message_group>
+            <msg resid="PTR_MSG_GEO_GEONAMES_API_KEY" typeid="[[IDI_INFORMATION]]">
+                <m xml:lang="en">
+                    <cap>GeoNames.org Reverse Geocoding</cap>
+                    <cont>To use the reverse geocoding provided by GeoNames.org you have to enter a valid GeoNames.org username in Edit &gt; Preferences &gt; Geo &amp; Maps.\r\n\r\nSee the IMatch help (&lt;F1&gt; key) for details.</cont>
+                </m>
+                <m xml:lang="de">
+                    <cap>GeoNames.org Reverse Geocoding</cap>
+                    <cont>Um die von GeoNames.org bereitgestellte Funktionalität nutzen zu können, müssen Sie einen gültigen GeoNames.org Benutzernamen in Bearbeiten &gt; Einstellungen &gt; Geo &amp; Karten eintragen.\r\n\r\nSiehe die IMatch Hilfe (&lt;F1&gt;-Taste) für mehr Informationen.</cont>
+                </m>
+            </msg>
+
+        </message_group>
         
         <!-- Viewer -->
 
@@ -10668,7 +10759,22 @@
 					<cont>Esta aplicação pediu para não ser fechada pelo utilizador.\r\nForçando o fecho da aplicação pode causar problemas ou mesmo perda de dados.\r\n\r\nPretende mesmo assim fechar a Aplicação?</cont>
 				</m>
 			</msg>
-		</message_group>
+
+            <msg resid="PTR_MSG_APPMGR_SERVICEAPP_PROMPT" typeid="[[IDI_EXCLAMATION]]" enablemarkup="true">
+                <m xml:lang="en">
+                    <cap>New or Updated Service App</cap>
+                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>App <Bold>{0}</Bold><LineBreak/>loaded from '{1}'.<LineBreak/><LineBreak/>This app wants to run in the background. It has been started for the first time or it has been modifed since the last run.<LineBreak/><LineBreak/>Do you allow this app to run?</TextBlock>]]></cont>
+                    <ftr typeid="[[TD_WARNING_ICON]]">Only run apps from trustworthy sources.</ftr>
+                </m>
+                <m xml:lang="de">
+                    <cap>Neue oder modifizierte Dienst-App</cap>
+                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>App <Bold>{0}</Bold><LineBreak/>geladen von "{1}".<LineBreak/><LineBreak/>Diese App möchte im Hintergrund ausgeführt werden.<LineBreak/>Sie wurde noch nie gestartet oder wurde seit der letzten Ausführung verändert.<LineBreak/><LineBreak/>Erlauben Sie die Ausführung dieser App?</TextBlock>]]></cont>
+                    <ftr typeid="[[TD_WARNING_ICON]]">Führen Sie nur Apps aus, die aus vertrauenswürdigen Quellen stammen.</ftr>
+                </m>
+            </msg>
+
+
+        </message_group>
 
 
 	</message_table>

@@ -3388,8 +3388,8 @@
 			<caption xml:lang="no">Felt-velger</caption>
 			<caption xml:lang="it">Scelta Tag</caption>
 			<ctrl text="#l_tagmask">
-				<c xml:lang="en" helptext="">&amp;Tag:</c>
-				<c xml:lang="de" helptext="">&amp;Tag:</c>
+				<c xml:lang="en" helptext="">&amp;Tag name contains:</c>
+				<c xml:lang="de" helptext="">&amp;Tag-Name enthält:</c>
 				<c xml:lang="fi" helptext="">&amp;Kenttä:</c>
 				<c xml:lang="nl" helptext="">&amp;Tag:</c>
 				<c xml:lang="pt" helptext="">&amp;Etiqueta:</c>
@@ -3397,8 +3397,8 @@
 				<c xml:lang="it" helptext="">&amp;Tag:</c>
 			</ctrl>
 			<ctrl text="#l_groupmask">
-				<c xml:lang="en" helptext="">&amp;Group:</c>
-				<c xml:lang="de" helptext="">&amp;Gruppen:</c>
+				<c xml:lang="en" helptext="">&amp;Group name contains:</c>
+				<c xml:lang="de" helptext="">&amp;Gruppenname enthält:</c>
 				<c xml:lang="fi" helptext="">&amp;Ryhmä:</c>
 				<c xml:lang="nl" helptext="">&amp;Groep:</c>
 				<c xml:lang="pt" helptext="">&amp;Grupo:</c>
@@ -5251,6 +5251,16 @@
 					<t xml:lang="no">{country}, {state}; {zip} {city}; {location} {dist}</t>
                     <t xml:lang="it">{country}, {state}; {zip} {city}; {location} {dist}</t>
                 </td>
+                       
+                <td tid="caption_created">
+					<t xml:lang="en">Select Created Address</t>
+					<t xml:lang="de">Ursprungsadresse auswählen</t>
+				</td>
+				<td tid="caption_dest">
+					<t xml:lang="en">Select 'Shown' Address</t>
+					<t xml:lang="de">Zieladresse auswählen</t>
+				</td>
+        
             </textdata>
 
         </dialog>
@@ -5280,7 +5290,7 @@
 				<c xml:lang="pt" helptext="">Coordenadas:</c>
 				<c xml:lang="no" helptext="">Koordinater:</c>
 				<c xml:lang="it" helptext="">Coordinate:</c>
-			</ctrl>
+            </ctrl>
 
 			<ctrl text="#l_lat">
 				<c xml:lang="en" helptext="">Lat:</c>
@@ -5310,7 +5320,16 @@
 				<c xml:lang="it" helptext="">Altitudine:</c>
 			</ctrl>
 
-			<ctrl text="#l_country">
+            <ctrl text="#l_created">
+                <c xml:lang="en" helptext="">Created Coordinate</c>
+                <c xml:lang="de" helptext="">Ursprungskoordinate</c>
+            </ctrl>
+            <ctrl text="#l_dest">
+                <c xml:lang="en" helptext="">'Shown' Coordinate</c>
+                <c xml:lang="de" helptext="">Zielkoordinate</c>
+            </ctrl>
+
+            <ctrl text="#l_country">
 				<c xml:lang="en" helptext="">Country</c>
 				<c xml:lang="de" helptext="">Land</c>
 				<c xml:lang="fi" helptext="">Maa</c>
@@ -5370,6 +5389,15 @@
 				<c xml:lang="it" helptext="">&amp;Ricerca</c>
 			</ctrl>
 
+			<ctrl text="#l_lookup_created">
+				<c xml:lang="en" helptext="">&amp;Lookup 'Created'</c>
+				<c xml:lang="de" helptext="">Ursprungsadresse &amp;laden</c>
+			</ctrl>
+			<ctrl text="#l_lookup_dest">
+				<c xml:lang="en" helptext="">&amp;Lookup 'Shown'</c>
+				<c xml:lang="de" helptext="">Zieladresse &amp;laden</c>
+			</ctrl>
+            
 			<ctrl text="#l_lookupall">
 				<c xml:lang="en" helptext="">Lookup &amp;all</c>
 				<c xml:lang="de" helptext="">&amp;Alle Laden</c>
@@ -5405,8 +5433,8 @@
 			</ctrl>
 
 			<ctrl text="#l_nearby">
-				<c xml:lang="en" helptext="If you enable this, IMatch checks for files within the given distance and applies the changes to these files as well.">Apply changes to files within a radius of</c>
-				<c xml:lang="de" helptext="Wenn diese Option aktiviert ist, überträgt IMatch Änderungen auch auf die Dateien innerhalb des ausgewählten Radius.">Änderungen anwenden auf Dateien in einem Radius von</c>
+				<c xml:lang="en" helptext="If you enable this, IMatch checks for files within the given distance and applies the changes to these files as well.">Apply changes to selected files within a radius of</c>
+				<c xml:lang="de" helptext="Wenn diese Option aktiviert ist, überträgt IMatch Änderungen auch auf die Dateien innerhalb des ausgewählten Radius.">Änderungen anwenden auf ausgewählte Dateien in einem Radius von</c>
 				<c xml:lang="nl" helptext="Als deze optie is geactiveerd, zal IMatch de wijzigingen ook aanbrengen voor bestanden die zich binnen de aangegeven afstand bevinden.">Pas wijzigingen ook toe op bestanden binnen een afstand van</c>
 				<c xml:lang="pt" helptext="Se activar esta opção, o IMatch procura por ficheiros dentro da distância dada e aplica essa mudanças aos mesmos.">Aplicar mudanças aos ficheiros entre um raio de</c>
 				<c xml:lang="it" helptext="Se si attiva, IMatch controlla i file entro una determinata distanza e applica le modifiche a anche a questi file.">Applicare modifiche ai file in un raggio di</c>
@@ -5437,6 +5465,7 @@
 					<t xml:lang="it">Interrogando il servizio web per dati di localizzazione...</t>
 					<t xml:lang="pt">Pesquisando o serviço da web para dados de localização...</t>
 				</td>
+           
 			</textdata>
 		</dialog>		
 
@@ -6142,8 +6171,8 @@
 		</dialog>
 
 		<dialog resid="PTRMDLG_FILTERPANEL_DIMS" desc="File Dimensions Form in Filter Panel">
-			<caption xml:lang="en">Orientation &amp; Dimensions</caption>
-			<caption xml:lang="de">Ausrichtung &amp; Abmessungen</caption>
+			<caption xml:lang="en">Orientation and Dimensions</caption>
+			<caption xml:lang="de">Ausrichtung und Abmessungen</caption>
 			<caption xml:lang="nl">Oriëntatie &amp; dimensies</caption>
 			<caption xml:lang="pt">Orientação &amp; Dimensões</caption>
 			<caption xml:lang="no">Orientering &amp; dimensjoner</caption>
@@ -6981,6 +7010,11 @@
 				<c xml:lang="it" helptext="Solo i file che sono parte dei risultati che sono contenuti in tutte le collezioni incluse.">Combina i file inclusi con AND</c>
 			</ctrl>
 
+            <ctrl text="#l_scope">
+                <c xml:lang="en" helptext="Show only categories to which at least one of the files in the current scope is assigned.">Show only categories in &amp;scope</c>
+                <c xml:lang="de" helptext="Zeige nur Kategorien, die mindestens eine der Dateien im aktuellen Scope enthalten.">Nur kategorien im &amp;scope anzeigen</c>
+            </ctrl>
+
             <ctrlhelp text="#l_btn_filter_reset">
 				<c xml:lang="en">Reset filter</c>
 				<c xml:lang="de">Filter zurücksetzen</c>
@@ -7381,7 +7415,7 @@
 			<ctrl text="#l_check_use_colors">
 				<c xml:lang="en" helptext="Display the name in the tab using the category text color.">Use category text color for tabs</c>
 				<c xml:lang="de" helptext="Den Reiter-Namen in der Kategorie-Textfarbe anzeigen">Kategorie-Textfarbe für die Reiter verwenden</c>
-				<c xml:lang="nl" helptext="Toon de naam van de tab in de kleur van de categorie.">Use category text color for tabs</c>
+				<c xml:lang="nl" helptext="Toon de naam van de tab in de kleur van de categorie.">Gebruik de categoriekleur voor de tabs</c>
 				<c xml:lang="pt" helptext="Exibe o nome na guia usando a cor do texto da categoria.">Utilize a cor do texto da categoria para as guias.</c>
 			</ctrl>
 
@@ -7926,6 +7960,10 @@
                 <c xml:lang="it" helptext="Visualizza solo i file che fanno parte di una pila (elemento o copertina)">Visualizza i file che sono &amp; parte di uno stack</c>
             </ctrl>
 
+            <ctrl text="#l_transforms">
+                <c xml:lang="en" helptext="Show only files which have a virtual rotation">Show files with &amp;virtual rotations</c>
+                <c xml:lang="de" helptext="Zeige nur Dateien, die virtuell gedreht wurden">Zeige nur Dateien, die &amp;virtuell gedreht wurden</c>
+            </ctrl>
 
 			<ctrl text="#l_hide_rejects">
                 <c xml:lang="en" helptext="Hide files with the 'Reject' rating">Hide re&amp;jected files</c>
@@ -10406,7 +10444,7 @@
 				<c xml:lang="en" helptext="Resets all properties shown here back to their default values.">&amp;Defaults</c>
 				<c xml:lang="de" helptext="Setzt alle hier angezeigten Eigenschaften auf ihre Standardwerte zurück.">&amp;Standardwerte</c>
 				<c xml:lang="fi" helptext="Palauta kaikki tässä näkyvät ominaisuudet oletusarvoihin.">&amp;Oletusarvot</c>
-				<c xml:lang="nl" helptext="Alle eigenschappen op standaardwaarden instellen">&amp;Standaard</c>
+				<c xml:lang="nl" helptext="Alle eigenschappen op standaardwaarden instellen">&amp;Standaardwaarden</c>
 				<c xml:lang="pt" helptext="Repõe os valores pré-definidos para todas as propriedades aqui apresentadas">&amp;Pré-Definições</c>
 				<c xml:lang="no" helptext="Resetter alle viste egenskaper tilbake til standardverdier">&amp;Standardverdier</c>
 				<c xml:lang="it" helptext="Reimposta tutte le proprietà qui illustrate ai valori predefiniti">&amp;Defaults</c>
@@ -19270,12 +19308,18 @@
                 <c xml:lang="en" hotkey="" helptext="">&amp;Regular Expression</c>
                 <c xml:lang="de" hotkey="" helptext="">&amp;Regulärer Ausdruck</c>
                 <c xml:lang="nl" hotkey="" helptext="">&amp;Reguliere expressie</c>
-				<c xml:lang="pt" hotkey="" helptext="">Expressão &amp;Regular</c>
-				<c xml:lang="fi" hotkey="" helptext="">&amp;Säännölliset lausekkeet</c>
-				<c xml:lang="no" hotkey="" helptext="">&amp;Regulært uttrykk</c>
+				        <c xml:lang="pt" hotkey="" helptext="">Expressão &amp;Regular</c>
+				        <c xml:lang="fi" hotkey="" helptext="">&amp;Säännölliset lausekkeet</c>
+				        <c xml:lang="no" hotkey="" helptext="">&amp;Regulært uttrykk</c>
                 <c xml:lang="it" hotkey="" helptext="">Espressione &amp;Regolare</c>
             </ctrl>
 
+            <ctrl text="#l_check_regexp_case">
+                <c xml:lang="en" hotkey="" helptext="">Case-sens&amp;itive</c>
+                <c xml:lang="de" hotkey="" helptext="">Groß- und Kle&amp;inschreibung beachten</c>
+            </ctrl>
+          
+          
             <textdata>
                 <td tid="cap_remove">
                     <t xml:lang="en">Text to remove:</t>
