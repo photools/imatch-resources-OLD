@@ -898,7 +898,7 @@
                 <c xml:lang="de" hotkey="" helptext="Anwendungseinstellungen bearbeiten">Einstellu&amp;ngen...</c>
                 <c xml:lang="fi" hotkey="" helptext="Määritä ohjelman asetukset">&amp;Asetukset...</c>
                 <c xml:lang="fr" hotkey="" helptext="Configurer les préférences">Préfére&amp;nces...</c>
-                <c xml:lang="nl" hotkey="" helptext="Voorkeuren instellen">Voorkeure&Amp;n...</c>
+                <c xml:lang="nl" hotkey="" helptext="Voorkeuren instellen">Voorkeure&amp;n...</c>
                 <c xml:lang="pt" hotkey="" helptext="Configurar as preferências">Preferê&amp;ncias...</c>
                 <c xml:lang="hr" hotkey="" helptext="Konfiguriraj postavke applikacije">&amp;Postavke...</c>
                 <c xml:lang="no" hotkey="" helptext="Konfigurer programinnstillinger">&amp;Innstillinger...</c>
@@ -1487,7 +1487,7 @@
             <cmd resid="ID_DB_BATCH_PROCESSOR_RUN">
                 <c xml:lang="en" hotkey="" helptext="Run Batch Processor">&amp;Run Batch Processor...</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitung starten">Stapelve&amp;rarbeitung ausführen...</c>
-                <c xml:lang="nl" hotkey="" helptext="Batch Processor uitvoeren">Batch P&Amp;rocessor uitvoeren...</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor uitvoeren">Batch P&amp;rocessor uitvoeren...</c>
             </cmd>
 
             <!-- Placeholders -->
@@ -13237,7 +13237,7 @@
                 <c xml:lang="en" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Fit to Panel">&amp;Fit to Panel</c>
                 <c xml:lang="de" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Auf Panelgröße zoomen.">Auf &amp;Panelgröße zoomen</c>
                 <c xml:lang="fi" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Sovita paneelin kokoon.">&amp;Sovita paneeliin</c>
-                <c xml:lang="nl" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Tot de grootte van het venster zoomen">&Amp;Passend maken aan venster</c>
+                <c xml:lang="nl" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Tot de grootte van het venster zoomen">&amp;Passend maken aan venster</c>
                 <c xml:lang="pt" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Ajustar ao painel">Ajustar ao &amp;Painel</c>
                 <c xml:lang="hr" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Prilagodi ploči">P&amp;rilagodi ploči</c>
                 <c xml:lang="no" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Tilpass til Panel">&amp;Tilpass til Panel</c>
