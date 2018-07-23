@@ -1463,7 +1463,7 @@
                 <m xml:lang="nl">
                     <cap>Update Check</cap>
                     <cont><![CDATA[<TextBlock TextWrapping='Wrap'>Een nieuwere versie van IMatch is beschikbaar.<LineBreak/><LineBreak/>De huidige versie is <Bold>{0}</Bold>, van <Bold>{1}</Bold>.<LineBreak/><LineBreak/>{2}</TextBlock>]]></cont>
-                    <button btnid="1004">Download and install now...</button>
+                    <button btnid="1004">Downloaden en nu installeren...</button>
                     <button btnid="1001">Open de download Website...</button>
                     <button btnid="1002">Bekijk de website met versie-notities...</button>
                     <button btnid="1003">Download later.</button>
@@ -1517,8 +1517,8 @@
 					<button btnid="1003">IMatch beenden.</button>
 				</m>
 				<m xml:lang="nl">
-					<cap>Uw proefperidoe van 30 dagen is voorbij.</cap>
-					<cont>vanaf nu zal IMatch alle databases die ouder zijn dan 30 dagen openen alls "alleen-lezen".\n\nAls u IMatch wilt blijven gebruiken, koop dan nu een licensie. De volledige versie opent alle databases weer met "lees en schrijf" rechten.</cont>
+					<cap>Uw proefperiode van 30 dagen is voorbij.</cap>
+					<cont>Vanaf nu zal IMatch alle databases die ouder zijn dan 30 dagen, openen als "alleen-lezen".\n\nAls u IMatch wilt blijven gebruiken, koop dan nu een licensie. De volledige versie opent alle databases weer met "lees en schrijf" rechten.</cont>
 					<button btnid="1001">IMatch nu kopen.\nKoop IMatch via onze veilge Online-webwinkel.\nDirecte download van de volwaardige versie na de aankoop.</button>
 					<button btnid="1002">Doorgaan in "alleen lezen" stand.</button>
 					<button btnid="1003">IMatch afsluiten.</button>
@@ -1543,6 +1543,11 @@
                     <cap>Genehmigung zur Ausführung</cap>
                     <cont>Eine App hat IMatch aufgefordert, beim Beenden dieses Skript bzw. Anwendung auszuführen:\r\n\r\n{0}\r\n\r\nErlauben Sie IMatch, dies zu tun?.</cont>
                     <ftr typeid="[[TD_INFORMATION_ICON]]">Wenn dieser Vorgang nicht von Ihnen ausgelöst wurde, sollten Sie die Ausführung nicht erlauben.</ftr>
+                </m>
+				  <m xml:lang="nl">
+                    <cap>Toestemming om uit te voeren</cap>
+                    <cont>Een App heeft toestemming gevraagd om het/de volgende script/applicatie uit te voeren bij afsluiten:\r\n\r\n{0}\r\n\r\nStaat u Imatch toe dit te doen?</cont>
+                    <ftr typeid="[[TD_INFORMATION_ICON]]">Als deze actie niet door U werd geïnitieerd, zou U deze actie uit veiligheidsoverwegingen niet moeten toestaan.</ftr>
                 </m>
             </msg>
 
@@ -2064,6 +2069,12 @@
                     <button btnid="1001">Trotzdem verrwenden</button>
                     <button btnid="1002">Die aktuelle Version herunterladen</button>
                 </m>
+				 <m xml:lang="nl">
+                    <cap>IMatch Help is verouderd</cap>
+                    <cont>De versie van de IMatch Help op uw computer is verouderd.</cont>
+                    <button btnid="1001">Toch gebruiken</button>
+                    <button btnid="1002">De actuele versie downloaden</button>
+                </m>
             </msg>
 
             <msg resid="PTR_MSG_HELPAPP_MISSING" typeid="[[TD_INFORMATION_ICON]]">
@@ -2078,6 +2089,12 @@
                     <cont>Sie haben die Verwendung des installierten Hilfesystems aktiviert, aber es ist noch nicht installiert oder kann nicht gefunden werden.</cont>
                     <button btnid="1001">Online-Version des Hilfesystems aktivieren</button>
                     <button btnid="1002">Die IMatch-Hilfesystem App herunterladen</button>
+                </m>
+				  <m xml:lang="nl">
+                    <cap>De IMatch Help is niet geïnstalleerd</cap>
+                    <cont>U heeft het gebruik van de lokale help-versie geactiveerd, maar die is nog niet geïnstalleerd of kan niet woden gevonden.</cont>
+                    <button btnid="1001">Schakel over naar de online help versie</button>
+                    <button btnid="1002">Download de IMatch Help App</button>
                 </m>
             </msg>
 
@@ -2095,6 +2112,13 @@
                     <ftr>Sie können diese Einstellung jederzeit unter Bearbeiten &gt; Einstellungen &gt; Anwendung ändern.</ftr>
                     <button btnid="1001">Webbasierte Hilfe verwenden (Standard)</button>
                     <button btnid="1002">Die aktuelle Version der Hilfe-App herunterladen</button>
+                </m>
+				 <m xml:lang="nl">
+                    <cap>De IMatch Help</cap>
+                    <cont>IMatch gebruikt standaard de web-georienteerde help op www.photools.com. Dat verzekert dat u altijd toegang heeft tot de meest recente versie en dat u systeem dat eenvoudig kunt vertalen met de vertaalopties die in uw browser zijn ingebouwd.\r\n\r\nAls u echter de voorkeur geeft aan een lokaal geïnstalleerde versie of als uw computer niet altijd verboden is met het Internet, kunt u een zelfstandige versie van het help-systeem downloaden om te installeren.</cont>
+                    <ftr>U kunt dit op ieder geweenst moment wizigen onder Bewerken &gt; Voorkeuren &gt; Applicatie.</ftr>
+                    <button btnid="1001">Gebruik de web help (standaard))</button>
+                    <button btnid="1002">Download de aktuel versie van de help app</button>
                 </m>
             </msg>
 
@@ -3228,7 +3252,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>Stapel geselecteerd</cap>
-					<cont>Als u een masterbstend of de top van een stapel verwijdert, worden de overieg bestanden in de stapel niet automtisch verwijderd.\r\n\r\nOm alle bestanden in een stapel te verwijderen, moet u de stapel uitklappen en alle bestanden selecteren die u wilt verwijderen.</cont>
+					<cont>Als u een masterbestand of de top van een stapel verwijdert, worden de overige bestanden in de stapel niet automatisch verwijderd.\r\n\r\nOm alle bestanden in een stapel te verwijderen, moet u de stapel eerst uitklappen en alle bestanden selecteren die u wilt verwijderen.</cont>
 				</m>
 				<m xml:lang="pt">
 					<cap>Pilha seleccionada</cap>
@@ -4233,6 +4257,10 @@
                 <m xml:lang="de">
                     <cap>Leere Kategorien sind durch Filter verborgen</cap>
                     <cont>Um die neu angelegte Kategorie zu sehen, deaktivieren Sie bitte den "Leere Kategorien verbergen" filter.</cont>
+                </m>
+				<m xml:lang="nl">
+                    <cap>Lege categoriën worden door een filter verborgen</cap>
+                    <cont>Om de nieuwe categorie te kunnen zien, moet u het filter "lege categoriën verbergen", uitschakelen.</cont>
                 </m>
            </msg>
 
@@ -7800,7 +7828,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>Afsluiten zonder opslaan</cap>
-					<cont>De wijziginbgen zijn nog niet opgeslagen in de database.\r\n\r\nWeet u zeker dat u wilt stoppen zonder op te slaan?</cont>
+					<cont>De wijzigingen zijn nog niet opgeslagen in de database.\r\n\r\nWeet u zeker dat u wilt stoppen zonder op te slaan?</cont>
 				</m>
 				<m xml:lang="pt">
 					<cap>Sair sem gravar</cap>
@@ -7852,7 +7880,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>Google omgekeerde geocodering</cap>
-					<cont>Om de omgekeerde geocodering van Google te kunnen gebruiken, moet u een geldige Google Maps API sleutel invoeren in Bewerken &gt; Voorkeuren &gt; Geo &amp; Kaarten. Deze sleutel moet geactiveerd zijn voor de diensten Maps, Reverse Geocoding en Elevation APIs.\r\n\r\nZie ook de IMatch help voor meer details.</cont>
+					<cont>Om de omgekeerde geocodering-functionaliteit van Google te kunnen gebruiken, moet u een geldige Google Maps API sleutel invoeren in Bewerken &gt; Voorkeuren &gt; Geo &amp; Kaarten. Deze sleutel moet geactiveerd zijn voor de diensten Maps, Reverse Geocoding en Elevation.\n\r\nZie ook de IMatch help voor meer details.</cont>
 				</m>
 				<m xml:lang="pt">
 					<cap>Geocodificação inversa do Google</cap>
@@ -9016,7 +9044,7 @@
                 </m>
                 <m xml:lang="nl">
                     <cap>Gehele database doorzoeken</cap>
-                    <cont><![CDATA[<TextBlock>Deze optie doorzoekt de hele database op mogelijke versies. Dit is een zeer <Underline>langzaam</Underline> proces hetgeen u alleen als <Bold>laatste mogelijkheid</Bold> moet uitvoeren.<LineBreak/><LineBreak/>Het is veel sneller specifieke folders op versies te doorzoeken.</TextBlock>]]></cont>
+                    <cont><![CDATA[<TextBlock>Deze optie doorzoekt de hele database op mogelijke versies. Dit is een <Underline>zeer langzaam</Underline> proces hetgeen u alleen als <Bold>laatste mogelijkheid</Bold> moet uitvoeren.<LineBreak/><LineBreak/>Het is veel sneller specifieke folders op versies te doorzoeken.</TextBlock>]]></cont>
                 </m>
 				<m xml:lang="no">
                     <cap>Søke i hele databasen</cap>
@@ -10763,13 +10791,18 @@
             <msg resid="PTR_MSG_APPMGR_SERVICEAPP_PROMPT" typeid="[[IDI_EXCLAMATION]]" enablemarkup="true">
                 <m xml:lang="en">
                     <cap>New or Updated Service App</cap>
-                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>App <Bold>{0}</Bold><LineBreak/>loaded from '{1}'.<LineBreak/><LineBreak/>This app wants to run in the background. It has been started for the first time or it has been modifed since the last run.<LineBreak/><LineBreak/>Do you allow this app to run?</TextBlock>]]></cont>
+                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>App <Bold>{0}</Bold><LineBreak/>loaded from '{1}'.<LineBreak/><LineBreak/>This app wants to run in the background. <LineBreak/>It has been started for the first time or it has been modifed since the last run.<LineBreak/><LineBreak/>Do you allow this app to run?</TextBlock>]]></cont>
                     <ftr typeid="[[TD_WARNING_ICON]]">Only run apps from trustworthy sources.</ftr>
                 </m>
                 <m xml:lang="de">
                     <cap>Neue oder modifizierte Dienst-App</cap>
-                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>App <Bold>{0}</Bold><LineBreak/>geladen von "{1}".<LineBreak/><LineBreak/>Diese App möchte im Hintergrund ausgeführt werden.<LineBreak/>Sie wurde noch nie gestartet oder wurde seit der letzten Ausführung verändert.<LineBreak/><LineBreak/>Erlauben Sie die Ausführung dieser App?</TextBlock>]]></cont>
+                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>App <Bold>{0}</Bold><LineBreak/>geladen von {1}''.<LineBreak/><LineBreak/>Diese App möchte im Hintergrund ausgeführt werden.<LineBreak/>Sie wurde noch nie gestartet oder wurde seit der letzten Ausführung verändert.<LineBreak/><LineBreak/>Erlauben Sie die Ausführung dieser App?</TextBlock>]]></cont>
                     <ftr typeid="[[TD_WARNING_ICON]]">Führen Sie nur Apps aus, die aus vertrauenswürdigen Quellen stammen.</ftr>
+                </m>
+				 <m xml:lang="nl">
+                    <cap>Nieuwe of vernieuwde Service App</cap>
+                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>App <Bold>{0}</Bold><LineBreak/>geladen van '{1}'.<LineBreak/><LineBreak/>Deze app verzoekt om in de achtergrond te worden uitgevoerd.<LineBreak/>Deze app is nog niet eerder gestart of is na de laatste keer veranderd.<LineBreak/><LineBreak/>Staat u toe dat deze app wordt uitgevoerd?</TextBlock>]]></cont>
+                    <ftr typeid="[[TD_WARNING_ICON]]">Sta alleen apps toe, die van een betrouwbare bron afkomstig zijn.</ftr>
                 </m>
             </msg>
 

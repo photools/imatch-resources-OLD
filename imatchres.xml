@@ -898,7 +898,7 @@
                 <c xml:lang="de" hotkey="" helptext="Anwendungseinstellungen bearbeiten">Einstellu&amp;ngen...</c>
                 <c xml:lang="fi" hotkey="" helptext="Määritä ohjelman asetukset">&amp;Asetukset...</c>
                 <c xml:lang="fr" hotkey="" helptext="Configurer les préférences">Préfére&amp;nces...</c>
-                <c xml:lang="nl" hotkey="" helptext="Voorkeuren instellen">&amp;Voorkeuren...</c>
+                <c xml:lang="nl" hotkey="" helptext="Voorkeuren instellen">Voorkeure&Amp;n...</c>
                 <c xml:lang="pt" hotkey="" helptext="Configurar as preferências">Preferê&amp;ncias...</c>
                 <c xml:lang="hr" hotkey="" helptext="Konfiguriraj postavke applikacije">&amp;Postavke...</c>
                 <c xml:lang="no" hotkey="" helptext="Konfigurer programinnstillinger">&amp;Innstillinger...</c>
@@ -1481,133 +1481,165 @@
             <cmd resid="ID_DB_BATCH_PROCESSOR">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Preset">&amp;Batch Processor</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlagen">Sta&amp;pelverarbeitung</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor voorinstellingen">&amp;Batch Processor</c>
             </cmd>
 
             <cmd resid="ID_DB_BATCH_PROCESSOR_RUN">
                 <c xml:lang="en" hotkey="" helptext="Run Batch Processor">&amp;Run Batch Processor...</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitung starten">Stapelve&amp;rarbeitung ausführen...</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor uitvoeren">Batch P&Amp;rocessor uitvoeren...</c>
             </cmd>
 
             <!-- Placeholders -->
             <cmd resid="ID_DB_BATCH_PROCESSOR_1" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_2" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_3" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_4" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_5" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_6" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_7" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_8" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_9" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_10" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_11" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_12" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_13" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_14" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_15" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_16" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_17" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_18" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_19" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_20" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_21" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_22" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_23" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_24" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_25" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_26" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_27" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_28" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_29" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
             <cmd resid="ID_DB_BATCH_PROCESSOR_30" private="true">
                 <c xml:lang="en" hotkey="" helptext="Batch Processor Template">Template</c>
                 <c xml:lang="de" hotkey="" helptext="Stapelverarbeitungsvorlage">Vorlage</c>
+                <c xml:lang="nl" hotkey="" helptext="Batch Processor sjabloon">Sjabloon</c>
             </cmd>
 
         </command_group>
@@ -2549,6 +2581,7 @@
             <cmd resid="ID_VIEW_TOGGLE_HIDE">
                 <c xml:lang="en" hotkey="F9|VK_BACK;F9|-" helptext="Show or hide all panels">Show/hide al&amp;l panels</c>
                 <c xml:lang="de" hotkey="F9|VK_BACK;F9|-" helptext="Anzeigen oder Verbergen aller Panels">Anzeigen/Verbergen al&amp;ler Panels</c>
+                <c xml:lang="nl" hotkey="F9|VK_BACK;F9|-" helptext="Toon of verberg alle panelen">Toon/verberg al&amp;le panelen</c>
             </cmd>
 
 
@@ -2861,88 +2894,109 @@
             <cmd resid="ID_VIEW_APP_MENU" bmidx="0">
                 <c xml:lang="en" hotkey="" helptext="All installed App Views">&amp;App Views</c>
                 <c xml:lang="de" hotkey="" helptext="Alle installieren App-Ansichten">&amp;App-Ansichten</c>
+                <c xml:lang="nl" hotkey="" helptext="Alle geïnstalleerde App-views">&amp;App-views</c>
             </cmd>
 
             <!-- The ids for App Views -->
             <cmd resid="ID_VIEW_APP_1" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_2" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_3" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_4" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_5" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_6" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_7" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_8" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_9" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_10" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_11" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_12" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_13" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_14" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_15" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_16" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_17" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_18" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_19" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
             <cmd resid="ID_VIEW_APP_20" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Show or hide the this App View">&amp;App View</c>
                 <c xml:lang="de" hotkey="" helptext="Anzeigen oder Verbergen dieser App-Ansicht">&amp;App-Ansicht</c>
+                <c xml:lang="nl" hotkey="" helptext="Toon of verberg deze App-view">&amp;App-view</c>
             </cmd>
 
         </command_group>
@@ -4066,6 +4120,7 @@
                 <!-- @Translators: We need to translate only the first of the _MENU_* entries-->
                 <c xml:lang="en" hotkey="" helptext="Run this app">#NAME#</c>
                 <c xml:lang="de" hotkey="" helptext="Diese App ausführen">#NAME#</c>
+                <c xml:lang="nl" hotkey="" helptext="Voer deze app uit">#NAME#</c>
             </cmd>
 
             <cmd resid="ID_CMD_APP_COMMAND_2" bmidx="0">
@@ -5944,7 +5999,7 @@
                 <c xml:lang="en" hotkey="" helptext="Use the categories of the currently selected files to setup the filter.">Use categories of &amp;selected files</c>
                 <c xml:lang="de" hotkey="" helptext="Die Kategorien der aktuell ausgewählten Dateien in den Filter übernehmen.">Kategorien der au&amp;sgewählten Dateien verwenden</c>
                 <c xml:lang="fi" hotkey="" helptext="Käytä valittujen tiedostojen kategorioita suodattimen muodostamisessa.">K&amp;äytä valittujen tiedostojen kategorioita</c>
-                <c xml:lang="nl" hotkey="" helptext="De categorieën van de geselecteerde bestanden in de filter plaatsen.">Categorieën van ge&amp;selecteerde bestandn gebruiken</c>
+                <c xml:lang="nl" hotkey="" helptext="De categorieën van de geselecteerde bestanden in het filter plaatsen.">Categorieën van ge&amp;selecteerde bestanden gebruiken</c>
                 <c xml:lang="pt" hotkey="" helptext="Utilizar as categorias dos ficheiros actualmente seleccionados para configurar o filtro.">Utilizar categorias dos ficheiros &amp;seleccionados</c>
                 <c xml:lang="hr" hotkey="" helptext="Iskoristi kategorije trenutno odabranih datoteka za postavu filtra.">Kori&amp;sti kategorije odabranih datoteka</c>
                 <c xml:lang="no" hotkey="" helptext="Legg kategorier fra de valgte filene inn i filteret.">Bruk kategorier for &amp;valgte filer</c>
@@ -7326,10 +7381,12 @@
             <cmd resid="ID_CMD_FILE_OPEN_FW_TOOLBAR">
                 <c xml:lang="en" hotkey="Ctrl+Enter" helptext="Opens the selected files with the associated application">&amp;Open with '{0}'...</c>
                 <c xml:lang="de" hotkey="Ctrl+Enter" helptext="Die ausgewählten Dateien mit der zugeordneten Anwendung öffnen.">&amp;Öffnen mit '{0}'...</c>
+                <c xml:lang="nl" hotkey="Ctrl+Enter" helptext="Opent de geselecteerde bestanden met het toegewezen programma.">&amp;Openen met '{0}'...</c>
             </cmd>
             <!-- @Translators: No need to translate this. -->
             <cmd resid="ID_CMD_FILE_OPEN_FW_TOOLBAR_ICON">
                 <c xml:lang="en" hotkey="Ctrl+Enter" helptext="Opens the selected files with the associated application">&amp;Open...</c>
+                <c xml:lang="nl" hotkey="Ctrl+Enter" helptext="Opent de geselecteerde bestanden met het toegewezen programma">&amp;Openen...</c>
             </cmd>
         </command_group>
 
@@ -8644,7 +8701,7 @@
                 <c xml:lang="en" hotkey="T" helptext="Toggle the stack status of all selected version sets">Toggle Version &amp;Stack</c>
                 <c xml:lang="de" hotkey="T" helptext="Den Stapelzustand aller ausgewählten Versionssätze umkehren.">Versions&amp;stapelzustand umschalten</c>
                 <c xml:lang="fi" hotkey="T" helptext="Muuta tämän versiojoukon pinotila">&amp;Muuta pinotila</c>
-                <c xml:lang="nl" hotkey="T" helptext="Stapel-status van deze versieset (-s) wisselen">&amp;Stapel-status wisselen</c>
+                <c xml:lang="nl" hotkey="T" helptext="Stapel-status van alle gesleecteerde versieset (-s) wisselen">&amp;Stapel-status wisselen</c>
                 <c xml:lang="pt" hotkey="T" helptext="Activar/Desactivar estado de empilhamento deste conjunto de versões">Activar/Desactivar &amp;Pilha de Versões</c>
                 <c xml:lang="hr" hotkey="T" helptext="Preklopi stožno stanje ovog skupa verzija">Preklopi &amp;stog verzija</c>
                 <c xml:lang="no" hotkey="T" helptext="Veksle stabel status av dette versjon settet">Veksle versjon &amp;stabel</c>
@@ -9214,11 +9271,13 @@
             <cmd resid="ID_FILEWND_SHOW_STACKED" bmidx="12">
                 <c xml:lang="en" hotkey="Shift+Ctrl+T" helptext="Show or hide stacked files">Show s&amp;tacked files</c>
                 <c xml:lang="de" hotkey="Shift+Ctrl+T" helptext="Gestapelte Dateien anzeigen oder verbergen">Ges&amp;tapelte Dateien anzeigen</c>
+                <c xml:lang="nl" hotkey="Shift+Ctrl+T" helptext="Toon of verberg gestapelde bestanden">Toon ges&amp;tapelde bestanden</c>
             </cmd>
             <!-- This is only a placehoder so we can swap the icon in the toolbar -->
             <cmd resid="ID_FILEWND_SHOW_STACKED_ENABLED" bmidx="13">
                 <c xml:lang="en" hotkey="Shift+Ctrl+T" helptext="Show or hide stacked files">Show s&amp;tacked files</c>
                 <c xml:lang="de" hotkey="Shift+Ctrl+T" helptext="Gestapelte Dateien anzeigen oder verbergen">Ges&amp;tapelte Dateien anzeigen</c>
+                <c xml:lang="nl" hotkey="Shift+Ctrl+T" helptext="Toon of verberg gestapelde bestanden">Toon ges&amp;tapelde bestanden</c>
             </cmd>
 
         </command_group>
@@ -9313,6 +9372,7 @@
             <cmd resid="ID_FILEWND_SEARCHBAR_MODE_EXACTMATCH" bmidx="5">
                 <c xml:lang="en" hotkey="" helptext="Search for exact phrase matches">E&amp;xact Phrase</c>
                 <c xml:lang="de" hotkey="" helptext="Nach genauer Übereinstimmung suchen">Ge&amp;naue Übereinstimmung</c>
+                <c xml:lang="nl" hotkey="" helptext="Zoek naar een exacte overeenkomst">E&amp;xacte overeenkomst</c>
             </cmd>
 
             <cmd resid="ID_FILEWND_SEARCHBAR_MODE_ALLNOTSCOPE" bmidx="5">
@@ -9329,6 +9389,7 @@
             <cmd resid="ID_FILEWND_SEARCHBAR_CLEAR" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Clear search history">Clear search &amp;history</c>
                 <c xml:lang="de" hotkey="" helptext="Suchhistorie löschen">Such&amp;historie löschen</c>
+                <c xml:lang="nl" hotkey="" helptext="Zoekgeschiedensi wissen">Zoekgesc&amp;hiedenis wissen</c>
             </cmd>
 
 
@@ -9339,42 +9400,52 @@
             <cmd resid="ID_FILEWND_SEARCHBAR_SET_1" bmidx="7">
                 <c xml:lang="en" hotkey="" helptext="Search tags in this set">Name</c>
                 <c xml:lang="de" hotkey="" helptext="Suche auf Tags in diesem Set einschränkgen.">Name</c>
+                <c xml:lang="nl" hotkey="" helptext="Zoek tags alleen in deze set">Name</c>
             </cmd>
             <cmd resid="ID_FILEWND_SEARCHBAR_SET_2" bmidx="7">
                 <c xml:lang="en" hotkey="" helptext="Search tags in this set">Name</c>
                 <c xml:lang="de" hotkey="" helptext="Suche auf Tags in diesem Set einschränkgen.">Name</c>
+                <c xml:lang="nl" hotkey="" helptext="Zoek tags alleen in deze set">Name</c>
             </cmd>
             <cmd resid="ID_FILEWND_SEARCHBAR_SET_3" bmidx="7">
                 <c xml:lang="en" hotkey="" helptext="Search tags in this set">Name</c>
                 <c xml:lang="de" hotkey="" helptext="Suche auf Tags in diesem Set einschränkgen.">Name</c>
+                <c xml:lang="nl" hotkey="" helptext="Zoek tags alleen in deze set">Name</c>
             </cmd>
             <cmd resid="ID_FILEWND_SEARCHBAR_SET_4" bmidx="7">
                 <c xml:lang="en" hotkey="" helptext="Search tags in this set">Name</c>
                 <c xml:lang="de" hotkey="" helptext="Suche auf Tags in diesem Set einschränkgen.">Name</c>
+                <c xml:lang="nl" hotkey="" helptext="Zoek tags alleen in deze set">Name</c>
             </cmd>
             <cmd resid="ID_FILEWND_SEARCHBAR_SET_5" bmidx="7">
                 <c xml:lang="en" hotkey="" helptext="Search tags in this set">Name</c>
                 <c xml:lang="de" hotkey="" helptext="Suche auf Tags in diesem Set einschränkgen.">Name</c>
+                <c xml:lang="nl" hotkey="" helptext="Zoek tags alleen in deze set">Name</c>
             </cmd>
             <cmd resid="ID_FILEWND_SEARCHBAR_SET_6" bmidx="7">
                 <c xml:lang="en" hotkey="" helptext="Search tags in this set">Name</c>
                 <c xml:lang="de" hotkey="" helptext="Suche auf Tags in diesem Set einschränkgen.">Name</c>
+                <c xml:lang="nl" hotkey="" helptext="Zoek tags alleen in deze set">Name</c>
             </cmd>
             <cmd resid="ID_FILEWND_SEARCHBAR_SET_7" bmidx="7">
                 <c xml:lang="en" hotkey="" helptext="Search tags in this set">Name</c>
                 <c xml:lang="de" hotkey="" helptext="Suche auf Tags in diesem Set einschränkgen.">Name</c>
+                <c xml:lang="nl" hotkey="" helptext="Zoek tags alleen in deze set">Name</c>
             </cmd>
             <cmd resid="ID_FILEWND_SEARCHBAR_SET_8" bmidx="7">
                 <c xml:lang="en" hotkey="" helptext="Search tags in this set">Name</c>
                 <c xml:lang="de" hotkey="" helptext="Suche auf Tags in diesem Set einschränkgen.">Name</c>
+                <c xml:lang="nl" hotkey="" helptext="Zoek tags alleen in deze set">Name</c>
             </cmd>
             <cmd resid="ID_FILEWND_SEARCHBAR_SET_9" bmidx="7">
                 <c xml:lang="en" hotkey="" helptext="Search tags in this set">Name</c>
                 <c xml:lang="de" hotkey="" helptext="Suche auf Tags in diesem Set einschränkgen.">Name</c>
+                <c xml:lang="nl" hotkey="" helptext="Zoek tags alleen in deze set">Name</c>
             </cmd>
             <cmd resid="ID_FILEWND_SEARCHBAR_SET_10" bmidx="7">
                 <c xml:lang="en" hotkey="" helptext="Search tags in this set">Name</c>
                 <c xml:lang="de" hotkey="" helptext="Suche auf Tags in diesem Set einschränkgen.">Name</c>
+                <c xml:lang="nl" hotkey="" helptext="Zoek tags alleen in deze set">Name</c>
             </cmd>
 
             <cmd resid="ID_FILEWND_SEARCHBAR_MODE_ADVANCED" bmidx="5">
@@ -12446,6 +12517,7 @@
             <cmd resid="ID_VIEWER_ZOOM_ALLOW_GROW" desc="" bmidx="-1">
                 <c xml:lang="en" hotkey="Alt+Z" helptext="Allow smaller images to grow to fill the Viewer panel">En&amp;large smaller images</c>
                 <c xml:lang="de" hotkey="Alt+Z" helptext="Kleinere Bilder vergrößern, um das Viewer-Panel zu füllen">K&amp;leine Bilder vergrößern</c>
+                <c xml:lang="nl" hotkey="Alt+Z" helptext="Kleinere afbeeldingen vergroten om de gehele viewer te vullen">K&amp;leine afbeeldingen vergroten</c>
             </cmd>
 
             <!-- Display -->
@@ -13165,7 +13237,7 @@
                 <c xml:lang="en" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Fit to Panel">&amp;Fit to Panel</c>
                 <c xml:lang="de" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Auf Panelgröße zoomen.">Auf &amp;Panelgröße zoomen</c>
                 <c xml:lang="fi" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Sovita paneelin kokoon.">&amp;Sovita paneeliin</c>
-                <c xml:lang="nl" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Tot de grootte van het paneel zoomen">Passend maken aan &amp;paneel</c>
+                <c xml:lang="nl" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Tot de grootte van het venster zoomen">&Amp;Passend maken aan venster</c>
                 <c xml:lang="pt" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Ajustar ao painel">Ajustar ao &amp;Painel</c>
                 <c xml:lang="hr" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Prilagodi ploči">P&amp;rilagodi ploči</c>
                 <c xml:lang="no" hotkey="Ctrl+0;Ctrl+VK_NUMPAD0" helptext="Tilpass til Panel">&amp;Tilpass til Panel</c>
@@ -16873,7 +16945,8 @@
         <menu resid="ID_MENU_FILEWND_TOOLBAR_OPEN" desc="Label">
             <name>
                 <n xml:lang="en">&amp;Open</n>
-                <n xml:lang="no">Ö&amp;ffnen</n>
+                <n xml:lang="de">Ö&amp;ffnen</n>
+                <n xml:lang="nl">&amp;Openen</n>
             </name>
             <item>ID_CMD_FILE_OPEN</item>
             <separator/>
@@ -18653,7 +18726,7 @@
                 <desc xml:lang="no">Hvis denne innstillingen aktiveres, er siste brukte databasen lastet automatisk på neste programstart</desc>
                 <desc xml:lang="de">Wenn diese Option aktiviert ist, wird die zuletzt geladene Datenbank automatisch beim nächsten Programmstart geladen.</desc>
                 <desc xml:lang="fi">Kun tämä on valittu, viimeksi käytetty tietokanta latautuu automaattisesti, kun IMatch käynnistetään seuraavan kerran</desc>
-                <desc xml:lang="nl">Indien deze optie aan staat wordt de laatst gebruikte database automatisch geladen bij de volgende start van IMatch</desc>
+                <desc xml:lang="nl">Indien deze optie geactiveerd is, wordt de laatst gebruikte database automatisch geladen bij de volgende start van IMatch</desc>
                 <desc xml:lang="pt">Se esta configuração estiver activa, a última base de dados utilizada é carregada automaticamente no próximo arranque do programa</desc>
                 <desc xml:lang="hr">Kada je ova postavka uključena, posljednja korištena baza podataka će se automatski učitati kod slijedećeg pokretanja programa</desc>
                 <desc xml:lang="it">Se questa opzione è attiva, l'ultimo database utilizzato viene caricato automaticamente al prossimo avvio del programma</desc>
@@ -19332,9 +19405,11 @@
             <property resid="app.help.webhelp" desc="">
                 <name xml:lang="en">Use Online Help</name>
                 <name xml:lang="de">Online-Hilfesystem nutzen</name>
+                <name xml:lang="nl">Gebruik de online-help</name>
 
                 <desc xml:lang="en">If this is enabled, IMatch uses the online version of the IMatch Help System available at the photools.com website. This guarantees the most up-to-date version of the help. If this is disabled, IMatch uses the locally installed version of the IMatch help (separate download).</desc>
                 <desc xml:lang="de">Wenn diese Einstellung aktiv ist, greift IMatch auf die Online-Version des Hilfesystems auf photools.com zu. Dies garantiert die Nutzung der aktuellsten Inhalte. Wen Sie diese Option deaktivieren, nutzt IMatch das lokal installierte Hilfesystem (separater Download erforderlich).</desc>
+                <desc xml:lang="nl">Als deze optie geactiveerd is, gebruikt IMatch de online-versie van de help op de photools.com website. Dit garandeert de meest actuele versie van de help. Als deze optie is gedéactiveerd, gebrukt IMatch de lokaal geïnstelleerde versie van de help (separate download).</desc>
 
                 <group xml:lang="it">Impostazioni</group>
                 <group xml:lang="en">Settings</group>
@@ -19349,9 +19424,11 @@
             <property resid="app.help.apppath" desc="">
                 <name xml:lang="en">Help App Folder</name>
                 <name xml:lang="de">Hilfe-App Verzeichnis</name>
+                <name xml:lang="nl">Map voor de help app</name>
 
-                <desc xml:lang="en">The folder containing the help app. Leave empty to use the dwfault.</desc>
+                <desc xml:lang="en">The folder containing the help app. Leave empty to use the default.</desc>
                 <desc xml:lang="de">Das Verzeichnis der Hilfe-App. Lassen Sie diese Einstellung leer, um das Standardverzeichnis zu verwenden.</desc>
+                <desc xml:lang="nl">De map waarin de help-app staat. Laat dit leeg om de standaardmap te gebruiken.</desc>
 
                 <group xml:lang="it">Impostazioni</group>
                 <group xml:lang="en">Settings</group>
@@ -19893,9 +19970,11 @@
             <property resid="app.ui.thumbnailenlarge">
                 <name xml:lang="en">Allow thumbnail enlargment beyond 100%</name>
                 <name xml:lang="de">Thumbnail-Vergrößerung über 100% erlauben</name>
+                <name xml:lang="nl">Sta toe dat miniaturen tot meer dan 100% wordne vergroot</name>
 
                 <desc xml:lang="en">If this is enabled, the file window can display thumbnails at scales larger than 100% of the thumbnail size available in the database. This can produce blurry results if you make the thumbnail panels really large.</desc>
                 <desc xml:lang="de">Wenn diese Option aktiviert ist, kann das Dateifenster Thumbnails auf mehr als 100% der in der Datenbank vorhandenen Größe skalieren. Die angezeigten Thumbnails können unscharf wirken, wenn Sie die Panele im Dateifenster sehr groß machen.</desc>
+                <desc xml:lang="nl">Als deze optie geactiveerd is, kunnen miniaturen in het bestandsvenster op groter fromaat dan 100% van de aanwezige afmetingen in de database worden getoond. Dit kan tot onscherpe miniaturen leiden als u de miniaturen erg groot maakt.</desc>
 
                 <group xml:lang="en">User Interface</group>
                 <group xml:lang="no">Brukergrensesnitt</group>
@@ -20119,7 +20198,7 @@
                 <desc xml:lang="no">Aktiver dette alternativet for å vise miniatyrbilder av avviste filer i en nedtonet mote.</desc>
                 <desc xml:lang="de">Aktivieren Sie diese Option, um die Thumbnails der zurückgewiesenen (abgelehnten) Dateien dunkel gedimmt darzustellen.</desc>
                 <desc xml:lang="fi">Käytä tätä asetusta, jos haluat että hylätyiksi merkityt tiedostot näytetään himmennettyinä.</desc>
-                <desc xml:lang="nl">Als deze optie geactiveerd is worden afgekeurde bestanden gedimd weergegeven.</desc>
+                <desc xml:lang="nl">Als deze optie geactiveerd is, worden afgekeurde bestanden gedimd weergegeven.</desc>
                 <desc xml:lang="pt">Active esta opção para visualizar as miniaturas dos ficheiros rejeitados de forma esbatida.</desc>
                 <desc xml:lang="hr">Prikaži sličice odbačenih datoteka kao izblijeđene.</desc>
 
@@ -20212,10 +20291,13 @@
             <property resid="app.developermode" >
                 <name xml:lang="en">Developer Mode</name>
                 <name xml:lang="de">Entwicklermodus</name>
+                <name xml:lang="nl">Ontwikkelaarsmodus</name>
                 <desc xml:lang="en">If this is enabled, additional features become available for App Developers.</desc>
                 <desc xml:lang="de">Aktivieren Sie diese Option, um zusätzliche Funktionen für App-Enwickler freizuschalten.</desc>
+                <desc xml:lang="nl">Als deze optie is geactiveerd, komen er aanvullednde functies voor app-ontwikkelaars ter beschikking.</desc>
                 <group xml:lang="en">Developer Options</group>
                 <group xml:lang="de">Entwickler-Optionen</group>
+                <group xml:lang="nl">Opties voor ontwikkelaars</group>
             </property>
 
             <property resid="cef.debugport" >
@@ -21204,10 +21286,13 @@
 
             <property resid="app.viewer.allowgrow">
                 <name xml:lang="en">Allow smaller images to grow</name>
-                <name xml:lang="de">Erlaube das Vergößern kleiner Bilder</name>
+                <name xml:lang="de">Erlaube das Vergrößern kleiner Bilder</name>
+                <name xml:lang="nl">Sta toe dat kleinere afbeeldingen kunnen groeien</name>
 
                 <desc xml:lang="en">If the Viewer is in 'fit-to-window' mode and the image displayed is smaller than the screen, the image is enlarged to fit the available screen width/height, depending on the orientation and aspect ratio. Enable this to always use the full screen for smaller images.</desc>
                 <desc xml:lang="de">Wenn der Viewer im 'An Fenstergröße anpassen'-Modus operiert und das angezeigte Bild kleiner als die Bildschirmfläche ist, wird es in Abhängigkeit der Ausrichtung entsprechend vergrößert. Aktivieren Sie diese Option, um den Bildschirm immer optimal auszunutzen.</desc>
+                <desc xml:lang="nl">Als de viewer If the Viewer is ingesteld op 'passend maken aan venster' en de afbeelding is keiner dan het scherm, wordt de afbeelding vergroot om zich aan te passen aan de beschikbare schermafmetingen, afhankelijk van de oriëntatie. Activeer deze optie om het scherm optimaal te benutten.</desc>
+
 
                 <group xml:lang="en">Viewer</group>
                 <group xml:lang="de">Viewer</group>
@@ -22328,7 +22413,7 @@
                 <desc xml:lang="no">Aktiver dette alternativet å bruke forhåndsvisningsbildene som er innebygd i de fleste RAW-formater. Dette går mye raskere enn å behandle RAW-filen.</desc>
                 <desc xml:lang="de">Aktivieren Sie diese Option, um die eingebetteten Vorschaubilder zu verwenden. Viele RAW-Dateiformate enthalten Vorschaubilder. Deren Verwendung ist sehr viel performanter als die Erzeugung des Vorschaubildes aus dem RAW-Bild.</desc>
                 <desc xml:lang="fi">Aktivoi tämä asetus käyttääksesi RAW-formaattien sisältämää esikatselukuvaa. Se on huomattavasti nopeampaa kuin käsitellä RAW-tiedostoa.</desc>
-                <desc xml:lang="nl">Als deze optie geactiveerd is worden de ingesloten voorbeeldafbeeldingen gebruikt die de meeste RAW-bestandsformaten gebruiken. Het ontwikkelen en tonen van de RAW-afbeeldingen is veel langzamer dan deze voorbeeldafbeeldingen.</desc>
+                <desc xml:lang="nl">Als deze optie geactiveerd is, worden de ingesloten voorbeeldafbeeldingen gebruikt die de meeste RAW-bestandsformaten gebruiken. Het ontwikkelen en tonen van de RAW-afbeeldingen is veel langzamer dan deze voorbeeldafbeeldingen.</desc>
                 <desc xml:lang="pt">Active esta opção para utilizar a pré-visualização de imagem incorporada na maioria dos formatos RAW. Isto é muito mais rápido do que processar o ficheiro RAW.</desc>
                 <desc xml:lang="hr">Koristi uložene sličice koje se nalaze u većini RAW formata. To je puno brže nego razvijanje RAW datoteke.</desc>
                 <group xml:lang="en"></group>
@@ -22509,6 +22594,8 @@
                 <name xml:lang="it">Dimensione Minima</name>
                 <desc xml:lang="en">If you use embedded previews and the preview is smaller (in pixel) than this size, the full RAW file is loaded instead. Set this to 0 to use whatever preview size is in the file (not recommended).\nNote: For most RAW variants, a value of at least 1920 is recommended. You usually want either 100% previews or develop the full RAW data.</desc>
                 <desc xml:lang="de">Wenn die Verwendung von Vorschaubildern aktiv ist und das Vorschaubild kleiner ist als der hier angegebene Wert, dann wird das RAW-Bild geladen. Der Standardwert von 1920 sort üblicherweise dafür, dass entweder ein 100% Vorschaubild oder das RAW-Bild geladen werden. Entweder haben RAW-Bilder Previews kleiner als 1920 oder sie haben 100% Vorschaubilder.</desc>
+                <desc xml:lang="nl">Als u 'embedded' preview gebruikt en deze is kleiner (in pixels) dan deze afmeting, zal het volledige RAW bestand worden geladen. Stel dit in op 0 om iedere willekeurige preview afmeting te gebruiken (niet aanbevolen).\nN.B.: voor de meeste RAW varianten, wordt een afemtingen van tenminste 1920 aanbevolen. Meestal zult u  previews van 100% willen of anders het volledige RAW beastand willen ontwikkelen.</desc>
+                
                 <group xml:lang="en"></group>
                 <group xml:lang="de"></group>
                 <group xml:lang="fi"></group>
@@ -25721,7 +25808,7 @@
                 <desc xml:lang="no">Hvis denne innstillingen aktiveres, tar ikke kategorien hensyn til bilder tilordnet barnekategorier.</desc>
                 <desc xml:lang="de">Wenn diese Option aktiv ist, ignoriert die Kategorie Dateien in untergeordneten Kategorien.</desc>
                 <desc xml:lang="fi">Kun tämä valinta on käytössä, kategoria ei ota huomioon alakategorioihin sijoitettuja tiedostoja.</desc>
-                <desc xml:lang="nl">Indien deze optie geactiveerd is worden bestanden uit onderliggende categorieën niet meegenomen.</desc>
+                <desc xml:lang="nl">Indien deze optie geactiveerd is, worden bestanden uit onderliggende categorieën niet meegenomen.</desc>
                 <desc xml:lang="pt">Se esta configuração estiver activada, a categoria não considera as imagens atribuidas às suas categorias subordinadas.</desc>
                 <desc xml:lang="hr">Ako je ova postavka omogućena kategorija zanemaruje slike pridružene potkategorijama.</desc>
                 <group xml:lang="en"></group>
@@ -28877,7 +28964,7 @@
             <property resid="filewnd.caption.backcolor.searching" desc="">
                 <name xml:lang="en">Background Color (Searching)</name>
                 <name xml:lang="de">Hintergrundfarbe (Suche aktiv)</name>
-                <name xml:lang="nl">Achtergrondkleur(zoeken)</name>
+                <name xml:lang="nl">Achtergrondkleur (zoeken)</name>
                 <name xml:lang="pt">Cor do 2º plano (Procura)</name>
                 <desc xml:lang="en">The background color used when the search bar is used.</desc>
                 <desc xml:lang="de">Die Hintergrundfarbe bei Verwendung der Suchleiste.</desc>
@@ -35843,8 +35930,10 @@
             <property resid="config.md.ignorerating" desc="">
                 <name xml:lang="en">Ignore rating of embedded XMP record</name>
                 <name xml:lang="de">Rating des eingebetteten XMP-Datensatzes ignorieren</name>
+                <name xml:lang="nl">Negeer de waardering in het embedded XMP-bestand</name>
                 <desc xml:lang="en">Sometimes cameras write a partial XMP record into the RAW file, with a Rating=0 entry. This 'overrides' the XMP rating in the XMP sidecar file, which causes problems. If this setting is enabled (default), IMatch ignores the rating information from XMP records embedded in the original file if there is also an XMP file.</desc>
                 <desc xml:lang="de">Manchmal schreiben Kameras einen partiellen XMP-Datensatz mit der Bewertung 0 (Rating 0) in die RAW-Datei. Dieser Eintrag überstimmt das Rating aus der XMP-Beiwagendatei, was normalerweise nicht gewünscht ist. Wenn diese Option aktiv ist (Standard) ignoriert IMatch das Rating aus dem in die RAW-Datei eingebetteten XMP-Datensatz wenn eine XMP-Beiwagendatei existiert.</desc>
+                <desc xml:lang="nl">Soms nemen camera's een gedeeltelijk XMP-bestand in het RAW-bestand op met een waardering van 0. Deze 'overheerst' de waardeing  in het XMP-sidecar bestand, hetgeen problemen kan veroorzaken. Als deze optie geactiveerd is (standaard), zal IMatch de waardeing in het RAw bestand negeren, als er ook een XMP-sidecar bestand is.</desc>
                 <group xml:lang="en">Settings</group>
                 <group xml:lang="de">Einstellungen</group>
                 <group xml:lang="nl">Instellingen</group>
@@ -36633,10 +36722,13 @@
             </property>
 
             <property resid="app.geo.var" desc="">
-                <name xml:lang="en">Create keywords form this expression</name>
+                <name xml:lang="en">Create keywords from this expression</name>
                 <name xml:lang="de">Schlüsselworter aus diesem Asudruck erstellen</name>
-                <desc xml:lang="en">This allows you to automatically create a keywords after GPS data has been set interactively or automatically. Use a free mix of text and IMatch variables (like {File.MD.country} order {File.MD.location}). To create a hierarchical keyword, separate the levels with |. Example: WHERE|{File.MD.country}|{File.MD.city}|{File.MD.location} => WHERE|United Kingdom|London|Tower Bridge. You can specify multiple expressions by separating them with ;</desc>
+                <name xml:lang="nl">maak trefwoorden vanuit deze uitdrukking</name>
+                <desc xml:lang="en">This allows you to automatically create a keywords after GPS data has been set interactively or automatically. Use a free mix of text and IMatch variables (like {File.MD.country} or {File.MD.location}). To create a hierarchical keyword, separate the levels with |. Example: WHERE|{File.MD.country}|{File.MD.city}|{File.MD.location} => WHERE|United Kingdom|London|Tower Bridge. You can specify multiple expressions by separating them with ;</desc>
                 <desc xml:lang="de">Nutzen Sie diese Option, um automatisch Schlüsselworter zu erstellen, nachdem interaktiv oder automatisch GPS-Koordinaten zugewiesen wurden. Sie können einen freien Mix aus Text IMatch-Variablen, wie zum Beispiel {File.MD.country} oder {File.MD.location}, verwenden. Um ein hierarchisches Schlüsselwort zu erstellen, trennen Sie die Ebenen durch |. Beispiel: WO|{File.MD.country}|{File.MD.city}|{File.MD.location} => WO|Deutschland|Berlin|Alexanderplatz. Sie können mehrere Ausdrücke getrennt durch ; angeben.</desc>
+                <desc xml:lang="nl">Gebruik deze optie om automatisch trefwoorden te genereren, nadat interactief of automatisch GPS coördinaten zijn toegewezen. U kunt een vrije mix van tekst en IMatch variabelen gebruiken (zoals {File.MD.country} of {File.MD.location}). Om een hiërarchisch trefwoord te maken, moet u de niveaus scheiden met |. Voorbeeld: WAAR|{File.MD.country}|{File.MD.city}|{File.MD.location} => WAAr|United Kingdom|London|Tower Bridge. U kunt meerdere uitdrukkingen specificeren door hen van elkaar te scheiden met  ;</desc>
+
                 <group xml:lang="en">Services</group>
                 <group xml:lang="de">Dienste</group>
                 <group xml:lang="en">Palvelut</group>

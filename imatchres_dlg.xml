@@ -2073,7 +2073,7 @@
 			<ctrl text="#l_folderpath" style="bold">
 				<c xml:lang="en" helptext="">c:\data\images\travels\summer</c>
 				<c xml:lang="de" helptext="">c:\Daten\Bilder\Reisen\Sommer</c>
-				<c xml:lang="nl" helptext="">c:\data\fotos\reizen\Zomder</c>
+				<c xml:lang="nl" helptext="">c:\data\fotos\reizen\zomer</c>
 				<c xml:lang="pt" helptext="">c:\dados\imagens\viagens\verão</c>
 				<c xml:lang="no" helptext="">c:\data\bilder\reiser\sommer</c>
 				<c xml:lang="hr" helptext="">c:\podaci\slike\putovanja\ljeto</c>
@@ -3391,7 +3391,7 @@
 				<c xml:lang="en" helptext="">&amp;Tag name contains:</c>
 				<c xml:lang="de" helptext="">&amp;Tag-Name enthält:</c>
 				<c xml:lang="fi" helptext="">&amp;Kenttä:</c>
-				<c xml:lang="nl" helptext="">&amp;Tag:</c>
+				<c xml:lang="nl" helptext="">&amp;Tag-aanduiding bevat:</c>
 				<c xml:lang="pt" helptext="">&amp;Etiqueta:</c>
 				<c xml:lang="no" helptext="">Fel&amp;t:</c>
 				<c xml:lang="it" helptext="">&amp;Tag:</c>
@@ -3400,7 +3400,7 @@
 				<c xml:lang="en" helptext="">&amp;Group name contains:</c>
 				<c xml:lang="de" helptext="">&amp;Gruppenname enthält:</c>
 				<c xml:lang="fi" helptext="">&amp;Ryhmä:</c>
-				<c xml:lang="nl" helptext="">&amp;Groep:</c>
+				<c xml:lang="nl" helptext="">&amp;Groepsnaam bevat:</c>
 				<c xml:lang="pt" helptext="">&amp;Grupo:</c>
 				<c xml:lang="no" helptext="">&amp;Gruppe:</c>
 				<c xml:lang="it" helptext="">&amp;Gruppo:</c>
@@ -5255,10 +5255,12 @@
                 <td tid="caption_created">
 					<t xml:lang="en">Select Created Address</t>
 					<t xml:lang="de">Ursprungsadresse auswählen</t>
+					<t xml:lang="nl">Selecteer oorsprongsadres</t>
 				</td>
 				<td tid="caption_dest">
 					<t xml:lang="en">Select 'Shown' Address</t>
 					<t xml:lang="de">Zieladresse auswählen</t>
+					<t xml:lang="nl">Selecteer 'getoond' adres</t>
 				</td>
         
             </textdata>
@@ -5323,10 +5325,12 @@
             <ctrl text="#l_created">
                 <c xml:lang="en" helptext="">Created Coordinate</c>
                 <c xml:lang="de" helptext="">Ursprungskoordinate</c>
+				<c xml:lang="nl" helptext="">Oorsprongscoördinaten</c>
             </ctrl>
             <ctrl text="#l_dest">
                 <c xml:lang="en" helptext="">'Shown' Coordinate</c>
                 <c xml:lang="de" helptext="">Zielkoordinate</c>
+				<c xml:lang="nl" helptext="">Doelcoördinaten</c>
             </ctrl>
 
             <ctrl text="#l_country">
@@ -5392,10 +5396,12 @@
 			<ctrl text="#l_lookup_created">
 				<c xml:lang="en" helptext="">&amp;Lookup 'Created'</c>
 				<c xml:lang="de" helptext="">Ursprungsadresse &amp;laden</c>
+				<c xml:lang="nl" helptext="">Oorsprongsadres opha&amp;len</c>
 			</ctrl>
 			<ctrl text="#l_lookup_dest">
 				<c xml:lang="en" helptext="">&amp;Lookup 'Shown'</c>
 				<c xml:lang="de" helptext="">Zieladresse &amp;laden</c>
+				<c xml:lang="nl" helptext="">Doeladres opha&amp;len</c>
 			</ctrl>
             
 			<ctrl text="#l_lookupall">
@@ -5435,7 +5441,7 @@
 			<ctrl text="#l_nearby">
 				<c xml:lang="en" helptext="If you enable this, IMatch checks for files within the given distance and applies the changes to these files as well.">Apply changes to selected files within a radius of</c>
 				<c xml:lang="de" helptext="Wenn diese Option aktiviert ist, überträgt IMatch Änderungen auch auf die Dateien innerhalb des ausgewählten Radius.">Änderungen anwenden auf ausgewählte Dateien in einem Radius von</c>
-				<c xml:lang="nl" helptext="Als deze optie is geactiveerd, zal IMatch de wijzigingen ook aanbrengen voor bestanden die zich binnen de aangegeven afstand bevinden.">Pas wijzigingen ook toe op bestanden binnen een afstand van</c>
+				<c xml:lang="nl" helptext="Als deze optie is geactiveerd, zal IMatch de wijzigingen ook aanbrengen voor bestanden die zich binnen de aangegeven afstand bevinden.">Pas wijzigingen ook toe op geselecteerde bestanden binnen een afstand van</c>
 				<c xml:lang="pt" helptext="Se activar esta opção, o IMatch procura por ficheiros dentro da distância dada e aplica essa mudanças aos mesmos.">Aplicar mudanças aos ficheiros entre um raio de</c>
 				<c xml:lang="it" helptext="Se si attiva, IMatch controlla i file entro una determinata distanza e applica le modifiche a anche a questi file.">Applicare modifiche ai file in un raggio di</c>
 			</ctrl>
@@ -6173,7 +6179,7 @@
 		<dialog resid="PTRMDLG_FILTERPANEL_DIMS" desc="File Dimensions Form in Filter Panel">
 			<caption xml:lang="en">Orientation and Dimensions</caption>
 			<caption xml:lang="de">Ausrichtung und Abmessungen</caption>
-			<caption xml:lang="nl">Oriëntatie &amp; dimensies</caption>
+			<caption xml:lang="nl">Oriëntatie en dimensies</caption>
 			<caption xml:lang="pt">Orientação &amp; Dimensões</caption>
 			<caption xml:lang="no">Orientering &amp; dimensjoner</caption>
 			<caption xml:lang="fi">Suunta ja mitat</caption>
@@ -7013,6 +7019,7 @@
             <ctrl text="#l_scope">
                 <c xml:lang="en" helptext="Show only categories to which at least one of the files in the current scope is assigned.">Show only categories in &amp;scope</c>
                 <c xml:lang="de" helptext="Zeige nur Kategorien, die mindestens eine der Dateien im aktuellen Scope enthalten.">Nur kategorien im &amp;scope anzeigen</c>
+				<c xml:lang="nl" helptext="Toon alleen categorien waaraan tenminste één van de bestande in de actuele scope is toegewezen.">Toon alleen categorieën in &amp;scope</c>
             </ctrl>
 
             <ctrlhelp text="#l_btn_filter_reset">
@@ -7963,6 +7970,7 @@
             <ctrl text="#l_transforms">
                 <c xml:lang="en" helptext="Show only files which have a virtual rotation">Show files with &amp;virtual rotations</c>
                 <c xml:lang="de" helptext="Zeige nur Dateien, die virtuell gedreht wurden">Zeige nur Dateien, die &amp;virtuell gedreht wurden</c>
+				<c xml:lang="nl" helptext="Toon alleen bestanden met een virtuele rotatie">Toon bestanden met een &amp;virtuele rotatie</c>
             </ctrl>
 
 			<ctrl text="#l_hide_rejects">
@@ -19308,15 +19316,16 @@
                 <c xml:lang="en" hotkey="" helptext="">&amp;Regular Expression</c>
                 <c xml:lang="de" hotkey="" helptext="">&amp;Regulärer Ausdruck</c>
                 <c xml:lang="nl" hotkey="" helptext="">&amp;Reguliere expressie</c>
-				        <c xml:lang="pt" hotkey="" helptext="">Expressão &amp;Regular</c>
-				        <c xml:lang="fi" hotkey="" helptext="">&amp;Säännölliset lausekkeet</c>
-				        <c xml:lang="no" hotkey="" helptext="">&amp;Regulært uttrykk</c>
+				<c xml:lang="pt" hotkey="" helptext="">Expressão &amp;Regular</c>
+				<c xml:lang="fi" hotkey="" helptext="">&amp;Säännölliset lausekkeet</c>
+				<c xml:lang="no" hotkey="" helptext="">&amp;Regulært uttrykk</c>
                 <c xml:lang="it" hotkey="" helptext="">Espressione &amp;Regolare</c>
             </ctrl>
 
             <ctrl text="#l_check_regexp_case">
                 <c xml:lang="en" hotkey="" helptext="">Case-sens&amp;itive</c>
                 <c xml:lang="de" hotkey="" helptext="">Groß- und Kle&amp;inschreibung beachten</c>
+				<c xml:lang="nl" hotkey="" helptext="">Hoofdlettergevoel&amp;ig</c>
             </ctrl>
           
           
@@ -19351,6 +19360,7 @@
 				<td tid="cap_hint">
 					<t xml:lang="en">Usage instructions:</t>
 					<t xml:lang="de">Hinweise zur Benutzung:</t>
+					<t xml:lang="nl">Gebruiksaanwijzing:</t>
 				</td>
 			</textdata>
 
