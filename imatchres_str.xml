@@ -2319,6 +2319,7 @@
             <s xml:lang="en">Database upgrade running. This may take a few minutes...</s>
             <s xml:lang="de">Datenbankupgrade wird ausgeführt. Dies kann einige Minuten dauern...</s>
             <s xml:lang="nl">Database upgrade wodt uitgevoerd. Dit kan een paar minuten duren...</s>
+            <s xml:lang="pt">Actualização da base de dados em execução. Esta acção pode levar alguns minutos ... </s>
         </str>
 
 
@@ -2629,6 +2630,7 @@
         <s xml:lang="en">Loading App View...</s>
         <s xml:lang="de">Lade App-Ansicht...</s>
         <s xml:lang="ln">App-view laden...</s>
+        <s xml:lang="pt">Carregando a visualização da aplicação...</s>
       </str>
 
 
@@ -5822,36 +5824,43 @@
             <s xml:lang="en">Frequently used tags</s>
             <s xml:lang="de">Oft verwendete Tags</s>
             <s xml:lang="nl">Vaak gebruikte tags</s>
+            <s xml:lang="pt">Etiquetas utilizadas frequentemente</s>
         </str>
         <str resid="PTR_SEARCHSET_2">
             <s xml:lang="en">Description, Title, Headline, ...</s>
             <s xml:lang="de">Beschreibung, Titel, Überschrift, ...</s>
             <s xml:lang="nl">Omschrijving, titel, koptekst, ...</s>
+            <s xml:lang="pt">Descrição, Título, Cabeçalhoe, ...</s>
         </str>
         <str resid="PTR_SEARCHSET_4">
             <s xml:lang="en">Keywords</s>
             <s xml:lang="de">Schlüsselwörter</s>
             <s xml:lang="nl">Trefwoorden</s>
+            <s xml:lang="pt">Palavras-chave</s>
         </str>
         <str resid="PTR_SEARCHSET_8">
             <s xml:lang="en">File Name</s>
             <s xml:lang="de">Dateiname</s>
-            <s xml:lang="nl">Bestandsnaam</s>       
+            <s xml:lang="nl">Bestandsnaam</s>
+            <s xml:lang="pt">Nome do ficheiro</s>       
         </str>
         <str resid="PTR_SEARCHSET_16">
             <s xml:lang="en">Creator and Rights</s>
             <s xml:lang="de">Ersteller und Rechte</s>
             <s xml:lang="nl">Maker en rechten</s>
+            <s xml:lang="pt">Criador e Direitos</s>
         </str>
         <str resid="PTR_SEARCHSET_32">
             <s xml:lang="en">EXIF Camera Info</s>
             <s xml:lang="de">EXIF-Kameradaten</s>
             <s xml:lang="nl">EXIF Camera-gegevens</s>
+            <s xml:lang="pt">Informações EXIF da câmera</s>
         </str>
         <str resid="PTR_SEARCHSET_64">
             <s xml:lang="en">Location (Country, City, Location, ...)</s>
             <s xml:lang="de">Lokation (Land, Stadt, Ort, ...</s>
             <s xml:lang="nl">Locatie (Land, stad, plaats,  ...)</s>
+            <s xml:lang="pt">Local (País, Cidade, Local, ...)</s>
         </str>
     </string_group>
       
@@ -6217,6 +6226,7 @@
         <s xml:lang="en">No active file window.</s>
         <s xml:lang="de">Kein Dateifenster aktiv.</s>
         <s xml:lang="nl">Geen bestandsvenster actief.</s>
+        <s xml:lang="pt">Nenhuma janela de arquivo activa.</s>
       </str>
 
     </string_group>

@@ -5326,11 +5326,13 @@
                 <c xml:lang="en" helptext="">Created Coordinate</c>
                 <c xml:lang="de" helptext="">Ursprungskoordinate</c>
 				<c xml:lang="nl" helptext="">Oorsprongscoördinaten</c>
+				<c xml:lang="pt" helptext="">Coordenadas de origem</c>
             </ctrl>
             <ctrl text="#l_dest">
                 <c xml:lang="en" helptext="">'Shown' Coordinate</c>
                 <c xml:lang="de" helptext="">Zielkoordinate</c>
 				<c xml:lang="nl" helptext="">Doelcoördinaten</c>
+				<c xml:lang="pt" helptext="">Coordenadas de destino</c>
             </ctrl>
 
             <ctrl text="#l_country">
@@ -5397,11 +5399,13 @@
 				<c xml:lang="en" helptext="">&amp;Lookup 'Created'</c>
 				<c xml:lang="de" helptext="">Ursprungsadresse &amp;laden</c>
 				<c xml:lang="nl" helptext="">Oorsprongsadres opha&amp;len</c>
+				<c xml:lang="pt" helptext="">&amp;Obter endereço de origem</c>
 			</ctrl>
 			<ctrl text="#l_lookup_dest">
 				<c xml:lang="en" helptext="">&amp;Lookup 'Shown'</c>
 				<c xml:lang="de" helptext="">Zieladresse &amp;laden</c>
 				<c xml:lang="nl" helptext="">Doeladres opha&amp;len</c>
+				<c xml:lang="pt" helptext="">&amp;Recuperar endereço de destino</c>
 			</ctrl>
             
 			<ctrl text="#l_lookupall">
@@ -7020,6 +7024,7 @@
                 <c xml:lang="en" helptext="Show only categories to which at least one of the files in the current scope is assigned.">Show only categories in &amp;scope</c>
                 <c xml:lang="de" helptext="Zeige nur Kategorien, die mindestens eine der Dateien im aktuellen Scope enthalten.">Nur kategorien im &amp;scope anzeigen</c>
 				<c xml:lang="nl" helptext="Toon alleen categorien waaraan tenminste één van de bestande in de actuele scope is toegewezen.">Toon alleen categorieën in &amp;scope</c>
+				<c xml:lang="pt" helptext="Mostrar apenas categorias às quais pelo menos um dos arquivos no alvo actual foi atribuído.">Mostrar apenas categorias em &amp;alvo</c>
             </ctrl>
 
             <ctrlhelp text="#l_btn_filter_reset">
@@ -7971,6 +7976,7 @@
                 <c xml:lang="en" helptext="Show only files which have a virtual rotation">Show files with &amp;virtual rotations</c>
                 <c xml:lang="de" helptext="Zeige nur Dateien, die virtuell gedreht wurden">Zeige nur Dateien, die &amp;virtuell gedreht wurden</c>
 				<c xml:lang="nl" helptext="Toon alleen bestanden met een virtuele rotatie">Toon bestanden met een &amp;virtuele rotatie</c>
+				<c xml:lang="pt" helptext="Mostra apenas os ficheiros que têm uma rotação virtual">Mostra ficheiros com &amp;rotação virtual</c>
             </ctrl>
 
 			<ctrl text="#l_hide_rejects">
@@ -19326,6 +19332,7 @@
                 <c xml:lang="en" hotkey="" helptext="">Case-sens&amp;itive</c>
                 <c xml:lang="de" hotkey="" helptext="">Groß- und Kle&amp;inschreibung beachten</c>
 				<c xml:lang="nl" hotkey="" helptext="">Hoofdlettergevoel&amp;ig</c>
+				<c xml:lang="pt" hotkey="" helptext="">Sensibilidade a maiús&amp;culas</c>
             </ctrl>
           
           
@@ -19361,6 +19368,7 @@
 					<t xml:lang="en">Usage instructions:</t>
 					<t xml:lang="de">Hinweise zur Benutzung:</t>
 					<t xml:lang="nl">Gebruiksaanwijzing:</t>
+					<t xml:lang="pt">Instruções de uso:</t>
 				</td>
 			</textdata>
 

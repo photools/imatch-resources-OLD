@@ -1549,6 +1549,11 @@
                     <cont>Een App heeft toestemming gevraagd om het/de volgende script/applicatie uit te voeren bij afsluiten:\r\n\r\n{0}\r\n\r\nStaat u Imatch toe dit te doen?</cont>
                     <ftr typeid="[[TD_INFORMATION_ICON]]">Als deze actie niet door U werd geïnitieerd, zou U deze actie uit veiligheidsoverwegingen niet moeten toestaan.</ftr>
                 </m>
+				<m xml:lang="pt">
+                    <cap>Permissão para executar</cap>
+                    <cont>Uma aplicação solicitou permissão para executar o seguinte script/aplicação após a saída:\r\n\r\n{0}\r\n\r\nPermite que o Imatch faça isso?</cont>
+                    <ftr typeid="[[TD_INFORMATION_ICON]]">Se essa operação foi accionada por algo que você fez, é bem provável que esteja correcto. Se fôr inesperado, não deve permitir a sua execução por motivos de segurança.</ftr>
+                </m>
             </msg>
 
             <!-- Shown when certain operations cannot be peformed because IMatch waiting for a background operation -->
@@ -2050,8 +2055,8 @@
 				<m xml:lang="pt">
 					<cap>A fechar aplicações</cap>
 					<cont>Uma ou mais aplicações pedem para manter o IMatch em funcionamento. Isso pode acontecer se uma aplicação estiver no meio de algo e ainda não estiver pronta para fechar. Geralmente, ajuda aguardar alguns segundos e depois tentar fechar o IMatch novamente.</cont>
-					<button btnid="1001">Keep IMatch running</button>
-					<button btnid="1002">Close IMatch anyway</button>
+					<button btnid="1001">Mantenha o IMatch em execução</button>
+					<button btnid="1002">Fechar o IMatch de qualquer maneira</button>
 				</m>
 			</msg>
 
@@ -2075,6 +2080,12 @@
                     <button btnid="1001">Toch gebruiken</button>
                     <button btnid="1002">De actuele versie downloaden</button>
                 </m>
+				<m xml:lang="pt">
+                    <cap>A ajuda do IMatch está desactualizada</cap>
+                    <cont>A versão do sistema de ajuda do IMatch instalada no seu computador está desactualizada.</cont>
+                    <button btnid="1001">Utilize-a mesmo assim</button>
+                    <button btnid="1002">Descarregue a versão corrente (actualizada)</button>
+                </m>
             </msg>
 
             <msg resid="PTR_MSG_HELPAPP_MISSING" typeid="[[TD_INFORMATION_ICON]]">
@@ -2095,6 +2106,12 @@
                     <cont>U heeft het gebruik van de lokale help-versie geactiveerd, maar die is nog niet geïnstalleerd of kan niet woden gevonden.</cont>
                     <button btnid="1001">Schakel over naar de online help versie</button>
                     <button btnid="1002">Download de IMatch Help App</button>
+                </m>
+				<m xml:lang="pt">
+                    <cap>O sistema de ajuda do IMatch não está instalada</cap>
+                    <cont>Configurou o IMatch para utilizar o sistema de ajuda instalado no seu computador em vez da versão online. A ajuda do IMatch ainda não foi instalada ou não pode ser encontrada.</cont>
+                    <button btnid="1001">Mude para a versão da ajuda online</button>
+                    <button btnid="1002">Descarregue a aplicação que contém o sistema de ajuda do IMatch</button>
                 </m>
             </msg>
 
@@ -2119,6 +2136,13 @@
                     <ftr>U kunt dit op ieder geweenst moment wizigen onder Bewerken &gt; Voorkeuren &gt; Applicatie.</ftr>
                     <button btnid="1001">Gebruik de web help (standaard))</button>
                     <button btnid="1002">Download de aktuel versie van de help app</button>
+                </m>
+				<m xml:lang="pt">
+                    <cap>O sistema de ajuda do IMatch</cap>
+                    <cont>Por defeito, o IMatch utiliza o sistema de ajuda baseado na Web em www.photools.com. Desta forma garante que tenha sempre acesso à versão mais actualizada da ajuda e que possa traduzir fácilmente o conteúdo da mesma para o seu idioma utilizando os recursos de tradução integrados no seu navegador da Web.\r\n\r\nSe preferir uma ajuda instalada localmente ou o seu computador nem sempre estiver conectado à Internet, poderá descarregar uma versão independente do sistema de ajuda para instalação.</cont>
+                    <ftr>Pode mudar esta definição em qualquer altura no menu Editar &gt; Preferências &gt; Aplicação.</ftr>
+                    <button btnid="1001">Utiliza a ajuda online (Defeito)</button>
+                    <button btnid="1002">Descarregue a versão currente da aplicação de ajuda</button>
                 </m>
             </msg>
 
@@ -4261,6 +4285,10 @@
 				<m xml:lang="nl">
                     <cap>Lege categoriën worden door een filter verborgen</cap>
                     <cont>Om de nieuwe categorie te kunnen zien, moet u het filter "lege categoriën verbergen", uitschakelen.</cont>
+                </m>
+				<m xml:lang="pt">
+                    <cap>Categorias vazias estão ocultas por um filtro</cap>
+                    <cont>Para ver a nova categoria, desactive o filtro "ocultar categorias vazias".</cont>
                 </m>
            </msg>
 
@@ -7897,6 +7925,10 @@
                     <cap>GeoNames.org Reverse Geocoding</cap>
                     <cont>Um die von GeoNames.org bereitgestellte Funktionalität nutzen zu können, müssen Sie einen gültigen GeoNames.org Benutzernamen in Bearbeiten &gt; Einstellungen &gt; Geo &amp; Karten eintragen.\r\n\r\nSiehe die IMatch Hilfe (&lt;F1&gt;-Taste) für mehr Informationen.</cont>
                 </m>
+				<m xml:lang="pt">
+                    <cap>GeoNames.org Geocodificação inversa</cap>
+                    <cont>Para utilizar a Geocodificação inversa fornecida pela GeoNames.org tem de colocar um nome de utilizador válido em Editar &gt; Preferências &gt; Geo &amp; Mapas.\r\n\r\nConsultar a ajuda do IMatch (&lt;F1&gt; botão) para detalhes.</cont>
+                </m>
             </msg>
 
         </message_group>
@@ -10791,7 +10823,7 @@
             <msg resid="PTR_MSG_APPMGR_SERVICEAPP_PROMPT" typeid="[[IDI_EXCLAMATION]]" enablemarkup="true">
                 <m xml:lang="en">
                     <cap>New or Updated Service App</cap>
-                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>App <Bold>{0}</Bold><LineBreak/>loaded from '{1}'.<LineBreak/><LineBreak/>This app wants to run in the background. <LineBreak/>It has been started for the first time or it has been modifed since the last run.<LineBreak/><LineBreak/>Do you allow this app to run?</TextBlock>]]></cont>
+                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>App <Bold>{0}</Bold><LineBreak/>loaded from '{1}'.<LineBreak/><LineBreak/>This app wants to run in the background. <LineBreak/>It has been started for the first time or it has been modified since the last run.<LineBreak/><LineBreak/>Do you allow this app to run?</TextBlock>]]></cont>
                     <ftr typeid="[[TD_WARNING_ICON]]">Only run apps from trustworthy sources.</ftr>
                 </m>
                 <m xml:lang="de">
@@ -10803,6 +10835,11 @@
                     <cap>Nieuwe of vernieuwde Service App</cap>
                     <cont><![CDATA[<TextBlock TextWrapping='Wrap'>App <Bold>{0}</Bold><LineBreak/>geladen van '{1}'.<LineBreak/><LineBreak/>Deze app verzoekt om in de achtergrond te worden uitgevoerd.<LineBreak/>Deze app is nog niet eerder gestart of is na de laatste keer veranderd.<LineBreak/><LineBreak/>Staat u toe dat deze app wordt uitgevoerd?</TextBlock>]]></cont>
                     <ftr typeid="[[TD_WARNING_ICON]]">Sta alleen apps toe, die van een betrouwbare bron afkomstig zijn.</ftr>
+                </m>
+				<m xml:lang="pt">
+                    <cap>Aplicação de serviço novo ou modificado</cap>
+                    <cont><![CDATA[<TextBlock TextWrapping='Wrap'>App <Bold>{0}</Bold><LineBreak/>loaded from '{1}'.<LineBreak/><LineBreak/>Esta aplicação quer correr em segundo plano. <LineBreak/>Foi iniciada pela primeira vez ou foi modificada desde a última execução.<LineBreak/><LineBreak/>Permite que esta aplicação corra?</TextBlock>]]></cont>
+                    <ftr typeid="[[TD_WARNING_ICON]]">Corra aplicações apenas de fontes fidedignas.</ftr>
                 </m>
             </msg>
 
