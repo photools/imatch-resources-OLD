@@ -5830,7 +5830,7 @@
             <s xml:lang="en">Description, Title, Headline, ...</s>
             <s xml:lang="de">Beschreibung, Titel, Überschrift, ...</s>
             <s xml:lang="nl">Omschrijving, titel, koptekst, ...</s>
-            <s xml:lang="pt">Descrição, Título, Cabeçalhoe, ...</s>
+            <s xml:lang="pt">Descrição, Título, Cabeçalhos, ...</s>
         </str>
         <str resid="PTR_SEARCHSET_4">
             <s xml:lang="en">Keywords</s>
@@ -5848,7 +5848,7 @@
             <s xml:lang="en">Creator and Rights</s>
             <s xml:lang="de">Ersteller und Rechte</s>
             <s xml:lang="nl">Maker en rechten</s>
-            <s xml:lang="pt">Criador e Direitos</s>
+            <s xml:lang="pt">Criado por e Direitos</s>
         </str>
         <str resid="PTR_SEARCHSET_32">
             <s xml:lang="en">EXIF Camera Info</s>

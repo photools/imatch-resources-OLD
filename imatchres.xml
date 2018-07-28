@@ -9432,7 +9432,7 @@
                 <c xml:lang="en" hotkey="" helptext="Search for exact phrase matches">E&amp;xact Phrase</c>
                 <c xml:lang="de" hotkey="" helptext="Nach genauer Übereinstimmung suchen">Ge&amp;naue Übereinstimmung</c>
                 <c xml:lang="nl" hotkey="" helptext="Zoek naar een exacte overeenkomst">E&amp;xacte overeenkomst</c>
-                <c xml:lang="pt" hotkey="" helptext="Pesquisa por correspondência exacta de frases">Frase&amp;exacta</c>
+                <c xml:lang="pt" hotkey="" helptext="Pesquisa por correspondência exacta de frases">Frase&amp; exacta</c>
             </cmd>
 
             <cmd resid="ID_FILEWND_SEARCHBAR_MODE_ALLNOTSCOPE" bmidx="5">
