@@ -2863,13 +2863,12 @@
             </cmd>>
 
             <cmd resid="ID_VIEW_SHOW_FILEWNDCONTAINER_HTML2">
-                <c xml:lang="pt" hotkey="F9|21" helptext="Mostrar ou ocultar o painel de HTML">HTML &amp;2</c>
+                <c xml:lang="pt" hotkey="F9|2" helptext="Mostrar ou ocultar o painel de App">App &amp;2</c>
                 <c xml:lang="no" hotkey="F9|2" helptext="Vise eller skjule App panelet">App &amp;2</c>
                 <c xml:lang="en" hotkey="F9|2" helptext="Show or hide the App panel">App Panel &amp;2</c>
                 <c xml:lang="de" hotkey="F9|2" helptext="Anzeigen oder Verbergen des App-Panels">App-Panel &amp;2</c>
                 <c xml:lang="fi" hotkey="F9|2" helptext="Näytä tai piilota Sovelluspaneeli">Sovelluspaneeli &amp;2</c>
                 <c xml:lang="nl" hotkey="F9|2" helptext="Toon of verberg het App-paneel">App-paneel &amp;2</c>
-                <c xml:lang="pt" hotkey="F9|21" helptext="Mostrar ou ocultar o painel de App">App &amp;2</c>
                 <c xml:lang="hr" hotkey="F9|2" helptext="Pokaži ili sakrij App ploču">App ploču &amp;2</c>
                 <c xml:lang="no" hotkey="F9|2" helptext="Vise eller skjule App panelet">App panelet &amp;2</c>
                 <c xml:lang="it" hotkey="F9|2" helptext="Mostra o Nasconde il pannello App">Pannello App &amp;2</c>
