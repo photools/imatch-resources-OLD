@@ -3360,7 +3360,20 @@
 				</m>
 			</msg>
 
-		</message_group>
+            <msg resid="PTR_MSG_FILEWND_SEARCH_STACK_WARNING" typeid="[[TD_INFORMATION_ICON]]">
+                <m xml:lang="en">
+                    <cap>Stacked Files</cap>
+                    <cont>Some files are currently hidden by one or more stacks and will not be searched\r\n\r\nTo search all files, make sure all stacks are expanded.</cont>
+                    <ver>Don't show again</ver>
+                </m>
+                <m xml:lang="de">
+                    <cap>Dateistapel</cap>
+                    <cont>Einige Dateien sind durch Stapel verborgen und werden nicht durchsucht.\r\n\r\nUm alle Dateien zu durchsuchen, klappen Sie die Stapel zuvor auf.</cont>
+                    <ver>Nicht wieder anzeigen</ver>
+                </m>
+            </msg>
+
+        </message_group>
 .
 		<!-- Messages used by the folder tree control -->
 

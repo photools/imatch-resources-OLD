@@ -672,7 +672,6 @@
         </alias>
 		<alias resid="PTR_MSG_IMPEXP_BATCH_EXPORT_CLEANFOLDERWARNING">
 			<a xml:lang="en-us">impexp_batchprocessor.htm</a>
-			<a xml:lang="nl">impexp_batchprocessor.htm</a>
 		</alias>
 		<alias resid="PTR_IMPEXP_IMAGEEXPORT_NAME_N">
             <a xml:lang="en-us">impexp_batchprocessor.htm</a>
@@ -5628,6 +5627,423 @@
 			<a xml:lang="en-us">app_basics.htm</a>
 		</alias>
 
+        <alias resid="ID_DB_BATCH_PROCESSOR">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_RUN">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_1">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_2">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_3">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_4">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_5">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_6">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_7">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_8">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_9">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_10">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_11">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_12">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_13">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_14">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_15">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_16">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_17">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_18">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_19">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_20">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_21">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_22">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_23">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_24">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_25">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_26">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_27">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_28">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_29">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_DB_BATCH_PROCESSOR_30">
+            <a xml:lang="en-us">impexp_batchprocessor.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_TOGGLE_HIDE">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_MENU">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_1">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_2">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_3">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_4">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_5">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_6">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_7">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_8">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_9">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_10">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_11">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_12">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_13">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_14">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_15">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_16">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_17">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_18">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_19">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_VIEW_APP_20">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_PH_DB">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_PH_DBTOOLS">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_PH_COMMANDS">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_PH_SEARCH">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_PH_TOOLS">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_PH_CONTEXTMENU">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_1">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_2">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_3">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_4">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_5">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_6">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_7">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_8">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_9">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_10">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_11">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_12">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_13">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_14">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_15">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_16">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_17">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_18">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_19">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_20">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_21">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_22">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_23">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_24">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_25">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_26">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_27">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_28">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_29">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_30">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_31">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_32">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_33">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_34">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_35">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_36">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_37">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_38">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_39">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_40">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_41">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_42">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_43">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_44">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_45">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_46">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_47">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_48">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_49">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_APP_COMMAND_50">
+            <a xml:lang="en-us">ws_main.htm</a>
+        </alias>
+        <alias resid="ID_CMD_GROUPFILTER_TOGGLE_DD">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_CMD_GROUPFILTER_TOGGLE_KEYWORDS">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_CMD_FILE_OPEN_FW_TOOLBAR">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_CMD_FILE_OPEN_FW_TOOLBAR_ICON">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_CMD_COLLECTION_RENAME_TAG">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_FILEWND_SHOW_STACKED">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_FILEWND_SHOW_STACKED_ENABLED">
+            <a xml:lang="en-us">fw_basics.htm</a>
+        </alias>
+        <alias resid="ID_FILEWND_SEARCHBAR_MODE_EXACTMATCH">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_FILEWND_SEARCHBAR_SET_1">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_FILEWND_SEARCHBAR_SET_2">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_FILEWND_SEARCHBAR_SET_3">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_FILEWND_SEARCHBAR_SET_4">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_FILEWND_SEARCHBAR_SET_5">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_FILEWND_SEARCHBAR_SET_6">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_FILEWND_SEARCHBAR_SET_7">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_FILEWND_SEARCHBAR_SET_8">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_FILEWND_SEARCHBAR_SET_9">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_FILEWND_SEARCHBAR_SET_10">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="ID_VIEWER_ZOOM_ALLOW_GROW">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="PTR_MSG_APPMGR_SERVICEAPP_PROMPT">
+            <a xml:lang="en-us">app_basics.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_APPPREFS_INDEXING_FOLDER_REGEXP">
+            <a xml:lang="en-us">rmh_config_indexing.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_APP_RUN_ON_EXIT">
+            <a xml:lang="en-us">welcome.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_CATEGORY_HIDEACTIVE">
+            <a xml:lang="en-us">cat_basics.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_COLL_RENAME_FACE_TAG">
+            <a xml:lang="en-us">col_basics.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_FILEWND_SEARCH_STACK_WARNING">
+            <a xml:lang="en-us">fw_basics.htm#a_search</a>
+        </alias>
+        <alias resid="PTR_MSG_GEO_GEONAMES_API_KEY">
+            <a xml:lang="en-us">rmh_config_geo.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_HELPAPP_MISSING">
+            <a xml:lang="en-us">rmh_config_appsettings.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_HELPAPP_OUTDATED">
+            <a xml:lang="en-us">rmh_config_appsettings.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_HELP_CHOICE">
+            <a xml:lang="en-us">rmh_config_appsettings.htm</a>
+        </alias>        
 	</alias_table>
 
 </help_resources>
