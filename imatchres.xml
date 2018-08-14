@@ -36810,7 +36810,7 @@
             <property resid="app.geo.var" desc="">
                 <name xml:lang="en">Create keywords from this expression</name>
                 <name xml:lang="de">Schlüsselworter aus diesem Asudruck erstellen</name>
-                <name xml:lang="nl">maak trefwoorden vanuit deze uitdrukking</name>
+                <name xml:lang="nl">Maak trefwoorden vanuit deze uitdrukking</name>
                 <name xml:lang="pt">Crie palavras-chave a partir desta expressão</name>
                 <desc xml:lang="en">This allows you to automatically create a keywords after GPS data has been set interactively or automatically. Use a free mix of text and IMatch variables (like {File.MD.country} or {File.MD.location}). To create a hierarchical keyword, separate the levels with |. Example: WHERE|{File.MD.country}|{File.MD.city}|{File.MD.location} => WHERE|United Kingdom|London|Tower Bridge. You can specify multiple expressions by separating them with ;</desc>
                 <desc xml:lang="de">Nutzen Sie diese Option, um automatisch Schlüsselworter zu erstellen, nachdem interaktiv oder automatisch GPS-Koordinaten zugewiesen wurden. Sie können einen freien Mix aus Text IMatch-Variablen, wie zum Beispiel {File.MD.country} oder {File.MD.location}, verwenden. Um ein hierarchisches Schlüsselwort zu erstellen, trennen Sie die Ebenen durch |. Beispiel: WO|{File.MD.country}|{File.MD.city}|{File.MD.location} => WO|Deutschland|Berlin|Alexanderplatz. Sie können mehrere Ausdrücke getrennt durch ; angeben.</desc>

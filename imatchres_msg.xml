@@ -1599,7 +1599,7 @@
                 <m xml:lang="nl">
                     <cap>Achtergrondverwerking</cap>
                     <cont>IMatch verwerkt nu de bestanden in een achtergrondproces.\n\nU kunt gewoon verder werken met IMatch; u merkt misschien korte vertraging bij een aantal functies. Controleer de voortgang in de statusbalk en het 'Info &amp; Activiteitenpaneel'.</cont>
-					<ver>Niet meer tonen</ver>
+					<ver>Niet opnieuw tonen</ver>
                 </m>
                 <m xml:lang="hr">
                     <cap>Pozadinska obrada</cap>
@@ -1794,7 +1794,7 @@
 					<button btnid="1001">Open nu de logfile.</button>
 					<button btnid="1002">Ga op de normale manier verder.</button>
 					<button btnid="1003">Toon de help voor de logfile.</button>
-					<ver>Niet meer tonen</ver>
+					<ver>Niet opnieuw tonen</ver>
 				</m>
 				<m xml:lang="it">
 					<cap>Riportati Errori</cap>
@@ -2135,7 +2135,7 @@
                     <cont>IMatch gebruikt standaard de web-georienteerde help op www.photools.com. Dat verzekert dat u altijd toegang heeft tot de meest recente versie en dat u systeem dat eenvoudig kunt vertalen met de vertaalopties die in uw browser zijn ingebouwd.\r\n\r\nAls u echter de voorkeur geeft aan een lokaal geïnstalleerde versie of als uw computer niet altijd verboden is met het Internet, kunt u een zelfstandige versie van het help-systeem downloaden om te installeren.</cont>
                     <ftr>U kunt dit op ieder geweenst moment wizigen onder Bewerken &gt; Voorkeuren &gt; Applicatie.</ftr>
                     <button btnid="1001">Gebruik de web help (standaard))</button>
-                    <button btnid="1002">Download de aktuel versie van de help app</button>
+                    <button btnid="1002">Download de actuele versie van de help app</button>
                 </m>
 				<m xml:lang="pt">
                     <cap>O sistema de ajuda do IMatch</cap>
@@ -2928,7 +2928,7 @@
                 <m xml:lang="nl">
                     <cap>Bestanden afwijzen</cap>
                     <cont><![CDATA[<TextBlock TextWrapping='Wrap'>U hebt in uw instellingen bepaald dat bestanden worden <Italic>afgekeurd</Italic> als u de <Bold>Del</Bold>-toets indrukt. Om de afkeuring te verwijderen, druk nogmaals <Bold>Del</Bold>. Om het bestand te verwijderen, druk <Bold>Ctrl+Del</Bold>.<LineBreak/><LineBreak/>U kunt deze instellingen aanpassen via <Italic>Bewerken > Voorkeuren > Applicatie</Italic>.</TextBlock>]]></cont>
-                    <ver>Niet meer tonen</ver>
+                    <ver>Niet opnieuw tonen</ver>
                 </m>
 				<m xml:lang="pt">
                     <cap>Rejeição de Ficheiros</cap>
@@ -3123,7 +3123,7 @@
                <m xml:lang="nl">
                     <cap>Enige metadata zijn schrijfbeschermd</cap>
                     <cont><![CDATA[In Bewerken > Voorkeuren > Metadata 2 hebt u de opties om ongeschreven metadata en/of rating en labelinformatie te beschermen geactiveerd. Deze instellingen zijn ook actief bij het importeren van bestanden.]]></cont>
-					<ver>Niet meer tonen</ver>
+					<ver>Niet opnieuw tonen</ver>
                 </m>
                 <m xml:lang="hr">
                     <cap>Neki metapodaci su zaštićeni</cap>
@@ -5892,7 +5892,7 @@
                     <cap>Wijzigingen zijn opgeslagen in de database.</cap>
                     <cont><![CDATA[<TextBlock TextWrapping='Wrap'>Automatisch terugschrijven is gedeactiveerd.\r\nOm de metadata-wijzigingen op te slaan in het bestand, gebruik de acties in het <Bold>Commando</Bold>-menu of klik op het <Bold>Pen</Bold>-pictogram in het bestandsvenster-paneel.</TextBlock>]]></cont>
                     <ftr><![CDATA[<TextBlock>Selecteer <Italic>Bewerken > Eigenschappen > Achtergrondprocessen</Italic> om te definiëren wanneer IMatch metadata in bestanden schrijft.</TextBlock>]]></ftr>
-                    <ver>Don't show again</ver>
+                    <ver>Niet opnieuw tonen</ver>
                 </m>
 				<m xml:lang="pt">
                     <cap>As alterações são gravadas na base de dados.</cap>
@@ -7757,7 +7757,7 @@
                 <m xml:lang="nl">
                     <cap>GPS-data bijwerken</cap>
                     <cont>Deze actie werkt in alle geselecteerde bestanden de GPS-data bij.\r\nWilt u doorgaan?</cont>
-                    <ver>Niet meer tonen</ver>
+                    <ver>Niet opnieuw tonen</ver>
                 </m>
 				<m xml:lang="pt">
                     <cap>Actualização de dados GPS</cap>
@@ -7798,7 +7798,7 @@
                 <m xml:lang="nl">
                     <cap>Teveel bestanden geselecteerd</cap>
                     <cont>U hebt het Geopaneel geconfigureerd om maximaal {0} bestanden te tonen.</cont>
-                    <ver>Niet meer tonen</ver>
+                    <ver>Niet opnieuw tonen</ver>
                     <ftr>U kunt deze waarde on Bewerken &gt; Eigenschappen &gt; Applicatie aanpassen</ftr>
                 </m>
                 <m xml:lang="hr">
@@ -7901,7 +7901,7 @@
 				<m xml:lang="nl">
 					<cap>Metadata overnemen</cap>
 					<cont>IMatch slaat de locatie-informatie op in een set van standaard metagegevensvelden. Afhankelijk van uw instellingen voor metagegevens, zal deze informatie in andere metagegevensvelden worden overgenomen en opgeslagen.\r\n\r\nOm het uiteindelijke resultaat te zien, moet u de metagegevens terugschrijven.</cont>
-					<ver>Don't show again</ver>
+					<ver>Niet opnieuw tonen</ver>
 				</m>
 				<m xml:lang="pt">
 					<cap>Mapeando os metadados</cap>
@@ -8157,7 +8157,7 @@
 				<m xml:lang="nl">
 					<cap>Gezichts-aanduiding</cap>
 					<cont>Met dit type aantekening kunt u gezichten in de afbeelding aanduiden en voorzien van een 'kenmerk'(naam, trefwoord) bij ieder gezicht. Later kunt alle afbeeldingen met gezichtsaanduidingen in Collecties zien, waarbij ze automatisch worden gegroepeerd naar trefwoord.\r\n\r\nMeer gedetailleerde informatie vindt u in de IMatch help.</cont>
-					<ver>Don't show again</ver>
+					<ver>Niet opnieuw tonen</ver>
 				</m>
 				<m xml:lang="pt">
 					<cap>Anotação da face</cap>
@@ -8726,7 +8726,7 @@
                 <m xml:lang="nl">
                     <cap>E-mail accounts</cap>
                     <cont>U hebt nog geen e-mail account geconfigureerd. U kunt uw mail-server e.d. configureren door op de [...]-knop naast de accountlijst te klikken.</cont>
-					<ver>Niet meer tonen</ver>
+					<ver>Niet opnieuw tonen</ver>
                 </m>
                 <m xml:lang="hr">
                     <cap>Račun e-pošte</cap>
@@ -10184,7 +10184,7 @@
             <m xml:lang="nl">
               <cap>Ontwikkelmodus</cap>
               <cont>Om applicatie- en databasescripts te wijzigen moet u de ontwikkelmodus activeren.\r\nKies 'Ontwikkelmodus' uit het Scriptmenu of klik op de corresponderende werkbalkknop.</cont>
-              <ver>Niet meer tonen</ver>
+              <ver>Niet opnieuw tonen</ver>
             </m>
             <m xml:lang="hr">
               <cap>Dizajnerski način</cap>
@@ -10217,7 +10217,7 @@
 				<m xml:lang="nl">
 					<cap>Systeemscript bewerken</cap>
 					<cont>U opent een systeemscript voor bewerking. Als u een IMatch-update installeert, worden alle wijzigingen op systeemscripts overschreven.\n\nAls u uw eigen script op basis van een systeemscript wilt maken, kopieer het systeemscript en alle bijbehorende bestanden in de "User"-folder..</cont>
-					<ver>Don't show again</ver>
+					<ver>Niet opnieuw tonen</ver>
 				</m>
 				<m xml:lang="hr">
 					<cap>Uređivanje sistemske skripte</cap>
