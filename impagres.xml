@@ -556,6 +556,10 @@
 				<c xml:lang="pt" helptext="\r\nSe activar esta opção, os ficheiros de cache de todas as bases de dados também serão incluídos.\r\nIsto pode originar um ficheiro de pacote muito grande!">Coloca no pacote também os ficheiros de c&amp;ache</c>
 				<c xml:lang="no" helptext="\r\nDersom denne opsjonen aktiveres vil cachefiler for alle valgte databaser inkluderes i pakken.\r\nDette kan generere svært store pakkefiler!">Pakk også c&amp;achefiler</c>
 			</ctrl>
+			<ctrl text="#l_check_run">
+				<c xml:lang="en" helptext="\r\nThis option allows you to run the command specified below when the pack process is complete.\r\nUse it to run a batch command or script, shut down your PC etc.">&amp;Run this command on completion:</c>
+				<c xml:lang="de" helptext="\r\nDiese Option erlaubt die Ausführung des unten angegebenen Befehls nach Ascbhluss des Packvorgangs.\r\nNutzen Sie dies zur Ausführung einer Batch-Datei oder Skripts, zum Runterfahren Ihres PCs usw.">Nach Abschluss diesen Befehl ausfüh&amp;ren:</c>
+			</ctrl>
 
 			<textdata>
 				<!-- The header -->
