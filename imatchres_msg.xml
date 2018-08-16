@@ -6475,7 +6475,18 @@
 					<cont>Não pode combinar o modo 'Correr para cada ficheiro' com as variáveis {Ficheiros} ou {Ficheiros XMP}.\r\n\r\nUtilize {Ficheiro.Nome completo} ou similar de forma a endereçar o ficheiro actual em cada execução.</cont>
 				</m>
 			</msg>
-		
+
+			<msg resid="PTR_MSG_EXIFTOOLDLG_PROMPT" typeid="[[IDI_QUESTION]]">
+				<m xml:lang="en">
+					<cap>Warning</cap>
+					<cont>The commands in this preset modify or delete data.\r\nDo you want to run it anyway?</cont>
+				</m>
+				<m xml:lang="de">
+					<cap>Warnung</cap>
+					<cont>Die Befehle in dieser Vorlage ändern oder löschen Daten.\r\nMöchten Sie es dennoch ausführen?</cont>
+				</m>
+			</msg>
+        
 		</message_group>
 
         
@@ -7715,31 +7726,31 @@
             <msg resid="PTR_MSG_GEO_SERVERDOWN" typeid="[[IDI_INFORMATION]]" desc="Server down">
                 <m xml:lang="en">
                     <cap>Connection Problem</cap>
-                    <cont>IMatch could not establish a connection with the geocoding service at {servicename}.\nThe server may be unavailable or too busy. Please try again later.</cont>
+                    <cont>IMatch could not establish a connection with the geocoding service at {servicename}.\nThe server may be unavailable or too busy. Please try again later.\r\n\r\n{message}</cont>
                 </m>
                 <m xml:lang="de">
                     <cap>Verbindungsproblem</cap>
-                    <cont>IMatch konnte keine Verbindung mit dem Geokodierungsdienst {servicename} herstellen.\nDer Server ist vermutlich zurzeit nicht verfügbar oder überlastet. Versuchen Sie es später noch einmal.</cont>
+                    <cont>IMatch konnte keine Verbindung mit dem Geokodierungsdienst {servicename} herstellen.\nDer Server ist vermutlich zurzeit nicht verfügbar oder überlastet. Versuchen Sie es später noch einmal.\r\n\r\n{message}</cont>
                 </m>
                 <m xml:lang="nl">
                     <cap>Probleem met de connectie</cap>
-                    <cont>IMatch kan geen verbinding met de geocoderingsdienst {servicename} tot stand brengen.\nDe server is niet beschikbaar of overbelast. Probeer later nogmaals.</cont>
+                    <cont>IMatch kan geen verbinding met de geocoderingsdienst {servicename} tot stand brengen.\nDe server is niet beschikbaar of overbelast. Probeer later nogmaals.\r\n\r\n{message}</cont>
                 </m>
 				<m xml:lang="pt">
                     <cap>Problema de Ligação</cap>
-                    <cont>O IMatch não conseguiu estabelecer uma ligação com o serviço de georeferenciação {servicename}.\nO servidor pode estar indisponível ou demasiado carregado. Por favor, tente mais tarde.</cont>
+                    <cont>O IMatch não conseguiu estabelecer uma ligação com o serviço de georeferenciação {servicename}.\nO servidor pode estar indisponível ou demasiado carregado. Por favor, tente mais tarde.\r\n\r\n{message}</cont>
                 </m>
 				<m xml:lang="no">
                     <cap>Tilkoblingsproblem</cap>
-                    <cont>IMatch kunne ikke koble til geokodingstjenesten {servicename}.\nServeren kan være opptatt eller utilgjengelig. Prøv igjen senere.</cont>
+                    <cont>IMatch kunne ikke koble til geokodingstjenesten {servicename}.\nServeren kan være opptatt eller utilgjengelig. Prøv igjen senere.\r\n\r\n{message}</cont>
                 </m>
 				<m xml:lang="hr">
                     <cap>Problem u povezivanju</cap>
-                    <cont>IMatch se nije mogao povezati sa servisom za geokodiranje {servicename}.\nPoslužitelj nije dostupan ili je zauzet. Pokušaj ponovo kasnije.</cont>
+                    <cont>IMatch se nije mogao povezati sa servisom za geokodiranje {servicename}.\nPoslužitelj nije dostupan ili je zauzet. Pokušaj ponovo kasnije.\r\n\r\n{message}</cont>
                 </m>
                 <m xml:lang="it">
                     <cap>Problema di connessione</cap>
-                    <cont>IMatch non ha potuto stabilire una connessione con il servizio di geocoding presso {servicename}.\nIl server potrebbe essere troppo occupato o non disponibile. Riprova più tardi.</cont>
+                    <cont>IMatch non ha potuto stabilire una connessione con il servizio di geocoding presso {servicename}.\nIl server potrebbe essere troppo occupato o non disponibile. Riprova più tardi.\r\n\r\n{message}</cont>
                 </m>
             </msg>
 

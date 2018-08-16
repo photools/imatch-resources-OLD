@@ -10176,14 +10176,12 @@
                 <c xml:lang="it" hotkey="Ctrl+Z" helptext="Cancella i cambiamenti e ritorna al contenuto del database">&amp;Cancella Cambiamenti</c>
             </cmd>
             <cmd resid="ID_MDCONTAINER_QUERY" bmidx="-1">
-                <c xml:lang="en" hotkey="" helptext="Find all files with the same value for this tag">&amp;Find all files with this value...</c>
-                <c xml:lang="de" hotkey="" helptext="Alle Dateien mit dem gleichen Wert in diesem Tag suchen">Alle Dateien mit diesem Wert &amp;suchen...</c>
-                <c xml:lang="fi" hotkey="" helptext="Hae kaikki tiedostot, joilla on tämä tunniste">Hae kaikki tiedostot, &amp;joilla on tunniste...</c>
-                <c xml:lang="nl" hotkey="" helptext="Alle bestanden met gelijke waarde voor dit label zoeken">Alle bestanden met gelijke waarde &amp;zoeken...</c>
-                <c xml:lang="pt" hotkey="" helptext="Localizar todos os ficheiros com o mesmo valor nesta etiqueta">&amp;Localizar todos os ficheiros com este valor...</c>
-                <c xml:lang="hr" hotkey="" helptext="Nađi sve datoteke s istom oznakom">&amp;Nađi sve datoteke s istom oznakom...</c>
-                <c xml:lang="no" hotkey="" helptext="Finn alle filer med samme verdi for denne taggen">&amp;Finn alle filer med denne verdien...</c>
-                <c xml:lang="it" hotkey="" helptext="Trova tutti i file con lo stesso valore di di questo tag">&amp;Trova tutti i file con questo valore...</c>
+                <c xml:lang="en" hotkey="" helptext="Find all files with the same value for this tag">&amp;Find all files with this value (Entire database)...</c>
+                <c xml:lang="de" hotkey="" helptext="Alle Dateien mit dem gleichen Wert in diesem Tag suchen">Alle Dateien mit diesem Wert &amp;suchen (Gesamte Datenbank)...</c>
+            </cmd>
+            <cmd resid="ID_MDCONTAINER_QUERY_SCOPE" bmidx="-1">
+                <c xml:lang="en" hotkey="" helptext="Find all files with the same value for this tag">&amp;Find all files with this value (Current scope)...</c>
+                <c xml:lang="de" hotkey="" helptext="Alle Dateien mit dem gleichen Wert in diesem Tag suchen">Alle Dateien mit diesem Wert &amp;suchen (aktueller Kontext)...</c>
             </cmd>
             <cmd resid="ID_MDCONTAINER_GEOCODE" bmidx="10">
                 <c xml:lang="en" hotkey="Ctrl+M|G" helptext="Reverse Geocode all selected files">Reverse &amp;Geocode all selected files...</c>
@@ -10195,7 +10193,6 @@
                 <c xml:lang="hr" hotkey="Ctrl+M|G" helptext="Pronađi adrese svih odabranih datoteka">Pronađi adrese svih odabranih datoteka...</c>
                 <c xml:lang="pt" hotkey="Ctrl+M|G" helptext="Executa a Geocodificação inversa em todos os ficheiros seleccionados">Geocodificação &amp;Inversa em todos os ficheiros seleccionados...</c>
             </cmd>
-
         </command_group>
 
 
@@ -17419,6 +17416,7 @@
             <item canhide="true">ID_MDCONTAINER_COPY_TAGNAME</item>
             <item canhide="true">ID_MDCONTAINER_COPY_ASVAR</item>
             <separator/>
+            <item canhide="true">ID_MDCONTAINER_QUERY_SCOPE</item>
             <item canhide="true">ID_MDCONTAINER_QUERY</item>
             <separator/>
             <item>ID_MDCONTAINER_PANEL_KW_GOTO_PREVFILE</item>
@@ -17463,6 +17461,7 @@
             <item>ID_MDCONTAINER_COPY_TAGNAME</item>
             <item>ID_MDCONTAINER_COPY_ASVAR</item>
             <separator/>
+            <item >ID_MDCONTAINER_QUERY_SCOPE</item>
             <item>ID_MDCONTAINER_QUERY</item>
             <separator/>
             <item>ID_MDCONTAINER_OPENINBROWSER</item>
@@ -29899,6 +29898,13 @@
                         <c xml:lang="hr" desc="Ovaj atribut ti omogućava pristup svim dostupnim oznakama metapodataka u bazi podataka. Unesi oznaku u donje polje.">Oznaka metapodatka</c>
                     </choice>
 
+                    <!--
+                    <choice data="65566">
+                        <c xml:lang="en" desc="">Cropped Dimensions</c>
+                        <c xml:lang="de" desc="">Beschnittene Abmessungen</c>
+                    </choice>
+                    -->
+                    
                     <choice data="40">
                         <c xml:lang="en">Similarity</c>
                         <c xml:lang="no">Likhet</c>

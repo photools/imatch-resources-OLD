@@ -4445,27 +4445,27 @@
 					<t xml:lang="pt">Todas as palavras chave|-G1\r\n-IPTC:Palavras chave\r\n-XMP:Assunto\r\n-XMP:Assunto hierárquico\r\n{Files}</t>
                 </td>
                 <td tid="dp_deleteall">
-                    <t xml:lang="en">Delete all Metadata|-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-                    <t xml:lang="de">Alle Metadaten löschen|-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-                    <t xml:lang="nl">All Metadata verwijderen|-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-					<t xml:lang="pt">Eliminar Todos os Metadados|-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-					<t xml:lang="no">Slett alle metadata|-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-                    <t xml:lang="it">Cancella tutti i Metadati|-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="en">Delete all Metadata|# im-warn\r\n-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="de">Alle Metadaten löschen|# im-warn\r\n-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="nl">All Metadata verwijderen|# im-warn\r\n-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="pt">Eliminar Todos os Metadados|# im-warn\r\n-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="no">Slett alle metadata|# im-warn\r\n-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="it">Cancella tutti i Metadati|# im-warn\r\n-overwrite_original_in_place\r\n-all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
                 </td>
                 <td tid="dp_delete_xmp">
-                    <t xml:lang="en">Delete XMP Metadata|-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-                    <t xml:lang="de">XMP-Metadaten löschen|-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-					<t xml:lang="pt">Apagar Metadados XMP|-sobrescreve_original_no_lugar\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-                    <t xml:lang="it">Eliminare i metadati XMP|-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-					<t xml:lang="nl">XMP Metadata wissen|-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="en">Delete XMP Metadata|# im-warn\r\n-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="de">XMP-Metadaten löschen|# im-warn\r\n-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="pt">Apagar Metadados XMP||# im-warn\r\n-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="it">Eliminare i metadati XMP|# im-warn\r\n-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="nl">XMP Metadata wissen|# im-warn\r\n-overwrite_original_in_place\r\n-xmp=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
                 </td>
                 <td tid="dp_setheadline">
-                    <t xml:lang="en">Set XMP Headline|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Headline\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-                    <t xml:lang="de">Setze XMP Überschrift|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Überschrift\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-                    <t xml:lang="nl">XMP Headline|-overwrite_original_in_place\r\n-xmp-photoshop:headline=titel\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-					<t xml:lang="pt">Definir Cabeçalho XMP|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Cabeçalho\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-					<t xml:lang="no">Sett XMP overskrift|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Headline\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-                    <t xml:lang="it">Imposta Headline XMP|-overwrite_original_in_place\r\n-xmp-photoshop:headline=Headline\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="en">Set XMP Headline|# im-warn\r\n-overwrite_original_in_place\r\n-xmp-photoshop:headline=Headline\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="de">Setze XMP Überschrift|# im-warn\r\n-overwrite_original_in_place\r\n-xmp-photoshop:headline=Überschrift\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="nl">XMP Headline|# im-warn\r\n-overwrite_original_in_place\r\n-xmp-photoshop:headline=titel\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="pt">Definir Cabeçalho XMP|# im-warn\r\n-overwrite_original_in_place\r\n-xmp-photoshop:headline=Cabeçalho\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="no">Sett XMP overskrift|# im-warn\r\n-overwrite_original_in_place\r\n-xmp-photoshop:headline=Headline\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+                    <t xml:lang="it">Imposta Headline XMP|# im-warn\r\n-overwrite_original_in_place\r\n-xmp-photoshop:headline=Headline\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
                 </td>
                 <td tid="dp_contents">
                     <t xml:lang="en">List Metadata|-G1\r\n-all\r\n-a\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
@@ -4498,16 +4498,16 @@
 					<t xml:lang="pt">Lista as Datas e horas dos ficheiros|-hora:all\r\n-a\r\n-G0:1\r\n-s\r\n{Ficheiros}</t>
                 </td>
 				<td tid="dp_del_crs">
-					<t xml:lang="en">Delete Camera RAW data|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-					<t xml:lang="de">Kamera RAW-Daten löschen|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-					<t xml:lang="nl">Camera RAW data wissen|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-					<t xml:lang="pt">Apagar os dados Camera RAW|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-					<t xml:lang="it">Cancella Camera RAW data|-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="en">Delete Camera RAW data|# im-warn\r\n-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="de">Kamera RAW-Daten löschen|# im-warn\r\n-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="nl">Camera RAW data wissen|# im-warn\r\n-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="pt">Apagar os dados Camera RAW|# im-warn\r\n-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="it">Cancella Camera RAW data|# im-warn\r\n-overwrite_original_in_place\r\n-xmp-crs:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
 				</td>
 				<td tid="dp_del_iptc">
-					<t xml:lang="en">Delete legacy IPTC (IIM) metadata|-overwrite_original_in_place\r\n-iptc:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-					<t xml:lang="de">Alte IPTC-Daten (IIM) löschen|-overwrite_original_in_place\r\n-iptc:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
-					<t xml:lang="nl">Verwijder oude IPTC-gegevens (IIM) metadata|-overwrite_original_in_place\r\n-iptc:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="en">Delete legacy IPTC (IIM) metadata|# im-warn\r\n-overwrite_original_in_place\r\n-iptc:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="de">Alte IPTC-Daten (IIM) löschen|# im-warn\r\n-overwrite_original_in_place\r\n-iptc:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
+					<t xml:lang="nl">Verwijder oude IPTC-gegevens (IIM) metadata|# im-warn\r\n-overwrite_original_in_place\r\n-iptc:all=\r\n-charset\r\nfilename=UTF8\r\n{Files}</t>
 				</td>
 
 				<!--
