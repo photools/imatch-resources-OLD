@@ -6485,6 +6485,10 @@
 					<cap>Warnung</cap>
 					<cont>Die Befehle in dieser Vorlage ändern oder löschen Daten.\r\nMöchten Sie es dennoch ausführen?</cont>
 				</m>
+				<m xml:lang="nl">
+					<cap>Waarschuwingg</cap>
+					<cont>De opdrachten in deze preset wijzigen of wissen gegevens.\r\nWilt u dit desondanks uitvoeren?</cont>
+				</m>
 			</msg>
         
 		</message_group>

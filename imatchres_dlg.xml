@@ -692,6 +692,7 @@
             <ctrl text="#l_applayout">
                 <c xml:lang="en">App layouts cannot be edited in this dialog. Use the configuration functions provided by the app.</c>
                 <c xml:lang="de">App-Layouts können in diesem Dialog nicht bearbeitet werden. Bitte nutzen Sie die Einstellungsfunktionen der App.</c>
+				<c xml:lang="ln">App-layouts kunnen in deze dialoog niet worden bewerkt. Gebruik de instellingsfunctie die door de app worden geboden.</c>
             </ctrl>
            
 

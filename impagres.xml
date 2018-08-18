@@ -559,6 +559,7 @@
 			<ctrl text="#l_check_run">
 				<c xml:lang="en" helptext="\r\nThis option allows you to run the command specified below when the pack process is complete.\r\nUse it to run a batch command or script, shut down your PC etc.">&amp;Run this command on completion:</c>
 				<c xml:lang="de" helptext="\r\nDiese Option erlaubt die Ausführung des unten angegebenen Befehls nach Ascbhluss des Packvorgangs.\r\nNutzen Sie dies zur Ausführung einer Batch-Datei oder Skripts, zum Runterfahren Ihres PCs usw.">Nach Abschluss diesen Befehl ausfüh&amp;ren:</c>
+				<c xml:lang="nl" helptext="\r\nDeze optie maakt het mogelijk om de onderstaande opdracht uit te voeren na voltooiing van de bestandssamenvoeging.\r\nU kunt het gebruiken om een batch-bestand of een script uit te voeren, bv. om uw pc uit zetten etc.">Voe&amp;r deze opdracht uit na voltooiing:</c>
 			</ctrl>
 
 			<textdata>
