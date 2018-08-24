@@ -11944,7 +11944,7 @@
 			<ctrl text="#l_desc">
 				<c xml:lang="en" helptext="">Enter a master file name and a version file name below and click on the 'Test' button to check your expressions.</c>
 				<c xml:lang="de" helptext="">Geben Sie einen Master-Dateinamen und einen Versions-Dateinamen ein und klicken Sie auf die Schaltfläche 'Test' um Ihre Ausdrücke zu überprüfen.</c>
-				<c xml:lang="nl" helptext="">Geef een bestandnaam voor master en vooor versie en klik op de 'Test'-knop om de expressie te controleren.</c>
+				<c xml:lang="nl" helptext="">Geef een bestandnaam voor master en voor versie en klik op de 'Test'-knop om de expressie te controleren.</c>
 				<c xml:lang="pt" helptext="">Insira um nome de ficheiro mestre e um nome de ficheiro versão abaixo e clique no botão 'Testar' para verificar as suas expressões.</c>
 				<c xml:lang="no" helptext="">Angi et hovedfilnavn og et versjonsfilnavn. Trykk deretter på 'Test'-knappen for å kontrollere uttrykkene dine.</c>
 				<c xml:lang="it" helptext="">Immettere di seguito il nome del file master file e un nome del file versione e premere il pulsante  'Test' per verificare l'espressione.</c>
