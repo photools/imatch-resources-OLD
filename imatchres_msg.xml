@@ -1835,7 +1835,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>Debug Logging actief</cap>
-					<cont>De debug logging is actief en IMatch schrijft een zeer gedetailleerd logbestand.\r\n\r\nAls u op dit moment geen probleem ervaart, kunt u het logbestand terug zetten naar normale logging. Dit bespaart schijfruimte en maakt IMatch een beetje sneller.\r\n\r\nDe logging instellingen kunt u wijzigen door n het Help-menu 'Ondersteuning' te opnenen.</cont>
+					<cont>De debug logging is actief en IMatch schrijft een zeer gedetailleerd logbestand.\r\n\r\nAls u op dit moment geen probleem ervaart, kunt u het logbestand terug zetten naar normale logging. Dit bespaart schijfruimte en maakt IMatch een beetje sneller.\r\n\r\nDe logging instellingen kunt u wijzigen door in het Help-menu 'Ondersteuning' te openen.</cont>
 				</m>
 				<m xml:lang="pt">
 					<cap>Registo de depuração activado</cap>
@@ -3363,13 +3363,18 @@
             <msg resid="PTR_MSG_FILEWND_SEARCH_STACK_WARNING" typeid="[[TD_INFORMATION_ICON]]">
                 <m xml:lang="en">
                     <cap>Stacked Files</cap>
-                    <cont>Some files are currently hidden by one or more stacks and will not be searched\r\n\r\nTo search all files, make sure all stacks are expanded.</cont>
+                    <cont>Some files are currently hidden by one or more stacks and will not be searched.\r\n\r\nTo search all files, make sure all stacks are expanded.</cont>
                     <ver>Don't show again</ver>
                 </m>
                 <m xml:lang="de">
                     <cap>Dateistapel</cap>
                     <cont>Einige Dateien sind durch Stapel verborgen und werden nicht durchsucht.\r\n\r\nUm alle Dateien zu durchsuchen, klappen Sie die Stapel zuvor auf.</cont>
                     <ver>Nicht wieder anzeigen</ver>
+                </m>
+				 <m xml:lang="nl">
+                    <cap>Gestapelde bestanden</cap>
+                    <cont>Sommige bestanden zijn momenteel verborgen door één of meer stapels en kunnen niet gezocht worden.\r\n\r\nOm alle bestanden te zoeken, dient u eerst alle stapels uit te klappen.</cont>
+                    <ver>Niet opnieuw tonen</ver>
                 </m>
             </msg>
 
@@ -7956,6 +7961,10 @@
 				<m xml:lang="pt">
                     <cap>GeoNames.org Geocodificação inversa</cap>
                     <cont>Para utilizar a Geocodificação inversa fornecida pela GeoNames.org tem de colocar um nome de utilizador válido em Editar &gt; Preferências &gt; Geo &amp; Mapas.\r\n\r\nConsultar a ajuda do IMatch (&lt;F1&gt; botão) para detalhes.</cont>
+                </m>
+				<m xml:lang="nl">
+                    <cap>GeoNames.org omgekeerde geocodering</cap>
+                    <cont>m de omgekeerde geocodering-functionaliteit van Geonames.org te kunnen gebruiken, moet u een geldige Google Maps API sleutel invoeren in Bewerken &gt; Voorkeuren &gt; Geo &amp; Kaarten..\r\n\r\nZie ook de IMatch help (&lt;F1&gt; toets) voor meer details.</cont>
                 </m>
             </msg>
 

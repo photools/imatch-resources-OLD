@@ -2629,7 +2629,7 @@
       <str resid="PTR_MAINFRAME_STATUSBAR_INITVIEW_APPVIEW" desc="">
         <s xml:lang="en">Loading App View...</s>
         <s xml:lang="de">Lade App-Ansicht...</s>
-        <s xml:lang="ln">App-view laden...</s>
+        <s xml:lang="nl">App-view laden...</s>
         <s xml:lang="pt">Carregando a visualização da aplicação...</s>
       </str>
 
