@@ -12274,7 +12274,7 @@
         <s xml:lang="no">Denne import-module kan du importere kategori hierarkier fra IMCS  (IMatch 3.x) og IMCSX-filer (IMatch 5 og senere). </s>
         <s xml:lang="de">Dieses Importmodul ermöglicht Ihnen das Importieren von Kategoriehierarchien aus IMCS- (IMatch 3.x) und IMCSX-Dateien (IMatch 5 und höher).</s>
         <s xml:lang="fi">Tämän moduulin avulla voit tuoda kategoriahierarkian XML-tiedostona. Voit vaihtoehtoisesti sisällyttää myös tiedostot, jolloin voit tuoda sekä kategoriahierarkian että sen sisältämät tiedostot toiseen tietokantaan.</s>
-        <s xml:lang="nl">Deze importmodule staat u toe categorie-structueren uit zowel IMCS (IMatch 3.x) als IMCSX bestanden (IMatch 5 en nieuwer) te importeren. </s>
+        <s xml:lang="nl">Deze importmodule staat u toe categorie-structuren uit zowel IMCS (IMatch 3.x) als IMCSX bestanden (IMatch 5 en nieuwer) te importeren. </s>
         <s xml:lang="pt">Este módulo de importação permite-lhe importar hierarquias de categorias de ficheiros IMCS (IMatch 3.x) e IMCSX (IMatch 5 e posteriores). </s>
         <s xml:lang="hr">Ovaj modul za uvoz omogućava ti da uvezeš hijerahije kategorija iz IMCS (IMatch 3.x) i IMCSX (IMatch 5 i novijih) datoteka. </s>
         <s xml:lang="fr">Ce module d'import permet d'importer des hiérarchies de catégories depuis des fichiers IMCS (IMatch 3.x) et IMCSX (IMatch 5 et suivants).</s>
