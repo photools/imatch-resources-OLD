@@ -5954,7 +5954,7 @@
                 <c xml:lang="en" hotkey="" helptext="Clear the filter">&amp;Reset Filter</c>
                 <c xml:lang="de" hotkey="" helptext="Filter zurücksetzen.">Filter zu&amp;rücksetzen</c>
                 <c xml:lang="fi" hotkey="" helptext="Tyhjennä suodatin">&amp;Tyhjennä suodatin</c>
-                <c xml:lang="nl" hotkey="" helptext="Filter uitschakelen">Filter &amp;uitschakelen</c>
+                <c xml:lang="nl" hotkey="" helptext="Filter terugzetten">Filter &amp;terugzetten</c>
                 <c xml:lang="pt" hotkey="" helptext="Limpar o filtro">&amp;Repôr o Filtro</c>
                 <c xml:lang="hr" hotkey="" helptext="Očisti filtar">Vrati izvo&amp;rni filtar</c>
                 <c xml:lang="no" hotkey="" helptext="Tømme filter">&amp;Nullstill filter</c>
@@ -11912,7 +11912,7 @@
                 <c xml:lang="en" hotkey="" helptext="Clear the active filter">Clear &amp;active filter</c>
                 <c xml:lang="de" hotkey="" helptext="Den aktiven Filter zurücksetzen.">&amp;Aktiven Filter zurück setzen</c>
                 <c xml:lang="fi" hotkey="" helptext="Tyhjennä aktiivinen suodatin.">&amp;Tyhjennä suodatin</c>
-                <c xml:lang="nl" hotkey="" helptext="Actieve filter uitschakelen">&amp;Actieve filter uitschakelen</c>
+                <c xml:lang="nl" hotkey="" helptext="Actieve filter terugzetten">&amp;Actieve filter terug zetten</c>
                 <c xml:lang="pt" hotkey="" helptext="Limpar o filtro activo">Limpar Filtro &amp;Activo</c>
                 <c xml:lang="hr" hotkey="" helptext="Očisti aktivni filtar">Očisti &amp;aktivni filtar</c>
                 <c xml:lang="no" hotkey="" helptext="Fjern det aktive filteret">Fjern aktivt filter</c>
