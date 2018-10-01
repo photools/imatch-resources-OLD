@@ -3378,6 +3378,28 @@
                 </m>
             </msg>
 
+            <msg resid="PTR_MSG_FILEWND_CUSTOM_SORT_WARNING" typeid="[[TD_WARNING_ICON]]">
+                <m xml:lang="en">
+                    <cap>Stacked Files</cap>
+                    <cont>Some files are currently hidden by one or more stacks.\r\nManually reordering files while some files are hidden may cause unexpected results.\r\n\r\nDo you want to show all hidden files now? You can hide them again via the toolbar button or the '[[cID_FILEWND_SHOW_STACKED]]' command in the context menu.</cont>
+                </m>
+                <m xml:lang="de">
+                    <cap>Durch Stapel verborgene Dateien</cap>
+                    <cont>Einige Dateien sind durch Stapel verborgen.\r\nDas manuelle Anordnen von Dateien während einige Dateien verborgen sind kann zu unerwarteten Ergebnissen führen\r\n\r\nMöchten Sie verborgene Dateien jetzt anzeigen? Sie können Sie durch die Schaltfläche in der Symbolleiste oder den Befehl '[[cID_FILEWND_SHOW_STACKED]]' wieder verbergen.</cont>
+                </m>
+            </msg>
+
+            <msg resid="PTR_MSG_FILEWND_STACK_TOGGLE_WARNING" typeid="[[TD_INFORMATION_ICON]]">
+                <m xml:lang="en">
+                    <cap>Display of Hidden Files Enabled</cap>
+                    <cont>You have enabled the option to display files hidden by stacks (toolbar button). Changing the stack state in this mode has no effect on the files displayed in the file window.</cont>
+                </m>
+                <m xml:lang="de">
+                    <cap>Verborgene Dateien werden angezeigt</cap>
+                    <cont>Sie haben die Anzeige durch Stapel verborgener Dateien aktiviert (Schaltfläche in der Symbolleiste). Das Umschalten des Stapelzustandes hat in diesem Modus keine Auswirkung auf die im Dateifenster angezeigten Dateien.</cont>
+                </m>
+            </msg>
+
         </message_group>
 .
 		<!-- Messages used by the folder tree control -->

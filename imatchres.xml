@@ -3646,6 +3646,10 @@
                 <c xml:lang="pt" hotkey="" helptext="Atribui as mesmas categorias do ficheiro anteriormente seleccionado">Como &amp;Anterior</c>
                 <c xml:lang="no" hotkey="" helptext="Tilordne de samme kategoriene som forrige valgte fil">Som &amp;forrige</c>
             </cmd>
+            <cmd resid="ID_CMD_GROUP_PANEL_ADDFROMFILES" bmidx="16">
+                <c xml:lang="en" hotkey="Ins" helptext="Create a new child category under the selected category and assign all selected files.">New category from &amp;files</c>
+                <c xml:lang="de" hotkey="Ins" helptext="Erstellt eine neue untergeordnete Kategorie und weißt ihr alle ausgewählten Dateien zu.">Neu von &amp;Dateien</c>
+            </cmd>
         </command_group>
 
         <command_group name="Search Bar" bmid="PTR_BM_CMD_SEARCH_BAR" desc="Commands used by the search bars displayed in various panels">
@@ -8271,6 +8275,10 @@
                 <c xml:lang="pt" hotkey="" helptext="Repõe a imagem do ícone da categoria para 'Nenhum'">Limpa a miniatura da categoria</c>
             </cmd>
 
+            <cmd resid="ID_CMD_CATEGORY_FIND" bmidx="-1">
+                <c xml:lang="en" hotkey="Ctrl+F" helptext="Open the find panel">&amp;Find...</c>
+                <c xml:lang="de" hotkey="Ctrl+F" helptext="Das Such-Panel öffnen.">&amp;Suchen...</c>
+            </cmd>
 
         </command_group>
 
@@ -8774,14 +8782,14 @@
                 <c xml:lang="it" hotkey="F4|S" helptext="Apre una finestra ''risultati'' con tutti i file master selezionati e le versioni">Mostra tutte le &amp;Versioni...</c>
             </cmd>
             <cmd resid="ID_CMD_VERSION_GOTO_MASTER" desc="">
-                <c xml:lang="en" hotkey="F4|G" helptext="Go to the master for this version">&amp;Goto Master</c>
-                <c xml:lang="de" hotkey="F4|G" helptext="Zum zugehörigen Master springen">&amp;Gehezu Master</c>
-                <c xml:lang="fi" hotkey="F4|G" helptext="Mene tämän version alkuperäiseen">&amp;Alkuperäinen</c>
-                <c xml:lang="nl" hotkey="F4|G" helptext="Naar de bijbehorende master gaan">&amp;Ga naar Master</c>
-                <c xml:lang="pt" hotkey="F4|G" helptext="Ir para o ficheiro mestre desta versão">&amp;Ir Para Mestre</c>
-                <c xml:lang="hr" hotkey="F4|I" helptext="Idi na matricu za ovu verziju">&amp;Idi na matricu</c>
-                <c xml:lang="no" hotkey="F4|G" helptext="Går til hovedfilen for denne versjonen">&amp;Gå til hovedfil</c>
-                <c xml:lang="it" hotkey="F4|G" helptext="Vai al file master di questa versione">&amp;Vai al Master</c>
+                <c xml:lang="en" hotkey="F4|G;Shift+Alt+G" helptext="Go to the master for this version">&amp;Goto Master</c>
+                <c xml:lang="de" hotkey="F4|G;Shift+Alt+G" helptext="Zum zugehörigen Master springen">&amp;Gehezu Master</c>
+                <c xml:lang="fi" hotkey="F4|G;Shift+Alt+G" helptext="Mene tämän version alkuperäiseen">&amp;Alkuperäinen</c>
+                <c xml:lang="nl" hotkey="F4|G;Shift+Alt+G" helptext="Naar de bijbehorende master gaan">&amp;Ga naar Master</c>
+                <c xml:lang="pt" hotkey="F4|G;Shift+Alt+G" helptext="Ir para o ficheiro mestre desta versão">&amp;Ir Para Mestre</c>
+                <c xml:lang="hr" hotkey="F4|I;Shift+Alt+G" helptext="Idi na matricu za ovu verziju">&amp;Idi na matricu</c>
+                <c xml:lang="no" hotkey="F4|G;Shift+Alt+G" helptext="Går til hovedfilen for denne versjonen">&amp;Gå til hovedfil</c>
+                <c xml:lang="it" hotkey="F4|G;Shift+Alt+G" helptext="Vai al file master di questa versione">&amp;Vai al Master</c>
             </cmd>
             <cmd resid="ID_CMD_VERSION_PROPAGATE" desc="">
                 <c xml:lang="en" hotkey="F4|T" helptext="Propagate from the master to all selected versions">&amp;Propagate</c>
@@ -15750,6 +15758,8 @@
             <item>ID_CMD_GROUP_PANEL_ADD</item>
             <item>ID_CMD_GROUP_PANEL_ADDSIBLING</item>
             <item>ID_CMD_GROUP_PANEL_ADDMULTI</item>
+            <item>ID_CMD_GROUP_PANEL_ADDFROMFILES</item>
+            <separator/>
             <item>ID_CMD_GROUP_PANEL_REN</item>
             <separator/>
             <item>ID_CMD_GROUP_PANEL_DEL</item>
@@ -15767,6 +15777,8 @@
             <item>ID_CMD_GROUP_PANEL_ADD</item>
             <item>ID_CMD_GROUP_PANEL_ADDSIBLING</item>
             <item>ID_CMD_GROUP_PANEL_ADDMULTI</item>
+            <item>ID_CMD_GROUP_PANEL_ADDFROMFILES</item>
+            <separator/>
             <item>ID_CMD_GROUP_PANEL_REN</item>
             <separator/>
             <item>ID_CMD_GROUP_PANEL_DEL</item>
@@ -16130,6 +16142,8 @@
             <item>ID_CMD_CATEGORY_ADDSIBLING</item>
             <item>ID_CMD_CATEGORY_ADDMULTI</item>
             <item>ID_CMD_CATEGORY_RENAME</item>
+            <separator/>
+            <item>ID_CMD_CATEGORY_FIND</item>
             <separator/>
             <item>ID_CMD_CATEGORY_DELETE</item>
             <separator/>
@@ -36821,8 +36835,8 @@
                 <name xml:lang="de">Schlüsselworter aus diesem Asudruck erstellen</name>
                 <name xml:lang="nl">Maak trefwoorden vanuit deze uitdrukking</name>
                 <name xml:lang="pt">Crie palavras-chave a partir desta expressão</name>
-                <desc xml:lang="en">This allows you to automatically create a keywords after GPS data has been set interactively or automatically. Use a free mix of text and IMatch variables (like {File.MD.country} or {File.MD.location}). To create a hierarchical keyword, separate the levels with |. Example: WHERE|{File.MD.country}|{File.MD.city}|{File.MD.location} => WHERE|United Kingdom|London|Tower Bridge. You can specify multiple expressions by separating them with ;</desc>
-                <desc xml:lang="de">Nutzen Sie diese Option, um automatisch Schlüsselworter zu erstellen, nachdem interaktiv oder automatisch GPS-Koordinaten zugewiesen wurden. Sie können einen freien Mix aus Text IMatch-Variablen, wie zum Beispiel {File.MD.country} oder {File.MD.location}, verwenden. Um ein hierarchisches Schlüsselwort zu erstellen, trennen Sie die Ebenen durch |. Beispiel: WO|{File.MD.country}|{File.MD.city}|{File.MD.location} => WO|Deutschland|Berlin|Alexanderplatz. Sie können mehrere Ausdrücke getrennt durch ; angeben.</desc>
+                <desc xml:lang="en">This allows you to automatically create a keywords after GPS data has been set interactively or automatically. Use a free mix of text and IMatch variables (like {File.MD.country} or {File.MD.location}). To create a hierarchical keyword, separate the levels with |. Example: WHERE|{File.MD.country|default:NO COUNTRY}|{File.MD.city|default:NO CITY}|{File.MD.location|default:NO LOCATION} => WHERE|United Kingdom|London|Tower Bridge. You can specify multiple expressions by separating them with ;</desc>
+                <desc xml:lang="de">Nutzen Sie diese Option, um automatisch Schlüsselworter zu erstellen, nachdem interaktiv oder automatisch GPS-Koordinaten zugewiesen wurden. Sie können einen freien Mix aus Text IMatch-Variablen, wie zum Beispiel {File.MD.country} oder {File.MD.location}, verwenden. Um ein hierarchisches Schlüsselwort zu erstellen, trennen Sie die Ebenen durch |. Beispiel: WO|{File.MD.country|default:KEIN LAND}|{File.MD.city|default:KEINE STADT}|{File.MD.location|default:KEIN ORT} => WO|Deutschland|Berlin|Alexanderplatz. Sie können mehrere Ausdrücke getrennt durch ; angeben.</desc>
                 <desc xml:lang="nl">Gebruik deze optie om automatisch trefwoorden te genereren, nadat interactief of automatisch GPS coördinaten zijn toegewezen. U kunt een vrije mix van tekst en IMatch variabelen gebruiken (zoals {File.MD.country} of {File.MD.location}). Om een hiërarchisch trefwoord te maken, moet u de niveaus scheiden met |. Voorbeeld: WAAR|{File.MD.country}|{File.MD.city}|{File.MD.location} => WAAr|United Kingdom|London|Tower Bridge. U kunt meerdere uitdrukkingen specificeren door hen van elkaar te scheiden met  ;</desc>
                 <desc xml:lang="pt">Isto permite que crie automáticamente palavras-chave após os dados do GPS terem sido definidos de forma interactiva ou automática. Utilize uma mistura livre de texto e variáveis do IMatch (como {File.MD.country} ou {File.MD.location}). Para criar uma palavra-chave hierárquica, separe os níveis com |. Exemplo: ONDE|{File.MD.country}|{File.MD.city}|{File.MD.location} => ONDE|Reino Unido|Londres|Tower Bridge. Pode especificar várias expressões separando-as com ;</desc>
 
