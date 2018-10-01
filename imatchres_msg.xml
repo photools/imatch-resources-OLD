@@ -3385,7 +3385,11 @@
                 </m>
                 <m xml:lang="de">
                     <cap>Durch Stapel verborgene Dateien</cap>
-                    <cont>Einige Dateien sind durch Stapel verborgen.\r\nDas manuelle Anordnen von Dateien während einige Dateien verborgen sind kann zu unerwarteten Ergebnissen führen\r\n\r\nMöchten Sie verborgene Dateien jetzt anzeigen? Sie können Sie durch die Schaltfläche in der Symbolleiste oder den Befehl '[[cID_FILEWND_SHOW_STACKED]]' wieder verbergen.</cont>
+                    <cont>Einige Dateien sind durch Stapel verborgen.\r\nDas manuelle Anordnen von Dateien während einige Dateien verborgen sind kann zu unerwarteten Ergebnissen führen.\r\n\r\nMöchten Sie verborgene Dateien jetzt anzeigen? Sie können Sie durch die Schaltfläche in der Symbolleiste oder den Befehl '[[cID_FILEWND_SHOW_STACKED]]' wieder verbergen.</cont>
+                </m>
+				<m xml:lang="nl">
+                    <cap>Gestapelde bestanden</cap>
+                    <cont>Sommige bestanden worden momenteel verborgen door een of meer stapels.\r\nHet handmatig sorteren van bestanden, terwijl sommige bestanden zijn verborgen, kan tot onverwachte resultaten leiden.\r\n\r\nWilt u alle verborgen bestanden nu tonen? U kun ze opnieuw verbergen door de knop in de gereedschapsbalk of het '[[cID_FILEWND_SHOW_STACKED]]' commando in het context menu.</cont>
                 </m>
             </msg>
 
@@ -3397,6 +3401,10 @@
                 <m xml:lang="de">
                     <cap>Verborgene Dateien werden angezeigt</cap>
                     <cont>Sie haben die Anzeige durch Stapel verborgener Dateien aktiviert (Schaltfläche in der Symbolleiste). Das Umschalten des Stapelzustandes hat in diesem Modus keine Auswirkung auf die im Dateifenster angezeigten Dateien.</cont>
+                </m>
+				<m xml:lang="nl">
+                    <cap>Verborgen bestanden worden getoond</cap>
+                    <cont>U heeft de optie om bestanden te tonen die door stapels zijn verborgen, geactiveerd (knop in de gereedschapsbalk). Het veranderen van de stapelstatus heeft in deze modus geen effect op de bestanden die in het bestandsvenster worden getoond.</cont>
                 </m>
             </msg>
 

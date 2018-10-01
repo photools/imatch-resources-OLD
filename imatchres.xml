@@ -3649,6 +3649,7 @@
             <cmd resid="ID_CMD_GROUP_PANEL_ADDFROMFILES" bmidx="16">
                 <c xml:lang="en" hotkey="Ins" helptext="Create a new child category under the selected category and assign all selected files.">New category from &amp;files</c>
                 <c xml:lang="de" hotkey="Ins" helptext="Erstellt eine neue untergeordnete Kategorie und weißt ihr alle ausgewählten Dateien zu.">Neu von &amp;Dateien</c>
+                <c xml:lang="nl" hotkey="Ins" helptext="Maak een nieuwe subcategorie aan en wijs alle bestanden daar aan toe.">Nieuwe categorie vanuit &amp;bestanden</c>
             </cmd>
         </command_group>
 
@@ -8278,6 +8279,7 @@
             <cmd resid="ID_CMD_CATEGORY_FIND" bmidx="-1">
                 <c xml:lang="en" hotkey="Ctrl+F" helptext="Open the find panel">&amp;Find...</c>
                 <c xml:lang="de" hotkey="Ctrl+F" helptext="Das Such-Panel öffnen.">&amp;Suchen...</c>
+                <c xml:lang="nl" hotkey="Ctrl+F" helptext="Open het zoek paneel">&amp;Zoeken...</c>
             </cmd>
 
         </command_group>
@@ -36833,11 +36835,11 @@
             <property resid="app.geo.var" desc="">
                 <name xml:lang="en">Create keywords from this expression</name>
                 <name xml:lang="de">Schlüsselworter aus diesem Asudruck erstellen</name>
-                <name xml:lang="nl">Maak trefwoorden vanuit deze uitdrukking</name>
+                <name xml:lang="nl">Trefwoorden aanmaken vanuit deze uitdrukking</name>
                 <name xml:lang="pt">Crie palavras-chave a partir desta expressão</name>
-                <desc xml:lang="en">This allows you to automatically create a keywords after GPS data has been set interactively or automatically. Use a free mix of text and IMatch variables (like {File.MD.country} or {File.MD.location}). To create a hierarchical keyword, separate the levels with |. Example: WHERE|{File.MD.country|default:NO COUNTRY}|{File.MD.city|default:NO CITY}|{File.MD.location|default:NO LOCATION} => WHERE|United Kingdom|London|Tower Bridge. You can specify multiple expressions by separating them with ;</desc>
-                <desc xml:lang="de">Nutzen Sie diese Option, um automatisch Schlüsselworter zu erstellen, nachdem interaktiv oder automatisch GPS-Koordinaten zugewiesen wurden. Sie können einen freien Mix aus Text IMatch-Variablen, wie zum Beispiel {File.MD.country} oder {File.MD.location}, verwenden. Um ein hierarchisches Schlüsselwort zu erstellen, trennen Sie die Ebenen durch |. Beispiel: WO|{File.MD.country|default:KEIN LAND}|{File.MD.city|default:KEINE STADT}|{File.MD.location|default:KEIN ORT} => WO|Deutschland|Berlin|Alexanderplatz. Sie können mehrere Ausdrücke getrennt durch ; angeben.</desc>
-                <desc xml:lang="nl">Gebruik deze optie om automatisch trefwoorden te genereren, nadat interactief of automatisch GPS coördinaten zijn toegewezen. U kunt een vrije mix van tekst en IMatch variabelen gebruiken (zoals {File.MD.country} of {File.MD.location}). Om een hiërarchisch trefwoord te maken, moet u de niveaus scheiden met |. Voorbeeld: WAAR|{File.MD.country}|{File.MD.city}|{File.MD.location} => WAAr|United Kingdom|London|Tower Bridge. U kunt meerdere uitdrukkingen specificeren door hen van elkaar te scheiden met  ;</desc>
+                <desc xml:lang="en">This allows you to automatically create keywords after GPS data has been set interactively or automatically. Use a free mix of text and IMatch variables (like {File.MD.country} or {File.MD.location}). To create a hierarchical keyword, separate the levels with |. Example: WHERE|{File.MD.country|default:NO COUNTRY}|{File.MD.city|default:NO CITY}|{File.MD.location|default:NO LOCATION} => WHERE|United Kingdom|London|Tower Bridge. You can specify multiple expressions by separating them with ;</desc>
+                <desc xml:lang="de">Nutzen Sie diese Option, um automatisch Schlüsselworter zu erstellen, nachdem interaktiv oder automatisch GPS-Koordinaten zugewiesen wurden. Sie können einen freien Mix aus Text und IMatch-Variablen, wie zum Beispiel {File.MD.country} oder {File.MD.location}, verwenden. Um ein hierarchisches Schlüsselwort zu erstellen, trennen Sie die Ebenen durch |. Beispiel: WO|{File.MD.country|default:KEIN LAND}|{File.MD.city|default:KEINE STADT}|{File.MD.location|default:KEIN ORT} => WO|Deutschland|Berlin|Alexanderplatz. Sie können mehrere Ausdrücke getrennt durch ; angeben.</desc>
+                <desc xml:lang="nl">Deze optie maakt het mogelijk om automatisch trefwoorden te genereren, nadat interactief of automatisch GPS coördinaten zijn toegewezen. U kunt een vrije mix van tekst en IMatch variabelen gebruiken (zoals bv. {File.MD.country} of {File.MD.location}). Om een hiërarchisch trefwoord aan te maken, moet u de niveaus scheiden met |. Voorbeeld: WAAR|{File.MD.country}|{File.MD.city}|{File.MD.location} => WAAR|United Kingdom|London|Tower Bridge. U kunt meerdere uitdrukkingen specificeren door hen van elkaar te scheiden met ;</desc>
                 <desc xml:lang="pt">Isto permite que crie automáticamente palavras-chave após os dados do GPS terem sido definidos de forma interactiva ou automática. Utilize uma mistura livre de texto e variáveis do IMatch (como {File.MD.country} ou {File.MD.location}). Para criar uma palavra-chave hierárquica, separe os níveis com |. Exemplo: ONDE|{File.MD.country}|{File.MD.city}|{File.MD.location} => ONDE|Reino Unido|Londres|Tower Bridge. Pode especificar várias expressões separando-as com ;</desc>
 
                 <group xml:lang="en">Services</group>
