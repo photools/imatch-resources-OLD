@@ -742,7 +742,31 @@
 
         </dialog>
 
-		<dialog resid="PTRMDLG_PROPERTY_EDITOR" desc="The standard property editor dialog">
+
+        <dialog resid="PTRMDLG_FILEWND_SIMPLE_LODEDITOR">
+            <caption xml:lang="en">Edit Layout '{0}'</caption>
+            <caption xml:lang="de">Layout '{0}' bearbeiten</caption>
+            <ctrl text="#l_header" style="bold">
+                <c xml:lang="en" helptext="">Header</c>
+                <c xml:lang="de" helptext="">Kopfzeilen</c>
+            </ctrl>
+            <ctrl text="#l_footer" style="bold">
+                <c xml:lang="en" helptext="">Footer</c>
+                <c xml:lang="de" helptext="">Fußzeilen</c>
+            </ctrl>
+            <ctrl text="#l_info">
+                <c xml:lang="en" helptext="">Select the fields you want to display in the header and footer area in the file window panels. Your changes are saved to the currently selected layout.\r\n\r\nTo access all available options, open the File Window layout editor by clicking on the button below.</c>
+                <c xml:lang="de" helptext="">Wählen Sie die Felder aus, die Sie im Kopf-/Fußbereich der Dateifenster-Panele anzeigen möchten. Ihre Änderungen werden im aktuell ausgewählten Layout gespeichert.\r\n\r\nFür den Zugriff auf alle verfügbaren Optionen öffnen Sie bitte den Layout-Editor mit der Schaltfläche unten.</c>
+            </ctrl>
+            <ctrl text="#l_btn_full">
+                <c xml:lang="en" helptext="Open the layout editor with all available options.">Open &amp;Layout Editor...</c>
+                <c xml:lang="de" helptext="Den Layout-Editor mit allen verfügbaren Optionen öffnen.">&amp;Layout-Editor öffnen</c>
+            </ctrl>
+            
+        </dialog>
+
+
+        <dialog resid="PTRMDLG_PROPERTY_EDITOR" desc="The standard property editor dialog">
 			<caption xml:lang="en">Property Editor</caption>
 			<caption xml:lang="de">Eigenschaften bearbeiten</caption>
 			<caption xml:lang="nl">Eigenschappen bewerken</caption>

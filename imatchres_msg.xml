@@ -26,7 +26,7 @@
 					<button btnid="1001">Start without Database\nChoose this option when you want to start IMatch without loading a database and without running application and database scripts.</button>
 					<button btnid="1002">Reset Workspace\nChoose this option when you want to reset your workspace settings (windows and panel layouts) back to default values.</button>
 					<button btnid="1003">Reset All Settings\nThis option resets all settings for the current user back to safe factory defaults.</button>
-                    <button btnid="1004">Disable Scripts\nThis option disables Application and Database scripts for this session. Useful for debugging.</button>
+                    <button btnid="1004">Disable Service Apps\nThis option disables background apps for this session. Useful for debugging.</button>
 				</m>
 				<m xml:lang="de">
 					<cap>Strg-Taste gedrückt</cap>
@@ -37,7 +37,7 @@
 					<button btnid="1001">Ohne Datenbank starten\nWählen Sie diese Option, um IMatch ohne Datenbank zu starten. Anwendungs- und Datenbankskripte werden nicht ausgeführt.</button>
 					<button btnid="1002">Arbeitsumgebung zurücksetzen\nDiese Option setzt die Einstellungen der Arbeitsumgebung von IMatch (Fenster- und Panellayouts) auf Standardeinstellungen zurück.</button>
 					<button btnid="1003">Alle Einstellungen zurücksetzen\nDiese Option setzt alle Einstellungen des aktuellen Benutzers auf sichere Standardeinstellungen zurück.</button>
-                    <button btnid="1004">Skripte deaktivieren\nDiese Option verhindert die Ausführung von Datenbank- und Anwendungsskript für die laufende Sitzung. Nützlich zur Fehlersuche.</button>
+                    <button btnid="1004">Dienste-Apps deaktivieren\nDiese Option verhindert die Ausführung von Dienste-Apps für die laufende Sitzung. Nützlich zur Fehlersuche.</button>
 				</m>
 				<m xml:lang="fi">
 					<cap>Ctrl-näppäin painettuna</cap>
@@ -1848,33 +1848,17 @@
             <msg resid="PTR_MSG_NO_SPELL_DICT" typeid="[[TD_INFORMATION_ICON]]" desc="" >
                 <m xml:lang="en">
                     <cap>Spell checker</cap>
-                    <cont>You have not yet installed a dictionary for the IMatch spell checker. Spell checking is not available until you download and install a dictionary for your language.\r\n\r\nPlease open Edit &gt; Preferences &gt; Application: Spell Checker to solve this.</cont>
-					<ver>Don't show again</ver>
+                    <cont>You have not yet installed a dictionary for the IMatch spell checker. Spell checking is not available until you download and install a dictionary for your language.</cont>
+                    <button btnid="1001">Download dictionary now</button>
+                    <button btnid="1002">Download dictionary later</button>
+                    <button btnid="1003">I don't want to use spell checking in IMatch</button>
                 </m>
                 <m xml:lang="de">
                     <cap>Rechtschreibprüfung</cap>
-                    <cont>Sie haben noch kein Wörterbuch für die Rechtschreibprüfung installiert. Die Rechtschreibprüfung ist daher nicht aktiviert.\r\n\r\nSie können diese Einstellungen über Bearbeiten &gt; Einstellungen &gt; Anwendung : Rechtschreibprüfung anpassen.</cont>
-					<ver>Nicht wieder anzeigen</ver>
-                </m>
-				<m xml:lang="fi">
-                    <cap>Oikeinkirjoituksen tarkistus</cap>
-                    <cont>Et ole vielä asentanut sanakirjaa IMatchin oikeinkirjoituksen tarkistusta varten. Oikeinkirjoituksen tarkistus ei ole käytettävissä ennenkuin lataat ja asennat sanakirjan kieltäsi varten.\r\n\r\nSanakirja valitaan kohdassa Muokkaa &gt; Asetukset &gt; Sovellus: Oikeinkirjoituksen tarkistus. Lisätietoja IMatchin käyttöohjeessa hakusanalla Hunspell.</cont>
-					<ver><ver>Älä näytä tätä uudestaan</ver></ver>
-                </m>
-				<m xml:lang="nl">
-                    <cap>Spellingcontrole</cap>
-                    <cont>U heeft nog geen woordenboek voor de IMatch spellingcontrole geinstalleerd. Spelling controle is pas beschikbaar nadat u een woordenboek heeft gedownload en geïnstalleerd.\r\n\r\nU kunt dit aanpassen via Bewerken &gt; Voorkeuren &gt; Applicatie: Spellingcontrole.</cont>
-					<ver>Niet opnieuw tonen</ver>
-                </m>
-				<m xml:lang="pt">
-                    <cap>Corrector ortográfico</cap>
-                    <cont>Ainda não tem instalado um dicionário para o corrector ortográfico do IMatch. O corrector ortográfico só fica disponível quando fizer o download e instalar um dicionário para a sua língua.\r\n\r\nPor favor vá a Editar &gt; Preferências &gt; Aplicação: Corrector ortográfico para resolver este problema.</cont>
-					<ver>Não mostrar novamente</ver>
-                </m>
-				<m xml:lang="it">
-                    <cap>Correttore ortografico</cap>
-                    <cont>Non avete ancora installato un dizionario per il controllo ortografico in IMatch. Il controllo ortografico non è disponibile fino a che non viene scaricato ed installato un dizionario per la lingua.\r\n\r\nPlease open Edit &gt; Preferences &gt; Application: Spell Checker to solve this.</cont>
-					<ver>Non mostrare nuovamente</ver>
+                    <cont>Sie haben noch kein Wörterbuch für die Rechtschreibprüfung installiert. Die Rechtschreibprüfung ist daher nicht aktiviert.</cont>
+                    <button btnid="1001">Wörterbuch jetzt herunterladen</button>
+                    <button btnid="1002">Wörterbuch später herunterladen</button>
+                    <button btnid="1003">Ich möchte in IMatch keine Rechtschreibprüfung verwenden</button>
                 </m>
             </msg>
 
@@ -2146,6 +2130,33 @@
                 </m>
             </msg>
 
+            <msg resid="PTR_MSG_APP_TELEMETRY_CONSTENT" typeid="[[TD_QUESTION_ICON]]" desc="">
+                <m xml:lang="en">
+                    <cap>Telemetry</cap>
+                    <cont>We use telemetry to record ANONYMOUS usage data. This helps us to understand better how IMatch is used and to improve the software for all users.\r\n\r\nThe data transmitted to photools.com is anonymous and not linked to your user or community account. We cannot (and don't want to) identify you from telemetry data.\r\n\r\nClick on the 2nd button below to learn more about how telemetry works and why it is so important.</cont>
+                    <button btnid="1001">Cool! Allow IMatch to collect anonymous usage data.\nYou can change this setting anytime under Edit &gt; Preferences &gt; Application.</button>
+                    <button btnid="1002">I want to learn more about how IMatch uses telemetry.</button>
+                    <button btnid="1003">I want to disable telemetry.\nPlease don't! The data gathered by IMatch is not linked to your person and helps us a lot to improve the product for all users.</button>
+                </m>
+                <m xml:lang="de">
+                    <cap>Telemetrie</cap>
+                    <cont>Wir verwenden Telemetrie, um ANONYME Daten zur Nutzung von IMatch zu sammeln. Dies hilft uns, besser zu verstehen, wie IMatch verwendet wird und trägt entscheidend zur Verbesserung der Software für alle Benutzer bei.\r\n\r\nDie an photools.com gesendeten Daten sind anonym und nicht mit Ihrem Benutzer- oder community-Konto verknüpft. Wir können (und wollen) Sie nicht über die Telemetriedaten identifizieren.\r\n\r\nKlicken Sie auf die zweite Schaltfläche unten für weiterführende Informationen.</cont>
+                    <button btnid="1001">Prima! IMatch erlauben, anonyme Nutzungsdaten zu erheben.\nSie können diese Einstellung jederzeit unter Bearbeiten &gt; Einstellungen &gt; Anwendung ändern.</button>
+                    <button btnid="1002">Ich möchte mehr über Telemetrie erfahren.</button>
+                    <button btnid="1003">Ich möchte die Telemetrie deaktivieren.\nBitte nicht! Die Telemetriedaten sind anonym und helfen uns, IMatch für alle Benutzer zu verbessern.</button>
+                </m>
+            </msg>
+
+            <msg resid="PTR_MSG_APP_TELEMETRY_NOPROMPT" typeid="[[TD_INFORMATION_ICON]]" desc="">
+                <m xml:lang="en">
+                    <cap>Telemetry</cap>
+                    <cont>Please reconsider enabling telemetry.\r\n\r\nThe anonymous data helps us to better understand how users work with IMatch and to cpntinously improve the product.\r\n\r\nDo you want to see the telemetry information again?</cont>
+                </m>
+                <m xml:lang="de">
+                    <cap>Telemetrie</cap>
+                    <cont>Bitte überlegen Sie sich, Telemetrie zuzulassen.\r\n\r\nDie anonymen Nutzungsdaten helfen uns zu verstehen, wie Anwender IMatch wirklich nutzen. Mit diesen Informationen können wir die Software kontinuierlich weiter verbessern.\r\n\r\nMöchten Sie die Informationen zur Telemetrie erneut sehen?</cont>
+                </m>
+            </msg>
 
         </message_group>
         
@@ -3407,6 +3418,20 @@
                     <cont>U heeft de optie om bestanden te tonen die door stapels zijn verborgen, geactiveerd (knop in de gereedschapsbalk). Het veranderen van de stapelstatus heeft in deze modus geen effect op de bestanden die in het bestandsvenster worden getoond.</cont>
                 </m>
             </msg>
+
+            <msg resid="PTR_MSG_FILEWND_LOD_EDIT_TIP" typeid="[[TD_INFORMATION_ICON]]">
+                <m xml:lang="en">
+                    <cap>Full Layout Editor</cap>
+                    <cont>To open the full layout editor directly, hold down the &lt;Ctrl&gt; key when selecing this command.</cont>
+                    <ver>Don't show again</ver>
+                </m>
+                <m xml:lang="de">
+                    <cap>Layout-Editor</cap>
+                    <cont>Um den vollständigen Layout-Editor direkt aufzurufen, halten Sie bei der Auswahl des Befehls die &lt;Strg&gt;-Taste gedrückt.</cont>
+                    <ver>Nicht wieder anzeigen</ver>
+                </m>
+            </msg>
+
 
         </message_group>
 .
@@ -8764,8 +8789,8 @@
 					<cont>Activou a opção de limpar a pasta de saída. Todos os ficheiros existentes e sub pastas serão apagados antes da conversão começar.</cont>
 					<ver>Não perguntar outra vez.</ver>
 				</m>
-			</msg>			
-			
+			</msg>
+
             <msg resid="PTR_MSG_IMPEXP_EMAIL_ACCOUNTINFO" typeid="[[TD_INFORMATION_ICON]]" desc="">
                 <m xml:lang="en">
                     <cap>Email Accounts</cap>

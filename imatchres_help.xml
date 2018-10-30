@@ -6043,7 +6043,37 @@
         </alias>
         <alias resid="PTR_MSG_HELP_CHOICE">
             <a xml:lang="en-us">rmh_config_appsettings.htm</a>
-        </alias>        
-	</alias_table>
+        </alias>
+
+        <alias resid="ID_CMD_GROUP_PANEL_ADDFROMFILES">
+            <a xml:lang="en-us">panel_cats.htm</a>
+        </alias>
+        <alias resid="ID_CMD_CATEGORY_FIND">
+            <a xml:lang="en-us">cat_basics.htm</a>
+        </alias>
+        <alias resid="ID_MDCONTAINER_QUERY_SCOPE">
+            <a xml:lang="en-us">md_panel.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_EXIFTOOLDLG_PROMPT">
+            <a xml:lang="en-us">et_command_processor.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_FILEWND_CUSTOM_SORT_WARNING">
+            <a xml:lang="en-us">fw_basics.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_FILEWND_STACK_TOGGLE_WARNING">
+            <a xml:lang="en-us">fw_basics.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_APP_TELEMETRY_CONSTENT">
+            <a xml:lang="en-us">telemetry.htm</a>
+        </alias>
+        <alias resid="PTR_MSG_APP_TELEMETRY_NOPROMPT">
+            <a xml:lang="en-us">telemetry.htm</a>
+        </alias>
+
+        <alias resid="PTRMDLG_FILEWND_SIMPLE_LODEDITOR">
+            <a xml:lang="en-us">fw_basics.htm#a_simple_lod</a>
+        </alias>
+
+    </alias_table>
 
 </help_resources>

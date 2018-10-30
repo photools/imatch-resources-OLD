@@ -816,7 +816,10 @@
             <bm xml:lang="en">bitmaps\ptprintui_container_icons_128x128.png</bm>
         </bitmap>
 
-       
+        <bitmap resid="PTR_BM_FW_SIMPLE_LOD_ICON" itemwidth="400">
+            <bm xml:lang="en">bitmaps\fw-simple-layout-icon.png</bm>
+        </bitmap>
+
 
     </bitmap_table>
 
@@ -19097,6 +19100,21 @@
                 <group xml:lang="hr">Postavke</group>
             </property>
 
+            <property resid="app.telemetry.enabled">
+                <name xml:lang="en">Enable Telemetry</name>
+                <name xml:lang="de">Telemetriedaten aufzeichnen und verwenden</name>
+                <desc xml:lang="en">If this setting is enabled, IMatch records anonymous (not linked to your person or license) telemetry data and sends it to photools.com. This data helps photools.com to make IMatch better. We can learn about how users work with IMatch, which features are used or not, which features cause problems or are slow to use and more. Only we will see this data and we don't share it.</desc>
+                <desc xml:lang="de">Wenn diese Option aktiviert ist, zeichnent IMatch während der Benutzung anonyme (nicht verknüpft mit Ihrer Person oder Lizenz) Telemetriedaten auf und sendet diese an photools.com. Diese Daten helfen photools.com IMatch zu berbessern. Wie lernen, welche Funktionen genutzt werden und welche nicht. Welche Funktionen Probleme machen oder langsam sind usw. Nur wir sehen diese Daten und wir geben sie auch nicht weiter.</desc>
+                <group xml:lang="it">Impostazioni</group>
+                <group xml:lang="en">Settings</group>
+                <group xml:lang="no">Innstillinger</group>
+                <group xml:lang="de">Einstellungen</group>
+                <group xml:lang="fi">Asetukset</group>
+                <group xml:lang="nl">Instellingen</group>
+                <group xml:lang="pt">Definições</group>
+                <group xml:lang="hr">Postavke</group>
+            </property>
+            
             <property resid="app.useloaderoverlay" desc="">
                 <name xml:lang="en">Use load progress overlay</name>
                 <name xml:lang="de">Ladefortschrittsanzeigefenster verwenden</name>
@@ -29501,6 +29519,14 @@
             </property>
 
 
+            <property resid="filewnd.simpleeditor.onheaderfooterclick" desc="">
+                <name xml:lang="en">Clicking into header/footer opens layout editor</name>
+                <name xml:lang="de">Öffne Layout-Editor nach Klick in Kopf-/Fußzeile</name>
+                <desc xml:lang="en">By default the simple layout editor opens when you left-´click into the header or footer area of a panel.</desc>
+                <desc xml:lang="de">IMatch öffnet standardmäßig den vereinfachten Layout-Editor wenn Sie in die Kopf-/Fußzeile eines Panels klicken.</desc>
+            </property>
+            
+
             <property resid="filewnd.ui.anim.enabled" desc="">
                 <name xml:lang="en">Animated previews for videos</name>
                 <name xml:lang="de">Animierte Vorschau von Videos</name>
@@ -29923,7 +29949,25 @@
                         <c xml:lang="nl" desc="">Bijgesneden afmetingen</c>
                     </choice>
                     -->
-                    
+
+                    <choice data="65576">
+                        <c xml:lang="en" desc="">GPS Coordinates</c>
+                        <c xml:lang="de" desc="">GPS-Koordinaten</c>
+                    </choice>
+                    <choice data="65577">
+                        <c xml:lang="en" desc="">GPS Coordinates (Numeric)</c>
+                        <c xml:lang="de" desc="">GPS-Koordinaten (Numerisch)</c>
+                    </choice>
+
+                    <choice data="65586">
+                        <c xml:lang="en" desc="">GPS Destination Coordinates</c>
+                        <c xml:lang="de" desc="">GPS Zielkoordinaten</c>
+                    </choice>
+                    <choice data="65587">
+                        <c xml:lang="en" desc="">GPS Destination Coordinates (Numeric)</c>
+                        <c xml:lang="de" desc="">GPS Zielkoordinaten (Numerisch)</c>
+                    </choice>
+
                     <choice data="40">
                         <c xml:lang="en">Similarity</c>
                         <c xml:lang="no">Likhet</c>
