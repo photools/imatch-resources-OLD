@@ -59,6 +59,7 @@
 					<button btnid="1001">Starten zonder database\nKies deze optie om IMatch zonder database te starten. Applicatie- en databasescripts worden niet uitgevoerd.</button>
 					<button btnid="1002">Standaardinstellingen voor het werkgebied opnieuw instellen.\n Kies deze optie om de venster- en paneelindelingen naar standaardwaardes terug te zetten.</button>
 					<button btnid="1003">Alle instellingen terugzetten.\nDeze optie zet alle instellingen voor deze gebruiker terug naar de standaardinstellingen.</button>
+					<button btnid="1004">Service apps uitzetten\nDeze optie zet alle achtergrond apps uit gedurende deze sessie. Nuttig voor het zoeken naar fouten.</button>
 				</m>
 				<m xml:lang="pt">
 					<!-- @Trans: Use \n to indicate a new line -->
@@ -1860,6 +1861,13 @@
                     <button btnid="1002">Wörterbuch später herunterladen</button>
                     <button btnid="1003">Ich möchte in IMatch keine Rechtschreibprüfung verwenden</button>
                 </m>
+				<m xml:lang="nl">
+                    <cap>Spellingscontrole</cap>
+                    <cont>U heeft nog geen woordenlijst voor de spellingscontrole geïnstalleerd. Sppelingscontrole is daarom niet beschikbaar totdat u een woordenlijst voor uw taal downloadt en installeert.</cont>
+                    <button btnid="1001">Nu een woordenlijst downloaden</button>
+                    <button btnid="1002">Later een woordenlijst downloaden</button>
+                    <button btnid="1003">Ik wil in IMatch geen spellingscontrole gebruiken</button>
+                </m>
             </msg>
 
 			<msg resid="PTR_MSG_WIC_CODEC_MISSING" typeid="[[TD_INFORMATION_ICON]]" desc="" >
@@ -2145,16 +2153,27 @@
                     <button btnid="1002">Ich möchte mehr über Telemetrie erfahren.</button>
                     <button btnid="1003">Ich möchte die Telemetrie deaktivieren.\nBitte nicht! Die Telemetriedaten sind anonym und helfen uns, IMatch für alle Benutzer zu verbessern.</button>
                 </m>
+				<m xml:lang="nl">
+                    <cap>Telemetrie</cap>
+                    <cont>Wij gebruiken telemetrie om ANONIEM gebruiksgegevens te verzamelen. Dit helpt ons om beter te begrijpen hoe IMatch gebruikt wordt en de software voor iedereen te verbeteren.\r\n\r\nDe gegevens die naar photools.com worden verzonden, zijn anoniem en niet aan uw gebruikers- of community-account gelinkt. Wij kunnen (en willen) uw identiteit niet vaststellen aan de hand van de telemetrie gegevens.\r\n\r\nKlik op de 2e knop hieronder om meer te lezen over telemetrie en waarom dat belangrijk is.</cont>
+                    <button btnid="1001">Prima! Sta IMatch toe om anonieme gebruiksgegevens te verzamelen.\nU kunt dit op ieder gewenst moment wijzigen onder Bewerken &gt; Voorkeuren &gt; Applicatie.</button>
+                    <button btnid="1002">Ik wil meer weten hoe IMatch telemetrie gebruikt.</button>
+                    <button btnid="1003">Ik wil telemetrie uitzetten.\nLiever niet! De gegevens die door IMatch worden verzameld, zijn niet gelinkt aan uw persoon en helpen ons IMatch voor alle gebruikers te verbeteren.</button>
+                </m>
             </msg>
 
             <msg resid="PTR_MSG_APP_TELEMETRY_NOPROMPT" typeid="[[TD_INFORMATION_ICON]]" desc="">
                 <m xml:lang="en">
                     <cap>Telemetry</cap>
-                    <cont>Please reconsider enabling telemetry.\r\n\r\nThe anonymous data helps us to better understand how users work with IMatch and to cpntinously improve the product.\r\n\r\nDo you want to see the telemetry information again?</cont>
+                    <cont>Please reconsider enabling telemetry.\r\n\r\nThe anonymous data helps us to better understand how users work with IMatch and to continously improve the product.\r\n\r\nDo you want to see the telemetry information again?</cont>
                 </m>
                 <m xml:lang="de">
                     <cap>Telemetrie</cap>
                     <cont>Bitte überlegen Sie sich, Telemetrie zuzulassen.\r\n\r\nDie anonymen Nutzungsdaten helfen uns zu verstehen, wie Anwender IMatch wirklich nutzen. Mit diesen Informationen können wir die Software kontinuierlich weiter verbessern.\r\n\r\nMöchten Sie die Informationen zur Telemetrie erneut sehen?</cont>
+                </m>
+				<m xml:lang="nl">
+                    <cap>Telemetrie</cap>
+                    <cont>Overweeg a.u.b. om telemetrie toe te staan.\r\n\r\nDe anonieme gegevens helpen ons om beter te begrijpen hoe gebruikers met IMatch werken. Daarmee kunnen wij het product continu verbeteren.\r\n\r\nWilt u de informatie over telemetrie opnieuw zien?</cont>
                 </m>
             </msg>
 
@@ -3422,13 +3441,18 @@
             <msg resid="PTR_MSG_FILEWND_LOD_EDIT_TIP" typeid="[[TD_INFORMATION_ICON]]">
                 <m xml:lang="en">
                     <cap>Full Layout Editor</cap>
-                    <cont>To open the full layout editor directly, hold down the &lt;Ctrl&gt; key when selecing this command.</cont>
+                    <cont>To open the full layout editor directly, hold down the &lt;Ctrl&gt; key when selecting this command.</cont>
                     <ver>Don't show again</ver>
                 </m>
                 <m xml:lang="de">
                     <cap>Layout-Editor</cap>
                     <cont>Um den vollständigen Layout-Editor direkt aufzurufen, halten Sie bei der Auswahl des Befehls die &lt;Strg&gt;-Taste gedrückt.</cont>
                     <ver>Nicht wieder anzeigen</ver>
+                </m>
+				<m xml:lang="nl">
+                    <cap>Volledige layout bewerker</cap>
+                    <cont>Houdt, om de volledige layout bewerker direct te openen, de &lt;Ctrl&gt; toets ingedrukt als u dit commando selecteert.</cont>
+                    <ver>Niet opnieuw tonen</ver>
                 </m>
             </msg>
 

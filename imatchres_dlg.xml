@@ -749,18 +749,22 @@
             <ctrl text="#l_header" style="bold">
                 <c xml:lang="en" helptext="">Header</c>
                 <c xml:lang="de" helptext="">Kopfzeilen</c>
+				<c xml:lang="nl" helptext="">Koptekst</c>
             </ctrl>
             <ctrl text="#l_footer" style="bold">
                 <c xml:lang="en" helptext="">Footer</c>
                 <c xml:lang="de" helptext="">Fußzeilen</c>
+				<c xml:lang="nl" helptext="">Voettekst</c>
             </ctrl>
             <ctrl text="#l_info">
                 <c xml:lang="en" helptext="">Select the fields you want to display in the header and footer area in the file window panels. Your changes are saved to the currently selected layout.\r\n\r\nTo access all available options, open the File Window layout editor by clicking on the button below.</c>
                 <c xml:lang="de" helptext="">Wählen Sie die Felder aus, die Sie im Kopf-/Fußbereich der Dateifenster-Panele anzeigen möchten. Ihre Änderungen werden im aktuell ausgewählten Layout gespeichert.\r\n\r\nFür den Zugriff auf alle verfügbaren Optionen öffnen Sie bitte den Layout-Editor mit der Schaltfläche unten.</c>
-            </ctrl>
+            	<c xml:lang="nl" helptext="">Kies de velden, die u in de kop of de voet van de bestandsvenster-panelen wilt tonen. Uw wijzigingen worden in de actuele lay-out opgeslagen.\r\n\r\nOm alle beschikbare optie te kunnen gebruiken, dient u de bestandsvenster bewerker te openen met de knop hieronder.</c>
+			</ctrl>
             <ctrl text="#l_btn_full">
                 <c xml:lang="en" helptext="Open the layout editor with all available options.">Open &amp;Layout Editor...</c>
                 <c xml:lang="de" helptext="Den Layout-Editor mit allen verfügbaren Optionen öffnen.">&amp;Layout-Editor öffnen</c>
+				<c xml:lang="nl" helptext="De lay-out bewerker met alle opties openen.">&amp;Lay-out bewerker openen...</c>
             </ctrl>
             
         </dialog>
@@ -11617,7 +11621,7 @@
 				<c xml:lang="en" helptext="Enter a regular expression to define which file extensions are used as the master for this version set.">&amp;Master Expression:</c>
 				<c xml:lang="de" helptext="Geben Sie einen regulären Ausdruck ein, der festlegt, welche Dateierweiterungen als 'Master' für diese Versionsmenge verwendet werden.">&amp;Hauptdatei-Ausdruck:</c>
 				<c xml:lang="fi" helptext="Syötä säännöllinen lauseke määrittääksesi, mitkä tiedostopäätteet määrittävät versiojoukon isäntätiedoston.">&amp;Isäntälauseke:</c>
-				<c xml:lang="nl" helptext="Voer een reguliere expressie in om te bestandsextensies for masterbestanden te definiëren.">&amp;Master-expressie:</c>
+				<c xml:lang="nl" helptext="Voer een reguliere uitdrukking in om te bestandsextensies for masterbestanden te definiëren.">&amp;Master-uitdrukking:</c>
 				<c xml:lang="pt" helptext="Inserir uma expressão regular para definir quais as extensões de ficheiro que são utilizadas como mestre para este conjunto de versões.">Expressão &amp;Mestre:</c>
 				<c xml:lang="no" helptext="Angi et regulært uttrykk for å definere hvilke filtyper som benyttes som hovedfil(er) for dette versjons-settet.">&amp;Hovedfil-uttrykk:</c>
 				<c xml:lang="it" helptext="Immetti un'espressione regolare per definire quali estensioni di file sono usate come master per questa regola di versione.">Espressione &amp;Master:</c>
@@ -11627,7 +11631,7 @@
 				<c xml:lang="en" helptext="Enter a regular expression to 'clean' the master file name of unwanted patterns before applying the link pattern.">&amp;Replacement Expression:</c>
 				<c xml:lang="de" helptext="Geben Sie einen regulären Ausdruck ein, der auf den Hauptdateinamen vor Anwendung des Link-Musters angewendet wird.">&amp;Ersetzen-Ausdruck:</c>
 				<c xml:lang="fi" helptext="Syötä säännöllinen lauseke 'puhdistaaksesi' isäntätiedostonimen eitoivotuista osista ennen linkityskuvion käyttämistä.">&amp;Korvauslauseke:</c>
-				<c xml:lang="nl" helptext="Voer een reguliere expressie in om op het masterbestand uit te voeren voordat het link-patroon wordt toegepast.">&amp;Vervangen-expressie:</c>
+				<c xml:lang="nl" helptext="Voer een reguliere uitdrukking in om op het masterbestand uit te voeren voordat het link-patroon wordt toegepast.">&amp;Vervangingsuitdrukking:</c>
 				<c xml:lang="pt" helptext="Inserir uma expressão regular para 'limpar' o nome do ficheiro mestre de padrões indesejados antes de aplicar o padrão das ligações.">Expressão de &amp;Substituição:</c>
 				<c xml:lang="no" helptext="Angi et regulært uttrykk for å 'rense' hovedfilnavnet for uønskede mønster før link-uttrykk tilføyes.">&amp;Erstatnings-uttrykk:</c>
 				<c xml:lang="it" helptext="Immetti un'espressione regolare per 'ripulire' il nome del file master da  schemi non voluti prima di applicare lo schema di collegamento.">Espressione di &amp;Sostituzione:</c>
@@ -11637,7 +11641,7 @@
 				<c xml:lang="en" helptext="Enter a regular expression to specify which file names are considered as versions for this master.\r\nUse {name} as a place-holder for the name of the Master file.">&amp;Link Expression:</c>
 				<c xml:lang="de" helptext="Geben Sie einen regulären Ausdruck ein, der die Dateinamen bestimmt, die als Version des aktuellen Masters angesehen werden.\r\nVerwenden Sie die Variable {name} als Platzhalter für den Namen der Master-Datei.">&amp;Link-Ausdruck:</c>
 				<c xml:lang="fi" helptext="Syötä säännöllinen lauseke määrittääksesi mitkä tiedostonimet luetaan tämän kantatiedoston versioiksi.\r\nKäytä {name} paikkamerkkinä kantatiedoston nimelle.">&amp;Linkityslauseke:</c>
-				<c xml:lang="nl" helptext="Geef een reguliere expressie in om de bestandsnamen die als versies voor deze master gelden, te definiëren.\r\nGebruik {name} als aanduiding voor de naam van het masterbestand.">&amp;Link-expressie:</c>
+				<c xml:lang="nl" helptext="Geef een reguliere uitdrukking in om de bestandsnamen die als versies voor deze master gelden, te definiëren.\r\nGebruik {name} als aanduiding voor de naam van het masterbestand.">&amp;Link-uitdrukking:</c>
 				<c xml:lang="pt" helptext="Inserir uma expressão regular para especificar que nomes de ficheiros são considerados como versões deste ficheiro mestre.\r\nUtilizar {name} como marcador de posição para o nome do ficheiro mestre.">Expressão de &amp;Ligação:</c>
 				<c xml:lang="no" helptext="Angi et regulært uttrykk for å spesifisere hvilke filnavn som anses som versjoner av denne hovedfilen.\r\nBenytt {name} som plassholder for navnet på hovedfilen.">&amp;Link-uttrykk:</c>
 				<c xml:lang="it" helptext="Immettere un'espressione regolare per specificare quali nomi di file sono considerati come versioniper questo master.\r\nUsa {name} come segna-posto per il nome del file Master.">Espressione di Co&amp;legamento:</c>
@@ -11657,7 +11661,7 @@
 				<c xml:lang="en" helptext="Click this button to test your expressions.">Test E&amp;xpressions...</c>
 				<c xml:lang="de" helptext="Klicken Sie hier, um Ihre regulären Ausdrücke zu testen.">Te&amp;ste Ausdrücke...</c>
 				<c xml:lang="fi" helptext="Napsauta nappia testataksesi lausekkeet.">&amp;Testaa lausekkeet...</c>
-				<c xml:lang="nl" helptext="Klik deze knop om de reguliere expressies te testen.">E&amp;xpressies testen...</c>
+				<c xml:lang="nl" helptext="Klik deze knop om de reguliere uitdrukkingen te testen.">Uitdrukkingen te&amp;sten...</c>
 				<c xml:lang="pt" helptext="Clique neste botão para testar as suas expressões.">Testar E&amp;xpressões...</c>
 				<c xml:lang="no" helptext="Trykk på denne knappen for å teste uttrykk.">Test Uttr&amp;ykk...</c>
 				<c xml:lang="it" helptext="Fai click su questo pulsante per testare l'espressione.">Test E&amp;spressione...</c>
@@ -11666,19 +11670,19 @@
 			<ctrl text="#l_variable">
 				<c xml:lang="en" helptext="Find versions by comparing master and version variables.">Limit by &amp;Variables:</c>
 				<c xml:lang="de" helptext="Findet Versionen durch Vergleichen von Variablen der Haupt- und Versionsdateien.">Mit &amp;Variablen einschränken:</c>
-				<c xml:lang="nl" helptext="Vindt versies door variabelen van master en versie(-s) te vergelijken.">Limit by &amp;Variables:</c>
+				<c xml:lang="nl" helptext="Vindt versies door variabelen van master en versie(-s) te vergelijken.">Met &amp;variabelen beperken:</c>
 				<c xml:lang="pt" helptext="Encontra versões comparando variáveis dos arquivos principais e de versão.">Limite por &amp;Variáveis:</c>
 			</ctrl>
 			<ctrl text="#l_variable_master">
 				<c xml:lang="en" helptext="Enter a standard IMatch variable expression or a literal.">Mas&amp;ter Expression:</c>
 				<c xml:lang="de" helptext="Geben Sie einen IMatch Variablenausdruck oder ein Literal ein">Haup&amp;tdateiausdruck:</c>
-				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking of een letterlijke tekst in.">Mas&amp;ter Expression:</c>
+				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking of een letterlijke tekst in.">Hoof&amp;duitdrukking:</c>
 				<c xml:lang="pt" helptext="Digite uma variável padrão do IMatch ou um literal.">Exp&amp;ressão Principal:</c>
 			</ctrl>
 			<ctrl text="#l_variable_file">
 				<c xml:lang="en" helptext="Enter a standard IMatch variable expression.">Versio&amp;n Expression:</c>
 				<c xml:lang="de" helptext="Geben Sie einen IMatch Variablenausdruck ein.">Versio&amp;nsausdruck:</c>
-				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking in.">Versio&amp;n Expression:</c>
+				<c xml:lang="nl" helptext="Voer een standaard IMatch variabele-uitdrukking in.">Versieuitdrukki&amp;ng:</c>
 				<c xml:lang="pt" helptext="Digite uma variável padrão do IMatch.">Exp&amp;ressão Versão:</c>
 			</ctrl>
 

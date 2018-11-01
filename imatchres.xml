@@ -19103,8 +19103,10 @@
             <property resid="app.telemetry.enabled">
                 <name xml:lang="en">Enable Telemetry</name>
                 <name xml:lang="de">Telemetriedaten aufzeichnen und verwenden</name>
+                <name xml:lang="nl">Telemetrie toestaan</name>
                 <desc xml:lang="en">If this setting is enabled, IMatch records anonymous (not linked to your person or license) telemetry data and sends it to photools.com. This data helps photools.com to make IMatch better. We can learn about how users work with IMatch, which features are used or not, which features cause problems or are slow to use and more. Only we will see this data and we don't share it.</desc>
-                <desc xml:lang="de">Wenn diese Option aktiviert ist, zeichnent IMatch während der Benutzung anonyme (nicht verknüpft mit Ihrer Person oder Lizenz) Telemetriedaten auf und sendet diese an photools.com. Diese Daten helfen photools.com IMatch zu berbessern. Wie lernen, welche Funktionen genutzt werden und welche nicht. Welche Funktionen Probleme machen oder langsam sind usw. Nur wir sehen diese Daten und wir geben sie auch nicht weiter.</desc>
+                <desc xml:lang="de">Wenn diese Option aktiviert ist, zeichnent IMatch während der Benutzung anonyme (nicht verknüpft mit Ihrer Person oder Lizenz) Telemetriedaten auf und sendet diese an photools.com. Diese Daten helfen photools.com IMatch zu verbessern. Wir lernen, welche Funktionen genutzt werden und welche nicht. Welche Funktionen Probleme machen oder langsam sind usw. Nur wir sehen diese Daten und wir geben sie auch nicht weiter.</desc>
+                <desc xml:lang="nl">Als deze optie geactiveerd is, houd IMatch anoniem (niet gekoppeld aan uw persoon of licensie) telemetrische gegevens bij en stuurt die naar photools.com. Deze gegevens helpen photools.com IMatch te verbeteren. Wij leren hoe gebruikers werken met IMatch, welke functies wel of niet worden gebruikt, welke mogelijkehden problemen veroorzaken, langzaam zijn en meer. Alleen wij zullen de gegevens te zien krijgen en zullen ze niet delen.</desc>
                 <group xml:lang="it">Impostazioni</group>
                 <group xml:lang="en">Settings</group>
                 <group xml:lang="no">Innstillinger</group>
@@ -29522,8 +29524,10 @@
             <property resid="filewnd.simpleeditor.onheaderfooterclick" desc="">
                 <name xml:lang="en">Clicking into header/footer opens layout editor</name>
                 <name xml:lang="de">Öffne Layout-Editor nach Klick in Kopf-/Fußzeile</name>
+                <name xml:lang="nl">Klikken in de kop of de voet opent de lay-out bewerker</name>
                 <desc xml:lang="en">By default the simple layout editor opens when you left-´click into the header or footer area of a panel.</desc>
                 <desc xml:lang="de">IMatch öffnet standardmäßig den vereinfachten Layout-Editor wenn Sie in die Kopf-/Fußzeile eines Panels klicken.</desc>
+                <desc xml:lang="nl">Standaard wordt de eenvoudige lay-out bewerker geopend als u 'links klikt' in de kop of de voet van een paneel.</desc>
             </property>
             
 
@@ -29953,19 +29957,23 @@
                     <choice data="65576">
                         <c xml:lang="en" desc="">GPS Coordinates</c>
                         <c xml:lang="de" desc="">GPS-Koordinaten</c>
+                        <c xml:lang="nl" desc="">GPS coördinaten</c>
                     </choice>
                     <choice data="65577">
                         <c xml:lang="en" desc="">GPS Coordinates (Numeric)</c>
                         <c xml:lang="de" desc="">GPS-Koordinaten (Numerisch)</c>
+                        <c xml:lang="nl" desc="">GPS coördinaten (numeriek)</c>
                     </choice>
 
                     <choice data="65586">
                         <c xml:lang="en" desc="">GPS Destination Coordinates</c>
                         <c xml:lang="de" desc="">GPS Zielkoordinaten</c>
+                        <c xml:lang="nl" desc="">GPS doelcoördinaten</c>
                     </choice>
                     <choice data="65587">
                         <c xml:lang="en" desc="">GPS Destination Coordinates (Numeric)</c>
                         <c xml:lang="de" desc="">GPS Zielkoordinaten (Numerisch)</c>
+                        <c xml:lang="nl" desc="">GPS doelcoördinaten (numeriek)</c>
                     </choice>
 
                     <choice data="40">
