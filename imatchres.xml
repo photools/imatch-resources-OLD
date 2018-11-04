@@ -8599,7 +8599,7 @@
                 <c xml:lang="en" hotkey="D" helptext="Toggle the dot for the current selection">Toggle &amp;Dot</c>
                 <c xml:lang="de" hotkey="D" helptext="Schaltet den Punkt für die aktuelle Auswahl um.">&amp;Punkt</c>
                 <c xml:lang="fi" hotkey="D" helptext="Lisää/poista merkintätäplä nykyiselle valinnalle">L&amp;isää/poista täplä</c>
-                <c xml:lang="nl" hotkey="D" helptext="Punt voor huidige selectie wisselen">&amp;Punt wisselen</c>
+                <c xml:lang="nl" hotkey="D" helptext="Punt voor huidige selectie aan/uit zetten">&amp;Punt aan/uit</c>
                 <c xml:lang="pt" hotkey="D" helptext="Alternar estado do ponto para a selecção actual">Alternar &amp;Ponto</c>
                 <c xml:lang="hr" hotkey="D" helptext="Preklopi točku trenutnog odabira">Preklopi to&amp;čku</c>
                 <c xml:lang="no" hotkey="D" helptext="Veksle punkt for gjeldende utvalg">Veksle &amp;punkt</c>
@@ -8609,7 +8609,7 @@
                 <c xml:lang="en" hotkey="" helptext="Toggle the red dot for the current selection">Toggle &amp;red Dot</c>
                 <c xml:lang="de" hotkey="" helptext="Schaltet den roten Punkt für die aktuelle Auswahl um.">&amp;Roten Punkt umschalten</c>
                 <c xml:lang="fi" hotkey="" helptext="Lisää/poista punainen täplä nykyiselle valinnalle">L&amp;isää/poista punainen täplä</c>
-                <c xml:lang="nl" hotkey="" helptext="Rode punt voor huidige selectie wisselen">&amp;Rode punt wisselen</c>
+                <c xml:lang="nl" hotkey="" helptext="Rode punt voor huidige selectie aan/uit zetten">&amp;Rode punt aan/uit</c>
                 <c xml:lang="pt" hotkey="" helptext="Activar/Desactivar o ponto vermelho para a selecção actual">Activar/Desactivar Ponto &amp;Vermelho</c>
                 <c xml:lang="hr" hotkey="" helptext="Preklopi crvenu točku trenutnog odabira">Preklopi &amp;crvenu točku</c>
                 <c xml:lang="no" hotkey="" helptext="Veksle det røde punktet for gjeldende utvalg">Veksle &amp;rødt punkt</c>
@@ -8619,7 +8619,7 @@
                 <c xml:lang="en" hotkey="" helptext="Toggle the green dot for the current selection">Toggle &amp;green Dot</c>
                 <c xml:lang="de" hotkey="" helptext="Schaltet den grünen Punkt für die aktuelle Auswahl um.">&amp;Grünen Punkt umschalten</c>
                 <c xml:lang="fi" hotkey="" helptext="Lisää/poista vihreä täplä nykyiselle valinnalle">L&amp;isää/poista vihreä täplä</c>
-                <c xml:lang="nl" hotkey="" helptext="Groene punt voor huidige selectie wisselen">&amp;Groene punt wisselen</c>
+                <c xml:lang="nl" hotkey="" helptext="Groene punt voor huidige selectie aan/uit zetten">&amp;Groene punt aan/uit</c>
                 <c xml:lang="pt" hotkey="" helptext="Activar/Desactivar o ponto verde para a selecção actual">Activar/Desactivar Ponto Ve&amp;rde</c>
                 <c xml:lang="hr" hotkey="" helptext="Preklopi zelenu točku trenutnog odabira">Preklopi &amp;zelenu točku</c>
                 <c xml:lang="no" hotkey="" helptext="Veksle det grønne punktet for gjeldende utvalg">Veksle &amp;grønt punkt</c>
@@ -8629,7 +8629,7 @@
                 <c xml:lang="en" hotkey="" helptext="Toggle the blue dot for the current selection">Toggle &amp;blue Dot</c>
                 <c xml:lang="de" hotkey="" helptext="Schaltet den blauen Punkt für die aktuelle Auswahl um.">&amp;Blauen Punkt umschalten</c>
                 <c xml:lang="fi" hotkey="" helptext="Lisää/poista sininen täplä nykyiselle valinnalle">L&amp;isää/poista sininen täplä</c>
-                <c xml:lang="nl" hotkey="" helptext="Blauwe punt voor huidige selectie wisselen">&amp;Blauwe punt wisselen</c>
+                <c xml:lang="nl" hotkey="" helptext="Blauwe punt voor huidige selectie aan/uit zetten">&amp;Blauwe punt aan/uit</c>
                 <c xml:lang="pt" hotkey="" helptext="Activar/Desactivar o ponto azul para a selecção actual">Activar/Desactivar Ponto &amp;Azul</c>
                 <c xml:lang="hr" hotkey="" helptext="Preklopi plavu točku trenutnog odabira">Preklopi &amp;plavu točku</c>
                 <c xml:lang="no" hotkey="" helptext="Veksle det blå punktet for gjeldende utvalg">Veksle &amp;blått punkt</c>
@@ -8639,7 +8639,7 @@
                 <c xml:lang="en" hotkey="Shift+D" helptext="Reset the dot for the current selection">Reset D&amp;ot</c>
                 <c xml:lang="de" hotkey="Shift+D" helptext="Schaltet den Punkt für die aktuelle Auswahl aus.">P&amp;unkt zurücksetzen</c>
                 <c xml:lang="fi" hotkey="Shift+D" helptext="Palauta merkintätäplä alkutilaansa valituille tiedostoille">&amp;Resetoi täplä</c>
-                <c xml:lang="nl" hotkey="Shift+D" helptext="Punt voor huidige selectie terugzetten">Punt te&amp;rugzetten</c>
+                <c xml:lang="nl" hotkey="Shift+D" helptext="Punt voor huidige selectie uitzetten">Punt &amp;uit</c>
                 <c xml:lang="pt" hotkey="Shift+D" helptext="Repôr o ponto para a selecção actual">&amp;Repôr Ponto</c>
                 <c xml:lang="hr" hotkey="Shift+D" helptext="Očisti točku trenutnog odabira">Očisti t&amp;očku</c>
                 <c xml:lang="no" hotkey="Shift+D" helptext="Tilbakestill punkter for gjeldende utvalg">Tilbakestill p&amp;unkt</c>
@@ -8661,7 +8661,7 @@
                 <c xml:lang="en" hotkey="R" helptext="Toggle the red pin for the current selection">Toggle &amp;red Pin</c>
                 <c xml:lang="de" hotkey="R" helptext="Schaltet den roten Pin für die aktuelle Auswahl um.">&amp;Roter Pin</c>
                 <c xml:lang="fi" hotkey="R" helptext="Lisää/poista punainen neula nykyiselle valinnalle">L&amp;isää/poista punainen neula</c>
-                <c xml:lang="nl" hotkey="R" helptext="Rode pin voor huidige selectie wisselen">&amp;Rode pin wisselen</c>
+                <c xml:lang="nl" hotkey="R" helptext="Rode pin voor huidige selectie aan/uit zetten">&amp;Rode pin aan/uit</c>
                 <c xml:lang="pt" hotkey="R" helptext="Activar/Desactivar o pino vermelho para a selecção actual">Activar/Desactivar Pino &amp;Vermelho</c>
                 <c xml:lang="hr" hotkey="R" helptext="Preklopi crvenu pribadaču trenutnog odabira">Preklopi &amp;crvenu pribadaču</c>
                 <c xml:lang="no" hotkey="R" helptext="Veksle den røde nålen for gjeldende utvalg">Veksle rød nål</c>
@@ -8671,7 +8671,7 @@
                 <c xml:lang="en" hotkey="G" helptext="Toggle the green pin for the current selection">Toggle &amp;green Pin</c>
                 <c xml:lang="de" hotkey="G" helptext="Schaltet den grünen Pin für die aktuelle Auswahl um.">&amp;Grüner Pin</c>
                 <c xml:lang="fi" hotkey="G" helptext="Lisää/poista vihreä neula nykyiselle valinnalle">L&amp;isää/poista vihreä neula</c>
-                <c xml:lang="nl" hotkey="G" helptext="Groene pin voor huidige selectie wisselen">&amp;Groene pin wisselen</c>
+                <c xml:lang="nl" hotkey="G" helptext="Groene pin voor huidige selectie aan/uit zetten">&amp;Groene pin aan/uit</c>
                 <c xml:lang="pt" hotkey="G" helptext="Activar/Desactivar o pino verde para a selecção actual">Activar/Desactivar Pino Ve&amp;rde</c>
                 <c xml:lang="hr" hotkey="G" helptext="Preklopi zelenu pribadaču trenutnog odabira">Preklopi &amp;zelenu pribadaču</c>
                 <c xml:lang="no" hotkey="R" helptext="Veksle den grønne nålen for gjeldende utvalg">Veksle grønn nål</c>
@@ -8681,7 +8681,7 @@
                 <c xml:lang="en" hotkey="E" helptext="Toggle the blue pin for the current selection">Toggle &amp;blue Pin</c>
                 <c xml:lang="de" hotkey="E" helptext="Schaltet den blauen Pin für die aktuelle Auswahl um.">&amp;Blauer Pin</c>
                 <c xml:lang="fi" hotkey="E" helptext="Lisää/poista sininen neula nykyiselle valinnalle">L&amp;isää/poista sininen neula</c>
-                <c xml:lang="nl" hotkey="E" helptext="Blauwe pin voor huidige selectie wisselen">&amp;Blauwe pin wisselen</c>
+                <c xml:lang="nl" hotkey="E" helptext="Blauwe pin voor huidige selectie aan/uit zetten">&amp;Blauwe pin aan/uit</c>
                 <c xml:lang="pt" hotkey="E" helptext="Activar/Desactivar o pino azul para a selecção actual">Activar/Desactivar Pino &amp;Azul</c>
                 <c xml:lang="hr" hotkey="E" helptext="Preklopi plavu pribadaču trenutnog odabira">Preklopi &amp;plavu pribadaču</c>
                 <c xml:lang="no" hotkey="R" helptext="Veksle den blå nålen for gjeldende utvalg">Veksle blå nål</c>
@@ -8691,7 +8691,7 @@
                 <c xml:lang="en" hotkey="Shift+P" helptext="Reset the pins for the current selection">Reset P&amp;ins</c>
                 <c xml:lang="de" hotkey="Shift+P" helptext="Alle Pins für die aktuelle Auswahl zurücksetzen.">&amp;Pins zurücksetzen</c>
                 <c xml:lang="fi" hotkey="Shift+P" helptext="Palauta neulat alkutilaansa valituille tiedostoille">&amp;Resetoi neulat</c>
-                <c xml:lang="nl" hotkey="Shift+P" helptext="Alle pins voor huidige selectie terugzetten">P&amp;ins terugzettenn</c>
+                <c xml:lang="nl" hotkey="Shift+P" helptext="Alle pins voor huidige selectie uitzetten">P&amp;ins uitzetten</c>
                 <c xml:lang="pt" hotkey="Shift+P" helptext="Repôr os pinos para a selecção actual">Repôr P&amp;inos</c>
                 <c xml:lang="hr" hotkey="Shift+P" helptext="Očisti pribadače trenutnog odabira">Očisti pr&amp;ibadače</c>
                 <c xml:lang="no" hotkey="Shift+P" helptext="Tilbakestill nålene for gjeldende utvalg">Tilbakestill nåler</c>
