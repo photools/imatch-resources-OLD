@@ -30308,6 +30308,7 @@
                         <c xml:lang="en" desc="Left align the contents inside the cell">Left</c>
                         <c xml:lang="no" desc="Venstrejuster innholdet i cellen">Venstre</c>
                         <c xml:lang="de" desc="Linksbündige Ausrichtung">Links</c>
+                        <c xml:lang="nl" desc="Links uitlijnen">Links</c>
                         <c xml:lang="fi" desc="Tasaa vasemmalle">Vasen</c>
                         <c xml:lang="pt" desc="Alinhar à esquerda o conteúdo da célula">Esquerda</c>
                         <c xml:lang="hr" desc="Poravnaj sadržaj lijevo unutar ćelije">Esquerda</c>
