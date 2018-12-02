@@ -5466,12 +5466,14 @@
         <s xml:lang="en">\r\nPropagating metadata from masters to versions...</s>
         <s xml:lang="de">\r\nPropagiere Metadaten in Versionsdateien...</s>
         <s xml:lang="nl">\r\nMetadata van masters naar versies overdragen...</s>
+        <s xml:lang="pt">\r\nPropagando metadados de mestres para versões...</s>
       </str>
         
         <str resid="PTR_TASK_MB_WRITEBACK_PROGRESSDLG_PROPAGATE" desc="">
             <s xml:lang="en">Propagating metadata...</s>
             <s xml:lang="en">Propagiere Metadaten...</s>
             <s xml:lang="nl">Metadata worden overgedragen...</s>
+            <s xml:lang="pt">Propagando metadados...</s>
         </str>
 
         <!-- Strings used for query result windows -->
@@ -7744,6 +7746,7 @@
         <s xml:lang="en"><![CDATA[<StackPanel VerticalAlignment='Center' Margin='32,0,32,0'><Border Margin='0,0,0,16'><TextBlock HorizontalAlignment='Center' TextWrapping='Wrap' Foreground='{foreground}' FontSize='{fs16}'>No Files</TextBlock></Border><TextBlock HorizontalAlignment='Center' TextWrapping='Wrap' Foreground='{foreground2}' FontSize='{fs12}' TextAlignment='Center'>The selected element contains no files.<LineBreak/>To include files from sub-elements, enable the <Bold>hierarchical display mode</Bold> with the toolbar button.</TextBlock><Image VerticalAlignment='Top' HorizontalAlignment='Center' Margin='4,12,4,4' Source='{src}'></Image></StackPanel>]]></s>
         <s xml:lang="de"><![CDATA[<StackPanel VerticalAlignment='Center' Margin='32,0,32,0'><Border Margin='0,0,0,16'><TextBlock HorizontalAlignment='Center' TextWrapping='Wrap' Foreground='{foreground}' FontSize='{fs16}'>Keine Dateien</TextBlock></Border><TextBlock HorizontalAlignment='Center' TextWrapping='Wrap' Foreground='{foreground2}' FontSize='{fs12}' TextAlignment='Center'>Das ausgewählte Element enthält keine Dateien.<LineBreak/>Sie können Dateien aus untergeordneten Elementen einblenden, indem Sie den <Bold>hierarchischen Anzeigemodus</Bold> über die Schaltfläche in der Symbolleiste.</TextBlock><Image VerticalAlignment='Top' HorizontalAlignment='Center' Margin='4,12,4,4' Source='{src}'></Image></StackPanel>]]></s>
         <s xml:lang="nl"><![CDATA[<StackPanel VerticalAlignment='Center' Margin='32,0,32,0'><Border Margin='0,0,0,16'><TextBlock HorizontalAlignment='Center' TextWrapping='Wrap' Foreground='{foreground}' FontSize='{fs16}'>Geen bestanden</TextBlock></Border><TextBlock HorizontalAlignment='Center' TextWrapping='Wrap' Foreground='{foreground2}' FontSize='{fs12}' TextAlignment='Center'>Het geselecteerde element bevat geen bestanden.<LineBreak/>U kunt bestanden uit sub-elementen toevoegen, door de <Bold>Bestanden in de hiërarchie tonen</Bold> te activeren met de knop in de gereedschapsbalk.</TextBlock><Image VerticalAlignment='Top' HorizontalAlignment='Center' Margin='4,12,4,4' Source='{src}'></Image></StackPanel>]]></s>
+        <s xml:lang="pt"><![CDATA[<StackPanel VerticalAlignment='Center' Margin='32,0,32,0'><Border Margin='0,0,0,16'><TextBlock HorizontalAlignment='Center' TextWrapping='Wrap' Foreground='{foreground}' FontSize='{fs16}'>Sem ficheiros</TextBlock></Border><TextBlock HorizontalAlignment='Center' TextWrapping='Wrap' Foreground='{foreground2}' FontSize='{fs12}' TextAlignment='Center'>O item seleccionado não contém ficheiros.<LineBreak/>Pode mostrar ficheiros subordinados utilizando o botão <Bold> Mostrar hierarquia </Bold> na barra de ferramentas..</TextBlock><Image VerticalAlignment='Top' HorizontalAlignment='Center' Margin='4,12,4,4' Source='{src}'></Image></StackPanel>]]></s>
       </str>
 
       <!-- File Window Tip -->
