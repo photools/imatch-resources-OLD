@@ -3653,6 +3653,7 @@
                 <c xml:lang="en" hotkey="Ins" helptext="Create a new child category under the selected category and assign all selected files.">New category from &amp;files</c>
                 <c xml:lang="de" hotkey="Ins" helptext="Erstellt eine neue untergeordnete Kategorie und weißt ihr alle ausgewählten Dateien zu.">Neu von &amp;Dateien</c>
                 <c xml:lang="nl" hotkey="Ins" helptext="Maak een nieuwe subcategorie aan en wijs alle bestanden daar aan toe.">Nieuwe categorie vanuit &amp;bestanden</c>
+                <c xml:lang="pt" hotkey="Ins" helptext="Crie uma nova categoria subordinada sob a categoria seleccionada e atribua todos os ficheiros seleccionados.">Nova categoria a partir de &amp;ficheiros</c>
             </cmd>
         </command_group>
 
@@ -8283,6 +8284,7 @@
                 <c xml:lang="en" hotkey="Ctrl+F" helptext="Open the find panel">&amp;Find...</c>
                 <c xml:lang="de" hotkey="Ctrl+F" helptext="Das Such-Panel öffnen.">&amp;Suchen...</c>
                 <c xml:lang="nl" hotkey="Ctrl+F" helptext="Open het zoek paneel">&amp;Zoeken...</c>
+                <c xml:lang="pt" hotkey="Ctrl+F" helptext="Abrir o painel de localização">&amp;Encontrar...</c>
             </cmd>
 
         </command_group>
@@ -8781,7 +8783,7 @@
                 <c xml:lang="de" hotkey="F4|S" helptext="Alle ausgewählten Master und Versionen in einem Ergebnisfenster anzeigen">Alle &amp;Versionen anzeigen...</c>
                 <c xml:lang="fi" hotkey="F4|S" helptext="Avaa tulosikkuna, joka näyttää kaikki kantatiedostot ja versiot">&amp;Näytä versiot...</c>
                 <c xml:lang="nl" hotkey="F4|S" helptext="Alle geselecteerde masters en versies in een resultaatvenster tonen">Alle &amp;versies tonen...</c>
-                <c xml:lang="pt" hotkey="F4|S" helptext="Abrir uma janela de resultados com todos os ficheiros metre e versões seleccionados">Mostrar Todas as &amp;Versões...</c>
+                <c xml:lang="pt" hotkey="F4|S" helptext="Abrir uma janela de resultados com todos os ficheiros mestre e versões seleccionados">Mostrar Todas as &amp;Versões...</c>
                 <c xml:lang="hr" hotkey="F4|S" helptext="Otvori prozor s rezultatima s odabranim matricama i verzijama">Pokaži sve &amp;verzije...</c>
                 <c xml:lang="no" hotkey="F4|S" helptext="Åpne et resultatvindu med alle valgte hovedfiler og versjonsfiler">Vis alle &amp;versjoner...</c>
                 <c xml:lang="it" hotkey="F4|S" helptext="Apre una finestra ''risultati'' con tutti i file master selezionati e le versioni">Mostra tutte le &amp;Versioni...</c>
@@ -10192,11 +10194,13 @@
                 <c xml:lang="en" hotkey="" helptext="Find all files with the same value for this tag">&amp;Find all files with this value (Entire database)...</c>
                 <c xml:lang="de" hotkey="" helptext="Alle Dateien mit dem gleichen Wert in diesem Tag suchen">Alle Dateien mit diesem Wert &amp;suchen (Gesamte Datenbank)...</c>
                 <c xml:lang="nl" hotkey="" helptext="Alle bestanden met dezelfde waarde voor deze tag zoeken">&amp;Zoek alle bestanden met deze waarde (gehele database)...</c>
+                <c xml:lang="pt" hotkey="" helptext="Encontrar todos os ficheiros com o mesmo valor para esta etiqueta">&amp;Encontrar todos os ficheiros com este valor (Toda a base de dados)...</c>
             </cmd>
             <cmd resid="ID_MDCONTAINER_QUERY_SCOPE" bmidx="-1">
                 <c xml:lang="en" hotkey="" helptext="Find all files with the same value for this tag">&amp;Find all files with this value (Current scope)...</c>
                 <c xml:lang="de" hotkey="" helptext="Alle Dateien mit dem gleichen Wert in diesem Tag suchen">Alle Dateien mit diesem Wert &amp;suchen (aktueller Kontext)...</c>
                 <c xml:lang="nl" hotkey="" helptext="Alle bestanden met dezelfde waarde voor deze tag zoeken">&amp;Zoek alle bestanden met deze waarde (actuele scope)...</c>
+                <c xml:lang="pt" hotkey="" helptext="Encontrar todos os ficheiros com o mesmo valor para esta etiqueta">&amp;Encontrar todos os ficheiros com este valor (Contexto actual)...</c>
             </cmd>
             <cmd resid="ID_MDCONTAINER_GEOCODE" bmidx="10">
                 <c xml:lang="en" hotkey="Ctrl+M|G" helptext="Reverse Geocode all selected files">Reverse &amp;Geocode all selected files...</c>
@@ -19104,9 +19108,11 @@
                 <name xml:lang="en">Enable Telemetry</name>
                 <name xml:lang="de">Telemetriedaten aufzeichnen und verwenden</name>
                 <name xml:lang="nl">Telemetrie toestaan</name>
+                <name xml:lang="pt">Activar Telemetria</name>
                 <desc xml:lang="en">If this setting is enabled, IMatch records anonymous (not linked to your person or license) telemetry data and sends it to photools.com. This data helps photools.com to make IMatch better. We can learn about how users work with IMatch, which features are used or not, which features cause problems or are slow to use and more. Only we will see this data and we don't share it.</desc>
                 <desc xml:lang="de">Wenn diese Option aktiviert ist, zeichnent IMatch während der Benutzung anonyme (nicht verknüpft mit Ihrer Person oder Lizenz) Telemetriedaten auf und sendet diese an photools.com. Diese Daten helfen photools.com IMatch zu verbessern. Wir lernen, welche Funktionen genutzt werden und welche nicht. Welche Funktionen Probleme machen oder langsam sind usw. Nur wir sehen diese Daten und wir geben sie auch nicht weiter.</desc>
                 <desc xml:lang="nl">Als deze optie geactiveerd is, houd IMatch anoniem (niet gekoppeld aan uw persoon of licensie) telemetrische gegevens bij en stuurt die naar photools.com. Deze gegevens helpen photools.com IMatch te verbeteren. Wij leren hoe gebruikers werken met IMatch, welke functies wel of niet worden gebruikt, welke mogelijkehden problemen veroorzaken, langzaam zijn en meer. Alleen wij zullen de gegevens te zien krijgen en zullen ze niet delen.</desc>
+                <desc xml:lang="pt">Se esta opção estiver activada, a IMatch regista dados de telemetria anónimos (não vinculados à sua pessoa ou licença) e envia-os para o site photools.com. Esses dados ajudam o photools.com a melhorar o IMatch. Podemos aprender sobre como os utilizadores trabalham com o IMatch, quais os recursos que são usados ou não, quais os recursos que causam problemas ou se são lentos ao utilizar e muito mais. Apenas nós veremos esses dados e não os compartilharemos.</desc>
                 <group xml:lang="it">Impostazioni</group>
                 <group xml:lang="en">Settings</group>
                 <group xml:lang="no">Innstillinger</group>
@@ -29525,9 +29531,11 @@
                 <name xml:lang="en">Clicking into header/footer opens layout editor</name>
                 <name xml:lang="de">Öffne Layout-Editor nach Klick in Kopf-/Fußzeile</name>
                 <name xml:lang="nl">Klikken in de kop of de voet opent de lay-out bewerker</name>
+                <name xml:lang="pt">Ao clicar no cabeçalho / rodapé abre o editor de configuração dos mesmos</name>
                 <desc xml:lang="en">By default the simple layout editor opens when you left-´click into the header or footer area of a panel.</desc>
                 <desc xml:lang="de">IMatch öffnet standardmäßig den vereinfachten Layout-Editor wenn Sie in die Kopf-/Fußzeile eines Panels klicken.</desc>
                 <desc xml:lang="nl">Standaard wordt de eenvoudige lay-out bewerker geopend als u 'links klikt' in de kop of de voet van een paneel.</desc>
+                <desc xml:lang="pt">Por defeito, o editor de configuração no seu modo mais simples é aberto quando clicar na área do cabeçalho ou rodapé de um painel. Para desactivar esta opção, ir a Editar / Preferências / Janela de ficheiros / Resultado Windows / Ao clicar no cabeçalho / rodapé abre o editor de configuração dos mesmos - Passar a Não</desc>
             </property>
             
 
