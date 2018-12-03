@@ -693,6 +693,7 @@
                 <c xml:lang="en">App layouts cannot be edited in this dialog. Use the configuration functions provided by the app.</c>
                 <c xml:lang="de">App-Layouts können in diesem Dialog nicht bearbeitet werden. Bitte nutzen Sie die Einstellungsfunktionen der App.</c>
 				<c xml:lang="ln">App-layouts kunnen in deze dialoog niet worden bewerkt. Gebruik de instellingsfunctie die door de app worden geboden.</c>
+				<c xml:lang="pt">Configuração de aplicações não podem ser editados nesta caixa de diálogo. Utilize as funções de configuração fornecidas pela aplicação.</c>
             </ctrl>
            
 
@@ -715,8 +716,8 @@
                     <t xml:lang="nl">Kies het bestand om van te importeren</t>
 					<t xml:lang="pt">Escolha o ficheiro de onde importar</t>
 					<t xml:lang="no">Velg importfil</t>
-					<t xml:lang="hr">Odaberi datoteku iz koje želiš uvesti</t>
-                    <t xml:lang="it">Scegliere il file da cui importare</t>
+					<t xml:lang="hr">Odaberi datoteku iz koje želiš uvesti</t>                    
+					<t xml:lang="it">Scegliere il file da cui importare</t>
                 </td>
                 <td tid="defext">
                     <t xml:lang="en">.imfwl</t>
@@ -750,21 +751,25 @@
                 <c xml:lang="en" helptext="">Header</c>
                 <c xml:lang="de" helptext="">Kopfzeilen</c>
 				<c xml:lang="nl" helptext="">Koptekst</c>
+				<c xml:lang="pt" helptext="">Cabeçalho</c>
             </ctrl>
             <ctrl text="#l_footer" style="bold">
                 <c xml:lang="en" helptext="">Footer</c>
                 <c xml:lang="de" helptext="">Fußzeilen</c>
 				<c xml:lang="nl" helptext="">Voettekst</c>
+				<c xml:lang="pt" helptext="">Rodapé</c>
             </ctrl>
             <ctrl text="#l_info">
                 <c xml:lang="en" helptext="">Select the fields you want to display in the header and footer area in the file window panels. Your changes are saved to the currently selected layout.\r\n\r\nTo access all available options, open the File Window layout editor by clicking on the button below.</c>
                 <c xml:lang="de" helptext="">Wählen Sie die Felder aus, die Sie im Kopf-/Fußbereich der Dateifenster-Panele anzeigen möchten. Ihre Änderungen werden im aktuell ausgewählten Layout gespeichert.\r\n\r\nFür den Zugriff auf alle verfügbaren Optionen öffnen Sie bitte den Layout-Editor mit der Schaltfläche unten.</c>
             	<c xml:lang="nl" helptext="">Kies de velden, die u in de kop of de voet van de bestandsvenster-panelen wilt tonen. Uw wijzigingen worden in de actuele lay-out opgeslagen.\r\n\r\nOm alle beschikbare optie te kunnen gebruiken, dient u de bestandsvenster bewerker te openen met de knop hieronder.</c>
+				<c xml:lang="pt" helptext="">Seleccione os campos que deseja exibir na área do cabeçalho e rodapé nos painéis da janela de ficheiros. As suas mudanças são gravadas na configuração seleccionada.\r\n\r\nPara aceder a todas as opções, abra o editor de configuração da Janela de Ficheiros clicando no botão abaixo.</c>
 			</ctrl>
             <ctrl text="#l_btn_full">
                 <c xml:lang="en" helptext="Open the layout editor with all available options.">Open &amp;Layout Editor...</c>
                 <c xml:lang="de" helptext="Den Layout-Editor mit allen verfügbaren Optionen öffnen.">&amp;Layout-Editor öffnen</c>
 				<c xml:lang="nl" helptext="De lay-out bewerker met alle opties openen.">&amp;Lay-out bewerker openen...</c>
+				<c xml:lang="pt" helptext="Abra o editor de configuração com todas as opções possíveis.">Abrir &amp;Editor de Configuração...</c>
             </ctrl>
             
         </dialog>

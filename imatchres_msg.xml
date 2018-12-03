@@ -1868,6 +1868,13 @@
                     <button btnid="1002">Later een woordenlijst downloaden</button>
                     <button btnid="1003">Ik wil in IMatch geen spellingscontrole gebruiken</button>
                 </m>
+				<m xml:lang="pt">
+                    <cap>Verificador ortográfico</cap>
+                    <cont>Ainda não instalou um dicionário para o verificador ortográfico do IMatch. A verificação ortográfica não está disponível até baixar e instalar um dicionário para o seu idioma.</cont>
+                    <button btnid="1001">Baixar o dicionário agora.</button>
+                    <button btnid="1002">Baixar o dicionário mais tarde.</button>
+                    <button btnid="1003">Eu não pretendo utilizar o verificador ortográfico no IMatch.</button>
+                </m>
             </msg>
 
 			<msg resid="PTR_MSG_WIC_CODEC_MISSING" typeid="[[TD_INFORMATION_ICON]]" desc="" >
@@ -2160,12 +2167,19 @@
                     <button btnid="1002">Ik wil meer weten hoe IMatch telemetrie gebruikt.</button>
                     <button btnid="1003">Ik wil telemetrie uitzetten.\nLiever niet! De gegevens die door IMatch worden verzameld, zijn niet gelinkt aan uw persoon en helpen ons IMatch voor alle gebruikers te verbeteren.</button>
                 </m>
+				<m xml:lang="pt">
+                    <cap>Telemetria</cap>
+                    <cont>Utilizamos a telemetria para registar dados de uso ANÓNIMO. Desta forma ajuda-nos a entender melhor como o IMatch é utilizado e consequentemente a melhorar o software para todos os utilizadores.\r\n\r\nOs dados transmitidos para o photools.com são anónimos e não estão vinculados à sua conta de utilizador ou comunidade. Não podemos (e não queremos) identificá-lo a partir dos dados de telemetria.\r\n\r\nClique no segundo botão abaixo para saber mais sobre como funciona a telemetria e por que é tão importante.</cont>
+                    <button btnid="1001">Óptimo! Permitir que o IMatch coleccione dados de uso anónimos.\nPode alterar esta opção em qualquer altura em Editar &gt; Preferências &gt; Aplicação.</button>
+                    <button btnid="1002">Eu pretendo aprender mais sobre como o IMatch utiliza a telemetria.</button>
+                    <button btnid="1003">Eu pretendo desactivar a telemetria.\nPor favor não o faça! Os dados reunidos pelo IMatch não estão vinculados à sua pessoa e ajudam-nos muito a melhorar o produto para todos os utilizadores.</button>
+                </m>
             </msg>
 
             <msg resid="PTR_MSG_APP_TELEMETRY_NOPROMPT" typeid="[[TD_INFORMATION_ICON]]" desc="">
                 <m xml:lang="en">
                     <cap>Telemetry</cap>
-                    <cont>Please reconsider enabling telemetry.\r\n\r\nThe anonymous data helps us to better understand how users work with IMatch and to continously improve the product.\r\n\r\nDo you want to see the telemetry information again?</cont>
+                    <cont>Please reconsider enabling telemetry.\r\n\r\nThe anonymous data helps us to better understand how users work with IMatch and to continuously improve the product.\r\n\r\nDo you want to see the telemetry information again?</cont>
                 </m>
                 <m xml:lang="de">
                     <cap>Telemetrie</cap>
@@ -2174,6 +2188,10 @@
 				<m xml:lang="nl">
                     <cap>Telemetrie</cap>
                     <cont>Overweeg a.u.b. om telemetrie toe te staan.\r\n\r\nDe anonieme gegevens helpen ons om beter te begrijpen hoe gebruikers met IMatch werken. Daarmee kunnen wij het product continu verbeteren.\r\n\r\nWilt u de informatie over telemetrie opnieuw zien?</cont>
+                </m>
+				<m xml:lang="pt">
+                    <cap>Telemetria</cap>
+                    <cont>Por favor, reconsidere a activação da telemetria.\r\n\r\nOs dados anónimos ajudam-nos a entender melhor como os utilizadores trabalham com o IMatch e a melhorar continuamente o produto.\r\n\r\nPretende ver a informação sobre telemetria novamente?</cont>
                 </m>
             </msg>
 
@@ -3406,6 +3424,11 @@
                     <cont>Sommige bestanden zijn momenteel verborgen door één of meer stapels en kunnen niet gezocht worden.\r\n\r\nOm alle bestanden te zoeken, dient u eerst alle stapels uit te klappen.</cont>
                     <ver>Niet opnieuw tonen</ver>
                 </m>
+				<m xml:lang="pt">
+                    <cap>Ficheiros empilhados</cap>
+                    <cont>Alguns ficheiros estão ocultos por uma ou mais pilhas e não serão pesquisados.\r\n\r\nPara pesquisar todos os ficheiros, verifique se todas as pilhas estão expandidas.</cont>
+                    <ver>Não mostrar novamente</ver>
+                </m>
             </msg>
 
             <msg resid="PTR_MSG_FILEWND_CUSTOM_SORT_WARNING" typeid="[[TD_WARNING_ICON]]">
@@ -3421,6 +3444,10 @@
                     <cap>Gestapelde bestanden</cap>
                     <cont>Sommige bestanden worden momenteel verborgen door een of meer stapels.\r\nHet handmatig sorteren van bestanden, terwijl sommige bestanden zijn verborgen, kan tot onverwachte resultaten leiden.\r\n\r\nWilt u alle verborgen bestanden nu tonen? U kun ze opnieuw verbergen door de knop in de gereedschapsbalk of het '[[cID_FILEWND_SHOW_STACKED]]' commando in het context menu.</cont>
                 </m>
+				<m xml:lang="pt">
+                    <cap>Ficheiros empilhados</cap>
+                    <cont>Alguns ficheiros estão ocultos por uma ou mais pilhas.\r\nReordenar manualmente ficheiros quando alguns deles estão ocultos pode levar a resultados inesperados.\r\n\r\nQuer mostrar todos os arquivos ocultos agora? Pode escondê-los novamente através do botão da barra de ferramentas ou do comando '[[cID_FILEWND_SHOW_STACKED]]' no menu de contexto.</cont>
+                </m>
             </msg>
 
             <msg resid="PTR_MSG_FILEWND_STACK_TOGGLE_WARNING" typeid="[[TD_INFORMATION_ICON]]">
@@ -3435,6 +3462,10 @@
 				<m xml:lang="nl">
                     <cap>Verborgen bestanden worden getoond</cap>
                     <cont>U heeft de optie om bestanden te tonen die door stapels zijn verborgen, geactiveerd (knop in de gereedschapsbalk). Het veranderen van de stapelstatus heeft in deze modus geen effect op de bestanden die in het bestandsvenster worden getoond.</cont>
+                </m>
+				<m xml:lang="pt">
+                    <cap>Exibição de ficheiros ocultos activados</cap>
+                    <cont>Activou a opção para exibir ficheiros ocultos por pilhas (botão da barra de ferramentas). Alterar o estado da pilha neste modo não afecta os ficheiros exibidos na janela de ficheiros.</cont>
                 </m>
             </msg>
 
@@ -3453,6 +3484,11 @@
                     <cap>Volledige layout bewerker</cap>
                     <cont>Houdt, om de volledige layout bewerker direct te openen, de &lt;Ctrl&gt; toets ingedrukt als u dit commando selecteert.</cont>
                     <ver>Niet opnieuw tonen</ver>
+                </m>
+				<m xml:lang="pt">
+                    <cap>Editor de Configuração Completo</cap>
+                    <cont>Para abrir directamente o editor de configuração completo, mantenha pressionada a tecla &lt;Ctrl&gt; e seleccione este comando.</cont>
+                    <ver>Não mostrar novamente</ver>
                 </m>
             </msg>
 
@@ -6572,6 +6608,10 @@
 				<m xml:lang="nl">
 					<cap>Waarschuwingg</cap>
 					<cont>De opdrachten in deze preset wijzigen of wissen gegevens.\r\nWilt u dit desondanks uitvoeren?</cont>
+				</m>
+				<m xml:lang="pt">
+					<cap>Aviso</cap>
+					<cont>Os comandos nesta predefinição modificam ou excluem dados.\r\nPretende executá-lo mesmo assim?</cont>
 				</m>
 			</msg>
         
