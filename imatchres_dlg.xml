@@ -1623,6 +1623,27 @@
 					Use ; to separate the pre commands from the normal tags. If no ; is found, all 
 					entries are considered as tags
                 -->
+                
+                <ld listid="80" key="-xmp-dc:title|-xmp-photoshop:headline|-xmp-dc:description|-xmp-photoshop:captionwriter|-xmp-photoshop:category|-xmp-photoshop:supplementalcategories">
+                    <l xml:lang="en" helptext="Title, Headline, Description, Caption Writer, IPTC Subject Code, IPTC Category, IPTC Supplemental Categories.">Image Description (see info below)</l>
+                    <l xml:lang="de" helptext="Title, Koopfzeile, Beschreibung, Autor der Beschreibung, IPTC-Kategorien und IPTC Andere Kategorien.">Bildbeschreibung (siehe Info unten)</l>
+                </ld>
+                
+                <ld listid="81" key="-xmp-photoshop:credit|-xmp-xmprights:marked|-xmp-dc:rights|-xmp-xmprights:webstatement|-xmp-xmprights:usageterms">
+                    <l xml:lang="en" helptext="Credit, Copyright Status, Copyright Note, Rights, Copyright URL and Usage Terms.">Copyright &amp; Rights</l>
+                    <l xml:lang="de" helptext="Credit, Copyright-Status, Copyright-Notiz, Bildrechteinformationen, Copyright URL und Nutzungsbedingungen.">Copyright &amp; Bildrechte</l>
+                </ld>
+                
+				<ld listid="105" key="-xmp:hierarchicalSubject|-xmp:subject|-iptc:keywords">
+					<l xml:lang="en" helptext="XMP hierarchical keywords, flat keywords, legacy IPTC keywords">Keywords</l>
+					<l xml:lang="de" helptext="XMP hierarchische Schlüsselwörter, Schlüsselwörter, IPTC-Schlüsselwörter">Schlüsselwörter</l>
+					<l xml:lang="fi" helptext="">Asiasanat</l>
+					<l xml:lang="nl" helptext="">Trefwoorden</l>
+					<l xml:lang="pt" helptext="">Palavras-Chave</l>
+					<l xml:lang="no" helptext="">Nøkkelord</l>
+					<l xml:lang="hr" helptext="">Ključne riječi</l>
+					<l xml:lang="it" helptext="">Keywords</l>
+				</ld>
 
                 <ld listid="100" key="-xmp:all=;-xmp:all">
                     <l xml:lang="en" helptext="">XMP Data</l>
@@ -1670,16 +1691,6 @@
 					<l xml:lang="fi" helptext="">Ei kopioida XMP kasvotunnisteita</l>
 				</ld>
 
-				<ld listid="105" key="-xmp:hierarchicalSubject|-xmp:subject|-iptc:keywords">
-					<l xml:lang="en" helptext="">Keywords</l>
-					<l xml:lang="de" helptext="">Schlüsselwörter</l>
-					<l xml:lang="fi" helptext="">Asiasanat</l>
-					<l xml:lang="nl" helptext="">Trefwoorden</l>
-					<l xml:lang="pt" helptext="">Palavras-Chave</l>
-					<l xml:lang="no" helptext="">Nøkkelord</l>
-					<l xml:lang="hr" helptext="">Ključne riječi</l>
-					<l xml:lang="it" helptext="">Keywords</l>
-				</ld>
 				<ld listid="106" key="-xmp:hierarchicalSubject|-xmp:subject">
 					<l xml:lang="en" helptext="">XMP Keywords only</l>
 					<l xml:lang="de" helptext="">Nur XMP-Schlüsselwörter</l>
