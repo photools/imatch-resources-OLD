@@ -7197,8 +7197,8 @@
             </cmd>
 
             <cmd resid="ID_CMD_FILE_PASTE_ATTRIBUTES" desc="">
-                <c xml:lang="en" hotkey="Shift+Ctrl+V" helptext="Copies selected attributes contained in the Windows Clipboard into the current selection.">Paste Att&amp;ributes</c>
-                <c xml:lang="de" hotkey="Shift+Ctrl+V" helptext="Kopiert die ausgewählten Attribute aus der Zwischenablage in die ausgewählten Dateien.">Att&amp;ribute einfügen</c>
+                <c xml:lang="en" hotkey="Shift+Ctrl+V" helptext="Copies selected attributes and metadata contained in the Windows Clipboard into the current selection.">Paste Att&amp;ributes and Data</c>
+                <c xml:lang="de" hotkey="Shift+Ctrl+V" helptext="Kopiert die ausgewählten Attribute und Metadaten aus der Zwischenablage in die ausgewählten Dateien.">Att&amp;ribute und Daten einfügen</c>
                 <c xml:lang="fi" hotkey="Shift+Ctrl+V" helptext="Liitä määritteet leikepöydältä valittuihin tiedostoihin">Liitä &amp;määritteet</c>
                 <c xml:lang="nl" hotkey="Shift+Ctrl+V" helptext="Kopieer het geselecteerde attribuut uit het Windows Klembord in de huidige selectie.">Att&amp;ribuut plakken</c>
                 <c xml:lang="pt" hotkey="Shift+Ctrl+V" helptext="Copiar os atributos seleccionados contidos na Área de Transferência do Windows para a selecção actual.">Colar At&amp;ributos</c>
@@ -8285,6 +8285,11 @@
                 <c xml:lang="de" hotkey="Ctrl+F" helptext="Das Such-Panel öffnen.">&amp;Suchen...</c>
                 <c xml:lang="nl" hotkey="Ctrl+F" helptext="Open het zoek paneel">&amp;Zoeken...</c>
                 <c xml:lang="pt" hotkey="Ctrl+F" helptext="Abrir o painel de localização">&amp;Encontrar...</c>
+            </cmd>
+
+            <cmd resid="ID_CMD_CATEGORY_EDIT_FORMULA" bmidx="-1" desc="Copy">
+                <c xml:lang="en" hotkey="" helptext="Add/edit the category formula">Edit &amp;Formula...</c>
+                <c xml:lang="de" hotkey="" helptext="Die Kategorieformel bearbeiten.">&amp;Formel bearbeiten...</c>
             </cmd>
 
         </command_group>
@@ -16151,6 +16156,8 @@
             <item>ID_CMD_CATEGORY_ADDSIBLING</item>
             <item>ID_CMD_CATEGORY_ADDMULTI</item>
             <item>ID_CMD_CATEGORY_RENAME</item>
+            <separator/>
+            <item>ID_CMD_CATEGORY_EDIT_FORMULA</item>
             <separator/>
             <item>ID_CMD_CATEGORY_FIND</item>
             <separator/>

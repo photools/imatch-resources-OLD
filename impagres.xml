@@ -1253,7 +1253,13 @@
 				<s xml:lang="pt"><![CDATA[<Bold>Restaurando os ficheiros de pacote numa pasta diferente</Bold>.<LineBreak/>{0} com {1} pacotes.<LineBreak/><Bold>Pasta de destino</Bold>: <Hyperlink Foreground='{fg}' Tag='targetfolder'>{2}</Hyperlink>]]></s>
 				<s xml:lang="no"><![CDATA[<Bold>Gjenoppretter pakkefil til en annen målmappe</Bold>.<LineBreak/>{0} med {1} pakker.<LineBreak/><Bold>Målmappe</Bold>: <Hyperlink Foreground='{fg}' Tag='targetfolder'>{2}</Hyperlink>]]></s>
 			</str>
-		</string_group>
+
+            <str resid="PTR_PACK_NO_DB" desc="">
+                <s xml:lang="en">You are not including a database in your package!\r\n\r\nIf you have forgotten to add a database, click 'Cancel' and add a database. Else click on OK.</s>
+                <s xml:lang="de">Ihr Paket enthält keine Datenbank!\r\n\r\nFalls Sie eine Datenbank hinzufügen möchten, klicken Sie auf 'Abbrechen', ansonsten auf OK.</s>
+            </str>
+
+        </string_group>
 
 
 		<string_group name="Error Messages" desc="">
