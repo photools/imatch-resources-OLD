@@ -1257,6 +1257,7 @@
             <str resid="PTR_PACK_NO_DB" desc="">
                 <s xml:lang="en">You are not including a database in your package!\r\n\r\nIf you have forgotten to add a database, click 'Cancel' and add a database. Else click on OK.</s>
                 <s xml:lang="de">Ihr Paket enthält keine Datenbank!\r\n\r\nFalls Sie eine Datenbank hinzufügen möchten, klicken Sie auf 'Abbrechen', ansonsten auf OK.</s>
+				<s xml:lang="nl">U neemt geen database op in uw pakket!\r\n\r\nAls u hebt vergeten een database in uw pakket op te nemen, klik dan op 'Annuleren' en voeg een database toe. Klik anders op OK.</s>
             </str>
 
         </string_group>
