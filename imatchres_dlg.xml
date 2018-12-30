@@ -591,7 +591,7 @@
 			<caption xml:lang="en">Layout Editor</caption>
 			<caption xml:lang="de">Layout-Editor</caption>
 			<caption xml:lang="fi">Asettelueditori</caption>
-			<caption xml:lang="nl">Indelingen editor</caption>
+			<caption xml:lang="nl">Indelings-editor</caption>
 			<caption xml:lang="pt">Editor da Disposição</caption>
 			<caption xml:lang="no">Oppsett-editor</caption>
 			<caption xml:lang="hr">Urednik izgleda</caption>
@@ -682,7 +682,7 @@
 				<c xml:lang="en" helptext="Enter the name of the layout here"></c>
 				<c xml:lang="de" helptext="Ändern Sie den Namen des Layouts hier"></c>
 				<c xml:lang="fi" helptext="Kirjoita asettelun nimi tähän"></c>
-				<c xml:lang="nl" helptext="Pas de naam van de indeling aan"></c>
+				<c xml:lang="nl" helptext="Wijzig de naam van de indeling"></c>
 				<c xml:lang="pt" helptext="Insira aqui o nome da disposição"></c>
 				<c xml:lang="no" helptext="Angi navn på oppsettet her"></c>
 				<c xml:lang="hr" helptext="Ovdje unesi naziv igleda"></c>
@@ -692,7 +692,7 @@
             <ctrl text="#l_applayout">
                 <c xml:lang="en">App layouts cannot be edited in this dialog. Use the configuration functions provided by the app.</c>
                 <c xml:lang="de">App-Layouts können in diesem Dialog nicht bearbeitet werden. Bitte nutzen Sie die Einstellungsfunktionen der App.</c>
-				<c xml:lang="ln">App-layouts kunnen in deze dialoog niet worden bewerkt. Gebruik de instellingsfunctie die door de app worden geboden.</c>
+				<c xml:lang="nl">App-layouts kunnen in deze dialoog niet worden bewerkt. Gebruik de instellingsfunctie die door de app worden geboden.</c>
 				<c xml:lang="pt">Configuração de aplicações não podem ser editados nesta caixa de diálogo. Utilize as funções de configuração fornecidas pela aplicação.</c>
             </ctrl>
            
@@ -733,7 +733,7 @@
                     <t xml:lang="en">IMatch File Window Layouts (*.imfwl)|*.imfwl||</t>
                     <t xml:lang="de">IMatch Dateifenster-Layouts (*.imfwl)|*.imfwl||</t>
 					<t xml:lang="fi">IMatchin tiedostoikkunan asettelut (*.imfwl)|*.imfwl||</t>
-                    <t xml:lang="nl">IMatch Bestandsvenster-indelingen (*.imfwl)|*.imfwl||</t>
+                    <t xml:lang="nl">IMatch bestandsvenster-indelingen (*.imfwl)|*.imfwl||</t>
 					<t xml:lang="pt">Disposições da Janela de Ficheiros do IMatch (*.imfwl)|*.imfwl||</t>
 					<t xml:lang="no">IMatch Filvindu-oppsett (*.imfwl)|*.imfwl||</t>
 					<t xml:lang="hr">IMatch datoteka s izgledima prozora (*.imfwl)|*.imfwl||</t>
@@ -747,6 +747,7 @@
         <dialog resid="PTRMDLG_FILEWND_SIMPLE_LODEDITOR">
             <caption xml:lang="en">Edit Layout '{0}'</caption>
             <caption xml:lang="de">Layout '{0}' bearbeiten</caption>
+			<caption xml:lang="nl">Layout bewerken '{0}'</caption>
             <ctrl text="#l_header" style="bold">
                 <c xml:lang="en" helptext="">Header</c>
                 <c xml:lang="de" helptext="">Kopfzeilen</c>
@@ -1646,7 +1647,7 @@
                 <ld listid="82" key="-xmp-dc:creator|-xmp-photoshop:authorsposition">
                     <l xml:lang="en" helptext="Author/Creator and jobtitle">Author/Creator &amp; Jobtitle</l>
                     <l xml:lang="de" helptext="Autor/Ersteller und Job-Titel">Ersteller &amp; Titel</l>
-					<l xml:lang="nl" helptext="Auteur/maker en functie">Auteru/maker &amp; functie</l>
+					<l xml:lang="nl" helptext="Auteur/maker en functie">Auteur/maker &amp; functie</l>
                 </ld>
 
                 <ld listid="83" key="-xmp-photoshop:credit|-xmp-xmprights:marked|-xmp-dc:rights|-xmp-xmprights:webstatement|-xmp-xmprights:usageterms">
@@ -1689,13 +1690,13 @@
                 <ld listid="90" key="-xmp-exif:gpslatitude|-xmp-exif:gpslongitude|-xmp-exif:gpsaltitude|-xmp-exif:gpsaltituderef|-xmp-iptcext:locationcreatedgpsaltitude">
                     <l xml:lang="en" helptext="Latitude, Longitude, Altitude.">GPS Coordinates</l>
                     <l xml:lang="de" helptext="Breitengrad, Längengrad, Höhengrad.">GPS-Koordinates</l>
-					<l xml:lang="nl" helptext="Breedtegraad, Lengtegraad, Hoogte.">GPS Coördinaten</l>
+					<l xml:lang="nl" helptext="Breedtegraad, Lengtegraad, Hoogte.">GPS coördinaten</l>
                 </ld>
 
                 <ld listid="91" key="-xmp-exif:gpsdestlatitude|-xmp-exif:gpsdestlongitude|-xmp-iptcext:locationshowngpsaltitude">
                     <l xml:lang="en" helptext="Shown (Destination): Latitude, Longitude, Altitude.">GPS Shown/Dest Coordinates</l>
                     <l xml:lang="de" helptext="Ziel (Gezeigt): Breitengrad, Längengrad, Höhengrad.">GPS-Koordinaten (Gezeigt)</l>
-					<l xml:lang="nl" helptext="Doel (getoond): Breedtegraad, Lengtegraad, Hoogte.">GPS Shown/Dest Coordinates</l>
+					<l xml:lang="nl" helptext="Doel (getoond): Breedtegraad, Lengtegraad, Hoogte.">GPS coördinaten (doel)</l>
                 </ld>
 
                 <!-- Location created/shown -->                
@@ -1703,13 +1704,13 @@
                 <ld listid="98" key="-xmp-iptcext:locationcreatedcountrycode|-xmp-iptcext:locationcreatedcountryname|-xmp-iptcext:locationcreatedprovincestate|-xmp-iptcext:locationcreatedcity|-xmp-iptcext:locationcreatedsublocation|-xmp-iptcext:locationcreatedlocationname">
                     <l xml:lang="en" helptext="Country, ISO Country Code, State, City, Location.">Location</l>
                     <l xml:lang="de" helptext="Land, ISO Ländercode, Staat, Stadt, Ort.">Ort</l>
-					<l xml:lang="nl" helptext="Land, ISO landcode, staat/provincie, stad, lokatie.">Location</l>
+					<l xml:lang="nl" helptext="Land, ISO landcode, staat/provincie, stad, locatie.">Locatie</l>
                 </ld>
 
                 <ld listid="99" key="-xmp-iptcext:locationshowncountrycode|-xmp-iptcext:locationshowncountryname|-xmp-iptcext:locationshownprovincestate|-xmp-iptcext:locationshowncity|-xmp-iptcext:locationshownsublocation|-xmp-iptcext:locationshownlocationname">
                     <l xml:lang="en" helptext="Shown (Destination): Country, ISO Country Code, State, City, Location.">Location Shown</l>
                     <l xml:lang="de" helptext="Ziel (Gezeigt): Land, ISO Ländercode, Staat, Stadt, Ort.">Ort (Gezeigt)</l>
-					<l xml:lang="ln" helptext="Doel (getoond): Land, ISO landcode, staat/provincie, stad, lokatie.">Location Shown</l>
+					<l xml:lang="ln" helptext="Doel (getoond): Land, ISO landcode, staat/provincie, stad, locatie.">Locatie (doel)</l>
                 </ld>
 
                 <ld listid="100" key="-xmp:all=;-xmp:all">

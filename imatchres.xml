@@ -5283,7 +5283,7 @@
                 <c xml:lang="en" hotkey="" helptext="Check the resource file for missing entries for the current language">List res&amp;ources without translation...</c>
                 <c xml:lang="de" hotkey="" helptext="Die Ressourcedatei nach fehlenden Ressourcen für die aktuelle Sprache durchsuchen.">Ressourcen ohne Ü&amp;bersetzung auflisten...</c>
                 <c xml:lang="fi" hotkey="" helptext="Tarkista resurssitiedoston puuttuvat käännökset käytössä olevalle kielelle.">Kääntämättöm&amp;ät tekstit...</c>
-                <c xml:lang="nl" hotkey="" helptext="Controleer het resource-bestand op missende invoer voor de actieve taal">Toon res&amp;ources zonder vertaling...</c>
+                <c xml:lang="nl" hotkey="" helptext="Controleer het resource-bestand op ontbrekende invoer voor de actieve taal">Toon res&amp;ources zonder vertaling...</c>
                 <c xml:lang="pt" hotkey="" helptext="Verificar quais as entradas em falta no ficheiro de recursos para o idioma em utilização">Listar rec&amp;ursos sem tradução...</c>
                 <c xml:lang="hr" hotkey="" helptext="Pronađi nedostajuće stavke u datoteci s resursima za odabrani jezik">Izlistaj resurse bez prijev&amp;oda...</c>
                 <c xml:lang="no" hotkey="" helptext="Sjekk ressursfilene for manglende oversettelser for gjeldende språk">List ressurser uten &amp;oversettelse...</c>
@@ -8290,7 +8290,7 @@
             <cmd resid="ID_CMD_CATEGORY_EDIT_FORMULA" bmidx="-1" desc="Copy">
                 <c xml:lang="en" hotkey="" helptext="Add/edit the category formula">Edit &amp;Formula...</c>
                 <c xml:lang="de" hotkey="" helptext="Die Kategorieformel bearbeiten.">&amp;Formel bearbeiten...</c>
-                <c xml:lang="nl" hotkey="" helptext="De categroieformule bewerken">Bewerk &amp;formule...</c>
+                <c xml:lang="nl" hotkey="" helptext="De categorieformule bewerken">Bewerk &amp;formule...</c>
             </cmd>
 
         </command_group>
