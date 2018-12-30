@@ -6220,7 +6220,7 @@
       <str resid="PTR_PANEL_APP_IMWS_NOT_RUNNING">
         <s xml:lang="en">IMatch WebServices are not running.\r\nPlease enable them under Edit &gt; Preferences &gt; Application and check the configuration.</s>
         <s xml:lang="de">Die IMatch Webdienste werden nicht ausgeführt.\r\nBitte aktivieren Sie sie unter Bearbeiten &gt; Einstellungen &gt; Anwendung und überprüfen Sie die Konfiguration.</s>
-        <s xml:lang="nl">IMatch WebServices worden niet uitgevoerd.\r\nActiveer ze aub Bewerken &gt; Voorkeuren &gt; Applicatie en controleer de instellingen.</s>
+        <s xml:lang="nl">IMatch WebServices worden niet uitgevoerd.\r\nActiveer ze aub onder Bewerken &gt; Voorkeuren &gt; Applicatie en controleer de instellingen.</s>
         <s xml:lang="pt">O IMatch WebServices não está a ser executado. \ R \ nPor favor, habilite-os em Editar &gt; Preferências &gt; Aplicação e verifique a configuração.</s>
       </str>
 
@@ -13422,7 +13422,7 @@
       <str resid="PTR_ERRMSG_503" desc="IMERR_ENGINE_INTERNAL">
         <s xml:lang="en">Internal application error. Restart IMatch and run a database diagnosis via Database > Tools to ensure that the database is healthy.</s>
         <s xml:lang="de">Interner Anwendungsfehler. Bitte starten Sie IMatch neu und führen Sie via Datenbank > Werkzeuge eine Datenbankdiagnose durch.</s>
-        <s xml:lang="nl">Interne applicatiefout. Herstart IMatch en controleer de database middels Database > Hulpmiddelen.</s>
+        <s xml:lang="nl">Interne applicatiefout. Herstart IMatch en controleer de database door middeel van Database > Hulpmiddelen.</s>
         <s xml:lang="pt">Erro interno da aplicação. Re-inicie o IMatch e execute um diagnóstico à base de dados através de Base de Dados > Ferramentas para garantir que a base de dados se encontra saudável.</s>
         <s xml:lang="hr">Interna aplikacijska pogreška. Ponovno pokreni IMatch i izvedi dijagnostiku baze podataka putem Baza podataka &gt; Alati da provjeriš da je baza podataka u ispravnom stanju.</s>
         <s xml:lang="fr">Erreur d'application interne. Redémarrer IMatch et faites un diagnostique de la Base par Base de données  > outils  </s>
@@ -13686,7 +13686,7 @@
       <str resid="PTR_ERRMSG_6007" desc="IMERR_FSA_DELETEFOLDERFAILED">
         <s xml:lang="en">Failed to delete a folder. Make sure the folder is not write-protected and that you have sufficient permissions to delete it. Windows may be unable to delete a folder when another application has one or more files open in that folder.</s>
         <s xml:lang="de">Fehler beim Löschen eines Verzeichnisses. Stellen Sie sicher, dass das Verzeichnis nicht schreibgeschützt ist und Sie über ausreichende Berechtigungen zum Löschen verfügen. Windows kann kein Verzeichnis löschen, wenn eine andere Anwendung Dateien in diesem Verzeichnis geöffnet hat.</s>
-        <s xml:lang="nl">Fout bij het verwijderen van een folder.Controleer of de folder niet schrijfbeveiligd is en of u voldoende rechten hebt om de folder te mogen verwijderen.</s>
+        <s xml:lang="nl">Fout bij het verwijderen van een folder. Controleer of de folder niet schrijfbeveiligd is en of u voldoende rechten hebt om de folder te mogen verwijderen.</s>
         <s xml:lang="hr">Mapa nije obrisana. Provjeri da mapa nije zaštićena i da imaš dovoljna prava za brisanje. Mapu nije oguće obrisati ako su ona ili datoteke u njoj otvorene u nekoj drugoj aplikaciji.</s>
         <s xml:lang="fr">Un dossier n'a pas pu être effacé. Assurez vous qu'il n'est pas protégé en écriture et que vous avez les droits pour l'effacer. Windows ne peut effacer un dossier dont des fichiers sont utilisés par d'autres applications</s>
         <s xml:lang="it">Cancellazione della cartella non riuscita. Accertarsi che la cartella non sia di sola-lettura e di avere tutti i premessi per cancellarla. Windows può non riuscire a cancellare una cartella quando un0altra applicazione ha uno o più file aperti in quella cartella.</s>

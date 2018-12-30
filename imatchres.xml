@@ -5283,7 +5283,7 @@
                 <c xml:lang="en" hotkey="" helptext="Check the resource file for missing entries for the current language">List res&amp;ources without translation...</c>
                 <c xml:lang="de" hotkey="" helptext="Die Ressourcedatei nach fehlenden Ressourcen für die aktuelle Sprache durchsuchen.">Ressourcen ohne Ü&amp;bersetzung auflisten...</c>
                 <c xml:lang="fi" hotkey="" helptext="Tarkista resurssitiedoston puuttuvat käännökset käytössä olevalle kielelle.">Kääntämättöm&amp;ät tekstit...</c>
-                <c xml:lang="nl" hotkey="" helptext="Controleer het resource-bestand op missende invoer voor de actieve taal">Toon res&amp;ources zonder vertaling...</c>
+                <c xml:lang="nl" hotkey="" helptext="Controleer het resource-bestand op ontbrekende invoer voor de actieve taal">Toon res&amp;ources zonder vertaling...</c>
                 <c xml:lang="pt" hotkey="" helptext="Verificar quais as entradas em falta no ficheiro de recursos para o idioma em utilização">Listar rec&amp;ursos sem tradução...</c>
                 <c xml:lang="hr" hotkey="" helptext="Pronađi nedostajuće stavke u datoteci s resursima za odabrani jezik">Izlistaj resurse bez prijev&amp;oda...</c>
                 <c xml:lang="no" hotkey="" helptext="Sjekk ressursfilene for manglende oversettelser for gjeldende språk">List ressurser uten &amp;oversettelse...</c>
@@ -7200,7 +7200,7 @@
                 <c xml:lang="en" hotkey="Shift+Ctrl+V" helptext="Copies selected attributes and metadata contained in the Windows Clipboard into the current selection.">Paste Att&amp;ributes and Data</c>
                 <c xml:lang="de" hotkey="Shift+Ctrl+V" helptext="Kopiert die ausgewählten Attribute und Metadaten aus der Zwischenablage in die ausgewählten Dateien.">Att&amp;ribute und Daten einfügen</c>
                 <c xml:lang="fi" hotkey="Shift+Ctrl+V" helptext="Liitä määritteet leikepöydältä valittuihin tiedostoihin">Liitä &amp;määritteet</c>
-                <c xml:lang="nl" hotkey="Shift+Ctrl+V" helptext="Kopieer het geselecteerde attribuut uit het Windows Klembord in de huidige selectie.">Att&amp;ribuut plakken</c>
+                <c xml:lang="nl" hotkey="Shift+Ctrl+V" helptext="Kopieert de geselecteerde attributen en metagegevens uit het Windows Klembord in de huidige selectie.">Att&amp;ributen en metagegevens plakken</c>
                 <c xml:lang="pt" hotkey="Shift+Ctrl+V" helptext="Copiar os atributos seleccionados contidos na Área de Transferência do Windows para a selecção actual.">Colar At&amp;ributos</c>
                 <c xml:lang="hr" hotkey="Shift+Ctrl+V" helptext="Kopira odabrane atribute iz Windows međuspremnika u trenutni odabir.">Zalijepi at&amp;ribute</c>
                 <c xml:lang="no" hotkey="Shift+Ctrl+V" helptext="Kopier valgte attributter som finnes i Windows utklippstavlen inn i gjeldende valg.">Lim inn &amp;attributter</c>
@@ -8290,6 +8290,7 @@
             <cmd resid="ID_CMD_CATEGORY_EDIT_FORMULA" bmidx="-1" desc="Copy">
                 <c xml:lang="en" hotkey="" helptext="Add/edit the category formula">Edit &amp;Formula...</c>
                 <c xml:lang="de" hotkey="" helptext="Die Kategorieformel bearbeiten.">&amp;Formel bearbeiten...</c>
+                <c xml:lang="nl" hotkey="" helptext="De categorieformule bewerken">Bewerk &amp;formule...</c>
             </cmd>
 
         </command_group>

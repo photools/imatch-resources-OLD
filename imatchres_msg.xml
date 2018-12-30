@@ -7981,7 +7981,7 @@
 				</m>
 				<m xml:lang="nl">
 					<cap>Bestanden zonder GPS gegevens gevonden</cap>
-					<cont>Eén of meer bestanden in de huyidige selectie hebben geen geldige GPS coördinaten.\r\n\r\nDeze bestanden zijn genegeerd.</cont>
+					<cont>Eén of meer bestanden in de huidige selectie hebben geen geldige GPS coördinaten.\r\n\r\nDeze bestanden zijn genegeerd.</cont>
 				</m>
 				<m xml:lang="pt">
 					<cap>Encontrados demasiados ficheiros sem dados GPS</cap>
