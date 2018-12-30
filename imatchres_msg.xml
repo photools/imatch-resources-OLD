@@ -2,7 +2,7 @@
 
 <!-- This resource file contains all message resources for IMatch -->
 
-<!-- Copyright © 2013-2018 Mario M. Westphal and photools.com. -->
+<!-- Copyright © 2013-2019 Mario M. Westphal and photools.com. -->
 <!-- No part of this file may be changed without written permission. -->
 <!-- Contact support@photools.com for more information. -->
 
@@ -3160,7 +3160,7 @@
             <msg resid="PTR_MSG_FILEWND_MDIMPORT" typeid="[[IDI_INFORMATION]]" desc="">
                 <m xml:lang="en">
                     <cap>Some Metadata is protected</cap>
-                    <cont><![CDATA[You have configured options to protect unwritten metadata and/or rating and label under Edit > Preferences > Metadata. These options are also effective for this metadata import.]]></cont>
+                    <cont><![CDATA[You have configured options to protect unwritten metadata and/or rating and label under Edit > Preferences > Metadata 2. These options are also effective for this metadata import.]]></cont>
 					<ver>Don't show again</ver>
                 </m>
                 <m xml:lang="de">
