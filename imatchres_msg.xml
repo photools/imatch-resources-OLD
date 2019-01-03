@@ -6235,7 +6235,18 @@
 				</m>
 			</msg>
 
-		</message_group>
+            <msg resid="PTR_MSG_MDCONTAINER_GROUPKEYWORD_INGO" typeid="[[IDI_INFORMATION]]" desc="">
+                <m xml:lang="en">
+                    <cap>Group Level Keyword</cap>
+                    <cont>This is a group level keyword and it will not become part of the keyword assigned to the file.\r\nGroup keywords are used for organizational purposes only and are displayed wrapped in [square brackets].\r\n\r\nYou configure group levels and other keyword properties in the Thesaurus Manager.</cont>
+                </m>
+                <m xml:lang="de">
+                    <cap>Gruppierungsebene</cap>
+                    <cont>Das ausgewählte Schlüsselwort ist im Thesaurus als Gruppierungsebene definiert und wird somit nicht Bestandteil des zugewiesenen Schlüsselworts.\r\nGruppierungsebenen diesen organisatorischen Zwecken und werden in den Listen in [eckigen Klammern} dargestellt.\r\n\r\nSie legen Gruppierungsebenen und andere Schlüsselworteigenschaften im Thesaurus-Manager fest.</cont>
+                </m>
+            </msg>
+
+        </message_group>
 
         <!-- Metadata templates -->
 
