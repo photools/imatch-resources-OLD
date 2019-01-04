@@ -6242,7 +6242,11 @@
                 </m>
                 <m xml:lang="de">
                     <cap>Gruppierungsebene</cap>
-                    <cont>Das ausgewählte Schlüsselwort ist im Thesaurus als Gruppierungsebene definiert und wird somit nicht Bestandteil des zugewiesenen Schlüsselworts.\r\nGruppierungsebenen diesen organisatorischen Zwecken und werden in den Listen in [eckigen Klammern} dargestellt.\r\n\r\nSie legen Gruppierungsebenen und andere Schlüsselworteigenschaften im Thesaurus-Manager fest.</cont>
+                    <cont>Das ausgewählte Schlüsselwort ist im Thesaurus als Gruppierungsebene definiert und wird somit nicht Bestandteil des zugewiesenen Schlüsselworts.\r\nGruppierungsebenen diesen organisatorischen Zwecken und werden in den Listen in [eckigen Klammern] dargestellt.\r\n\r\nSie legen Gruppierungsebenen und andere Schlüsselworteigenschaften im Thesaurus-Manager fest.</cont>
+                </m>
+				<m xml:lang="nl">
+                    <cap>Groepsniveau trefwoord</cap>
+                    <cont>Dit is een trefwoord op groepsniveau en maakt daardoor geen deel uit van de trefwoorden die aan het bestand worden/zijn toegewezen.\r\nGroepstrefwoorden worden alleen gebruikt voor zaken te organiseren en worden weergegeven met [vierkante haken].r\n\r\nU kunt groepsniveaus en andere eigenschappen van trefwoorden in de Theasaurus-manager vastleggen.</cont>
                 </m>
             </msg>
 
