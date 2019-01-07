@@ -4068,73 +4068,6 @@
                 <c xml:lang="de" helptext="">Elemente in [ und ] als Gruppierungsebene markieren</c>
                 <c xml:lang="nl" helptext="">Elementen tussen [ en ] uitsluiten</c>
 				<c xml:lang="pt" helptext="">Marcar como excluídos os elementos em [ e ]</c>
-				<c xml:lang="no" helptext="">Marker elemnter i [ og ] som gruppenivå</c>
-				<c xml:lang="fi" helptext="">Merkitse elementit [ ja ] ryhmätasolla</c>
-                <c xml:lang="it" helptext="">Usa gli elementi tra [ e ] come livello di gruppo</c>
-            </ctrl>
-            <ctrl text="#l_ex_allupper">
-                <c xml:lang="en" helptext="">Mark elements in UPPER CASE as group level</c>
-                <c xml:lang="de" helptext="">Elemente in GHOSSBUCHSTABEN als Gruppierungsebene markieren</c>
-                <c xml:lang="nl" helptext="">Elementen in HOOFDLETTERS uitsluiten</c>
-				<c xml:lang="pt" helptext="">Marcar como excluídos os elementos em MAIÚSCULAS</c>
-				<c xml:lang="no" helptext="">Marker elementer i STORE BOKSTAVER som gruppenivå</c>
-				<c xml:lang="fi" helptext="">Merkitse elementit ISOILLA ryhmätasolla</c>
-                <c xml:lang="it" helptext="">Usa gli elementi in MAISUCOLO come livello di gruppo</c>
-            </ctrl>
-        </dialog>
-
-        <!-- Thesaurus Manager Text Import Thesaurus dialog box -->
-
-        <dialog resid="PTRMDLG_MBTHESMGR_IMPORTTEXT" resgroup="thesmgr" desc="Thesaurus Manager import dialog box">
-            <caption xml:lang="en">Import Text File</caption>
-            <caption xml:lang="de">Textdatei importieren</caption>
-			<caption xml:lang="fi">Tuo tekstitiedosto</caption>
-            <caption xml:lang="nl">Tekstbestand importeren</caption>
-			<caption xml:lang="pt">Importar Ficheiro de Texto</caption>
-			<caption xml:lang="no">Importer tekstfil</caption>
-            <caption xml:lang="it">Importa file di testo</caption>
-
-            <ctrl text="#l_entrylist">
-                <c xml:lang="en" helptext="">Import into entry:</c>
-                <c xml:lang="de" helptext="">In diesen Eintrag importieren:</c>
-                <c xml:lang="nl" helptext="">In deze waarde importeren:</c>
-				<c xml:lang="pt" helptext="">Importar na entrada:</c>
-				<c xml:lang="no" helptext="">Importer til denne oppføringen:</c>
-				<c xml:lang="fi" helptext="">Tuo tähän:</c>
-                <c xml:lang="it" helptext="">Importa nella voce:</c>
-            </ctrl>
-            <ctrl text="#l_replace">
-                <c xml:lang="en" helptext="">&amp;Replace existing data</c>
-                <c xml:lang="de" helptext="">Bestehende Einträge e&amp;rsetzen</c>
-                <c xml:lang="nl" helptext="">Bestaande data ve&amp;rvangen</c>
-				<c xml:lang="pt" helptext="">&amp;Substituir Dados Existentes</c>
-				<c xml:lang="no" helptext="">E&amp;rstatt eksisterende data</c>
-				<c xml:lang="fi" helptext="">K&amp;orvaa olemassaoleva sisältö</c>
-                <c xml:lang="it" helptext="">&amp;Sostituisci i dati esistenti</c>
-            </ctrl>
-            <ctrl text="#l_merge">
-                <c xml:lang="en" helptext="">&amp;Merge with existing data</c>
-                <c xml:lang="de" helptext="">&amp;Mit bestehenden Daten mischen</c>
-                <c xml:lang="nl" helptext="">&amp;Met bestaande data mengen</c>
-				<c xml:lang="pt" helptext="">&amp;Fundir com Dados Existentes</c>
-				<c xml:lang="no" helptext="">Slå sa&amp;mmen med eksisterende data</c>
-				<c xml:lang="fi" helptext="">&amp;Yhdistä olemassaolevaan sisältöön</c>
-                <c xml:lang="it" helptext="">&amp;Unisci con i dati esistenti</c>
-            </ctrl>
-            <ctrl text="#l_language">
-                <c xml:lang="en" helptext="">&amp;Language:</c>
-                <c xml:lang="de" helptext="">&amp;Sprache:</c>
-				<c xml:lang="fi" helptext="">&amp;Kieli:</c>
-                <c xml:lang="nl" helptext="">&amp;Taal:</c>
-				<c xml:lang="pt" helptext="">&amp;Idioma:</c>
-				<c xml:lang="no" helptext="">&amp;Språk:</c>
-                <c xml:lang="it" helptext="">&amp;Lingua:</c>
-            </ctrl>
-            <ctrl text="#l_ex_braces">
-                <c xml:lang="en" helptext="">Mark elements in [ and ] as group level</c>
-                <c xml:lang="de" helptext="">Elemente in [ und ] als Gruppierungsebene markieren</c>
-                <c xml:lang="nl" helptext="">Elementen tussen [ en ] uitsluiten</c>
-				<c xml:lang="pt" helptext="">Marcar como excluídos os elementos em [ e ]</c>
 				<c xml:lang="no" helptext="">Marker elementer i [ og ] som gruppenivå</c>
 				<c xml:lang="fi" helptext="">Merkitse elementit [ ja ] ryhmätasolla</c>
                 <c xml:lang="it" helptext="">Usa gli elementi tra [ e ] come livello di gruppo</c>
@@ -10456,17 +10389,6 @@
                 <c xml:lang="it" helptext="\nImporta file nuovi e aggiornati in background.\nControlla solo i file locali, non cartelle in rete o cartelle remote.">Solo cartelle &amp;locali</c>
             </ctrl>
 
-            <ctrl text="#l_autoscan_off">
-                <c xml:lang="en" helptext="\nEnable this setting to automatically update the database\nwith new and updates files in indexed folders.">Automatically &amp;index new and updates files</c>
-                <c xml:lang="de" helptext="\nAktivieren Sie diese Option um automatisch neue und aktualisierte Dateien in indizierten Verzeichnissen in die Datenbank aufzunehmen.">Neue und geänderte Dateien automatisch &amp;indizieren</c>
-				<c xml:lang="fi" helptext="\nPäivitä tietokanta automaattisesti\nkun indekstoituihin kansioihin tulee uusia tiedostoja tai kun tiedostoja päiviteään.">&amp;Indeksoi automaattisesti uudet ja päivitetyt tiedostot</c>
-                <c xml:lang="nl" helptext="\nActiveer deze optie om automatisch nieuwe en gewijzigde bestanden in geïndexeerde folders in de database op te nemen.">Automatisch &amp;indexeren nieuwe en gewijzigde bestanden</c>
-				<c xml:lang="pt" helptext="\nActive esta opção para actualizar automaticamente a base de dados\ncom ficheiros novos ou actualizados das pastas indexadas.">&amp;Indexar automaticamente ficheiros novos e actualizados</c>
-				<c xml:lang="no" helptext="\nAktiver denne opsjonen for automatisk oppdatering av databasen\nmed nye og oppdaterte filer i indekserte mapper.">&amp;Indekser nye og oppdaterte filer automatisk</c>
-                <c xml:lang="it" helptext="\nAbilitare questa impostazione per aggiornare automaticamente il database\ncoin i file nuovi o aggiornati nelle cartelle indicizzate.">&amp;Indicizza automaticamente i file nuovi o aggiornati</c>
-            </ctrl>
-
-
             <ctrl text="#l_writeback" style="bold">
                 <c xml:lang="en" helptext="">Metadata Write-back:</c>
                 <c xml:lang="de" helptext="">Metadaten zurückschreiben:</c>
@@ -14477,7 +14399,7 @@
 				</ld>
 			</listdata>
 
-            <listdata text="IDC_FIELD_SEP">
+            <listdata text="IDC_FIELD_SEP" notrans="true">
                 <!-- @Translators: No translation needed -->
                 <ld listid="0" default="true">
                     <l xml:lang="x-default">,</l>
@@ -14493,7 +14415,7 @@
                 </ld>
             </listdata>
 
-            <listdata text="IDC_RECORD_DELIM">
+            <listdata text="IDC_RECORD_DELIM" notrans="true">
                 <!-- @Translators: No translation needed -->
                 <ld listid="0" default="true">
                     <l xml:lang="x-default">{cr}{lf}</l>
@@ -15610,15 +15532,6 @@
 				<c xml:lang="pt" helptext="">Seleccione uma pré-definição e clique OK para a executar.\r\nSeleccionar um dos elementos à esquerda para editar a pré-definição. Para adicionar, copiar, mudar o nome e eliminar pré-definições, clique 'Gerir'.\r\n\r\nO nome da pré-definição actualmente seleccionada é mostrado na legenda da janela de diálogo.</c>
 				<c xml:lang="no" helptext="">Velg en forhåndsinnstilling og klikk 'OK' for å utføre den.\r\nVelg ett av elementene til venstre for å redigere forhåndsinnstillingen. For å legge til, kopiere, slette eller gi nytt navn til en forhåndsinnstilling, klikk 'Forvaltning'.\r\n\r\nNavnet til den valgte forhåndsinnstillingen vises i dialogens tittelfelt.</c>
                 <c xml:lang="it" helptext="">Seleziona un preset e premi OK per eseguirlo.\r\nSeleziona uno degli elementi sull asinistra per modificare il preset. Per aggiungere, copiare, rinominare e cancellare i preset, schiaccia 'Gestisci'.\r\n\r\nIl nome del preset attualmente selezionato è visualizzato  nella barra del dialogo.</c>
-            </ctrl>
-
-            <ctrl text="#l_info">
-                <c xml:lang="en" helptext="">Select a preset and click OK to run it.\r\nSelect one of the elements on the left to edit the preset. To add, copy, rename and delete presets, click 'Manage'.</c>
-                <c xml:lang="de" helptext="">Wählen Sie eine Voreinstellung und klicken sie auf OK um sie auszuführen.\r\nWählen Sie eines der Elemente links, um die Voreinstellung zu bearbeiten. Zum Hinzufügen, Kopieren, Umbenennen und Löschen von Voreinstellungen klicken Sie auf 'Verwalten'.</c>
-                <c xml:lang="nl" helptext="">Selecteer een instellingen en klik 'OK' om uit te voeren.\r\nSelecteer een van de elementen (links) om de instellingen te bewerken. Om toe te voegen, kopiëren, hernoemen en verwijderen, klik 'Beheer'.</c>
-				<c xml:lang="pt" helptext="">Seleccione uma pré-definição e clique OK para a executar.\r\nSeleccionar um dos elementos à esquerda para editar a pré-definição. Para adicionar, copiar, mudar o nome e eliminar pré-definições, clique 'Gerir'.</c>
-				<c xml:lang="no" helptext="">Velg en forhåndsinnstilling og klikk 'OK' for å utføre den.\r\nVelg ett av elementene til venstre for å redigere forhåndsinnstillingen. For å legge til, kopiere, slette eller gi nytt navn til en forhåndsinnstilling, klikk 'Forvaltning'.</c>
-                <c xml:lang="it" helptext="">Seleziona un preset e schiaccia OK per eseguirlo.\r\nSeleziona uno degli elementi sulla sinistra per modificare il preset. Per aggiungere, copiare, rinominare e cancellare i preset, schiaccia 'Gestisci'.</c>
             </ctrl>
 
             <ctrl text="#l_tip">
@@ -18308,7 +18221,7 @@
 					
 			</textdata>
 		
-			<listdata text="IDC_COMBO_PORT">
+			<listdata text="IDC_COMBO_PORT" notrans="true">
 				<!-- @Translators: No need to translate -->
 				<ld listid="25">
 					<l xml:lang="x-default">25</l>
@@ -18389,7 +18302,7 @@
 				</ld>
 			</listdata>
 				
-			<listdata text="IDC_LIST_HOSTS">
+			<listdata text="IDC_LIST_HOSTS" notrans="true">
 				<!-- @Translators: No need to translate -->
 				<!-- We store the port and authentication settings in the key so we can use them to fill the dialog -->
 				<ld listid="0" key="">
@@ -19845,15 +19758,6 @@
 					<t xml:lang="pt">Copiar Nome</t>
 					<t xml:lang="no">Kopinavn</t>
                     <t xml:lang="it">Nome Copia</t>
-                </td>
-                <td tid="cap_result">
-                    <t xml:lang="en">Result</t>
-                    <t xml:lang="de">Ergebnis</t>
-					<t xml:lang="fi">Tulos</t>
-                    <t xml:lang="nl">Resultaat</t>
-					<t xml:lang="pt">Resultado</t>
-					<t xml:lang="no">Resultat</t>
-                    <t xml:lang="it">Risultato</t>
                 </td>
 
                 <!-- Error Messages -->
@@ -21405,13 +21309,6 @@
 					<t xml:lang="en">Select a color profile</t>
 					<t xml:lang="de">Wählen Sie ein Farbprofil aus:</t>
 					<t xml:lang="pt">Seleccione um perfil de cor</t>
-					<t xml:lang="nl">Selecteer een kleurprofiel...</t>
-				</td>
-
-				<td tid="custom_profile_hint">
-					<t xml:lang="en">Select a profile...</t>
-					<t xml:lang="de">Wählen Sie ein Farbprofil aus...</t>
-					<t xml:lang="pt">Seleccionar um perfil...</t>
 					<t xml:lang="nl">Selecteer een kleurprofiel...</t>
 				</td>
 
@@ -23250,7 +23147,7 @@
 				<c xml:lang="pt" helptext="">Gradiente &amp;para:</c>
 				<c xml:lang="nl" helptext="">Verloop &amp;tot:</c>
 			</ctrl>
-			<ctrl text="#l_btn_varsel_2">
+			<ctrl text="#l_btn_varsel_3">
 				<c xml:lang="en" helptext="Select a variable"></c>
 				<c xml:lang="de" helptext="Wählen Sie eine Variable aus"></c>
 				<c xml:lang="pt" helptext="Seleccione uma variável"></c>

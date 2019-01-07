@@ -2231,8 +2231,8 @@
       </str>
 
       <str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_THRASHMANINIT" desc="">
-        <s xml:lang="en">Initializing Undo Manager ...</s>
-        <s xml:lang="en-uk">Initialising Undo Manager ...</s>
+        <s xml:lang="en">Initializing Undo Manager...</s>
+        <s xml:lang="en-uk">Initialising Undo Manager...</s>
         <s xml:lang="de">Initialisiere Verwaltungssystem für die Rückgängig-Aktionen...</s>
         <s xml:lang="nl">Systeem voor het ongedaan maken van handelingen initialiseren...</s>
         <s xml:lang="pt">Inicialização do Gestor de Anulação de Acções...</s>
@@ -2244,8 +2244,8 @@
       </str>
 
       <str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_TEMPLATEMANAGER" desc="">
-        <s xml:lang="en">Initializing Template Manager ...</s>
-        <s xml:lang="en-uk">Initialising Template Manager ...</s>
+        <s xml:lang="en">Initializing Template Manager...</s>
+        <s xml:lang="en-uk">Initialising Template Manager...</s>
         <s xml:lang="de">Initialisiere Vorlagen-Manager...</s>
         <s xml:lang="nl">Sjabloon-manager initialiseren...</s>
         <s xml:lang="pt">Inicialização do Gestor de Modelos...</s>
@@ -2257,8 +2257,8 @@
       </str>
 
       <str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_RELMAN" desc="">
-        <s xml:lang="en">Initializing Relation Manager ...</s>
-        <s xml:lang="en-uk">Initialising Relation Manager ...</s>
+        <s xml:lang="en">Initializing Relation Manager...</s>
+        <s xml:lang="en-uk">Initialising Relation Manager...</s>
         <s xml:lang="de">Initialisiere Manager für die Beziehungsverwaltung...</s>
         <s xml:lang="nl">Relatie-manager initialiseren...</s>
         <s xml:lang="pt">Inicialização do Gestor de Relações...</s>
@@ -2270,8 +2270,8 @@
       </str>
 
       <str resid="PTR_MAINFRAME_STATUSBAR_DBOPEN_COLMAN" desc="">
-        <s xml:lang="en">Initializing Collection Manager ...</s>
-        <s xml:lang="en-uk">Initialising Collection Manager ...</s>
+        <s xml:lang="en">Initializing Collection Manager...</s>
+        <s xml:lang="en-uk">Initialising Collection Manager...</s>
         <s xml:lang="de">Initialisiere Kollektionsverwaltung...</s>
         <s xml:lang="nl">Collectie-manager initialiseren...</s>
         <s xml:lang="pt">Inicialização do Gestor de Colecções...</s>
@@ -4920,19 +4920,6 @@
         <s xml:lang="it">Relazioni</s>
       </str>
 
-      <str resid="PTR_TASKMAN_RELATIONS" desc="">
-        <s xml:lang="en">Relations</s>
-        <s xml:lang="no">Relasjoner</s>
-        <s xml:lang="de">Beziehungen</s>
-        <s xml:lang="nl">Relaties</s>
-        <s xml:lang="pt">Relações</s>
-        <s xml:lang="fi">Suhteet</s>
-        <s xml:lang="hr">Odnosi</s>
-        <s xml:lang="no">Forbindelser</s>
-        <s xml:lang="fr">Relations</s>
-        <s xml:lang="it">Relazioni</s>
-      </str>
-
       <!-- Metadata Template Tasks -->
 
       <str resid="PTR_TASKMAN_MDTEMPLATE_GENERIC" desc="">
@@ -5471,7 +5458,7 @@
         
         <str resid="PTR_TASK_MB_WRITEBACK_PROGRESSDLG_PROPAGATE" desc="">
             <s xml:lang="en">Propagating metadata...</s>
-            <s xml:lang="en">Propagiere Metadaten...</s>
+            <s xml:lang="de">Propagiere Metadaten...</s>
             <s xml:lang="nl">Metadata worden overgedragen...</s>
             <s xml:lang="pt">Propagando metadados...</s>
         </str>
@@ -7974,6 +7961,7 @@
       <!-- @Translators: This is empty by intention! -->
       <str resid="PTR_MDCONTAINER_LAYOUT_NEW_DESC" desc="Name for the new panel layouts">
         <s xml:lang="en"></s>
+        <s xml:lang="de"></s>
         <s xml:lang="nl"></s>
         <s xml:lang="pt"></s>
       </str>
@@ -8399,6 +8387,7 @@
 
       <str resid="PTR_MDCONTAINER_IMPEXPLAYOUT_DEFEXT" desc="Default Ext" notrans="true">
         <s xml:lang="en">.immdl</s>
+        <s xml:lang="de">.immdl</s>
         <s xml:lang="nl">.immdl</s>
         <s xml:lang="pt">.immdl</s>
         <s xml:lang="hr">.immdl</s>
@@ -8443,6 +8432,7 @@
 
       <str resid="PTR_MDCONTAINER_IMPEXPTEXT_DEFEXT" desc="Default Ext" notrans="true">
         <s xml:lang="en">.txt</s>
+        <s xml:lang="de">.txt</s>
         <s xml:lang="nl">.txt</s>
         <s xml:lang="no">.txt</s>
         <s xml:lang="pt">.txt</s>
@@ -11634,28 +11624,6 @@
         <s xml:lang="hr"></s>
       </str>
 
-      <!-- Open Office Files -->
-      <str resid="PTR_VIEWER_SB_DATA_OFFICE" desc="">
-        <s xml:lang="en">{File.Modified}</s>
-        <s xml:lang="de"></s>
-        <s xml:lang="nl"></s>
-        <s xml:lang="fr"></s>
-        <s xml:lang="it">{File.Modified}</s>
-        <s xml:lang="pt">{File.Modified}</s>
-        <s xml:lang="hr"></s>
-      </str>
-
-      <!-- Video Files -->
-      <str resid="PTR_VIEWER_SB_DATA_OFFICE" desc="">
-        <s xml:lang="en">{File.Modified}</s>
-        <s xml:lang="de"></s>
-        <s xml:lang="nl"></s>
-        <s xml:lang="fr"></s>
-        <s xml:lang="it">{File.Modified}</s>
-        <s xml:lang="pt">{File.Modified}</s>
-        <s xml:lang="hr"></s>
-      </str>
-
       <!-- Default for all file formats and classes without a special format above-->
       <str resid="PTR_VIEWER_SB_DATA_DEFAULT" desc="">
         <s xml:lang="en">{File.Modified}!sep!{File.Size}</s>
@@ -12311,28 +12279,6 @@
         <s xml:lang="hr">Čitanje informacija mapa...</s>
         <s xml:lang="fr">Lecture des information des dossiers</s>
         <s xml:lang="it">Lettura informazioni delle cartelle...</s>
-      </str>
-      <str resid="PTR_IMPEXP_GROUPS_IMPORT_PROGRESS_FILES" desc="">
-        <s xml:lang="en">Reading File Information...</s>
-        <s xml:lang="no">Leser filinformasjon...</s>
-        <s xml:lang="de">Lese Dateiinformationen...</s>
-        <s xml:lang="fi">Luetaan tiedostotietoja...</s>
-        <s xml:lang="nl">Bestands-informatie lezen...</s>
-        <s xml:lang="pt">Leitura de Informação do Ficheiro...</s>
-        <s xml:lang="hr">Čitanje informacija datoteka...</s>
-        <s xml:lang="fr">Lecture des information des fichiers</s>
-        <s xml:lang="it">Lettura delle informazioni dei file...</s>
-      </str>
-      <str resid="PTR_IMPEXP_GROUPS_IMPORT_PROGRESS_GROUPS" desc="">
-        <s xml:lang="en">Processing Categories...</s>
-        <s xml:lang="no">Behandler kategorier...</s>
-        <s xml:lang="de">Importiere Kategorien...</s>
-        <s xml:lang="fi">Käsitellään kategorioita...</s>
-        <s xml:lang="nl">Categorieën importeren...</s>
-        <s xml:lang="pt">Processamento de Categorias...</s>
-        <s xml:lang="hr">Obrada kategorija...</s>
-        <s xml:lang="fr">Traitement des catégories</s>
-        <s xml:lang="it">Elaborando Categorie...</s>
       </str>
 
       <!-- Messages shown during the import -->

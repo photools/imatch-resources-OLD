@@ -4174,7 +4174,7 @@
         </command_group>
 
 
-        <command_group name="App Commands" bmid="" resgroup="apps">
+        <command_group name="App Commands" bmid="" resgroup="apps" notrans="true">
 
             <!-- These are placeholder commands for apps we link into menus or toolbars. -->
 
@@ -4876,7 +4876,7 @@
 
             <cmd resid="ID_FILE_PRINT">
                 <c xml:lang="en" hotkey="Ctrl+P" helptext="Opens IMatch Design &amp; Print which allows you to print the current selection with many options.">Design &amp;&amp; Print...</c>
-                <c xml:lang="en" hotkey="Ctrl+P" helptext="Öffnet das IMatch Design &amp; Druck Modul zum Drucken der aktuellen Auswahl mit vielen Optionen.">Design &amp;&amp; Druck...</c>
+                <c xml:lang="de" hotkey="Ctrl+P" helptext="Öffnet das IMatch Design &amp; Druck Modul zum Drucken der aktuellen Auswahl mit vielen Optionen.">Design &amp;&amp; Druck...</c>
                 <c xml:lang="nl" hotkey="Ctrl+P" helptext="Opent IMatch Ontwerp &amp; Afdrukken waarmee u de actuele selectie op veel manieren kunt afdrukken.">Ontwerpen &amp;&amp; Afdrukken...</c>
                 <c xml:lang="pt" hotkey="Ctrl+P" helptext="Abre o módulo Desenha &amp; Imprime no IMatch que lhe permite imprimir a selecção currente com várias opções.">Desenha &amp;&amp; Imprime...</c>
                 <c xml:lang="it" hotkey="Ctrl+P" helptext="Apre Progettazione &amp; Stampa che permette di stampare la selezione attuale con diverse opzioni.">Design &amp;&amp; Print...</c>
@@ -5290,47 +5290,33 @@
                 <c xml:lang="it" hotkey="" helptext="Controlla il file delle risorse per trovare le voci senza traduzione per il il linguaggio corrente">Elenca le ris&amp;orse senza traduzione...</c>
             </cmd>
 
-            <cmd resid="ID_RESMGR_RESIZEWIN_1280_1024" bmidx="-1">
+            <cmd resid="ID_RESMGR_RESIZEWIN_1280_1024" bmidx="-1" notrans="true">
                 <!-- @Translators: No need to translate this -->
                 <c xml:lang="en" hotkey="" helptext="Resize the IMatch main window to a specific size">1280 x 1024 pixel</c>
-                <c xml:lang="nl" hotkey="" helptext="Geef het hoofdscherm van IMatch een specifieke grootte">1280 x 1024 pixel</c>
-                <c xml:lang="pt" hotkey="" helptext="Redimensiona a janela principal do IMatch para um tamanho específico">1280 x 1024 pixel</c>
             </cmd>
-            <cmd resid="ID_RESMGR_RESIZEWIN_1360_768" bmidx="-1">
+            <cmd resid="ID_RESMGR_RESIZEWIN_1360_768" bmidx="-1" notrans="true">
                 <!-- @Translators: No need to translate this -->
                 <c xml:lang="en" hotkey="" helptext="Resize the IMatch main window to a specific size">1360 x 768 pixel</c>
-                <c xml:lang="nl" hotkey="" helptext="Geef het hoofdscherm van IMatch een specifieke grootte">1360 x 768 pixel</c>
-                <c xml:lang="pt" hotkey="" helptext="Redimensiona a janela principal do IMatch para um tamanho específico">1360 x 768 pixel</c>
             </cmd>
-            <cmd resid="ID_RESMGR_RESIZEWIN_1600_1200" bmidx="-1">
+            <cmd resid="ID_RESMGR_RESIZEWIN_1600_1200" bmidx="-1" notrans="true">
                 <!-- @Translators: No need to translate this -->
                 <c xml:lang="en" hotkey="" helptext="Resize the IMatch main window to a specific size">1600 x 1200 pixel</c>
-                <c xml:lang="nl" hotkey="" helptext="Geef het hoofdscherm van IMatch een specifieke grootte">1600 x 1200 pixel</c>
-                <c xml:lang="pt" hotkey="" helptext="Redimensiona a janela principal do IMatch para um tamanho específico">1600 x 1200 pixel</c>
             </cmd>
-            <cmd resid="ID_RESMGR_RESIZEWIN_1920_1080" bmidx="-1">
+            <cmd resid="ID_RESMGR_RESIZEWIN_1920_1080" bmidx="-1" notrans="true">
                 <!-- @Translators: No need to translate this -->
                 <c xml:lang="en" hotkey="" helptext="Resize the IMatch main window to a specific size">1920 x 1080 pixel</c>
-                <c xml:lang="nl" hotkey="" helptext="Geef het hoofdscherm van IMatch een specifieke grootte">1980 x 1080 pixel</c>
-                <c xml:lang="pt" hotkey="" helptext="Redimensiona a janela principal do IMatch para um tamanho específico">1920 x 1080 pixel</c>
             </cmd>
-            <cmd resid="ID_RESMGR_RESIZEWIN_1920_1200" bmidx="-1">
+            <cmd resid="ID_RESMGR_RESIZEWIN_1920_1200" bmidx="-1" notrans="true">
                 <!-- @Translators: No need to translate this -->
                 <c xml:lang="en" hotkey="" helptext="Resize the IMatch main window to a specific size">1920 x 1200 pixel</c>
-                <c xml:lang="nl" hotkey="" helptext="Geef het hoofdscherm van IMatch een specifieke grootte">1920 x 1200 pixel</c>
-                <c xml:lang="pt" hotkey="" helptext="Redimensiona a janela principal do IMatch para um tamanho específico">1920 x 1200 pixel</c>
             </cmd>
-            <cmd resid="ID_RESMGR_RESIZEWIN_2560_1440" bmidx="-1">
+            <cmd resid="ID_RESMGR_RESIZEWIN_2560_1440" bmidx="-1" notrans="true">
                 <!-- @Translators: No need to translate this -->
                 <c xml:lang="en" hotkey="" helptext="Resize the IMatch main window to a specific size">2560 x 1440 pixel</c>
-                <c xml:lang="nl" hotkey="" helptext="Geef het hoofdscherm van IMatch een specifieke grootte">2560 x 1440 pixel</c>
-                <c xml:lang="pt" hotkey="" helptext="Redimensiona a janela principal do IMatch para um tamanho específico">2560 x 1440 pixel</c>
             </cmd>
-            <cmd resid="ID_RESMGR_RESIZEWIN_2560_1600" bmidx="-1">
+            <cmd resid="ID_RESMGR_RESIZEWIN_2560_1600" bmidx="-1" notrans="true">
                 <!-- @Translators: No need to translate this -->
                 <c xml:lang="en" hotkey="" helptext="Resize the IMatch main window to a specific size">2560 x 1600 pixel</c>
-                <c xml:lang="nl" hotkey="" helptext="Geef het hoofdscherm van IMatch een specifieke grootte">2560 x 1600 pixel</c>
-                <c xml:lang="pt" hotkey="" helptext="Redimensiona a janela principal do IMatch para um tamanho específico">2560 x 1600 pixel</c>
             </cmd>
 
         </command_group>
@@ -7450,8 +7436,9 @@
             <!-- @Translators: No need to translate this. -->
             <cmd resid="ID_CMD_FILE_OPEN_FW_TOOLBAR_ICON">
                 <c xml:lang="en" hotkey="Ctrl+Enter" helptext="Opens the selected files with the associated application">&amp;Open...</c>
+                <c xml:lang="de" hotkey="Ctrl+Enter" helptext="Die ausgewählten Dateien mit der zugeordneten Anwendung öffnen">&amp;Öffnen...</c>
                 <c xml:lang="nl" hotkey="Ctrl+Enter" helptext="Opent de geselecteerde bestanden met het toegewezen programma">&amp;Openen...</c>
-                <c xml:lang="pt" hotkey="Ctrl+Enter" helptext="Abre os ficheiros seleccionados com a aplicação associada">&amp;Abre... '{0}'...</c>
+                <c xml:lang="pt" hotkey="Ctrl+Enter" helptext="Abre os ficheiros seleccionados com a aplicação associada">&amp;Abre...</c>
             </cmd>
         </command_group>
 
@@ -14612,7 +14599,7 @@
                 <name>
                     <n xml:lang="en" helptext="Database Commands">&amp;Database</n>
                     <n xml:lang="no" helptext="Database kommandoer">&amp;Database</n>
-                    <n xml:lang="de" helptext="Datenbank-Operationen und Einstellungen">&amp;Datenbank</n>
+                    <n xml:lang="de" helptext="Datenbankoperationen und Einstellungen">&amp;Datenbank</n>
                     <n xml:lang="fi" helptext="Tietokantakomennot ja -asetukset">&amp;Tietokanta</n>
                     <n xml:lang="nl" helptext="Database opdrachten">&amp;Database</n>
                     <n xml:lang="pt" helptext="Comandos da base de dados">&amp;Base de Dados</n>
@@ -14761,7 +14748,7 @@
                 <name>
                     <n xml:lang="en" helptext="Database Commands">&amp;Database</n>
                     <n xml:lang="no" helptext="Database-kommandoer">&amp;Database</n>
-                    <n xml:lang="de" helptext="Datenbank-Operationen und Einstellungen">&amp;Datenbank</n>
+                    <n xml:lang="de" helptext="Datenbankoperationen und Einstellungen">&amp;Datenbank</n>
                     <n xml:lang="fi" helptext="Tietokannan toiminnot ja asetukset">&amp;Tietokanta</n>
                     <n xml:lang="nl" helptext="Database opdrachten">&amp;Database</n>
                     <n xml:lang="pt" helptext="Comandos da base de dados">&amp;Base de Dados</n>
@@ -15162,6 +15149,7 @@
                 <menu resid="IDM_RESMANAGER_MENU_WINSIZE">
                     <name>
                         <n xml:lang="en">&amp;Window Size</n>
+                        <n xml:lang="de">&amp;Fenstergröße</n>
                         <n xml:lang="nl">&amp;Window afmetingen</n>
                         <n xml:lang="pt">&amp;Tamanho da janela</n>
                     </name>
@@ -15233,7 +15221,7 @@
             <name>
                 <n xml:lang="en" helptext="Database Commands">&amp;Database</n>
                 <n xml:lang="no" helptext="Database-kommandoer">&amp;Databasen</n>
-                <n xml:lang="de" helptext="Datenbank-Operationen und Einstellungen">&amp;Datenbank</n>
+                <n xml:lang="de" helptext="Datenbankoperationen und Einstellungen">&amp;Datenbank</n>
                 <n xml:lang="fi" helptext="Tietokantaan liittyvät komennot">&amp;Tietokanta</n>
                 <n xml:lang="nl" helptext="Database-opdrachten">&amp;Database</n>
                 <n xml:lang="pt" helptext="Comandos da base de dados">&amp;Base de Dados</n>
@@ -33224,7 +33212,7 @@
 
             <property resid="groupdata.level.manual" desc="">
                 <name xml:lang="en">Automatic Update</name>
-                <name xml:lang="no">Automatische Aktualisierung</name>
+                <name xml:lang="de">Automatische Aktualisierung</name>
                 <name xml:lang="pt">Actualização Automática</name>
                 <name xml:lang="nl">Automatische update</name>
                 <desc xml:lang="en">If this option is on, the category is automatically updated in the background whenever needed. Set this to Off when the category takes very long to re-calculate (e.g. when you use variables) and it slows down other features in IMatch.</desc>
